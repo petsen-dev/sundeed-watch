@@ -35,10 +35,12 @@ one JSON object:
 
   top         ordered list of up to 10 objects, most consequential first:
                 id   the item's id, unchanged
-                why  the reason it earns its place. Under 25 words for the
-                     first entry, under 10 words for the rest. Say what
-                     changes, not what the headline says — the headline is
-                     already shown next to it.
+                why  the reason it earns its place. Under 25 words, and the
+                     same depth for every entry — the tenth gets as much
+                     thought as the first. Say what CHANGES: who can now do
+                     what, what a buyer pays, what a competitor just took.
+                     The headline is already shown next to it, so restating
+                     it wastes the only line the item gets.
   summary     2-4 sentences synthesising the day. Plain declarative prose.
               Name specifics — countries, companies, numbers. No hedging
               phrases, no "several developments", no throat-clearing.
@@ -56,6 +58,10 @@ Ten is a ceiling, not a quota. Return four entries if only four earn a place,
 and an empty list if none do. Padding the list to ten with routine coverage is
 the single fastest way to make this block worthless — the reader learns the
 bottom half is filler and stops reading the top half with it.
+
+Use the why line as the test. If the only honest thing you can write is a
+paraphrase of the headline, the item has not earned a place — drop it. Every
+entry must survive the question "what does this change?"
 
 Do not manufacture significance. Most days are quiet. If nothing is
 consequential, return an empty top list and let summary say so in one sentence
