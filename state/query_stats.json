@@ -12,10 +12,10 @@
   "mean_score": 57.5
  },
  "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d": {
-  "runs": 2,
-  "items": 8,
-  "score_sum": 300,
-  "mean_score": 37.5
+  "runs": 3,
+  "items": 9,
+  "score_sum": 325,
+  "mean_score": 36.1
  },
  "\"سوق العقارات\" إسبانيا OR البرتغال when:2d": {
   "runs": 2,
@@ -48,8 +48,8 @@
   "mean_score": 1.2
  },
  "[feed] boe_sumario": {
-  "runs": 3,
-  "items": 88,
+  "runs": 4,
+  "items": 94,
   "score_sum": 0,
   "mean_score": 0.0
  },
@@ -96,10 +96,10 @@
   "mean_score": 0.0
  },
  "[feed] portugal_resident": {
-  "runs": 2,
-  "items": 11,
-  "score_sum": 25,
-  "mean_score": 2.3
+  "runs": 3,
+  "items": 12,
+  "score_sum": 30,
+  "mean_score": 2.5
  },
  "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d": {
   "runs": 1,
