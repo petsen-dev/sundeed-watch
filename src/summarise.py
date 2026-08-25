@@ -21,8 +21,13 @@ from prompts import SYSTEM, WRITEUP_SYSTEM
 log = logging.getLogger("summarise")
 
 MODEL = "claude-sonnet-5"
-MAX_TOKENS = 24000       # thinking shares this budget
-MAX_ITEMS = 220          # titles sent for selection; ordering already ranks them
+MAX_TOKENS = 32000       # thinking shares this budget
+SELECT_ITEMS = 150       # sent to the selection pass, highest-scored first
+MAX_ITEMS = 220          # hard ceiling on any payload
+
+# Set when a pass fails, so the caller can put the reason in the report
+# instead of the reader learning only that "synthesis failed".
+last_error = ""
 
 
 def _client() -> Anthropic:
@@ -34,7 +39,7 @@ def _client() -> Anthropic:
 
 def _payload(items) -> str:
     rows = []
-    for item in items[:MAX_ITEMS]:
+    for item in items[:SELECT_ITEMS]:
         rows.append(
             json.dumps(
                 {
@@ -107,6 +112,7 @@ def _parse_blocks(text: str, allowed_geo) -> dict:
 
 
 def write_up(top: list, texts: dict) -> bool:
+    global last_error
     """Fill each top entry's body from the article text. Returns success.
 
     Mutates `top` in place. On failure the entry keeps the one-line `why`
@@ -144,7 +150,8 @@ def write_up(top: list, texts: dict) -> bool:
         if not data:
             raise ValueError(f"no blocks parsed from {len(text)} chars")
     except Exception as exc:
-        log.error("write-up failed: %s", exc)
+        last_error = f"{type(exc).__name__}: {exc}"
+        log.error("write-up failed: %s", last_error)
         try:
             log.error("stop_reason=%s | %d chars | first 400: %s",
                       resp.stop_reason, len(text), text[:400].replace("\n", " "))
@@ -168,6 +175,7 @@ def write_up(top: list, texts: dict) -> bool:
 
 
 def summarise(items, pref: str = "") -> dict | None:
+    global last_error
     """Return {lead, lead_why, summary, watch} or None if unavailable.
 
     None means the report renders without a top block. It never means an item
@@ -190,12 +198,14 @@ def summarise(items, pref: str = "") -> dict | None:
     except Exception as exc:
         # Log enough to diagnose without another run: the reason the model
         # stopped and what it actually said.
-        log.error("synthesis failed: %s", exc)
+        last_error = f"{type(exc).__name__}: {exc}"
         try:
-            log.error("stop_reason=%s | first 300 chars: %s",
-                      resp.stop_reason, text[:300].replace("\n", " "))
+            last_error += f" [stop={resp.stop_reason}, {len(text)} chars]"
+            log.error("synthesis failed: %s | first 400: %s",
+                      last_error, text[:400].replace("\n", " "))
         except NameError:
-            pass
+            last_error += " [no response returned]"
+            log.error("synthesis failed: %s", last_error)
         return None
 
     # Resolve ids back to real items. An id the model invented is dropped
