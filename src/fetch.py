@@ -1,8 +1,10 @@
 """Ingestion. Pulls every source, returns a flat list of raw items.
 
-No filtering happens here. A source that fails is recorded as a failure and
-reported — a silent parser looks exactly like a quiet day, and that is the one
-failure mode worth engineering against.
+News sources carry their query with them — Google News does the narrowing.
+Gazettes have no search endpoint and publish the whole daily edition, so
+gazette_match terms stand in for the query they never got. A source that
+fails is recorded and reported: a silent parser looks exactly like a quiet
+day, and that is the one failure mode worth engineering against.
 """
 
 from __future__ import annotations
@@ -87,8 +89,8 @@ def _from_feed(url: str, source, settings, query: str = "") -> list[Item]:
     out = []
     for entry in parsed.entries[: settings.get("max_items_per_query", 100)]:
         ts = _parse_time(entry)
-        # Undated entries are kept: dropping them would be a filter, and a
-        # feed with broken dates should not silently vanish from the report.
+        # Undated entries are kept: a feed with broken dates should not
+        # silently vanish from the report.
         if ts and ts < cutoff:
             continue
         title = (getattr(entry, "title", "") or "").strip()
@@ -124,9 +126,10 @@ def _gnews_urls(source, keywords, settings) -> list[tuple[str, str]]:
         queries = list(kset.get(group, []))
     else:
         for key, val in kset.items():
-            if key in ("locale", "extra_locales") or not isinstance(val, list):
+            if key in ("locale", "extra_locales", "gazette_match"):
                 continue
-            queries.extend(val)
+            if isinstance(val, list):
+                queries.extend(val)
 
     locales = [kset["locale"]] + list(kset.get("extra_locales", []))
     # Recency operator, appended to every query. Google News returns a stale
@@ -143,7 +146,26 @@ def _gnews_urls(source, keywords, settings) -> list[tuple[str, str]]:
     return pairs
 
 
-def _from_boe(source, settings) -> list[Item]:
+def _gazette_terms(source, keywords) -> list[str]:
+    """Terms that make a gazette entry relevant.
+
+    A gazette has no search endpoint — it publishes the whole daily edition,
+    most of which is naval procurement and university appointments. These
+    terms stand in for the query that news sources get for free; without
+    them the feed is the entire Boletin.
+    """
+    kset = keywords.get(source["lang"], {})
+    return [t.lower() for t in kset.get("gazette_match", [])]
+
+
+def _matches(title: str, terms: list[str]) -> bool:
+    if not terms:
+        return True
+    low = title.lower()
+    return any(t in low for t in terms)
+
+
+def _from_boe(source, settings, terms) -> list[Item]:
     """BOE open-data summary for today, JSON."""
     stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%d")
     url = source["url"].format(yyyymmdd=stamp)
@@ -171,7 +193,8 @@ def _from_boe(source, settings) -> list[Item]:
             link = node.get("url_pdf") or node.get("url_html")
             if isinstance(link, dict):
                 link = link.get("texto") or link.get("url")
-            if isinstance(title, str) and isinstance(link, str) and title.strip():
+            if (isinstance(title, str) and isinstance(link, str)
+                    and title.strip() and _matches(title, terms)):
                 if link.startswith("/"):
                     link = "https://www.boe.es" + link
                 out.append(
@@ -203,9 +226,15 @@ def fetch_all(config, keywords) -> FetchResult:
         try:
             if source["kind"] == "rss":
                 items = _from_feed(source["url"], source, settings)
+                if source.get("stream") == "regulatory":
+                    terms = _gazette_terms(source, keywords)
+                    before = len(items)
+                    items = [i for i in items if _matches(i.title, terms)]
+                    log.info("%s gazette match: %d of %d kept",
+                             sid, len(items), before)
 
             elif source["kind"] == "boe_api":
-                items = _from_boe(source, settings)
+                items = _from_boe(source, settings, _gazette_terms(source, keywords))
 
             elif source["kind"] == "gnews":
                 items = []
