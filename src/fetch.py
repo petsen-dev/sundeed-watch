@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import datetime as dt
 import hashlib
+import re
 import logging
 import time
 import urllib.parse
@@ -20,6 +21,11 @@ import requests
 log = logging.getLogger("fetch")
 
 GNEWS_BASE = "https://news.google.com/rss/search"
+
+# Google News appends " - Publisher" to every title. That suffix is the only
+# place the publisher is available before the redirect is resolved — and
+# resolution happens after selection, far too late to inform ranking.
+GNEWS_TAIL = re.compile(r"\s+[-–—]\s+([^-–—]{2,40})$")
 
 # A polite custom User-Agent gets refused by Cloudflare and by several
 # government sites — the request never reaches the feed. article.py already
@@ -49,6 +55,7 @@ class Item:
     url: str
     published_at: str
     query: str = ""
+    publisher: str = ""
     doc_id: str = ""
     # filled downstream
     title_en: str = ""
@@ -90,6 +97,36 @@ class FetchResult:
         and dig for it.
         """
         return "\n".join(f"{sid}: {why}" for sid, why in self.reasons.items())
+
+
+def _domain(url: str) -> str:
+    try:
+        host = urllib.parse.urlparse(url).netloc.lower()
+    except ValueError:
+        return ""
+    return host[4:] if host.startswith("www.") else host
+
+
+def authority(publisher: str, config) -> str:
+    """primary | specialist | general.
+
+    primary     official gazettes, statistics offices, regulators
+    specialist  sector trade press — the reason this distinction exists
+    general     everything else
+
+    Matched loosely: the publisher is sometimes a domain and sometimes the
+    display name Google chose, and the map should catch both.
+    """
+    table = config.get("authority", {})
+    needle = (publisher or "").lower()
+    if not needle:
+        return "general"
+    for tier in ("primary", "specialist"):
+        for entry in table.get(tier, []):
+            e = entry.lower()
+            if e in needle or needle in e:
+                return tier
+    return "general"
 
 
 def _cutoff(hours: int) -> dt.datetime:
@@ -160,6 +197,16 @@ def _from_feed(url: str, source, settings, query: str = "") -> list[Item]:
         link = (getattr(entry, "link", "") or "").strip()
         if not title or not link:
             continue
+
+        publisher = source.get("publisher", "")
+        if source["kind"] == "gnews":
+            m = GNEWS_TAIL.search(title)
+            if m:
+                publisher = m.group(1).strip()
+                title = title[: m.start()].strip()
+        if not publisher:
+            publisher = _domain(link)
+
         out.append(
             Item(
                 source_id=source["id"],
@@ -169,6 +216,7 @@ def _from_feed(url: str, source, settings, query: str = "") -> list[Item]:
                 url=link,
                 published_at=ts.isoformat() if ts else "",
                 query=query,
+                publisher=publisher,
             )
         )
     return out

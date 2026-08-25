@@ -65,6 +65,8 @@ def _payload(items) -> str:
                     "id": item.doc_id,
                     "cat": item.category,
                     "score": item.score,
+                    "src": item.publisher or "unknown",
+                    "tier": getattr(item, "tier", "general"),
                     "title": (item.title_en or item.title)[:220],
                 },
                 ensure_ascii=False,
@@ -184,7 +186,7 @@ def write_up(top: list, texts: dict) -> bool:
     return written > 0
 
 
-def summarise(items, pref: str = "") -> dict | None:
+def summarise(items, pref: str = "", story_block: str = "") -> dict | None:
     global last_error
     """Return {lead, lead_why, summary, watch} or None if unavailable.
 
@@ -196,7 +198,8 @@ def summarise(items, pref: str = "") -> dict | None:
 
     text = stop = ""
     try:
-        text, stop = _complete(SYSTEM + (pref or ""), _payload(items))
+        text, stop = _complete(SYSTEM + (pref or "") + (story_block or ""),
+                               _payload(items))
         if stop == "max_tokens":
             log.warning("synthesis hit max_tokens — raise MAX_TOKENS")
         data = _extract_json(text)
@@ -219,7 +222,7 @@ def summarise(items, pref: str = "") -> dict | None:
             log.warning("summary referenced unknown id %s — dropped", row.get("id"))
             continue
         top.append({"item": item, "why": (row.get("why") or "").strip(),
-                    "sourced": False})
+                    "sourced": False, "story_raw": (row.get("story") or "").strip()})
 
     return {
         "top": top,

@@ -92,13 +92,20 @@ def fetch_for(top_rows: list) -> dict:
         item = row["item"]
         resolved = _resolve(item.url)
         if resolved:
+            # Keep the publisher URL the moment it is known. Extraction fails
+            # constantly — paywalls, consent walls — and losing the link along
+            # with the text leaves the reader holding an unusable
+            # news.google.com redirect for an article they can plainly see.
+            item.resolved_url = resolved
             text = _extract(resolved)
             if text:
                 texts[item.doc_id] = text
-                item.resolved_url = resolved
                 log.info("got %d chars for %s", len(text), item.doc_id)
         if idx < len(top_rows) - 1:
             time.sleep(DECODE_INTERVAL)
 
-    log.info("article text: %d of %d retrieved", len(texts), len(top_rows))
+    resolved_n = sum(1 for r in top_rows
+                     if getattr(r["item"], "resolved_url", ""))
+    log.info("resolved %d/%d urls, extracted text for %d",
+             resolved_n, len(top_rows), len(texts))
     return texts

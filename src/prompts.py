@@ -39,9 +39,15 @@ one JSON object:
 
   top         ordered list of up to 10 objects, most consequential first:
                 id   the item's id, unchanged
-                why  one line, under 25 words: why this earns a place. The
-                     full write-up happens in a later step that has the
-                     article text; here you are only selecting and ranking.
+                why    one line, under 25 words: why this earns a place. The
+                       full write-up happens in a later step that has the
+                       article text; here you are only selecting and ranking.
+                story  the id of an open story this continues, or
+                       "NEW:some-slug | Short Label" to open one. Slugs are
+                       lowercase with hyphens. Omit or leave empty when the
+                       item does not belong to a storyline worth tracking —
+                       most items do not, and inventing a story for every
+                       one-off makes the registry useless.
   summary     2-4 sentences synthesising the day. Plain declarative prose.
               Name specifics — countries, companies, numbers. No hedging
               phrases, no "several developments", no throat-clearing.
@@ -49,6 +55,23 @@ one JSON object:
               Omit unless something is genuinely unresolved.
 
 Rules that matter more than fluency:
+
+Source tier breaks ties, and only ties. Each item carries `src` (the
+publisher) and `tier`:
+
+  primary     the official document itself — a gazette, a statistics office,
+              a regulator. Prefer it over any report of the same measure:
+              it is the thing everyone else is describing, and it carries
+              the dates and thresholds the reports drop.
+  specialist  sector trade press. On the same story, prefer it over a
+              general outlet — it gets the details right that a general
+              desk rounds off.
+  general     everything else.
+
+The limit on that rule: general is not a penalty. A mainstream outlet
+breaking real news outranks a specialist rehashing a press release, every
+time. Tier decides between two items that are otherwise equal in
+consequence; it never rescues a thin item or buries a strong one.
 
 Rank by consequence, not by the score you were given. The scores are per-item
 and were assigned without sight of the rest of the day; you can see everything

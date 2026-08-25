@@ -28,11 +28,25 @@ def _esc(text: str) -> str:
     return html.escape(text or "", quote=False)
 
 
+def _story_tag(row) -> str:
+    """Story slug as a Telegram hashtag.
+
+    Hyphens break a hashtag, so the slug is joined with underscores. Tapping
+    it pulls up every appearance of that storyline in the chat, which is the
+    only archive of this monitor anyone will actually browse.
+    """
+    key = row.get("story_key") or ""
+    return key.replace("-", "_") if key else ""
+
+
 def _tags(row) -> tuple[str, str]:
     """(emoji, hashtag line) for one entry."""
     emoji, cat_tag = CATEGORY_TAG.get(row["item"].category or "OTHER",
                                       ("", "other"))
     tags = [cat_tag] + list(row.get("geo") or [])
+    story = _story_tag(row)
+    if story:
+        tags.append(story)
     return emoji, " ".join(f"#{t}" for t in tags)
 
 
@@ -44,6 +58,21 @@ def render_entry(rank: int, row) -> str:
     emoji, tagline = _tags(row)
     head = f"{emoji} " if emoji else ""
     lines = [f'{head}{rank}. <b><a href="{_esc(link)}">{title}</a></b>']
+    if "news.google.com" in link:
+        # Not cosmetic: this URL cannot be cited, shared or archived.
+        lines.append("<i>link unresolved — opens via Google News</i>")
+    meta = []
+    if item.publisher:
+        tier = getattr(item, "tier", "general")
+        badge = {"primary": " ‧ official", "specialist": " ‧ trade"}.get(tier, "")
+        # The publisher name is a link in its own right. Two tap targets for
+        # one article is not redundancy on a phone — the title wraps over
+        # three lines and is awkward to hit.
+        meta.append(f'<a href="{_esc(link)}">{_esc(item.publisher)}</a>{badge}')
+    if row.get("story_note"):
+        meta.append(_esc(row["story_note"]))
+    if meta:
+        lines.append("<i>" + " · ".join(meta) + "</i>")
     if row.get("written") is False:
         # The selection rationale is standing in for a write-up. Without this
         # line the report looks fine and merely terse, which is the worst
