@@ -104,23 +104,39 @@ def _parse_time(entry) -> dt.datetime | None:
     return None
 
 
+# 429 and 503 mean "slow down", not "broken". Retrying immediately makes it
+# worse — the delay has to grow.
+BACKOFF = (3, 8, 20)
+THROTTLE_CODES = {429, 503}
+
+
 def _get(url: str, settings, headers=None):
-    """One GET with a single retry. Raises with the status code attached."""
+    """GET with backoff. Raises with the status code attached."""
     last = None
-    for attempt in (1, 2):
+    for attempt, wait in enumerate(BACKOFF, start=1):
         try:
             resp = requests.get(
                 url,
                 timeout=settings.get("http_timeout", 25),
                 headers=headers or FEED_HEADERS,
             )
+            if resp.status_code in THROTTLE_CODES:
+                raise requests.HTTPError(
+                    f"HTTP {resp.status_code} from {url[:70]}")
             if resp.status_code >= 400:
+                # A 404 or 403 will not improve by waiting.
                 raise requests.HTTPError(
                     f"HTTP {resp.status_code} from {url[:70]}")
             return resp
+        except requests.HTTPError as exc:
+            last = exc
+            if "HTTP 429" not in str(exc) and "HTTP 503" not in str(exc):
+                raise
+            if attempt < len(BACKOFF):
+                time.sleep(wait)
         except Exception as exc:
             last = exc
-            if attempt == 1:
+            if attempt < len(BACKOFF):
                 time.sleep(2)
     raise last
 
@@ -293,15 +309,32 @@ def fetch_all(config, keywords) -> FetchResult:
             elif source["kind"] == "gnews":
                 items = []
                 pairs = _gnews_urls(source, keywords, settings)
+                gap = settings.get("gnews_delay", 1.2)
                 sub_fail = 0
-                for query, url in pairs:
+                streak = 0
+                for idx, (query, url) in enumerate(pairs):
                     try:
                         items.extend(_from_feed(url, source, settings, query=query))
+                        streak = 0
                     except Exception as exc:  # one bad query must not kill the set
                         sub_fail += 1
-                        log.warning("gnews query failed (%s): %s", query, exc)
+                        streak += 1
+                        log.warning("gnews query failed (%s): %s", query[:50], exc)
+                        # Google throttles the whole client, not one query.
+                        # Once it starts refusing, continuing for another
+                        # hundred requests deepens the block and wastes the
+                        # run — stop and say so.
+                        if streak >= 8:
+                            raise RuntimeError(
+                                f"throttled after {idx + 1}/{len(pairs)} queries "
+                                f"({sub_fail} failed) — back off and retry later")
+                    if idx < len(pairs) - 1:
+                        time.sleep(gap)
                 if sub_fail and sub_fail == len(pairs):
                     raise RuntimeError("all gnews queries failed")
+                if sub_fail:
+                    log.warning("%s: %d of %d queries failed",
+                                sid, sub_fail, len(pairs))
 
             else:
                 raise ValueError(f"unknown source kind: {source['kind']}")
