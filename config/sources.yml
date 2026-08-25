@@ -120,6 +120,52 @@ sources:
     keyword_set: pt
     keyword_group: news
 
+# Source authority, used when the selection pass breaks a tie.
+#
+#   primary     official gazettes, statistics offices, regulators — the
+#               document itself rather than a report of it
+#   specialist  sector trade press, which knows the domain and gets details
+#               right that a general desk rounds off
+#   general     everything else. Not a penalty: a mainstream outlet breaking
+#               real news outranks a specialist rehashing a press release.
+#
+# Matched loosely against the publisher name or domain, so both "The Portugal
+# News" and "theportugalnews.com" hit the same entry.
+authority:
+  primary:
+    - boe.es
+    - juntadeandalucia.es
+    - dogv.gva.es
+    - diariodarepublica.pt
+    - ine.pt
+    - ine.es
+    - registradores.org
+    - agenziaentrate.gov.it
+    - Boletin Oficial
+    - Diario Oficial
+    - Government Gazette
+
+  specialist:
+    - spanishpropertyinsight.com
+    - Spanish Property Insight
+    - propertyindustryeye.com
+    - Property Industry Eye
+    - inman.com
+    - Inman
+    - portugalresident.com
+    - Portugal Resident
+    - theportugalnews.com
+    - The Portugal News
+    - idealista
+    - kyero.com
+    - Property Wire
+    - propertywire.com
+    - Mansion Global
+    - mansionglobal.com
+    - PropertyEU
+    - React News
+    - BoardGameWire
+
 settings:
   lookback_hours: 30        # overlap the 24h window so nothing falls through
   http_timeout: 20
