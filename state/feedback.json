@@ -133,6 +133,27 @@
    "query": "\"NAR settlement\" buyer agency commission when:2d",
    "lang": "en",
    "date": "2026-08-25"
+  },
+  "32bba2796448dacc": {
+   "title": "The Smart Golden Visa Investor Chooses Value Over Price",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
+  },
+  "345e7e4f45a56338": {
+   "title": "The Algarve Luxury Market Comes of Age",
+   "cat": "DEMAND-FLOW",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
+  },
+  "3553e892c9762be3": {
+   "title": "Portal competition is growing, consumer clarity is not",
+   "cat": "CHANNEL",
+   "query": "\"NAR settlement\" buyer agency commission when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
   }
  },
  "votes": {}
