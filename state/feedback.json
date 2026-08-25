@@ -156,7 +156,7 @@
    "date": "2026-08-25"
   },
   "dea574bf2347065b": {
-   "title": "Follow the capital: what a 1.4 billion euro increase in investment in Portugal says for investors",
+   "title": "Follow the Capital: What Does a 1.4 Billion Euro Investment Increase in Portugal Tell Investors?",
    "cat": "DEMAND-FLOW",
    "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
    "lang": "ar",
@@ -164,8 +164,15 @@
   },
   "7ac7adf1e6344d0a": {
    "title": "Prime London property values down 25% as tax changes bite",
-   "cat": "REGULATORY",
+   "cat": "OTHER",
    "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
+  },
+  "282ea514d542c33c": {
+   "title": "Property hunting enters the AI agent era",
+   "cat": "CHANNEL",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
    "lang": "en",
    "date": "2026-08-25"
   }

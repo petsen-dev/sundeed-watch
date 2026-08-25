@@ -2,28 +2,28 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 2,
+  "count": 3,
   "last_seen": "2026-08-25",
   "last_headline": "The Smart Golden Visa Investor Chooses Value Over Price"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
   "first_seen": "2026-08-25",
-  "count": 2,
+  "count": 3,
   "last_seen": "2026-08-25",
-  "last_headline": "Follow the capital: what a 1.4 billion euro increase in investment in Portugal says for investors"
+  "last_headline": "Follow the Capital: What Does a 1.4 Billion Euro Investment Increase in Portugal Tell Investors?"
  },
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 2,
+  "count": 3,
   "last_seen": "2026-08-25",
-  "last_headline": "Portal competition is growing, consumer clarity is not"
+  "last_headline": "Property hunting enters the AI agent era"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
   "first_seen": "2026-08-25",
-  "count": 1,
+  "count": 2,
   "last_seen": "2026-08-25",
   "last_headline": "Prime London property values down 25% as tax changes bite"
  }
