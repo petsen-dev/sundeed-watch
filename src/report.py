@@ -15,6 +15,8 @@ import time
 
 import requests
 
+from prompts import CATEGORY_TAG
+
 log = logging.getLogger("report")
 
 TG_LIMIT = 4096
@@ -26,18 +28,33 @@ def _esc(text: str) -> str:
     return html.escape(text or "", quote=False)
 
 
+def _tags(row) -> tuple[str, str]:
+    """(emoji, hashtag line) for one entry."""
+    emoji, cat_tag = CATEGORY_TAG.get(row["item"].category or "OTHER",
+                                      ("", "other"))
+    tags = [cat_tag] + list(row.get("geo") or [])
+    return emoji, " ".join(f"#{t}" for t in tags)
+
+
 def render_entry(rank: int, row) -> str:
     """One top item as its own message — buttons attach to messages, not lines."""
     item = row["item"]
     title = _esc(item.title_en or item.title)
     link = getattr(item, "resolved_url", "") or item.url
-    lines = [f'{rank}. <b><a href="{_esc(link)}">{title}</a></b>']
+    emoji, tagline = _tags(row)
+    head = f"{emoji} " if emoji else ""
+    lines = [f'{head}{rank}. <b><a href="{_esc(link)}">{title}</a></b>']
     if row.get("sourced") is False:
         lines.append("<i>headline only — article not retrieved</i>")
     for para in (row.get("why") or "").split("\n\n"):
         para = para.strip()
         if para:
             lines.append(_esc(para))
+    if tagline:
+        # Tags last: tapping one searches the chat, which is the only
+        # searchable archive of this monitor a human will actually use.
+        lines.append("")
+        lines.append(tagline)
     return "\n".join(lines)
 
 
@@ -58,6 +75,14 @@ def render(items, status_line: str, ingested: int, digest: dict | None = None) -
             lines.append("")
         if digest.get("watch"):
             lines.append(f"<i>Watch: {_esc(digest['watch'])}</i>")
+            lines.append("")
+        seen_tags: list[str] = []
+        for row in digest.get("top") or []:
+            for tag in _tags(row)[1].split():
+                if tag not in seen_tags:
+                    seen_tags.append(tag)
+        if seen_tags:
+            lines.append(" ".join(seen_tags))
             lines.append("")
 
     if not items:

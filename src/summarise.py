@@ -1,12 +1,11 @@
-"""Synthesis pass. One call, sees the whole day at once.
+"""Synthesis, in two stages.
 
-Runs after classification, before rendering. Produces a lead item and a short
-synthesis that sit at the top of the report. Adds nothing to the filtering
-logic — everything classified still ships below, in full.
+Stage 1 (`summarise`) reads every headline of the day and picks the top ten.
+Stage 2 (`write_up`) receives those ten with their article text — fetched by
+article.py in between — and writes the entry for each. Splitting them is what
+makes the article fetch affordable: only the selected handful get downloaded.
 
-Model: claude-sonnet-5. One call per day over a few hundred short titles is
-fractions of a cent, and picking out what actually matters is a judgement call
-the Haiku tier does noticeably worse.
+Wording for both lives in prompts.py.
 """
 
 from __future__ import annotations
@@ -17,115 +16,13 @@ import os
 
 from anthropic import Anthropic
 
+from prompts import SYSTEM, WRITEUP_SYSTEM
+
 log = logging.getLogger("summarise")
 
 MODEL = "claude-sonnet-5"
-MAX_TOKENS = 16000       # thinking shares this budget; 10 entries x 2 paras
-MAX_ITEMS = 220          # titles sent for synthesis; ordering already ranks them
-
-SYSTEM = """You write the opening block of a daily market monitor.
-
-The reader runs a demand-side platform for cross-border buyers of second homes
-and vacation property in Europe — Spain, Portugal, Italy, France, Greece. Her
-revenue depends on: buyers being legally able to purchase, her being legally
-able to take a share of a listing agent's commission, and no one else owning
-the neutral advice layer before the listing. Judge everything against that.
-
-You receive the day's items, already categorised and machine-scored. Return
-one JSON object:
-
-  top         ordered list of up to 10 objects, most consequential first:
-                id   the item's id, unchanged
-                why  one line, under 25 words: why this earns a place. The
-                     full write-up happens in a later step that has the
-                     article text; here you are only selecting and ranking.
-  summary     2-4 sentences synthesising the day. Plain declarative prose.
-              Name specifics — countries, companies, numbers. No hedging
-              phrases, no "several developments", no throat-clearing.
-  watch       optional, under 15 words: one thing worth checking tomorrow.
-              Omit unless something is genuinely unresolved.
-
-Rules that matter more than fluency:
-
-Rank by consequence, not by the score you were given. The scores are per-item
-and were assigned without sight of the rest of the day; you can see everything
-at once. A minor item that confirms a pattern across three other items may
-outrank a higher-scored isolated one. Do not simply copy the top ten by score.
-
-Ten is a ceiling, not a quota. Return four entries if only four earn a place,
-and an empty list if none do. Padding the list to ten with routine coverage is
-the single fastest way to make this block worthless — the reader learns the
-bottom half is filler and stops reading the top half with it.
-
-Use the why line as the test. If the only honest thing you can write is a
-paraphrase of the headline, the item has not earned a place — drop it. Every
-entry must survive the question "what does this change?"
-
-Do not manufacture significance. Most days are quiet. If nothing is
-consequential, return an empty top list and let summary say so in one sentence
-— "Nothing consequential today; routine market coverage only." is a correct
-and useful answer. A monitor that finds a headline every single day teaches
-its reader to stop believing it.
-
-You have the headline and nothing else. This is the hard constraint on every
-why line you write.
-
-Never invent a figure, date, place or detail that is not in the title. Do not
-describe what the article "reports" or "says" — you have not read it. Where
-you are reasoning past the headline, the sentence must read as your inference:
-"if this confirms X, then Y" rather than "X has happened". A confident
-sentence built on a headline you half-understood is worse than a short one,
-because the reader cannot tell the difference without opening the link.
-
-If a title is too thin to support two paragraphs of honest analysis, that is
-information: the item does not belong in the top. Drop it.
-
-Distinguish announced from enacted. A proposed tax and a passed tax are not
-the same event, and the difference is often the whole story.
-
-Return only the JSON object. No prose around it, no markdown fences."""
-
-
-WRITEUP_SYSTEM = """You write the entries of a daily market monitor.
-
-The reader runs a demand-side platform for cross-border buyers of second homes
-and vacation property in Europe — Spain, Portugal, Italy, France, Greece. Her
-revenue depends on: buyers being legally able to purchase, her being legally
-able to take a share of a listing agent's commission, and no one else owning
-the neutral advice layer before the listing.
-
-For each item you receive an id, a headline, and — sometimes — the article
-text. Return a JSON array of objects:
-
-  id     unchanged
-  body   ONE paragraph, 50-90 words. Substance only.
-
-         Figures, dates, regions, named parties, thresholds, what takes
-         effect when and what is still undefined. This is the paragraph
-         that justifies the whole pipeline, so use the article text hard
-         and pack it.
-
-         Do not add a paragraph on what it means for her, what she should
-         do, or which part of her business it touches. She draws those
-         conclusions herself and does it better than you can. Your job is
-         to put the facts in front of her, densely and accurately, so she
-         does not have to open the link.
-
-The rule that governs everything else:
-
-Where article text is provided, every figure and date in your first paragraph
-must come from it. Do not round, do not restate from memory, do not fill a
-gap with what is usually true.
-
-Where article text is NOT provided, you have the headline alone. Say less —
-two sentences is a fine answer, and padding to reach 50 words means inventing
-substance. Write what the headline supports and no more. Never write that the
-article "reports" or "states" anything when you were not given it.
-
-Distinguish announced from enacted. A proposed tax and a passed tax are not
-the same event, and the difference is often the whole story.
-
-Return only the JSON array. No prose around it, no markdown fences."""
+MAX_TOKENS = 16000       # thinking shares this budget
+MAX_ITEMS = 220          # titles sent for selection; ordering already ranks them
 
 
 def _client() -> Anthropic:
@@ -238,11 +135,20 @@ def write_up(top: list, texts: dict) -> None:
         log.error("write-up failed: %s", exc)
         return
 
+    from prompts import GEO_TAGS
+
     by_id = {r["item"].doc_id: r for r in top}
     for entry in data:
         row = by_id.get(entry.get("id"))
-        if row and entry.get("body"):
+        if not row:
+            continue
+        if entry.get("body"):
             row["why"] = entry["body"].strip()
+        # Anything outside the fixed vocabulary is discarded rather than
+        # rendered — one invented spelling is enough to fragment a tag.
+        geo = [g for g in (entry.get("geo") or [])
+               if isinstance(g, str) and g.lower() in GEO_TAGS]
+        row["geo"] = [g.lower() for g in geo][:2]
 
 
 def summarise(items, pref: str = "") -> dict | None:
