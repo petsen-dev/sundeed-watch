@@ -91,6 +91,10 @@ en:
     - '"referral fee" real estate intitle:rule OR intitle:regulation'
     - '"personal shopper" property Spain'
 
+  PUBLISHER:
+    - 'site:english.alarabiya.net property Spain OR Portugal OR Greece'
+    - 'site:english.alarabiya.net "golden visa" OR "real estate" Europe'
+
   CHANNEL:
     - '"AI assistant" property search intitle:launch'
     - 'ChatGPT OR "AI agent" property buying'
@@ -160,6 +164,12 @@ ar:
     - '"منزل ثانٍ" أوروبا'
     - 'عقارات ماربيا OR "كوستا ديل سول" OR لشبونة'
     - '"سوق العقارات" إسبانيا OR البرتغال'
+
+  # Publishers that block direct polling, reached through Google instead.
+  PUBLISHER:
+    - 'site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال'
+    - 'site:alarabiya.net "الإقامة الذهبية" OR "شراء عقار"'
+    - 'site:aawsat.com عقارات أوروبا'
 
   COMMISSION-MODEL:
     - '"الوساطة العقارية" أوروبا OR إسبانيا'

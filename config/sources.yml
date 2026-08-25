@@ -74,31 +74,14 @@ sources:
   # -------------------------------------------------------------------------
   # ARABIC — tier 1
   # -------------------------------------------------------------------------
-  # URLs taken from the published MRSS pages: alarabiya.net/tools/mrss (Arabic)
-  # and english.alarabiya.net/tools/mrss (English).
+  # Al Arabiya returns HTTP 403 to both its Arabic and English feeds from a
+  # GitHub Actions runner — Azure datacenter ranges, not the User-Agent, since
+  # a browser string changed nothing. Direct polling is out.
   #
-  # Both are whole-desk feeds — the entire business section, Tadawul and oil
-  # and cars included. match_key supplies the query they do not have.
-  - id: alarabiya_aswaq
-    kind: rss
-    lang: ar
-    stream: news
-    match_key: feed_match
-    url: https://www.alarabiya.net/feed/rss2/ar/aswaq.xml
-    note: >
-      أسواق — the full economy desk, which contains the عقارات (real estate)
-      section. There is no per-section feed, hence the match list.
-
-  - id: alarabiya_business_en
-    kind: rss
-    lang: en
-    stream: news
-    match_key: feed_match
-    url: https://english.alarabiya.net/feed/rss2/en/business.xml
-    note: >
-      English business desk. Replaces Argaam, which covers Tadawul listings
-      and Saudi corporate filings — real Gulf business, but domestic, and
-      almost never about a Gulf buyer purchasing in Europe.
+  # The workaround is to let Google fetch them: site: queries in the gnews
+  # sets below reach the same publisher through an intermediary it does not
+  # block. Slower and shallower than a real feed, but it works, and the same
+  # trick covers any publisher that blocks us later.
 
   # -------------------------------------------------------------------------
   # GOOGLE NEWS — broad sweep, expanded from keywords.yml
