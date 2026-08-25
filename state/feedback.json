@@ -1,0 +1,55 @@
+{
+ "offset": 576377887,
+ "sent": {
+  "853b209a1dc56975": {
+   "title": "Housing reform in Greece: cheap loans, social rent and a new Golden Visa24 August 2026 - Greek City Times",
+   "cat": "REGULATORY",
+   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
+  },
+  "6d19289df4095547": {
+   "title": "Property hunting enters the AI agent era - ITWeb",
+   "cat": "CHANNEL",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
+  },
+  "d9a3485e7c4e19fc": {
+   "title": "Vipp Residences Villa Finca Selva Rethinks Vacation Home Ownership in Mallorca - stupidDOPE",
+   "cat": "OWNERSHIP-MODEL",
+   "query": "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
+  },
+  "d07841f061eebaa3": {
+   "title": "Can You Invest in Pacaso Pre-IPO? Everything You Need to Know - The Motley Fool",
+   "cat": "OWNERSHIP-MODEL",
+   "query": "intitle:Pacaso when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
+  },
+  "002942e1cdf9c661": {
+   "title": "Buying a House in Portugal is a Nightmare. Why?",
+   "cat": "UPFUNNEL",
+   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
+   "lang": "pt",
+   "date": "2026-08-25"
+  },
+  "4be1c82a1978dfcc": {
+   "title": "EXCLUSIVE: As Home Sales Slump, RealReports Launches AI Tool To Help Agents Win More Business",
+   "cat": "CHANNEL",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
+  },
+  "e34c7c73b0edd41b": {
+   "title": "Spain property faces growing pressure as home sales slow - Olive Press News Spain",
+   "cat": "DEMAND-FLOW",
+   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
+  }
+ },
+ "votes": {}
+}

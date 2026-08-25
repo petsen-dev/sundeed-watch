@@ -1,128 +1,191 @@
 {
  "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d": {
-  "runs": 5,
-  "items": 10,
-  "score_sum": 540,
-  "mean_score": 54.0
+  "runs": 6,
+  "items": 12,
+  "score_sum": 640,
+  "mean_score": 53.3,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "\"compradores estrangeiros\" casa Portugal when:2d": {
-  "runs": 5,
-  "items": 5,
-  "score_sum": 307,
-  "mean_score": 61.4
+  "runs": 6,
+  "items": 6,
+  "score_sum": 372,
+  "mean_score": 62.0,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d": {
-  "runs": 6,
-  "items": 24,
-  "score_sum": 775,
-  "mean_score": 32.3
+  "runs": 7,
+  "items": 29,
+  "score_sum": 945,
+  "mean_score": 32.6,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "\"سوق العقارات\" إسبانيا OR البرتغال when:2d": {
-  "runs": 5,
-  "items": 5,
-  "score_sum": 163,
-  "mean_score": 32.6
+  "runs": 6,
+  "items": 6,
+  "score_sum": 208,
+  "mean_score": 34.7,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "\"international buyers\" Portugal OR Italy property when:2d": {
-  "runs": 5,
-  "items": 14,
-  "score_sum": 220,
-  "mean_score": 15.7
+  "runs": 6,
+  "items": 18,
+  "score_sum": 295,
+  "mean_score": 16.4,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "ChatGPT OR \"AI agent\" property buying when:2d": {
-  "runs": 5,
-  "items": 57,
-  "score_sum": 523,
-  "mean_score": 9.2
+  "runs": 6,
+  "items": 67,
+  "score_sum": 621,
+  "mean_score": 9.3,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "مستثمرون سعوديون OR إماراتيون عقارات أوروبا when:2d": {
-  "runs": 5,
-  "items": 5,
-  "score_sum": 30,
-  "mean_score": 6.0
+  "runs": 6,
+  "items": 6,
+  "score_sum": 35,
+  "mean_score": 5.8,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d": {
-  "runs": 6,
-  "items": 28,
-  "score_sum": 70,
-  "mean_score": 2.5
+  "runs": 7,
+  "items": 33,
+  "score_sum": 75,
+  "mean_score": 2.3,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "[feed] boe_sumario": {
   "runs": 4,
   "items": 94,
   "score_sum": 0,
-  "mean_score": 0.0
+  "mean_score": 0.0,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d": {
-  "runs": 5,
-  "items": 5,
+  "runs": 6,
+  "items": 6,
   "score_sum": 0,
-  "mean_score": 0.0
+  "mean_score": 0.0,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d": {
-  "runs": 6,
-  "items": 15,
-  "score_sum": 250,
-  "mean_score": 16.7
+  "runs": 7,
+  "items": 18,
+  "score_sum": 290,
+  "mean_score": 16.1,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "\"foreign buyer\" intitle:ban OR intitle:restriction property when:2d": {
-  "runs": 5,
-  "items": 10,
+  "runs": 6,
+  "items": 12,
   "score_sum": 0,
-  "mean_score": 0.0
+  "mean_score": 0.0,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "\"second home\" intitle:tax OR intitle:premium when:2d": {
-  "runs": 5,
-  "items": 29,
+  "runs": 6,
+  "items": 35,
   "score_sum": 15,
-  "mean_score": 0.5
+  "mean_score": 0.4,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "Prello OR Vivla OR MYNE OR Altacasa property when:2d": {
-  "runs": 5,
-  "items": 5,
+  "runs": 6,
+  "items": 6,
   "score_sum": 0,
-  "mean_score": 0.0
+  "mean_score": 0.0,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "\"cross-border\" property buyers Europe when:2d": {
-  "runs": 5,
-  "items": 14,
+  "runs": 6,
+  "items": 17,
   "score_sum": 25,
-  "mean_score": 1.8
+  "mean_score": 1.5,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "\"commission split\" estate agency when:2d": {
-  "runs": 5,
-  "items": 5,
+  "runs": 6,
+  "items": 6,
   "score_sum": 0,
-  "mean_score": 0.0
+  "mean_score": 0.0,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "[feed] portugal_resident": {
-  "runs": 6,
-  "items": 42,
-  "score_sum": 60,
-  "mean_score": 1.4
+  "runs": 7,
+  "items": 52,
+  "score_sum": 75,
+  "mean_score": 1.4,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d": {
-  "runs": 4,
-  "items": 4,
-  "score_sum": 250,
-  "mean_score": 62.5
+  "runs": 5,
+  "items": 5,
+  "score_sum": 315,
+  "mean_score": 63.0,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "intitle:Pacaso when:2d": {
-  "runs": 4,
-  "items": 4,
-  "score_sum": 125,
-  "mean_score": 31.2
+  "runs": 5,
+  "items": 5,
+  "score_sum": 175,
+  "mean_score": 35.0,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "\"ITP\" OR \"impuesto de transmisiones\" Spain property when:2d": {
-  "runs": 4,
-  "items": 4,
-  "score_sum": 180,
-  "mean_score": 45.0
+  "runs": 5,
+  "items": 5,
+  "score_sum": 215,
+  "mean_score": 43.0,
+  "up": 0,
+  "down": 0,
+  "split": 0
  },
  "[feed] property_industry_eye": {
-  "runs": 4,
-  "items": 48,
-  "score_sum": 287,
-  "mean_score": 6.0
+  "runs": 5,
+  "items": 60,
+  "score_sum": 380,
+  "mean_score": 6.3,
+  "up": 0,
+  "down": 0,
+  "split": 0
  }
 }
