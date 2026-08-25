@@ -1,0 +1,135 @@
+"""Entry point. Runs the four stages in order and persists state.
+
+    fetch → dedupe(within-lang) → classify(translate+score) → dedupe(cross-lang)
+          → rank → send → archive
+
+Archive holds everything ever ingested, in full, searchable. Nothing is thrown
+away at any stage — items are collapsed when identical and ordered by score,
+and that is the extent of it.
+"""
+
+from __future__ import annotations
+
+import argparse
+import datetime as dt
+import json
+import logging
+import pathlib
+import sys
+
+import yaml
+
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+
+import classify           # noqa: E402
+import dedupe             # noqa: E402
+import fetch              # noqa: E402
+import report             # noqa: E402
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+STATE = ROOT / "state"
+SEEN_PATH = STATE / "seen.json"
+ARCHIVE_DIR = STATE / "archive"
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(name)-9s %(levelname)-7s %(message)s",
+)
+log = logging.getLogger("main")
+
+
+def load_yaml(path):
+    with open(path, encoding="utf-8") as fh:
+        return yaml.safe_load(fh)
+
+
+def load_seen() -> dict:
+    if SEEN_PATH.exists():
+        try:
+            return json.loads(SEEN_PATH.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            log.warning("seen.json corrupt — starting fresh")
+    return {}
+
+
+def save_seen(seen: dict, new_items) -> None:
+    today = dt.datetime.now(dt.timezone.utc).date()
+    for item in new_items:
+        seen[item.doc_id] = today.isoformat()
+
+    horizon = today - dt.timedelta(days=dedupe.SEEN_TTL_DAYS)
+    pruned = {
+        k: v for k, v in seen.items()
+        if dt.date.fromisoformat(v) >= horizon
+    }
+    STATE.mkdir(parents=True, exist_ok=True)
+    SEEN_PATH.write_text(json.dumps(pruned, indent=0), encoding="utf-8")
+
+
+def archive(items, ingested: int, status: str) -> pathlib.Path:
+    ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+    stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
+    path = ARCHIVE_DIR / f"{stamp}.json"
+    payload = {
+        "date": stamp,
+        "ingested": ingested,
+        "status": status,
+        "items": [i.as_dict() for i in items],
+    }
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    return path
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--dry-run", action="store_true",
+                    help="print the report instead of sending it")
+    ap.add_argument("--no-llm", action="store_true",
+                    help="skip classification (day-2 mode: raw ingest only)")
+    args = ap.parse_args()
+
+    config = load_yaml(ROOT / "config" / "sources.yml")
+    keywords = load_yaml(ROOT / "config" / "keywords.yml")
+
+    # 1 — ingest
+    result = fetch.fetch_all(config, keywords)
+    ingested = len(result.items)
+    log.info("ingested %d raw items · %s", ingested, result.status_line)
+
+    # 2 — collapse duplicates inside each language, then drop anything already
+    #     delivered on a previous day
+    items = dedupe.within_language(result.items)
+    seen = load_seen()
+    items = dedupe.drop_seen(items, seen)
+    log.info("%d after within-language dedupe and seen-check", len(items))
+
+    # 3 — translate, categorise, score
+    if not args.no_llm:
+        items = classify.enrich(items)
+        # 4 — collapse the same story across languages
+        items = dedupe.across_languages(items)
+        log.info("%d after cross-language dedupe", len(items))
+    else:
+        for item in items:
+            item.title_en = item.title
+            item.category = "OTHER"
+
+    items.sort(key=lambda i: i.score, reverse=True)
+
+    text = report.render(items, result.status_line, ingested)
+    path = archive(items, ingested, result.status_line)
+    log.info("archived → %s", path)
+
+    if args.dry_run:
+        print(text)
+    else:
+        report.send(text)
+        save_seen(seen, items)
+
+    # Fail the workflow run if every source died — that is a broken monitor,
+    # not a quiet day, and it should page you.
+    return 1 if result.ok == [] else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

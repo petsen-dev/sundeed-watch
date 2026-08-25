@@ -1,0 +1,132 @@
+# Sundeed Watch — source registry
+#
+# kind: rss           plain RSS/Atom feed
+#       boe_api       BOE open-data summary API (JSON)
+#       gnews         Google News RSS, expanded from config/keywords.yml
+#
+# Every source carries `lang` so the pipeline knows whether the title needs
+# translating before cross-language dedup.
+
+sources:
+
+  # -------------------------------------------------------------------------
+  # REGULATORY — official gazettes
+  # -------------------------------------------------------------------------
+  - id: boja_disposiciones
+    kind: rss
+    lang: es
+    stream: regulatory
+    url: https://www.juntadeandalucia.es/boja/distribucion/s51.xml
+    note: >
+      BOJA "Disposiciones generales". Andalusia = Costa del Sol corridor.
+      Published Mon-Fri, occasional weekend supplements.
+
+  - id: boe_sumario
+    kind: boe_api
+    lang: es
+    stream: regulatory
+    url: https://www.boe.es/datosabiertos/api/boe/sumario/{yyyymmdd}
+    note: >
+      Official BOE open-data API. Published every day except Sundays.
+      Docs: https://www.boe.es/datosabiertos/api/api.php
+      VERIFY the exact path against the PDF spec before trusting it — the
+      fetcher degrades to a logged failure rather than crashing if it moves.
+
+  # DOGV (Valencia / Costa Blanca) publishes in Valencian and Castilian as
+  # separate editions and exposes no documented RSS. Two routes, both used:
+  #   1. gnews_es below picks up reported changes
+  #   2. subscribe manually at https://dogv.gva.es/es/alertas-del-diari-oficial
+  #      (free, choose materias: legislación + planes de urbanismo)
+  # Same situation for Diário da República — register on the portal for
+  # keyword alerts at https://diariodarepublica.pt (new editions 09:00 CET,
+  # business days). Add both here as `rss` once you have a working feed URL.
+
+  # -------------------------------------------------------------------------
+  # TRADE PRESS — tier 1, read every day
+  # -------------------------------------------------------------------------
+  - id: inman
+    kind: rss
+    lang: en
+    stream: news
+    url: https://www.inman.com/feed/
+    note: Buyer-agency and commission structure, post-NAR US practice.
+
+  - id: property_industry_eye
+    kind: rss
+    lang: en
+    stream: news
+    url: https://propertyindustryeye.com/feed/
+
+  - id: spanish_property_insight
+    kind: rss
+    lang: en
+    stream: news
+    url: https://www.spanishpropertyinsight.com/feed/
+
+  - id: portugal_resident
+    kind: rss
+    lang: en
+    stream: news
+    url: https://www.portugalresident.com/feed/
+
+  # -------------------------------------------------------------------------
+  # ARABIC — tier 1
+  # -------------------------------------------------------------------------
+  # Al Arabiya documents its feed list at english.alarabiya.net/tools/mrss —
+  # confirm the Arabic-side equivalents there and pin them below.
+  - id: alarabiya_business
+    kind: rss
+    lang: ar
+    stream: news
+    url: https://www.alarabiya.net/.mrss/ar/aswaq.xml
+    note: Verify against the published MRSS list; swap in the pinned URL.
+
+  - id: argaam
+    kind: rss
+    lang: ar
+    stream: news
+    url: https://www.argaam.com/ar/rss/articles
+    note: Feed list at argaam.com/en/rss — pin the exact article feed.
+
+  # -------------------------------------------------------------------------
+  # GOOGLE NEWS — broad sweep, expanded from keywords.yml
+  # -------------------------------------------------------------------------
+  # Caveats that shape how these are used:
+  #   - hard cap of ~100 items per search feed, no pagination
+  #   - <link> is a news.google.com redirect, not the publisher URL, so URL
+  #     dedup is unreliable — the pipeline dedups on normalised title instead
+  #   - the index runs stale: a July 2026 sampling of 48 queries found a
+  #     median item age around 6.6 days, with only 7.6% under six hours old
+  # Consequence: treat gnews as breadth, not as a breaking-news wire. The
+  # gazette feeds are what give you same-day.
+  - id: gnews_en
+    kind: gnews
+    lang: en
+    stream: news
+    keyword_set: en
+
+  - id: gnews_ar
+    kind: gnews
+    lang: ar
+    stream: news
+    keyword_set: ar
+
+  - id: gnews_es
+    kind: gnews
+    lang: es
+    stream: news
+    keyword_set: es
+    keyword_group: news
+
+  - id: gnews_pt
+    kind: gnews
+    lang: pt
+    stream: news
+    keyword_set: pt
+    keyword_group: news
+
+settings:
+  lookback_hours: 30        # overlap the 24h window so nothing falls through
+  http_timeout: 20
+  max_items_per_query: 100
+  user_agent: "sundeed-watch/1.0 (market monitor; contact: ops@example.com)"
