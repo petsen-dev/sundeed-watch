@@ -4,76 +4,6 @@
  "status": "10/12 sources ok · failed: alarabiya_business, argaam",
  "items": [
   {
-   "source_id": "gnews_pt",
-   "lang": "pt",
-   "stream": "news",
-   "title": "Comprar casa em Portugal é um pesadelo. Porquê? - Leak.pt",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jOWNBYlRzWUpZVE55cktOUmxOMF9mandoTk9Cblh5dDJCeFZtUXh4Q2xfbmhZX0U1RmZkd3JFeFVIX1JzcnFzczhjQnVuaDloZGpIdXVVaEo4OW14YTZyUG4xbjJYb1RteXhMNlZ2WWpRVFBQ?oc=5",
-   "published_at": "2026-08-24T10:31:14+00:00",
-   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
-   "doc_id": "002942e1cdf9c661",
-   "title_en": "Buying a House in Portugal Is a Nightmare. Why? - Leak.pt",
-   "category": "UPFUNNEL",
-   "score": 72,
-   "rationale": "Portugal buyer pain point; likely covers costs, friction, or regulatory barriers."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "نارو في صقلية أحدث وجهة إيطالية تعرض منازل مقابل 1 يورو فقط - Euronews",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc0haOWk5N2E2TWFERVFzcUhnY0RGbE1Bel9pVjZOTXBzb0NSdE5tTXZtNjdJY3J1MzQ0bFg3LTM2TXlJYWtQdVJiQS05NlU4empmNkFjUGFZb0UzX0dGVmRpWlFrV0hMYXdUMmNOZmRycXB0LUFmNEhUQnVfTXNQQVBMX3A5WUFGV192OXVibUFJZXIyVDJHSjd0b2pQMXZtMm5Ob01JTm5qM1cxcldLU01NTGJtRGs0VmRiNmY1aHBZUk0?oc=5",
-   "published_at": "2026-08-24T13:00:42+00:00",
-   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "doc_id": "e609362f1fa9c4c8",
-   "title_en": "Naro in Sicily Latest Italian Destination Offering Homes for Just 1 Euro - Euronews",
-   "category": "DEMAND-FLOW",
-   "score": 65,
-   "rationale": "Sicily €1 home scheme; corridor supply signal, but execution unclear and historic."
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "Vipp Residences Villa Finca Selva Rethinks Vacation Home Ownership in Mallorca - stupidDOPE",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUXo0eUIxVTVpbjZRWDdKN25BdkFPc0ZXNWh3LVJlaHplY0dlazJNSVBCOVgxTDBldWJ5YjNNUUJjQVo3UThQT19mVnplLW0wbktpZGY1SGswWVFKaEF5a3FxS3F2S0YxVy1XYTBKcWlHMm5BbmgyaVNMUTNYc3lvMnhSNE5EQ1pWWHRVbjhqeUxXcDI0MXBDN0xTTUFlY1BmWjJ3M01tY1N1VVIxZUVz?oc=5",
-   "published_at": "2026-08-24T12:06:34+00:00",
-   "query": "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d",
-   "doc_id": "d9a3485e7c4e19fc",
-   "title_en": "Vipp Residences Villa Finca Selva Rethinks Vacation Home Ownership in Mallorca - stupidDOPE",
-   "category": "OWNERSHIP-MODEL",
-   "score": 55,
-   "rationale": "New ownership model in corridor but lifestyle/brand story; limited buyer impact."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "مراكش توسّع قاعدة مشتري العقارات الفاخرة وسط طلب دولي متزايد - Hespress",
-   "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPTUR1WWFfVFdOanZzYlhrRWVIUnJtbm0yVW9Ka1ZvUDZkeTVnYTJUNDVtenRuV3VuTlROeFVZZ2Z0eVN1UEJSaTNidkZQeTFNVU9rcmw0ekFoREpWWEVEUUR0UHNCWEN6VUZqc1VPeVQzZUFGNV9hNmVVQXJDSlBnMTJFZE04WlpCU0M2aXExd2hhOEQtRDg0b1lTOEJ2Y05EeXpZNVVsUV9LenZZV2VvajF3V0pla0FscUNpVjYzYi1id1VCWXhPSklsT3FqeTBKUURKRFZxSzBNb3JraXdFQ2Fkckg0aW9WSklqZEJwRHZjcDFzYUlqY1NsU2g0TEloeEhuSTNYNm5SbmRGdUNFUHBiLWl5RDdXZm5wQXZQUmlxTWQxb1c3NF82bEZEeS1uMEQybEpuaXE4ZEVGeHpmRnFQa2o5eXQ2Mzg4bDlHb1ZwNm96VUE?oc=5",
-   "published_at": "2026-08-24T13:07:01+00:00",
-   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "doc_id": "b73798781f1858dc",
-   "title_en": "Marrakech Expands Base of Luxury Property Buyers Amid Growing International Demand - Hespress",
-   "category": "DEMAND-FLOW",
-   "score": 55,
-   "rationale": "Morocco luxury demand signal; outside corridor (Spain/PT/IT/FR/GR), low relevance."
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "The Smart Golden Visa Investor Chooses Value Over Price - IMI Daily",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLU41MnFxbDN1cVNGMDZSR1hXUGNpWjRPWG5FRXhtNkp2QlE5Q09UYUZCdkxsVTNReFd5N3l1SzhheXZTZGJEQ3N0aHVFTzBLeGlzVnVIcUJkbEhkd3ltUWZMRlN6LXhTUW9GZjBlRUxfN3JZTjNxQ3hFOENTTEJtaXZsOTRlLV9rOVRvMFl1dm9aRkk2NnZjbGlEeE8yOVUz?oc=5",
-   "published_at": "2026-08-25T11:35:47+00:00",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "doc_id": "22832aa323c5e790",
-   "title_en": "The Smart Golden Visa Investor Chooses Value Over Price - IMI Daily",
-   "category": "DEMAND-FLOW",
-   "score": 50,
-   "rationale": "Portugal Golden Visa messaging; signals investor motivation, limited immediate consequence."
-  },
-  {
    "source_id": "gnews_en",
    "lang": "en",
    "stream": "news",
@@ -84,36 +14,8 @@
    "doc_id": "853b209a1dc56975",
    "title_en": "Housing reform in Greece: cheap loans, social rent and a new Golden Visa24 August 2026 - Greek City Times",
    "category": "REGULATORY",
-   "score": 50,
-   "rationale": "Greece corridor; Golden Visa relevant but social-housing focus unclear."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "تابع العاصمة: ما الذي تقوله زيادة الاستثمار في البرتغال بقيمة 1.4 مليار يورو للمستثمرين - The Portugal News",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQalpJemY3UkU2cG8xZngxY184aWROdGJmMk5wR0U0ck1CQjZ3eGg0UWtvbDlOaUhUa1VrSzVHT0g3WnNLTDNLNENTUmhPemlDcmlVYk9JRU9hSnpnN0hsQ01uNWE0QW9YLXBFZ0JJTVZMVFJFVXVnQm1lVlhVVkdqblQtWDJhRU5nODNyLTZCMDdBcmxndnNVVU16a3JCU2J3ZlJKbHVaejdmZzZlOXlIUEY5NFBDSVJJN2NrVV9sbVRTbjBySjk0Vm1JQTMwS2hKWTJiUWVtcmczcjg?oc=5",
-   "published_at": "2026-08-25T12:52:38+00:00",
-   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "doc_id": "12736398754cf4aa",
-   "title_en": "Capital Watch: What Does €1.4 Billion Investment Surge in Portugal Tell Investors? - The Portugal News",
-   "category": "DEMAND-FLOW",
-   "score": 50,
-   "rationale": "Portugal investment trend data; relevant but lacks buyer-flow specificity."
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "How much money needs to be saved to buy a house of 200,000 euros in 2026 - Demócrata",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQnJyV0dTdkxCQTdoUGZ0MTh6YlRQUHNKSHpwV0oycWVFZXN4VkxUa0VsVGNKdzB3RHk3aU5ScGNoQXJSeDQ0bVFlVDI1T1JrdlFzUE1Hem9RbzRJYWtYenlFNHJ1Rkkzd2VNbld2SkJmX1pzM2QwN29STE1CQ0tsd2FTcmxBYzlkczlFcFJ5T21qRVRrcUZ2QmJxXzZNbko1VzBVeFNVdTBMQdIBrwFBVV95cUxNNG1CXzlWZl9qTVlya3NvQXFObmdkekVOX3duMlBESWhwN0YtWlVWa0FodE94cUxYRm95X2JsSVFndDBFc01GZXdIcU5mR2pxUVJ3d3VOeVpxVGVCRUhnS0RJMTh6NXprcVktNThUQjJjcjd4TmVmVHdKMjVRdGpXVjZHTWNFUm1fZlVNWkhGQms1VS1KaGZwWWE2RXhPWXdPQ0ZqSzVjS3ZxN20wZzc4?oc=5",
-   "published_at": "2026-08-24T08:26:14+00:00",
-   "query": "\"ITP\" OR \"impuesto de transmisiones\" Spain property when:2d",
-   "doc_id": "d61867a68fa4d1e4",
-   "title_en": "How much money needs to be saved to buy a house of 200,000 euros in 2026 - Demócrata",
-   "category": "UPFUNNEL",
-   "score": 45,
-   "rationale": "Portugal affordability guidance for buyers; useful input, no specific corridor impact."
+   "score": 75,
+   "rationale": "Greece corridor; Golden Visa impacts foreign buyer entry; reform detail needed"
   },
   {
    "source_id": "gnews_en",
@@ -126,78 +28,64 @@
    "doc_id": "6d19289df4095547",
    "title_en": "Property hunting enters the AI agent era - ITWeb",
    "category": "CHANNEL",
-   "score": 40,
-   "rationale": "AI-assisted property discovery; unclear if corridor-focused or relevant."
+   "score": 68,
+   "rationale": "AI agents in property search; unnamed product; broad impact potential"
   },
   {
    "source_id": "gnews_en",
    "lang": "en",
    "stream": "news",
-   "title": "Spain property faces growing pressure as home sales slow - Olive Press News Spain",
-   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQYzhuRGZpNld6VFQzYWtULVBFV2tNT3RiWVB4TnFuU1lxSW9MVTFVNHl3SE03cjhfTVN2a2xNbWJTOXlSNWdkT1NWdmE5Y1Y3TGdRT1lxNXQybmtMRllUNW53cUJaR2E5WU92MXdQalpaTXluUFo5SFVCNDhObWVWLXExaU01blVhTEw0eEFFTGZnbEU0M3Vsd0hPdTF4dTlVNUo3bDBjWHhvdk5nQkpSNGtkelNKY3FzLWRmMHhqallWejBDUU56ZXZUcHR2dnI4dk5rLU16WjlxNnd4Z3BZTTZKMGgwU3dFalNXX0E4am5EeHhvTV9Ka0paNEZZRVU?oc=5",
-   "published_at": "2026-08-24T09:43:00+00:00",
-   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
-   "doc_id": "e34c7c73b0edd41b",
-   "title_en": "Spain property faces growing pressure as home sales slow - Olive Press News Spain",
+   "title": "Vipp Residences Villa Finca Selva Rethinks Vacation Home Ownership in Mallorca - stupidDOPE",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUXo0eUIxVTVpbjZRWDdKN25BdkFPc0ZXNWh3LVJlaHplY0dlazJNSVBCOVgxTDBldWJ5YjNNUUJjQVo3UThQT19mVnplLW0wbktpZGY1SGswWVFKaEF5a3FxS3F2S0YxVy1XYTBKcWlHMm5BbmgyaVNMUTNYc3lvMnhSNE5EQ1pWWHRVbjhqeUxXcDI0MXBDN0xTTUFlY1BmWjJ3M01tY1N1VVIxZUVz?oc=5",
+   "published_at": "2026-08-24T12:06:34+00:00",
+   "query": "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d",
+   "doc_id": "d9a3485e7c4e19fc",
+   "title_en": "Vipp Residences Villa Finca Selva Rethinks Vacation Home Ownership in Mallorca - stupidDOPE",
+   "category": "OWNERSHIP-MODEL",
+   "score": 65,
+   "rationale": "Mallorca ownership model innovation; corridor location but unclear specifics"
+  },
+  {
+   "source_id": "gnews_pt",
+   "lang": "pt",
+   "stream": "news",
+   "title": "Comprar casa em Portugal é um pesadelo. Porquê? - Leak.pt",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jOWNBYlRzWUpZVE55cktOUmxOMF9mandoTk9Cblh5dDJCeFZtUXh4Q2xfbmhZX0U1RmZkd3JFeFVIX1JzcnFzczhjQnVuaDloZGpIdXVVaEo4OW14YTZyUG4xbjJYb1RteXhMNlZ2WWpRVFBQ?oc=5",
+   "published_at": "2026-08-24T10:31:14+00:00",
+   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
+   "doc_id": "002942e1cdf9c661",
+   "title_en": "Buying a House in Portugal is a Nightmare. Why?",
+   "category": "UPFUNNEL",
+   "score": 65,
+   "rationale": "Corridor (Portugal) buyer pain-point coverage; drives pre-purchase research and advisory demand."
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "The Smart Golden Visa Investor Chooses Value Over Price - IMI Daily",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLU41MnFxbDN1cVNGMDZSR1hXUGNpWjRPWG5FRXhtNkp2QlE5Q09UYUZCdkxsVTNReFd5N3l1SzhheXZTZGJEQ3N0aHVFTzBLeGlzVnVIcUJkbEhkd3ltUWZMRlN6LXhTUW9GZjBlRUxfN3JZTjNxQ3hFOENTTEJtaXZsOTRlLV9rOVRvMFl1dm9aRkk2NnZjbGlEeE8yOVUz?oc=5",
+   "published_at": "2026-08-25T11:35:47+00:00",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "doc_id": "22832aa323c5e790",
+   "title_en": "The Smart Golden Visa Investor Chooses Value Over Price - IMI Daily",
    "category": "DEMAND-FLOW",
-   "score": 35,
-   "rationale": "Corridor market volume signal but generic; no cross-border data."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "تحول ديموغرافي وانتعاش قياسي في عقارات مراكش الفاخرة - كِشـ24",
-   "url": "https://news.google.com/rss/articles/CBMirgNBVV95cUxOM1ZicldvczVKemZZN2M0T3JsTW1ReDRlVlpqM3p2Qnc4UHpLMGlKQVI0QnMxeWVpLXhGOUlNVjJGOXZtaVlRNUQxMGZoTWtEeW45ZHZlc3kzdzdrT2M5Ylkyc1N1RlBPQmxkbUctOUxkNk9TUlVVQUZueVMxMVExdHJ3eXM5RG9rOU4yUEdLYXZZMEZISV9YS0FDVHJDaUpoSi1qVzRxcjBzT3E0Z1B1YTdybVdsOEhJWFBmWmowdFcwN3doc0VfVllCNV93UVNpbUt0V1ZEY25OT0tCenBPbnFYN2d0VDVwRzdCT2stRmtnOTl5SjdHVWRDd0g0OV9mdTdzWnBpbTE5ajZfRmFOQTlWcERYelZmQTFZd1RKa0kybzF0aThVcmhhWG5iZkM4aFg1b3FZZ3l1MUhHbHl4MVRsOVRFNzR5MTRfQ2Q5NkNJTjdxUXZLSnNqMk5XMjBxbndzaHNlV1RmRzRaRHlBTFJ5dnJER1RVNDZ3N09IemMwSmk1X3R3NmR4M190M004R3hTMkowWWNzX1FsVnNnRjlsOVR5aFNWWEpDaUp30gGzA0FVX3lxTE5FRlpwVW5jRGVubGVzd2NhQ2V1MFppNWRDWVB6VDBleEY2aUlRbURYLVBOMHcyR0pqLWNNUnFKY1RmT3BoTjRxSUpMMFlXVG90cGxCNWtmNE1rZXFoazBmT0JtcGhKUXRzRHZ0UTVvMXVzMUhiRHJzUFNtVTF3SFp2V0NrOTFNa3dCekR6RFlOaEx5N3Z4VXZNVFJvYVJZSFI0SEpCc2U5b0JmWW12MHp6MFZMNE9peU5yNzR3LVNKN25WREd1LTFlQkhZMmlaRXRESkYzSEdiWFhkZ2tIVFlBbTNVaU9fTnAybzB5enRoc2JJbHd0WWlqazM4UThMS0dGc2xMbjJaRlF3RkF6LW5QZzY4TWo1bEd5ZHZnLURTSEJJNlhac2pSX3BPUDR0Ql95OHlrRmdoYldORWJzc0NFbWZJbC1uVEgyOF9nSVg5SUIxOVpSUTZZSnZBaWp0dlppYkFqaTV1WmFLZFA0aXNsaVpoYnFNX0ZhbUtoQnhreW5GN04xZmc5LVJOUVp4bHJmMDdBZFBTaGdMUGQ2NVdNU1lacUJWcDhTOWE5RDdJSDg4WQ?oc=5",
-   "published_at": "2026-08-25T08:30:03+00:00",
-   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
-   "doc_id": "46ac3a66f66fdd47",
-   "title_en": "Demographic Shift and Record Surge in Marrakech Luxury Property - Kech24",
-   "category": "DEMAND-FLOW",
-   "score": 35,
-   "rationale": "Morocco market trend; outside corridor, monitors regional but not target corridor."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "أوروبا تحاصر التكنولوجيا.. بروكسل تشدد قبضتها على الذكاء الاصطناعى - اليوم السابع",
-   "url": "https://news.google.com/rss/articles/CBMipARBVV95cUxPOFlNLUlxXzZfUzFFM1VmODZKSFVqZWh3d1l3SXRFTzNhbEVya3FZVFJIdURnb2U2Q2pRUFk4ZGJpdE1BZkFSUTNzS2FYYXRGZEhMeGNlVlZELTRrRkc0NkN3N3ZjUWoxV1Vvc2N4dU5JUlZPNUxfQUhSTVJjVzdKUTFXZVd6LWlCSk1ROW5hTDFRTzNXeWdEdVh0WnZEemVSVTRXWVNEWWt6cVJ6LWlaTm85bmxMc21VOEVOS0FzcjBRYjlHSzBBRjZDcmpHMVMyS2VJU2Q1WnpnS1lGWXFZTktqcC1LTi1qVG1pbGRHdUNtcGkzWkhWc005YU1WN3h5MFpsM194cHJrWVZlSUFKbU9lY3pIbzFPZGhzck9WMGhUbGRVWkZCeGwydE9VZHRTdkh3aVFWQ3R0SFJ0YlI3dnlFd3VyOTRSbkJxNUtiUXFSdklKd1FiejFsWmItZHJHLTdXNVZfX0dGc3JBSGtpOEhuVzBsb0Y0RmdJaHpPTS02eHVRZnVfeEIyNFQ4VmFYRzg2aC1fcUZZUmlLdHh4N1dKc3pZOTVFMmlCX2hYOG5mSjU2MG02TE9GQ3Btd3V2WDZIaGEwM0dqUmMxSk9ycURDT0R5a3hldmR3N0V1ZFgzcU55WXBxRUVVT09rN21sZVlhZ1U5eVJTV1BPRWlybUh3aHVOVlVuUm9EX1Utd0MtdWJ3cWZfUkcwdExBNl81U1JmetIBnwRBVV95cUxNVEt5cERqeHEtU2g1LUlud0FidmN5NjZud2R6Vm03ekZxdEY5b0dPTHRuNndNNjhDaWx4UjZDZlZhajJleWUxalVxT2ZiLXlIYTZjYjRlTnJQM0tIa3BSa1JhTzNGcmk5MC1Qck1Vc3RaOG5nZktuQVcwa3hkdjRQcUhDY09mTTV0SHU4eVRLVzdpcDZLNWJfRXFmVGxCalNNQ1M2RUNOS0NzeC11SF93SkcwU2RteWttZk1zVTNuRUpheTNSaGdwVlBuc3VNbncwUWhqckpkNm8wWVBnUDZJRzNYX0g1WWE4WWFYc016Y1A0aDQ0TFJRbldMWlE4UUpTT19mRWhGUGM4cFFFYkc3LVo5bXM5MjNtVU1ERWZxUVJxNkJFWjEza0t4alBaUjhDaFhEbG9EYTdkZ3VYRnhRQ0RPWXJPWjY1dWR2LU96aEQ0blF2V3JIZUxsbVNGaDEyS3FQSVBLUzRnMllQRTAyWTM1WXFqd2NuTjNWOUtCNFhXQjZaaXd6V0trdjJ2MkgwQXBGWGwtZlU2bmhtYmhrLUl4dXR2aFpyOVdVcjNBRWJDY2VVb0w0dzlOYXlibVNnODFOYkk0LXdwbURJdzBsSTdtTmtzMDZXQ1pvYVFWOG14UmprMGVmS2xxN09NWEs1a3ZQU1E5WURmbWlILUZ3RmRldnRVVDdhZGoxVkpSR2ZJTFJDWHFIWUdrMVlQOFU?oc=5",
-   "published_at": "2026-08-25T09:12:00+00:00",
-   "query": "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d",
-   "doc_id": "9acc9156635af255",
-   "title_en": "Europe Cracks Down on Technology... Brussels Tightens Grip on Artificial Intelligence - Al-Youm Al-Sabea",
-   "category": "REGULATORY",
-   "score": 30,
-   "rationale": "EU AI regulation; affects property tech platforms but indirect and broad impact."
+   "score": 55,
+   "rationale": "Golden Visa buyer framing; corridor-relevant; signals investor positioning."
   },
   {
    "source_id": "gnews_en",
    "lang": "en",
    "stream": "news",
-   "title": "This Quaint Town In Sicily Is Offering Homes For EUR 1: Here’s The Fine Print - Travel and Leisure Asia",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTHN0WHk5YWpiR0NnUU9RZEk0QTR5b3A3eVVvZEFIVDdjQ0hQbHpRSWowX3p4QWdsOWM3MjBjRGRhSDhUeVA3VHo3ajR2RnhLSkY1OTJaVElwcWdHS21QS253bDZIYjNXQ3BLbzBQS18zaWpzNXBXdlY5SEJ1cUtJRDhVMlktcTJjakJpZFBFejZHeFE0a1pHVGZ3UDg2WHIzLWVXd19iX2ZVOEVHTE9KeURNSDE1Y3ExVDQw0gG7AUFVX3lxTE1Mc3RYeTlhamJHQ2dRT1FkSTRBNHlvcDd5VW9kQUhUN2NDSFBselFJajBfenhBZ2w5YzcyMGNEZGFIOFR5UDdUejdqNHZGeEtKRjU5MlpUSXBxZ0dLbVBLbndsNkhiM1dDcEtvMFBLXzNpanM1cFd2VjlIQnVxS0lEOFUyWS1xMmNqQmlkUEV6Nkd4UTRrWkdUZndQODZYcjMtZVd3X2JfZlU4RUdMT0p5RE1IMTVjcTFUNDA?oc=5",
-   "published_at": "2026-08-25T08:04:00+00:00",
-   "query": "\"international buyers\" Portugal OR Italy property when:2d",
-   "doc_id": "076fb39f4a18f1fe",
-   "title_en": "This Quaint Town In Sicily Is Offering Homes For EUR 1: Here's The Fine Print - Travel and Leisure Asia",
-   "category": "OTHER",
-   "score": 20,
-   "rationale": "Sicily corridor property; incentive program but travel-focused coverage."
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "EXCLUSIVE: As Home Sales Slump, RealReports Launches AI Tool To Help Agents Win More Business - Realtor.com",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWTlTcFZZNTc0RkpFWFZONFhlUVQxMks5Z1k0TDZuM1FKSEc0dEtHajJBZ0MzTXRTYnpIYnctZXNWT081WmRUT1h3TUItOU0xTjZCcUp0dkdfTjdMLVBRMU1EbFlSZF9UOFlJeVA0Z0c4UEZLVlJEU0xnSFM3eG51UUhENE8teFJRdXBoWA?oc=5",
-   "published_at": "2026-08-24T13:00:00+00:00",
-   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
-   "doc_id": "4be1c82a1978dfcc",
-   "title_en": "EXCLUSIVE: As Home Sales Slump, RealReports Launches AI Tool To Help Agents Win More Business - Realtor.com",
-   "category": "CHANNEL",
-   "score": 20,
-   "rationale": "US market tool; corridor agents might adopt but no cross-border impact."
+   "title": "Can You Invest in Pacaso Pre-IPO? Everything You Need to Know - The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRl9ycF9hZV9zY2gtNXBFcnhZcTFjT2RiTUd2YUVCMEg1Y2VNY21zVXBYMDAyOWx4UjVfV181VmZVdk1paGlWSnlHM3R2U0RWSkFlR2tWbEZka0FIU2xMRmpTYXF2S2FNME1LcTR5bC0wd2I3QzNRa3ZYdFNFYlRzVl8yemd1M0tlcXc?oc=5",
+   "published_at": "2026-08-25T05:06:00+00:00",
+   "query": "intitle:Pacaso when:2d",
+   "doc_id": "d07841f061eebaa3",
+   "title_en": "Can You Invest in Pacaso Pre-IPO? Everything You Need to Know - The Motley Fool",
+   "category": "OWNERSHIP-MODEL",
+   "score": 55,
+   "rationale": "Pacaso fractional ownership in corridor; investor focus, not buyer impact"
   },
   {
    "source_id": "gnews_en",
@@ -210,8 +98,190 @@
    "doc_id": "6b3e9fa1af018672",
    "title_en": "Longbridge Launches on ChatGPT and Claude - Yahoo Finance Singapore",
    "category": "CHANNEL",
+   "score": 55,
+   "rationale": "Property platform integration with AI; named player; unclear corridor focus"
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "مراكش توسّع قاعدة مشتري العقارات الفاخرة وسط طلب دولي متزايد - Hespress",
+   "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPTUR1WWFfVFdOanZzYlhrRWVIUnJtbm0yVW9Ka1ZvUDZkeTVnYTJUNDVtenRuV3VuTlROeFVZZ2Z0eVN1UEJSaTNidkZQeTFNVU9rcmw0ekFoREpWWEVEUUR0UHNCWEN6VUZqc1VPeVQzZUFGNV9hNmVVQXJDSlBnMTJFZE04WlpCU0M2aXExd2hhOEQtRDg0b1lTOEJ2Y05EeXpZNVVsUV9LenZZV2VvajF3V0pla0FscUNpVjYzYi1id1VCWXhPSklsT3FqeTBKUURKRFZxSzBNb3JraXdFQ2Fkckg0aW9WSklqZEJwRHZjcDFzYUlqY1NsU2g0TEloeEhuSTNYNm5SbmRGdUNFUHBiLWl5RDdXZm5wQXZQUmlxTWQxb1c3NF82bEZEeS1uMEQybEpuaXE4ZEVGeHpmRnFQa2o5eXQ2Mzg4bDlHb1ZwNm96VUE?oc=5",
+   "published_at": "2026-08-24T13:07:01+00:00",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "doc_id": "b73798781f1858dc",
+   "title_en": "Marrakech Expands Luxury Property Buyer Base Amid Rising International Demand",
+   "category": "DEMAND-FLOW",
+   "score": 55,
+   "rationale": "Corridor (Morocco, regional hub) luxury buyer volume signal; actionable demand insight."
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "How much money needs to be saved to buy a house of 200,000 euros in 2026 - Demócrata",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQnJyV0dTdkxCQTdoUGZ0MTh6YlRQUHNKSHpwV0oycWVFZXN4VkxUa0VsVGNKdzB3RHk3aU5ScGNoQXJSeDQ0bVFlVDI1T1JrdlFzUE1Hem9RbzRJYWtYenlFNHJ1Rkkzd2VNbld2SkJmX1pzM2QwN29STE1CQ0tsd2FTcmxBYzlkczlFcFJ5T21qRVRrcUZ2QmJxXzZNbko1VzBVeFNVdTBMQdIBrwFBVV95cUxNNG1CXzlWZl9qTVlya3NvQXFObmdkekVOX3duMlBESWhwN0YtWlVWa0FodE94cUxYRm95X2JsSVFndDBFc01GZXdIcU5mR2pxUVJ3d3VOeVpxVGVCRUhnS0RJMTh6NXprcVktNThUQjJjcjd4TmVmVHdKMjVRdGpXVjZHTWNFUm1fZlVNWkhGQms1VS1KaGZwWWE2RXhPWXdPQ0ZqSzVjS3ZxN20wZzc4?oc=5",
+   "published_at": "2026-08-24T08:26:14+00:00",
+   "query": "\"ITP\" OR \"impuesto de transmisiones\" Spain property when:2d",
+   "doc_id": "d61867a68fa4d1e4",
+   "title_en": "How much money needs to be saved to buy a house of 200,000 euros in 2026 - Demócrata",
+   "category": "UPFUNNEL",
+   "score": 50,
+   "rationale": "Portuguese affordability primer; helps pre-purchase education; corridor-relevant."
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "This Quaint Town In Sicily Is Offering Homes For EUR 1: Here’s The Fine Print - Travel and Leisure Asia",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeXNybUV2dXYyTS1BeGdINC1NZXZGeF9LTDRaWXVqd0FJY1E1WllGRk53V0JiUjZYeFdYZ2ZTTExmNmlhWjhoZ1l3c2QtT0VsSW4tY1RkRUU0R2NBRVdfbGoyTmNsSFBpUjU2Q09kb3ZUUzJBYjQ0ODRCZEVrTXFPN0JJTlZISFAwTmdndzNIX2V5Q2Yzc0JScXdNUVVpbzBETDBGNVgzWTVFSjFaYW1saFVEU1BuZ9IBuwFBVV95cUxNTHN0WHk5YWpiR0NnUU9RZEk0QTR5b3A3eVVvZEFIVDdjQ0hQbHpRSWowX3p4QWdsOWM3MjBjRGRhSDhUeVA3VHo3ajR2RnhLSkY1OTJaVElwcWdHS21QS253bDZIYjNXQ3BLbzBQS18zaWpzNXBXdlY5SEJ1cUtJRDhVMlktcTJjakJpZFBFejZHeFE0a1pHVGZ3UDg2WHIzLWVXd19iX2ZVOEVHTE9KeURNSDE1Y3ExVDQw?oc=5",
+   "published_at": "2026-08-25T08:04:00+00:00",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "doc_id": "867d68745a92eb1a",
+   "title_en": "This Quaint Town In Sicily Is Offering Homes For EUR 1: Here's The Fine Print - Travel and Leisure Asia",
+   "category": "UPFUNNEL",
+   "score": 50,
+   "rationale": "Sicily corridor property; awareness-building offer; terms may deter"
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "تحول ديموغرافي وانتعاش قياسي في عقارات مراكش الفاخرة - كِشـ24",
+   "url": "https://news.google.com/rss/articles/CBMirgNBVV95cUxOM1ZicldvczVKemZZN2M0T3JsTW1ReDRlVlpqM3p2Qnc4UHpLMGlKQVI0QnMxeWVpLXhGOUlNVjJGOXZtaVlRNUQxMGZoTWtEeW45ZHZlc3kzdzdrT2M5Ylkyc1N1RlBPQmxkbUctOUxkNk9TUlVVQUZueVMxMVExdHJ3eXM5RG9rOU4yUEdLYXZZMEZISV9YS0FDVHJDaUpoSi1qVzRxcjBzT3E0Z1B1YTdybVdsOEhJWFBmWmowdFcwN3doc0VfVllCNV93UVNpbUt0V1ZEY25OT0tCenBPbnFYN2d0VDVwRzdCT2stRmtnOTl5SjdHVWRDd0g0OV9mdTdzWnBpbTE5ajZfRmFOQTlWcERYelZmQTFZd1RKa0kybzF0aThVcmhhWG5iZkM4aFg1b3FZZ3l1MUhHbHl4MVRsOVRFNzR5MTRfQ2Q5NkNJTjdxUXZLSnNqMk5XMjBxbndzaHNlV1RmRzRaRHlBTFJ5dnJER1RVNDZ3N09IemMwSmk1X3R3NmR4M190M004R3hTMkowWWNzX1FsVnNnRjlsOVR5aFNWWEpDaUp30gGzA0FVX3lxTE5FRlpwVW5jRGVubGVzd2NhQ2V1MFppNWRDWVB6VDBleEY2aUlRbURYLVBOMHcyR0pqLWNNUnFKY1RmT3BoTjRxSUpMMFlXVG90cGxCNWtmNE1rZXFoazBmT0JtcGhKUXRzRHZ0UTVvMXVzMUhiRHJzUFNtVTF3SFp2V0NrOTFNa3dCekR6RFlOaEx5N3Z4VXZNVFJvYVJZSFI0SEpCc2U5b0JmWW12MHp6MFZMNE9peU5yNzR3LVNKN25WREd1LTFlQkhZMmlaRXRESkYzSEdiWFhkZ2tIVFlBbTNVaU9fTnAybzB5enRoc2JJbHd0WWlqazM4UThMS0dGc2xMbjJaRlF3RkF6LW5QZzY4TWo1bEd5ZHZnLURTSEJJNlhac2pSX3BPUDR0Ql95OHlrRmdoYldORWJzc0NFbWZJbC1uVEgyOF9nSVg5SUIxOVpSUTZZSnZBaWp0dlppYkFqaTV1WmFLZFA0aXNsaVpoYnFNX0ZhbUtoQnhreW5GN04xZmc5LVJOUVp4bHJmMDdBZFBTaGdMUGQ2NVdNU1lacUJWcDhTOWE5RDdJSDg4WQ?oc=5",
+   "published_at": "2026-08-25T08:30:03+00:00",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "doc_id": "46ac3a66f66fdd47",
+   "title_en": "Demographic Shift and Record Surge in Marrakech Luxury Real Estate",
+   "category": "DEMAND-FLOW",
+   "score": 50,
+   "rationale": "Corridor (Morocco) market surge data; less specific than volume but indicates corridor momentum."
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "Spain property faces growing pressure as home sales slow - Olive Press News Spain",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQYzhuRGZpNld6VFQzYWtULVBFV2tNT3RiWVB4TnFuU1lxSW9MVTFVNHl3SE03cjhfTVN2a2xNbWJTOXlSNWdkT1NWdmE5Y1Y3TGdRT1lxNXQybmtMRllUNW53cUJaR2E5WU92MXdQalpaTXluUFo5SFVCNDhObWVWLXExaU01blVhTEw0eEFFTGZnbEU0M3Vsd0hPdTF4dTlVNUo3bDBjWHhvdk5nQkpSNGtkelNKY3FzLWRmMHhqallWejBDUU56ZXZUcHR2dnI4dk5rLU16WjlxNnd4Z3BZTTZKMGgwU3dFalNXX0E4am5EeHhvTV9Ka0paNEZZRVU?oc=5",
+   "published_at": "2026-08-24T09:43:00+00:00",
+   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
+   "doc_id": "e34c7c73b0edd41b",
+   "title_en": "Spain property faces growing pressure as home sales slow - Olive Press News Spain",
+   "category": "DEMAND-FLOW",
+   "score": 40,
+   "rationale": "Spain corridor; general market sentiment; no specific buyer data"
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "تابع العاصمة: ما الذي تقوله زيادة الاستثمار في البرتغال بقيمة 1.4 مليار يورو للمستثمرين - The Portugal News",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQalpJemY3UkU2cG8xZngxY184aWROdGJmMk5wR0U0ck1CQjZ3eGg0UWtvbDlOaUhUa1VrSzVHT0g3WnNLTDNLNENTUmhPemlDcmlVYk9JRU9hSnpnN0hsQ01uNWE0QW9YLXBFZ0JJTVZMVFJFVXVnQm1lVlhVVkdqblQtWDJhRU5nODNyLTZCMDdBcmxndnNVVU16a3JCU2J3ZlJKbHVaejdmZzZlOXlIUEY5NFBDSVJJN2NrVV9sbVRTbjBySjk0Vm1JQTMwS2hKWTJiUWVtcmczcjg?oc=5",
+   "published_at": "2026-08-25T12:52:38+00:00",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "doc_id": "12736398754cf4aa",
+   "title_en": "Follow the Capital: What €1.4 Billion Investment Increase in Portugal Says to Investors",
+   "category": "DEMAND-FLOW",
+   "score": 40,
+   "rationale": "Corridor (Portugal) investment flow signal, useful context but no direct buyer-impact data."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "نارو في صقلية أحدث وجهة إيطالية تعرض منازل مقابل 1 يورو فقط - Euronews",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc0haOWk5N2E2TWFERVFzcUhnY0RGbE1Bel9pVjZOTXBzb0NSdE5tTXZtNjdJY3J1MzQ0bFg3LTM2TXlJYWtQdVJiQS05NlU4empmNkFjUGFZb0UzX0dGVmRpWlFrV0hMYXdUMmNOZmRycXB0LUFmNEhUQnVfTXNQQVBMX3A5WUFGV192OXVibUFJZXIyVDJHSjd0b2pQMXZtMm5Ob01JTm5qM1cxcldLU01NTGJtRGs0VmRiNmY1aHBZUk0?oc=5",
+   "published_at": "2026-08-24T13:00:42+00:00",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "doc_id": "e609362f1fa9c4c8",
+   "title_en": "Naro in Sicily: Latest Italian Destination Offering Homes for Just 1 Euro",
+   "category": "DEMAND-FLOW",
+   "score": 35,
+   "rationale": "Corridor (Italy) buyer stimulus, but euro-home schemes typically attract few serious cross-border buyers."
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "EXCLUSIVE: As Home Sales Slump, RealReports Launches AI Tool To Help Agents Win More Business - Realtor.com",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWTlTcFZZNTc0RkpFWFZONFhlUVQxMks5Z1k0TDZuM1FKSEc0dEtHajJBZ0MzTXRTYnpIYnctZXNWT081WmRUT1h3TUItOU0xTjZCcUp0dkdfTjdMLVBRMU1EbFlSZF9UOFlJeVA0Z0c4UEZLVlJEU0xnSFM3eG51UUhENE8teFJRdXBoWA?oc=5",
+   "published_at": "2026-08-24T13:00:00+00:00",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
+   "doc_id": "4be1c82a1978dfcc",
+   "title_en": "EXCLUSIVE: As Home Sales Slump, RealReports Launches AI Tool To Help Agents Win More Business",
+   "category": "CHANNEL",
+   "score": 25,
+   "rationale": "US domestic agent tool launch, not corridor-specific or cross-border focused."
+  },
+  {
+   "source_id": "property_industry_eye",
+   "lang": "en",
+   "stream": "news",
+   "title": "Property industry leaders join forces to tackle transaction delays",
+   "url": "https://propertyindustryeye.com/property-industry-leaders-join-forces-to-tackle-transaction-delays/",
+   "published_at": "2026-08-25T01:48:04+00:00",
+   "query": "",
+   "doc_id": "3e9128b44d1e3e9e",
+   "title_en": "Property industry leaders join forces to tackle transaction delays",
+   "category": "OTHER",
+   "score": 20,
+   "rationale": "Likely UK focus; no corridor or cross-border buyer impact mentioned."
+  },
+  {
+   "source_id": "property_industry_eye",
+   "lang": "en",
+   "stream": "news",
+   "title": "EYE EXCLUSIVE – LRG acquires historic estate agency",
+   "url": "https://propertyindustryeye.com/eye-exclusive-lrg-buys-historic-estate-agency/",
+   "published_at": "2026-08-25T05:56:29+00:00",
+   "query": "",
+   "doc_id": "78d7bac97fb1a73e",
+   "title_en": "EYE EXCLUSIVE – LRG acquires historic estate agency",
+   "category": "OTHER",
    "score": 15,
-   "rationale": "AI platform launch; property unclear; Singapore outside corridor."
+   "rationale": "UK estate-agency M&A; outside corridor; no cross-border buyer impact."
+  },
+  {
+   "source_id": "property_industry_eye",
+   "lang": "en",
+   "stream": "news",
+   "title": "Thousands of estate agents handed new free revenue stream",
+   "url": "https://propertyindustryeye.com/thousands-of-estate-agents-handed-new-free-revenue-stream/",
+   "published_at": "2026-08-25T01:00:17+00:00",
+   "query": "",
+   "doc_id": "8baf6be755d94c71",
+   "title_en": "Thousands of estate agents handed new free revenue stream",
+   "category": "OTHER",
+   "score": 15,
+   "rationale": "UK estate-agent news; insufficient detail; likely no cross-border relevance."
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "InvestFusion Founder Jeff Emalaba Breaks Down the Five Inputs Behind AI Deal-Scoring on New Podcast - Knoxville News Sentinel",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUGVtUkRSOWVCOTBJT3NlSE9VWXRNS3hucEhya1RnU3M0dEphX0tLd3IzbFpGUHlpYi1WT1hrM0tGcmFwblRPdmx6ZU9OM3JrNktQcnhuZ2IzNG9STmtNOF9wTFZQcHdSWXNaSUJsWEd3YkhGaUptN2k2dFd4Ni1jdHhtWFFySWtTNU02VkJXSHB2SUdWQ3VOMkY4ZnJlT3ZBQ3BOTlltN3NyakFqZW9YSllobTd3a2FrN19VZTdTblpRLUVsRjh2UzlSRlRSa2xSYXFxLV80Q29mU1FEcFI4SUVmVS1mYTg?oc=5",
+   "published_at": "2026-08-25T08:21:17+00:00",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
+   "doc_id": "11760bb7f6e0d837",
+   "title_en": "InvestFusion Founder Jeff Emalaba Breaks Down the Five Inputs Behind AI Deal-Scoring on New Podcast",
+   "category": "OTHER",
+   "score": 15,
+   "rationale": "Generic AI/deal-scoring discussion, no property market or corridor context."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "دول تمنح أموالاً للراغبين في الانتقال إليها 2026..ما شروط استفادة المصريين؟ - صحيفة الخليج",
+   "url": "https://news.google.com/rss/articles/CBMiggVBVV95cUxNVnZXT2RlVElwVGFrYmJLbFBtTHNmV3pyMTMwYTVjZG5NQnZFNzBDV3lEWEcwNkUzUGJ4UExnWUNKTlBXei1RazVVU0JUMDd5ellQLXRzbEUxMDh2UEtwRU5wT3VQX0ljU19oNTBRQXd4VE1Obi11c2hJRXlEaGtPM1BGQ3BDdUJVcFhkaXdPeDJhTnRlT2o5aEZHOTlGMXY3V2xiV1ZkSGtwT1JFYVBlMmhYYS1aY0wtRkR4WkQ3c0tuM3J0a3lCaTlEV00td2l3ZlJoZHBmX2w1Nkx1V1VGV0gtVnhIV1AtRHFrLVg1Q2ZydDRHaXl6OE96QUF6X2NKNEZzQWZTUkMwTzRya29uUU9BZjRpVkh4YWNmdFBBai13MHkydE9uMlluU1NiajF6cHJXUGJ3aWEzOV9yaW9wMW1KN3p2RGxiWGRxRzh6VjB0clJsbERudjZXMUNDS2EyeFh4cHBXNE8zQjBaTnIxRE5ZaEhMMmhiUVZyQWhrakJGTDJ1bVhxVFBZLWcySlBKRXJEVWp6UTJyRk9TU0pwa25JLUxSWXlMREhNU0ZwUzd2OFZpV1BXbUlLaWxPRTdhSlk4XzlxWXdqdnFQc0I5MWtKRHFBRHViYUloVzZpOWhZeklRMktvZFAyQ2tfeF9pLUZxbC13QVVJc3Y0MGRiZHlYNzItUEw0QU5ETUM1RFBJZV85cm0wUGZKWVpkdGppSkZjZDRhaGpqUDdDS0pUYzlnREtlZl9jRy1VZ1NVYWhlTTBjWkljeTdUXzNLbFp4OVdhbnl0RVByMHY1RXl3cjc3Zkx1Y1o4WWVCUzdJQTVlaW81Y0Z4Z1RRQTFSb3dzY1E?oc=5",
+   "published_at": "2026-08-24T18:36:37+00:00",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "doc_id": "7f07559e664a97a6",
+   "title_en": "Countries Offer Money to Those Wanting to Move There in 2026..What Are the Conditions for Egyptians to Benefit?",
+   "category": "OTHER",
+   "score": 15,
+   "rationale": "Regional relocation incentives, unclear if corridor-linked; no property purchase detail."
   },
   {
    "source_id": "property_industry_eye",
@@ -225,77 +295,77 @@
    "title_en": "Estate agents feel the heat as property market cools",
    "category": "OTHER",
    "score": 10,
-   "rationale": "Generic market sentiment; no corridor or cross-border detail."
+   "rationale": "Generic UK sentiment; no specific corridor policy or buyer-flow data."
   },
   {
    "source_id": "property_industry_eye",
    "lang": "en",
    "stream": "news",
-   "title": "Property industry leaders join forces to tackle transaction delays",
-   "url": "https://propertyindustryeye.com/property-industry-leaders-join-forces-to-tackle-transaction-delays/",
-   "published_at": "2026-08-25T01:48:04+00:00",
+   "title": "Property investment firm acquires estate agency network with 104 franchisees",
+   "url": "https://propertyindustryeye.com/property-investment-firm-acquires-estate-agency-network-with-104-franchisees/",
+   "published_at": "2026-08-25T01:30:20+00:00",
    "query": "",
-   "doc_id": "3e9128b44d1e3e9e",
-   "title_en": "Property industry leaders join forces to tackle transaction delays",
+   "doc_id": "4002367c9369070e",
+   "title_en": "Property investment firm acquires estate agency network with 104 franchisees",
    "category": "OTHER",
    "score": 10,
-   "rationale": "UK industry collaboration; no corridor or foreign-buyer angle."
-  },
-  {
-   "source_id": "property_industry_eye",
-   "lang": "en",
-   "stream": "news",
-   "title": "Thousands of estate agents handed new free revenue stream",
-   "url": "https://propertyindustryeye.com/thousands-of-estate-agents-handed-new-free-revenue-stream/",
-   "published_at": "2026-08-25T01:00:17+00:00",
-   "query": "",
-   "doc_id": "8baf6be755d94c71",
-   "title_en": "Thousands of estate agents handed new free revenue stream",
-   "category": "OTHER",
-   "score": 10,
-   "rationale": "UK agent earnings; no corridor or foreign-buyer impact."
+   "rationale": "UK estate-agency consolidation; no corridor or cross-border buyer angle."
   },
   {
    "source_id": "gnews_en",
    "lang": "en",
    "stream": "news",
-   "title": "Prime London property values down 25% as tax changes bite - PropertyWire",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNkx6LW94VC1oc2RsOFN0alJWS2Y4Z181dnk5MXpGZDVuRkdrSzg2akwwbURGZ18tTGZMYms0VGs3TUFJblZ2RHJ6aDlhWnFrcDNuUV9jdnlwbUdnWUl5RVZwcmI3U0RjRzdwWF9tWHhqYzdqTVplY2x2T3VIX1VBWGFnbEVzSXhMczc4MDkzUnpvVV9ZQXdjc0RB?oc=5",
-   "published_at": "2026-08-25T06:02:57+00:00",
-   "query": "\"international buyers\" Portugal OR Italy property when:2d",
-   "doc_id": "29c0d1afd3607799",
-   "title_en": "Prime London property values down 25% as tax changes bite - PropertyWire",
+   "title": "When an AI Agent Acts for the Company, Who Is Liable? - Mexico Business News",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWEMxRWRaeDVoWmo1RmJYRENHY0h2YmtiNjVEbmJVclFHaVJBVTZyQ2RpTGk1WmE4eTl5SGJTZmdmTk1sR3NBZkdMekRiT2xhNlNjX3ZWTE5ZYjJmRzYxTmNvOGotaXRuZHlQS1Bsb3BrRnlHQUhsaVBHQXZPZkJ3dg?oc=5",
+   "published_at": "2026-08-24T14:30:00+00:00",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
+   "doc_id": "b19a3ad4a606808b",
+   "title_en": "When an AI Agent Acts for the Company, Who Is Liable? - Mexico Business News",
    "category": "OTHER",
    "score": 10,
-   "rationale": "London domestic; UK outside corridor; tangential to cross-border buying."
+   "rationale": "AI liability framework; tangential to property transactions"
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "ZipISA Wants You To Treat Your AI Agent Like A Domain Name - The Tech Buzz",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONXEzNzVvb1IxX0VjWExzSk9LekhSM2duRFBwMWVVTUJHLUxIam5FaVAzdDM1OVJCa1FsdDZNSWl2dGszcUZpU2lGNjg3OC1PTVRQSmtpM2U0Y3gybWtyYUNRV2Z1OTJ6RVdLVlpYd0RobGFkT2dYTHNyenc3WFlMcEI2alV5YWtVQXczaTJ0dTNhbGE2QnJubktTTWRtMlZxeGQ4QWk3VndaeEg3cWliNUdkNzNlZGVwVjZ5X0VUdmhKT2pjbExMWFJiN29obTRFdnc?oc=5",
+   "published_at": "2026-08-24T15:32:58+00:00",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
+   "doc_id": "4bd128520690b1bf",
+   "title_en": "ZipISA Wants You To Treat Your AI Agent Like A Domain Name",
+   "category": "OTHER",
+   "score": 10,
+   "rationale": "AI branding concept, no property or corridor relevance."
   },
   {
    "source_id": "gnews_ar",
    "lang": "ar",
    "stream": "news",
-   "title": "دول تمنح أموالاً للراغبين في الانتقال إليها 2026..ما شروط استفادة المصريين؟ - صحيفة الخليج",
-   "url": "https://news.google.com/rss/articles/CBMiggVBVV95cUxNVnZXT2RlVElwVGFrYmJLbFBtTHNmV3pyMTMwYTVjZG5NQnZFNzBDV3lEWEcwNkUzUGJ4UExnWUNKTlBXei1RazVVU0JUMDd5ellQLXRzbEUxMDh2UEtwRU5wT3VQX0ljU19oNTBRQXd4VE1Obi11c2hJRXlEaGtPM1BGQ3BDdUJVcFhkaXdPeDJhTnRlT2o5aEZHOTlGMXY3V2xiV1ZkSGtwT1JFYVBlMmhYYS1aY0wtRkR4WkQ3c0tuM3J0a3lCaTlEV00td2l3ZlJoZHBmX2w1Nkx1V1VGV0gtVnhIV1AtRHFrLVg1Q2ZydDRHaXl6OE96QUF6X2NKNEZzQWZTUkMwTzRya29uUU9BZjRpVkh4YWNmdFBBai13MHkydE9uMlluU1NiajF6cHJXUGJ3aWEzOV9yaW9wMW1KN3p2RGxiWGRxRzh6VjB0clJsbERudjZXMUNDS2EyeFh4cHBXNE8zQjBaTnIxRE5ZaEhMMmhiUVZyQWhrakJGTDJ1bVhxVFBZLWcySlBKRXJEVWp6UTJyRk9TU0pwa25JLUxSWXlMREhNU0ZwUzd2OFZpV1BXbUlLaWxPRTdhSlk4XzlxWXdqdnFQc0I5MWtKRHFBRHViYUloVzZpOWhZeklRMktvZFAyQ2tfeF9pLUZxbC13QVVJc3Y0MGRiZHlYNzItUEw0QU5ETUM1RFBJZV85cm0wUGZKWVpkdGppSkZjZDRhaGpqUDdDS0pUYzlnREtlZl9jRy1VZ1NVYWhlTTBjWkljeTdUXzNLbFp4OVdhbnl0RVByMHY1RXl3cjc3Zkx1Y1o4WWVCUzdJQTVlaW81Y0Z4Z1RRQTFSb3dzY1E?oc=5",
-   "published_at": "2026-08-24T18:36:37+00:00",
-   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "doc_id": "7f07559e664a97a6",
-   "title_en": "Countries Offering Cash to Those Wanting to Move in 2026... What Are the Conditions for Egyptians? - Al-Khalij Newspaper",
+   "title": "انطلاق معرض العقارات السعودية الفاخرة في لندن بمشاركة جهات حكومية واستثمارية ومطورين سعوديين - ستاد الأهلي",
+   "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxQWXFNWTdnUGVUbnoxUzNMWURRUzJCQ0luY2VUdzZvZzBPd0J0OHNmY1FrcG9KeWFycXJ6SWRLWnE5Q3NwT3lqYWRMbU5EaW80allCZWdCQmduX1BqQUJFelpObjFvM1VyS0tGQ29QMTZ6ZXN2eVNtcWMxeFVPSjg0SkJra0duU0MxODNqallDNEY5UmZZZTdwcjI5NXNnd1RKb283cDEtQzRCQm9lc1BYRjU5VUl5eFlKX29ld3hVeHdTdmdMcklQYThWa01JVWFfUG9sblZaQ2JqcENUQlhDaWFydnFHUlFGVmEzNHlUeVNwVzZmNEJCbnBid0dLSnI3Q09tWmdUakRJanpKaHVHc3hpTWxTODJ4VEx3UkItMnB6a1VJNHhneVBGNmVHdlMwWDJBMG5TMk5ndFQxT3dQazFabFVyYnRWYk1FLVhkSjk?oc=5",
+   "published_at": "2026-08-24T14:13:08+00:00",
+   "query": "مستثمرون سعوديون OR إماراتيون عقارات أوروبا when:2d",
+   "doc_id": "8d7240145db24cac",
+   "title_en": "Saudi Luxury Real Estate Exhibition Opens in London with Government, Investment and Saudi Developer Participation",
    "category": "OTHER",
    "score": 10,
-   "rationale": "Relocation incentives, possibly includes corridor but vague; no specifics on property."
+   "rationale": "Saudi-to-UK luxury sales showcase, outside corridor; not cross-border within target markets."
   },
   {
-   "source_id": "property_industry_eye",
-   "lang": "en",
+   "source_id": "gnews_ar",
+   "lang": "ar",
    "stream": "news",
-   "title": "EYE EXCLUSIVE – LRG acquires historic estate agency",
-   "url": "https://propertyindustryeye.com/eye-exclusive-lrg-buys-historic-estate-agency/",
-   "published_at": "2026-08-25T05:56:29+00:00",
-   "query": "",
-   "doc_id": "78d7bac97fb1a73e",
-   "title_en": "EYE EXCLUSIVE – LRG acquires historic estate agency",
+   "title": "أوروبا تحاصر التكنولوجيا.. بروكسل تشدد قبضتها على الذكاء الاصطناعى - اليوم السابع",
+   "url": "https://news.google.com/rss/articles/CBMipARBVV95cUxPOFlNLUlxXzZfUzFFM1VmODZKSFVqZWh3d1l3SXRFTzNhbEVya3FZVFJIdURnb2U2Q2pRUFk4ZGJpdE1BZkFSUTNzS2FYYXRGZEhMeGNlVlZELTRrRkc0NkN3N3ZjUWoxV1Vvc2N4dU5JUlZPNUxfQUhSTVJjVzdKUTFXZVd6LWlCSk1ROW5hTDFRTzNXeWdEdVh0WnZEemVSVTRXWVNEWWt6cVJ6LWlaTm85bmxMc21VOEVOS0FzcjBRYjlHSzBBRjZDcmpHMVMyS2VJU2Q1WnpnS1lGWXFZTktqcC1LTi1qVG1pbGRHdUNtcGkzWkhWc005YU1WN3h5MFpsM194cHJrWVZlSUFKbU9lY3pIbzFPZGhzck9WMGhUbGRVWkZCeGwydE9VZHRTdkh3aVFWQ3R0SFJ0YlI3dnlFd3VyOTRSbkJxNUtiUXFSdklKd1FiejFsWmItZHJHLTdXNVZfX0dGc3JBSGtpOEhuVzBsb0Y0RmdJaHpPTS02eHVRZnVfeEIyNFQ4VmFYRzg2aC1fcUZZUmlLdHh4N1dKc3pZOTVFMmlCX2hYOG5mSjU2MG02TE9GQ3Btd3V2WDZIaGEwM0dqUmMxSk9ycURDT0R5a3hldmR3N0V1ZFgzcU55WXBxRUVVT09rN21sZVlhZ1U5eVJTV1BPRWlybUh3aHVOVlVuUm9EX1Utd0MtdWJ3cWZfUkcwdExBNl81U1JmetIBnwRBVV95cUxNVEt5cERqeHEtU2g1LUlud0FidmN5NjZud2R6Vm03ekZxdEY5b0dPTHRuNndNNjhDaWx4UjZDZlZhajJleWUxalVxT2ZiLXlIYTZjYjRlTnJQM0tIa3BSa1JhTzNGcmk5MC1Qck1Vc3RaOG5nZktuQVcwa3hkdjRQcUhDY09mTTV0SHU4eVRLVzdpcDZLNWJfRXFmVGxCalNNQ1M2RUNOS0NzeC11SF93SkcwU2RteWttZk1zVTNuRUpheTNSaGdwVlBuc3VNbncwUWhqckpkNm8wWVBnUDZJRzNYX0g1WWE4WWFYc016Y1A0aDQ0TFJRbldMWlE4UUpTT19mRWhGUGM4cFFFYkc3LVo5bXM5MjNtVU1ERWZxUVJxNkJFWjEza0t4alBaUjhDaFhEbG9EYTdkZ3VYRnhRQ0RPWXJPWjY1dWR2LU96aEQ0blF2V3JIZUxsbVNGaDEyS3FQSVBLUzRnMllQRTAyWTM1WXFqd2NuTjNWOUtCNFhXQjZaaXd6V0trdjJ2MkgwQXBGWGwtZlU2bmhtYmhrLUl4dXR2aFpyOVdVcjNBRWJDY2VVb0w0dzlOYXlibVNnODFOYkk0LXdwbURJdzBsSTdtTmtzMDZXQ1pvYVFWOG14UmprMGVmS2xxN09NWEs1a3ZQU1E5WURmbWlILUZ3RmRldnRVVDdhZGoxVkpSR2ZJTFJDWHFIWUdrMVlQOFU?oc=5",
+   "published_at": "2026-08-25T09:12:00+00:00",
+   "query": "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d",
+   "doc_id": "9acc9156635af255",
+   "title_en": "Europe Cracks Down on Tech..Brussels Tightens Its Grip on Artificial Intelligence",
    "category": "OTHER",
-   "score": 5,
-   "rationale": "UK estate-agency M&A; no cross-border second-home relevance."
+   "score": 10,
+   "rationale": "EU AI regulation; property-sector impact unclear and indirect."
   },
   {
    "source_id": "property_industry_eye",
@@ -309,21 +379,21 @@
    "title_en": "Independent agency to open new office in same town following acquisition",
    "category": "OTHER",
    "score": 5,
-   "rationale": "UK estate-agency expansion; no cross-border relevance."
+   "rationale": "UK agency expansion; no corridor location or cross-border buyer relevance."
   },
   {
    "source_id": "property_industry_eye",
    "lang": "en",
    "stream": "news",
-   "title": "Property investment firm acquires estate agency network with 104 franchisees",
-   "url": "https://propertyindustryeye.com/property-investment-firm-acquires-estate-agency-network-with-104-franchisees/",
-   "published_at": "2026-08-25T01:30:20+00:00",
+   "title": "Where are BTL landlords securing the strongest rental returns?",
+   "url": "https://propertyindustryeye.com/where-are-btl-landlords-securing-the-strongest-rental-returns/",
+   "published_at": "2026-08-25T00:20:47+00:00",
    "query": "",
-   "doc_id": "4002367c9369070e",
-   "title_en": "Property investment firm acquires estate agency network with 104 franchisees",
+   "doc_id": "267a7f47fa69a4e2",
+   "title_en": "Where are BTL landlords securing the strongest rental returns?",
    "category": "OTHER",
    "score": 5,
-   "rationale": "UK agency consolidation; no cross-border second-home relevance."
+   "rationale": "UK buy-to-let focus; second-home and cross-border buyer markets differ."
   },
   {
    "source_id": "property_industry_eye",
@@ -337,7 +407,7 @@
    "title_en": "How much are lost leads and unused tech costing your agency?",
    "category": "OTHER",
    "score": 5,
-   "rationale": "Agency efficiency; no cross-border or corridor context."
+   "rationale": "Generic agency-tech topic; no corridor or cross-border buyer impact."
   },
   {
    "source_id": "portugal_resident",
@@ -351,49 +421,119 @@
    "title_en": "Security in Lisbon: \"Time has come for government to deliver on promises of more police\"",
    "category": "OTHER",
    "score": 5,
-   "rationale": "Portugal security news; relevant to destination appeal but not market mechanics."
+   "rationale": "Lisbon security concerns; may affect buyer sentiment but no policy change."
+  },
+  {
+   "source_id": "portugal_resident",
+   "lang": "en",
+   "stream": "news",
+   "title": "Albufeira’s car rampage “an isolated incident” – mayor",
+   "url": "https://www.portugalresident.com/albufeiras-car-rampage-an-isolated-incident-mayor/",
+   "published_at": "2026-08-25T10:53:12+00:00",
+   "query": "",
+   "doc_id": "355acb9e4657f281",
+   "title_en": "Albufeira's car rampage \"an isolated incident\" – mayor",
+   "category": "OTHER",
+   "score": 5,
+   "rationale": "Safety concern in popular Portuguese resort; may affect buyer sentiment."
+  },
+  {
+   "source_id": "portugal_resident",
+   "lang": "en",
+   "stream": "news",
+   "title": "10 road deaths, over 1,000 injured between August 18-24",
+   "url": "https://www.portugalresident.com/10-road-deaths-over-1000-injured-between-august-18-24/",
+   "published_at": "2026-08-25T10:21:49+00:00",
+   "query": "",
+   "doc_id": "013e5d593a1c2139",
+   "title_en": "10 road deaths, over 1,000 injured between August 18-24",
+   "category": "OTHER",
+   "score": 5,
+   "rationale": "Portuguese traffic safety; may affect buyer sentiment but no policy change."
+  },
+  {
+   "source_id": "portugal_resident",
+   "lang": "en",
+   "stream": "news",
+   "title": "Minister condemns Albufeira hit-and-run that left 12 injured",
+   "url": "https://www.portugalresident.com/minister-condemns-albufeira-oura-incident-12-injured/",
+   "published_at": "2026-08-25T10:11:31+00:00",
+   "query": "",
+   "doc_id": "cddd9d6add1aa73d",
+   "title_en": "Minister condemns Albufeira hit-and-run that left 12 injured",
+   "category": "OTHER",
+   "score": 5,
+   "rationale": "Algarve safety incident; affects buyer perception but no structural impact."
+  },
+  {
+   "source_id": "portugal_resident",
+   "lang": "en",
+   "stream": "news",
+   "title": "Police torture probe: ‘Many more officers believed to be involved’",
+   "url": "https://www.portugalresident.com/police-torture-probe-many-more-officers-believed-to-be-involved/",
+   "published_at": "2026-08-25T09:30:15+00:00",
+   "query": "",
+   "doc_id": "4e2605b5282ea299",
+   "title_en": "Police torture probe: 'Many more officers believed to be involved'",
+   "category": "OTHER",
+   "score": 5,
+   "rationale": "Portuguese governance concern; may affect buyer confidence but no policy."
   },
   {
    "source_id": "gnews_en",
    "lang": "en",
    "stream": "news",
-   "title": "Can You Invest in Pacaso Pre-IPO? Everything You Need to Know - The Motley Fool",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRl9ycF9hZV9zY2gtNXBFcnhZcTFjT2RiTUd2YUVCMEg1Y2VNY21zVXBYMDAyOWx4UjVfV181VmZVdk1paGlWSnlHM3R2U0RWSkFlR2tWbEZka0FIU2xMRmpTYXF2S2FNME1LcTR5bC0wd2I3QzNRa3ZYdFNFYlRzVl8yemd1M0tlcXc?oc=5",
-   "published_at": "2026-08-25T05:06:00+00:00",
-   "query": "intitle:Pacaso when:2d",
-   "doc_id": "d07841f061eebaa3",
-   "title_en": "Can You Invest in Pacaso Pre-IPO? Everything You Need to Know - The Motley Fool",
+   "title": "Brazil Investor Visa (VIPER) – The Ultimate Guide 2026 - Get Golden Visa",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IOTFZWE1BVUhYTmo0bUpEUENKb0MtOEV2ZVJhWUFHTm1vMkJjZG5qN1FWNENmY3VMb3Bld25rU1BCNGRpSFZBUEFMQmtVT2F0VUpCZm9mY2wzUQ?oc=5",
+   "published_at": "2026-08-24T13:45:28+00:00",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "doc_id": "443ea900b2660503",
+   "title_en": "Brazil Investor Visa (VIPER) – The Ultimate Guide 2026 - Get Golden Visa",
    "category": "OTHER",
    "score": 5,
-   "rationale": "Pacaso financial reporting; US-focused; minor relevance to European buyers."
+   "rationale": "Brazilian visa scheme; outside corridor; not cross-border corridor movement."
   },
   {
    "source_id": "gnews_en",
    "lang": "en",
    "stream": "news",
-   "title": "InvestFusion Founder Jeff Emalaba Breaks Down the Five Inputs Behind AI Deal-Scoring on New Podcast - Knoxville News Sentinel",
-   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUGVtUkRSOWVCOTBJT3NlSE9VWXRNS3hucEhya1RnU3M0dEphX0tLd3IzbFpGUHlpYi1WT1hrM0tGcmFwblRPdmx6ZU9OM3JrNktQcnhuZ2IzNG9STmtNOF9wTFZQcHdSWXNaSUJsWEd3YkhGaUptN2k2dFd4Ni1jdHhtWFFySWtTNU02VkJXSHB2SUdWQ3VOMkY4ZnJlT3ZBQ3BOTlltN3NyakFqZW9YSllobTd3a2FrN19VZTdTblpRLUVsRjh2UzlSRlRSa2xSYXFxLV80Q29mU1FEcFI4SUVmVS1mYTg?oc=5",
-   "published_at": "2026-08-25T08:21:17+00:00",
-   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
-   "doc_id": "11760bb7f6e0d837",
-   "title_en": "InvestFusion Founder Jeff Emalaba Breaks Down the Five Inputs Behind AI Deal-Scoring on New Podcast - Knoxville News Sentinel",
+   "title": "US buyers ramp up USD 14bn wave of European asset manager takeovers - AMWatch",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00aE5hWG9zaFJ2QzlwYnNXbWNwUkdmNVRIcnVvcFVHelpiM25kSjVDdTVjOTJLTEJySVV5TzU1N3FjS2lXWFlEMlVNOVpZLWtQOUZWODFULVlwX21NelR4bnFQNzl3U015Nk5tc3Fsaw?oc=5",
+   "published_at": "2026-08-24T09:38:00+00:00",
+   "query": "\"cross-border\" property buyers Europe when:2d",
+   "doc_id": "5ecb649cd1b52938",
+   "title_en": "US buyers ramp up USD 14bn wave of European asset manager takeovers - AMWatch",
    "category": "OTHER",
    "score": 5,
-   "rationale": "US-focused AI tool, no corridor property or cross-border buyer context."
+   "rationale": "M&A in financial services; not second-home or vacation property"
   },
   {
    "source_id": "gnews_ar",
    "lang": "ar",
    "stream": "news",
-   "title": "انطلاق معرض العقارات السعودية الفاخرة في لندن بمشاركة جهات حكومية واستثمارية ومطورين سعوديين - ستاد الأهلي",
-   "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxQWXFNWTdnUGVUbnoxUzNMWURRUzJCQ0luY2VUdzZvZzBPd0J0OHNmY1FrcG9KeWFycXJ6SWRLWnE5Q3NwT3lqYWRMbU5EaW80allCZWdCQmduX1BqQUJFelpObjFvM1VyS0tGQ29QMTZ6ZXN2eVNtcWMxeFVPSjg0SkJra0duU0MxODNqallDNEY5UmZZZTdwcjI5NXNnd1RKb283cDEtQzRCQm9lc1BYRjU5VUl5eFlKX29ld3hVeHdTdmdMcklQYThWa01JVWFfUG9sblZaQ2JqcENUQlhDaWFydnFHUlFGVmEzNHlUeVNwVzZmNEJCbnBid0dLSnI3Q09tWmdUakRJanpKaHVHc3hpTWxTODJ4VEx3UkItMnB6a1VJNHhneVBGNmVHdlMwWDJBMG5TMk5ndFQxT3dQazFabFVyYnRWYk1FLVhkSjk?oc=5",
-   "published_at": "2026-08-24T14:13:08+00:00",
-   "query": "مستثمرون سعوديون OR إماراتيون عقارات أوروبا when:2d",
-   "doc_id": "8d7240145db24cac",
-   "title_en": "Launch of Saudi Arabia Luxury Real Estate Exhibition in London with Government, Investment and Developer Participation - Al-Ahly Stadium",
+   "title": "أسهم أوروبا تتباين مع تراجع أسهم التكنولوجيا - صحيفة الخليج",
+   "url": "https://news.google.com/rss/articles/CBMiwgRBVV95cUxOY25qUDJ3RDVPUm9mT01DR3NINGVNSlRRZU1rTkU5YWtFMU5Kckt6dlJfRExVWTJSSmVSRmJlYk9Jdmp4NWF1RUxyZjVZWURoYnMyRGRlTnZBbmtBVmNYVXk4SDFySFJnN001Zjc2TDR6QWR3NFYzQjZxNW5aMnZkeWd2dkdreTJBZFVydnM4eTl2UFhobk9udS1tSE5wRllBRlRZc2tpamRJb05Qal9JTzU5aXlXZmd1MzhhZVRzd09hSWpFR3JVRDg5RlJNTkJkN05qUnZQeEZUNURXZ0Vpc05ibUtGN3ZMRHNVdU1GZWdOWmlpRnpvM2g5UmVETk9xSC0tek40VkZxWFhWZjBMc041STR2eDg5MlhZYURMdDMxV21UOVY1QWlGZ0lBWl9CLXpET0pkc0FZRVdzYTZfYkFRSmZfd2p3cHAtVzR3S3MzdGpOOF9WQVdJaHFpbjBKS1ppMWVKZVhVeWpUOUNhWkFwU0lKbEk3NFgxNUhIM3R4WkdFcmthTU11UHpZdzBKNzQwQzRUc2tjdk0zV1ZSOWQ3c05ZWmJTSnFrYWlFNGg5cTRGMzJkd0RPa0pBZnJuSDVyRFhvalRVT3Z2WVFZdmx4SGNYTTMycld5YmxGUFpYSjVnV19DQ24zTDFtTnN0UVRtSEV4bS1PeTIzcW1QSTZmOENva2s1dy1SYlVzbVpBSm94VzFWNi1JVE9mWlRWTlJ5MGh1TW03MG9SMjBTbHI1aW1xUWFXUWZEU2ZsYkhGQQ?oc=5",
+   "published_at": "2026-08-24T10:08:29+00:00",
+   "query": "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d",
+   "doc_id": "c0c734099f3dc485",
+   "title_en": "European Shares Mixed as Technology Stocks Decline",
    "category": "OTHER",
    "score": 5,
-   "rationale": "Saudi property export event; no corridor buyer or corridor property involved."
+   "rationale": "Stock-market sentiment, not property-market specific."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "Das Ende der Fernost-Fabrik: Von China nach Osteuropa – So radikal verdrahten Top-Unternehmen ihre Warenströme gerade neu - Xpert.Digital - Konrad Wolfenstein",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNOG54TWl2NmdiVnBYYTJ5emMyUFVVZHJuQ0U5NExPQi1BRm1XbXpOSHE1MGU1N19QWlNYN1pQRUlxcGRrdm55ZXM2aFBvd3dNTzVSZmFQZ3d2ZENkUDNOZUhhMVZ4Sk9pbTV6YkJWT0lDenNpU2h6TWFBZ19wWENPTTBBdmZHM3JhN1FUTVkyY0h4M0taTGQ0XzZZclJtRkZFdXp3YzhPdHh4aXhHZlAwQ3JmSnBkMW8ycmkwdHlmdENuQlBpSGFrX1VicUV3RktpbG5sWnN2QWRNWEtXdVBfS3kzNjhIQVZfcGxoSjhBSUNWN1hCVEp1QjhkSEjSAYQCQVVfeXFMUDlMbENieDNkcmNFdDhoZktHZW8wWEtfZC1uMHpNWTk2S1NhUXFEcXhBbUxhbmwyVmtLN2lpQzVQeXZQVVhLeW9NOFpkQ09WcTJFTlgxaEFXWnZWVjBkdVZZXzZuZUJVVllUQUJkNGRTX2F1eW84UEJRTHhXOG4tcVJWdDBWMHl0NklZeXZUdGpVaS1GcDRCWWhnc0NBWE9TSDdES2lCYnVFeFVtVFlhUzQ1VnVwVi1tU1ZYUDRhbEJ1NGJvTmtUS2MzUEJOTko0dWgwRVZTNHVZMlBvLVBnZzFGa3V2elNxZENneHFxX2VfS2YzUHhiMl91ZTRjcXdfc0I3ZGM?oc=5",
+   "published_at": "2026-08-24T13:12:36+00:00",
+   "query": "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d",
+   "doc_id": "cc7504de5bc08f23",
+   "title_en": "The End of the Far East Factory: From China to Eastern Europe – How Top Companies Are Radically Rewiring Their Supply Chains Right Now",
+   "category": "OTHER",
+   "score": 5,
+   "rationale": "Manufacturing relocation, not property-market or cross-border buyer relevant."
   },
   {
    "source_id": "property_industry_eye",
@@ -421,21 +561,7 @@
    "title_en": "The property market: should we all go over Beachy Head or is the cavalry coming to our rescue?",
    "category": "OTHER",
    "score": 0,
-   "rationale": "UK commentary; unrelated to corridor or cross-border buyers."
-  },
-  {
-   "source_id": "property_industry_eye",
-   "lang": "en",
-   "stream": "news",
-   "title": "Where are BTL landlords securing the strongest rental returns?",
-   "url": "https://propertyindustryeye.com/where-are-btl-landlords-securing-the-strongest-rental-returns/",
-   "published_at": "2026-08-25T00:20:47+00:00",
-   "query": "",
-   "doc_id": "267a7f47fa69a4e2",
-   "title_en": "Where are BTL landlords securing the strongest rental returns?",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "UK buy-to-let; unrelated to cross-border second homes."
+   "rationale": "UK opinion piece; outside corridor; no actionable cross-border content."
   },
   {
    "source_id": "property_industry_eye",
@@ -449,7 +575,7 @@
    "title_en": "EA Masters: Vote now for your favourite property industry supplier",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Industry award announcement; unrelated to cross-border buying."
+   "rationale": "Industry award promotion; unrelated to cross-border buying or corridor."
   },
   {
    "source_id": "property_industry_eye",
@@ -463,7 +589,7 @@
    "title_en": "NIMBY Britain? New research suggests otherwise",
    "category": "OTHER",
    "score": 0,
-   "rationale": "UK planning sentiment; unrelated to corridor or foreign buyers."
+   "rationale": "UK planning sentiment; outside corridor; no cross-border relevance."
   },
   {
    "source_id": "portugal_resident",
@@ -477,7 +603,7 @@
    "title_en": "Saudi business delegation visits Portugal to strengthen cooperation in health sector",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Health-sector diplomacy; unrelated to property or second homes."
+   "rationale": "Health-sector diplomacy; unrelated to property or cross-border buying."
   },
   {
    "source_id": "portugal_resident",
@@ -491,7 +617,7 @@
    "title_en": "Centralised A&E departments \"will be identified by end of November\" – health ministry",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Portugal health policy; unrelated to property or cross-border buyers."
+   "rationale": "Portuguese health policy; unrelated to property or cross-border buying."
   },
   {
    "source_id": "portugal_resident",
@@ -505,49 +631,7 @@
    "title_en": "Portugal's crop forecasts hold steady despite heat and drought",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Agricultural news; unrelated to property or cross-border buying."
-  },
-  {
-   "source_id": "portugal_resident",
-   "lang": "en",
-   "stream": "news",
-   "title": "Albufeira’s car rampage “an isolated incident” – mayor",
-   "url": "https://www.portugalresident.com/albufeiras-car-rampage-an-isolated-incident-mayor/",
-   "published_at": "2026-08-25T10:53:12+00:00",
-   "query": "",
-   "doc_id": "355acb9e4657f281",
-   "title_en": "Albufeira's car rampage \"an isolated incident\" – mayor",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "Portugal crime news; unrelated to property or cross-border buying."
-  },
-  {
-   "source_id": "portugal_resident",
-   "lang": "en",
-   "stream": "news",
-   "title": "10 road deaths, over 1,000 injured between August 18-24",
-   "url": "https://www.portugalresident.com/10-road-deaths-over-1000-injured-between-august-18-24/",
-   "published_at": "2026-08-25T10:21:49+00:00",
-   "query": "",
-   "doc_id": "013e5d593a1c2139",
-   "title_en": "10 road deaths, over 1,000 injured between August 18-24",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "Portugal traffic statistics; unrelated to property or cross-border buying."
-  },
-  {
-   "source_id": "portugal_resident",
-   "lang": "en",
-   "stream": "news",
-   "title": "Minister condemns Albufeira hit-and-run that left 12 injured",
-   "url": "https://www.portugalresident.com/minister-condemns-albufeira-oura-incident-12-injured/",
-   "published_at": "2026-08-25T10:11:31+00:00",
-   "query": "",
-   "doc_id": "cddd9d6add1aa73d",
-   "title_en": "Minister condemns Albufeira hit-and-run that left 12 injured",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "Portugal crime news; unrelated to property or cross-border buying."
+   "rationale": "Agricultural data; unrelated to property or cross-border buying."
   },
   {
    "source_id": "portugal_resident",
@@ -561,21 +645,7 @@
    "title_en": "Director of Portuguese Erasmus+ agency honoured by Ukraine",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Education-programme news; unrelated to property or cross-border buying."
-  },
-  {
-   "source_id": "portugal_resident",
-   "lang": "en",
-   "stream": "news",
-   "title": "Police torture probe: ‘Many more officers believed to be involved’",
-   "url": "https://www.portugalresident.com/police-torture-probe-many-more-officers-believed-to-be-involved/",
-   "published_at": "2026-08-25T09:30:15+00:00",
-   "query": "",
-   "doc_id": "4e2605b5282ea299",
-   "title_en": "Police torture probe: 'Many more officers believed to be involved'",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "Portugal criminal investigation; unrelated to property or cross-border buying."
+   "rationale": "Education-sector honour; unrelated to property or cross-border buying."
   },
   {
    "source_id": "portugal_resident",
@@ -595,20 +665,6 @@
    "source_id": "gnews_en",
    "lang": "en",
    "stream": "news",
-   "title": "Brazil Investor Visa (VIPER) – The Ultimate Guide 2026 - Get Golden Visa",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IOTFZWE1BVUhYTmo0bUpEUENKb0MtOEV2ZVJhWUFHTm1vMkJjZG5qN1FWNENmY3VMb3Bld25rU1BCNGRpSFZBUEFMQmtVT2F0VUpCZm9mY2wzUQ?oc=5",
-   "published_at": "2026-08-24T13:45:28+00:00",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "doc_id": "443ea900b2660503",
-   "title_en": "Brazil Investor Visa (VIPER) – The Ultimate Guide 2026 - Get Golden Visa",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "Brazil visa programme; unrelated to corridor or cross-border European second homes."
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
    "title": "Central Asia Golden Visa and Citizenship Guide - IMI Daily",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQc2hNQ3dERnhaY0lSa1lKamc5MWxOdkIxeUEtODdidkRucDJjTDVmbHBDOFZWa2FtVGhvTV9QOW1CeG9MWUw2bzZvWE9FcFhNaWNUM01XZzRqQ0l0blY1OUdvQ1BuZGYwREtqVlhIRUU1bi1IeVpvTXctaTNBU1hoX0FjVQ?oc=5",
    "published_at": "2026-08-24T16:12:12+00:00",
@@ -617,7 +673,7 @@
    "title_en": "Central Asia Golden Visa and Citizenship Guide - IMI Daily",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Central Asia outside corridor; no cross-border buying relevance."
+   "rationale": "Central Asia outside corridor; not cross-border European property"
   },
   {
    "source_id": "gnews_en",
@@ -631,7 +687,7 @@
    "title_en": "Silver: It's time to rethink Canada's foreign buyer ban - Real Estate Magazine Canada",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Canada domestic; outside Spain, Portugal, Italy, France, Greece corridor."
+   "rationale": "Canada domestic policy; not corridor property"
   },
   {
    "source_id": "gnews_en",
@@ -645,7 +701,7 @@
    "title_en": "Letter to the Editor: Ending the foreign buyer ban won't fix housing - Real Estate Magazine Canada",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Canada domestic policy debate; outside corridor."
+   "rationale": "Canada domestic policy; not corridor property"
   },
   {
    "source_id": "gnews_en",
@@ -659,7 +715,7 @@
    "title_en": "£30,000 council tax bill?! Why plans for second home surcharge will harm Edinburgh – Brian Monteith - The Scotsman",
    "category": "OTHER",
    "score": 0,
-   "rationale": "UK domestic; outside corridor."
+   "rationale": "Scotland outside corridor; not EU second-home market"
   },
   {
    "source_id": "gnews_en",
@@ -673,7 +729,7 @@
    "title_en": "Was George Clooney 'very upset' about Mamdani's NYC wealth tax? - Snopes",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Celebrity gossip; US tax speculation; no property market relevance."
+   "rationale": "Celebrity gossip; unrelated to property or cross-border buying"
   },
   {
    "source_id": "gnews_en",
@@ -687,7 +743,7 @@
    "title_en": "Property Owners Challenge Rhode Island Second-Home Tax in Constitutional Lawsuit - Boston's ROCK 92.9",
    "category": "OTHER",
    "score": 0,
-   "rationale": "US domestic tax dispute; outside corridor."
+   "rationale": "US domestic tax; not corridor property"
   },
   {
    "source_id": "gnews_en",
@@ -701,7 +757,7 @@
    "title_en": "Korea Weighs 1.2 Billion Won Compromise on Second-Home Tax Break - Seoul Economic Daily",
    "category": "OTHER",
    "score": 0,
-   "rationale": "South Korea domestic; outside corridor."
+   "rationale": "Korea outside corridor; not cross-border European property"
   },
   {
    "source_id": "gnews_en",
@@ -715,7 +771,21 @@
    "title_en": "40+ Wealthy Homeowners Challenge 'Taylor Swift Tax' Charging $5 per $1,000 on Rhode Island Homes Over $1M - International Business Times UK",
    "category": "OTHER",
    "score": 0,
-   "rationale": "US domestic tax dispute; outside corridor."
+   "rationale": "US domestic tax; not corridor property"
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "Florida’s Proposed Property Tax Changes - Noticias Newswire",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNEtDZTBJRzVicnlpMXdNQ1dfVFpTMWFBZzZnUTExcEF4bTVrVjNjRFBqcmVnUVBud25CMTA4V2F0Y3NBdnRuWk9FeDIweE1fOFdjeUc1UUhQanV6bFRncDNwTnhiSFhNa1ptNFBJVkU3aHRaSkZ6bmh3TldLTHFkcg?oc=5",
+   "published_at": "2026-08-25T12:52:30+00:00",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "doc_id": "37c9c062443ef742",
+   "title_en": "Florida's Proposed Property Tax Changes - Noticias Newswire",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Florida outside corridor; US domestic policy"
   },
   {
    "source_id": "gnews_en",
@@ -729,7 +799,21 @@
    "title_en": "Tunnels reveals potential mine buyer, seeks court OK - The Monitor - Jefferson County",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Mining asset sale; unrelated to property or cross-border buying."
+   "rationale": "Mining transaction unrelated to residential property or corridor"
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "Prime London property values down 25% as tax changes bite - PropertyWire",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNkx6LW94VC1oc2RsOFN0alJWS2Y4Z181dnk5MXpGZDVuRkdrSzg2akwwbURGZ18tTGZMYms0VGs3TUFJblZ2RHJ6aDlhWnFrcDNuUV9jdnlwbUdnWUl5RVZwcmI3U0RjRzdwWF9tWHhqYzdqTVplY2x2T3VIX1VBWGFnbEVzSXhMczc4MDkzUnpvVV9ZQXdjc0RB?oc=5",
+   "published_at": "2026-08-25T06:02:57+00:00",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "doc_id": "29c0d1afd3607799",
+   "title_en": "Prime London property values down 25% as tax changes bite - PropertyWire",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "London UK-domestic market; outside corridor"
   },
   {
    "source_id": "gnews_en",
@@ -743,21 +827,7 @@
    "title_en": "Foreign Buyers Pull Back From U.S. Housing Market in 2026 - The World Property Journal",
    "category": "OTHER",
    "score": 0,
-   "rationale": "US domestic market; no corridor relevance."
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "US buyers ramp up USD 14bn wave of European asset manager takeovers - AMWatch",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00aE5hWG9zaFJ2QzlwYnNXbWNwUkdmNVRIcnVvcFVHelpiM25kSjVDdTVjOTJLTEJySVV5TzU1N3FjS2lXWFlEMlVNOVpZLWtQOUZWODFULVlwX21NelR4bnFQNzl3U015Nk5tc3Fsaw?oc=5",
-   "published_at": "2026-08-24T09:38:00+00:00",
-   "query": "\"cross-border\" property buyers Europe when:2d",
-   "doc_id": "5ecb649cd1b52938",
-   "title_en": "US buyers ramp up USD 14bn wave of European asset manager takeovers - AMWatch",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "Financial services M&A; not vacation or second-home property."
+   "rationale": "US domestic market; not corridor property"
   },
   {
    "source_id": "gnews_en",
@@ -771,7 +841,7 @@
    "title_en": "Inside Europe's Biggest M&A Deals of 2026 - European Business Magazine",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Corporate M&A; no specific property or cross-border buyer relevance."
+   "rationale": "Corporate M&A; not residential property or cross-border buying"
   },
   {
    "source_id": "gnews_en",
@@ -785,7 +855,7 @@
    "title_en": "Durrani Estates takes its brand across Dubai in major citywide outdoor push - Khaleej Times",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Dubai; entirely outside corridor."
+   "rationale": "Dubai outside corridor; not cross-border European property"
   },
   {
    "source_id": "gnews_en",
@@ -799,7 +869,7 @@
    "title_en": "They're absolutely minted, so what are Farrah Brittany and Zach Goldsmiths insane net worths? - The Tab",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Celebrity net-worth gossip; unrelated to property or cross-border buying."
+   "rationale": "Celebrity gossip; unrelated to property or cross-border buying"
   },
   {
    "source_id": "gnews_en",
@@ -813,21 +883,7 @@
    "title_en": "Got a box of old tech gathering dust? I gave ChatGPT a photo of mine and ended up $130 richer - TechRadar",
    "category": "OTHER",
    "score": 0,
-   "rationale": "ChatGPT consumer gadget resale; unrelated to property."
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "When an AI Agent Acts for the Company, Who Is Liable? - Mexico Business News",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWEMxRWRaeDVoWmo1RmJYRENHY0h2YmtiNjVEbmJVclFHaVJBVTZyQ2RpTGk1WmE4eTl5SGJTZmdmTk1sR3NBZkdMekRiT2xhNlNjX3ZWTE5ZYjJmRzYxTmNvOGotaXRuZHlQS1Bsb3BrRnlHQUhsaVBHQXZPZkJ3dg?oc=5",
-   "published_at": "2026-08-24T14:30:00+00:00",
-   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
-   "doc_id": "b19a3ad4a606808b",
-   "title_en": "When an AI Agent Acts for the Company, Who Is Liable? - Mexico Business News",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "Legal liability framework; Mexico; no property or corridor relevance."
+   "rationale": "Consumer tech; unrelated to property or cross-border buying"
   },
   {
    "source_id": "gnews_en",
@@ -838,24 +894,10 @@
    "published_at": "2026-08-24T21:01:00+00:00",
    "query": "ChatGPT OR \"AI agent\" property buying when:2d",
    "doc_id": "e31bf604837c54d2",
-   "title_en": "FOMO drives young Koreans to risky stocks and first-home buying - CHOSUNBIZ - Chosunbiz",
+   "title_en": "FOMO drives young Koreans to risky stocks and first-home buying",
    "category": "OTHER",
    "score": 0,
-   "rationale": "South Korea domestic; outside corridor."
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "ZipISA Wants You To Treat Your AI Agent Like A Domain Name - The Tech Buzz",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONXEzNzVvb1IxX0VjWExzSk9LekhSM2duRFBwMWVVTUJHLUxIam5FaVAzdDM1OVJCa1FsdDZNSWl2dGszcUZpU2lGNjg3OC1PTVRQSmtpM2U0Y3gybWtyYUNRV2Z1OTJ6RVdLVlpYd0RobGFkT2dYTHNyenc3WFlMcEI2alV5YWtVQXczaTJ0dTNhbGE2QnJubktTTWRtMlZxeGQ4QWk3VndaeEg3cWliNUdkNzNlZGVwVjZ5X0VUdmhKT2pjbExMWFJiN29obTRFdnc?oc=5",
-   "published_at": "2026-08-24T15:32:58+00:00",
-   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
-   "doc_id": "4bd128520690b1bf",
-   "title_en": "ZipISA Wants You To Treat Your AI Agent Like A Domain Name - The Tech Buzz",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "Tech infrastructure, unrelated to property or cross-border buying."
+   "rationale": "Korea domestic market, no corridor relevance, no cross-border element."
   },
   {
    "source_id": "gnews_en",
@@ -866,10 +908,10 @@
    "published_at": "2026-08-24T21:37:52+00:00",
    "query": "ChatGPT OR \"AI agent\" property buying when:2d",
    "doc_id": "a69039ad1cc0fb08",
-   "title_en": "Houston First-Time Buyers Could Get Up to $75K in Down Payment Help - Realtor.com",
+   "title_en": "Houston First-Time Buyers Could Get Up to $75K in Down Payment Help",
    "category": "OTHER",
    "score": 0,
-   "rationale": "US domestic market, outside corridor, no cross-border element."
+   "rationale": "US domestic subsidy, no corridor or cross-border buyer relevance."
   },
   {
    "source_id": "gnews_en",
@@ -880,10 +922,10 @@
    "published_at": "2026-08-24T13:30:46+00:00",
    "query": "ChatGPT OR \"AI agent\" property buying when:2d",
    "doc_id": "1720106c54673193",
-   "title_en": "ChatGPT vs. Gemini: Don't Pick a Chatbot Until You Read This - PCMag",
+   "title_en": "ChatGPT vs. Gemini: Don't Pick a Chatbot Until You Read This",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Generic tech comparison, unrelated to property or corridor."
+   "rationale": "Generic tech comparison, no property market relevance."
   },
   {
    "source_id": "gnews_en",
@@ -894,10 +936,10 @@
    "published_at": "2026-08-24T18:07:31+00:00",
    "query": "ChatGPT OR \"AI agent\" property buying when:2d",
    "doc_id": "e829dcb22796d857",
-   "title_en": "RegNews - regnews.in",
+   "title_en": "RegNews",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Appears to be homepage link, India focus, no corridor property context."
+   "rationale": "No headline content; cannot assess relevance."
   },
   {
    "source_id": "gnews_en",
@@ -908,10 +950,10 @@
    "published_at": "2026-08-24T08:04:42+00:00",
    "query": "ChatGPT OR \"AI agent\" property buying when:2d",
    "doc_id": "a63d5bc31a976c9b",
-   "title_en": "₹4 Crore Home Purchase Leaves Reddit User Worried About ₹70 Lakh More; Check Here - Asianet Newsable",
+   "title_en": "₹4 Crore Home Purchase Leaves Reddit User Worried About ₹70 Lakh More; Check Here",
    "category": "OTHER",
    "score": 0,
-   "rationale": "India domestic property story, outside corridor entirely."
+   "rationale": "India domestic real estate, no corridor or cross-border relevance."
   },
   {
    "source_id": "gnews_ar",
@@ -922,38 +964,10 @@
    "published_at": "2026-08-24T12:40:34+00:00",
    "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
    "doc_id": "6629a099c2a878f6",
-   "title_en": "8,000 Students from 86 Universities and Institutes in Egyptian Programming Championship - Al-Khalij Newspaper",
+   "title_en": "8,000 Students from 86 Universities and Institutes Compete in Egyptian Programming Championship",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Tech education, unrelated to property or corridor."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "أسهم أوروبا تتباين مع تراجع أسهم التكنولوجيا - صحيفة الخليج",
-   "url": "https://news.google.com/rss/articles/CBMiwgRBVV95cUxOY25qUDJ3RDVPUm9mT01DR3NINGVNSlRRZU1rTkU5YWtFMU5Kckt6dlJfRExVWTJSSmVSRmJlYk9Jdmp4NWF1RUxyZjVZWURoYnMyRGRlTnZBbmtBVmNYVXk4SDFySFJnN001Zjc2TDR6QWR3NFYzQjZxNW5aMnZkeWd2dkdreTJBZFVydnM4eTl2UFhobk9udS1tSE5wRllBRlRZc2tpamRJb05Qal9JTzU5aXlXZmd1MzhhZVRzd09hSWpFR3JVRDg5RlJNTkJkN05qUnZQeEZUNURXZ0Vpc05ibUtGN3ZMRHNVdU1GZWdOWmlpRnpvM2g5UmVETk9xSC0tek40VkZxWFhWZjBMc041STR2eDg5MlhZYURMdDMxV21UOVY1QWlGZ0lBWl9CLXpET0pkc0FZRVdzYTZfYkFRSmZfd2p3cHAtVzR3S3MzdGpOOF9WQVdJaHFpbjBKS1ppMWVKZVhVeWpUOUNhWkFwU0lKbEk3NFgxNUhIM3R4WkdFcmthTU11UHpZdzBKNzQwQzRUc2tjdk0zV1ZSOWQ3c05ZWmJTSnFrYWlFNGg5cTRGMzJkd0RPa0pBZnJuSDVyRFhvalRVT3Z2WVFZdmx4SGNYTTMycld5YmxGUFpYSjVnV19DQ24zTDFtTnN0UVRtSEV4bS1PeTIzcW1QSTZmOENva2s1dy1SYlVzbVpBSm94VzFWNi1JVE9mWlRWTlJ5MGh1TW03MG9SMjBTbHI1aW1xUWFXUWZEU2ZsYkhGQQ?oc=5",
-   "published_at": "2026-08-24T10:08:29+00:00",
-   "query": "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d",
-   "doc_id": "c0c734099f3dc485",
-   "title_en": "European Stocks Mixed as Technology Stocks Decline - Al-Khalij Newspaper",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "Financial markets, not property or cross-border buying."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "Das Ende der Fernost-Fabrik: Von China nach Osteuropa – So radikal verdrahten Top-Unternehmen ihre Warenströme gerade neu - Xpert.Digital - Konrad Wolfenstein",
-   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNOG54TWl2NmdiVnBYYTJ5emMyUFVVZHJuQ0U5NExPQi1BRm1XbXpOSHE1MGU1N19QWlNYN1pQRUlxcGRrdm55ZXM2aFBvd3dNTzVSZmFQZ3d2ZENkUDNOZUhhMVZ4Sk9pbTV6YkJWT0lDenNpU2h6TWFBZ19wWENPTTBBdmZHM3JhN1FUTVkyY0h4M0taTGQ0XzZZclJtRkZFdXp3YzhPdHh4aXhHZlAwQ3JmSnBkMW8ycmkwdHlmdENuQlBpSGFrX1VicUV3RktpbG5sWnN2QWRNWEtXdVBfS3kzNjhIQVZfcGxoSjhBSUNWN1hCVEp1QjhkSEjSAYQCQVVfeXFMUDlMbENieDNkcmNFdDhoZktHZW8wWEtfZC1uMHpNWTk2S1NhUXFEcXhBbUxhbmwyVmtLN2lpQzVQeXZQVVhLeW9NOFpkQ09WcTJFTlgxaEFXWnZWVjBkdVZZXzZuZUJVVllUQUJkNGRTX2F1eW84UEJRTHhXOG4tcVJWdDBWMHl0NklZeXZUdGpVaS1GcDRCWWhnc0NBWE9TSDdES2lCYnVFeFVtVFlhUzQ1VnVwVi1tU1ZYUDRhbEJ1NGJvTmtUS2MzUEJOTko0dWgwRVZTNHVZMlBvLVBnZzFGa3V2elNxZENneHFxX2VfS2YzUHhiMl91ZTRjcXdfc0I3ZGM?oc=5",
-   "published_at": "2026-08-24T13:12:36+00:00",
-   "query": "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d",
-   "doc_id": "cc7504de5bc08f23",
-   "title_en": "The End of Far-East Factory: From China to Eastern Europe – How Top Companies Are Radically Rewiring Their Supply Chains Right Now - Xpert.Digital - Konrad Wolfenstein",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "Supply chain reshoring, unrelated to property or cross-border buyers."
+   "rationale": "STEM education, no property or corridor relevance."
   },
   {
    "source_id": "gnews_ar",
@@ -964,10 +978,10 @@
    "published_at": "2026-08-24T09:18:45+00:00",
    "query": "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d",
    "doc_id": "5838e33444371515",
-   "title_en": "China Allows Withdrawal of Housing Fund Savings to Stimulate Consumption - Al-Mashhad Al-Arabi",
+   "title_en": "China Allows Withdrawal of Housing Fund Savings to Boost Consumption",
    "category": "OTHER",
    "score": 0,
-   "rationale": "China housing stimulus, outside corridor, no cross-border implication."
+   "rationale": "China domestic policy, no corridor or cross-border EU property relevance."
   },
   {
    "source_id": "gnews_ar",
@@ -978,24 +992,10 @@
    "published_at": "2026-08-25T11:13:00+00:00",
    "query": "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d",
    "doc_id": "7e5c5c21a638565b",
-   "title_en": "World Press Today: Trump Baron Latest Iran Targets... Canada Announces Retaliatory Tariffs Against Washington... Ukraine Cooperates with Britain Against Russia With 'Intelligence Goldmine'... And 32,000 Deaths Over 90 Days in Europe Due to Heat - Al-Youm Al-Sabea",
+   "title_en": "World Press Today: Baron Trump Latest Iran Target..Canada Announces Retaliatory Tariffs Against Washington..Ukraine Cooperates with Britain Against Russia in 'Intelligence Mine'..and 32,000 Deaths in 90 Days in Europe Due to Heat",
    "category": "OTHER",
    "score": 0,
-   "rationale": "News digest; geopolitics and weather, not property or cross-border buying."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "الأسهم الأوروبية تتفوق عالميًا.. و«سيتي» يتوقع مزيدًا من الصعود رغم المخاطر الجيوسياسية - بانكير",
-   "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFA1N2h6dHV2dXVvUFctc2QwWFdNbnZfdUdQYk9lYzRaU3ZFU1d0V3RKYkVRTVJhSTRDbFpvd1JKS190ck9E?oc=5",
-   "published_at": "2026-08-24T20:42:26+00:00",
-   "query": "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d",
-   "doc_id": "2981f68b33831b27",
-   "title_en": "European Stocks Outperform Globally... and 'Citi' Expects More Gains Despite Geopolitical Risks - Banker",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "European equity markets, not property or cross-border buying."
+   "rationale": "Geopolitics and weather, not property-market relevant."
   },
   {
    "source_id": "gnews_es",
@@ -1006,10 +1006,10 @@
    "published_at": "2026-08-25T05:00:00+00:00",
    "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
    "doc_id": "efa34e57ee6985db",
-   "title_en": "Panama Proposes 7% Tax on Services like Netflix: How It Works in the Rest of Latam - Bloomberg Línea",
+   "title_en": "Panama Proposes 7% Tax on Services Like Netflix: How It Works in the Rest of Latin America",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Latin America digital tax, outside corridor, no property element."
+   "rationale": "Panama/Latin America tax policy, outside corridor."
   }
  ]
 }
