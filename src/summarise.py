@@ -1,12 +1,13 @@
-"""Synthesis pass. One call, sees the whole day at once.
+"""Synthesis pass, in two stages.
 
-Runs after classification, before rendering. Produces a lead item and a short
-synthesis that sit at the top of the report. Adds nothing to the filtering
-logic — everything classified still ships below, in full.
+Stage 1 (`summarise`) reads every headline of the day and picks the top ten.
+Stage 2 (`write_up`) receives those ten with their article text — fetched by
+article.py in between — and writes the entry for each.
 
-Model: claude-sonnet-5. One call per day over a few hundred short titles is
-fractions of a cent, and picking out what actually matters is a judgement call
-the Haiku tier does noticeably worse.
+Splitting them is what makes the article fetch affordable: only the selected
+handful get resolved and downloaded, not the whole day.
+
+Model: claude-sonnet-5 for both.
 """
 
 from __future__ import annotations
@@ -20,8 +21,8 @@ from anthropic import Anthropic
 log = logging.getLogger("summarise")
 
 MODEL = "claude-sonnet-5"
-MAX_TOKENS = 16000       # thinking shares this budget; 10 entries x 2 paras
-MAX_ITEMS = 220          # titles sent for synthesis; ordering already ranks them
+MAX_TOKENS = 16000       # thinking shares this budget
+MAX_ITEMS = 220          # titles sent for selection; ordering already ranks them
 
 SYSTEM = """You write the opening block of a daily market monitor.
 
@@ -67,18 +68,8 @@ consequential, return an empty top list and let summary say so in one sentence
 and useful answer. A monitor that finds a headline every single day teaches
 its reader to stop believing it.
 
-You have the headline and nothing else. This is the hard constraint on every
-why line you write.
-
-Never invent a figure, date, place or detail that is not in the title. Do not
-describe what the article "reports" or "says" — you have not read it. Where
-you are reasoning past the headline, the sentence must read as your inference:
-"if this confirms X, then Y" rather than "X has happened". A confident
-sentence built on a headline you half-understood is worse than a short one,
-because the reader cannot tell the difference without opening the link.
-
-If a title is too thin to support two paragraphs of honest analysis, that is
-information: the item does not belong in the top. Drop it.
+You have the headline and nothing else at this stage. Never invent a figure,
+date, place or detail that is not in the title.
 
 Distinguish announced from enacted. A proposed tax and a passed tax are not
 the same event, and the difference is often the whole story.
@@ -98,28 +89,29 @@ For each item you receive an id, a headline, and — sometimes — the article
 text. Return a JSON array of objects:
 
   id     unchanged
-  body   two short paragraphs, 60-110 words total, separated by a blank line.
+  body   ONE paragraph, 50-90 words. Substance only.
 
-         First paragraph: the concrete substance. Figures, dates, regions,
-         named parties, what takes effect when. This is the paragraph that
-         justifies the whole pipeline, so use the article text hard.
+         Figures, dates, regions, named parties, thresholds, what takes
+         effect when and what is still undefined. This is the paragraph
+         that justifies the whole pipeline, so use the article text hard
+         and pack it.
 
-         Second paragraph: what it means for her. Name the part of the
-         business it touches — the True-Cost Engine, the Costa del Sol or
-         Costa Blanca corridor, the commission split, an archetype in the
-         segmentation, the neutrality position — and what she might do.
+         Do not add a paragraph on what it means for her, what she should
+         do, or which part of her business it touches. She draws those
+         conclusions herself and does it better than you can. Your job is
+         to put the facts in front of her, densely and accurately, so she
+         does not have to open the link.
 
 The rule that governs everything else:
 
-Where article text is provided, every figure and date in your first paragraph
-must come from it. Do not round, do not restate from memory, do not fill a
-gap with what is usually true.
+Where article text is provided, every figure and date in your paragraph must
+come from it. Do not round, do not restate from memory, do not fill a gap
+with what is usually true.
 
-Where article text is NOT provided, you have the headline alone. Say less.
-Write what the headline supports and no more, and let the sentence read as
-inference — "if this is a rate change rather than a proposal, then" — instead
-of asserting a fact you cannot see. Never write that the article "reports" or
-"states" anything when you were not given it.
+Where article text is NOT provided, you have the headline alone. Say less —
+two sentences is a fine answer, and padding to reach 50 words means inventing
+substance. Write what the headline supports and no more. Never write that the
+article "reports" or "states" anything when you were not given it.
 
 Distinguish announced from enacted. A proposed tax and a passed tax are not
 the same event, and the difference is often the whole story.
@@ -167,7 +159,7 @@ def _extract_json(text: str):
         except json.JSONDecodeError:
             pass
     # Truncated mid-object: salvage whatever complete entries exist rather
-    # than losing the whole block. Close the open structures and retry.
+    # than losing the whole block.
     fragment = text[start:]
     for closer in ("}]}", "\"}]}", "]}", "}"):
         try:
@@ -201,11 +193,11 @@ def _extract_array(text: str):
 
 
 def write_up(top: list, texts: dict) -> None:
-    """Fill each top entry's `body` from the article text where available.
+    """Fill each top entry's body from the article text where available.
 
     Mutates `top` in place. On failure the entry keeps the one-line `why`
-    from the selection pass, so the report degrades to the previous format
-    rather than losing the item.
+    from the selection pass, so the report degrades rather than losing the
+    item.
     """
     if not top:
         return
@@ -245,7 +237,7 @@ def write_up(top: list, texts: dict) -> None:
 
 
 def summarise(items) -> dict | None:
-    """Return {lead, lead_why, summary, watch} or None if unavailable.
+    """Return {top, summary, watch} or None if unavailable.
 
     None means the report renders without a top block. It never means an item
     is dropped.
