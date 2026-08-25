@@ -281,12 +281,14 @@ def fetch_all(config, keywords) -> FetchResult:
         try:
             if source["kind"] == "rss":
                 items = _from_feed(source["url"], source, settings)
-                if source.get("stream") == "regulatory":
-                    terms = _gazette_terms(source, keywords)
+                terms = _match_terms(source, keywords)
+                if terms:
+                    before = len(items)
                     items = [i for i in items if _matches(i.title, terms)]
+                    log.info("%s match: %d of %d kept", sid, len(items), before)
 
             elif source["kind"] == "boe_api":
-                items = _from_boe(source, settings, _gazette_terms(source, keywords))
+                items = _from_boe(source, settings, _match_terms(source, keywords))
 
             elif source["kind"] == "gnews":
                 items = []

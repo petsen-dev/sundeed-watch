@@ -109,7 +109,7 @@ def render(items, status_line: str, ingested: int, digest: dict | None = None,
     lines.append(f"<i>ingested {ingested} · delivered {len(items)} · {_esc(status_line)}</i>")
     if failures:
         lines.append("")
-        lines.append("<b>Dead sources</b>")
+        lines.append("<b>Problems</b>")
         lines.append(f"<pre>{_esc(failures)}</pre>")
     return "\n".join(lines)
 

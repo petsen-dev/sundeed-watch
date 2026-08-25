@@ -166,10 +166,12 @@ def main() -> int:
     # 5 — synthesis over the whole day. Purely additive: it writes the block at
     #     the top and cannot remove anything from the list below.
     digest = None
+    notes: list[str] = []
     if not args.no_llm and not args.no_summary:
         digest = summarise.summarise(items, pref)
         if digest is None:
             log.warning("no summary this run — report renders without it")
+            notes.append("synthesis failed — no top block this run")
         elif digest.get("top"):
             # Only the selected handful get resolved and fetched. Doing this
             # for the whole day would trip Google's rate limiting and take
@@ -179,10 +181,13 @@ def main() -> int:
                 row["sourced"] = row["item"].doc_id in texts
             for row in digest["top"]:
                 row.setdefault("written", False)
-            summarise.write_up(digest["top"], texts)
+            if not summarise.write_up(digest["top"], texts):
+                notes.append("write-up failed — entries show selection notes")
 
-    text = report.render(items, result.status_line, ingested, digest,
-                         result.failure_detail)
+    detail = result.failure_detail
+    if notes:
+        detail = "\n".join(notes + ([detail] if detail else []))
+    text = report.render(items, result.status_line, ingested, digest, detail)
     path = archive(items, ingested, result.status_line)
     update_query_stats(items)
     log.info("archived → %s", path)
