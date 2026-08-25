@@ -171,7 +171,7 @@ def main() -> int:
         digest = summarise.summarise(items, pref)
         if digest is None:
             log.warning("no summary this run — report renders without it")
-            notes.append("synthesis failed — no top block this run")
+            notes.append(f"synthesis failed — {summarise.last_error}")
         elif digest.get("top"):
             # Only the selected handful get resolved and fetched. Doing this
             # for the whole day would trip Google's rate limiting and take
@@ -182,7 +182,7 @@ def main() -> int:
             for row in digest["top"]:
                 row.setdefault("written", False)
             if not summarise.write_up(digest["top"], texts):
-                notes.append("write-up failed — entries show selection notes")
+                notes.append(f"write-up failed — {summarise.last_error}")
 
     detail = result.failure_detail
     if notes:
