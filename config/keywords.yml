@@ -1,17 +1,27 @@
-# Sundeed Watch — keyword sets
+# Sundeed Watch — keyword sets  (v2, operator-based)
 #
-# These define RETRIEVAL, not filtering. Nothing here removes an item from the
-# report; these are the queries used to pull material in. Everything fetched is
-# translated, ranked and delivered.
+# These define RETRIEVAL, not delivery. Everything fetched is still translated,
+# ranked and delivered in full. What changed in v2 is precision at the source:
+# instead of bag-of-words matching across the whole index, queries now use
+# Google News operators.
 #
-# Taxonomy categories used by the classifier:
-#   REGULATORY       taxes, licences, rental rules, ownership restrictions
-#   OWNERSHIP-MODEL  fractional, co-ownership, swaps, rent-to-own
-#   UPFUNNEL         who else moves into "rules and costs" before the listing
-#   DEMAND-FLOW      cross-border buyer volumes and corridors
-#   COMMISSION-MODEL splits, buyer agency, referral fees
-#   CHANNEL          AI assistants, search, distribution
-#   HEADLINE-GAP     announced vs actually enacted
+# Operators available inside q=
+#   "exact phrase"   locks wording — the single biggest noise reduction
+#   intitle:x        x must be in the headline, not a passing mention
+#   OR               capitalised, groups alternatives
+#   -x               excludes x
+#   site:domain      one publisher only
+#   when:2d          last two days
+#
+# Craft notes:
+#   - Quote the ENTITY, leave the rest loose. "golden visa" Spain beats
+#     "Spain golden visa threshold" — few articles use the full phrase.
+#   - intitle: on any term that appears casually everywhere (tax, property).
+#   - Every Arabic query must name a European destination, or it returns Gulf
+#     domestic coverage.
+#
+# Taxonomy: REGULATORY · OWNERSHIP-MODEL · UPFUNNEL · DEMAND-FLOW ·
+#           COMMISSION-MODEL · CHANNEL · HEADLINE-GAP
 
 # ---------------------------------------------------------------------------
 # ENGLISH
@@ -20,133 +30,117 @@ en:
   locale: { hl: en-GB, gl: GB, ceid: "GB:en" }
   extra_locales:
     - { hl: en-US, gl: US, ceid: "US:en" }
+  suffix: "when:2d"
 
   REGULATORY:
-    - "Spain non-resident property tax"
-    - "Spain transfer tax ITP change"
-    - "Portugal IMT IMI change"
-    - "foreign buyer property restrictions Europe"
-    - "second home council tax premium"
-    - "short-term rental licence ban"
-    - "golden visa real estate threshold"
-    - "empty homes tax"
-    - "non-resident buyer surcharge"
-    - "tourist rental permit suspension"
+    - '"non-resident" intitle:property Spain OR Portugal'
+    - 'intitle:"transfer tax" Spain OR Portugal OR Italy'
+    - '"ITP" OR "impuesto de transmisiones" Spain property'
+    - '"IMT" OR "IMI" Portugal property tax'
+    - 'intitle:"golden visa" Portugal OR Greece OR Spain OR Italy'
+    - '"foreign buyer" intitle:ban OR intitle:restriction property'
+    - '"second home" intitle:tax OR intitle:premium'
+    - '"short-term rental" intitle:licence OR intitle:ban Spain OR Portugal'
+    - '"tourist rental" intitle:permit Spain'
+    - '"estate agent" intitle:register Spain OR Andalusia OR Valencia'
 
   OWNERSHIP-MODEL:
-    - "fractional ownership second home"
-    - "co-ownership holiday home platform"
-    - "Pacaso"
-    - "Prello OR Vivla OR MYNE OR Altacasa"
-    - "August Collection co-ownership"
-    - "second home swap exchange platform"
-    - "shared ownership vacation property"
-    - "timeshare alternative fractional"
+    - 'intitle:"fractional ownership" property'
+    - '"co-ownership" "second home" OR "holiday home"'
+    - 'intitle:Pacaso'
+    - 'Prello OR Vivla OR MYNE OR Altacasa property'
+    - '"second home" intitle:swap OR intitle:exchange platform'
+    - 'timeshare alternative fractional -resort'
 
   UPFUNNEL:
-    - "property portal buyer tools launch"
-    - "idealista new buyer feature"
-    - "AI property search Europe"
-    - "buying abroad guide launch platform"
-    - "property cost calculator launch"
+    - 'idealista intitle:launch OR intitle:tool OR intitle:feature'
+    - '"property portal" intitle:buyers'
+    - '"AI" "property search" Europe intitle:launch'
+    - '"buying abroad" intitle:guide OR intitle:platform property'
+    - '"cost calculator" property Spain OR Portugal'
 
   DEMAND-FLOW:
-    - "foreign buyers Spain property statistics"
-    - "international buyers Portugal property"
-    - "second home purchases abroad data"
-    - "cross-border property buyers Europe"
-    - "Gulf buyers European property"
-    - "American buyers Italy Portugal property"
-    - "expat property purchases coastal Spain"
+    - '"foreign buyers" Spain property intitle:data OR intitle:figures OR intitle:rise'
+    - '"international buyers" Portugal OR Italy property'
+    - '"cross-border" property buyers Europe'
+    - '"Gulf" OR "Middle East" buyers Spain OR Portugal OR Greece property'
+    - '"American buyers" Italy OR Portugal OR Spain property'
+    - '"second home" purchases abroad intitle:data OR intitle:survey'
+    - '"non-resident purchases" Spain'
 
   COMMISSION-MODEL:
-    - "buyer agent commission"
-    - "NAR settlement buyer agency"
-    - "estate agency commission split"
-    - "referral fee real estate regulation"
-    - "buyer's agent Europe launch"
+    - 'intitle:"buyer agent" commission'
+    - '"NAR settlement" buyer agency commission'
+    - '"commission split" estate agency'
+    - '"referral fee" real estate intitle:rule OR intitle:regulation'
+    - '"personal shopper" property Spain'
 
   CHANNEL:
-    - "AI assistant real estate shopping"
-    - "ChatGPT property search"
-    - "proptech funding round second home"
+    - '"AI assistant" property search intitle:launch'
+    - 'ChatGPT OR "AI agent" property buying'
+    - 'proptech intitle:funding "second home" OR "holiday home"'
 
   HEADLINE-GAP:
-    - "property tax proposal not passed"
-    - "housing bill stalled parliament Spain"
-    - "real estate law delayed implementation"
+    - 'Spain property tax intitle:scrapped OR intitle:dropped OR intitle:shelved'
+    - 'housing bill intitle:stalled OR intitle:delayed Spain OR Portugal'
+    - '"not debated" OR "never voted" property law Spain'
 
 # ---------------------------------------------------------------------------
 # ARABIC  (العربية)
 # ---------------------------------------------------------------------------
-# Note on query design: raw "عقارات" returns overwhelmingly domestic Gulf and
-# Egyptian market coverage. Terms below are corridor-shaped — they pair the
-# buyer origin with the European destination — plus a set of broad terms so
-# nothing is pre-excluded.
+# Rule applied throughout: every query names a European destination. Without
+# it, Gulf and Egyptian domestic coverage swamps everything — the corridor is
+# a rounding error in Arabic property news volume.
 ar:
   locale: { hl: ar, gl: AE, ceid: "AE:ar" }
   extra_locales:
     - { hl: ar, gl: SA, ceid: "SA:ar" }
-    - { hl: ar, gl: EG, ceid: "EG:ar" }
+  suffix: "when:2d"
 
   REGULATORY:
-    - "ضريبة العقارات في إسبانيا"        # property tax in Spain
-    - "ضريبة نقل الملكية"                 # transfer tax
-    - "تملك الأجانب للعقارات"             # foreign ownership of property
-    - "قيود على المشترين الأجانب"          # restrictions on foreign buyers
-    - "الإقامة الذهبية"                   # golden residency
-    - "التأشيرة الذهبية العقارية"          # golden visa via real estate
-    - "الإقامة عن طريق الاستثمار العقاري"  # residency by property investment
-    - "تنظيم الإيجار قصير الأجل"           # short-term rental regulation
-    - "حظر شراء العقارات للأجانب"          # ban on foreign property purchase
+    - '"ضريبة العقارات" إسبانيا OR البرتغال'
+    - '"تملك الأجانب" إسبانيا OR البرتغال OR اليونان'
+    - '"الإقامة الذهبية" أوروبا OR البرتغال OR اليونان'
+    - '"التأشيرة الذهبية" عقار أوروبا'
+    - '"الإيجار قصير الأجل" إسبانيا OR البرتغال'
+    - 'قيود شراء العقارات الأجانب أوروبا'
 
   OWNERSHIP-MODEL:
-    - "الملكية الجزئية للعقارات"           # fractional property ownership
-    - "التملك المشترك للمنازل"             # co-ownership of homes
-    - "المشاركة في ملكية العقار"           # shared property ownership
-    - "بديل التايم شير"                    # timeshare alternative
+    - '"الملكية الجزئية" عقار أوروبا'
+    - '"التملك المشترك" منزل أوروبا OR إسبانيا'
 
   UPFUNNEL:
-    - "منصة عقارية أوروبية"                # European property platform
-    - "دليل شراء عقار في أوروبا"           # guide to buying property in Europe
-    - "حاسبة تكاليف شراء العقار"           # property cost calculator
+    - '"منصة عقارية" أوروبا OR إسبانيا'
+    - '"شراء عقار" دليل أوروبا'
 
   DEMAND-FLOW:
-    - "المستثمرون الخليجيون في أوروبا"      # Gulf investors in Europe
-    - "مستثمرون سعوديون عقارات أوروبا"      # Saudi investors European property
-    - "مستثمرون إماراتيون عقارات أوروبا"    # Emirati investors European property
-    - "المشترون العرب عقارات إسبانيا"       # Arab buyers Spanish property
-    - "شراء عقار في الخارج"                # buying property abroad
-    - "الاستثمار العقاري في أوروبا"         # real estate investment in Europe
-    - "عقارات إسبانيا للأجانب"             # Spanish property for foreigners
-    - "عقارات البرتغال للأجانب"            # Portuguese property for foreigners
-    - "عقارات اليونان الإقامة"             # Greek property residency
-    - "منزل ثانٍ في أوروبا"                # second home in Europe
-    - "بيت العطلات في إسبانيا"             # holiday home in Spain
-    - "شقق ماربيا"                        # Marbella apartments
-    - "عقارات كوستا ديل سول"               # Costa del Sol property
-    - "عقارات لشبونة"                     # Lisbon property
+    - '"المستثمرون الخليجيون" أوروبا OR إسبانيا OR البرتغال'
+    - 'مستثمرون سعوديون OR إماراتيون عقارات أوروبا'
+    - '"المشترون العرب" عقارات إسبانيا OR البرتغال'
+    - '"شراء عقار" إسبانيا OR البرتغال OR اليونان OR إيطاليا'
+    - '"الاستثمار العقاري" أوروبا الخليج'
+    - '"منزل ثانٍ" أوروبا'
+    - 'عقارات ماربيا OR "كوستا ديل سول" OR لشبونة'
+    - '"سوق العقارات" إسبانيا OR البرتغال'
 
   COMMISSION-MODEL:
-    - "عمولة الوسيط العقاري"               # real estate broker commission
-    - "وسيط المشتري العقاري"               # buyer's agent
-    - "الوساطة العقارية تنظيم"             # brokerage regulation
+    - '"الوساطة العقارية" أوروبا OR إسبانيا'
+    - '"عمولة الوسيط" عقار أوروبا'
 
   CHANNEL:
-    - "الذكاء الاصطناعي في العقارات"        # AI in real estate
-    - "تقنية العقارات تمويل"               # proptech funding
+    - '"الذكاء الاصطناعي" عقارات أوروبا'
 
   HEADLINE-GAP:
-    - "مشروع قانون العقارات لم يُقر"        # property bill not passed
-    - "تأجيل قانون العقارات"               # property law postponed
+    - 'قانون العقارات إسبانيا تأجيل OR إلغاء'
 
 # ---------------------------------------------------------------------------
-# SPANISH  — feeds the regulatory stream and Spanish trade press
+# SPANISH
 # ---------------------------------------------------------------------------
 es:
   locale: { hl: es-ES, gl: ES, ceid: "ES:es" }
+  suffix: "when:2d"
 
-  gazette_match:   # matched against BOE / BOJA / DOGV summary titles
+  gazette_match:   # matched against BOE / BOJA summary titles, not a query
     - "impuesto sobre transmisiones patrimoniales"
     - "ITP"
     - "actos jurídicos documentados"
@@ -159,17 +153,19 @@ es:
     - "no residentes"
 
   news:
-    - "impuesto compra vivienda extranjeros"
-    - "registro agentes inmobiliarios obligatorio"
-    - "compraventa vivienda extranjeros no residentes"
-    - "alquiler turístico normativa"
-    - "personal shopper inmobiliario"
+    - '"no residentes" intitle:vivienda OR intitle:impuesto'
+    - 'intitle:ITP tipo Andalucía OR Valencia OR Baleares'
+    - '"registro de agentes inmobiliarios" obligatorio'
+    - '"vivienda de uso turístico" intitle:licencia OR intitle:moratoria'
+    - '"compradores extranjeros" vivienda intitle:datos OR intitle:sube'
+    - '"personal shopper inmobiliario"'
 
 # ---------------------------------------------------------------------------
 # PORTUGUESE
 # ---------------------------------------------------------------------------
 pt:
   locale: { hl: pt-PT, gl: PT, ceid: "PT:pt-150" }
+  suffix: "when:2d"
 
   gazette_match:
     - "IMT"
@@ -181,7 +177,7 @@ pt:
     - "arrendamento de curta duração"
 
   news:
-    - "compra de casa por estrangeiros Portugal"
-    - "alojamento local licença"
-    - "mediação imobiliária regulamentação"
-    - "IMT alteração"
+    - 'intitle:IMT OR intitle:IMI alteração imóveis'
+    - '"alojamento local" intitle:licença OR intitle:suspensão'
+    - '"mediação imobiliária" intitle:regulamentação OR intitle:AMI'
+    - '"compradores estrangeiros" casa Portugal'
