@@ -26,40 +26,33 @@ def _esc(text: str) -> str:
     return html.escape(text or "", quote=False)
 
 
+def render_entry(rank: int, row) -> str:
+    """One top item as its own message — buttons attach to messages, not lines."""
+    item = row["item"]
+    title = _esc(item.title_en or item.title)
+    link = getattr(item, "resolved_url", "") or item.url
+    lines = [f'{rank}. <b><a href="{_esc(link)}">{title}</a></b>']
+    if row.get("sourced") is False:
+        lines.append("<i>headline only — article not retrieved</i>")
+    for para in (row.get("why") or "").split("\n\n"):
+        para = para.strip()
+        if para:
+            lines.append(_esc(para))
+    return "\n".join(lines)
+
+
+def vote_keyboard(doc_id: str) -> dict:
+    return {"inline_keyboard": [[
+        {"text": "\U0001F44D", "callback_data": f"up:{doc_id}"},
+        {"text": "\U0001F44E", "callback_data": f"down:{doc_id}"},
+    ]]}
+
+
 def render(items, status_line: str, ingested: int, digest: dict | None = None) -> str:
     today = dt.datetime.now(dt.timezone.utc).strftime("%d %b %Y")
     lines = [f"<b>{today} · Sundeed Watch</b>", ""]
 
     if digest:
-        top = digest.get("top") or []
-        if top:
-            lines.append(f"<b>TOP {len(top)}</b>")
-            # Every entry rendered identically — the tenth gets the same
-            # treatment as the first, or the ranking implies a depth of
-            # attention the content does not have.
-            for rank, row in enumerate(top, start=1):
-                item = row["item"]
-                title = _esc(item.title_en or item.title)
-                # Prefer the publisher URL once resolved — a news.google.com
-                # redirect is useless if the reader wants to cite it.
-                link = getattr(item, "resolved_url", "") or item.url
-                lines.append(
-                    f'{rank}. <b><a href="{_esc(link)}">{title}</a></b>'
-                )
-                if row.get("sourced") is False:
-                    # The reader must be able to tell a paragraph grounded in
-                    # the article from one inferred off the headline.
-                    lines.append("<i>headline only — article not retrieved</i>")
-                if row["why"]:
-                    # The model returns paragraphs separated by blank lines;
-                    # preserve them rather than collapsing to one block.
-                    for para in row["why"].split("\n\n"):
-                        para = para.strip()
-                        if para:
-                            lines.append(_esc(para))
-                            lines.append("")
-                else:
-                    lines.append("")
         if digest.get("summary"):
             lines.append(_esc(digest["summary"]))
             lines.append("")
@@ -112,6 +105,44 @@ def _split(text: str, limit: int = SAFE_LIMIT) -> list[str]:
     if current:
         parts.append(current)
     return parts
+
+
+def _post(payload: dict) -> None:
+    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    url = API.format(token=token)
+    resp = requests.post(url, json=payload, timeout=30)
+    if resp.status_code == 429:
+        wait = resp.json().get("parameters", {}).get("retry_after", 3)
+        time.sleep(wait + 1)
+        resp = requests.post(url, json=payload, timeout=30)
+    resp.raise_for_status()
+
+
+def send_digest(header: str, top: list) -> None:
+    """Header first, then one message per top item carrying its vote buttons."""
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    if not token or not chat_id:
+        raise RuntimeError("TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID not set")
+
+    base = {"chat_id": chat_id, "parse_mode": "HTML",
+            "disable_web_page_preview": True}
+
+    for rank, row in enumerate(top, start=1):
+        body = render_entry(rank, row)
+        for part in _split(body):
+            payload = dict(base, text=part)
+            # Keyboard goes on the last part only, so a long entry does not
+            # sprout two sets of buttons for the same item.
+            if part is _split(body)[-1]:
+                payload["reply_markup"] = vote_keyboard(row["item"].doc_id)
+            _post(payload)
+        time.sleep(1.2)
+
+    for part in _split(header):
+        _post(dict(base, text=part))
+        time.sleep(1.2)
+    log.info("sent %d entr(ies) + header", len(top))
 
 
 def send(text: str) -> None:

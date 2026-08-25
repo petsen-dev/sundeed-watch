@@ -24,6 +24,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import article            # noqa: E402
 import classify           # noqa: E402
 import dedupe             # noqa: E402
+import feedback           # noqa: E402
 import fetch              # noqa: E402
 import report             # noqa: E402
 import summarise          # noqa: E402
@@ -31,6 +32,8 @@ import summarise          # noqa: E402
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 STATE = ROOT / "state"
 SEEN_PATH = STATE / "seen.json"
+FEEDBACK_PATH = STATE / "feedback.json"
+STATS_PATH = STATE / "query_stats.json"
 ARCHIVE_DIR = STATE / "archive"
 
 logging.basicConfig(
@@ -128,6 +131,13 @@ def main() -> int:
     config = load_yaml(ROOT / "config" / "sources.yml")
     keywords = load_yaml(ROOT / "config" / "keywords.yml")
 
+    # 0 — drain any votes queued since the last run. Telegram holds
+    #     callback_query updates for 24h, which is exactly one cycle.
+    fb = feedback.load(FEEDBACK_PATH)
+    if not args.dry_run:
+        feedback.drain(fb)
+    pref = feedback.profile(fb)
+
     # 1 — ingest
     result = fetch.fetch_all(config, keywords)
     ingested = len(result.items)
@@ -157,7 +167,7 @@ def main() -> int:
     #     the top and cannot remove anything from the list below.
     digest = None
     if not args.no_llm and not args.no_summary:
-        digest = summarise.summarise(items)
+        digest = summarise.summarise(items, pref)
         if digest is None:
             log.warning("no summary this run — report renders without it")
         elif digest.get("top"):
@@ -175,10 +185,20 @@ def main() -> int:
     log.info("archived → %s", path)
 
     if args.dry_run:
+        if digest and digest.get("top"):
+            for rank, row in enumerate(digest["top"], start=1):
+                print(report.render_entry(rank, row))
+                print()
         print(text)
     else:
-        report.send(text)
+        if digest and digest.get("top"):
+            report.send_digest(text, digest["top"])
+            feedback.register_sent(fb, digest["top"])
+        else:
+            report.send(text)
         save_seen(seen, items)
+        feedback.save(FEEDBACK_PATH, fb)
+        feedback.attach_to_stats(fb, STATS_PATH)
 
     # Fail the workflow run if every source died — that is a broken monitor,
     # not a quiet day, and it should page you.

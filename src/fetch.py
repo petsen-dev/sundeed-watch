@@ -1,10 +1,8 @@
 """Ingestion. Pulls every source, returns a flat list of raw items.
 
-News sources carry their query with them — Google News does the narrowing.
-Gazettes have no search endpoint and publish the whole daily edition, so
-gazette_match terms stand in for the query they never got. A source that
-fails is recorded and reported: a silent parser looks exactly like a quiet
-day, and that is the one failure mode worth engineering against.
+No filtering happens here. A source that fails is recorded as a failure and
+reported — a silent parser looks exactly like a quiet day, and that is the one
+failure mode worth engineering against.
 """
 
 from __future__ import annotations
@@ -89,8 +87,8 @@ def _from_feed(url: str, source, settings, query: str = "") -> list[Item]:
     out = []
     for entry in parsed.entries[: settings.get("max_items_per_query", 100)]:
         ts = _parse_time(entry)
-        # Undated entries are kept: a feed with broken dates should not
-        # silently vanish from the report.
+        # Undated entries are kept: dropping them would be a filter, and a
+        # feed with broken dates should not silently vanish from the report.
         if ts and ts < cutoff:
             continue
         title = (getattr(entry, "title", "") or "").strip()
@@ -126,10 +124,9 @@ def _gnews_urls(source, keywords, settings) -> list[tuple[str, str]]:
         queries = list(kset.get(group, []))
     else:
         for key, val in kset.items():
-            if key in ("locale", "extra_locales", "gazette_match"):
+            if key in ("locale", "extra_locales") or not isinstance(val, list):
                 continue
-            if isinstance(val, list):
-                queries.extend(val)
+            queries.extend(val)
 
     locales = [kset["locale"]] + list(kset.get("extra_locales", []))
     # Recency operator, appended to every query. Google News returns a stale
@@ -228,10 +225,7 @@ def fetch_all(config, keywords) -> FetchResult:
                 items = _from_feed(source["url"], source, settings)
                 if source.get("stream") == "regulatory":
                     terms = _gazette_terms(source, keywords)
-                    before = len(items)
                     items = [i for i in items if _matches(i.title, terms)]
-                    log.info("%s gazette match: %d of %d kept",
-                             sid, len(items), before)
 
             elif source["kind"] == "boe_api":
                 items = _from_boe(source, settings, _gazette_terms(source, keywords))
