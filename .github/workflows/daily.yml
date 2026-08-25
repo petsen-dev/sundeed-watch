@@ -1,0 +1,61 @@
+name: daily-report
+
+on:
+  schedule:
+    # 06:00 UTC. Cron here is UTC and runs are delayed under load — often by
+    # 15 minutes or more — so this is set early to land before 08:00 CET
+    # rather than exactly on the hour.
+    - cron: '0 6 * * *'
+  workflow_dispatch:          # manual trigger; also how you test the first run
+
+permissions:
+  contents: write             # needed to commit state/ back to the repo
+
+concurrency:
+  group: daily-report
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Build and send report
+        env:
+          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python src/main.py
+
+      - name: Commit state
+        # Also serves as the keepalive: GitHub disables scheduled workflows
+        # after 60 days without repository activity, and only commits reliably
+        # reset that clock. A daily state commit means it never trips.
+        if: always()
+        run: |
+          git config user.name  "sundeed-watch"
+          git config user.email "actions@users.noreply.github.com"
+          git add state/
+          git diff --staged --quiet || git commit -m "state: $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -s -X POST \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d chat_id="${TELEGRAM_CHAT_ID}" \
+            -d text="Sundeed Watch failed: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
