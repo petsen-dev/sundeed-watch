@@ -28,8 +28,10 @@
 # ---------------------------------------------------------------------------
 en:
   locale: { hl: en-GB, gl: GB, ceid: "GB:en" }
-  extra_locales:
-    - { hl: en-US, gl: US, ceid: "US:en" }
+  # Second locale disabled: en-US and en-GB return largely the same stories,
+  # they collapse in dedupe anyway, and every extra request buys another 503.
+  # Re-enable once Google stops throttling.
+  extra_locales: []
   suffix: "when:2d"
 
   # Applied to the Al Arabiya English business feed, which arrives unfiltered.
@@ -113,8 +115,7 @@ en:
 # a rounding error in Arabic property news volume.
 ar:
   locale: { hl: ar, gl: AE, ceid: "AE:ar" }
-  extra_locales:
-    - { hl: ar, gl: SA, ceid: "SA:ar" }
+  extra_locales: []
   suffix: "when:2d"
 
   # Applied to the Al Arabiya أسواق feed, which arrives unfiltered. Broader
