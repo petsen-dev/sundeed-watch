@@ -66,8 +66,10 @@ def vote_keyboard(doc_id: str) -> dict:
 
 
 def render(items, status_line: str, ingested: int, digest: dict | None = None) -> str:
-    today = dt.datetime.now(dt.timezone.utc).strftime("%d %b %Y")
-    lines = [f"<b>{today} · Sundeed Watch</b>", ""]
+    today = dt.datetime.now(dt.timezone.utc).strftime("%B %-d, %Y")
+    n_top = len(digest.get("top") or []) if digest else 0
+    count = f"{n_top} news" if n_top != 1 else "1 news item"
+    lines = ["<b>Sundeed Watch Summary</b>", f"{today} · {count}", ""]
 
     if digest:
         if digest.get("summary"):
@@ -153,21 +155,24 @@ def send_digest(header: str, top: list) -> None:
     base = {"chat_id": chat_id, "parse_mode": "HTML",
             "disable_web_page_preview": True}
 
+    # Summary first: it frames what follows, and a reader opening the chat
+    # should meet the overview before ten individual items.
+    for part in _split(header):
+        _post(dict(base, text=part))
+        time.sleep(1.2)
+
     for rank, row in enumerate(top, start=1):
-        body = render_entry(rank, row)
-        for part in _split(body):
+        parts = _split(render_entry(rank, row))
+        for idx, part in enumerate(parts):
             payload = dict(base, text=part)
-            # Keyboard goes on the last part only, so a long entry does not
-            # sprout two sets of buttons for the same item.
-            if part is _split(body)[-1]:
+            # Keyboard on the last part only, so a long entry does not sprout
+            # two sets of buttons for the same item.
+            if idx == len(parts) - 1:
                 payload["reply_markup"] = vote_keyboard(row["item"].doc_id)
             _post(payload)
         time.sleep(1.2)
 
-    for part in _split(header):
-        _post(dict(base, text=part))
-        time.sleep(1.2)
-    log.info("sent %d entr(ies) + header", len(top))
+    log.info("sent header + %d entr(ies)", len(top))
 
 
 def send(text: str) -> None:
