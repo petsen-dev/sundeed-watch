@@ -1,0 +1,98 @@
+{
+ "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d": {
+  "runs": 1,
+  "items": 2,
+  "score_sum": 115,
+  "mean_score": 57.5
+ },
+ "\"compradores estrangeiros\" casa Portugal when:2d": {
+  "runs": 1,
+  "items": 1,
+  "score_sum": 65,
+  "mean_score": 65.0
+ },
+ "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d": {
+  "runs": 1,
+  "items": 4,
+  "score_sum": 140,
+  "mean_score": 35.0
+ },
+ "\"سوق العقارات\" إسبانيا OR البرتغال when:2d": {
+  "runs": 1,
+  "items": 1,
+  "score_sum": 48,
+  "mean_score": 48.0
+ },
+ "\"international buyers\" Portugal OR Italy property when:2d": {
+  "runs": 1,
+  "items": 2,
+  "score_sum": 40,
+  "mean_score": 20.0
+ },
+ "ChatGPT OR \"AI agent\" property buying when:2d": {
+  "runs": 1,
+  "items": 11,
+  "score_sum": 50,
+  "mean_score": 4.5
+ },
+ "مستثمرون سعوديون OR إماراتيون عقارات أوروبا when:2d": {
+  "runs": 1,
+  "items": 1,
+  "score_sum": 5,
+  "mean_score": 5.0
+ },
+ "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d": {
+  "runs": 1,
+  "items": 5,
+  "score_sum": 5,
+  "mean_score": 1.0
+ },
+ "[feed] boe_sumario": {
+  "runs": 1,
+  "items": 7,
+  "score_sum": 0,
+  "mean_score": 0.0
+ },
+ "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d": {
+  "runs": 1,
+  "items": 1,
+  "score_sum": 0,
+  "mean_score": 0.0
+ },
+ "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d": {
+  "runs": 1,
+  "items": 2,
+  "score_sum": 0,
+  "mean_score": 0.0
+ },
+ "\"foreign buyer\" intitle:ban OR intitle:restriction property when:2d": {
+  "runs": 1,
+  "items": 2,
+  "score_sum": 0,
+  "mean_score": 0.0
+ },
+ "\"second home\" intitle:tax OR intitle:premium when:2d": {
+  "runs": 1,
+  "items": 6,
+  "score_sum": 0,
+  "mean_score": 0.0
+ },
+ "Prello OR Vivla OR MYNE OR Altacasa property when:2d": {
+  "runs": 1,
+  "items": 1,
+  "score_sum": 0,
+  "mean_score": 0.0
+ },
+ "\"cross-border\" property buyers Europe when:2d": {
+  "runs": 1,
+  "items": 2,
+  "score_sum": 0,
+  "mean_score": 0.0
+ },
+ "\"commission split\" estate agency when:2d": {
+  "runs": 1,
+  "items": 1,
+  "score_sum": 0,
+  "mean_score": 0.0
+ }
+}
