@@ -58,11 +58,36 @@ Category meanings:
   OTHER             anything that fits none of the above
 
 Scoring guidance. Score on consequence for a cross-border second-home buyer or
-for a business serving them, not on how dramatic the headline sounds:
-  80-100  changes what a buyer pays, may do, or who may act for them
-  50-79   a named company, dataset or ruling that shifts the competitive picture
-  20-49   related but general market coverage
-  0-19    tangential; domestic-only markets outside the corridor countries
+for a business serving them, not on how dramatic the headline sounds. Anchor
+against these:
+
+  95  Andalusia's agent register opens for applications
+      (she cannot take commission in her launch corridor without it)
+  90  Valencia cuts transfer tax from 10% to 9%
+      (changes what every buyer in the corridor pays)
+  85  Malaga freezes new tourist-rental licences
+      (kills the rental-income case for a whole micro-market)
+  70  idealista launches a buyer-side cost calculator
+      (a named competitor entering her exact territory)
+  60  Pacaso adds week-swapping between co-owners
+      (competing answer to the same buyer problem, no immediate impact)
+  45  Portugal's INE reports Q2 foreign-buyer medians
+      (useful input, changes no decision today)
+  25  General "Spanish coastal property remains popular" coverage
+  10  Dubai off-plan tower launch
+      (property, Arabic, and entirely outside the corridor)
+   0  Unrelated to property or to cross-border buying
+
+Two distinctions that move a score more than anything else:
+
+  ANNOUNCED vs ENACTED. A proposed 100% tax on non-EU buyers that was never
+  debated in parliament scores far below a 1-point transfer-tax cut that took
+  effect. Tag the former HEADLINE-GAP and score it on the noise it creates,
+  not on the policy it describes.
+
+  CORRIDOR vs ELSEWHERE. Spain, Portugal, Italy, France and Greece are the
+  corridor. Gulf, Egyptian, US-domestic and UK-domestic property markets are
+  not — unless the story is about buyers moving between them and the corridor.
 
 Assign OTHER and a low score freely — that is how ranking works. It does not
 remove the item.

@@ -129,8 +129,12 @@ def _gnews_urls(source, keywords, settings) -> list[tuple[str, str]]:
             queries.extend(val)
 
     locales = [kset["locale"]] + list(kset.get("extra_locales", []))
+    # Recency operator, appended to every query. Google News returns a stale
+    # index by default; when: aligns the retrieval window with the run cadence.
+    suffix = kset.get("suffix", "") or settings.get("gnews_recency", "")
     pairs = []
     for q in queries:
+        q = f"{q} {suffix}".strip() if suffix else q
         for loc in locales:
             params = urllib.parse.urlencode(
                 {"q": q, "hl": loc["hl"], "gl": loc["gl"], "ceid": loc["ceid"]}

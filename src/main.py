@@ -67,6 +67,39 @@ def save_seen(seen: dict, new_items) -> None:
     SEEN_PATH.write_text(json.dumps(pruned, indent=0), encoding="utf-8")
 
 
+def update_query_stats(items) -> None:
+    """Accumulate per-query yield and mean score across every run.
+
+    This is the instrument for tuning keywords.yml on evidence rather than
+    guesswork. After a couple of weeks, a query with high yield and a low mean
+    score is pulling noise; a query with zero yield is dead weight. Nothing
+    here affects what gets delivered — it only records.
+    """
+    path = STATE / "query_stats.json"
+    stats = {}
+    if path.exists():
+        try:
+            stats = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            log.warning("query_stats.json corrupt — starting fresh")
+
+    for item in items:
+        key = item.query or f"[feed] {item.source_id}"
+        row = stats.setdefault(key, {"runs": 0, "items": 0, "score_sum": 0})
+        row["items"] += 1
+        row["score_sum"] += item.score
+
+    seen_keys = {i.query or f"[feed] {i.source_id}" for i in items}
+    for key in seen_keys:
+        stats[key]["runs"] += 1
+
+    for row in stats.values():
+        row["mean_score"] = round(row["score_sum"] / row["items"], 1) if row["items"] else 0
+
+    STATE.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(stats, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
 def archive(items, ingested: int, status: str) -> pathlib.Path:
     ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
     stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
@@ -129,6 +162,7 @@ def main() -> int:
 
     text = report.render(items, result.status_line, ingested, digest)
     path = archive(items, ingested, result.status_line)
+    update_query_stats(items)
     log.info("archived → %s", path)
 
     if args.dry_run:
