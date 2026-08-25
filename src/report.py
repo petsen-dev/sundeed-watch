@@ -107,8 +107,20 @@ def render(items, status_line: str, ingested: int, digest: dict | None = None,
     lines = ["<b>Sundeed Watch Summary</b>", f"{today} · {count}", ""]
 
     if digest:
+        top = digest.get("top") or []
         if digest.get("summary"):
             lines.append(_esc(digest["summary"]))
+            lines.append("")
+        if top:
+            # A contents list. Plain text, not links — the numbers map to the
+            # messages that follow, and ten more link previews here would
+            # bury the synthesis the reader came for.
+            lines.append("<b>In this digest</b>")
+            for rank, row in enumerate(top, start=1):
+                emoji = _tags(row)[0]
+                head = f"{emoji} " if emoji else ""
+                title = _esc(row["item"].title_en or row["item"].title)
+                lines.append(f"{rank}. {head}{title}")
             lines.append("")
         if digest.get("watch"):
             lines.append(f"<i>Watch: {_esc(digest['watch'])}</i>")
