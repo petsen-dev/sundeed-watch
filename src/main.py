@@ -21,6 +21,7 @@ import yaml
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 
+import article            # noqa: E402
 import classify           # noqa: E402
 import dedupe             # noqa: E402
 import fetch              # noqa: E402
@@ -159,6 +160,14 @@ def main() -> int:
         digest = summarise.summarise(items)
         if digest is None:
             log.warning("no summary this run — report renders without it")
+        elif digest.get("top"):
+            # Only the selected handful get resolved and fetched. Doing this
+            # for the whole day would trip Google's rate limiting and take
+            # ten minutes for text nobody reads.
+            texts = article.fetch_for(digest["top"])
+            for row in digest["top"]:
+                row["sourced"] = row["item"].doc_id in texts
+            summarise.write_up(digest["top"], texts)
 
     text = report.render(items, result.status_line, ingested, digest)
     path = archive(items, ingested, result.status_line)

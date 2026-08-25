@@ -1,8 +1,8 @@
 """Render the English report and push it to Telegram.
 
-Only the digest ships: the ranked top, the synthesis, and a count of what else
-was screened. The full corpus stays in state/archive/ and is never discarded —
-this file decides what is shown, not what is kept.
+Nothing is truncated for length. Telegram caps a single message at 4096
+characters, so a long report is split across numbered parts — the only limit
+in this pipeline that is not ours.
 """
 
 from __future__ import annotations
@@ -40,12 +40,26 @@ def render(items, status_line: str, ingested: int, digest: dict | None = None) -
             for rank, row in enumerate(top, start=1):
                 item = row["item"]
                 title = _esc(item.title_en or item.title)
+                # Prefer the publisher URL once resolved — a news.google.com
+                # redirect is useless if the reader wants to cite it.
+                link = getattr(item, "resolved_url", "") or item.url
                 lines.append(
-                    f'{rank}. <b><a href="{_esc(item.url)}">{title}</a></b>'
+                    f'{rank}. <b><a href="{_esc(link)}">{title}</a></b>'
                 )
+                if row.get("sourced") is False:
+                    # The reader must be able to tell a paragraph grounded in
+                    # the article from one inferred off the headline.
+                    lines.append("<i>headline only — article not retrieved</i>")
                 if row["why"]:
-                    lines.append(_esc(row["why"]))
-                lines.append("")
+                    # The model returns paragraphs separated by blank lines;
+                    # preserve them rather than collapsing to one block.
+                    for para in row["why"].split("\n\n"):
+                        para = para.strip()
+                        if para:
+                            lines.append(_esc(para))
+                            lines.append("")
+                else:
+                    lines.append("")
         if digest.get("summary"):
             lines.append(_esc(digest["summary"]))
             lines.append("")
@@ -86,6 +100,7 @@ def _split(text: str, limit: int = SAFE_LIMIT) -> list[str]:
         if len(block) <= limit:
             current = block
         else:
+            # A single oversized block: fall back to line-level splitting.
             current = ""
             for line in block.split("\n"):
                 cand = f"{current}\n{line}" if current else line
@@ -111,18 +126,31 @@ def send(text: str) -> None:
 
     for idx, part in enumerate(parts, start=1):
         body = part if total == 1 else f"{part}\n\n<i>{idx}/{total}</i>"
-        payload = {
-            "chat_id": chat_id,
-            "text": body,
-            "parse_mode": "HTML",
-            "disable_web_page_preview": True,
-        }
-        resp = requests.post(url, json=payload, timeout=30)
+        resp = requests.post(
+            url,
+            json={
+                "chat_id": chat_id,
+                "text": body,
+                "parse_mode": "HTML",
+                "disable_web_page_preview": True,
+            },
+            timeout=30,
+        )
         if resp.status_code == 429:
             wait = resp.json().get("parameters", {}).get("retry_after", 3)
             time.sleep(wait + 1)
-            resp = requests.post(url, json=payload, timeout=30)
+            resp = requests.post(
+                url,
+                json={
+                    "chat_id": chat_id,
+                    "text": body,
+                    "parse_mode": "HTML",
+                    "disable_web_page_preview": True,
+                },
+                timeout=30,
+            )
         resp.raise_for_status()
+        # Telegram allows roughly one message per second to a single chat.
         if idx < total:
             time.sleep(1.2)
     log.info("sent %d part(s)", total)
