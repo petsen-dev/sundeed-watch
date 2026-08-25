@@ -37,6 +37,25 @@ def _client() -> Anthropic:
     return Anthropic(api_key=key)
 
 
+def _complete(system: str, content: str) -> tuple[str, str]:
+    """One completion, streamed. Returns (text, stop_reason).
+
+    Streaming is not an optimisation here — the SDK refuses a non-streaming
+    request whose max_tokens is large enough that it could run past ten
+    minutes, and 32k crosses that line. The response is accumulated and
+    handed back whole, so callers see no difference.
+    """
+    with _client().messages.stream(
+        model=MODEL,
+        max_tokens=MAX_TOKENS,
+        system=system,
+        messages=[{"role": "user", "content": content}],
+    ) as stream:
+        final = stream.get_final_message()
+    text = "".join(b.text for b in final.content if b.type == "text")
+    return text, final.stop_reason
+
+
 def _payload(items) -> str:
     rows = []
     for item in items[:SELECT_ITEMS]:
@@ -135,28 +154,19 @@ def write_up(top: list, texts: dict) -> bool:
             payload["article_text"] = body
         rows.append(json.dumps(payload, ensure_ascii=False))
 
+    text = stop = ""
     try:
-        resp = _client().messages.create(
-            model=MODEL,
-            max_tokens=MAX_TOKENS,
-            system=WRITEUP_SYSTEM,
-            messages=[{"role": "user", "content": "\n\n".join(rows)}],
-        )
-        text = "".join(b.text for b in resp.content if b.type == "text")
-        if resp.stop_reason == "max_tokens":
+        text, stop = _complete(WRITEUP_SYSTEM, "\n\n".join(rows))
+        if stop == "max_tokens":
             log.warning("write-up hit max_tokens — raise MAX_TOKENS")
         from prompts import GEO_TAGS
         data = _parse_blocks(text, set(GEO_TAGS))
         if not data:
             raise ValueError(f"no blocks parsed from {len(text)} chars")
     except Exception as exc:
-        last_error = f"{type(exc).__name__}: {exc}"
-        log.error("write-up failed: %s", last_error)
-        try:
-            log.error("stop_reason=%s | %d chars | first 400: %s",
-                      resp.stop_reason, len(text), text[:400].replace("\n", " "))
-        except NameError:
-            log.error("no response at all — request never returned")
+        last_error = f"{type(exc).__name__}: {exc} [stop={stop}, {len(text)} chars]"
+        log.error("write-up failed: %s | first 400: %s",
+                  last_error, text[:400].replace("\n", " "))
         return False
 
     by_id = {r["item"].doc_id: r for r in top}
@@ -184,28 +194,18 @@ def summarise(items, pref: str = "") -> dict | None:
     if not items:
         return None
 
+    text = stop = ""
     try:
-        resp = _client().messages.create(
-            model=MODEL,
-            max_tokens=MAX_TOKENS,
-            system=SYSTEM + (pref or ""),
-            messages=[{"role": "user", "content": _payload(items)}],
-        )
-        text = "".join(b.text for b in resp.content if b.type == "text")
-        if resp.stop_reason == "max_tokens":
+        text, stop = _complete(SYSTEM + (pref or ""), _payload(items))
+        if stop == "max_tokens":
             log.warning("synthesis hit max_tokens — raise MAX_TOKENS")
         data = _extract_json(text)
     except Exception as exc:
-        # Log enough to diagnose without another run: the reason the model
-        # stopped and what it actually said.
-        last_error = f"{type(exc).__name__}: {exc}"
-        try:
-            last_error += f" [stop={resp.stop_reason}, {len(text)} chars]"
-            log.error("synthesis failed: %s | first 400: %s",
-                      last_error, text[:400].replace("\n", " "))
-        except NameError:
-            last_error += " [no response returned]"
-            log.error("synthesis failed: %s", last_error)
+        # Log enough to diagnose without another run: why the model stopped
+        # and what it actually said.
+        last_error = f"{type(exc).__name__}: {exc} [stop={stop}, {len(text)} chars]"
+        log.error("synthesis failed: %s | first 400: %s",
+                  last_error, text[:400].replace("\n", " "))
         return None
 
     # Resolve ids back to real items. An id the model invented is dropped
