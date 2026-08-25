@@ -124,4 +124,5 @@ settings:
   lookback_hours: 30        # overlap the 24h window so nothing falls through
   http_timeout: 20
   max_items_per_query: 100
+  gnews_delay: 1.2      # seconds between Google News requests
   user_agent: "sundeed-watch/1.0 (market monitor; contact: ops@example.com)"
