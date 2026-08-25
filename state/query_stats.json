@@ -1,9 +1,9 @@
 {
  "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d": {
-  "runs": 11,
-  "items": 18,
-  "score_sum": 963,
-  "mean_score": 53.5,
+  "runs": 12,
+  "items": 19,
+  "score_sum": 1028,
+  "mean_score": 54.1,
   "up": 0,
   "down": 0,
   "split": 0
@@ -18,54 +18,54 @@
   "split": 0
  },
  "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d": {
-  "runs": 13,
-  "items": 49,
-  "score_sum": 1463,
-  "mean_score": 29.9,
+  "runs": 14,
+  "items": 54,
+  "score_sum": 1643,
+  "mean_score": 30.4,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"سوق العقارات\" إسبانيا OR البرتغال when:2d": {
-  "runs": 8,
-  "items": 8,
-  "score_sum": 278,
-  "mean_score": 34.8,
+  "runs": 9,
+  "items": 9,
+  "score_sum": 328,
+  "mean_score": 36.4,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"international buyers\" Portugal OR Italy property when:2d": {
-  "runs": 11,
-  "items": 35,
-  "score_sum": 623,
-  "mean_score": 17.8,
+  "runs": 12,
+  "items": 39,
+  "score_sum": 688,
+  "mean_score": 17.6,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "ChatGPT OR \"AI agent\" property buying when:2d": {
-  "runs": 11,
-  "items": 115,
-  "score_sum": 1106,
+  "runs": 12,
+  "items": 124,
+  "score_sum": 1191,
   "mean_score": 9.6,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "مستثمرون سعوديون OR إماراتيون عقارات أوروبا when:2d": {
-  "runs": 9,
-  "items": 9,
-  "score_sum": 50,
-  "mean_score": 5.6,
+  "runs": 10,
+  "items": 10,
+  "score_sum": 55,
+  "mean_score": 5.5,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d": {
-  "runs": 13,
-  "items": 47,
-  "score_sum": 113,
+  "runs": 14,
+  "items": 50,
+  "score_sum": 118,
   "mean_score": 2.4,
   "up": 0,
   "down": 0,
@@ -81,8 +81,8 @@
   "split": 0
  },
  "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d": {
-  "runs": 11,
-  "items": 11,
+  "runs": 12,
+  "items": 12,
   "score_sum": 0,
   "mean_score": 0.0,
   "up": 0,
@@ -90,17 +90,17 @@
   "split": 0
  },
  "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d": {
-  "runs": 9,
-  "items": 24,
-  "score_sum": 360,
-  "mean_score": 15.0,
+  "runs": 10,
+  "items": 27,
+  "score_sum": 395,
+  "mean_score": 14.6,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"foreign buyer\" intitle:ban OR intitle:restriction property when:2d": {
-  "runs": 11,
-  "items": 19,
+  "runs": 12,
+  "items": 20,
   "score_sum": 0,
   "mean_score": 0.0,
   "up": 0,
@@ -108,9 +108,9 @@
   "split": 0
  },
  "\"second home\" intitle:tax OR intitle:premium when:2d": {
-  "runs": 11,
-  "items": 67,
-  "score_sum": 20,
+  "runs": 12,
+  "items": 74,
+  "score_sum": 25,
   "mean_score": 0.3,
   "up": 0,
   "down": 0,
@@ -126,17 +126,17 @@
   "split": 0
  },
  "\"cross-border\" property buyers Europe when:2d": {
-  "runs": 13,
-  "items": 37,
+  "runs": 14,
+  "items": 40,
   "score_sum": 50,
-  "mean_score": 1.4,
+  "mean_score": 1.2,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"commission split\" estate agency when:2d": {
-  "runs": 11,
-  "items": 11,
+  "runs": 12,
+  "items": 12,
   "score_sum": 0,
   "mean_score": 0.0,
   "up": 0,
@@ -144,28 +144,28 @@
   "split": 0
  },
  "[feed] portugal_resident": {
-  "runs": 14,
-  "items": 105,
-  "score_sum": 110,
-  "mean_score": 1.0,
+  "runs": 15,
+  "items": 115,
+  "score_sum": 130,
+  "mean_score": 1.1,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d": {
-  "runs": 10,
-  "items": 10,
-  "score_sum": 624,
-  "mean_score": 62.4,
+  "runs": 11,
+  "items": 11,
+  "score_sum": 679,
+  "mean_score": 61.7,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "intitle:Pacaso when:2d": {
-  "runs": 10,
-  "items": 10,
-  "score_sum": 335,
-  "mean_score": 33.5,
+  "runs": 11,
+  "items": 11,
+  "score_sum": 345,
+  "mean_score": 31.4,
   "up": 0,
   "down": 0,
   "split": 0
@@ -180,10 +180,10 @@
   "split": 0
  },
  "[feed] property_industry_eye": {
-  "runs": 10,
-  "items": 120,
-  "score_sum": 690,
-  "mean_score": 5.8,
+  "runs": 11,
+  "items": 132,
+  "score_sum": 740,
+  "mean_score": 5.6,
   "up": 0,
   "down": 0,
   "split": 0
