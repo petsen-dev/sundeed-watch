@@ -154,6 +154,20 @@
    "query": "\"NAR settlement\" buyer agency commission when:2d",
    "lang": "en",
    "date": "2026-08-25"
+  },
+  "dea574bf2347065b": {
+   "title": "Follow the capital: what a 1.4 billion euro increase in investment in Portugal says for investors",
+   "cat": "DEMAND-FLOW",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-08-25"
+  },
+  "7ac7adf1e6344d0a": {
+   "title": "Prime London property values down 25% as tax changes bite",
+   "cat": "REGULATORY",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
   }
  },
  "votes": {}
