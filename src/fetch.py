@@ -20,6 +20,12 @@ log = logging.getLogger("fetch")
 
 GNEWS_BASE = "https://news.google.com/rss/search"
 
+# Keys in a language block that are configuration, not query groups. Anything
+# ending in _match is a term list used to narrow a feed that has no query of
+# its own — feeding those to Google News turns a narrowing list into the
+# broadest possible search, which is exactly backwards.
+NON_QUERY_KEYS = {"locale", "extra_locales", "suffix"}
+
 
 @dataclass
 class Item:
@@ -124,11 +130,18 @@ def _gnews_urls(source, keywords, settings) -> list[tuple[str, str]]:
         queries = list(kset.get(group, []))
     else:
         for key, val in kset.items():
-            if key in ("locale", "extra_locales") or not isinstance(val, list):
+            if key in NON_QUERY_KEYS or key.endswith("_match"):
+                continue
+            if not isinstance(val, list):
                 continue
             queries.extend(val)
 
     locales = [kset["locale"]] + list(kset.get("extra_locales", []))
+    cap = settings.get("max_queries_per_source", 60)
+    if len(queries) > cap:
+        log.error("%s expanded to %d queries, capping at %d — check keywords.yml",
+                  source["id"], len(queries), cap)
+        queries = queries[:cap]
     # Recency operator, appended to every query. Google News returns a stale
     # index by default; when: aligns the retrieval window with the run cadence.
     suffix = kset.get("suffix", "") or settings.get("gnews_recency", "")
