@@ -181,7 +181,8 @@ def main() -> int:
                 row.setdefault("written", False)
             summarise.write_up(digest["top"], texts)
 
-    text = report.render(items, result.status_line, ingested, digest)
+    text = report.render(items, result.status_line, ingested, digest,
+                         result.failure_detail)
     path = archive(items, ingested, result.status_line)
     update_query_stats(items)
     log.info("archived → %s", path)

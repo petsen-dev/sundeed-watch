@@ -70,6 +70,7 @@ class FetchResult:
     items: list = field(default_factory=list)
     ok: list = field(default_factory=list)
     failed: list = field(default_factory=list)
+    reasons: dict = field(default_factory=dict)
 
     @property
     def status_line(self) -> str:
@@ -78,6 +79,17 @@ class FetchResult:
         if self.failed:
             base += f" · failed: {', '.join(self.failed)}"
         return base
+
+    @property
+    def failure_detail(self) -> str:
+        """One line per dead source, short enough for a Telegram message.
+
+        A source that has been dead for a week and a source that died this
+        morning look identical in a count. The reason is the only thing that
+        tells you which — and it should not live somewhere you have to go
+        and dig for it.
+        """
+        return "\n".join(f"{sid}: {why}" for sid, why in self.reasons.items())
 
 
 def _cutoff(hours: int) -> dt.datetime:
@@ -298,6 +310,8 @@ def fetch_all(config, keywords) -> FetchResult:
 
         except Exception as exc:
             result.failed.append(sid)
-            log.error("%s FAILED: %s: %s", sid, type(exc).__name__, exc)
+            reason = f"{type(exc).__name__}: {exc}"
+            result.reasons[sid] = reason[:160]
+            log.error("%s FAILED: %s", sid, reason)
 
     return result

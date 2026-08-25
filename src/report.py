@@ -70,7 +70,8 @@ def vote_keyboard(doc_id: str) -> dict:
     ]]}
 
 
-def render(items, status_line: str, ingested: int, digest: dict | None = None) -> str:
+def render(items, status_line: str, ingested: int, digest: dict | None = None,
+           failures: str = "") -> str:
     today = dt.datetime.now(dt.timezone.utc).strftime("%B %-d, %Y")
     n_top = len(digest.get("top") or []) if digest else 0
     count = f"{n_top} news" if n_top != 1 else "1 news item"
@@ -106,6 +107,10 @@ def render(items, status_line: str, ingested: int, digest: dict | None = None) -
             lines.append("")
 
     lines.append(f"<i>ingested {ingested} · delivered {len(items)} · {_esc(status_line)}</i>")
+    if failures:
+        lines.append("")
+        lines.append("<b>Dead sources</b>")
+        lines.append(f"<pre>{_esc(failures)}</pre>")
     return "\n".join(lines)
 
 
