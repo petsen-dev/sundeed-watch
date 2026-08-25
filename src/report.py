@@ -28,6 +28,13 @@ def _esc(text: str) -> str:
     return html.escape(text or "", quote=False)
 
 
+def _attr(url: str) -> str:
+    """Escape for an href. quote=True matters: a bare double quote inside a
+    URL closes the attribute early, Telegram rejects the whole message with
+    a parse error, and the entry is silently lost."""
+    return html.escape(url or "", quote=True)
+
+
 def _story_tag(row) -> str:
     """Story slug as a Telegram hashtag.
 
@@ -57,7 +64,7 @@ def render_entry(rank: int, row) -> str:
     link = getattr(item, "resolved_url", "") or item.url
     emoji, tagline = _tags(row)
     head = f"{emoji} " if emoji else ""
-    lines = [f'{head}{rank}. <b><a href="{_esc(link)}">{title}</a></b>']
+    lines = [f'{head}{rank}. <b><a href="{_attr(link)}">{title}</a></b>']
     if "news.google.com" in link:
         # Not cosmetic: this URL cannot be cited, shared or archived.
         lines.append("<i>link unresolved — opens via Google News</i>")
@@ -68,7 +75,7 @@ def render_entry(rank: int, row) -> str:
         # The publisher name is a link in its own right. Two tap targets for
         # one article is not redundancy on a phone — the title wraps over
         # three lines and is awkward to hit.
-        meta.append(f'<a href="{_esc(link)}">{_esc(item.publisher)}</a>{badge}')
+        meta.append(f'<a href="{_attr(link)}">{_esc(item.publisher)}</a>{badge}')
     if row.get("story_note"):
         meta.append(_esc(row["story_note"]))
     if meta:
@@ -193,7 +200,15 @@ def _post(payload: dict) -> None:
         wait = resp.json().get("parameters", {}).get("retry_after", 3)
         time.sleep(wait + 1)
         resp = requests.post(url, json=payload, timeout=30)
-    resp.raise_for_status()
+    if resp.status_code >= 400:
+        # Telegram says exactly what was wrong in the body — "can't parse
+        # entities: unexpected end tag", "message is too long". Dropping it
+        # for a bare status code turns a two-second fix into a guessing game.
+        try:
+            why = resp.json().get("description", "")
+        except ValueError:
+            why = resp.text[:200]
+        raise requests.HTTPError(f"Telegram {resp.status_code}: {why}")
 
 
 def send_digest(header: str, top: list) -> None:
@@ -212,18 +227,36 @@ def send_digest(header: str, top: list) -> None:
         _post(dict(base, text=part))
         time.sleep(1.2)
 
+    lost = []
     for rank, row in enumerate(top, start=1):
-        parts = _split(render_entry(rank, row))
-        for idx, part in enumerate(parts):
-            payload = dict(base, text=part)
-            # Keyboard on the last part only, so a long entry does not sprout
-            # two sets of buttons for the same item.
-            if idx == len(parts) - 1:
-                payload["reply_markup"] = vote_keyboard(row["item"].doc_id)
-            _post(payload)
+        try:
+            parts = _split(render_entry(rank, row))
+            for idx, part in enumerate(parts):
+                payload = dict(base, text=part)
+                # Keyboard on the last part only, so a long entry does not
+                # sprout two sets of buttons for the same item.
+                if idx == len(parts) - 1:
+                    payload["reply_markup"] = vote_keyboard(row["item"].doc_id)
+                _post(payload)
+        except Exception as exc:
+            # One entry Telegram refuses must not swallow the rest. Losing
+            # item 4 silently is worse than losing it loudly: the summary
+            # promised four and the reader has no way to know which went
+            # missing or why.
+            lost.append((rank, str(exc)[:120]))
+            log.error("entry %d not sent: %s", rank, exc)
         time.sleep(1.2)
 
-    log.info("sent header + %d entr(ies)", len(top))
+    if lost:
+        note = ["<b>Not delivered</b>"]
+        for rank, why in lost:
+            note.append(f"{rank}. {_esc(why)}")
+        try:
+            _post(dict(base, text="\n".join(note)))
+        except Exception as exc:
+            log.error("could not report lost entries: %s", exc)
+
+    log.info("sent header + %d of %d entries", len(top) - len(lost), len(top))
 
 
 def send(text: str) -> None:
