@@ -49,6 +49,27 @@
    "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
    "lang": "en",
    "date": "2026-08-25"
+  },
+  "283525785949997a": {
+   "title": "The Algarve Luxury Market Comes of Age - The Portugal News",
+   "cat": "DEMAND-FLOW",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
+  },
+  "12736398754cf4aa": {
+   "title": "Follow the Capital: What Does €1.4 Billion Investment Increase in Portugal Tell Investors?",
+   "cat": "DEMAND-FLOW",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-08-25"
+  },
+  "22832aa323c5e790": {
+   "title": "The Smart Golden Visa Investor Chooses Value Over Price - IMI Daily",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
   }
  },
  "votes": {}
