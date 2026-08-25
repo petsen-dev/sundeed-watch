@@ -42,14 +42,14 @@
   "mean_score": 5.0
  },
  "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d": {
-  "runs": 1,
-  "items": 5,
-  "score_sum": 5,
-  "mean_score": 1.0
+  "runs": 2,
+  "items": 6,
+  "score_sum": 10,
+  "mean_score": 1.7
  },
  "[feed] boe_sumario": {
-  "runs": 1,
-  "items": 7,
+  "runs": 2,
+  "items": 8,
   "score_sum": 0,
   "mean_score": 0.0
  },
@@ -60,10 +60,10 @@
   "mean_score": 0.0
  },
  "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d": {
-  "runs": 1,
-  "items": 2,
-  "score_sum": 0,
-  "mean_score": 0.0
+  "runs": 2,
+  "items": 3,
+  "score_sum": 35,
+  "mean_score": 11.7
  },
  "\"foreign buyer\" intitle:ban OR intitle:restriction property when:2d": {
   "runs": 1,
@@ -94,5 +94,11 @@
   "items": 1,
   "score_sum": 0,
   "mean_score": 0.0
+ },
+ "[feed] portugal_resident": {
+  "runs": 1,
+  "items": 1,
+  "score_sum": 15,
+  "mean_score": 15.0
  }
 }
