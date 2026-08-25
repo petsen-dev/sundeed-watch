@@ -151,6 +151,7 @@ def main() -> int:
     # else touches the items.
     for item in result.items:
         item.tier = fetch.authority(item.publisher, config)
+        item.sponsored = fetch.is_sponsored(item.url)
 
     items = dedupe.within_language(result.items)
     seen = load_seen()
@@ -208,6 +209,12 @@ def main() -> int:
             # for the whole day would trip Google's rate limiting and take
             # ten minutes for text nobody reads.
             texts = article.fetch_for(digest["top"])
+            # The path only becomes visible once the redirect is unwrapped.
+            for row in digest["top"]:
+                it = row["item"]
+                resolved = getattr(it, "resolved_url", "")
+                if resolved and fetch.is_sponsored(resolved):
+                    it.sponsored = True
             for row in digest["top"]:
                 row["sourced"] = row["item"].doc_id in texts
             for row in digest["top"]:

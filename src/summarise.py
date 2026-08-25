@@ -67,6 +67,7 @@ def _payload(items) -> str:
                     "score": item.score,
                     "src": item.publisher or "unknown",
                     "tier": getattr(item, "tier", "general"),
+                    "sponsored": bool(getattr(item, "sponsored", False)),
                     "title": (item.title_en or item.title)[:220],
                 },
                 ensure_ascii=False,
@@ -151,6 +152,8 @@ def write_up(top: list, texts: dict) -> bool:
             "id": item.doc_id,
             "headline": item.title_en or item.title,
         }
+        if getattr(item, "sponsored", False):
+            payload["sponsored"] = True
         body = texts.get(item.doc_id)
         if body:
             payload["article_text"] = body

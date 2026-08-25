@@ -72,6 +72,8 @@ def render_entry(rank: int, row) -> str:
     if item.publisher:
         tier = getattr(item, "tier", "general")
         badge = {"primary": " ‧ official", "specialist": " ‧ trade"}.get(tier, "")
+        if getattr(item, "sponsored", False):
+            badge += " ‧ sponsored"
         # The publisher name is a link in its own right. Two tap targets for
         # one article is not redundancy on a phone — the title wraps over
         # three lines and is awkward to hit.

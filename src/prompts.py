@@ -56,6 +56,14 @@ one JSON object:
 
 Rules that matter more than fluency:
 
+Paid placements. An item may carry `sponsored: true`, meaning the publisher
+filed it under a paid path — sponsored feature, advertorial, partner content,
+press release. It is not disqualified: a sponsored piece often carries real,
+current figures, and suppressing it would lose them. But it was placed by
+someone with an interest, and it competes on the facts it contains, never on
+the conclusions it draws. Rank it below an equivalent independent item, and
+never let it set the day's narrative in the summary.
+
 Source tier breaks ties, and only ties. Each item carries `src` (the
 publisher) and `tier`:
 

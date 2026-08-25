@@ -107,6 +107,25 @@ def _domain(url: str) -> str:
     return host[4:] if host.startswith("www.") else host
 
 
+# Publishers file paid placements under a path segment. It is the only
+# machine-readable signal that a piece is advertising, and it disappears the
+# moment a Google News redirect wraps the link — which is why this is checked
+# again after resolution rather than only at ingest.
+SPONSORED_MARKERS = (
+    "sponsored", "advertorial", "partner-content", "partnercontent",
+    "paid-post", "paid-content", "branded-content", "brandedcontent",
+    "native-ad", "promoted", "press-release", "advertisement",
+)
+
+
+def is_sponsored(url: str) -> bool:
+    try:
+        path = urllib.parse.urlparse(url or "").path.lower()
+    except ValueError:
+        return False
+    return any(m in path for m in SPONSORED_MARKERS)
+
+
 def authority(publisher: str, config) -> str:
     """primary | specialist | general.
 
