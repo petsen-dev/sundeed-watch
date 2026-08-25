@@ -10,6 +10,7 @@ from __future__ import annotations
 import datetime as dt
 import hashlib
 import logging
+import time
 import urllib.parse
 from dataclasses import dataclass, field, asdict
 
@@ -19,6 +20,18 @@ import requests
 log = logging.getLogger("fetch")
 
 GNEWS_BASE = "https://news.google.com/rss/search"
+
+# A polite custom User-Agent gets refused by Cloudflare and by several
+# government sites — the request never reaches the feed. article.py already
+# used a browser string and fetched fine from the same hosts, which is what
+# gave this away.
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
+FEED_HEADERS = {
+    "User-Agent": BROWSER_UA,
+    "Accept": "application/rss+xml, application/xml, text/xml, */*",
+    "Accept-Language": "en,es;q=0.9,pt;q=0.8,ar;q=0.7",
+}
 
 # Keys in a language block that are configuration, not query groups. Anything
 # ending in _match is a term list used to narrow a feed that has no query of
@@ -79,15 +92,33 @@ def _parse_time(entry) -> dt.datetime | None:
     return None
 
 
+def _get(url: str, settings, headers=None):
+    """One GET with a single retry. Raises with the status code attached."""
+    last = None
+    for attempt in (1, 2):
+        try:
+            resp = requests.get(
+                url,
+                timeout=settings.get("http_timeout", 25),
+                headers=headers or FEED_HEADERS,
+            )
+            if resp.status_code >= 400:
+                raise requests.HTTPError(
+                    f"HTTP {resp.status_code} from {url[:70]}")
+            return resp
+        except Exception as exc:
+            last = exc
+            if attempt == 1:
+                time.sleep(2)
+    raise last
+
+
 def _from_feed(url: str, source, settings, query: str = "") -> list[Item]:
     """Parse one RSS/Atom feed into Items inside the lookback window."""
-    resp = requests.get(
-        url,
-        timeout=settings.get("http_timeout", 20),
-        headers={"User-Agent": settings.get("user_agent", "sundeed-watch/1.0")},
-    )
-    resp.raise_for_status()
+    resp = _get(url, settings)
     parsed = feedparser.parse(resp.content)
+    if parsed.bozo and not parsed.entries:
+        raise ValueError(f"unparseable feed: {parsed.bozo_exception}")
 
     cutoff = _cutoff(settings.get("lookback_hours", 30))
     out = []
@@ -185,17 +216,13 @@ def _from_boe(source, settings, terms) -> list[Item]:
     """BOE open-data summary for today, JSON."""
     stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%d")
     url = source["url"].format(yyyymmdd=stamp)
-    resp = requests.get(
-        url,
-        timeout=settings.get("http_timeout", 20),
-        headers={
-            "Accept": "application/json",
-            "User-Agent": settings.get("user_agent", "sundeed-watch/1.0"),
-        },
-    )
-    if resp.status_code == 404:
-        return []  # no edition today (Sundays, holidays) — not a failure
-    resp.raise_for_status()
+    try:
+        resp = _get(url, settings,
+                    headers=dict(FEED_HEADERS, Accept="application/json"))
+    except requests.HTTPError as exc:
+        if "HTTP 404" in str(exc):
+            return []  # no edition today (Sundays, holidays) — not a failure
+        raise
 
     payload = resp.json()
     out = []
@@ -271,6 +298,6 @@ def fetch_all(config, keywords) -> FetchResult:
 
         except Exception as exc:
             result.failed.append(sid)
-            log.error("%s FAILED: %s", sid, exc)
+            log.error("%s FAILED: %s: %s", sid, type(exc).__name__, exc)
 
     return result
