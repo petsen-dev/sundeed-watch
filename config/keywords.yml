@@ -32,6 +32,22 @@ en:
     - { hl: en-US, gl: US, ceid: "US:en" }
   suffix: "when:2d"
 
+  # Applied to the Al Arabiya English business feed, which arrives unfiltered.
+  feed_match:
+    - propert
+    - real estate
+    - housing
+    - mortgage
+    - golden visa
+    - residency
+    - spain
+    - portugal
+    - italy
+    - greece
+    - france
+    - cyprus
+    - europe
+
   REGULATORY:
     - '"non-resident" intitle:property Spain OR Portugal'
     - 'intitle:"transfer tax" Spain OR Portugal OR Italy'
@@ -96,6 +112,28 @@ ar:
   extra_locales:
     - { hl: ar, gl: SA, ceid: "SA:ar" }
   suffix: "when:2d"
+
+  # Applied to the Al Arabiya أسواق feed, which arrives unfiltered. Broader
+  # than the Google News queries on purpose: a whole-desk feed is small enough
+  # that a wide net costs nothing, and any European place name is a strong
+  # enough signal on an Arabic business wire.
+  feed_match:
+    - عقار
+    - عقارات
+    - إسبانيا
+    - اسبانيا
+    - البرتغال
+    - اليونان
+    - إيطاليا
+    - ايطاليا
+    - فرنسا
+    - قبرص
+    - أوروبا
+    - اوروبا
+    - الإقامة الذهبية
+    - التأشيرة الذهبية
+    - منزل ثان
+    - بيت العطلات
 
   REGULATORY:
     - '"ضريبة العقارات" إسبانيا OR البرتغال'

@@ -16,6 +16,7 @@ sources:
     kind: rss
     lang: es
     stream: regulatory
+    match_key: gazette_match
     url: https://www.juntadeandalucia.es/boja/distribucion/s51.xml
     note: >
       BOJA "Disposiciones generales". Andalusia = Costa del Sol corridor.
@@ -25,6 +26,7 @@ sources:
     kind: boe_api
     lang: es
     stream: regulatory
+    match_key: gazette_match
     url: https://www.boe.es/datosabiertos/api/boe/sumario/{yyyymmdd}
     note: >
       Official BOE open-data API. Published every day except Sundays.
@@ -72,21 +74,31 @@ sources:
   # -------------------------------------------------------------------------
   # ARABIC — tier 1
   # -------------------------------------------------------------------------
-  # Al Arabiya documents its feed list at english.alarabiya.net/tools/mrss —
-  # confirm the Arabic-side equivalents there and pin them below.
-  - id: alarabiya_business
+  # URLs taken from the published MRSS pages: alarabiya.net/tools/mrss (Arabic)
+  # and english.alarabiya.net/tools/mrss (English).
+  #
+  # Both are whole-desk feeds — the entire business section, Tadawul and oil
+  # and cars included. match_key supplies the query they do not have.
+  - id: alarabiya_aswaq
     kind: rss
     lang: ar
     stream: news
-    url: https://www.alarabiya.net/.mrss/ar/aswaq.xml
-    note: Verify against the published MRSS list; swap in the pinned URL.
+    match_key: feed_match
+    url: https://www.alarabiya.net/feed/rss2/ar/aswaq.xml
+    note: >
+      أسواق — the full economy desk, which contains the عقارات (real estate)
+      section. There is no per-section feed, hence the match list.
 
-  - id: argaam
+  - id: alarabiya_business_en
     kind: rss
-    lang: ar
+    lang: en
     stream: news
-    url: https://www.argaam.com/ar/rss/articles
-    note: Feed list at argaam.com/en/rss — pin the exact article feed.
+    match_key: feed_match
+    url: https://english.alarabiya.net/feed/rss2/en/business.xml
+    note: >
+      English business desk. Replaces Argaam, which covers Tadawul listings
+      and Saudi corporate filings — real Gulf business, but domestic, and
+      almost never about a Gulf buyer purchasing in Europe.
 
   # -------------------------------------------------------------------------
   # GOOGLE NEWS — broad sweep, expanded from keywords.yml
