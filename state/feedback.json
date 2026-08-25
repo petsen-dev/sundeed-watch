@@ -58,7 +58,7 @@
    "date": "2026-08-25"
   },
   "12736398754cf4aa": {
-   "title": "Follow the Capital: What Does €1.4 Billion Investment Increase in Portugal Tell Investors?",
+   "title": "Follow the capital: What does the €1.4 billion investment increase in Portugal mean for investors",
    "cat": "DEMAND-FLOW",
    "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
    "lang": "ar",
@@ -66,7 +66,7 @@
   },
   "22832aa323c5e790": {
    "title": "The Smart Golden Visa Investor Chooses Value Over Price - IMI Daily",
-   "cat": "REGULATORY",
+   "cat": "UPFUNNEL",
    "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
    "lang": "en",
    "date": "2026-08-25"
@@ -118,6 +118,20 @@
    "cat": "REGULATORY",
    "query": "البرتغال when:2d",
    "lang": "ar",
+   "date": "2026-08-25"
+  },
+  "a52f6b1848966781": {
+   "title": "Assigns Launches AI Property Intelligence Platform as Realtors Face Growing Pressure to Prove Their Value - EIN Presswire",
+   "cat": "CHANNEL",
+   "query": "\"NAR settlement\" buyer agency commission when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
+  },
+  "249944cab26ae778": {
+   "title": "Portal competition is growing, consumer clarity is not - HousingWire",
+   "cat": "CHANNEL",
+   "query": "\"NAR settlement\" buyer agency commission when:2d",
+   "lang": "en",
    "date": "2026-08-25"
   }
  },

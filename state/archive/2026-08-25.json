@@ -1,78 +1,8 @@
 {
  "date": "2026-08-25",
- "ingested": 153,
+ "ingested": 146,
  "status": "10/10 sources ok",
  "items": [
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "Property hunting enters the AI agent era - ITWeb",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNFczRDBoSHhlV2trZzJlWG1weHIwSGRTNm5USTJPenBseHF5UzJSZ3pyeXJKS1dMVW5xQjRhRFFuRHNvVDJtSGZ0U1k5U1otM3VyRmIxY2xVXzdqOXNuaXlyQ2xlSGF6VmtkNFFIX2lzV3VoR1ExYTM2Zm4zSVpGOWxuajNpMEdGUVRxel9PZS1Ja00?oc=5",
-   "published_at": "2026-08-25T10:27:52+00:00",
-   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
-   "doc_id": "6d19289df4095547",
-   "title_en": "Property hunting enters the AI agent era - ITWeb",
-   "category": "CHANNEL",
-   "score": 70,
-   "rationale": "AI agent distribution channel; direct competitor entry signal"
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "Housing reform in Greece: cheap loans, social rent and a new Golden Visa24 August 2026 - Greek City Times",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeDIzUUJWLTk4WXdYc184cEJhem95NElKc251QWMwUzh6TjRfR1EwbVpmcVhTbmhuU1NnMVV4aUYtNVhBcnBuSVEyeGhiSzJORXdoWDVhZmt5LVFjVE5sLVJfTlFsZ1R5X0x4WHpwNDkzMmN6MW9ydmUzVVRkczJ6V2dkaVpLeVR0eWIwRGZCc0NaVEJOLUtNT2VrcEV1N3JPZWc?oc=5",
-   "published_at": "2026-08-24T12:36:42+00:00",
-   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
-   "doc_id": "853b209a1dc56975",
-   "title_en": "Housing reform in Greece: cheap loans, social rent and a new Golden Visa24 August 2026 - Greek City Times",
-   "category": "REGULATORY",
-   "score": 65,
-   "rationale": "Greece corridor; Golden Visa attracts cross-border buyers"
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "Vipp Residences Villa Finca Selva Rethinks Vacation Home Ownership in Mallorca - stupidDOPE",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUXo0eUIxVTVpbjZRWDdKN25BdkFPc0ZXNWh3LVJlaHplY0dlazJNSVBCOVgxTDBldWJ5YjNNUUJjQVo3UThQT19mVnplLW0wbktpZGY1SGswWVFKaEF5a3FxS3F2S0YxVy1XYTBKcWlHMm5BbmgyaVNMUTNYc3lvMnhSNE5EQ1pWWHRVbjhqeUxXcDI0MXBDN0xTTUFlY1BmWjJ3M01tY1N1VVIxZUVz?oc=5",
-   "published_at": "2026-08-24T12:06:34+00:00",
-   "query": "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d",
-   "doc_id": "d9a3485e7c4e19fc",
-   "title_en": "Vipp Residences Villa Finca Selva Rethinks Vacation Home Ownership in Mallorca - stupidDOPE",
-   "category": "OWNERSHIP-MODEL",
-   "score": 55,
-   "rationale": "Mallorca ownership model innovation; named player, corridor location"
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "تحول ديموغرافي وانتعاش قياسي في عقارات مراكش الفاخرة - كِشـ24",
-   "url": "https://news.google.com/rss/articles/CBMirgNBVV95cUxOM1ZicldvczVKemZZN2M0T3JsTW1ReDRlVlpqM3p2Qnc4UHpLMGlKQVI0QnMxeWVpLXhGOUlNVjJGOXZtaVlRNUQxMGZoTWtEeW45ZHZlc3kzdzdrT2M5Ylkyc1N1RlBPQmxkbUctOUxkNk9TUlVVQUZueVMxMVExdHJ3eXM5RG9rOU4yUEdLYXZZMEZISV9YS0FDVHJDaUpoSi1qVzRxcjBzT3E0Z1B1YTdybVdsOEhJWFBmWmowdFcwN3doc0VfVllCNV93UVNpbUt0V1ZEY25OT0tCenBPbnFYN2d0VDVwRzdCT2stRmtnOTl5SjdHVWRDd0g0OV9mdTdzWnBpbTE5ajZfRmFOQTlWcERYelZmQTFZd1RKa0kybzF0aThVcmhhWG5iZkM4aFg1b3FZZ3l1MUhHbHl4MVRsOVRFNzR5MTRfQ2Q5NkNJTjdxUXZLSnNqMk5XMjBxbndzaHNlV1RmRzRaRHlBTFJ5dnJER1RVNDZ3N09IemMwSmk1X3R3NmR4M190M004R3hTMkowWWNzX1FsVnNnRjlsOVR5aFNWWEpDaUp30gGzA0FVX3lxTE5FRlpwVW5jRGVubGVzd2NhQ2V1MFppNWRDWVB6VDBleEY2aUlRbURYLVBOMHcyR0pqLWNNUnFKY1RmT3BoTjRxSUpMMFlXVG90cGxCNWtmNE1rZXFoazBmT0JtcGhKUXRzRHZ0UTVvMXVzMUhiRHJzUFNtVTF3SFp2V0NrOTFNa3dCekR6RFlOaEx5N3Z4VXZNVFJvYVJZSFI0SEpCc2U5b0JmWW12MHp6MFZMNE9peU5yNzR3LVNKN25WREd1LTFlQkhZMmlaRXRESkYzSEdiWFhkZ2tIVFlBbTNVaU9fTnAybzB5enRoc2JJbHd0WWlqazM4UThMS0dGc2xMbjJaRlF3RkF6LW5QZzY4TWo1bEd5ZHZnLURTSEJJNlhac2pSX3BPUDR0Ql95OHlrRmdoYldORWJzc0NFbWZJbC1uVEgyOF9nSVg5SUIxOVpSUTZZSnZBaWp0dlppYkFqaTV1WmFLZFA0aXNsaVpoYnFNX0ZhbUtoQnhreW5GN04xZmc5LVJOUVp4bHJmMDdBZFBTaGdMUGQ2NVdNU1lacUJWcDhTOWE5RDdJSDg4WQ?oc=5",
-   "published_at": "2026-08-25T08:30:03+00:00",
-   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
-   "doc_id": "46ac3a66f66fdd47",
-   "title_en": "Demographic Shift and Record Boom in Marrakech Luxury Real Estate",
-   "category": "DEMAND-FLOW",
-   "score": 55,
-   "rationale": "Morocco corridor demand signal with structural demographic angle."
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "Can You Invest in Pacaso Pre-IPO? Everything You Need to Know - The Motley Fool",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRl9ycF9hZV9zY2gtNXBFcnhZcTFjT2RiTUd2YUVCMEg1Y2VNY21zVXBYMDAyOWx4UjVfV181VmZVdk1paGlWSnlHM3R2U0RWSkFlR2tWbEZka0FIU2xMRmpTYXF2S2FNME1LcTR5bC0wd2I3QzNRa3ZYdFNFYlRzVl8yemd1M0tlcXc?oc=5",
-   "published_at": "2026-08-25T05:06:00+00:00",
-   "query": "intitle:Pacaso when:2d",
-   "doc_id": "d07841f061eebaa3",
-   "title_en": "Can You Invest in Pacaso Pre-IPO? Everything You Need to Know - The Motley Fool",
-   "category": "OWNERSHIP-MODEL",
-   "score": 50,
-   "rationale": "Pacaso co-ownership; corridor market player but US-focused story"
-  },
   {
    "source_id": "gnews_en",
    "lang": "en",
@@ -84,50 +14,22 @@
    "doc_id": "283525785949997a",
    "title_en": "The Algarve Luxury Market Comes of Age - The Portugal News",
    "category": "DEMAND-FLOW",
-   "score": 50,
-   "rationale": "Portugal corridor market trends; broad demand signal"
+   "score": 40,
+   "rationale": "Portugal corridor market maturation signal; vague on cross-border buyer volumes or demographics"
   },
   {
    "source_id": "gnews_ar",
    "lang": "ar",
    "stream": "news",
-   "title": "مراكش توسّع قاعدة مشتري العقارات الفاخرة وسط طلب دولي متزايد - Hespress",
-   "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPTUR1WWFfVFdOanZzYlhrRWVIUnJtbm0yVW9Ka1ZvUDZkeTVnYTJUNDVtenRuV3VuTlROeFVZZ2Z0eVN1UEJSaTNidkZQeTFNVU9rcmw0ekFoREpWWEVEUUR0UHNCWEN6VUZqc1VPeVQzZUFGNV9hNmVVQXJDSlBnMTJFZE04WlpCU0M2aXExd2hhOEQtRDg0b1lTOEJ2Y05EeXpZNVVsUV9LenZZV2VvajF3V0pla0FscUNpVjYzYi1id1VCWXhPSklsT3FqeTBKUURKRFZxSzBNb3JraXdFQ2Fkckg0aW9WSklqZEJwRHZjcDFzYUlqY1NsU2g0TEloeEhuSTNYNm5SbmRGdUNFUHBiLWl5RDdXZm5wQXZQUmlxTWQxb1c3NF82bEZEeS1uMEQybEpuaXE4ZEVGeHpmRnFQa2o5eXQ2Mzg4bDlHb1ZwNm96VUE?oc=5",
-   "published_at": "2026-08-24T13:07:01+00:00",
-   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "doc_id": "b73798781f1858dc",
-   "title_en": "Marrakech Expands Luxury Property Buyer Base Amid Growing International Demand",
-   "category": "DEMAND-FLOW",
-   "score": 50,
-   "rationale": "Morocco corridor micro-market demand signal; supports buyer-flow understanding."
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "The Smart Golden Visa Investor Chooses Value Over Price - IMI Daily",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLU41MnFxbDN1cVNGMDZSR1hXUGNpWjRPWG5FRXhtNkp2QlE5Q09UYUZCdkxsVTNReFd5N3l1SzhheXZTZGJEQ3N0aHVFTzBLeGlzVnVIcUJkbEhkd3ltUWZMRlN6LXhTUW9GZjBlRUxfN3JZTjNxQ3hFOENTTEJtaXZsOTRlLV9rOVRvMFl1dm9aRkk2NnZjbGlEeE8yOVUz?oc=5",
-   "published_at": "2026-08-25T11:35:47+00:00",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "doc_id": "22832aa323c5e790",
-   "title_en": "The Smart Golden Visa Investor Chooses Value Over Price - IMI Daily",
-   "category": "REGULATORY",
-   "score": 40,
-   "rationale": "Golden visa investment strategy; Portugal corridor access path but vague claim"
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "تابع العاصمة: ما الذي تقوله زيادة الاستثمار في البرتغال بقيمة 1.4 مليار يورو للمستثمرين - The Portugal News",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQalpJemY3UkU2cG8xZngxY184aWROdGJmMk5wR0U0ck1CQjZ3eGg0UWtvbDlOaUhUa1VrSzVHT0g3WnNLTDNLNENTUmhPemlDcmlVYk9JRU9hSnpnN0hsQ01uNWE0QW9YLXBFZ0JJTVZMVFJFVXVnQm1lVlhVVkdqblQtWDJhRU5nODNyLTZCMDdBcmxndnNVVU16a3JCU2J3ZlJKbHVaejdmZzZlOXlIUEY5NFBDSVJJN2NrVV9sbVRTbjBySjk0Vm1JQTMwS2hKWTJiUWVtcmczcjg?oc=5",
-   "published_at": "2026-08-25T12:52:38+00:00",
-   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "doc_id": "12736398754cf4aa",
-   "title_en": "Follow the Capital: What Does €1.4 Billion Investment Increase in Portugal Tell Investors?",
+   "title": "زيادة عروض إيجار الغرف في إسبانيا بنسبة 12% - إسبانيا بالعربي",
+   "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOaHFPdzBaUW93RWpzUGx6RE5oNjRpb05xU0p3NWVjYThzaWtqcllwUFpsbDNhdllGR1FvMEZpeGxYUlpxVnpIbTJ2cnR1c0RuN0kzNDdLUnFaVnVULU80dDJ5UldTWXhObWhPdkVZZzZqLXV6WWI0emY4NWVuYnd3QUtyVkU3R1NPbXJveFpfakNRa21VM3JMYUg1Nl9LNjQ2RkE0d1gyRllGc0dlUEE0c2FuYjBQV0JKcGswTE9NRmZkSUloVktIeUhUNjNLS2R0dXpFVmtUYWFMS3RvSkxXTV9BS0FhNVNTQnNUd0R1dVg2M0I0U2d3bEwyS0NQUjdYb0tWQTdXazZpVkpKNTVRR0JUajNUbHJUTTdBTVNPZ3JvSzQ5RnJqdGNocEpUeVdYOG5LaWVQTmxnRU9vRkNIZHVlYkg5NVNK?oc=5",
+   "published_at": "2026-08-25T17:02:34+00:00",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "doc_id": "08eff13205cf7532",
+   "title_en": "Room rental offers in Spain increase by 12%",
    "category": "DEMAND-FLOW",
    "score": 40,
-   "rationale": "Portugal investment momentum signal; broad market sentiment, not buyer-specific impact."
+   "rationale": "Spain rental signal, but unclear if second homes or investor impact for cross-border buyers."
   },
   {
    "source_id": "gnews_en",
@@ -141,91 +43,147 @@
    "title_en": "This Quaint Town In Sicily Is Offering Homes For EUR 1: Here's The Fine Print - Travel and Leisure Asia",
    "category": "DEMAND-FLOW",
    "score": 35,
-   "rationale": "Sicily stimulus; corridor location but may be local context-driven"
+   "rationale": "Sicily entry-price story attracts cross-border interest; lacks detail on buyer origin or process"
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "Property hunting enters the AI agent era - ITWeb",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNFczRDBoSHhlV2trZzJlWG1weHIwSGRTNm5USTJPenBseHF5UzJSZ3pyeXJKS1dMVW5xQjRhRFFuRHNvVDJtSGZ0U1k5U1otM3VyRmIxY2xVXzdqOXNuaXlyQ2xlSGF6VmtkNFFIX2lzV3VoR1ExYTM2Zm4zSVpGOWxuajNpMEdGUVRxel9PZS1Ja00?oc=5",
+   "published_at": "2026-08-25T10:27:52+00:00",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
+   "doc_id": "6d19289df4095547",
+   "title_en": "Property hunting enters the AI agent era - ITWeb",
+   "category": "CHANNEL",
+   "score": 35,
+   "rationale": "AI agents for property search; may serve cross-border buyers but lacks detail and corridor context"
   },
   {
    "source_id": "gnews_ar",
    "lang": "ar",
    "stream": "news",
-   "title": "نارو في صقلية أحدث وجهة إيطالية تعرض منازل مقابل 1 يورو فقط - Euronews.com",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc0haOWk5N2E2TWFERVFzcUhnY0RGbE1Bel9pVjZOTXBzb0NSdE5tTXZtNjdJY3J1MzQ0bFg3LTM2TXlJYWtQdVJiQS05NlU4empmNkFjUGFZb0UzX0dGVmRpWlFrV0hMYXdUMmNOZmRycXB0LUFmNEhUQnVfTXNQQVBMX3A5WUFGV192OXVibUFJZXIyVDJHSjd0b2pQMXZtMm5Ob01JTm5qM1cxcldLU01NTGJtRGs0VmRiNmY1aHBZUk0?oc=5",
-   "published_at": "2026-08-24T13:00:42+00:00",
+   "title": "تابع العاصمة: ما الذي تقوله زيادة الاستثمار في البرتغال بقيمة 1.4 مليار يورو للمستثمرين - The Portugal News",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQalpJemY3UkU2cG8xZngxY184aWROdGJmMk5wR0U0ck1CQjZ3eGg0UWtvbDlOaUhUa1VrSzVHT0g3WnNLTDNLNENTUmhPemlDcmlVYk9JRU9hSnpnN0hsQ01uNWE0QW9YLXBFZ0JJTVZMVFJFVXVnQm1lVlhVVkdqblQtWDJhRU5nODNyLTZCMDdBcmxndnNVVU16a3JCU2J3ZlJKbHVaejdmZzZlOXlIUEY5NFBDSVJJN2NrVV9sbVRTbjBySjk0Vm1JQTMwS2hKWTJiUWVtcmczcjg?oc=5",
+   "published_at": "2026-08-25T12:52:38+00:00",
    "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "doc_id": "ab81e4bb9623429c",
-   "title_en": "Naro in Sicily: Latest Italian Destination Offering Houses for Just 1 Euro",
+   "doc_id": "12736398754cf4aa",
+   "title_en": "Follow the capital: What does the €1.4 billion investment increase in Portugal mean for investors",
    "category": "DEMAND-FLOW",
    "score": 35,
-   "rationale": "Corridor micro-market attention driver; signals buyer interest but no structural change."
+   "rationale": "Investment flows to Portugal relevant, but lacks specifics on property or cross-border buyers."
   },
   {
    "source_id": "gnews_en",
    "lang": "en",
    "stream": "news",
-   "title": "ZipISA Wants You To Treat Your AI Agent Like A Domain Name - The Tech Buzz",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONXEzNzVvb1IxX0VjWExzSk9LekhSM2duRFBwMWVVTUJHLUxIam5FaVAzdDM1OVJCa1FsdDZNSWl2dGszcUZpU2lGNjg3OC1PTVRQSmtpM2U0Y3gybWtyYUNRV2Z1OTJ6RVdLVlpYd0RobGFkT2dYTHNyenc3WFlMcEI2alV5YWtVQXczaTJ0dTNhbGE2QnJubktTTWRtMlZxeGQ4QWk3VndaeEg3cWliNUdkNzNlZGVwVjZ5X0VUdmhKT2pjbExMWFJiN29obTRFdnc?oc=5",
-   "published_at": "2026-08-25T16:28:38+00:00",
-   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
-   "doc_id": "4bd128520690b1bf",
-   "title_en": "ZipISA Wants You To Treat Your AI Agent Like A Domain Name - The Tech Buzz",
-   "category": "OTHER",
-   "score": 20,
-   "rationale": "AI trademark strategy; speculative property-adjacent tech"
+   "title": "The Smart Golden Visa Investor Chooses Value Over Price - IMI Daily",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLU41MnFxbDN1cVNGMDZSR1hXUGNpWjRPWG5FRXhtNkp2QlE5Q09UYUZCdkxsVTNReFd5N3l1SzhheXZTZGJEQ3N0aHVFTzBLeGlzVnVIcUJkbEhkd3ltUWZMRlN6LXhTUW9GZjBlRUxfN3JZTjNxQ3hFOENTTEJtaXZsOTRlLV9rOVRvMFl1dm9aRkk2NnZjbGlEeE8yOVUz?oc=5",
+   "published_at": "2026-08-25T11:35:47+00:00",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "doc_id": "22832aa323c5e790",
+   "title_en": "The Smart Golden Visa Investor Chooses Value Over Price - IMI Daily",
+   "category": "UPFUNNEL",
+   "score": 30,
+   "rationale": "Golden Visa advice targeting ultra-HNW; Portugal corridor, but generic positioning."
   },
   {
    "source_id": "gnews_en",
    "lang": "en",
    "stream": "news",
-   "title": "When an AI Agent Acts for the Company, Who Is Liable? - Mexico Business News",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWEMxRWRaeDVoWmo1RmJYRENHY0h2YmtiNjVEbmJVclFHaVJBVTZyQ2RpTGk1WmE4eTl5SGJTZmdmTk1sR3NBZkdMekRiT2xhNlNjX3ZWTE5ZYjJmRzYxTmNvOGotaXRuZHlQS1Bsb3BrRnlHQUhsaVBHQXZPZkJ3dg?oc=5",
-   "published_at": "2026-08-24T14:30:00+00:00",
-   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
-   "doc_id": "b19a3ad4a606808b",
-   "title_en": "When an AI Agent Acts for the Company, Who Is Liable? - Mexico Business News",
-   "category": "OTHER",
-   "score": 15,
-   "rationale": "AI liability law; Mexico; tangential to corridor property"
+   "title": "Assigns Launches AI Property Intelligence Platform as Realtors Face Growing Pressure to Prove Their Value - EIN Presswire",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPYlFyUE9jZkRGX0R5RnI3RmdpbXlRVU5uclhVMlRpUVZsQ1FocWxJOE42X0lEU2pUQzZoN3RBMlZSdjhEYUE3clE1cXJfU2E0bXpIOW5xOWZiN2poZUlQRXByb0t2R0lkNS1BVWxVeTYxZkFaakZrcHA3cWUwWGFUU2d1bzlQYjc4ZnZJVWRIRGFwbkROcEpOY2xIUFZjenhUN0VucEwzbGdtSWROa3hzU1djWFg5ckRyNUQ4VlZ2dkJGZ0E5bmh3Y3ZLV3QyWllzR25weUthbzJTbUY4UTNwNWhHR2R4bjg?oc=5",
+   "published_at": "2026-08-25T18:37:00+00:00",
+   "query": "\"NAR settlement\" buyer agency commission when:2d",
+   "doc_id": "a52f6b1848966781",
+   "title_en": "Assigns Launches AI Property Intelligence Platform as Realtors Face Growing Pressure to Prove Their Value - EIN Presswire",
+   "category": "CHANNEL",
+   "score": 30,
+   "rationale": "AI tool for agents; no detail on corridor markets or cross-border buyer targeting"
   },
   {
-   "source_id": "gnews_ar",
-   "lang": "ar",
+   "source_id": "gnews_en",
+   "lang": "en",
    "stream": "news",
-   "title": "زيادة عروض إيجار الغرف في إسبانيا بنسبة 12% - إسبانيا بالعربي",
-   "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOaHFPdzBaUW93RWpzUGx6RE5oNjRpb05xU0p3NWVjYThzaWtqcllwUFpsbDNhdllGR1FvMEZpeGxYUlpxVnpIbTJ2cnR1c0RuN0kzNDdLUnFaVnVULU80dDJ5UldTWXhObWhPdkVZZzZqLXV6WWI0emY4NWVuYnd3QUtyVkU3R1NPbXJveFpfakNRa21VM3JMYUg1Nl9LNjQ2RkE0d1gyRllGc0dlUEE0c2FuYjBQV0JKcGswTE9NRmZkSUloVktIeUhUNjNLS2R0dXpFVmtUYWFMS3RvSkxXTV9BS0FhNVNTQnNUd0R1dVg2M0I0U2d3bEwyS0NQUjdYb0tWQTdXazZpVkpKNTVRR0JUajNUbHJUTTdBTVNPZ3JvSzQ5RnJqdGNocEpUeVdYOG5LaWVQTmxnRU9vRkNIZHVlYkg5NVNK?oc=5",
-   "published_at": "2026-08-25T17:02:34+00:00",
-   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
-   "doc_id": "08eff13205cf7532",
-   "title_en": "Room Rental Offers in Spain Increase by 12%",
-   "category": "OTHER",
-   "score": 15,
-   "rationale": "Corridor rental market; insufficient specificity on location or buyer impact."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "تشديد مصري على المطوّرين العقاريين بعد أزمات تأخّر التسليم - الشرق الأوسط",
-   "url": "https://news.google.com/rss/articles/CBMimAVBVV95cUxPR0VnaFNaUWEyZDVET3BRWHdRZHRaWjUxX1lVVXdLY1RYLS0tWnB2M0h5UVVDWmlYcEE0Znd1b3dKR0dtZDhhc2EtUHVwOHBYVVljNDRZdXRPdTQwYTNWY1c0dVlnal9jbDNzejBHd3V6NERJMmoybHloR1o5T0lrT3M5WERYbzE1UFFyTEZNRWhabnBXcUY3T0FVZWhERjNWNXg1ZzM2dDRvTmQ0RUNCQ05GbkpLVGRCeFhmc1FCb1NGOG56SGFHTEFGV19mOGs2ZVpuMjhmMmxDWU9aU1RJNXdtNURWU0FXdG94WHlnSmhPYjhGMU54a2J5d0FTdEdsTUFFcnNBZVhRWmVaRXE5Nk9kZFEzd24xcnBXWmxfdTk0Yzk3c08yVEhGQzRuSFNzVXJqVmd4ckswLWJEZnZuak40UjNnQUVENUU3X0hhMUxybHBOR3B3MTNsYkNtM2VVb2w2bkZiNTRCdXdZejU3SzhfLWtwaXRfenRtS214ZmhJbW5CVEFFOENhOGVOOWxSZjhwdVBIUDFGZ0FtRVZLVko5OVFDVTEyeWJ1b3lIVDJmWURuT3FfQzdSSjVSV1BaYzh2Vi1YWHJWNTNJSjBkejA4Y0t1VWNXeDhvYVhYSjl1aWlfQVUyc21vZHRTZGFaUXp2WllqeXhXTTYyTXRpbWE1dlhKRkl5eUxISXNTbWx2TVh0VGtFSHJYUHl4OXFOM3RYN2pzUExvT3RsMlZ5dllocmJsTWVuYVFhYXJsQ1AzakZNRzVNV3VZOEtMOUhPMmtuYjI5TDRveTcxRjcwWEQzaGlWX1pBZnBZTWNyeGRQdWliZ1RZQmtDSXEyZkZVZXFDdXB3Y0ZubDd1Mi1Ia0pLZy00aUQ5?oc=5",
-   "published_at": "2026-08-24T15:12:57+00:00",
-   "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "doc_id": "4289e68e01375b19",
-   "title_en": "Egypt tightens pressure on real estate developers after delivery delays",
-   "category": "REGULATORY",
-   "score": 15,
-   "rationale": "Egypt regulatory action; outside corridor (Spain, Portugal, Italy, France, Greece)."
+   "title": "Portal competition is growing, consumer clarity is not - HousingWire",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAzSFhPZDFzd0k4YlNycmh5N2tXcUZZUDdVLUw0SkZIS0QwQmtpeFU0aHpNenBUZ0ZsWmVtcWd1TzctOUkwc0pBckV5TnlITjhBNjNuaWhvWFBoSTF3cmx6Z0t5aVkzTWJBMGRkMHlsUTM2dlFzR3lDbUVxTXg?oc=5",
+   "published_at": "2026-08-25T18:46:15+00:00",
+   "query": "\"NAR settlement\" buyer agency commission when:2d",
+   "doc_id": "249944cab26ae778",
+   "title_en": "Portal competition is growing, consumer clarity is not - HousingWire",
+   "category": "CHANNEL",
+   "score": 25,
+   "rationale": "Generic portal fragmentation; no corridor-specific or cross-border buyer impact named"
   },
   {
    "source_id": "property_industry_eye",
    "lang": "en",
    "stream": "news",
-   "title": "Where are BTL landlords securing the strongest rental returns?",
-   "url": "https://propertyindustryeye.com/where-are-btl-landlords-securing-the-strongest-rental-returns/",
-   "published_at": "2026-08-25T00:20:47+00:00",
+   "title": "Property industry leaders join forces to tackle transaction delays",
+   "url": "https://propertyindustryeye.com/property-industry-leaders-join-forces-to-tackle-transaction-delays/",
+   "published_at": "2026-08-25T01:48:04+00:00",
    "query": "",
-   "doc_id": "267a7f47fa69a4e2",
-   "title_en": "Where are BTL landlords securing the strongest rental returns?",
+   "doc_id": "3e9128b44d1e3e9e",
+   "title_en": "Property industry leaders join forces to tackle transaction delays",
+   "category": "OTHER",
+   "score": 15,
+   "rationale": "Likely UK-focused; no corridor market or cross-border buyer specifics named."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "مراكش توسّع قاعدة مشتري العقارات الفاخرة وسط طلب دولي متزايد - Hespress",
+   "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPTUR1WWFfVFdOanZzYlhrRWVIUnJtbm0yVW9Ka1ZvUDZkeTVnYTJUNDVtenRuV3VuTlROeFVZZ2Z0eVN1UEJSaTNidkZQeTFNVU9rcmw0ekFoREpWWEVEUUR0UHNCWEN6VUZqc1VPeVQzZUFGNV9hNmVVQXJDSlBnMTJFZE04WlpCU0M2aXExd2hhOEQtRDg0b1lTOEJ2Y05EeXpZNVVsUV9LenZZV2VvajF3V0pla0FscUNpVjYzYi1id1VCWXhPSklsT3FqeTBKUURKRFZxSzBNb3JraXdFQ2Fkckg0aW9WSklqZEJwRHZjcDFzYUlqY1NsU2g0TEloeEhuSTNYNm5SbmRGdUNFUHBiLWl5RDdXZm5wQXZQUmlxTWQxb1c3NF82bEZEeS1uMEQybEpuaXE4ZEVGeHpmRnFQa2o5eXQ2Mzg4bDlHb1ZwNm96VUE?oc=5",
+   "published_at": "2026-08-24T13:07:01+00:00",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "doc_id": "b73798781f1858dc",
+   "title_en": "Marrakech expands luxury property buyer base amid rising international demand",
+   "category": "DEMAND-FLOW",
+   "score": 15,
+   "rationale": "Morocco is outside the corridor; no buyer-corridor or business-impact data."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "أوروبا تحاصر التكنولوجيا.. بروكسل تشدد قبضتها على الذكاء الاصطناعى - اليوم السابع",
+   "url": "https://news.google.com/rss/articles/CBMinwRBVV95cUxNVEt5cERqeHEtU2g1LUlud0FidmN5NjZud2R6Vm03ekZxdEY5b0dPTHRuNndNNjhDaWx4UjZDZlZhajJleWUxalVxT2ZiLXlIYTZjYjRlTnJQM0tIa3BSa1JhTzNGcmk5MC1Qck1Vc3RaOG5nZktuQVcwa3hkdjRQcUhDY09mTTV0SHU4eVRLVzdpcDZLNWJfRXFmVGxCalNNQ1M2RUNOS0NzeC11SF93SkcwU2RteWttZk1zVTNuRUpheTNSaGdwVlBuc3VNbncwUWhqckpkNm8wWVBnUDZJRzNYX0g1WWE4WWFYc016Y1A0aDQ0TFJRbldMWlE4UUpTT19mRWhGUGM4cFFFYkc3LVo5bXM5MjNtVU1ERWZxUVJxNkJFWjEza0t4alBaUjhDaFhEbG9EYTdkZ3VYRnhRQ0RPWXJPWjY1dWR2LU96aEQ0blF2V3JIZUxsbVNGaDEyS3FQSVBLUzRnMllQRTAyWTM1WXFqd2NuTjNWOUtCNFhXQjZaaXd6V0trdjJ2MkgwQXBGWGwtZlU2bmhtYmhrLUl4dXR2aFpyOVdVcjNBRWJDY2VVb0w0dzlOYXlibVNnODFOYkk0LXdwbURJdzBsSTdtTmtzMDZXQ1pvYVFWOG14UmprMGVmS2xxN09NWEs1a3ZQU1E5WURmbWlILUZ3RmRldnRVVDdhZGoxVkpSR2ZJTFJDWHFIWUdrMVlQOFXSAZ8EQVVfeXFMTVRLeXBEanhxLVNoNS1JbndBYnZjeTY2bndkelZtN3pGcXRGOW9HT0x0bjZ3TTY4Q2lseFI2Q2ZWYWoyZXllMWpVcU9mYi15SGE2Y2I0ZU5yUDNLSGtwUmtSYU8zRnJpOTAtUHJNVXN0WjhuZ2ZLbkFXMGt4ZHY0UHFIQ2NPZk01dEh1OHlUS1c3aXA2SzViX0VxZlRsQmpTTUNTNkVDTktDc3gtdUhfd0pHMFNkbXlrbWZNc1UzbkVKYXkzUmhncFZQbnN1TW53MFFoanJKZDZvMFlQZ1A2SUczWF9INVlhOFlhWHNNemNQNGg0NExSUW5XTFpROFFKU09fZkVoRlBjOHBRRWJHNy1aOW1zOTIzbVVNREVmcVFScTZCRVoxM2tLeGpQWlI4Q2hYRGxvRGE3ZGd1WEZ4UUNET1lyT1o2NXVkdi1PemhENG5RdldySGVMbG1TRmgxMktxUElQS1M0ZzJZUEUwMlkzNVlxandjbk4zVjlLQjRYV0I2Wml3eldLa3YydjJIMEFwRlhsLWZVNm5obWJoay1JeHV0dmhacjlXVXIzQUViQ2NlVW9MNHc5TmF5Ym1TZzgxTmJJNC13cG1ESXcwbEk3bU5rczA2V0Nab2FRVjhteFJqazBlZktscTdPTVhLNWt2UFNROVlEZm1pSC1Gd0ZkZXZ0VVQ3YWRqMVZKUkdmSUxSQ1hxSFlHazFZUDhV?oc=5",
+   "published_at": "2026-08-25T09:13:56+00:00",
+   "query": "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d",
+   "doc_id": "ae69536dadef0b0f",
+   "title_en": "Europe tightens AI grip: Brussels hardens stance on artificial intelligence",
+   "category": "OTHER",
+   "score": 15,
+   "rationale": "EU AI regulation may eventually affect property tech platforms serving corridor."
+  },
+  {
+   "source_id": "property_industry_eye",
+   "lang": "en",
+   "stream": "news",
+   "title": "Estate agents feel the heat as property market cools",
+   "url": "https://propertyindustryeye.com/estate-agents-feel-the-heat-as-property-market-cools/",
+   "published_at": "2026-08-25T03:50:48+00:00",
+   "query": "",
+   "doc_id": "3028ad6020c72a81",
+   "title_en": "Estate agents feel the heat as property market cools",
    "category": "OTHER",
    "score": 10,
-   "rationale": "UK buy-to-let; not cross-border second-home investment"
+   "rationale": "UK domestic market sentiment; no corridor, no cross-border mechanism."
+  },
+  {
+   "source_id": "property_industry_eye",
+   "lang": "en",
+   "stream": "news",
+   "title": "Thousands of estate agents handed new free revenue stream",
+   "url": "https://propertyindustryeye.com/thousands-of-estate-agents-handed-new-free-revenue-stream/",
+   "published_at": "2026-08-25T01:00:17+00:00",
+   "query": "",
+   "doc_id": "8baf6be755d94c71",
+   "title_en": "Thousands of estate agents handed new free revenue stream",
+   "category": "OTHER",
+   "score": 10,
+   "rationale": "UK domestic incentive; no corridor market or cross-border buyer implications."
   },
   {
    "source_id": "property_industry_eye",
@@ -239,35 +197,7 @@
    "title_en": "How much are lost leads and unused tech costing your agency?",
    "category": "OTHER",
    "score": 10,
-   "rationale": "Generic agency efficiency; no corridor or cross-border dimension"
-  },
-  {
-   "source_id": "portugal_resident",
-   "lang": "en",
-   "stream": "news",
-   "title": "Algarve hoteliers call for crackdown on ‘booze tourism’ after Albufeira car rampage",
-   "url": "https://www.portugalresident.com/algarve-booze-tourism-albufeira-oura/",
-   "published_at": "2026-08-25T16:17:45+00:00",
-   "query": "",
-   "doc_id": "a4784265382db298",
-   "title_en": "Algarve hoteliers call for crackdown on 'booze tourism' after Albufeira car rampage",
-   "category": "OTHER",
-   "score": 10,
-   "rationale": "Portugal tourism issue; unrelated to second-home buying"
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "Inside Europe’s Biggest M&A Deals of 2026 - European Business Magazine",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS210RUdHMHBnWC04YWx1WG1ENlBCVzB5MzRUMzhrdnZXMl93STY4NElwSndVVjBjMXRRYVZocTBNTGlseldDX0QwQXVBQzJCV1V5NktHRHJtVW1PVFRVcF9EbUtLOUZ0M2sweUctUFZBeHluX1ZUd091anNsYXBwZA?oc=5",
-   "published_at": "2026-08-24T12:38:31+00:00",
-   "query": "\"cross-border\" property buyers Europe when:2d",
-   "doc_id": "009bd78830e62bdc",
-   "title_en": "Inside Europe's Biggest M&A Deals of 2026 - European Business Magazine",
-   "category": "OTHER",
-   "score": 10,
-   "rationale": "Europe M&A; likely excludes second-home real estate"
+   "rationale": "Generic agency efficiency; no corridor or cross-border buyer angle."
   },
   {
    "source_id": "gnews_en",
@@ -281,7 +211,7 @@
    "title_en": "InvestFusion Founder Jeff Emalaba Breaks Down the Five Inputs Behind AI Deal-Scoring on New Podcast - Knoxville News Sentinel",
    "category": "OTHER",
    "score": 10,
-   "rationale": "Real estate tech podcast; US market focus"
+   "rationale": "US real estate AI; unclear if addresses cross-border second-home investment scoring"
   },
   {
    "source_id": "gnews_ar",
@@ -292,24 +222,24 @@
    "published_at": "2026-08-24T18:36:37+00:00",
    "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
    "doc_id": "7f07559e664a97a6",
-   "title_en": "Countries Offering Money to Those Wanting to Relocate in 2026..What Are the Conditions for Egyptians?",
+   "title_en": "Countries offering money to those wanting to move in 2026..what are the conditions for Egyptians to benefit? - Gulf Newspaper",
    "category": "OTHER",
    "score": 10,
-   "rationale": "General relocation incentives, not corridor second-home focus."
+   "rationale": "Relocation incentives; may apply to Egyptian-to-corridor migration but vague and speculative"
   },
   {
    "source_id": "gnews_ar",
    "lang": "ar",
    "stream": "news",
-   "title": "\"سيتادل\": إعادة شراء الخزانة الأميركية للسندات \"قمع مالي\" يهدد الدولار ويفاقم التضخم - العربية",
-   "url": "https://news.google.com/rss/articles/CBMilAVBVV95cUxNRjBESHYxSmNqVEhnV0V4c2w3allyN0hMMjJ5TkcyX2J6ZzFFZmt2cmVvdUFoS1ZLSmgySkYzeERJdWxhaXRFQjlSajEtSzM5ZzRyVnBsNnF6SUFHVVFlcV9tb3Y2cklRZnQxbE5VYUc4V1dZSVpVN0RWWkR6MnZzVmlyNlBYYU1tQWRjYzZsdm5XSGYyUEpZbkRaQkJlMFJKU0loRkNPak84ZDhzUDlhNHVqVEhrT1Z1eHk3N1pqc3N5cy1IclByQUJnbjRKQWhHWkswMXROcFQtVU5HYk5BU2JBM3RsdzdNbnVFSUM5U3RQTTh4NFJONm9FclI1aFRoTy1lYWtRbDltZEpTSVA1YVRNSWs1dGZuLVJKdWlvbF9PcG12aFp4T0xwU1Y3eGp4WXFVTUtjSUJqR1ZtLXdjckoxWTJnbFZEanhKUk14VjBVZUZDeGRfOFVTNXVTTTBoSW9xOU5MYy1PUE5CRXM0Q2JFRElfQXE3bEZaS3RhS3gyVGlpS0xONll5ajlmV0xNTVUzMmI2QzR1UHJxTFRQLVFEUG5Fa1owTXFyX2dpLTBRNDFKYmpBcG1LamJYTzhyR1BCczNqQVk3N25EYlAwRmU1TzNQMEtzOUhJTU9NMFRyTDROWmNBMEtTWGgzZHU4Vm9NNm5jLXhvUk15WDJPbm9kR3c0bHI1ZThWUjliSmVWcURhV1o1Y2hnMVN1aGh4MGtla0pzODZyRTN6OFVxWHR2R2dYTVZaU3ppQ3NpdTRsVkl4Tnh2aUkxbEpzQWhFZHhWTWJJSkFoaEZqX3ptSmdBRjNtN01Nb2tETUZ3VlE3S2lwdElPZ2F6MDRNRGxyLTdvMjllZXJuYVdEcXlvWWdCTnXSAZQFQVVfeXFMTUYwREh2MUpjalRIZ1dFeHNsN2pZcjdITDIyeU5HMl9iemcxRWZrdnJlb3VBaEtWS0poMkpGM3hESXVsYWl0RUI5UmoxLUszOWc0clZwbDZxeklBR1VRZXFfbW92NnJJUWZ0MWxOVWFHOFdXWUlaVTdEVlpEejJ2c1ZpcjZQWGFNbUFkY2M2bHZuV0hmMlBKWW5EWkJCZTBSSlNJaEZDT2pPOGQ4c1A5YTR1alRIa09WdXh5NzdaanNzeXMtSHJQckFCZ240SkFoR1pLMDF0TnBULVVOR2JOQVNiQTN0bHc3TW51RUlDOVN0UE04eDRSTjZvRXJSNWhUaE8tZWFrUWw5bWRKU0lQNWFUTUlrNXRmbi1SSnVpb2xfT3BtdmhaeE9McFNWN3hqeFlxVU1LY0lCakdWbS13Y3JKMVkyZ2xWRGp4SlJNeFYwVWVGQ3hkXzhVUzV1U00waElvcTlOTGMtT1BOQkVzNENiRURJX0FxN2xGWkt0YUt4MlRpaUtMTjZZeWo5ZldMTU1VMzJiNkM0dVBycUxUUC1RRFBuRWtaME1xcl9naS0wUTQxSmJqQXBtS2piWE84ckdQQnMzakFZNzduRGJQMEZlNU8zUDBLczlISU1PTTBUckw0TlpjQTBLU1hoM2R1OFZvTTZuYy14b1JNeVgyT25vZEd3NGxyNWU4VlI5YkplVnFEYVdaNWNoZzFTdWhoeDBrZWtKczg2ckUzejhVcVh0dkdnWE1WWlN6aUNzaXU0bFZJeE54dmlJMWxKc0FoRWR4Vk1iSUpBaGhGal96bUpnQUYzbTdNTW9rRE1Gd1ZRN0tpcHRJT2dhejA0TURsci03bzI5ZWVybmFXRHF5b1lnQk51?oc=5",
-   "published_at": "2026-08-24T17:28:00+00:00",
-   "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
-   "doc_id": "347bd99e4bf6bdfe",
-   "title_en": "\"Citadel\": US Treasury Buyback \"Financial Repression\" Threatens Dollar and Worsens Inflation",
-   "category": "OTHER",
+   "title": "تحول ديموغرافي وانتعاش قياسي في عقارات مراكش الفاخرة - كِشـ24",
+   "url": "https://news.google.com/rss/articles/CBMirgNBVV95cUxOM1ZicldvczVKemZZN2M0T3JsTW1ReDRlVlpqM3p2Qnc4UHpLMGlKQVI0QnMxeWVpLXhGOUlNVjJGOXZtaVlRNUQxMGZoTWtEeW45ZHZlc3kzdzdrT2M5Ylkyc1N1RlBPQmxkbUctOUxkNk9TUlVVQUZueVMxMVExdHJ3eXM5RG9rOU4yUEdLYXZZMEZISV9YS0FDVHJDaUpoSi1qVzRxcjBzT3E0Z1B1YTdybVdsOEhJWFBmWmowdFcwN3doc0VfVllCNV93UVNpbUt0V1ZEY25OT0tCenBPbnFYN2d0VDVwRzdCT2stRmtnOTl5SjdHVWRDd0g0OV9mdTdzWnBpbTE5ajZfRmFOQTlWcERYelZmQTFZd1RKa0kybzF0aThVcmhhWG5iZkM4aFg1b3FZZ3l1MUhHbHl4MVRsOVRFNzR5MTRfQ2Q5NkNJTjdxUXZLSnNqMk5XMjBxbndzaHNlV1RmRzRaRHlBTFJ5dnJER1RVNDZ3N09IemMwSmk1X3R3NmR4M190M004R3hTMkowWWNzX1FsVnNnRjlsOVR5aFNWWEpDaUp30gGzA0FVX3lxTE5FRlpwVW5jRGVubGVzd2NhQ2V1MFppNWRDWVB6VDBleEY2aUlRbURYLVBOMHcyR0pqLWNNUnFKY1RmT3BoTjRxSUpMMFlXVG90cGxCNWtmNE1rZXFoazBmT0JtcGhKUXRzRHZ0UTVvMXVzMUhiRHJzUFNtVTF3SFp2V0NrOTFNa3dCekR6RFlOaEx5N3Z4VXZNVFJvYVJZSFI0SEpCc2U5b0JmWW12MHp6MFZMNE9peU5yNzR3LVNKN25WREd1LTFlQkhZMmlaRXRESkYzSEdiWFhkZ2tIVFlBbTNVaU9fTnAybzB5enRoc2JJbHd0WWlqazM4UThMS0dGc2xMbjJaRlF3RkF6LW5QZzY4TWo1bEd5ZHZnLURTSEJJNlhac2pSX3BPUDR0Ql95OHlrRmdoYldORWJzc0NFbWZJbC1uVEgyOF9nSVg5SUIxOVpSUTZZSnZBaWp0dlppYkFqaTV1WmFLZFA0aXNsaVpoYnFNX0ZhbUtoQnhreW5GN04xZmc5LVJOUVp4bHJmMDdBZFBTaGdMUGQ2NVdNU1lacUJWcDhTOWE5RDdJSDg4WQ?oc=5",
+   "published_at": "2026-08-25T08:30:03+00:00",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "doc_id": "46ac3a66f66fdd47",
+   "title_en": "Demographic shift and record boom in Marrakech luxury property",
+   "category": "DEMAND-FLOW",
    "score": 10,
-   "rationale": "US macroeconomic commentary; weak indirect relevance to buyer purchasing power."
+   "rationale": "Morocco is outside the corridor; no cross-border buyer or business relevance."
   },
   {
    "source_id": "property_industry_eye",
@@ -323,21 +253,7 @@
    "title_en": "EYE EXCLUSIVE – LRG acquires historic estate agency",
    "category": "OTHER",
    "score": 5,
-   "rationale": "UK market consolidation; no cross-border or corridor impact"
-  },
-  {
-   "source_id": "property_industry_eye",
-   "lang": "en",
-   "stream": "news",
-   "title": "Estate agents feel the heat as property market cools",
-   "url": "https://propertyindustryeye.com/estate-agents-feel-the-heat-as-property-market-cools/",
-   "published_at": "2026-08-25T03:50:48+00:00",
-   "query": "",
-   "doc_id": "3028ad6020c72a81",
-   "title_en": "Estate agents feel the heat as property market cools",
-   "category": "OTHER",
-   "score": 5,
-   "rationale": "UK market sentiment; no corridor or cross-border dimension"
+   "rationale": "UK domestic M&A; no corridor property or cross-border buyer impact."
   },
   {
    "source_id": "property_industry_eye",
@@ -351,21 +267,7 @@
    "title_en": "Independent agency to open new office following acquisition",
    "category": "OTHER",
    "score": 5,
-   "rationale": "UK agency expansion; no cross-border or corridor impact"
-  },
-  {
-   "source_id": "property_industry_eye",
-   "lang": "en",
-   "stream": "news",
-   "title": "Property industry leaders join forces to tackle transaction delays",
-   "url": "https://propertyindustryeye.com/property-industry-leaders-join-forces-to-tackle-transaction-delays/",
-   "published_at": "2026-08-25T01:48:04+00:00",
-   "query": "",
-   "doc_id": "3e9128b44d1e3e9e",
-   "title_en": "Property industry leaders join forces to tackle transaction delays",
-   "category": "OTHER",
-   "score": 5,
-   "rationale": "UK market efficiency initiative; no cross-border relevance"
+   "rationale": "UK domestic M&A; no stated corridor location or cross-border impact."
   },
   {
    "source_id": "property_industry_eye",
@@ -379,77 +281,21 @@
    "title_en": "Property investment firm acquires estate agency network with 104 franchisees",
    "category": "OTHER",
    "score": 5,
-   "rationale": "UK agency consolidation; no corridor dimension"
-  },
-  {
-   "source_id": "property_industry_eye",
-   "lang": "en",
-   "stream": "news",
-   "title": "Thousands of estate agents handed new free revenue stream",
-   "url": "https://propertyindustryeye.com/thousands-of-estate-agents-handed-new-free-revenue-stream/",
-   "published_at": "2026-08-25T01:00:17+00:00",
-   "query": "",
-   "doc_id": "8baf6be755d94c71",
-   "title_en": "Thousands of estate agents handed new free revenue stream",
-   "category": "OTHER",
-   "score": 5,
-   "rationale": "UK agent business model; no cross-border impact"
-  },
-  {
-   "source_id": "property_industry_eye",
-   "lang": "en",
-   "stream": "news",
-   "title": "NIMBY Britain? New research suggests otherwise",
-   "url": "https://propertyindustryeye.com/nimby-britain-new-research-suggests-otherwise/",
-   "published_at": "2026-08-24T23:30:49+00:00",
-   "query": "",
-   "doc_id": "c232f06109564531",
-   "title_en": "NIMBY Britain? New research suggests otherwise",
-   "category": "OTHER",
-   "score": 5,
-   "rationale": "UK planning sentiment; no corridor relevance"
+   "rationale": "UK domestic acquisition; no corridor presence or cross-border buyer model."
   },
   {
    "source_id": "portugal_resident",
    "lang": "en",
    "stream": "news",
-   "title": "Saudi business delegation visits Portugal to strengthen cooperation in health sector",
-   "url": "https://www.portugalresident.com/saudi-business-delegation-visits-portugal-to-strengthen-cooperation-in-health-sector/",
-   "published_at": "2026-08-25T12:53:29+00:00",
+   "title": "Algarve hoteliers call for crackdown on ‘booze tourism’ after Albufeira car rampage",
+   "url": "https://www.portugalresident.com/algarve-booze-tourism-albufeira-oura/",
+   "published_at": "2026-08-25T16:17:45+00:00",
    "query": "",
-   "doc_id": "a2e1a5ffedc32de9",
-   "title_en": "Saudi business delegation visits Portugal to strengthen cooperation in health sector",
+   "doc_id": "a4784265382db298",
+   "title_en": "Algarve hoteliers call for crackdown on 'booze tourism' after Albufeira car rampage",
    "category": "OTHER",
    "score": 5,
-   "rationale": "International relations; no property or cross-border buyer corridor relevance"
-  },
-  {
-   "source_id": "portugal_resident",
-   "lang": "en",
-   "stream": "news",
-   "title": "Security in Lisbon: “Time has come for government to deliver on promises of more police”",
-   "url": "https://www.portugalresident.com/security-in-lisbon-time-has-come-for-government-to-deliver-on-promises-of-more-police/",
-   "published_at": "2026-08-25T12:32:21+00:00",
-   "query": "",
-   "doc_id": "4e750b3f2507d71f",
-   "title_en": "Security in Lisbon: \"Time has come for government to deliver on promises of more police\"",
-   "category": "OTHER",
-   "score": 5,
-   "rationale": "Urban safety in corridor city; peripheral to buying decisions"
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "Brazil Investor Visa (VIPER) – The Ultimate Guide 2026 - Get Golden Visa",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IOTFZWE1BVUhYTmo0bUpEUENKb0MtOEV2ZVJhWUFHTm1vMkJjZG5qN1FWNENmY3VMb3Bld25rU1BCNGRpSFZBUEFMQmtVT2F0VUpCZm9mY2wzUQ?oc=5",
-   "published_at": "2026-08-24T13:45:28+00:00",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "doc_id": "443ea900b2660503",
-   "title_en": "Brazil Investor Visa (VIPER) – The Ultimate Guide 2026 - Get Golden Visa",
-   "category": "OTHER",
-   "score": 5,
-   "rationale": "Brazil visa program; non-corridor origin market"
+   "rationale": "Portugal corridor but tourism/safety, not property buying or investment mechanics."
   },
   {
    "source_id": "gnews_en",
@@ -463,7 +309,35 @@
    "title_en": "Was George Clooney 'very upset' about Mamdani's NYC wealth tax? - Snopes",
    "category": "OTHER",
    "score": 5,
-   "rationale": "Celebrity gossip about US tax; no substance for corridor buyers"
+   "rationale": "Celebrity gossip about US tax; no substance for cross-border buyer decisions"
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "Prime London property values down 25% as tax changes bite - PropertyWire",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNkx6LW94VC1oc2RsOFN0alJWS2Y4Z181dnk5MXpGZDVuRkdrSzg2akwwbURGZ18tTGZMYms0VGs3TUFJblZ2RHJ6aDlhWnFrcDNuUV9jdnlwbUdnWUl5RVZwcmI3U0RjRzdwWF9tWHhqYzdqTVplY2x2T3VIX1VBWGFnbEVzSXhMczc4MDkzUnpvVV9ZQXdjc0RB?oc=5",
+   "published_at": "2026-08-25T06:02:57+00:00",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "doc_id": "29c0d1afd3607799",
+   "title_en": "Prime London property values down 25% as tax changes bite - PropertyWire",
+   "category": "OTHER",
+   "score": 5,
+   "rationale": "London domestic; may influence UK wealth flows to corridor but indirect and speculative"
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "When an AI Agent Acts for the Company, Who Is Liable? - Mexico Business News",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWEMxRWRaeDVoWmo1RmJYRENHY0h2YmtiNjVEbmJVclFHaVJBVTZyQ2RpTGk1WmE4eTl5SGJTZmdmTk1sR3NBZkdMekRiT2xhNlNjX3ZWTE5ZYjJmRzYxTmNvOGotaXRuZHlQS1Bsb3BrRnlHQUhsaVBHQXZPZkJ3dg?oc=5",
+   "published_at": "2026-08-24T14:30:00+00:00",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
+   "doc_id": "b19a3ad4a606808b",
+   "title_en": "When an AI Agent Acts for the Company, Who Is Liable? - Mexico Business News",
+   "category": "OTHER",
+   "score": 5,
+   "rationale": "AI liability outside corridor; marginal relevance to property transaction logistics"
   },
   {
    "source_id": "gnews_ar",
@@ -474,52 +348,10 @@
    "published_at": "2026-08-24T14:13:08+00:00",
    "query": "مستثمرون سعوديون OR إماراتيون عقارات أوروبا when:2d",
    "doc_id": "8d7240145db24cac",
-   "title_en": "Saudi Luxury Real Estate Exhibition Opens in London with Government, Investment and Developer Participation",
+   "title_en": "Launch of Saudi luxury real estate exhibition in London with government agencies, investment and Saudi developers - Stadio Al-Ahli",
    "category": "OTHER",
    "score": 5,
-   "rationale": "Saudi property marketed in UK; not corridor buyer flow."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "انحسار القلق بشأن الإمدادات النفطية يدعم الأسواق الأوروبية - العربية",
-   "url": "https://news.google.com/rss/articles/CBMijwRBVV95cUxQQ2E0X25JQnVWd2dBRmNLMkoyS0dWUDZqUnlDOUJGdWJVZ19SSm50cU5QNUhnU0xwQ2U1Z0IzS0NYaHNCQlE3UHNmNHNvYW9YYTFQS3h6eVU1alJOQndHZ1F2ZGUtZFkyZWFOR3pxZHZwT3B2WVJDNE0tNEE0dDdYR3BPUkU2bUswQXF6ZnRTNXhnU2VRVE5LY0FnZUdBR1I0cmVaMldWeXpXRzhqQzRGak9wek1rNG94X0I1ZnJaM3ktYTVtaU9KTTBEaWdzMy1ZLXdLa3F0bkdjZEdZdE1nSjlIc2xjY0NjcWVjRkFwZmpJUzBWbG1Kelh5d0RvTkRLX0diVFlhRTNLRU1VOHI2bTJqWkVudUplZzg1eGRZd3JxbU11aGZ1NF92QU9kMWdrOU1IQkZ0MjBFNWJNdzZZeHpibnJSeHFwN0RLTHJvR084UDlsWGVYdmRnd3o0M2JNdHZybHVFV0I1TkR0ZlVGenQxOVI2SGwzcGdWMWEtVG1oTjlQT21mOTliWi0wa3prU3JxSUxfUXZ5dVJMeWtkaHhrTFNfYnpWQ3FBQ2paR25qSzRXd3lxMDBxUzVTeDdFWElBLU8tMWFiSTllNmpxeHFxT0U1emF5NncxbTR0eHh4cEJDYllIdkwwa1BsdmZwSWtJZ2dVUlRfM1pGQzRfS3JpVzNiSzlDeWJIUi1sQdIBlARBVV95cUxOMVpPY0drNWdRRkNIUExaakF6NzRIeWNqekdyUExMY3BXZUlHX1hzNndvc1ZmRlpWQXExTUhuNUVnTlhyUUFrOGtfZXBSSHprdmhGdTh2VEJRRFp6WkV1dFAtYlJiSmxRUVNjTzdtMUI5dkZ1UHhVc2V4Qk1Tc2lGVUQ3eThORVBHNEF4WDNYVmp3VjQ0YXRtbHIzSVREZWttQXZRcmR6dWpKRXN5ZGQ2VWZGbVRDVVY2dVZWZDNkT3VoeFEzVUFVc0dXbTRLb0QxeTcwdWc0RGFSMVBQanN5MnlDeEUxVG40NDRXUkFWOUEzbFFsNjJ6dk9ZWkxJemtTT1VjdVN4aTFDc1IxdUw5bjE4bm1uOXlMRjVJRVBROW1oamlWbnh1WWRNRUxxREZ4RnVsNXJfTFlOQzJwMlphMGxOSjRDTW9rUUVyeVd6VE5ON0x2eFVYY3J3bHBXVzNpQy1zQzhjRUtPWUtSd3RvLWExT19La18tOGJQODZYb2pWOXBRbTRxWFBtMWI0cy1OWWhNcDRTMjZSWU5jbFFDLXM0aFE1YzI3Z29sdHQ5WlZRWlZQd25FNG13MUh6UER1dXpmRy0yemVUdjZ4LWw2X2NmNnlJdXdWUmRjNmJERWo3T0g2bjdGSGZqYVBLd1VTSzFGSmNoQkltWWl1T1dUUUhZWmxkWGt6TmNxNGt4MzhwNFBE?oc=5",
-   "published_at": "2026-08-25T08:39:00+00:00",
-   "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
-   "doc_id": "0837e47ba9b701f0",
-   "title_en": "Easing of Oil Supply Concerns Supports European Markets",
-   "category": "OTHER",
-   "score": 5,
-   "rationale": "European market sentiment; indirect buyer-confidence factor."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "\"إيزي جيت\" للطيران البريطانية تطلق حملة لتوظيف \"كبار السن\" - العربية",
-   "url": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxOSHYyb0tKenNxZkJJTUg4UWk4cG9iSjBwOHp5NjFKNzZ6YmM0LUEzNUxwMGR2Y0QyZlVLZzhpZTZ4Z3h1d2J1LW1VdGJEaUtvTmhUQk5VRUlFZENaY0ttUDlaYjM1VGQzaENBU3RfbjlNQlYyOXZMY00wYW0tck9qTkhscU1kWFFnR195SENhU2NjU0xvTEl3ZV84RXJmMHV1ODdVOXZPcHB2ODBWQzdmTXpUOWdJdzZWTUV0em5zU0hJTmNzcjFDdjhZTkVHWEpqMVZTazF1UHVUdU1wdmZ6MnBkeHBJbjJDOVVGdEhKYTJZZTdxRl9hbTBmX054SHBEb3Qyd1B0S0hETWJsY21sRWMtb1hrQXBRU0d0OUdGRWhrUjhIeDBZQnhTM2xEZ3QtVjZZQ1d0ajBZT1ZfdHhyakkzTE5ZVm56eERZNDN3dFBIc1NRYV9lQUN1SXlyZWdfLVVRVGZTUUozMkdXR3NjYVdNZTlrLTRhX0VLUFd6N2x0Ny0zLUZlQXctYkZoNzJNVVlrZk5CODFqYzhOcHAxM3h6VnVjbnhEeDRWSkZkTVRtZU01cExEdmNwQm5QVU9nY3cyS3UtLXdHQXNGTWgzclhtcjZmaDNOZTU2SXFBZDBPZmNkbUo2UmFkbkRfYXfSAe8DQVVfeXFMTkh2Mm9LSnpzcWZCSU1IOFFpOHBvYkowcDh6eTYxSjc2emJjNC1BMzVMcDBkdmNEMmZVS2c4aWU2eGd4dXdidS1tVXRiRGlLb05oVEJOVUVJRWRDWmNLbVA5WmIzNVRkM2hDQVN0X245TUJWMjl2TGNNMGFtLXJPak5IbHFNZFhRZ0dfeUhDYVNjY1NMb0xJd2VfOEVyZjB1dTg3VTl2T3BwdjgwVkM3Zk16VDlnSXc2Vk1FdHpuc1NISU5jc3IxQ3Y4WU5FR1hKajFWU2sxdVB1VHVNcHZmejJwZHhwSW4yQzlVRnRISmEyWWU3cUZfYW0wZl9OeEhwRG90MndQdEtIRE1ibGNtbEVjLW9Ya0FwUVNHdDlHRkVoa1I4SHgwWUJ4UzNsRGd0LVY2WUNXdGowWU9WX3R4cmpJM0xOWVZuenhEWTQzd3RQSHNTUWFfZUFDdUl5cmVnXy1VUVRmU1FKMzJHV0dzY2FXTWU5ay00YV9FS1BXejdsdDctMy1GZUF3LWJGaDcyTVVZa2ZOQjgxamM4TnBwMTN4elZ1Y254RHg0VkpGZE1UbWVNNXBMRHZjcEJuUFVPZ2N3Mkt1LS13R0FzRk1oM3JYbXI2ZmgzTmU1NklxQWQwT2ZjZG1KNlJhZG5EX2F3?oc=5",
-   "published_at": "2026-08-25T07:24:00+00:00",
-   "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
-   "doc_id": "3d4f2d637ef528eb",
-   "title_en": "\"EasyJet\" British Airways Launches Campaign to Hire \"Seniors\"",
-   "category": "OTHER",
-   "score": 5,
-   "rationale": "Regional travel access signal; weak indirect relevance to corridor mobility."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "\"رفاه\": توسيع شراء السندات يدفع \"بيتكوين\" للصعود - العربية",
-   "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxPX2lqdEdGOXp3aGxyaThKX0FyTF9FZklpRTBXYkRMMUUzN2JtOEs2cXoxVjJzVktCT0phdVRlbFRRd0tkSlZkTU1kaXNHSjZKV0p5elMxdlVWTVNzbXJvdFZVbERoa2dYWG56WUxWU3ZUaTR0dEVJTEZQZGJ1MFRwVkVXMDZEWHZRRG9memFTN215OU9Bay1iNjVQdHJRdnB4WUJxUE1id05DVjI0djVTWEFPYnU5T2ZnVDMtUEtIdFFMU1dUeDFSbjhYX0dQd1pGakRpVXBNV3BudHB3VF93TkNlS0d4N0M1NXdrdF9ndmN3SW5wN1ZNWTFENXlKaTdlLUZjVjRmdEdtUzNuaFg4T0pJQVZuSEY5TXEwS1MtTFZiQ3VlcGtGMmJET3U3Sl9Wa3ladGRJQnExcXlVbGQxZUhkTjZQLUNzRWh1S1ROTE8xdHh1U2t5YkFYRl9fMDlqVUdubmYwVU5Wel9FNUZPT3RieTlld3JZSG5ReTVOWkRjUG5ITGdwWUJSbzlfVnNzaE55Sm1XVU1OLUHSAaADQVVfeXFMTU1VZ3ZkSkljTVc5dWZzamUzQ1paQUtXLXBDenZXVDhTUUJYdjllMTlXN2VuZmNjOElzcllPSGNEN1h6WnVYRjJ5clY2QWFPX196cHVZbFh1cTBXUzlIMTZ3UUQ3RzlzLU5WdTJDbzJzNTk4bzJfS0w3ODJKX1Q4ZlJjR1JBOGdVeXVsZnhlWHhnTFFDTDhRZ3RFMEFwQXNKOThSTFY4UkJTSVY2QUFfazBJekpLX051TDFnVGNFVVNDaEZaaENxWUV3dFpqczlDZWF5a3NFZ0tRN3Q5Z1JFa19IbmhQNWt6TXJnQ3dSZDBxaENJaUpMYzRXdHhybjc0UUo1M0pSejFDQlZRQVVBTlY4cTVNTlk0aEhzTnZLWjEyUWIwM0JPRWRwWWxqcWRDenItTThhMEV1a3BQVEpDdDltQmlHSlhXNm5ES0ZoT0d5NjEyWXQ3YTI1M2xPclFqal9feTVUTWpOcXRlZXY2bVI0UlFTOW9UY0MzR2g4bTNiTlRmVE5waTZIWlQ2VEROLXQ0dy1FZXhGNlU3YTJjam0?oc=5",
-   "published_at": "2026-08-24T14:23:00+00:00",
-   "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
-   "doc_id": "4be1a678c73c27d7",
-   "title_en": "\"Prosperity\": Expanding Bond Purchases Pushes \"Bitcoin\" Upward",
-   "category": "OTHER",
-   "score": 5,
-   "rationale": "Cryptocurrency market signal; very weak indirect relevance to buyer liquidity."
+   "rationale": "Saudi developer outreach to London; outside corridor, tangential to cross-border flows"
   },
   {
    "source_id": "gnews_ar",
@@ -530,38 +362,10 @@
    "published_at": "2026-08-24T21:52:36+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "8a4a92a1029221fe",
-   "title_en": "About the 'real estate' that sickens but does not die!",
+   "title_en": "On the real estate that gets sick and doesn't die!",
    "category": "OTHER",
    "score": 5,
-   "rationale": "Opinion piece on property sector; likely Middle East focus, not corridor."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "السعودية وفرنسا نحو شراكة استراتيجية أعمق - الشرق الأوسط",
-   "url": "https://news.google.com/rss/articles/CBMi-wNBVV95cUxNZmw1UnZhQ2xZSnNVSGNoRVowQVFPWndwT2tHUERPMWNEY1pFVjJuQU4zUTd0ZHlCN0RFdGdWdFpXbFNwN2lnRVMwcTdocVBLdlpURkdEdlREbUk1ZVBITXZMbHU4N2pjeWVOeWg1WFRiNHM5TnBEdGpOX29rSmZrS3NKTmVxTkJGVEhqSXd3cjl6b3hoeDRkZjY3OWk0b3BSd19ZcFdJSVZqekJid0RReDJaYlM5LTJGNm4yZzFCNl8tZEFrcjFIMGN4bHVDd0RKZkJfN1d3R3lZcWloSkxlczRlNm9UWXFFdDYwVVV6Nk9wU1VicERGbF9lMG1oQUNabzU3ckNsNTFRS1diMkhLeVgtdEo3bnlEdncxSVJPR2xiNUo4dGZJcm41M3gtaVZsdEV1R2c4dW52Q1ZuWlJ1b2wxelBfbHNna2dMNk1QT1FLaXpxU01SRFVubjQ5WFl4THVPZXYteUdvdW96a3Fya0ZuNVdIT2RiRHhfLWF6WHljQ3pwOE9KNkRGQ0xNWFpwUV9pWEdpUUpXQWdydlNld2RLeFoySk9RbWplM3M3RlJsRzQwMWNQZXVDZTk5UXl5c1ZxT1pPb1NwdnpJLXlMVW5tZEMyRDQ2Z3p5VVhUampPNjhEUkZiaEpEeW1iTldXbGEzRGd3QnRIRVk?oc=5",
-   "published_at": "2026-08-25T04:30:06+00:00",
-   "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "doc_id": "03345fa3c447eb45",
-   "title_en": "Saudi Arabia and France moving toward deeper strategic partnership",
-   "category": "OTHER",
-   "score": 5,
-   "rationale": "Geopolitical coverage; France in corridor but no property or buyer implication"
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "نمو الاقتصاد السعودي... عامل جذب للاستثمارات الأجنبية - الشرق الأوسط",
-   "url": "https://news.google.com/rss/articles/CBMivARBVV95cUxPLXo4ZDE4UHhKVEh1WVA3TzdYRGpzdC1KZW43ajk1RXozamF2QkVqZU1qODNQYnRwY2x4RXVkZjNtWXZXNlpLMUpjLXJFQ2w5M3d5eXRVUmZnWERnUG9pMHRRRUFrQ0lwMjNZcGp3TkxsYlpBeDJFZXh4aFE2SzljdElMeGRBTG9VT25LeUZ2N0EzOXNNT0w4OTNBMktvVnJiRzM0Y1p5Z0ZPVjNwYXNBTUotaUJoV0QxNS1IQm5SWHR5QUs4M1RCaExNc3I1am9SRWZVS3dZYWs3dEQxM0RzQ0djUHFQQWVOcnJGY3dVYjVBY2hVSnpRQUtmdFRzUUthOVVQUTJNWV9kTTFmZ3hOa0Vxa3haQ3dLZFBsNk9IbjB0dkpTS1hhUzE5OUhaWHlsN2RscC13a1B2NFh2dEZCTXliTGJ6ZFo4NURncGJRZWZWZG9ocFBadmc4cy1IUVdCTDQyeGFGY0g4VWF2dTA5SjZaT0hWMzRTQzNyYjB2ZEJwcXdIRXNkZEZnMk5uRUp5M2xabk51ek5rdFFzLWpYeDB6SWk3ODR1cHBWbzJFMVRCVlNWYk9tRDVKQXA2QWhONUJfaUNPeEFRQ2o1cG05cmJhRmk4YlA3TDZCcFd1TFQ2SnQzS3JDZ1BCZENDS1RaUzREbVFyN0gyaVNKSHpxbWtCME4zOUVvMEhoWHVJbm5mRC1ZZUUzY0JVTzAxUjJjbEZSdkVTelpZczJsM3JYbzdjZ3Q0ZTVmU1c1ZA?oc=5",
-   "published_at": "2026-08-24T15:03:40+00:00",
-   "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "doc_id": "59d4f743b0e12cf8",
-   "title_en": "Saudi economic growth as a draw for foreign investment",
-   "category": "OTHER",
-   "score": 5,
-   "rationale": "Saudi Arabia outside corridor; general FDI, not second-home or leisure property"
+   "rationale": "Real estate opinion piece; region and cross-border buyer impact unclear."
   },
   {
    "source_id": "gnews_ar",
@@ -572,24 +376,10 @@
    "published_at": "2026-08-24T19:21:40+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "182a400f998570f8",
-   "title_en": "766 million dollars profit for listed Saudi real-estate firms in first half",
+   "title_en": "Saudi listed real estate companies earn 766 million dollars in first half",
    "category": "OTHER",
    "score": 5,
-   "rationale": "Saudi listed realtors; not vacation or cross-border second-home market segment"
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "أوروبا تحاصر التكنولوجيا.. بروكسل تشدد قبضتها على الذكاء الاصطناعى - اليوم السابع",
-   "url": "https://news.google.com/rss/articles/CBMinwRBVV95cUxNVEt5cERqeHEtU2g1LUlud0FidmN5NjZud2R6Vm03ekZxdEY5b0dPTHRuNndNNjhDaWx4UjZDZlZhajJleWUxalVxT2ZiLXlIYTZjYjRlTnJQM0tIa3BSa1JhTzNGcmk5MC1Qck1Vc3RaOG5nZktuQVcwa3hkdjRQcUhDY09mTTV0SHU4eVRLVzdpcDZLNWJfRXFmVGxCalNNQ1M2RUNOS0NzeC11SF93SkcwU2RteWttZk1zVTNuRUpheTNSaGdwVlBuc3VNbncwUWhqckpkNm8wWVBnUDZJRzNYX0g1WWE4WWFYc016Y1A0aDQ0TFJRbldMWlE4UUpTT19mRWhGUGM4cFFFYkc3LVo5bXM5MjNtVU1ERWZxUVJxNkJFWjEza0t4alBaUjhDaFhEbG9EYTdkZ3VYRnhRQ0RPWXJPWjY1dWR2LU96aEQ0blF2V3JIZUxsbVNGaDEyS3FQSVBLUzRnMllQRTAyWTM1WXFqd2NuTjNWOUtCNFhXQjZaaXd6V0trdjJ2MkgwQXBGWGwtZlU2bmhtYmhrLUl4dXR2aFpyOVdVcjNBRWJDY2VVb0w0dzlOYXlibVNnODFOYkk0LXdwbURJdzBsSTdtTmtzMDZXQ1pvYVFWOG14UmprMGVmS2xxN09NWEs1a3ZQU1E5WURmbWlILUZ3RmRldnRVVDdhZGoxVkpSR2ZJTFJDWHFIWUdrMVlQOFXSAZ8EQVVfeXFMTVRLeXBEanhxLVNoNS1JbndBYnZjeTY2bndkelZtN3pGcXRGOW9HT0x0bjZ3TTY4Q2lseFI2Q2ZWYWoyZXllMWpVcU9mYi15SGE2Y2I0ZU5yUDNLSGtwUmtSYU8zRnJpOTAtUHJNVXN0WjhuZ2ZLbkFXMGt4ZHY0UHFIQ2NPZk01dEh1OHlUS1c3aXA2SzViX0VxZlRsQmpTTUNTNkVDTktDc3gtdUhfd0pHMFNkbXlrbWZNc1UzbkVKYXkzUmhncFZQbnN1TW53MFFoanJKZDZvMFlQZ1A2SUczWF9INVlhOFlhWHNNemNQNGg0NExSUW5XTFpROFFKU09fZkVoRlBjOHBRRWJHNy1aOW1zOTIzbVVNREVmcVFScTZCRVoxM2tLeGpQWlI4Q2hYRGxvRGE3ZGd1WEZ4UUNET1lyT1o2NXVkdi1PemhENG5RdldySGVMbG1TRmgxMktxUElQS1M0ZzJZUEUwMlkzNVlxandjbk4zVjlLQjRYV0I2Wml3eldLa3YydjJIMEFwRlhsLWZVNm5obWJoay1JeHV0dmhacjlXVXIzQUViQ2NlVW9MNHc5TmF5Ym1TZzgxTmJJNC13cG1ESXcwbEk3bU5rczA2V0Nab2FRVjhteFJqazBlZktscTdPTVhLNWt2UFNROVlEZm1pSC1Gd0ZkZXZ0VVQ3YWRqMVZKUkdmSUxSQ1hxSFlHazFZUDhV?oc=5",
-   "published_at": "2026-08-25T09:13:56+00:00",
-   "query": "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d",
-   "doc_id": "ae69536dadef0b0f",
-   "title_en": "Europe clamps down on technology.. Brussels tightens grip on artificial intelligence",
-   "category": "OTHER",
-   "score": 5,
-   "rationale": "EU AI regulation; corridor-adjacent but not property-specific."
+   "rationale": "Saudi domestic property; outside corridor, minimal cross-border impact"
   },
   {
    "source_id": "property_industry_eye",
@@ -603,7 +393,7 @@
    "title_en": "One month in, prime minister. Take the handbrake off, or watch Britain seize up",
    "category": "OTHER",
    "score": 0,
-   "rationale": "UK politics; unrelated to property or cross-border buying"
+   "rationale": "UK politics; unrelated to property or cross-border buying."
   },
   {
    "source_id": "property_industry_eye",
@@ -617,7 +407,21 @@
    "title_en": "The property market: should we all go over Beachy Head or is the cavalry coming to our rescue?",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Rhetorical UK market commentary; no corridor relevance"
+   "rationale": "UK domestic; unrelated to corridor or cross-border buyers."
+  },
+  {
+   "source_id": "property_industry_eye",
+   "lang": "en",
+   "stream": "news",
+   "title": "Where are BTL landlords securing the strongest rental returns?",
+   "url": "https://propertyindustryeye.com/where-are-btl-landlords-securing-the-strongest-rental-returns/",
+   "published_at": "2026-08-25T00:20:47+00:00",
+   "query": "",
+   "doc_id": "267a7f47fa69a4e2",
+   "title_en": "Where are BTL landlords securing the strongest rental returns?",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "UK buy-to-let focus; unrelated to second homes or cross-border corridors."
   },
   {
    "source_id": "property_industry_eye",
@@ -631,7 +435,21 @@
    "title_en": "EA Masters: Vote now for your favourite property industry supplier",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Industry award; no market relevance"
+   "rationale": "Industry award process; unrelated to cross-border buyers or corridors."
+  },
+  {
+   "source_id": "property_industry_eye",
+   "lang": "en",
+   "stream": "news",
+   "title": "NIMBY Britain? New research suggests otherwise",
+   "url": "https://propertyindustryeye.com/nimby-britain-new-research-suggests-otherwise/",
+   "published_at": "2026-08-24T23:30:49+00:00",
+   "query": "",
+   "doc_id": "c232f06109564531",
+   "title_en": "NIMBY Britain? New research suggests otherwise",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "UK domestic planning sentiment; unrelated to corridor or cross-border buying."
   },
   {
    "source_id": "portugal_resident",
@@ -645,7 +463,7 @@
    "title_en": "\"We can't be governed by demagogues, or saccharine-sweet policies\"",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Political commentary; unrelated to property"
+   "rationale": "General politics; no property or cross-border content identifiable."
   },
   {
    "source_id": "portugal_resident",
@@ -659,7 +477,7 @@
    "title_en": "Police shoot young man suspected of domestic violence against father",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Crime news; unrelated to property or buying"
+   "rationale": "Crime news; unrelated to property or cross-border buying."
   },
   {
    "source_id": "portugal_resident",
@@ -673,7 +491,7 @@
    "title_en": "Ukrainian leader thanks President and PM for \"solidarity\" shown to country by Portugal",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Diplomatic relations; unrelated to property"
+   "rationale": "International diplomacy; unrelated to property or cross-border buyers."
   },
   {
    "source_id": "portugal_resident",
@@ -687,7 +505,7 @@
    "title_en": "Portugal's place in the global robot revolution",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Technology policy; unrelated to property or cross-border buying"
+   "rationale": "Technology/economy; unrelated to property or cross-border buying."
   },
   {
    "source_id": "portugal_resident",
@@ -701,7 +519,7 @@
    "title_en": "Former Health Minister in hot water for 'combining pension with salary'",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Political scandal; unrelated to property"
+   "rationale": "Portugal domestic politics; unrelated to property or cross-border buying."
   },
   {
    "source_id": "portugal_resident",
@@ -715,7 +533,7 @@
    "title_en": "London Calling – August 2026: Phew! What a scorcher!",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Weather/culture commentary; unrelated to property"
+   "rationale": "UK domestic weather/lifestyle piece; unrelated to property or corridors."
   },
   {
    "source_id": "portugal_resident",
@@ -729,7 +547,49 @@
    "title_en": "Worth your weight in gold…",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Headline fragment with no property context"
+   "rationale": "Title too vague; no property or cross-border content evident."
+  },
+  {
+   "source_id": "portugal_resident",
+   "lang": "en",
+   "stream": "news",
+   "title": "Saudi business delegation visits Portugal to strengthen cooperation in health sector",
+   "url": "https://www.portugalresident.com/saudi-business-delegation-visits-portugal-to-strengthen-cooperation-in-health-sector/",
+   "published_at": "2026-08-25T12:53:29+00:00",
+   "query": "",
+   "doc_id": "a2e1a5ffedc32de9",
+   "title_en": "Saudi business delegation visits Portugal to strengthen cooperation in health sector",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Health-sector diplomacy; unrelated to property or cross-border buyers."
+  },
+  {
+   "source_id": "portugal_resident",
+   "lang": "en",
+   "stream": "news",
+   "title": "Security in Lisbon: “Time has come for government to deliver on promises of more police”",
+   "url": "https://www.portugalresident.com/security-in-lisbon-time-has-come-for-government-to-deliver-on-promises-of-more-police/",
+   "published_at": "2026-08-25T12:32:21+00:00",
+   "query": "",
+   "doc_id": "4e750b3f2507d71f",
+   "title_en": "Security in Lisbon: \"Time has come for government to deliver on promises of more police\"",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Portugal urban safety; unrelated to property or cross-border buyers."
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "Brazil Investor Visa (VIPER) – The Ultimate Guide 2026 - Get Golden Visa",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IOTFZWE1BVUhYTmo0bUpEUENKb0MtOEV2ZVJhWUFHTm1vMkJjZG5qN1FWNENmY3VMb3Bld25rU1BCNGRpSFZBUEFMQmtVT2F0VUpCZm9mY2wzUQ?oc=5",
+   "published_at": "2026-08-24T13:45:28+00:00",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "doc_id": "443ea900b2660503",
+   "title_en": "Brazil Investor Visa (VIPER) – The Ultimate Guide 2026 - Get Golden Visa",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Brazil visa; outside corridor; unrelated to European second homes."
   },
   {
    "source_id": "gnews_en",
@@ -743,7 +603,7 @@
    "title_en": "Central Asia Golden Visa and Citizenship Guide - IMI Daily",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Central Asia visa program; outside corridor geographies"
+   "rationale": "Central Asia visa; outside corridor; unrelated to European second homes."
   },
   {
    "source_id": "gnews_en",
@@ -757,7 +617,7 @@
    "title_en": "Letter to the Editor: Ending the foreign buyer ban won't fix housing - Real Estate Magazine Canada",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Canada, outside corridor; domestic housing debate unrelated"
+   "rationale": "Canada outside corridor; not cross-border buying into Spain, Portugal, Italy, France, Greece"
   },
   {
    "source_id": "gnews_en",
@@ -771,7 +631,7 @@
    "title_en": "£30,000 council tax bill?! Why plans for second home surcharge will harm Edinburgh – Brian Monteith - The Scotsman",
    "category": "OTHER",
    "score": 0,
-   "rationale": "UK, outside corridor; Scottish domestic property tax debate"
+   "rationale": "Scotland outside corridor; UK domestic second-home taxation unrelated to cross-border buyers"
   },
   {
    "source_id": "gnews_en",
@@ -785,7 +645,7 @@
    "title_en": "'Taylor Swift Tax' and NYC Pied-à-Terre Levy Challenges May Have Nationwide Impact on Second-Home Litigation - Law.com",
    "category": "OTHER",
    "score": 0,
-   "rationale": "US domestic second-home tax; outside corridor entirely"
+   "rationale": "US domestic tax litigation outside corridor; not relevant to European second-home buying"
   },
   {
    "source_id": "gnews_en",
@@ -799,7 +659,7 @@
    "title_en": "Property Owners Challenge Rhode Island Second-Home Tax in Constitutional Lawsuit - Boston's ROCK 92.9",
    "category": "OTHER",
    "score": 0,
-   "rationale": "US domestic second-home tax litigation; outside corridor"
+   "rationale": "US state tax litigation outside corridor; irrelevant to European second-home market"
   },
   {
    "source_id": "gnews_en",
@@ -813,7 +673,7 @@
    "title_en": "NYC Gives Homeowners More Time to Seek Pied-à-Terre Tax Break - Bloomberg Law News",
    "category": "OTHER",
    "score": 0,
-   "rationale": "US domestic tax administration; outside corridor"
+   "rationale": "US tax administration outside corridor; not relevant to cross-border European buyers"
   },
   {
    "source_id": "gnews_en",
@@ -827,49 +687,7 @@
    "title_en": "Korea Weighs 1.2 Billion Won Compromise on Second-Home Tax Break - Seoul Economic Daily",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Korea domestic tax debate; outside corridor entirely"
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "40+ Wealthy Homeowners Challenge 'Taylor Swift Tax' Charging $5 per $1,000 on Rhode Island Homes Over $1M - International Business Times UK",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZEFBYUtKUmJQbk5pOV9QSVMtS3BvMWRfWkZaaXdveU5Gd0kzNlduSHJWeHNFcGo0MVdBaUNaU3JmWHNwUFVkN2MyTERGYi1Da3JnMU1qZkNDNnpyVmpRaFd2emdTTEl5WEVXWTV0YnVJVUFoVDJwazNKanFVT3Y4WXFTeUlwRGZuZ1h5bg?oc=5",
-   "published_at": "2026-08-24T12:20:33+00:00",
-   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
-   "doc_id": "4d921685f9e78c77",
-   "title_en": "40+ Wealthy Homeowners Challenge 'Taylor Swift Tax' Charging $5 per $1,000 on Rhode Island Homes Over $1M - International Business Times UK",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "US domestic tax litigation; outside corridor"
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "Prime London property values down 25% as tax changes bite - PropertyWire",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNkx6LW94VC1oc2RsOFN0alJWS2Y4Z181dnk5MXpGZDVuRkdrSzg2akwwbURGZ18tTGZMYms0VGs3TUFJblZ2RHJ6aDlhWnFrcDNuUV9jdnlwbUdnWUl5RVZwcmI3U0RjRzdwWF9tWHhqYzdqTVplY2x2T3VIX1VBWGFnbEVzSXhMczc4MDkzUnpvVV9ZQXdjc0RB?oc=5",
-   "published_at": "2026-08-25T06:02:57+00:00",
-   "query": "\"international buyers\" Portugal OR Italy property when:2d",
-   "doc_id": "29c0d1afd3607799",
-   "title_en": "Prime London property values down 25% as tax changes bite - PropertyWire",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "UK; outside corridor; not cross-border buying driver"
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "Foreign Buyers Pull Back From U.S. Housing Market in 2026 - The World Property Journal",
-   "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxNM3RfV3BkNmRhdDJma3QzZWdTVmItd3ROVkQ1VFZObF82N0w4cmN0QnNmNm4tbjFvS3lGdEdTcnhoSFhWQUUxektnNWRtaElQZl96dmFqQ3MyR1VXX3NYV2xwNW56TklRbkNPQ01VV2ZVd2hjMmUxSFN4TkFBa3RuUzVpMlJXV1c0VmE3OWNCRGpZUlJYNm9FbVp1YzFaY1hYblNKUmNWV1FzVnFKNGhvTDNabkZibnZCc0pQcXA1MXBDR0k1ckF2N2w2bWNxX1RvcXdLTzhmdVl2a1lmVXMteVZnc1hFbVNmN05oRlprTmtwU1J5SmgwMXd4SHYwSFJHdlFpYUhGY19vdGVfd2NVMksyMy1VbkY3TEd3QWtqQkNRYnM3YkZxVXVMd21YYzJPVzQ0ekFhcW5kRFUtQ1NtdC1kVlNvQVdNTmdZb29rWkxmdGtPWVluVlBMQ1JtVXlz?oc=5",
-   "published_at": "2026-08-24T11:32:00+00:00",
-   "query": "\"international buyers\" Portugal OR Italy property when:2d",
-   "doc_id": "c5d2bdf3f76c13b4",
-   "title_en": "Foreign Buyers Pull Back From U.S. Housing Market in 2026 - The World Property Journal",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "US market; not corridor-related cross-border demand"
+   "rationale": "South Korea domestic policy outside corridor; no cross-border European relevance"
   },
   {
    "source_id": "gnews_en",
@@ -883,7 +701,7 @@
    "title_en": "The 54th JINHAN FAIR Expands Sourcing Portfolio with Pet Products and Kitchen & Dining Pavilion - Carroll County Mirror-Democrat",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Trade fair; unrelated to property"
+   "rationale": "Trade show; not property or second-home related"
   },
   {
    "source_id": "gnews_en",
@@ -897,21 +715,7 @@
    "title_en": "Durrani Estates takes its brand across Dubai in major citywide outdoor push - Khaleej Times",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Dubai; outside corridor entirely"
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "They're absolutely minted, so what are Farrah Brittany and Zach Goldsmiths insane net worths? - The Tab",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMGdBSHFaMl80QzN6bGtoN3VGVDNQc0tORHA3aVpVRVNhZHNEVWRXa0N5THZBYmV5MnFmSjN0YnZjeTgydDFrNHdBalFjY1g5ZU44T1FVTGVLV0FEdWczSUxPY19wWVdoaGZLLWFBcjU5VVdQOEJyNEEyLUltQ3FHdjcwNzBldUpLdFpQX2FLVHNhei1xTm5yaGdoSjRvVjJIdTVNWXJkdUhuYkcwR3QwVUNoMnhKZzdDa19ZUjY1U1o5U29USzYxcldxMG9iaThN?oc=5",
-   "published_at": "2026-08-24T11:52:27+00:00",
-   "query": "\"commission split\" estate agency when:2d",
-   "doc_id": "4c90b142778418fd",
-   "title_en": "They're absolutely minted, so what are Farrah Brittany and Zach Goldsmiths insane net worths? - The Tab",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "Celebrity net worth; unrelated to property"
+   "rationale": "Dubai marketing outside corridor; not relevant to European second-home buyers"
   },
   {
    "source_id": "gnews_en",
@@ -925,7 +729,21 @@
    "title_en": "US removes Syria from state sponsored terrorism list opening country to global investment - Al Arabiya English",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Syria investment climate; outside corridor"
+   "rationale": "Syria geopolitics; entirely outside corridor property focus"
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "ZipISA Wants You To Treat Your AI Agent Like A Domain Name - The Tech Buzz",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONXEzNzVvb1IxX0VjWExzSk9LekhSM2duRFBwMWVVTUJHLUxIam5FaVAzdDM1OVJCa1FsdDZNSWl2dGszcUZpU2lGNjg3OC1PTVRQSmtpM2U0Y3gybWtyYUNRV2Z1OTJ6RVdLVlpYd0RobGFkT2dYTHNyenc3WFlMcEI2alV5YWtVQXczaTJ0dTNhbGE2QnJubktTTWRtMlZxeGQ4QWk3VndaeEg3cWliNUdkNzNlZGVwVjZ5X0VUdmhKT2pjbExMWFJiN29obTRFdnc?oc=5",
+   "published_at": "2026-08-25T16:28:38+00:00",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
+   "doc_id": "4bd128520690b1bf",
+   "title_en": "ZipISA Wants You To Treat Your AI Agent Like A Domain Name - The Tech Buzz",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Generic tech opinion; no property or second-home connection"
   },
   {
    "source_id": "gnews_en",
@@ -939,21 +757,7 @@
    "title_en": "FOMO drives young Koreans to risky stocks and first-home buying - CHOSUNBIZ - Chosunbiz",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Korea domestic housing; outside corridor"
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "EXCLUSIVE: As Home Sales Slump, RealReports Launches AI Tool To Help Agents Win More Business - Realtor.com",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWTlTcFZZNTc0RkpFWFZONFhlUVQxMks5Z1k0TDZuM1FKSEc0dEtHajJBZ0MzTXRTYnpIYnctZXNWT081WmRUT1h3TUItOU0xTjZCcUp0dkdfTjdMLVBRMU1EbFlSZF9UOFlJeVA0Z0c4UEZLVlJEU0xnSFM3eG51UUhENE8teFJRdXBoWA?oc=5",
-   "published_at": "2026-08-24T13:00:00+00:00",
-   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
-   "doc_id": "4be1c82a1978dfcc",
-   "title_en": "EXCLUSIVE: As Home Sales Slump, RealReports Launches AI Tool To Help Agents Win More Business - Realtor.com",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "US domestic market, no cross-border second-home relevance."
+   "rationale": "South Korea domestic first-home market; no second-home or corridor relevance"
   },
   {
    "source_id": "gnews_en",
@@ -967,7 +771,7 @@
    "title_en": "Houston First-Time Buyers Could Get Up to $75K in Down Payment Help - Realtor.com",
    "category": "OTHER",
    "score": 0,
-   "rationale": "US domestic market, not corridor relevant."
+   "rationale": "US domestic first-home assistance; unrelated to European second-home buyers"
   },
   {
    "source_id": "gnews_en",
@@ -981,7 +785,7 @@
    "title_en": "ChatGPT vs. Gemini: Don't Pick a Chatbot Until You Read This - PCMag",
    "category": "OTHER",
    "score": 0,
-   "rationale": "General tech comparison, no property relevance."
+   "rationale": "General AI comparison; not property or real estate related"
   },
   {
    "source_id": "gnews_en",
@@ -995,35 +799,21 @@
    "title_en": "RegNews - regnews.in",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Insufficient content; appears to be India-focused."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "8 آلاف طالب من 86 جامعة ومعهد في البطولة المصرية للبرمجة - صحيفة الخليج",
-   "url": "https://news.google.com/rss/articles/CBMiugRBVV95cUxOalNDOEhFWGlud3NQU212UUhaSUtQYW1sM0hBN2lZeFdpWTd4Y3Z5YnY3TmE2Z0ZoaW1vcjBOR1doWlI2RHNRLTJzcmZpbWQ5UDF6TW5OMlFfSGVRSW1fdW5uaWpmY3BkT0RFS0E0V19vdUQzTnVQUEpxUlFvb0gxWFJGYTFCOGdjbnIxYmRUdkR1SDJpQWEzMEFzTDhXcjhPdFNXei0tVFp0WmRzQ3dTem1vNXhNR2I4Ymd6Y1ExMzdDUFpQcV8yUGYzR0JDMjdZQlRHcmVURUVLUWtBTkFoVVAxRDRfdHZqSHFkdWxhZWdVaFdXcnNyVWU0TFJ3Z2p0eXp5T2Q4NDRJaTlhNFpCNnZCbVhHQ3lOUEZTYkhWZmoxVml0ei1nVkxidldoOElsSEJCbnJNUi1RUXVieVFjNkszSGJmbFdBZFhEQlpwZTBFZkRSeVpjNWpocUF0VXNuYUx6bGdFT1hvWVNZT3pzX1AyQUhjaHVldFdNNGpmVzBydXVxMHlTXzVhX01NSERobTNEWUxmYjFJZU1SQlJsSnN0eXktU0Q2eG5vYlFYRmxJS08yRVpFT09yQjlmTEhQMTY2UExCLTh2WE1raWRFYkQxQTRjX3pjRkJUci1ONmhyeF9TQzY1ODJoVXdCSGxHU3Y1eHBZNWRCdmhJd3FOTkhrR1B5Rk44ZkZpdXNTcURueGdUUkZHTW9tZ3JKZ2VsQUpqMG9HZnczdTBXTk82OThEeUlTdGQta0E?oc=5",
-   "published_at": "2026-08-24T12:40:34+00:00",
-   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "doc_id": "6629a099c2a878f6",
-   "title_en": "8,000 Students from 86 Universities and Institutes in the Egyptian Programming Championship",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "Education news, no property relevance."
+   "rationale": "Headline only; no substantive content on property or second-home market"
   },
   {
    "source_id": "gnews_ar",
    "lang": "ar",
    "stream": "news",
    "title": "دي لا فوينتي: نجوم إسبانيا تقبلوا \"تهميشهم\" من أجل لامين يامال - العربية",
-   "url": "https://news.google.com/rss/articles/CBMi6wNBVV95cUxPckxjSlhuRFlteDBIZkw0QUZZWU9wRHB5R3BqTWxKYW42R0thYTk5Y21yUlFNZjhVVUJ2WHFOb2V4bkNUaVA2TmM0RFJJdlZWb28xMWhjc3B6eEpjWF95elFsRC1hSjhNdUNKbTJxMV9mQU5XdWdIVFBjS1FoaWd4Mno3WnRFY0hheDgwVFRrZUdvd1NrTDluNHYyNU5ZdmJkY3FRR00yWjN3dGJoWjhQc2ZrS0F0UkpwNWFoZ3NuUjd2SnFiLXZ0UDlydHhfZVR3cjVIZjE1blRXMkF2V204T1Jwcl9SaDVGdkF4MjB2TkQ5bHBDUFpmdWVNYjY1VEV5U0o4bndDMWRHQjE1WEpfN1JYbnhpZ19OMFhRbFIwSGFEXzZRRVkzNV9NN2JQdWZkTGYyd1pvOWdvYjZ3QjZyMTF4QzV1YktsbXZ6YVBxU2FobXJ0b1VyZXNBNjRCeHZEY3Y0TXhuM3JNaFUzRFNEaUprdXp2el9XR0lxaEk3WThIdjZPWHdkamdZTDdqT1RVTWZUZExndVJ3aXZaeWktYzA3WHhIOTZEN2E2TkxIT29IUk9iME15c193Yy1Qb2JUSlVlUjdObTVYTjZKVHJrajc4YnBGbFJQRVJkT2NZaV9McXktNTNFSVJGSdIB8ANBVV95cUxNMzRPSEdIcDhfRWFZWmJJenUyZWFiX1REdjJTWTZueDd1TmtEWDhWcDJyTzNyS2dfdUp3RDNyOWR4WEdUZ0daalJSVDA5TkwzLUJpd1l4V05abVhKdFhaM0VrdHFiM0FQV05fZmtIcjNrS2RYQmlhVDhuWllVWGxWTVlMLUdMcE80SjNIOUFlbDZTUmxnQVRLX2lhaURneTlqaU85ZGhVdXRnRVVXeE1veThXUGNJS0R5RG1xZXhmRHB4X1BpZTh4RW1VQjVyVEdKcWF4bS0za2xxTmRkaTJCTzlBVEhlcG5kZmNiS3lhVnJUQWRNcndlNzRWd2xCVnJpUGZBeEozWXM0SUdlbkdQTHBkS1ktTHMycXA3aDVHWS1Qa2dpeGw2YWJmRHZScXBabkpBMW1wdVZDNlVnTTdTMncxRU5wZ3RJdmE5aEs3aVc2eDNnb1ZqaU1vS1plaTc5ZHVJeGk1Z3VhLTg3LXB6YUtGTHV0QlNUZExOekpqOEVVMWZRYkxsUHdRUU9HSDFNSUJ4WWF1RjBIbjhXbTZVV2VnYldyYTJVQzNkeXdHS21GSDdzVTJ0Q25NaEpkRmhPZlRNdjV1cWJrc09qUFcxTFBzTEFqRk1HdU00b3FBRFctY3dqMlpXWlJLUmIwM1ds?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi8ANBVV95cUxNMzRPSEdIcDhfRWFZWmJJenUyZWFiX1REdjJTWTZueDd1TmtEWDhWcDJyTzNyS2dfdUp3RDNyOWR4WEdUZ0daalJSVDA5TkwzLUJpd1l4V05abVhKdFhaM0VrdHFiM0FQV05fZmtIcjNrS2RYQmlhVDhuWllVWGxWTVlMLUdMcE80SjNIOUFlbDZTUmxnQVRLX2lhaURneTlqaU85ZGhVdXRnRVVXeE1veThXUGNJS0R5RG1xZXhmRHB4X1BpZTh4RW1VQjVyVEdKcWF4bS0za2xxTmRkaTJCTzlBVEhlcG5kZmNiS3lhVnJUQWRNcndlNzRWd2xCVnJpUGZBeEozWXM0SUdlbkdQTHBkS1ktTHMycXA3aDVHWS1Qa2dpeGw2YWJmRHZScXBabkpBMW1wdVZDNlVnTTdTMncxRU5wZ3RJdmE5aEs3aVc2eDNnb1ZqaU1vS1plaTc5ZHVJeGk1Z3VhLTg3LXB6YUtGTHV0QlNUZExOekpqOEVVMWZRYkxsUHdRUU9HSDFNSUJ4WWF1RjBIbjhXbTZVV2VnYldyYTJVQzNkeXdHS21GSDdzVTJ0Q25NaEpkRmhPZlRNdjV1cWJrc09qUFcxTFBzTEFqRk1HdU00b3FBRFctY3dqMlpXWlJLUmIwM1ds0gHwA0FVX3lxTE0zNE9IR0hwOF9FYVlaYkl6dTJlYWJfVER2MlNZNm54N3VOa0RYOFZwMnJPM3JLZ191SndEM3I5ZHhYR1RnR1pqUlJUMDlOTDMtQml3WXhXTlptWEp0WFozRWt0cWIzQVBXTl9ma0hyM2tLZFhCaWFUOG5aWVVYbFZNWUwtR0xwTzRKM0g5QWVsNlNSbGdBVEtfaWFpRGd5OWppTzlkaFV1dGdFVVd4TW95OFdQY0lLRHlEbXFleGZEcHhfUGllOHhFbVVCNXJUR0pxYXhtLTNrbHFOZGRpMkJPOUFUSGVwbmRmY2JLeWFWclRBZE1yd2U3NFZ3bEJWcmlQZkF4SjNZczRJR2VuR1BMcGRLWS1MczJxcDdoNUdZLVBrZ2l4bDZhYmZEdlJxcFpuSkExbXB1VkM2VWdNN1MydzFFTnBndEl2YTloSzdpVzZ4M2dvVmppTW9LWmVpNzlkdUl4aTVndWEtODctcHphS0ZMdXRCU1RkTE56Smo4RVUxZlFiTGxQd1FRT0dIMU1JQnhZYXVGMEhuOFdtNlVXZWdiV3JhMlVDM2R5d0dLbUZIN3NVMnRDbk1oSmRGaE9mVE12NXVxYmtzT2pQVzFMUHNMQWpGTUd1TTRvcUFEVy1jd2oyWldaUktSYjAzV2w?oc=5",
    "published_at": "2026-08-25T16:03:00+00:00",
    "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
-   "doc_id": "6b3288f43e5ec4bc",
-   "title_en": "De La Fuente: Spain Stars Accepted \"Sidelining\" for Lamine Yamal",
+   "doc_id": "266db0f52b2ad064",
+   "title_en": "De la Fuente: Spanish stars accepted their sidelining for Lamin Yamal",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Sports news, no property relevance."
+   "rationale": "Sports news; unrelated to property or cross-border buying."
   },
   {
    "source_id": "gnews_ar",
@@ -1034,10 +824,10 @@
    "published_at": "2026-08-24T16:04:00+00:00",
    "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
    "doc_id": "6b214e6da761d284",
-   "title_en": "Barcelona Reassures Fans: Gavi's Knee Is Fine",
+   "title_en": "Barcelona reassures fans: Gavi's knee is fine",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Sports news, no property relevance."
+   "rationale": "Sports news; unrelated to property or cross-border buying."
   },
   {
    "source_id": "gnews_ar",
@@ -1048,10 +838,10 @@
    "published_at": "2026-08-25T04:28:45+00:00",
    "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
    "doc_id": "6899f4065889371d",
-   "title_en": "Britain Leads European Push to Convince Trump to Supply Kyiv with Patriot Missiles",
+   "title_en": "Britain leads European push to convince Trump to supply Kyiv with Patriot missiles",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Geopolitical news, no property relevance."
+   "rationale": "Political/military news; unrelated to property or cross-border buying."
   },
   {
    "source_id": "gnews_ar",
@@ -1062,10 +852,24 @@
    "published_at": "2026-08-25T10:47:00+00:00",
    "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
    "doc_id": "2810f8c6bb09bce4",
-   "title_en": "Al Ahly Challenges Oakland in Club World Cup",
+   "title_en": "Al-Ahly challenges Auckland in Club World Cup",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Sports news, no property relevance."
+   "rationale": "Sports news; unrelated to property or cross-border buying."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "انحسار القلق بشأن الإمدادات النفطية يدعم الأسواق الأوروبية - العربية",
+   "url": "https://news.google.com/rss/articles/CBMijwRBVV95cUxQQ2E0X25JQnVWd2dBRmNLMkoyS0dWUDZqUnlDOUJGdWJVZ19SSm50cU5QNUhnU0xwQ2U1Z0IzS0NYaHNCQlE3UHNmNHNvYW9YYTFQS3h6eVU1alJOQndHZ1F2ZGUtZFkyZWFOR3pxZHZwT3B2WVJDNE0tNEE0dDdYR3BPUkU2bUswQXF6ZnRTNXhnU2VRVE5LY0FnZUdBR1I0cmVaMldWeXpXRzhqQzRGak9wek1rNG94X0I1ZnJaM3ktYTVtaU9KTTBEaWdzMy1ZLXdLa3F0bkdjZEdZdE1nSjlIc2xjY0NjcWVjRkFwZmpJUzBWbG1Kelh5d0RvTkRLX0diVFlhRTNLRU1VOHI2bTJqWkVudUplZzg1eGRZd3JxbU11aGZ1NF92QU9kMWdrOU1IQkZ0MjBFNWJNdzZZeHpibnJSeHFwN0RLTHJvR084UDlsWGVYdmRnd3o0M2JNdHZybHVFV0I1TkR0ZlVGenQxOVI2SGwzcGdWMWEtVG1oTjlQT21mOTliWi0wa3prU3JxSUxfUXZ5dVJMeWtkaHhrTFNfYnpWQ3FBQ2paR25qSzRXd3lxMDBxUzVTeDdFWElBLU8tMWFiSTllNmpxeHFxT0U1emF5NncxbTR0eHh4cEJDYllIdkwwa1BsdmZwSWtJZ2dVUlRfM1pGQzRfS3JpVzNiSzlDeWJIUi1sQdIBlARBVV95cUxOMVpPY0drNWdRRkNIUExaakF6NzRIeWNqekdyUExMY3BXZUlHX1hzNndvc1ZmRlpWQXExTUhuNUVnTlhyUUFrOGtfZXBSSHprdmhGdTh2VEJRRFp6WkV1dFAtYlJiSmxRUVNjTzdtMUI5dkZ1UHhVc2V4Qk1Tc2lGVUQ3eThORVBHNEF4WDNYVmp3VjQ0YXRtbHIzSVREZWttQXZRcmR6dWpKRXN5ZGQ2VWZGbVRDVVY2dVZWZDNkT3VoeFEzVUFVc0dXbTRLb0QxeTcwdWc0RGFSMVBQanN5MnlDeEUxVG40NDRXUkFWOUEzbFFsNjJ6dk9ZWkxJemtTT1VjdVN4aTFDc1IxdUw5bjE4bm1uOXlMRjVJRVBROW1oamlWbnh1WWRNRUxxREZ4RnVsNXJfTFlOQzJwMlphMGxOSjRDTW9rUUVyeVd6VE5ON0x2eFVYY3J3bHBXVzNpQy1zQzhjRUtPWUtSd3RvLWExT19La18tOGJQODZYb2pWOXBRbTRxWFBtMWI0cy1OWWhNcDRTMjZSWU5jbFFDLXM0aFE1YzI3Z29sdHQ5WlZRWlZQd25FNG13MUh6UER1dXpmRy0yemVUdjZ4LWw2X2NmNnlJdXdWUmRjNmJERWo3T0g2bjdGSGZqYVBLd1VTSzFGSmNoQkltWWl1T1dUUUhZWmxkWGt6TmNxNGt4MzhwNFBE?oc=5",
+   "published_at": "2026-08-25T08:39:00+00:00",
+   "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
+   "doc_id": "0837e47ba9b701f0",
+   "title_en": "Easing concern over oil supplies supports European markets",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Commodity/financial news; no property or cross-border buying connection."
   },
   {
    "source_id": "gnews_ar",
@@ -1076,10 +880,24 @@
    "published_at": "2026-08-24T21:29:00+00:00",
    "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
    "doc_id": "f16ae9a8d12a573f",
-   "title_en": "Alonzo Begins Chelsea Journey with Difficult Victory over Fulham",
+   "title_en": "Alonzo begins Chelsea journey with difficult win over Fulham",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Sports news, no property relevance."
+   "rationale": "Sports news; unrelated to property or cross-border buying."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "\"سيتادل\": إعادة شراء الخزانة الأميركية للسندات \"قمع مالي\" يهدد الدولار ويفاقم التضخم - العربية",
+   "url": "https://news.google.com/rss/articles/CBMilAVBVV95cUxNRjBESHYxSmNqVEhnV0V4c2w3allyN0hMMjJ5TkcyX2J6ZzFFZmt2cmVvdUFoS1ZLSmgySkYzeERJdWxhaXRFQjlSajEtSzM5ZzRyVnBsNnF6SUFHVVFlcV9tb3Y2cklRZnQxbE5VYUc4V1dZSVpVN0RWWkR6MnZzVmlyNlBYYU1tQWRjYzZsdm5XSGYyUEpZbkRaQkJlMFJKU0loRkNPak84ZDhzUDlhNHVqVEhrT1Z1eHk3N1pqc3N5cy1IclByQUJnbjRKQWhHWkswMXROcFQtVU5HYk5BU2JBM3RsdzdNbnVFSUM5U3RQTTh4NFJONm9FclI1aFRoTy1lYWtRbDltZEpTSVA1YVRNSWs1dGZuLVJKdWlvbF9PcG12aFp4T0xwU1Y3eGp4WXFVTUtjSUJqR1ZtLXdjckoxWTJnbFZEanhKUk14VjBVZUZDeGRfOFVTNXVTTTBoSW9xOU5MYy1PUE5CRXM0Q2JFRElfQXE3bEZaS3RhS3gyVGlpS0xONll5ajlmV0xNTVUzMmI2QzR1UHJxTFRQLVFEUG5Fa1owTXFyX2dpLTBRNDFKYmpBcG1LamJYTzhyR1BCczNqQVk3N25EYlAwRmU1TzNQMEtzOUhJTU9NMFRyTDROWmNBMEtTWGgzZHU4Vm9NNm5jLXhvUk15WDJPbm9kR3c0bHI1ZThWUjliSmVWcURhV1o1Y2hnMVN1aGh4MGtla0pzODZyRTN6OFVxWHR2R2dYTVZaU3ppQ3NpdTRsVkl4Tnh2aUkxbEpzQWhFZHhWTWJJSkFoaEZqX3ptSmdBRjNtN01Nb2tETUZ3VlE3S2lwdElPZ2F6MDRNRGxyLTdvMjllZXJuYVdEcXlvWWdCTnXSAZQFQVVfeXFMTUYwREh2MUpjalRIZ1dFeHNsN2pZcjdITDIyeU5HMl9iemcxRWZrdnJlb3VBaEtWS0poMkpGM3hESXVsYWl0RUI5UmoxLUszOWc0clZwbDZxeklBR1VRZXFfbW92NnJJUWZ0MWxOVWFHOFdXWUlaVTdEVlpEejJ2c1ZpcjZQWGFNbUFkY2M2bHZuV0hmMlBKWW5EWkJCZTBSSlNJaEZDT2pPOGQ4c1A5YTR1alRIa09WdXh5NzdaanNzeXMtSHJQckFCZ240SkFoR1pLMDF0TnBULVVOR2JOQVNiQTN0bHc3TW51RUlDOVN0UE04eDRSTjZvRXJSNWhUaE8tZWFrUWw5bWRKU0lQNWFUTUlrNXRmbi1SSnVpb2xfT3BtdmhaeE9McFNWN3hqeFlxVU1LY0lCakdWbS13Y3JKMVkyZ2xWRGp4SlJNeFYwVWVGQ3hkXzhVUzV1U00waElvcTlOTGMtT1BOQkVzNENiRURJX0FxN2xGWkt0YUt4MlRpaUtMTjZZeWo5ZldMTU1VMzJiNkM0dVBycUxUUC1RRFBuRWtaME1xcl9naS0wUTQxSmJqQXBtS2piWE84ckdQQnMzakFZNzduRGJQMEZlNU8zUDBLczlISU1PTTBUckw0TlpjQTBLU1hoM2R1OFZvTTZuYy14b1JNeVgyT25vZEd3NGxyNWU4VlI5YkplVnFEYVdaNWNoZzFTdWhoeDBrZWtKczg2ckUzejhVcVh0dkdnWE1WWlN6aUNzaXU0bFZJeE54dmlJMWxKc0FoRWR4Vk1iSUpBaGhGal96bUpnQUYzbTdNTW9rRE1Gd1ZRN0tpcHRJT2dhejA0TURsci03bzI5ZWVybmFXRHF5b1lnQk51?oc=5",
+   "published_at": "2026-08-24T17:28:00+00:00",
+   "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
+   "doc_id": "347bd99e4bf6bdfe",
+   "title_en": "Citadel: US Treasury bond buyback is financial repression threatening dollar and worsening inflation",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Macro financial news; no property or cross-border buying connection."
   },
   {
    "source_id": "gnews_ar",
@@ -1090,10 +908,24 @@
    "published_at": "2026-08-24T13:10:00+00:00",
    "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
    "doc_id": "b86b736ee3d9dbe0",
-   "title_en": "Morocco Resumes Soft Wheat Imports from Mid-September",
+   "title_en": "Morocco resumes soft wheat imports from mid-September",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Commodity trade, no property relevance."
+   "rationale": "Commodity trade news; unrelated to property or cross-border buying."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "\"إيزي جيت\" للطيران البريطانية تطلق حملة لتوظيف \"كبار السن\" - العربية",
+   "url": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxOSHYyb0tKenNxZkJJTUg4UWk4cG9iSjBwOHp5NjFKNzZ6YmM0LUEzNUxwMGR2Y0QyZlVLZzhpZTZ4Z3h1d2J1LW1VdGJEaUtvTmhUQk5VRUlFZENaY0ttUDlaYjM1VGQzaENBU3RfbjlNQlYyOXZMY00wYW0tck9qTkhscU1kWFFnR195SENhU2NjU0xvTEl3ZV84RXJmMHV1ODdVOXZPcHB2ODBWQzdmTXpUOWdJdzZWTUV0em5zU0hJTmNzcjFDdjhZTkVHWEpqMVZTazF1UHVUdU1wdmZ6MnBkeHBJbjJDOVVGdEhKYTJZZTdxRl9hbTBmX054SHBEb3Qyd1B0S0hETWJsY21sRWMtb1hrQXBRU0d0OUdGRWhrUjhIeDBZQnhTM2xEZ3QtVjZZQ1d0ajBZT1ZfdHhyakkzTE5ZVm56eERZNDN3dFBIc1NRYV9lQUN1SXlyZWdfLVVRVGZTUUozMkdXR3NjYVdNZTlrLTRhX0VLUFd6N2x0Ny0zLUZlQXctYkZoNzJNVVlrZk5CODFqYzhOcHAxM3h6VnVjbnhEeDRWSkZkTVRtZU01cExEdmNwQm5QVU9nY3cyS3UtLXdHQXNGTWgzclhtcjZmaDNOZTU2SXFBZDBPZmNkbUo2UmFkbkRfYXfSAe8DQVVfeXFMTkh2Mm9LSnpzcWZCSU1IOFFpOHBvYkowcDh6eTYxSjc2emJjNC1BMzVMcDBkdmNEMmZVS2c4aWU2eGd4dXdidS1tVXRiRGlLb05oVEJOVUVJRWRDWmNLbVA5WmIzNVRkM2hDQVN0X245TUJWMjl2TGNNMGFtLXJPak5IbHFNZFhRZ0dfeUhDYVNjY1NMb0xJd2VfOEVyZjB1dTg3VTl2T3BwdjgwVkM3Zk16VDlnSXc2Vk1FdHpuc1NISU5jc3IxQ3Y4WU5FR1hKajFWU2sxdVB1VHVNcHZmejJwZHhwSW4yQzlVRnRISmEyWWU3cUZfYW0wZl9OeEhwRG90MndQdEtIRE1ibGNtbEVjLW9Ya0FwUVNHdDlHRkVoa1I4SHgwWUJ4UzNsRGd0LVY2WUNXdGowWU9WX3R4cmpJM0xOWVZuenhEWTQzd3RQSHNTUWFfZUFDdUl5cmVnXy1VUVRmU1FKMzJHV0dzY2FXTWU5ay00YV9FS1BXejdsdDctMy1GZUF3LWJGaDcyTVVZa2ZOQjgxamM4TnBwMTN4elZ1Y254RHg0VkpGZE1UbWVNNXBMRHZjcEJuUFVPZ2N3Mkt1LS13R0FzRk1oM3JYbXI2ZmgzTmU1NklxQWQwT2ZjZG1KNlJhZG5EX2F3?oc=5",
+   "published_at": "2026-08-25T07:24:00+00:00",
+   "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
+   "doc_id": "3d4f2d637ef528eb",
+   "title_en": "EasyJet launches recruitment campaign for older workers",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Airlines/employment news; unrelated to property or cross-border buying."
   },
   {
    "source_id": "gnews_ar",
@@ -1104,38 +936,10 @@
    "published_at": "2026-08-24T14:55:00+00:00",
    "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
    "doc_id": "f65d837b9f85462d",
-   "title_en": "Money in Circulation in Tunisia Exceeds $10.5 Billion for the First Time, Pressuring Bank Liquidity",
+   "title_en": "Money in circulation in Tunisia exceeds $10.5 billion for first time, pressuring bank liquidity",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Tunisia monetary policy, not corridor property market."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "سعودي يحكي عن هوايته بجمع العملات السعودية القديمة - العربية",
-   "url": "https://news.google.com/rss/articles/CBMiyANBVV95cUxPVEpZRzFDekw0Yk0xaUYyNm1Dc0dDVEZBTHN3eS01RXJCLXhaelpCOTR3Y3VTMnpOaWp6R29HWTAxTjJsb2pKc0VXeWFuSVhEVTdUblJldTVkUm1oUjR5WldyblRFVm5jX2JZQUlQblZyemFyeXN1T0VJRmVnYjRfTnJXa2Q1VDRpZExwbnNBMFBhQzJkVW9nUzJaMDFvTVlvT1QwYmVSOXVwclA3S0hsdlRUQmhZdTlmbWFfOGRRaXlFWk5NbEdFa20zSzJzbXdvLTgxNTJzcmw5Tk14SktXdUF4R2lqMDJSR1Q3VTlEM3ZYaVZwUXlVN2FLREdtOVFQMzBlRWlZaHlOUEo5UmlsTm9rLVoyamFyR1VFYi1FRUFxU0R6amU2anZfQkRTVzFGNlhmT3d5d3QyTUw2dUtjR0hZOVR3RGc2dGNpT0JUdjJORjdXcFBXYUNXZVJXWjlJQ3dwNDFHVHVIRkJRcE5yQWNNVWxTUFZxQ2Ryekd6MG43MDFOTmF2cGIzVnJPZDFkTThubUY2UloxckMwUXJFWVR3bk9XRXpiaFB0YW9sQnNqTVRMek91d3A3LWRlZ21vQ3RUUmFYX27SAc4DQVVfeXFMUFIxdDNNZkMtVHUzR05YVU9SZ3RMX0thT2FxOEE4MkhucC1ldlFVcGFhdXplODlEaTd4ZDlTWDhaZzIxV3lVTUwxS1pqSF9WMTBZY1ZuNHJ1MzFDa1VhcFVrN09qc0pFNEJ5ZGRaakJFSDkyX2JfS0V6a0NWZV8xa2tRTUlMaGNDZFE0LWx1RHplU0QxZ2pQWVlTNk5QNW1kamdWVVdsUzNoRVFBbE1IMTBmUDlSaDE3TEU5dERUNWk1Wmx0Ykl3by1GSUh0T2p3Mm96NzFQYmJ5blR5cDBkc01heTlaa19yNkpGYjhmWmpSdk9sNUl5V0tzdWU2TXI5V2s1SnIwazJBVnF0MlNuSktuVVZhZ3h1YVJreEQxNHZib3J6WERXSGhnZVUzM2tuc0JsZDFWb09uVk1aLTZvN0ZCWksydGo1WDZVb0tTSVB3dXZLakQ4VGpFRWJCN3VhVW1LMEswZEwtWTVEb3pkRTV0RHdfVkQtazRlVHVFWXFGbWlXZDdKSnA2azdkMnpCdURnTjQzS01tNmJYbTdHeXlMb3RrWThJRUtDYzNvRWFRYnJHOVdCcHhZeVBBVHFOc2Z2MHlLX0RKdDdiVUJB?oc=5",
-   "published_at": "2026-08-24T12:07:00+00:00",
-   "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
-   "doc_id": "fbe8bc64bb5ee225",
-   "title_en": "Saudi Collector Shares His Hobby of Collecting Old Saudi Coins",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "Human interest, no property relevance."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "الصناعة في السعودية.. بوابة الشركات الفرنسية للوصول إلى أسواق عالمية - العربية",
-   "url": "https://news.google.com/rss/articles/CBMivwRBVV95cUxQQWM3aWFxX05ET2l3d191OGxvNDBKMll0bGNJclNSbllzMzZ3OG5ra0poeEp4YUZGNGxkb3hiSmdRSnVRMUZlYmhwWmVfM0QzSFNUZ195SFdqU0VoVmlhVF9DVFg1V2Y4XzdOclQtandyQVFaQ1BQVUtjbmhWRzN6WWpNRGplS0ZkM1Z3ZFF1V0RkUWdQdElvcFVVaElkY1Z0UjZWRG0xUm5SUlVOY2Jzd1E3MnFxTnM5WHJWdEVuNkdvTGpYc3JkV2Etd3FDdHVFbEdtUVFwdHBrcWFYVE5QT3lzWlp0N3JEMjhQUnlGOGlQNW9Na1hibTZTQS0ycEdoQWk1eUxQZFJfX3ZIMGlVUXVDR1BiaUlUbHNrLVFPbVhhcXEzcVR3bG9vOGNNSDZjMWRFaG4xOUg2ZlY3Ym9Gci1PTmRQQkUtdmxQdjcwVUJzU2tFb3NEVk1ZUkNvMkIzY1lFektQOFlhMEJ6cGtjTGlBbnd2a0p0Yldkdm9TVHlseTNjc3I2My1TMDJBVjdMdjJJTWl3WVh2MzhPVFpfZmwzSHRCN1dDZUtReXB1YU1SdG12RFBoOU45U056bmNreVdYdllkNjZyUzVfbEM3ZkZJT3BOdGlBNWJUWXV0cnFVcnRwd1FyRDdxQXVGWG9ZcGthQkxiNGJfWGRlSzJfX2VidHF5OGFsallGbmxTSE9tS3VpeHl6ZFJ0RDE1ZUJwbVdGUkplZU1rR0dJSjdrel9hNFk3TG9uWHF2YWJ4TdIBxARBVV95cUxPd2dCRFZ2NVBwaUwzeUltQUY1eWIzaVFUbkx5c3IyQTgyMXJwdERBVnVmV3lSN3VFLXhuMEVfMEJpM2diRE9SQjVSdzJTWGtjRlF3cXpVeDhNVW0yRnFzdkRTQTNBRFZpMUhnVnd6U0tDQ09YYndpaC00T3cwaWhaWVFCN3BiZzdrWDBrUUczVTE1Ny1DcFFOT05QdlRoaGNRZ0FtZEc4RlRyQ1ZnRnE2NXFQWEN6cTV3cGJ1cGdiQ2Fab3lDV2N1R2dPejU3cW1DN0tXcUF0d3h1RkxvSWl2cnVyOWIwdm5oNkFzOHBWUzNxbmFNVFZuZW9kYzdVQ1hJUEdZc1hMWThmVnNhaG94czhZNUtQNlRiUkJtX2hfYWJjeWFtajFjUXFWZUNfN0xPVEtGVFBIanpmSjVGdjhKX1pwWWZaWEhxRXJSc1RjX3VnSndDRjMxQkpIZFFVZTBLcXc0dFZJaEtZZFVycE96bUVwR2RfTGpWZGdySXJzeS0yTEd3WkxvN191dDY3TVF2bnI3elI2dWQ5eW1kWlM2Y2piZ21JQVRCRTdmTnpjUmdTWnVCYkd1S3h3Mkw1dDlyNXIyeWtteEd6UjRkUERDMlJ6Z3JaMEhGT1Q2Sk9ULVNoVXFrQXdjbHBEN0xSRTRoaXh1aTl5bVpkb3hoc1B2TGM4ZkN6dUlGZkl5bHFCZk1wbGZjcnVNeF9qQVdmdnlOcWU2aDhvUWN4VlFmcTk3aUM4cEJqSGNaaWRfN3VQdFlPVW5S?oc=5",
-   "published_at": "2026-08-24T12:38:00+00:00",
-   "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
-   "doc_id": "2ecebc83e9259409",
-   "title_en": "Industry in Saudi Arabia..Gateway for French Companies to Reach Global Markets",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "Industrial trade partnership, not property relevant."
+   "rationale": "Tunisia financial news; outside corridor, no property relevance."
   },
   {
    "source_id": "gnews_ar",
@@ -1146,10 +950,24 @@
    "published_at": "2026-08-25T10:12:00+00:00",
    "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
    "doc_id": "701c12ef6ab07be1",
-   "title_en": "Russia: confident of achieving victory in Ukraine war",
+   "title_en": "Russia: confident of victory in Ukraine war",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Geopolitical conflict unrelated to property or cross-border buyers."
+   "rationale": "Political/military news; unrelated to property or cross-border buying."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "\"رفاه\": توسيع شراء السندات يدفع \"بيتكوين\" للصعود - العربية",
+   "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxPX2lqdEdGOXp3aGxyaThKX0FyTF9FZklpRTBXYkRMMUUzN2JtOEs2cXoxVjJzVktCT0phdVRlbFRRd0tkSlZkTU1kaXNHSjZKV0p5elMxdlVWTVNzbXJvdFZVbERoa2dYWG56WUxWU3ZUaTR0dEVJTEZQZGJ1MFRwVkVXMDZEWHZRRG9memFTN215OU9Bay1iNjVQdHJRdnB4WUJxUE1id05DVjI0djVTWEFPYnU5T2ZnVDMtUEtIdFFMU1dUeDFSbjhYX0dQd1pGakRpVXBNV3BudHB3VF93TkNlS0d4N0M1NXdrdF9ndmN3SW5wN1ZNWTFENXlKaTdlLUZjVjRmdEdtUzNuaFg4T0pJQVZuSEY5TXEwS1MtTFZiQ3VlcGtGMmJET3U3Sl9Wa3ladGRJQnExcXlVbGQxZUhkTjZQLUNzRWh1S1ROTE8xdHh1U2t5YkFYRl9fMDlqVUdubmYwVU5Wel9FNUZPT3RieTlld3JZSG5ReTVOWkRjUG5ITGdwWUJSbzlfVnNzaE55Sm1XVU1OLUHSAaADQVVfeXFMTU1VZ3ZkSkljTVc5dWZzamUzQ1paQUtXLXBDenZXVDhTUUJYdjllMTlXN2VuZmNjOElzcllPSGNEN1h6WnVYRjJ5clY2QWFPX196cHVZbFh1cTBXUzlIMTZ3UUQ3RzlzLU5WdTJDbzJzNTk4bzJfS0w3ODJKX1Q4ZlJjR1JBOGdVeXVsZnhlWHhnTFFDTDhRZ3RFMEFwQXNKOThSTFY4UkJTSVY2QUFfazBJekpLX051TDFnVGNFVVNDaEZaaENxWUV3dFpqczlDZWF5a3NFZ0tRN3Q5Z1JFa19IbmhQNWt6TXJnQ3dSZDBxaENJaUpMYzRXdHhybjc0UUo1M0pSejFDQlZRQVVBTlY4cTVNTlk0aEhzTnZLWjEyUWIwM0JPRWRwWWxqcWRDenItTThhMEV1a3BQVEpDdDltQmlHSlhXNm5ES0ZoT0d5NjEyWXQ3YTI1M2xPclFqal9feTVUTWpOcXRlZXY2bVI0UlFTOW9UY0MzR2g4bTNiTlRmVE5waTZIWlQ2VEROLXQ0dy1FZXhGNlU3YTJjam0?oc=5",
+   "published_at": "2026-08-24T14:23:00+00:00",
+   "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
+   "doc_id": "4be1a678c73c27d7",
+   "title_en": "Rafah: expanded bond purchases push bitcoin higher",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Cryptocurrency news; no property or cross-border buying connection."
   },
   {
    "source_id": "gnews_ar",
@@ -1160,10 +978,10 @@
    "published_at": "2026-08-25T14:00:00+00:00",
    "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
    "doc_id": "948296b11b4861d5",
-   "title_en": "Why do central banks buy gold in secret?",
+   "title_en": "Why are central banks secretly buying gold?",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Monetary policy; no link to property or cross-border second-home buying."
+   "rationale": "Gold/macro news; no property or cross-border buying connection."
   },
   {
    "source_id": "gnews_ar",
@@ -1174,10 +992,10 @@
    "published_at": "2026-08-25T16:58:00+00:00",
    "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
    "doc_id": "b17095b5e49a8adf",
-   "title_en": "Tunisian authorities warn of heat wave affecting 22 governorates",
+   "title_en": "Tunisian authorities warn of heat wave hitting 22 provinces",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Weather alert unrelated to property or cross-border buyers."
+   "rationale": "Weather news; unrelated to property or cross-border buying."
   },
   {
    "source_id": "gnews_ar",
@@ -1188,10 +1006,10 @@
    "published_at": "2026-08-25T08:23:00+00:00",
    "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
    "doc_id": "987e7f28c6546c49",
-   "title_en": "Lebanese-Israeli agreement imposes alternative formulas for international forces",
+   "title_en": "Lebanon-Israel agreement imposes alternative format for international forces",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Diplomatic agreement outside corridor; no property relevance."
+   "rationale": "Political/military news; unrelated to property or cross-border buying."
   },
   {
    "source_id": "gnews_ar",
@@ -1202,10 +1020,10 @@
    "published_at": "2026-08-25T05:19:00+00:00",
    "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
    "doc_id": "27f7c4391ada1a7b",
-   "title_en": "Gold towards $4,800? Deutsche Bank warns of US Treasury intervention impact",
+   "title_en": "Gold toward $4,800? Deutsche Bank warns of impact of US Treasury interventions",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Commodity price commentary; no link to property or cross-border buyers."
+   "rationale": "Gold/macro news; no property or cross-border buying connection."
   },
   {
    "source_id": "gnews_ar",
@@ -1216,10 +1034,10 @@
    "published_at": "2026-08-25T05:22:00+00:00",
    "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
    "doc_id": "0afe304440f0d96b",
-   "title_en": "US grants Iran partners final deadline before sanctions",
+   "title_en": "US gives Iran partners final extension before sanctions",
    "category": "OTHER",
    "score": 0,
-   "rationale": "International sanctions; no property or corridor relevance."
+   "rationale": "Political/sanctions news; unrelated to property or cross-border buying."
   },
   {
    "source_id": "gnews_ar",
@@ -1233,7 +1051,7 @@
    "title_en": "Saudi Arabia and France emphasize need for negotiated solution on Iran",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Diplomatic statement unrelated to property or cross-border buyers."
+   "rationale": "Political news; unrelated to property or cross-border buying."
   },
   {
    "source_id": "gnews_ar",
@@ -1244,24 +1062,10 @@
    "published_at": "2026-08-25T06:22:00+00:00",
    "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
    "doc_id": "efcc9030c0015e42",
-   "title_en": "Saudi Arabia nominates Hanan Balkhy to lead WHO 2027–2032",
+   "title_en": "Saudi Arabia nominates Hanan Balkhi to lead WHO 2027–2032",
    "category": "OTHER",
    "score": 0,
-   "rationale": "International health leadership; no property relevance."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "دواء جديد يمنح مرضى سرطان البنكرياس أملاً - الشرق الأوسط",
-   "url": "https://news.google.com/rss/articles/CBMiggNBVV95cUxORkZkMVdFQlFvalRJT3ktclZ6Q2JSNndhWlpwLWljNUp6cENEN0pQekNuQ0RIS1pvNHNTUGdReW9rRWRnTU9ES2dzTHNBOGplMHNac21kTHBwbUh0cnRiMVVFQnVCU1RlT0x2M0JZZVZ3SW01SVlJa0VIdFVmTFI0S0plWEg3MGdLbDBNei1XRDh4LS1POXlsRm1faFZ0RzFqSFBXdjZtakp3QUJ4ZlBwQ3FzUnl1U0hIMXY5N3Z2Um00bXRBWFgtdmRYdUl2MUZyVXpoYlZlZkxKdllQTE1sekFPSXZGYnU2ekVNcnc1eW9KVUVDLXk2MlVHSnEtaG5XbW9oTnFDeGFHOGVzMGJDUEM4MWZCbTU5TkFDZGtYaFhBUTRvYkVqWFBhVWF5YjRRSmM4bnQ3MXgtX1BtU2RhVHo2ZnlaM2d2dEUyUFhxaG9MQXpLV19oQWp5dy1vYTZySThjTW14MFR2cUpndm9TQU1GM3dRLXkyLW5nbEM1STREZw?oc=5",
-   "published_at": "2026-08-24T19:23:00+00:00",
-   "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "doc_id": "81274d03ba262878",
-   "title_en": "New drug offers hope to pancreatic cancer patients",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "Medical news unrelated to property or cross-border buyers."
+   "rationale": "Political/organizational news; unrelated to property or cross-border buying."
   },
   {
    "source_id": "gnews_ar",
@@ -1272,10 +1076,38 @@
    "published_at": "2026-08-24T21:00:52+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "3daccecd860a1363",
-   "title_en": "Pound collapse paves way for medicine crisis in Sudan",
+   "title_en": "Pound collapse paves way for drug crisis in Sudan",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Sudan currency crisis; no corridor or property link."
+   "rationale": "Sudan currency/health news; outside corridor, no property relevance."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "تشديد مصري على المطوّرين العقاريين بعد أزمات تأخّر التسليم - الشرق الأوسط",
+   "url": "https://news.google.com/rss/articles/CBMimAVBVV95cUxPR0VnaFNaUWEyZDVET3BRWHdRZHRaWjUxX1lVVXdLY1RYLS0tWnB2M0h5UVVDWmlYcEE0Znd1b3dKR0dtZDhhc2EtUHVwOHBYVVljNDRZdXRPdTQwYTNWY1c0dVlnal9jbDNzejBHd3V6NERJMmoybHloR1o5T0lrT3M5WERYbzE1UFFyTEZNRWhabnBXcUY3T0FVZWhERjNWNXg1ZzM2dDRvTmQ0RUNCQ05GbkpLVGRCeFhmc1FCb1NGOG56SGFHTEFGV19mOGs2ZVpuMjhmMmxDWU9aU1RJNXdtNURWU0FXdG94WHlnSmhPYjhGMU54a2J5d0FTdEdsTUFFcnNBZVhRWmVaRXE5Nk9kZFEzd24xcnBXWmxfdTk0Yzk3c08yVEhGQzRuSFNzVXJqVmd4ckswLWJEZnZuak40UjNnQUVENUU3X0hhMUxybHBOR3B3MTNsYkNtM2VVb2w2bkZiNTRCdXdZejU3SzhfLWtwaXRfenRtS214ZmhJbW5CVEFFOENhOGVOOWxSZjhwdVBIUDFGZ0FtRVZLVko5OVFDVTEyeWJ1b3lIVDJmWURuT3FfQzdSSjVSV1BaYzh2Vi1YWHJWNTNJSjBkejA4Y0t1VWNXeDhvYVhYSjl1aWlfQVUyc21vZHRTZGFaUXp2WllqeXhXTTYyTXRpbWE1dlhKRkl5eUxISXNTbWx2TVh0VGtFSHJYUHl4OXFOM3RYN2pzUExvT3RsMlZ5dllocmJsTWVuYVFhYXJsQ1AzakZNRzVNV3VZOEtMOUhPMmtuYjI5TDRveTcxRjcwWEQzaGlWX1pBZnBZTWNyeGRQdWliZ1RZQmtDSXEyZkZVZXFDdXB3Y0ZubDd1Mi1Ia0pLZy00aUQ5?oc=5",
+   "published_at": "2026-08-24T15:12:57+00:00",
+   "query": "site:aawsat.com عقارات أوروبا when:2d",
+   "doc_id": "4289e68e01375b19",
+   "title_en": "Egypt tightens regulations on property developers following delivery delays",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Egypt is outside the corridor; domestic market only."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "خطأ صباحي قد يقلل فاعلية حبوب إنقاص الوزن - الشرق الأوسط",
+   "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPYW1CODlfbkt0YXprb1l0dVlrOWRPRkVydkN3bzVCaW5JS1VFTU1aN1RkZ0pWN085eEhpUDlma3VhbEY3Q05YZlZibzhIM2dXZlgwR2hvQm5wUWR2ZVF6MUhVdUh1UWFzcC1TNXc1dDJ6Nk5LSFRESWJ3OGUxM01nWFZKeDd2YVlUWG4wUlVUa01PWjk3d1RWci1ocE03UXlUQ28wbWFFQTNJVms5c0dnVk1GdVFhRThWaC03ckY3UGYwYTgtZkNpZTN3Ml9hdjNIRTB5VjUwOTUzLVJsaTNVQ0c0Y0dFcDgyb3dBM3hIcjdlNE0wNFZqZGkzeWszWkc0c1NSVWZzQmRIU0ZHQXdQdERxclJTd2ZscmVXNURFOHlpTGU0YUhZbVFfazc1dU9CMjNtaGE4bTBob2l1Rjg0S2RxN1VUUjBWMEJzWDdGVHJHLU5Cd1RCalZCdEl4b0ItMDR2MHR5OFJaWGJhR1VyOTdyMlZGc0FUajNB?oc=5",
+   "published_at": "2026-08-25T15:15:17+00:00",
+   "query": "site:aawsat.com عقارات أوروبا when:2d",
+   "doc_id": "57c3c8b42f22cd60",
+   "title_en": "Morning mistake may reduce the effectiveness of weight-loss pills",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Unrelated to property or cross-border buying."
   },
   {
    "source_id": "gnews_ar",
@@ -1286,10 +1118,38 @@
    "published_at": "2026-08-25T09:31:01+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "910061bc7a2a8689",
-   "title_en": "Tourism minister: Saudi Arabia leads global change by building cities from scratch",
+   "title_en": "Tourism minister: Saudi Arabia leading global change by building cities from scratch",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Saudi domestic development; outside corridor, not cross-border second homes."
+   "rationale": "Saudi Arabia is outside the corridor; not about European second homes."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "أسعار المساكن الفاخرة تعمّق «الهوة الطبقية» في مصر - الشرق الأوسط",
+   "url": "https://news.google.com/rss/articles/CBMi7ANBVV95cUxNWTlBVnNzXzNtd3J2YlhkTm1DeWtJSk9aOGtGNXRtX1pnU0ZkUWRrZnRwbm45amNfVnRZQ3FZZE5NS2JBdUdKUnhHanZ4NEo0LUZpWC0zNUNIWEIxSGhyazQ5bFIzNzJ3YWJZUTZ6eXA5cndNUWNocDNVa3Z6T003X3JPdVl4YXZUVDhNOUl6ZjVGSTl1TUZBMUstbGJ3X1ZUWVdidlhoazFfNlV6VjhfM0puNWh4amNaR0NwRnRQRXFYVzhBSXZ3bEo1Vm1ISGFUTF9TZ21nTmNUTFZnbUd5YUxGMDduZjZqXzA1WnQwVzhKNEdESEl5NmZkX2w4c05TWmlZRWM1aGNycnRqTmJ4bGhUbEN0aTMyUFRLWDRoTDZrN0JWZ3JfTnh3YUlPRzlCX0dVVHZ0Z0tIM0w4ZE9qRWZPYUhPNEItc2xUM1doSmNMVHlTdWlwNXJ1Tjd5YXFVMkNtNlVjOWhfV2RyZjk3Y3IxVzA3Z0lVb3FySXk2aE1EVjBERy1KaDBLbmZ1dy1icmgyU0hPcnV6NXZ0bll5Ui1WTVRxMUJOVVBOMGR4Y1FZVnVqcHc1Rm82cTRRQTBPNDloM3JYQkhXWHZ6ZlRMQlNKclBlaVlxcHVZcGxveFVyRURoT2RHdWZrSjI?oc=5",
+   "published_at": "2026-08-25T04:50:39+00:00",
+   "query": "site:aawsat.com عقارات أوروبا when:2d",
+   "doc_id": "b1c383f1c728847a",
+   "title_en": "Luxury home prices deepen class divide in Egypt",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Egypt is outside the corridor; domestic market only."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "«قطار الإسكان» في السعودية يكسر حاجز المليون عقد... وبلوغ مستهدف الـ70 % يقترب - الشرق الأوسط",
+   "url": "https://news.google.com/rss/articles/CBMi4wRBVV95cUxQVHNiU1FoV3ZrdThYMFlYNnJma2x6QklvZUdVMGJERWlDNVlLU014SE9VVzBLY3Y1S2F1WmZyY1NyYVZkOUlHUGtUdWo2ZDl6Ym9WUTdQbjQxb2xXWTVmM3JkRXhWTEVDWUgzODFpQzlGY2ZpdUdFRjVwdHROSGdNVlhZR3JwVHRxODJ6NFppZVphQ1loU211QkM5WWxFejJMNzJ4d2k1S0NZLW5sUlVDaUZaMlp2Q0RTQUttYTJJMDV0YndKUnNzQWptU2FaX2R5bzVTRUlDSDI5NTFDOFQ2Q2hja3lDbU4wdXdoU3V5Vkc4NVFzeUdFVlhKNDU2V2Q1RlVLZnlHdFpsYWNwTmJQUnhwS1pabkczeHVuVXNRWVplTVVfRGlBV0sxV0VuNVlwa0Rrb2hzdnEtSzZ1dDVSSldFRV9STm02RHVncXVONTJyeEJZWEVxUzJ6YV96V2RMQk1nUzZKc2hQRDUtdjk4Q29QbmhYMDhqUkxxMzFSd3NBbWVYTlVfR2Rnd05LNFZTaTdoMktzSFE2R2o3akZvazByNVhXemVlTExjdDU1aklzMk96ZTBBcjRXMGdxaEZMQmwtSVN3cXdwbTV3alo0ekEwWTRMbXpvZXVXV0RnNlpUY1hTVS12NGkxR0ZHZjRoRU80UHAtWXRoNXc2cWhtQ1RuWGNvOGZZcGM2YWZUVXk3TWp3UG1zd3hoMGZ4c0dDamFCYnQwQ0I4dFFPc2poR1FtemVMbEd0OXV6UlhtMEhVQ1BjRTNGM3BXaGhjam5SWFlMaDhVaVVkcENQTmxNdUJsUQ?oc=5",
+   "published_at": "2026-08-25T09:37:03+00:00",
+   "query": "site:aawsat.com عقارات أوروبا when:2d",
+   "doc_id": "e2bb9c0436af862a",
+   "title_en": "Housing train in Saudi Arabia breaks one million contracts barrier, 70% target approaches",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Saudi Arabia is outside the corridor; not about cross-border buyers."
   },
   {
    "source_id": "gnews_ar",
@@ -1300,10 +1160,10 @@
    "published_at": "2026-08-24T18:48:10+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "d6cf2a9297dc07ea",
-   "title_en": "From $45 billion to life sentence... the fall of Evergrande founder",
+   "title_en": "From 45 billion dollars to life sentence: the fall of Evergrande founder",
    "category": "OTHER",
    "score": 0,
-   "rationale": "China real estate scandal; outside corridor, not cross-border buyer context."
+   "rationale": "China property crisis; outside corridor and unrelated to cross-border buying."
   },
   {
    "source_id": "gnews_ar",
@@ -1314,10 +1174,10 @@
    "published_at": "2026-08-24T17:48:54+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "c879c81469f19d9f",
-   "title_en": "German court reopens investigation of serial-killer nurse sentenced to life",
+   "title_en": "German court reopens investigation into convicted serial killer nurse",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Criminal justice; unrelated to property or cross-border buyers."
+   "rationale": "Unrelated to property or cross-border buying."
   },
   {
    "source_id": "gnews_ar",
@@ -1328,10 +1188,10 @@
    "published_at": "2026-08-24T17:08:31+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "3f42c4ecf7752b52",
-   "title_en": "Handwritten doctor prescriptions burden Egyptian pharmacists",
+   "title_en": "Handwritten doctors' prescriptions burden Egyptian pharmacists",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Healthcare administration; unrelated to property or cross-border buyers."
+   "rationale": "Unrelated to property or cross-border buying."
   },
   {
    "source_id": "gnews_ar",
@@ -1342,10 +1202,10 @@
    "published_at": "2026-08-24T19:26:42+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "3bf0e1ad49c5ced0",
-   "title_en": "China's economy on one leg... exports hold up against weak domestic demand",
+   "title_en": "China's economy on one leg: exports hold as domestic weakness persists",
    "category": "OTHER",
    "score": 0,
-   "rationale": "China macroeconomics; outside corridor, no property link."
+   "rationale": "China economic news; outside corridor and not about property."
   },
   {
    "source_id": "gnews_ar",
@@ -1356,10 +1216,10 @@
    "published_at": "2026-08-25T00:10:51+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "7da084d1c10c2e5d",
-   "title_en": "Starmer: Andrew must prepare to testify before Congress over Epstein leaks",
+   "title_en": "Starmer: Andrew should prepare to testify before Congress after Epstein leaks",
    "category": "OTHER",
    "score": 0,
-   "rationale": "UK political news; unrelated to property or cross-border buyers."
+   "rationale": "Unrelated to property or cross-border buying."
   },
   {
    "source_id": "gnews_ar",
@@ -1373,7 +1233,7 @@
    "title_en": "issue17437",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Editorial or system identifier; no substantive content."
+   "rationale": "Unrelated to property or cross-border buying."
   },
   {
    "source_id": "gnews_ar",
@@ -1384,10 +1244,10 @@
    "published_at": "2026-08-24T13:32:49+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "f2f02d582f670616",
-   "title_en": "How do geospatial data lower project costs in Saudi Arabia?",
+   "title_en": "How does geolocation data reduce project costs in Saudi Arabia?",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Saudi domestic infrastructure; outside corridor, not cross-border property."
+   "rationale": "Saudi Arabia is outside the corridor."
   },
   {
    "source_id": "gnews_ar",
@@ -1398,24 +1258,24 @@
    "published_at": "2026-08-24T23:11:17+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "6fa4ff54f3eb5858",
-   "title_en": "Baron Trump sells mate and makes his first million... entrepreneur following father's footsteps",
+   "title_en": "Trump's son sells mate and earns his first million: entrepreneur following father's footsteps",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Business profile; unrelated to property or cross-border buyers."
+   "rationale": "Unrelated to property or cross-border buying."
   },
   {
    "source_id": "gnews_ar",
    "lang": "ar",
    "stream": "news",
-   "title": "استخدام الأسبرين وغيره في الوقاية من أمراض الشرايين القلبية - الشرق الأوسط",
-   "url": "https://news.google.com/rss/articles/CBMihARBVV95cUxQOXJzZkstNUZOTkh6LWptZ3ppd0NjYVZER0hsUU5VbWdkRXUzWHc0RGItb2Vjd1EwS2VFcnhYYVpwcVRYLWEwSmMyam5zbnB0eFUxVF9LREpOcGFSaE9STk0xRXdTMW05dHJuOUlrb2RPRDBOMjFlSEVmYzVRZEdFRmpqM1JWSk02T3FUdmdiM0xsZlJWQXRpZ1N3Uy1CZmlfV08yQmZUNE53eUtmTlVrQnZVQnFpTENkcFJiM19VWmw2bW1xTkdDaTlhLUZXNmZQNVZnUkk3TFg5eUN1a2xVNWJ5SzhBX3FjOHpMYllweTRrMEdEVkVIbk04QjMyRU1WZHlrWHo1QzRtR3NrdFZmV3BhcUFOb0FJc0JCN0VrTndNclRQcktxTFd4bkJISWJtWndqNzB2MmFCaVFvWlBFRFFQMy1JclBqUU5nNnU4dHNUZXUydDBEOTJIYktrb19GMlA2Z25rdDJtTVo3WFotTG9HamhxV2c5aFNURURJQzlmRVdzVmdQd0hvNXdxWlZNSEFoWUVDd25pNDlmbExQU2tHSFRtSzJFVDlTT19iOGdGX3V0Zk9iNHZldFIwT3pOZjU2MjFsVV9Qb0V0cUtEWkpSZUFqeVo4YkhxU3RZQjV5WkZSRDgxdkV2R1gzcTBaX0ZPTVhESklXemVRMW13NzZqLXY?oc=5",
-   "published_at": "2026-08-25T11:01:07+00:00",
+   "title": "لأول مرة... «إل جي» تختبر في الرياض نموذج المنزل الذكي المتكامل المدعوم بالذكاء الاصطناعي - الشرق الأوسط",
+   "url": "https://news.google.com/rss/articles/CBMiigVBVV95cUxNdW9JZUxkMWY3QmdXYnpveXdyVWtiVXRQSHBvXzVxLVlkakFXY3lxWnA2dU5YNGppZDh0VUFRRVNPUDRaNzdWS2szWTVLVjhEQ1pxTzF3ZjhvSXE4VlJLOWp2ejFJbktXRU9GX2ZkY0F1YnJwUG5SV0xONnNNdGlGNi1PWU1nUHhJcjAwMXAwU2FVWUtoMDZjZlhFVVRVeURHTkY3eHRBTmtkTmw4cE5wcG8tOHJyc2wxYUZCQUxwMlNoekZRSVBwMkFTMlFhY2JENjhLNlVZQnMyZllXUGpzQ0txdU16ZUZhWFdNU19qcUxyUmVKUENxaC12SmNGTGtET3hrSEpKT2hNUi03bk55X2xzY1hhN3JnUUx6XzVybURrdWsyRngzdVIwY1gtOTA4ekQzVV9DdlMyc2ZVMHloU1pfdGZ3Z3hNajJueXhXcEs4QU9XbXEwR2duQVk3NjFCWVNJRTZPMVMyNXo3Um1Xcm9SWlk2cHZoNFdDbjhPVmx1VE1LWFhMbWVtMEIxNGdHcmZwM3JXWXlQWVlFeE5CcUw5a0pRMUtubjJiOFJ3Rlp5NFN1aG51ZEhUdUVadzRXWFdXWWlNVGVDNkY2TENQUm1xOUFXblBOTTh1LVEtVkdVV2ZNUUxjT2tENmxZOGNiMlNyNS1iaUhSZzM3TXlOS1E3aGIxM1RpVlhXeWpkVlhpWVBIc3dTbUNzaTJOUUx3MEIxUWFSLU1OV3FHNl94Qk56clRjYkxsUGtEQ083R2xfT3ROdC11NzA2OHpCRGRLTDFpVnZKLTc5UnB6eW9TLWRISUdLWlJ4bXVJVFd3ZVFuaWNaV25LMlR2Qjl1dUl4RGY3WXlsOFFsdw?oc=5",
+   "published_at": "2026-08-25T13:32:34+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "doc_id": "4f7a87bf33d28bd3",
-   "title_en": "Use of aspirin and others in prevention of heart artery disease",
+   "doc_id": "4e2845ca926af947",
+   "title_en": "For the first time, LG tests integrated smart home model in Riyadh supported by artificial intelligence",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Medical guidance; unrelated to property or cross-border buyers."
+   "rationale": "Saudi Arabia is outside the corridor."
   },
   {
    "source_id": "gnews_ar",
@@ -1426,10 +1286,10 @@
    "published_at": "2026-08-24T18:36:34+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "8af4ed3a1ae9856f",
-   "title_en": "Lebanon... 'table economy'",
+   "title_en": "Lebanon: table economy",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Lebanon commentary; outside corridor, no property link."
+   "rationale": "Lebanon is outside the corridor; domestic economic commentary."
   },
   {
    "source_id": "gnews_ar",
@@ -1440,10 +1300,10 @@
    "published_at": "2026-08-24T15:41:29+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "4faed35d3384958e",
-   "title_en": "Slight rise in Chinese stocks led by technology sector",
+   "title_en": "Chinese stocks rise slightly, led by technology sector",
    "category": "OTHER",
    "score": 0,
-   "rationale": "China market movement; outside corridor, no property link."
+   "rationale": "China market news; unrelated to European property."
   },
   {
    "source_id": "gnews_ar",
@@ -1457,7 +1317,7 @@
    "title_en": "Who notices your absence?",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Opinion or lifestyle content; no property relevance."
+   "rationale": "Unrelated to property or cross-border buying."
   },
   {
    "source_id": "gnews_ar",
@@ -1468,24 +1328,24 @@
    "published_at": "2026-08-24T23:06:02+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "64927008d752115e",
-   "title_en": "The world between American 'socialism' and Chinese 'capitalism'",
+   "title_en": "The world between American socialism and Chinese capitalism",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Geopolitical opinion piece, unrelated to property or cross-border buyers"
+   "rationale": "Geopolitical commentary; unrelated to property."
   },
   {
    "source_id": "gnews_ar",
    "lang": "ar",
    "stream": "news",
-   "title": "لأول مرة... «إل جي» تختبر في الرياض نموذج المنزل الذكي المتكامل المدعوم بالذكاء الاصطناعي - الشرق الأوسط",
-   "url": "https://news.google.com/rss/articles/CBMiigVBVV95cUxNdW9JZUxkMWY3QmdXYnpveXdyVWtiVXRQSHBvXzVxLVlkakFXY3lxWnA2dU5YNGppZDh0VUFRRVNPUDRaNzdWS2szWTVLVjhEQ1pxTzF3ZjhvSXE4VlJLOWp2ejFJbktXRU9GX2ZkY0F1YnJwUG5SV0xONnNNdGlGNi1PWU1nUHhJcjAwMXAwU2FVWUtoMDZjZlhFVVRVeURHTkY3eHRBTmtkTmw4cE5wcG8tOHJyc2wxYUZCQUxwMlNoekZRSVBwMkFTMlFhY2JENjhLNlVZQnMyZllXUGpzQ0txdU16ZUZhWFdNU19qcUxyUmVKUENxaC12SmNGTGtET3hrSEpKT2hNUi03bk55X2xzY1hhN3JnUUx6XzVybURrdWsyRngzdVIwY1gtOTA4ekQzVV9DdlMyc2ZVMHloU1pfdGZ3Z3hNajJueXhXcEs4QU9XbXEwR2duQVk3NjFCWVNJRTZPMVMyNXo3Um1Xcm9SWlk2cHZoNFdDbjhPVmx1VE1LWFhMbWVtMEIxNGdHcmZwM3JXWXlQWVlFeE5CcUw5a0pRMUtubjJiOFJ3Rlp5NFN1aG51ZEhUdUVadzRXWFdXWWlNVGVDNkY2TENQUm1xOUFXblBOTTh1LVEtVkdVV2ZNUUxjT2tENmxZOGNiMlNyNS1iaUhSZzM3TXlOS1E3aGIxM1RpVlhXeWpkVlhpWVBIc3dTbUNzaTJOUUx3MEIxUWFSLU1OV3FHNl94Qk56clRjYkxsUGtEQ083R2xfT3ROdC11NzA2OHpCRGRLTDFpVnZKLTc5UnB6eW9TLWRISUdLWlJ4bXVJVFd3ZVFuaWNaV25LMlR2Qjl1dUl4RGY3WXlsOFFsdw?oc=5",
-   "published_at": "2026-08-25T13:32:34+00:00",
+   "title": "السعودية وفرنسا نحو شراكة استراتيجية أعمق - الشرق الأوسط",
+   "url": "https://news.google.com/rss/articles/CBMi-wNBVV95cUxNZmw1UnZhQ2xZSnNVSGNoRVowQVFPWndwT2tHUERPMWNEY1pFVjJuQU4zUTd0ZHlCN0RFdGdWdFpXbFNwN2lnRVMwcTdocVBLdlpURkdEdlREbUk1ZVBITXZMbHU4N2pjeWVOeWg1WFRiNHM5TnBEdGpOX29rSmZrS3NKTmVxTkJGVEhqSXd3cjl6b3hoeDRkZjY3OWk0b3BSd19ZcFdJSVZqekJid0RReDJaYlM5LTJGNm4yZzFCNl8tZEFrcjFIMGN4bHVDd0RKZkJfN1d3R3lZcWloSkxlczRlNm9UWXFFdDYwVVV6Nk9wU1VicERGbF9lMG1oQUNabzU3ckNsNTFRS1diMkhLeVgtdEo3bnlEdncxSVJPR2xiNUo4dGZJcm41M3gtaVZsdEV1R2c4dW52Q1ZuWlJ1b2wxelBfbHNna2dMNk1QT1FLaXpxU01SRFVubjQ5WFl4THVPZXYteUdvdW96a3Fya0ZuNVdIT2RiRHhfLWF6WHljQ3pwOE9KNkRGQ0xNWFpwUV9pWEdpUUpXQWdydlNld2RLeFoySk9RbWplM3M3RlJsRzQwMWNQZXVDZTk5UXl5c1ZxT1pPb1NwdnpJLXlMVW5tZEMyRDQ2Z3p5VVhUampPNjhEUkZiaEpEeW1iTldXbGEzRGd3QnRIRVk?oc=5",
+   "published_at": "2026-08-25T04:30:06+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "doc_id": "4e2845ca926af947",
-   "title_en": "For the first time... LG tests integrated smart home model powered by AI in Riyadh",
+   "doc_id": "03345fa3c447eb45",
+   "title_en": "Saudi Arabia and France move toward deeper strategic partnership",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Saudi Arabia outside corridor; smart-home tech unrelated to second-home buying"
+   "rationale": "Geopolitical; not about property buyers or second homes."
   },
   {
    "source_id": "gnews_ar",
@@ -1496,10 +1356,10 @@
    "published_at": "2026-08-24T17:55:32+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "4b3aef5690cbad3d",
-   "title_en": "Israeli settler assaults Palestinian-American in his besieged West Bank home",
+   "title_en": "Israeli settler attacked by American Palestinian in his besieged home in West Bank",
    "category": "OTHER",
    "score": 0,
-   "rationale": "West Bank conflict; unrelated to leisure second-home or vacation property buying"
+   "rationale": "Unrelated to property or cross-border buying in corridor."
   },
   {
    "source_id": "gnews_ar",
@@ -1510,10 +1370,10 @@
    "published_at": "2026-08-24T16:16:04+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "de4ce344f748d229",
-   "title_en": "Gold price volatility confuses buying and selling decisions in Egypt",
+   "title_en": "Gold price volatility confuses buy and sell decisions in Egypt",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Egypt outside corridor; commodity markets not cross-border property buying"
+   "rationale": "Egypt is outside the corridor; commodity markets, not property."
   },
   {
    "source_id": "gnews_ar",
@@ -1524,38 +1384,24 @@
    "published_at": "2026-08-24T14:48:47+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "055f10852d9d65c3",
-   "title_en": "Official French reception for Saudi Crown Prince at Élysée and Invalides",
+   "title_en": "Official French reception for Saudi Crown Prince at the Élysée and Les Invalides",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Protocol coverage; no property or buyer relevance despite France being in corridor"
+   "rationale": "State visit coverage; not about property or cross-border buying."
   },
   {
    "source_id": "gnews_ar",
    "lang": "ar",
    "stream": "news",
-   "title": "السفير الفرنسي لـ«الشرق الأوسط»: زيارة الأمير محمد بن سلمان تؤسس لمرحلة جديدة من الشراكة الاستراتيجية - الشرق الأوسط",
-   "url": "https://news.google.com/rss/articles/CBMisgVBVV95cUxOVm4tYm9TQWozU2FuRnE2X0VlZGhKUUNxLXZKUk9EUkdUZUFfVHNBdEgzM2RZUUExSU1WTTJZdDRzV1BlN0JvRmtzQzQ5a0JTSUNDckFRQkVPZXA4aG5SVW0tenBjY21JTG83dTNIUTNjNWpRWHlabEE1WDhfYjZGM1pUbnFQN0pEVFBMdE5NOTRISG1UUGhBcEJ1YUNGekU3TTdzZXdEZWdYU0NxTFlBM3J4SWRKemtSOUFPMlBtckt6ckNRQ215RXdvTDdKeERKX21zZkpBX2dHdklGVGpBWXRIV1RLMXJUbllxM3M5bUdjYUpJUUJkUHViejZXUnlKMDZuYWVJcjY4YmppX2FQTGktZUwtR0VRb0dDYmNyQ2lhTzkzbEVXRkpTUHpIM0NRVkJYZi1FX3JUMTJONDJkRjhFZENjRGUtNVg2ekZGY0NGeFdKQnBPM0FLQWFialdVM3U2bldUaXlKMnUxZUFkUTZueUxpWF9qTHNNRncyOTFscXUteWJTRkgwY0RHUHM3djdaR2djSmVsVEZoT2pPdk5HTlNmb3NDeFU5dzNKX1hTdEh5bGlXdGVLeUhfcUhvcnJuUHpHY2JkSmNROXRRaUZ0MWNUcjVfWFhfa3ZGYUVSUzVzalo3eVRqWmFNUHBReEtsQzROQ2xraUdJRmZER0M0V2FBSEVubnVucDFKVVVtOFZDOTh3RS1uTzN0aHc0TDRYNXlJSG9faHBMZEloc002cDRUQzh3ak42RmpPVkVIc0RSY0FqVzZuam9zc2Q1MGFfUWNab05ILUdBbExyVmM0LXRCajRSeWNOMEZNS0gwMGk2QUd4aDdMVmRPM3JXNUR2ZnJvYzZxV0FsUE9tTkpxYmY0SkZmM2d3dHRJeEhwbWQ4TXlidnRmRUY4dFRnYXc?oc=5",
-   "published_at": "2026-08-24T13:58:54+00:00",
+   "title": "استخدام الأسبرين وغيره في الوقاية من أمراض الشرايين القلبية - الشرق الأوسط",
+   "url": "https://news.google.com/rss/articles/CBMihARBVV95cUxQOXJzZkstNUZOTkh6LWptZ3ppd0NjYVZER0hsUU5VbWdkRXUzWHc0RGItb2Vjd1EwS2VFcnhYYVpwcVRYLWEwSmMyam5zbnB0eFUxVF9LREpOcGFSaE9STk0xRXdTMW05dHJuOUlrb2RPRDBOMjFlSEVmYzVRZEdFRmpqM1JWSk02T3FUdmdiM0xsZlJWQXRpZ1N3Uy1CZmlfV08yQmZUNE53eUtmTlVrQnZVQnFpTENkcFJiM19VWmw2bW1xTkdDaTlhLUZXNmZQNVZnUkk3TFg5eUN1a2xVNWJ5SzhBX3FjOHpMYllweTRrMEdEVkVIbk04QjMyRU1WZHlrWHo1QzRtR3NrdFZmV3BhcUFOb0FJc0JCN0VrTndNclRQcktxTFd4bkJISWJtWndqNzB2MmFCaVFvWlBFRFFQMy1JclBqUU5nNnU4dHNUZXUydDBEOTJIYktrb19GMlA2Z25rdDJtTVo3WFotTG9HamhxV2c5aFNURURJQzlmRVdzVmdQd0hvNXdxWlZNSEFoWUVDd25pNDlmbExQU2tHSFRtSzJFVDlTT19iOGdGX3V0Zk9iNHZldFIwT3pOZjU2MjFsVV9Qb0V0cUtEWkpSZUFqeVo4YkhxU3RZQjV5WkZSRDgxdkV2R1gzcTBaX0ZPTVhESklXemVRMW13NzZqLXY?oc=5",
+   "published_at": "2026-08-25T16:48:25+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "doc_id": "bd0ac2ffbf326fc1",
-   "title_en": "French Ambassador to Al-Sharq Al-Awsat: Prince Mohammed's visit lays groundwork for new strategic partnership phase",
+   "doc_id": "4f7a87bf33d28bd3",
+   "title_en": "Aspirin use and other preventive measures for cardiovascular diseases",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Diplomatic interview; no property or cross-border buyer implication"
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "الرقائق تقود أسهم كوريا للصعود - الشرق الأوسط",
-   "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxQc3Nsa2hqMVhNWmVfd2JhZEFRYTlSTF9CR1N4U0tfdC1YNlgyTFlXMTZYVW1GTTdTeHBydndaWjlMMEFrdS1JUnpUVmh0SG5Kbml4ejNqSnBhbUVMS0RfOGtmRThIemxBRlVidnVFbmpwWFlpM1JpaXdNeUxEb2I5elVQSHdaaEZNUEptZWF0M283TXNqbmJTRXM4VXhlV1BzT1RMNlBJVmFqbjl1R1F6QUNOYXFkcy1wYkFvVkdZZkxkU2JBN1M5Q2lSa2RZbndlQ0I3d3FCLUFocUVxelk0R3hHOXRubGtpRm5hbS1RZmdYcUttamJ2Z1lSSFVMWDhuUkdFN1M3UjFnb0dPQ011U2UyeHR0UDZVNkVBemNEd3VSQzFyQktBb3ExLVNQREVVanNMUmZoVy12eTNjX3pYNThvdHNNZm9yaWxHZTF2X1FKSWVaUHlv?oc=5",
-   "published_at": "2026-08-25T04:40:42+00:00",
-   "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "doc_id": "6b72608890c73280",
-   "title_en": "Chips lead South Korean stocks higher",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "South Korea semiconductor markets; outside corridor and property scope entirely"
+   "rationale": "Unrelated to property or cross-border buying."
   },
   {
    "source_id": "gnews_ar",
@@ -1566,10 +1412,24 @@
    "published_at": "2026-08-24T18:36:33+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "151c0e912d9591ba",
-   "title_en": "Saudi Cinomac Centers profits fall 14.7% in first half",
+   "title_en": "Profits of Saudi Cinomoi Centers fall 14.7% in first half",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Shopping-center operator earnings; not second-home or vacation property segment"
+   "rationale": "Saudi Arabia is outside the corridor."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "نمو الاقتصاد السعودي... عامل جذب للاستثمارات الأجنبية - الشرق الأوسط",
+   "url": "https://news.google.com/rss/articles/CBMivARBVV95cUxPLXo4ZDE4UHhKVEh1WVA3TzdYRGpzdC1KZW43ajk1RXozamF2QkVqZU1qODNQYnRwY2x4RXVkZjNtWXZXNlpLMUpjLXJFQ2w5M3d5eXRVUmZnWERnUG9pMHRRRUFrQ0lwMjNZcGp3TkxsYlpBeDJFZXh4aFE2SzljdElMeGRBTG9VT25LeUZ2N0EzOXNNT0w4OTNBMktvVnJiRzM0Y1p5Z0ZPVjNwYXNBTUotaUJoV0QxNS1IQm5SWHR5QUs4M1RCaExNc3I1am9SRWZVS3dZYWs3dEQxM0RzQ0djUHFQQWVOcnJGY3dVYjVBY2hVSnpRQUtmdFRzUUthOVVQUTJNWV9kTTFmZ3hOa0Vxa3haQ3dLZFBsNk9IbjB0dkpTS1hhUzE5OUhaWHlsN2RscC13a1B2NFh2dEZCTXliTGJ6ZFo4NURncGJRZWZWZG9ocFBadmc4cy1IUVdCTDQyeGFGY0g4VWF2dTA5SjZaT0hWMzRTQzNyYjB2ZEJwcXdIRXNkZEZnMk5uRUp5M2xabk51ek5rdFFzLWpYeDB6SWk3ODR1cHBWbzJFMVRCVlNWYk9tRDVKQXA2QWhONUJfaUNPeEFRQ2o1cG05cmJhRmk4YlA3TDZCcFd1TFQ2SnQzS3JDZ1BCZENDS1RaUzREbVFyN0gyaVNKSHpxbWtCME4zOUVvMEhoWHVJbm5mRC1ZZUUzY0JVTzAxUjJjbEZSdkVTelpZczJsM3JYbzdjZ3Q0ZTVmU1c1ZA?oc=5",
+   "published_at": "2026-08-24T15:03:40+00:00",
+   "query": "site:aawsat.com عقارات أوروبا when:2d",
+   "doc_id": "59d4f743b0e12cf8",
+   "title_en": "Saudi economic growth... a factor attracting foreign investment",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Saudi Arabia outside corridor; no cross-border second-home relevance"
   },
   {
    "source_id": "gnews_ar",
@@ -1583,7 +1443,7 @@
    "title_en": "Mohammed bin Salman departs for France on state visit",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Protocol; no property or cross-border buyer relevance"
+   "rationale": "Diplomatic visit; no property or buyer corridor implications"
   },
   {
    "source_id": "gnews_ar",
@@ -1597,7 +1457,7 @@
    "title_en": "Gulf markets rise supported by oil gains despite ongoing Iran tensions",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Gulf equity markets; unrelated to second-home or vacation property buying"
+   "rationale": "Financial markets; not property-related or corridor-focused"
   },
   {
    "source_id": "gnews_ar",
@@ -1608,24 +1468,24 @@
    "published_at": "2026-08-25T15:07:47+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "e6daa66d095c2411",
-   "title_en": "Qatar criticizes US sanctions on Iran as 'unilateral' and reveals Gulf coordination to counter escalation",
+   "title_en": "Qatar describes US sanctions on Iran as 'unilateral', reveals Gulf coordination to counter escalation",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Iran-Gulf geopolitics; outside corridor and property scope"
+   "rationale": "Regional geopolitics; no property or cross-border buyer impact"
   },
   {
    "source_id": "gnews_ar",
    "lang": "ar",
    "stream": "news",
-   "title": "ترحيب خليجي بإلغاء واشنطن تصنيف سوريا دولة راعية للإرهاب - الشرق الأوسط",
-   "url": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxQRjBZa19fTVFyOUtTLWR1eHl3QUw4TVpCR3BZOG5GV0pUTFd1YTNjQzNRTml5R3ZTMmFZN0tsZWZLZlFWMFZPYm9LNkRlNVVrWFdyOVRGenc1SFBvdm1oSU1pTXZ6VFRNazJycFU4OWFMb0gxZmpLZERKd1p4R3ZsaTVMeVlSWlJfbzdNaFA1R3kxa0lYSVF5Z2puVHo2UDJEa05menFhRFRLS2V6Z29XZGhGRUoyUFFpRWs4ajlfT2ZKQ2FEMm1zNF9QWWJ5Rk5MQUdUSWJnU3hoekcwdG02VjhlZ09vWmdUWHVEV3BFOUlWakY5dFFyMFFPT2FmREpfRW5EMkc4OU1OLUpRSzJvRm05U25kOWtBVlZaTmJNSEoyQWM2YmhaR2RRMDBfZG9YWlFhdXBEb19wdENGNktWR0szSTdocHlHaXJ4Z3BhVloxNGd4bERWLTZMTzljdzA3dVdqeGNUdHJsRDUxN20tNElZbzlzUVI2WnV0ZEl5bUxadTAyVHlBSzQ1OE1IZlI1U0F0SmFBdkh5ejJJSTZzWkUxak5IMExNM2JGZEk2XzhEWnhYWHhsNi1iQjhZblR0SURmSXhHbGx4X0oxSWVyVXV5dnpZSjRPTlh1U1RXSnZlWWV5Rm1mN3hBNlNQekNVd05hTC1KdDZTME44OWR5RGdoaFdfeWdRbVZ6d0dGekRsVUlvZS1NNF83QkpNS3RJSjJpWmhma01LenRlRGdfVnZ6Rmc0S0U4UUtDd2UtV1dkSkRUYVJSOURFVlNIMzlLdFM3Q3B4UUVFUnhpclZn?oc=5",
-   "published_at": "2026-08-25T11:44:32+00:00",
+   "title": "20 قتيلاً في 68 حادثاً قرب «هرمز» خلال 6 أشهر من الحرب - الشرق الأوسط",
+   "url": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxNYllkQWdGaU9kdWI0NzZETDkyQjJRYjVXQ1lXX0wxQUdiVm4xYzJNSFlraDBldWtXRXExdzAzQWNMaXlselZJOWQzemR0aXdjUks5dkh2UU9QNXVHLVFiTXJFaWp4bWpPQ1FESUhMVGtlb2pURGxibnZWbkhaLVRoVnFzeW90YTBjWkgydmdpZU5LaEFOMEJkaWEwZU1IZXlNUVF6NWxDLWVrdmlqekJwUmxZODJsTWNJektPSFZZbmlOenhQS3JjMjZmenQtSURBaFN2LXN3bjVfY0dXbGl4WE8tTlhXdlAyQmRPMXN5MThua0tvWEw4R2dGcWZ4UWt6MV96Z1pNbDdFaks1NmFjUXh3ODg3aGpUU2I0NEVvRi11emhISlF2WnZSZVdkNlBfREdiYWp6d2VEU3l6WkRDRWdKR09yVjR2Zno2VWo1N3dKYTFfZ2J2bV94LUNGWVVFODRkOE02cnEweVliZUNlMGMwYXdOVV9CcUE5djRNUTUyU3d3TEJIMFlXNFUwX1drZ1pabTBfNWVnS2xmSHRNTFRYNnROMTVrQlpIelU0VWh6WFVzQmVwZnNwQzZiLXFZXy1vTXUtS2tpbklXYjVPXw?oc=5",
+   "published_at": "2026-08-25T09:34:24+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "doc_id": "eaeb65a8b164b6a1",
-   "title_en": "Gulf welcome for Washington's removal of Syria from state-sponsor-of-terrorism list",
+   "doc_id": "4acb6835778321e3",
+   "title_en": "20 killed in 68 incidents near 'Hormuz' during 6 months of war",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Syria policy; not cross-border property buyer topic"
+   "rationale": "Military conflict; outside corridor and property-unrelated"
   },
   {
    "source_id": "gnews_ar",
@@ -1639,7 +1499,7 @@
    "title_en": "Custodian of the Two Holy Mosques receives message from UAE President",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Diplomatic protocol; no property or buyer relevance"
+   "rationale": "Diplomatic communication; no property relevance"
   },
   {
    "source_id": "gnews_ar",
@@ -1650,10 +1510,10 @@
    "published_at": "2026-08-25T05:30:05+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "ba4298fb56afba81",
-   "title_en": "Hot regional issues and bilateral relations focus of talks between Crown Prince and French President",
+   "title_en": "Hot regional dossiers and bilateral relations central to Crown Prince-French President talks",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Diplomatic summary; no second-home or vacation property angle"
+   "rationale": "Diplomatic agenda; no property or buyer corridor implications"
   },
   {
    "source_id": "gnews_ar",
@@ -1664,10 +1524,10 @@
    "published_at": "2026-08-25T12:54:40+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "b430e3d17adafba6",
-   "title_en": "Saudi Arabia affirms support for political and diplomatic solutions to conflicts and de-escalation",
+   "title_en": "Saudi Arabia affirms support for political and diplomatic solutions to disputes and de-escalation",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Foreign-policy statement; unrelated to property or cross-border buyers"
+   "rationale": "Political statement; no property market relevance"
   },
   {
    "source_id": "gnews_ar",
@@ -1678,10 +1538,10 @@
    "published_at": "2026-08-25T09:30:10+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "bed42f8307a2b92d",
-   "title_en": "PwC tells Al-Sharq Al-Awsat: 78% of Saudi institutions align AI vision with business objectives",
+   "title_en": "PwC to Middle East: 78% of Saudi institutions align AI vision with business goals",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Saudi business AI adoption; no second-home or vacation property relevance"
+   "rationale": "Corporate AI adoption; no second-home or cross-border buyer relevance"
   },
   {
    "source_id": "gnews_ar",
@@ -1692,10 +1552,10 @@
    "published_at": "2026-08-25T13:28:32+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "095295ef164485e1",
-   "title_en": "9 visits on the Riyadh-Paris line… from coordination to strategic partnership",
+   "title_en": "9 visits on Riyadh-Paris line... from coordination to strategic partnership",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Diplomatic history; no second-home or vacation property implication"
+   "rationale": "Diplomatic relationship tracking; no property implications"
   },
   {
    "source_id": "gnews_ar",
@@ -1706,10 +1566,10 @@
    "published_at": "2026-08-24T13:31:37+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "b16a1a0621c1a3ad",
-   "title_en": "Macron on Crown Prince's visit: We have accomplished much and will move toward 'wider horizons'",
+   "title_en": "Macron on Saudi Crown Prince visit: we have accomplished much and will go 'further horizons'",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Diplomatic quote; no property or cross-border buyer content"
+   "rationale": "Diplomatic statement; no property or corridor buyer relevance"
   },
   {
    "source_id": "gnews_ar",
@@ -1720,24 +1580,10 @@
    "published_at": "2026-08-24T20:36:37+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "17d240b6e8d1a34d",
-   "title_en": "Saudi Arabia condemns terrorist attack on Syrian interior security forces bus",
+   "title_en": "Saudi Arabia condemns terrorist attack on internal security forces bus in Syria",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Syria security incident; unrelated to second-home or vacation property markets"
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "طفرة الذكاء الاصطناعي تدعم صادرات الصين - الشرق الأوسط",
-   "url": "https://news.google.com/rss/articles/CBMimANBVV95cUxQSkpTN0xuc3JBN202dHF6aGFvT1hxTDZpazhBYjRGRG12UC1qeFg2SzRMbXlUX3JnN0VFcGo2WGpOYjdVMHE0bHBtU2d1WUtxblhheUc4d0tzRU9URHY2SXoyM01FRUw2MjhpSm0tUVFtY3hmMEJ1TW5EWHN4UzNXOGxqR0FZdWVrQ3VxQzI2VkRlVzRTMUp2bmJMSVVBdG1HOGpONkdhQXU2aDE2eWU2MGJBdHM0UzRFSUtGRThId3RscF9KUmc3Y1dwQ2N3LUxPcGZKcHhCRHRYa1BDZVZZangxSF9zM25OSXBVek5RaGtPZFRZX2R2MS05MlRaQi16a1NXTjhiNjJtNzgxVkc1amd5c1ZrV2NJc2NUcmFrLWdHbHBkZWlHbkdwb0V1SzFGTExXZldXbWk2Vnp2MVdsUnd1eF9GZUJOa29ZQjljWFNGLVdBeVVCWXp3WmIzMlNaLXRIcHJVTS1jY09DUG9KN1YyUWxaMGJaN1Q3eXdsMHNSeHhZZE5uNGZYRmNWaG1mN2hMSGh0YlU?oc=5",
-   "published_at": "2026-08-24T12:44:22+00:00",
-   "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "doc_id": "9e4bd47d11dd763c",
-   "title_en": "AI boom supports China's exports",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "China trade; outside corridor and property scope"
+   "rationale": "Security incident; outside corridor and property-unrelated"
   },
   {
    "source_id": "gnews_ar",
@@ -1748,10 +1594,10 @@
    "published_at": "2026-08-24T16:49:54+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "804ca5d174647aab",
-   "title_en": "Iraq: more money and gold seized from 'oil official'",
+   "title_en": "Iraq: more money and gold seized at 'oil official'",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Iraq corruption probe; unrelated to second-home or vacation property buying"
+   "rationale": "Regional law enforcement; no property relevance"
   },
   {
    "source_id": "gnews_ar",
@@ -1762,10 +1608,10 @@
    "published_at": "2026-08-24T20:47:16+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "cec91a9aa08d4331",
-   "title_en": "Riyadh and Paris to document cooperation across all fields",
+   "title_en": "Riyadh and Paris to strengthen cooperation ties in all fields",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Diplomatic announcement unrelated to property or cross-border buying."
+   "rationale": "General diplomatic cooperation; no property specifics"
   },
   {
    "source_id": "gnews_ar",
@@ -1776,10 +1622,10 @@
    "published_at": "2026-08-25T05:23:28+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "bb95ae41ffba6f94",
-   "title_en": "Gulf markets diverge amid continued US-Iran tensions",
+   "title_en": "Gulf markets mixed amid continued US-Iran tensions",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Regional financial markets outside corridor; no property relevance."
+   "rationale": "Financial markets reporting; no property or corridor focus"
   },
   {
    "source_id": "gnews_ar",
@@ -1790,10 +1636,10 @@
    "published_at": "2026-08-24T18:46:55+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "c9ade54248d152cd",
-   "title_en": "Mohammed bin Salman receives message from Burnham",
+   "title_en": "Mohammed bin Salman receives letter from Birnham",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Diplomatic communication unrelated to property."
+   "rationale": "Diplomatic message; no property relevance"
   },
   {
    "source_id": "gnews_ar",
@@ -1804,10 +1650,10 @@
    "published_at": "2026-08-25T14:54:21+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "05b6b65e732a5965",
-   "title_en": "Les Invalides in Paris... icon of the French army and Napoleon's resting place",
+   "title_en": "'Les Invalides' in Paris... icon of French army and Napoleon's tomb",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Historical/cultural coverage unrelated to property or cross-border buying."
+   "rationale": "Historical/cultural; no property or cross-border buyer relevance"
   },
   {
    "source_id": "gnews_ar",
@@ -1818,10 +1664,10 @@
    "published_at": "2026-08-24T17:31:05+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "e768af72982121ef",
-   "title_en": "Mohammed bin Salman and Macron hold bilateral meeting at the Élysée Palace",
+   "title_en": "Mohammed bin Salman and Macron hold bilateral meeting at Élysée Palace",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Diplomatic event unrelated to property or cross-border buying."
+   "rationale": "Diplomatic meeting; no property market implications"
   },
   {
    "source_id": "gnews_ar",
@@ -1832,10 +1678,38 @@
    "published_at": "2026-08-25T13:33:23+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "ab0831b2456ec1ec",
-   "title_en": "Investigating AI incidents... how do institutions distinguish between attack and model malfunction?",
+   "title_en": "Investigating AI incidents... how do institutions distinguish attacks from model malfunction?",
    "category": "OTHER",
    "score": 0,
-   "rationale": "AI governance unrelated to property."
+   "rationale": "AI security; unrelated to property or second-home buyers"
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "السفير الفرنسي لـ«الشرق الأوسط»: زيارة الأمير محمد بن سلمان تؤسس لمرحلة جديدة من الشراكة الاستراتيجية - الشرق الأوسط",
+   "url": "https://news.google.com/rss/articles/CBMisgVBVV95cUxOVm4tYm9TQWozU2FuRnE2X0VlZGhKUUNxLXZKUk9EUkdUZUFfVHNBdEgzM2RZUUExSU1WTTJZdDRzV1BlN0JvRmtzQzQ5a0JTSUNDckFRQkVPZXA4aG5SVW0tenBjY21JTG83dTNIUTNjNWpRWHlabEE1WDhfYjZGM1pUbnFQN0pEVFBMdE5NOTRISG1UUGhBcEJ1YUNGekU3TTdzZXdEZWdYU0NxTFlBM3J4SWRKemtSOUFPMlBtckt6ckNRQ215RXdvTDdKeERKX21zZkpBX2dHdklGVGpBWXRIV1RLMXJUbllxM3M5bUdjYUpJUUJkUHViejZXUnlKMDZuYWVJcjY4YmppX2FQTGktZUwtR0VRb0dDYmNyQ2lhTzkzbEVXRkpTUHpIM0NRVkJYZi1FX3JUMTJONDJkRjhFZENjRGUtNVg2ekZGY0NGeFdKQnBPM0FLQWFialdVM3U2bldUaXlKMnUxZUFkUTZueUxpWF9qTHNNRncyOTFscXUteWJTRkgwY0RHUHM3djdaR2djSmVsVEZoT2pPdk5HTlNmb3NDeFU5dzNKX1hTdEh5bGlXdGVLeUhfcUhvcnJuUHpHY2JkSmNROXRRaUZ0MWNUcjVfWFhfa3ZGYUVSUzVzalo3eVRqWmFNUHBReEtsQzROQ2xraUdJRmZER0M0V2FBSEVubnVucDFKVVVtOFZDOTh3RS1uTzN0aHc0TDRYNXlJSG9faHBMZEloc002cDRUQzh3ak42RmpPVkVIc0RSY0FqVzZuam9zc2Q1MGFfUWNab05ILUdBbExyVmM0LXRCajRSeWNOMEZNS0gwMGk2QUd4aDdMVmRPM3JXNUR2ZnJvYzZxV0FsUE9tTkpxYmY0SkZmM2d3dHRJeEhwbWQ4TXlidnRmRUY4dFRnYXc?oc=5",
+   "published_at": "2026-08-24T13:58:54+00:00",
+   "query": "site:aawsat.com عقارات أوروبا when:2d",
+   "doc_id": "bd0ac2ffbf326fc1",
+   "title_en": "French Ambassador to Middle East: Crown Prince visit establishes new phase of strategic partnership",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Diplomatic commentary; no property or buyer implications"
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "الرقائق تقود أسهم كوريا للصعود - الشرق الأوسط",
+   "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxQc3Nsa2hqMVhNWmVfd2JhZEFRYTlSTF9CR1N4U0tfdC1YNlgyTFlXMTZYVW1GTTdTeHBydndaWjlMMEFrdS1JUnpUVmh0SG5Kbml4ejNqSnBhbUVMS0RfOGtmRThIemxBRlVidnVFbmpwWFlpM1JpaXdNeUxEb2I5elVQSHdaaEZNUEptZWF0M283TXNqbmJTRXM4VXhlV1BzT1RMNlBJVmFqbjl1R1F6QUNOYXFkcy1wYkFvVkdZZkxkU2JBN1M5Q2lSa2RZbndlQ0I3d3FCLUFocUVxelk0R3hHOXRubGtpRm5hbS1RZmdYcUttamJ2Z1lSSFVMWDhuUkdFN1M3UjFnb0dPQ011U2UyeHR0UDZVNkVBemNEd3VSQzFyQktBb3ExLVNQREVVanNMUmZoVy12eTNjX3pYNThvdHNNZm9yaWxHZTF2X1FKSWVaUHlv?oc=5",
+   "published_at": "2026-08-25T04:40:42+00:00",
+   "query": "site:aawsat.com عقارات أوروبا when:2d",
+   "doc_id": "6b72608890c73280",
+   "title_en": "Chips lead South Korea stocks higher",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Asian financial markets; outside corridor entirely"
   },
   {
    "source_id": "gnews_ar",
@@ -1846,10 +1720,10 @@
    "published_at": "2026-08-24T18:53:43+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "b7cdc9cb211df50b",
-   "title_en": "South Korea central bank raises rate for first time since 2023 to curb inflation and debt",
+   "title_en": "South Korean central bank raises rates for first time since 2023 to curb inflation and debt",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Asian monetary policy outside corridor."
+   "rationale": "East Asian monetary policy; no corridor or property relevance"
   },
   {
    "source_id": "gnews_ar",
@@ -1860,10 +1734,24 @@
    "published_at": "2026-08-24T17:38:50+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "5949f39de5e3ac1b",
-   "title_en": "Sale of human heads and brains from Harvard morgue... details of case settled for $53 million",
+   "title_en": "Sale of human heads and brains from Harvard morgue... details of case ending in $53 million settlement",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Legal case unrelated to property."
+   "rationale": "US criminal case; entirely outside property and corridor"
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "كيف يغيّر الذكاء الاصطناعي طريقة اكتشاف الفعاليات وحجزها؟ - الشرق الأوسط",
+   "url": "https://news.google.com/rss/articles/CBMiowRBVV95cUxQcHZwMV9sVjNHaGlkTzRfS0xCRGtteGVpWHpSOTQ4LUk1Zm9fNHU0TTBfLTJTWmVUeWE3SGtRcWZIVURKWjhMTm01V1M2VWF4Q21rbEx5eDgta2Y2VlluRHZtai1ETkFtZElWU3ZvY0JPN2ZFSDg5SXJQZHl6RmFxNV80UEVwbDZ1MEVzUUVhWE1wV21ERFlXbUNMT1h1TGtReXRTZ09ETmtocFBHUWRPYzc2Mmc2TnBHM2pSX1ZNb1V6TG0yMS14UmUtb2ZhVEYyeFl6MDBNX2pzMGxWOVM1eU9PODFFYlhsUFZOdkdvWU1MT2loREoyV2dXU3hRcDhRWUthTlJreFF4RVVNdVlQMHprX1lNM2NWa1V4S0RVQkQzMnlvUjZzcXlfbjF5R1ZpT3dEd0RoWVNSbmZ2UXhiUUtyWFJzTGRVUFNwNXdPMVd4MGhqbDEzYkdFUV8wTUR2cFpxb21NaTd4dFVwQVBtS0EtdF9UT3MyNTlFVFJHMGMxRmpueFRXM3pUSEFNMHUzNHVvWTdDMVVFOHRHamlnekJhQ3luVWdxcXR2N3AwTmlpVWdsX1VjNE1pWGlLT1VoSC1rV0dTekFzWXR2R19QLUdISXNVTkFYeVVrQm52U1p6TW1BbGc3Tk9oTGRIM1ZNY0o0YkFaTFNXX1ZTWHg5TkpJSGZZLVB0V0hOcWpDNEEzZV9KRks0NnNzWmJsSUtpZXVz?oc=5",
+   "published_at": "2026-08-25T13:46:14+00:00",
+   "query": "site:aawsat.com عقارات أوروبا when:2d",
+   "doc_id": "bab0aa95fde068a2",
+   "title_en": "How is artificial intelligence changing the way events are discovered and booked?",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "General AI application; no second-home or cross-border buyer relevance"
   },
   {
    "source_id": "gnews_ar",
@@ -1874,10 +1762,10 @@
    "published_at": "2026-08-24T16:38:58+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "39dbc077a53891b6",
-   "title_en": "Space activity cancels US military flight to Antarctica",
+   "title_en": "Space activity cancels US military trip to Antarctica",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Military/space news unrelated to property."
+   "rationale": "Unrelated to European property or cross-border buyers."
   },
   {
    "source_id": "gnews_ar",
@@ -1888,24 +1776,10 @@
    "published_at": "2026-08-24T19:20:49+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "4c5f62221dd62e91",
-   "title_en": "China maintains fixed rates despite rising economic pressures",
+   "title_en": "China maintains interest rate peg despite mounting economic pressures",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Chinese monetary policy outside corridor."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "بلينكن: نعمل مع تركيا لتجنّب عملية عسكرية ضد الأكراد في سوريا - الشرق الأوسط",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNi1WY1otS1NyNUdwMGxCTG5ya0M1VlotaW80UFhPaFZDLWNpVzRkRlBGY0NZQmFXVFhocV9qcXJadjVvajJxM2I3WGRGZzhRWmJleEt6TzdhYXlsR0VHMjlnQ241RlFGLUdlSXd3cHVTUU56YnlqckhNWEVJczRUQUtvMEdiUE1QSlNONXNaS1R4dHRJQWw3NU9Va3NjOTlNN2MyRWFkM0xER3BtamJzU1pEUQ?oc=5",
-   "published_at": "2026-08-24T16:18:48+00:00",
-   "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "doc_id": "74370673d4e0f812",
-   "title_en": "Blinken: We are working with Turkey to avoid military operation against Kurds in Syria",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "Geopolitical statement unrelated to property."
+   "rationale": "Unrelated to European property or cross-border buyers."
   },
   {
    "source_id": "gnews_ar",
@@ -1916,10 +1790,10 @@
    "published_at": "2026-08-24T23:11:21+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "2c2f281f699c7253",
-   "title_en": "Trump threatens to sue center that downplayed National Guard deployment",
+   "title_en": "Trump threatens to sue centre that downplayed value of National Guard deployment",
    "category": "OTHER",
    "score": 0,
-   "rationale": "US political dispute unrelated to property."
+   "rationale": "Unrelated to European property or cross-border buyers."
   },
   {
    "source_id": "gnews_ar",
@@ -1930,24 +1804,38 @@
    "published_at": "2026-08-24T17:51:01+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "3186fc4392c5acf6",
-   "title_en": "How world writers and philosophers viewed their libraries?",
+   "title_en": "How the world's writers and philosophers viewed their libraries",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Cultural feature unrelated to property."
+   "rationale": "Unrelated to European property or cross-border buyers."
   },
   {
    "source_id": "gnews_ar",
    "lang": "ar",
    "stream": "news",
-   "title": "العثور على نحو 50 جثة متحللة داخل دار جنازات في شيكاغو - الشرق الأوسط",
-   "url": "https://news.google.com/rss/articles/CBMi2ARBVV95cUxOSGhUNzhNeUFYUmhHMjlkSWFmQmgwaERqdHZyRU1zRXY1eEdIdjVUdUpaVXoyS1BYc0xCWHc0cE1WRld4VDFlRUZLazdRR1hIazZLX3hOTlRmOGhMNm1YV0hobU15ZUFKUGxYVnl1UGdNODh2dHlJVjdoV3dVNXotWUdwdEYzYjEzTXk5ZlpWdXJ2U0txa0piSnJpcXVkSEYyV2kzd0JIRlZ0YlVIR3BEeDJOVG82d1pYZDBWVmtBVVlZdG02MFVlTGI1a0h0QTR4RFhWZ1NfRlRuRVBqSHoyYWpKemF3RlVrRHJORTM0QUJJcjJnVzB2QjU0ajZCV1NocDQydmpHZ2FIZzNfMFVOQlR0TWdaWTQwcmY1OFpiUk5INFBhR1JyYzVWVEJtbWUwUThrdzZocDFHaU9haVo0T21BUkJEdjVOMFF4emQ3VjZKeGxZUkxUNE1EWG5XWjhKTmJLQm5QUEs2emJQeU5BV3NZVDdLUV8tNVdaTDZxVzkwREgyQ3h0Y21fNEg4bTJKUll5WVZYTTlWbXNYel9YZG9DU19leWlNc1QtTDdRaU4wTHd3dW5pQ0liUFhCNFM5V0xsZGE1LU1hRkMyOElVNkQzQ3JlYjZFVzQ4Z0RmczZUVjBaUUxFQTV1MW91dkxldEtRNWk5RkxtVU9XcTdDX2RJMFVCWDNRaG1zTklkSmNfNmw0TlJsRHZkRXJxc2hPbmpPMEZwSUQ4em1GOU1tWTY2UERDcHFVaWtlMUpWby16Tm10UFJ6Vk9kcVoxNVhyUERaQl9ocjg?oc=5",
-   "published_at": "2026-08-24T13:03:40+00:00",
+   "title": "فيصل بن فرحان وبارو يناقشان تداعيات المستجدات الإقليمية - الشرق الأوسط",
+   "url": "https://news.google.com/rss/articles/CBMi3gRBVV95cUxNUEhwOWx2R1pGTG1zbEp0bVdudmZLeXV4U1NYTkNhckZwcDR6X3ZDRU1PREk5N3J4TjVCOC05T0YwRHdwTmQtSjRYMVluTUdHaW92LUNENXQ2cTlmTWN6ZzZEdDNLUERwUGRBRHJ6X1lWMUlZazFHRlZnSTNRbFJJRzFiQXhMelVLSHVHazZmM01lX1BlbXR4REd4VUVVMksxREg1VU13Qkc3MFhKZGFoRUFldmlYWXBXeHVkSE5PcU1UY3M4b2g4Sy1QQzdXVVgtV0N3TVpqR3M2SFBycC01d1pvaXRrbTd4OUNfam82NFJrQ1VzXzJ3Vm5yYUdPVDNMSFVZb2ZJR2RaVTRaOU1ac2VpeTJreGVndmFMZHBRajlNeUhhY3ByQ2VTaHkyMEszSHRPSk9RanVXaHdVdGd0eGtYVjh2a3NNZXdreTdNLUxIdGN0VWVNdUZLQlUyOTVmWEx3R05NX24yb3RMNWJKNkUwRmRCZ0k5VDFfbXhOdFJGSVVxTzVDVGZHTm1PUTdmZ0dtdEg2M1FDR2RVbWtsNFJhNWRZUkl0Rmw1SENXLVNPSExSOVJEVjhNU3ZuYlgyTS01cEdUZktLYU81U1JxY3dqQmp4VWFnUzZETjJCdnVwX040TXljT0VqNG1MbnFBZTB2UHZOd2VyVEhabzhsUld3R045cnhuc1NpNVp0WEl3UnZyTEtoNHVfc1g2SERVdUE5ejVkdXZmTzQwN0lwSlRPVHhvSmNTSDM5T0hOMGljdzRBLVNvWktRQ1ZRMW81Szc5VFdVTjRPNk5CR2c?oc=5",
+   "published_at": "2026-08-24T21:21:24+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "doc_id": "0cbfa2eb3831798d",
-   "title_en": "Around 50 decomposed bodies found inside funeral home in Chicago",
+   "doc_id": "e4a28bf6828c6362",
+   "title_en": "Faisal bin Farhan and Baro discuss regional developments",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Crime story unrelated to property."
+   "rationale": "Unrelated to European property or cross-border buyers."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "ترحيب خليجي بإلغاء واشنطن تصنيف سوريا دولة راعية للإرهاب - الشرق الأوسط",
+   "url": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxQRjBZa19fTVFyOUtTLWR1eHl3QUw4TVpCR3BZOG5GV0pUTFd1YTNjQzNRTml5R3ZTMmFZN0tsZWZLZlFWMFZPYm9LNkRlNVVrWFdyOVRGenc1SFBvdm1oSU1pTXZ6VFRNazJycFU4OWFMb0gxZmpLZERKd1p4R3ZsaTVMeVlSWlJfbzdNaFA1R3kxa0lYSVF5Z2puVHo2UDJEa05menFhRFRLS2V6Z29XZGhGRUoyUFFpRWs4ajlfT2ZKQ2FEMm1zNF9QWWJ5Rk5MQUdUSWJnU3hoekcwdG02VjhlZ09vWmdUWHVEV3BFOUlWakY5dFFyMFFPT2FmREpfRW5EMkc4OU1OLUpRSzJvRm05U25kOWtBVlZaTmJNSEoyQWM2YmhaR2RRMDBfZG9YWlFhdXBEb19wdENGNktWR0szSTdocHlHaXJ4Z3BhVloxNGd4bERWLTZMTzljdzA3dVdqeGNUdHJsRDUxN20tNElZbzlzUVI2WnV0ZEl5bUxadTAyVHlBSzQ1OE1IZlI1U0F0SmFBdkh5ejJJSTZzWkUxak5IMExNM2JGZEk2XzhEWnhYWHhsNi1iQjhZblR0SURmSXhHbGx4X0oxSWVyVXV5dnpZSjRPTlh1U1RXSnZlWWV5Rm1mN3hBNlNQekNVd05hTC1KdDZTME44OWR5RGdoaFdfeWdRbVZ6d0dGekRsVUlvZS1NNF83QkpNS3RJSjJpWmhma01LenRlRGdfVnZ6Rmc0S0U4UUtDd2UtV1dkSkRUYVJSOURFVlNIMzlLdFM3Q3B4UUVFUnhpclZn?oc=5",
+   "published_at": "2026-08-25T11:44:32+00:00",
+   "query": "site:aawsat.com عقارات أوروبا when:2d",
+   "doc_id": "eaeb65a8b164b6a1",
+   "title_en": "Gulf welcome US removal of Syria from terrorism sponsor list",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Unrelated to European property or cross-border buyers."
   },
   {
    "source_id": "gnews_ar",
@@ -1958,10 +1846,10 @@
    "published_at": "2026-08-25T05:40:40+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "05e9e5cda6f8cd9b",
-   "title_en": "From dry skin to brain fog... 5 signs revealing omega-3 deficiency",
+   "title_en": "From dry skin to mental fog: 5 signs of omega-3 deficiency",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Health advice unrelated to property."
+   "rationale": "Unrelated to European property or cross-border buyers."
   },
   {
    "source_id": "gnews_ar",
@@ -1972,10 +1860,24 @@
    "published_at": "2026-08-25T09:54:06+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "f275ccfc74aa2b4f",
-   "title_en": "Riyadh and Tokyo... partnership expands from maritime security to economy and AI",
+   "title_en": "Riyadh and Tokyo: partnership expands from maritime security to economy and AI",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Bilateral partnership outside corridor."
+   "rationale": "Unrelated to European property or cross-border buyers."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "إدارة ترمب تواجه عاصفة انتقادات بسبب «ملفّات إبستين» - الشرق الأوسط",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdWJEYW1ZV051aTZhT2lweGhiSkdzSE42ZG5rSFB5VmxBVXVCb3lvSV9Lc19TWjh1MUVzeHg1SmVBYjd2ZXpicTZYMWxsejNUVml2N1ZvamtmR1JSelVDdkZ4Q0xZQVozS1kxS1FMSFVrcjQ4RnBQSm0xNGFyRXd2QWJDLTJ0RGxoaDBrRFU3YnlVbmRwbE5aX3JkMFJoQkt6Vy1YM2RRRHVMZ1dWRjZ3QlNPZw?oc=5",
+   "published_at": "2026-08-25T14:35:31+00:00",
+   "query": "site:aawsat.com عقارات أوروبا when:2d",
+   "doc_id": "9c57d25215746585",
+   "title_en": "Trump administration faces storm of criticism over Epstein files",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Unrelated to European property or cross-border buyers."
   },
   {
    "source_id": "gnews_ar",
@@ -1986,24 +1888,52 @@
    "published_at": "2026-08-25T12:34:22+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "9388677eb46b2d31",
-   "title_en": "Yemen heads to strengthen its maritime security to counter Houthi escalation",
+   "title_en": "Yemen aims to strengthen maritime security to counter Houthi escalation",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Regional security issue unrelated to property."
+   "rationale": "Unrelated to European property or cross-border buyers."
   },
   {
    "source_id": "gnews_ar",
    "lang": "ar",
    "stream": "news",
-   "title": "أميركا لا تنفد من السلاح… لكنها تخسر سباق الوقت - الشرق الأوسط",
-   "url": "https://news.google.com/rss/articles/CBMivwRBVV95cUxNSkRGSHo2YnNnRnJob09vNmpodExtZU9rMlhCTXRQc0VzOUhIVWlKWXdoenplXzhlUmppVkZvUUdsOTk4eEYwVTJyRC1YXzBEb3c2elhsb1VWY3BIVlBJX0hsU1plX1BwRW96QWM5X0ItdFVmeXpLclFmQ2NLZXhvYVpsQmJ1SVc5SG04STNJYjVpajhUMHZNTl9yU1lWSEQ1SlpYMW5HYThSS2NtSVo2WUN5Y043RVpZZmI3dFJibGtpUTdtWDd6VGNnWFNRVU1xcU0tcTFXYUdUSmx2VWhKcUJOUjNNS3diT1VYc3Y5YnZLaTNwRmdnT3VfSU9uOU13SV9mRTJ6OUZJUXRBYUF5eDlqLWN6VkNrcGUwN1BnVmF4Sl84bDhEZklyMXAtM1RXTXlEVWFkcW5wZnd5U1hZUlprUjFpNnhpd2xVNS1DRmV4NXcybldBSUhhZHV2RzJQdFpUNURLd0hXNm9CVTAyaG80ZEN2M3I4bEpZeGZBX2hfTG5qbE9HeTNuTDZFWlRuQWJCUC1ibnRUbEFFZ2d0eV9EeEJkTVlBQkxRMnU3SDd5VU92SFBsRTM5c3VGRWV3TnEwTjhDWlZkYVpMTW1iaWVfQm9WRUg4LUVrM0stV3NCWmhaRFJYVWZjU1pJNk5UZ001WmtjRk92WDRLOWZWSWJpQ1o3bnRRd1dsQk1vQzI0NVdMZ1hmZzRYN19DanFtUk95OGlpM3psOGNzeGNYOWlPbFdJV3luVFpTcGJRNA?oc=5",
-   "published_at": "2026-08-24T16:30:09+00:00",
+   "title": "«أوبن إيه آي» تطلق نسخة مخصصة للمراهقين من «تشات جي بي تي» - الشرق الأوسط",
+   "url": "https://news.google.com/rss/articles/CBMi8ANBVV95cUxPdFctVENDUnAzVzZpZ1d6UHZoaVIzOVRadDVENUczWDBSY2hMM0dxQ19SYzBqSWVsMmFTZ1pwNnhIX1BldzViSVk5V3lua2tjSlVLeE53b2lwdXZDak5EZmFLRHJJS0Z6WDFVMmZJbG82TW5ZQ1VhTzZfLUtGdlE0QVBQYTB0S3dpVFh1WUlhWHRwX3NNU1hSYU5CZEpkZ2F4YWhkY1FyRGlZZWxNMVMzeWJrNnB6VEJJVkhXRFk1WktCampIbXE1QnUyYTFCT3BpTEJWdWxJS2ZDbW1ONkxheVFwaXh4cmoxdk1GYUFZWmZ2MUlaTm9vSGdFQ2R0M2lXNUNJZmRzWU9wMURZS1hBbENSNnROV0MzVW52NzBQckdvUERDMFlHRU15aFFkaEp0M2RVV3RCelZUNE1XMlNoY3NQakx1T3BtYU05WE1QN1UyVE1sTk5yMkIza0ZTd3FzcHFZdmVZQnNseEI4UmN5XzVra3JabWFab19sLUYxUnJhSTc2SE1xTHVMSG1ja1pwWUY0OWUwdkx2SHhZQUlHc1FudzNILUo4aWdSTW1wQ1ZIb0ZMYU81UkdtS29sT0NmS1hKSjM5UklGQmJVREdzeHIxODE3UG9jelBRbFBST3JIUExVLWIzTXkwaGdNSkkw?oc=5",
+   "published_at": "2026-08-25T15:51:22+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "doc_id": "befb01bb037aaed2",
-   "title_en": "America does not run out of weapons... but loses the race against time",
+   "doc_id": "9956a383f70390ac",
+   "title_en": "OpenAI launches teen-specific version of ChatGPT",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Defense analysis unrelated to property."
+   "rationale": "Unrelated to European property or cross-border buyers."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "«يوتو» مشغل صوتي مخصص للأطفال - الشرق الأوسط",
+   "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNbTdjc0FZX3ZOOWFjSm5FVmYwQzdwdlRDS3k5WDc2eUJwdVZsRVY3aUNnNDktTHlmZWZXcFB2bDFETVJXMFlFcGxqR2VSMWYtS3FaUThLSnVJTzlyU3BkYUNKOU9RZ2NPaVlYd2tpRUVHQVVUeEVnVmlrZy1kQU1ZWW5zc1ozdUlDX1NZUVE2M0tzVzgwYlRqLXdnR1JPM3ZkQ1YyNENEQzhLUUFiZlJCM1ZtZnphWE5vOFNIS0k3NHN3bG9TSTFaRW9XcEg0bmZQVVU4SDhITWtqbXloUEJmX3VLakpsaXhmMk5sd0Zzam55bHN4VDhiRE56bVVna0RlbGhOcmxkQVVRdGI4RlVicmRTMFVydVlCMnVJMnVRU2x2YW8tcHNVTkM4VGFtYjJGRkg1RnU1REVmUHFkcWlzajFwdXYwY1U?oc=5",
+   "published_at": "2026-08-25T14:33:38+00:00",
+   "query": "site:aawsat.com عقارات أوروبا when:2d",
+   "doc_id": "3dbc41bf8190a65a",
+   "title_en": "Yuto: voice player designed for children",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Unrelated to European property or cross-border buyers."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "ترمب بين الملل والإنكار بعد 6 أشهر من الحرب مع إيران - الشرق الأوسط",
+   "url": "https://news.google.com/rss/articles/CBMi8gNBVV95cUxNeEJOMmozSXpyN1h4ZnlKb2RzMllKc0hiOGxsWVo5eDkzTlMxWlJkbWdwZmxkM0xoRHlidlNEbEVQdDVxX052SEJqQzk4d2ZKeGdPZS1wd3BQQmcxWGJkMG5KQzRPV09oVEljQ0Jqc0JsR0JWcDJLU0tuWjlWdzcwdTl5WjZCTV9zQjlmSl9uTjRfMXhZb1BWZ29yeGRiSUNNSkhaV3J3bkJtNERwQVpDUG5rNVNVQnEyZVpwZ0ZVN3M5Y3NPc0ItZTRqaEpYOGJQaUxTdnVpR0lobzQ5bm9tQXcyWmxfU2g4VXJKZ2xydHctZHJPcXcxVFlJS21QMFlVWEZuR1dkd2xlUGFsY0dhMGFBS2hJVlFIUkN4N2V4Tm1DUU03T0xyTDFWQUc4ckxCNFQ3Q2FkTkVPb1A5TG9IN1g1U09XTHAyZnNnckFTX0lIcm5URHE3ei03VExoUm1rNmNwNkJ6NjVUZDhPNnVIdFBxOGJFYkgxbFVZQ25wX3pqNi1qc3huS1ByMlVlSlNJSjMwLXBvalR2MzRwN25TR1NWQXhkYzZDN0lqbDI1S1N2ZHlJamxsbEN5dk56Wm9ueEpkcVh1UklxT09FY0hfcVE0bS14MWt3OXA5djNmNlo1Qjk0WTFUWTQ4T1pIMmlUUXc?oc=5",
+   "published_at": "2026-08-25T18:35:08+00:00",
+   "query": "site:aawsat.com عقارات أوروبا when:2d",
+   "doc_id": "6baca1c59c033919",
+   "title_en": "Trump between boredom and denial after 6 months of war with Iran",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Unrelated to European property or cross-border buyers."
   },
   {
    "source_id": "gnews_ar",
@@ -2014,38 +1944,10 @@
    "published_at": "2026-08-24T23:57:14+00:00",
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "doc_id": "b9d647cda71a9830",
-   "title_en": "Storm Lala intensifies and turns into a hurricane striking Big Island Hawaii",
+   "title_en": "Storm Lala intensifies and becomes hurricane hitting Big Island Hawaii",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Weather event outside corridor."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "مقتل 47 شخصاً بهجوم شنته عصابة قرب عاصمة هايتي - الشرق الأوسط",
-   "url": "https://news.google.com/rss/articles/CBMimgRBVV95cUxQQklMbzR0aHFWbjM4YzBBN1pJYWhMZ29LdWpzNTJZdkhmeEg1XzhnM2FnbVd3SzZiSUdyZVF2QWQ3RHdrdGZ4Z3ZYZkRfaWlOaW1nbzhBdWxSdUV4U1FWM1J0UjRzYi1iX1VRcnZQR2lNVXA3QjZyVHd3MEJFWVczZlBaY0ktRHVQT1phY0dUTTg4R1l5bDREYkNUTUZaR0lmZGtjYnlVS202aVR0NXdfM3BjSVEtakF4eEdSLXM1XzNFVkVqSTdwdENNR2RBNlVJV1BnMDRJc2M2cXZuWnNfemVsazNjMTE1UDdEN0pFUktWQngwZ0VZU1EzeWRHb0I0cDk0SWd5MGh6M1VfMERDRXlLdlNRd2FraEU4Z0N4bi1WWlBzX0dCSE5KWmV4MHY5ZF9Qd20yYnBHeTlRVzExYk1CakZ6VUVxWk54Z1F0MlJfajYybUlELU51WVNuRldEenFSMkZMOVlUczF5alhoRl92S1NWS2ZnTFhkYlFvR0N3a0dLS1hEV29KWlUwY3Y3TU9YTUN3ZXkwNHRROFlqcnN0ckJXSDY1VS1SODZTUFVwcmN1djJ2OWpNNmU1dlNzZmtSbElfOVdQT1dZLVpwaURtRktpSEVWZnZBLUYzSElULXFMOVNxMXZEekxtUG9kQXREbG5PMlBxVHhMWHpjWUo3bUhJcWI1a1c1Vzl3d2JEVXM3QXpBWkh3?oc=5",
-   "published_at": "2026-08-24T17:35:58+00:00",
-   "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "doc_id": "ee88b9bb5d400127",
-   "title_en": "47 killed in gang attack near Haiti's capital",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "News from outside corridor."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "مقطع مصوَّر يوثِّق خطف 600 شخص في هجوم على مسجد بنيجيريا - الشرق الأوسط",
-   "url": "https://news.google.com/rss/articles/CBMilARBVV95cUxPaDktTC16S1hlX3RMNWZDYldUZTFqTmM1Q09NaHIwQVp4RnNlX0VUY2pKN3dKN2hXM3FQUkJGMEQ2VTVURUc5MmM5NnBnWVItWXlkY1JxdXRaN2lydGFaUWI5SGpkWDVlSEItb2gzakoyU2FlbFdGUTh3ZzM1V0J5U3plWkNXbXdDcmpnVEY2ckdZbTJUaVlLckdGa3FIRXpmWDBfRzZSUzlSMWY4TC1hT05tZnlkcDcyUTBaZEwtaWJSMkJtT3U4SnRMakxObkZMVWFaeFpvOV9qTlpQZFJ5UjRTenJVVTRDbTRJbXNMMEk2UzZVWmZaQ296ZDZhTk9DMkU1YjdtOW9BX3d2S2FnVWl1WWk2Q3V1WmVoUUQ2ckw4cDF2eTRya3dRTTNUZ1JBWGJQZV9oZmZJVnhwcFRYVzJxSmFqVEJHSGQzanhRdy1xcWNyazFKUTZZb1JNbFpqVmVVVjNJa1FMX09Qa3dhanB6Q3Z1TGE5dHBNREhQUGdhUTlrTkJGaWdlUUFXZ1NGNEV4V1RUeHF0OWNBQmFfRFRZUnNHakJsSVVlLTVUSFZiN0JFbDc5bGloSnA2M255aTBZRE96MS1WMWZGeDBZWGgyb0pGejRreUVydVRZWU8zWEZfa19XUlhqY2dNRTlla2toc3o3VTNfeEFpVXhHMjJCWFZQa21SalVmUmhMWXkzSmJC?oc=5",
-   "published_at": "2026-08-24T16:00:39+00:00",
-   "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "doc_id": "8489c523319fab9a",
-   "title_en": "Video documents abduction of 600 people in attack on mosque in Nigeria",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "News from outside corridor."
+   "rationale": "Unrelated to European property or cross-border buyers."
   },
   {
    "source_id": "gnews_ar",
@@ -2056,10 +1958,10 @@
    "published_at": "2026-08-24T13:12:36+00:00",
    "query": "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d",
    "doc_id": "cc7504de5bc08f23",
-   "title_en": "The end of Far East factory: From China to Eastern Europe – How top companies are radically rewiring their supply chains right now",
+   "title_en": "End of Far East factory: from China to Eastern Europe – how top companies are radically rewiring supply chains",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Supply chain shifts unrelated to property or cross-border buying."
+   "rationale": "Supply-chain reshoring unrelated to property or cross-border buyers."
   },
   {
    "source_id": "gnews_ar",
@@ -2070,10 +1972,10 @@
    "published_at": "2026-08-25T11:13:00+00:00",
    "query": "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d",
    "doc_id": "7e5c5c21a638565b",
-   "title_en": "World press today: Iran's latest target Baron Trump.. Canada announces retaliatory tariffs against Washington.. Ukraine cooperates with Britain against Russia with intelligence mine.. and 32,000 deaths in 90 days in Europe from heat",
+   "title_en": "World press today: Trump baron latest Iran target; Canada announces retaliatory tariffs; Ukraine cooperates with Britain on intelligence mine; 32,000 deaths in 90 days across Europe from heat",
    "category": "OTHER",
    "score": 0,
-   "rationale": "News digest; no property relevance."
+   "rationale": "Unrelated to European property or cross-border buyers."
   },
   {
    "source_id": "gnews_es",
@@ -2084,10 +1986,10 @@
    "published_at": "2026-08-25T05:00:00+00:00",
    "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
    "doc_id": "efa34e57ee6985db",
-   "title_en": "Panama proposes 7% tax on services like Netflix: how it works in the rest of Latin America",
+   "title_en": "Panama proposes 7% tax on services like Netflix: how it works across Latin America",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Latin American tax outside corridor; not property-related."
+   "rationale": "Panama tax unrelated to Spain, Portugal, Italy, France, Greece corridor."
   }
  ]
 }
