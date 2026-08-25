@@ -119,15 +119,16 @@ def render(items, status_line: str, ingested: int, digest: dict | None = None,
             lines.append(_esc(digest["summary"]))
             lines.append("")
         if top:
-            # A contents list. Plain text, not links — the numbers map to the
-            # messages that follow, and ten more link previews here would
-            # bury the synthesis the reader came for.
             lines.append("<b>In this digest</b>")
             for rank, row in enumerate(top, start=1):
+                item = row["item"]
                 emoji = _tags(row)[0]
                 head = f"{emoji} " if emoji else ""
-                title = _esc(row["item"].title_en or row["item"].title)
-                lines.append(f"{rank}. {head}{title}")
+                title = _esc(item.title_en or item.title)
+                link = getattr(item, "resolved_url", "") or item.url
+                lines.append(
+                    f'{rank}. {head}<a href="{_attr(link)}">{title}</a>'
+                )
             lines.append("")
         if digest.get("watch"):
             lines.append(f"<i>Watch: {_esc(digest['watch'])}</i>")
@@ -218,13 +219,14 @@ def send_digest(header: str, top: list) -> None:
     if not token or not chat_id:
         raise RuntimeError("TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID not set")
 
-    base = {"chat_id": chat_id, "parse_mode": "HTML",
-            "disable_web_page_preview": True}
+    base = {"chat_id": chat_id, "parse_mode": "HTML"}
 
     # Summary first: it frames what follows, and a reader opening the chat
-    # should meet the overview before ten individual items.
+    # should meet the overview before ten individual items. No preview here —
+    # it would pick the first link in the contents list at random and put one
+    # arbitrary article's photo on top of the day's overview.
     for part in _split(header):
-        _post(dict(base, text=part))
+        _post(dict(base, text=part, disable_web_page_preview=True))
         time.sleep(1.2)
 
     lost = []
@@ -232,7 +234,11 @@ def send_digest(header: str, top: list) -> None:
         try:
             parts = _split(render_entry(rank, row))
             for idx, part in enumerate(parts):
-                payload = dict(base, text=part)
+                # Preview on the first part, where the headline link is —
+                # Telegram previews the first link it finds, and on a split
+                # entry that would otherwise be whatever survived the cut.
+                payload = dict(base, text=part,
+                               disable_web_page_preview=(idx != 0))
                 # Keyboard on the last part only, so a long entry does not
                 # sprout two sets of buttons for the same item.
                 if idx == len(parts) - 1:
@@ -252,7 +258,8 @@ def send_digest(header: str, top: list) -> None:
         for rank, why in lost:
             note.append(f"{rank}. {_esc(why)}")
         try:
-            _post(dict(base, text="\n".join(note)))
+            _post(dict(base, text="\n".join(note),
+                       disable_web_page_preview=True))
         except Exception as exc:
             log.error("could not report lost entries: %s", exc)
 
