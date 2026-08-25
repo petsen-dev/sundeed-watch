@@ -143,16 +143,22 @@ def _gnews_urls(source, keywords, settings) -> list[tuple[str, str]]:
     return pairs
 
 
-def _gazette_terms(source, keywords) -> list[str]:
-    """Terms that make a gazette entry relevant.
+def _match_terms(source, keywords) -> list[str]:
+    """Terms that stand in for a query the source cannot be given.
 
-    A gazette has no search endpoint — it publishes the whole daily edition,
-    most of which is naval procurement and university appointments. These
-    terms stand in for the query that news sources get for free; without
-    them the feed is the entire Boletin.
+    Google News narrows at the source: the keyword IS the query. A gazette or
+    a whole-section RSS feed has no such endpoint — it hands over the entire
+    daily edition or the entire business desk. These terms are the missing
+    query, not a filter layered on top of results.
+
+    A source opts in with `match_key`, naming a list in its language block.
+    No match_key means no narrowing.
     """
+    key = source.get("match_key")
+    if not key:
+        return []
     kset = keywords.get(source["lang"], {})
-    return [t.lower() for t in kset.get("gazette_match", [])]
+    return [t.lower() for t in kset.get(key, [])]
 
 
 def _matches(title: str, terms: list[str]) -> bool:
