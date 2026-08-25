@@ -44,9 +44,27 @@ def _esc(text: str) -> str:
     return html.escape(text or "", quote=False)
 
 
-def render(items, status_line: str, ingested: int) -> str:
+def render(items, status_line: str, ingested: int, digest: dict | None = None) -> str:
     today = dt.datetime.now(dt.timezone.utc).strftime("%d %b %Y")
     lines = [f"<b>{today} · Sundeed Watch</b>", ""]
+
+    if digest:
+        lead = digest.get("lead")
+        if lead is not None:
+            title = _esc(lead.title_en or lead.title)
+            lines.append("<b>TODAY</b>")
+            lines.append(f'<b><a href="{_esc(lead.url)}">{title}</a></b>')
+            if digest.get("lead_why"):
+                lines.append(_esc(digest["lead_why"]))
+            lines.append("")
+        if digest.get("summary"):
+            lines.append(_esc(digest["summary"]))
+            lines.append("")
+        if digest.get("watch"):
+            lines.append(f"<i>Watch: {_esc(digest['watch'])}</i>")
+            lines.append("")
+        lines.append("—")
+        lines.append("")
 
     buckets: dict[str, list] = {}
     for item in items:

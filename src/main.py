@@ -25,6 +25,7 @@ import classify           # noqa: E402
 import dedupe             # noqa: E402
 import fetch              # noqa: E402
 import report             # noqa: E402
+import summarise          # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 STATE = ROOT / "state"
@@ -86,6 +87,8 @@ def main() -> int:
                     help="print the report instead of sending it")
     ap.add_argument("--no-llm", action="store_true",
                     help="skip classification (day-2 mode: raw ingest only)")
+    ap.add_argument("--no-summary", action="store_true",
+                    help="classify and rank, but skip the synthesis pass")
     args = ap.parse_args()
 
     config = load_yaml(ROOT / "config" / "sources.yml")
@@ -116,7 +119,15 @@ def main() -> int:
 
     items.sort(key=lambda i: i.score, reverse=True)
 
-    text = report.render(items, result.status_line, ingested)
+    # 5 — synthesis over the whole day. Purely additive: it writes the block at
+    #     the top and cannot remove anything from the list below.
+    digest = None
+    if not args.no_llm and not args.no_summary:
+        digest = summarise.summarise(items)
+        if digest is None:
+            log.warning("no summary this run — report renders without it")
+
+    text = report.render(items, result.status_line, ingested, digest)
     path = archive(items, ingested, result.status_line)
     log.info("archived → %s", path)
 
