@@ -2,9 +2,9 @@
  "offset": 576377887,
  "sent": {
   "853b209a1dc56975": {
-   "title": "Housing reform in Greece: cheap loans, social rent and a new Golden Visa24 August 2026 - Greek City Times",
+   "title": "Housing reform in Greece: cheap loans, social rent and a new Golden Visa",
    "cat": "REGULATORY",
-   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
+   "query": "golden visa when:2d",
    "lang": "en",
    "date": "2026-08-25"
   },
@@ -69,6 +69,55 @@
    "cat": "REGULATORY",
    "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
    "lang": "en",
+   "date": "2026-08-25"
+  },
+  "be464f055e449159": {
+   "title": "Golden visa rules lock foreign buyers out of nearly a third of top listings - mpamag.com",
+   "cat": "REGULATORY",
+   "query": "golden visa when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
+  },
+  "2e8ce4a7cead35b0": {
+   "title": "Europe is bringing era of cheap \"golden visas\" to close and raising bar for investors - Ukraine open for business",
+   "cat": "REGULATORY",
+   "query": "golden visa when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
+  },
+  "e743edec41c5f827": {
+   "title": "Portugal bans cash payments above €3,000 - The Portugal News",
+   "cat": "REGULATORY",
+   "query": "portugal when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
+  },
+  "bc50ca7ab47ca14a": {
+   "title": "PCC in UK launches Autumn 2026 Moving to Portugal roadshow - AICEP",
+   "cat": "DEMAND-FLOW",
+   "query": "portugal when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
+  },
+  "bb2994aa674bf330": {
+   "title": "Follow the Capital: What Portugal's €1.4 Billion Investment Surge Is Telling Investors - The Portugal News",
+   "cat": "DEMAND-FLOW",
+   "query": "golden visa when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
+  },
+  "804d7bc2a7698cc7": {
+   "title": "25-30% jump in Indians seeking second residency: Why HNIs want a 'Plan B' - Business Standard",
+   "cat": "DEMAND-FLOW",
+   "query": "golden visa when:2d",
+   "lang": "en",
+   "date": "2026-08-25"
+  },
+  "882048b19711110a": {
+   "title": "Portugal opens residency for Turkish citizens via 'D7' visa",
+   "cat": "REGULATORY",
+   "query": "البرتغال when:2d",
+   "lang": "ar",
    "date": "2026-08-25"
   }
  },

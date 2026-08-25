@@ -1,27 +1,27 @@
 {
  "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d": {
-  "runs": 7,
-  "items": 14,
-  "score_sum": 760,
-  "mean_score": 54.3,
+  "runs": 8,
+  "items": 15,
+  "score_sum": 795,
+  "mean_score": 53.0,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"compradores estrangeiros\" casa Portugal when:2d": {
-  "runs": 7,
-  "items": 7,
-  "score_sum": 437,
-  "mean_score": 62.4,
+  "runs": 8,
+  "items": 8,
+  "score_sum": 492,
+  "mean_score": 61.5,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d": {
-  "runs": 8,
-  "items": 34,
-  "score_sum": 1105,
-  "mean_score": 32.5,
+  "runs": 9,
+  "items": 37,
+  "score_sum": 1150,
+  "mean_score": 31.1,
   "up": 0,
   "down": 0,
   "split": 0
@@ -36,19 +36,19 @@
   "split": 0
  },
  "\"international buyers\" Portugal OR Italy property when:2d": {
-  "runs": 7,
-  "items": 22,
-  "score_sum": 400,
-  "mean_score": 18.2,
+  "runs": 8,
+  "items": 25,
+  "score_sum": 465,
+  "mean_score": 18.6,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "ChatGPT OR \"AI agent\" property buying when:2d": {
-  "runs": 7,
-  "items": 77,
-  "score_sum": 716,
-  "mean_score": 9.3,
+  "runs": 8,
+  "items": 86,
+  "score_sum": 816,
+  "mean_score": 9.5,
   "up": 0,
   "down": 0,
   "split": 0
@@ -63,10 +63,10 @@
   "split": 0
  },
  "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d": {
-  "runs": 8,
-  "items": 38,
+  "runs": 9,
+  "items": 40,
   "score_sum": 80,
-  "mean_score": 2.1,
+  "mean_score": 2.0,
   "up": 0,
   "down": 0,
   "split": 0
@@ -81,8 +81,8 @@
   "split": 0
  },
  "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d": {
-  "runs": 7,
-  "items": 7,
+  "runs": 8,
+  "items": 8,
   "score_sum": 0,
   "mean_score": 0.0,
   "up": 0,
@@ -99,8 +99,8 @@
   "split": 0
  },
  "\"foreign buyer\" intitle:ban OR intitle:restriction property when:2d": {
-  "runs": 7,
-  "items": 14,
+  "runs": 8,
+  "items": 16,
   "score_sum": 0,
   "mean_score": 0.0,
   "up": 0,
@@ -108,9 +108,9 @@
   "split": 0
  },
  "\"second home\" intitle:tax OR intitle:premium when:2d": {
-  "runs": 7,
-  "items": 41,
-  "score_sum": 15,
+  "runs": 8,
+  "items": 47,
+  "score_sum": 20,
   "mean_score": 0.4,
   "up": 0,
   "down": 0,
@@ -126,17 +126,17 @@
   "split": 0
  },
  "\"cross-border\" property buyers Europe when:2d": {
-  "runs": 8,
-  "items": 21,
-  "score_sum": 25,
-  "mean_score": 1.2,
+  "runs": 9,
+  "items": 25,
+  "score_sum": 45,
+  "mean_score": 1.8,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"commission split\" estate agency when:2d": {
-  "runs": 7,
-  "items": 7,
+  "runs": 8,
+  "items": 8,
   "score_sum": 0,
   "mean_score": 0.0,
   "up": 0,
@@ -144,28 +144,28 @@
   "split": 0
  },
  "[feed] portugal_resident": {
-  "runs": 9,
-  "items": 64,
-  "score_sum": 80,
-  "mean_score": 1.2,
+  "runs": 10,
+  "items": 74,
+  "score_sum": 105,
+  "mean_score": 1.4,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d": {
-  "runs": 6,
-  "items": 6,
-  "score_sum": 380,
-  "mean_score": 63.3,
+  "runs": 7,
+  "items": 7,
+  "score_sum": 455,
+  "mean_score": 65.0,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "intitle:Pacaso when:2d": {
-  "runs": 6,
-  "items": 6,
-  "score_sum": 190,
-  "mean_score": 31.7,
+  "runs": 7,
+  "items": 7,
+  "score_sum": 230,
+  "mean_score": 32.9,
   "up": 0,
   "down": 0,
   "split": 0
@@ -180,10 +180,271 @@
   "split": 0
  },
  "[feed] property_industry_eye": {
-  "runs": 6,
-  "items": 72,
-  "score_sum": 450,
+  "runs": 7,
+  "items": 84,
+  "score_sum": 525,
   "mean_score": 6.2,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "golden visa when:2d": {
+  "runs": 1,
+  "items": 38,
+  "score_sum": 627,
+  "mean_score": 16.5,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "portugal when:2d": {
+  "runs": 1,
+  "items": 106,
+  "score_sum": 517,
+  "mean_score": 4.9,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "عقارات when:2d": {
+  "runs": 1,
+  "items": 40,
+  "score_sum": 230,
+  "mean_score": 5.8,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "residency when:2d": {
+  "runs": 1,
+  "items": 81,
+  "score_sum": 75,
+  "mean_score": 0.9,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "spain when:2d": {
+  "runs": 1,
+  "items": 118,
+  "score_sum": 653,
+  "mean_score": 5.5,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "italy when:2d": {
+  "runs": 1,
+  "items": 110,
+  "score_sum": 395,
+  "mean_score": 3.6,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "عقار when:2d": {
+  "runs": 1,
+  "items": 103,
+  "score_sum": 290,
+  "mean_score": 2.8,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "greece when:2d": {
+  "runs": 1,
+  "items": 91,
+  "score_sum": 700,
+  "mean_score": 7.7,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "البرتغال when:2d": {
+  "runs": 1,
+  "items": 53,
+  "score_sum": 180,
+  "mean_score": 3.4,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "cyprus when:2d": {
+  "runs": 1,
+  "items": 104,
+  "score_sum": 365,
+  "mean_score": 3.5,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "real estate when:2d": {
+  "runs": 1,
+  "items": 146,
+  "score_sum": 302,
+  "mean_score": 2.1,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "إيطاليا when:2d": {
+  "runs": 1,
+  "items": 80,
+  "score_sum": 50,
+  "mean_score": 0.6,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "france when:2d": {
+  "runs": 1,
+  "items": 93,
+  "score_sum": 225,
+  "mean_score": 2.4,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "europe when:2d": {
+  "runs": 1,
+  "items": 136,
+  "score_sum": 230,
+  "mean_score": 1.7,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "اسبانيا when:2d": {
+  "runs": 1,
+  "items": 21,
+  "score_sum": 70,
+  "mean_score": 3.3,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "اليونان when:2d": {
+  "runs": 1,
+  "items": 40,
+  "score_sum": 115,
+  "mean_score": 2.9,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "إسبانيا when:2d": {
+  "runs": 1,
+  "items": 85,
+  "score_sum": 125,
+  "mean_score": 1.5,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "فرنسا when:2d": {
+  "runs": 1,
+  "items": 96,
+  "score_sum": 301,
+  "mean_score": 3.1,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "قبرص when:2d": {
+  "runs": 1,
+  "items": 19,
+  "score_sum": 69,
+  "mean_score": 3.6,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "housing when:2d": {
+  "runs": 1,
+  "items": 175,
+  "score_sum": 94,
+  "mean_score": 0.5,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "mortgage when:2d": {
+  "runs": 1,
+  "items": 131,
+  "score_sum": 184,
+  "mean_score": 1.4,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "ايطاليا when:2d": {
+  "runs": 1,
+  "items": 28,
+  "score_sum": 45,
+  "mean_score": 1.6,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "أوروبا when:2d": {
+  "runs": 1,
+  "items": 96,
+  "score_sum": 198,
+  "mean_score": 2.1,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "propert when:2d": {
+  "runs": 1,
+  "items": 36,
+  "score_sum": 10,
+  "mean_score": 0.3,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "اوروبا when:2d": {
+  "runs": 1,
+  "items": 50,
+  "score_sum": 30,
+  "mean_score": 0.6,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "التأشيرة الذهبية when:2d": {
+  "runs": 1,
+  "items": 1,
+  "score_sum": 5,
+  "mean_score": 5.0,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "منزل ثان when:2d": {
+  "runs": 1,
+  "items": 22,
+  "score_sum": 5,
+  "mean_score": 0.2,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "الإقامة الذهبية when:2d": {
+  "runs": 1,
+  "items": 3,
+  "score_sum": 0,
+  "mean_score": 0.0,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "بيت العطلات when:2d": {
+  "runs": 1,
+  "items": 2,
+  "score_sum": 0,
+  "mean_score": 0.0,
   "up": 0,
   "down": 0,
   "split": 0
