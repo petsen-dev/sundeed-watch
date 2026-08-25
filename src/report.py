@@ -44,7 +44,12 @@ def render_entry(rank: int, row) -> str:
     emoji, tagline = _tags(row)
     head = f"{emoji} " if emoji else ""
     lines = [f'{head}{rank}. <b><a href="{_esc(link)}">{title}</a></b>']
-    if row.get("sourced") is False:
+    if row.get("written") is False:
+        # The selection rationale is standing in for a write-up. Without this
+        # line the report looks fine and merely terse, which is the worst
+        # possible failure: undetectable from the output.
+        lines.append("<i>write-up failed — selection note only</i>")
+    elif row.get("sourced") is False:
         lines.append("<i>headline only — article not retrieved</i>")
     for para in (row.get("why") or "").split("\n\n"):
         para = para.strip()

@@ -21,7 +21,7 @@ from prompts import SYSTEM, WRITEUP_SYSTEM
 log = logging.getLogger("summarise")
 
 MODEL = "claude-sonnet-5"
-MAX_TOKENS = 16000       # thinking shares this budget
+MAX_TOKENS = 24000       # thinking shares this budget
 MAX_ITEMS = 220          # titles sent for selection; ordering already ranks them
 
 
@@ -75,38 +75,47 @@ def _extract_json(text: str):
     raise ValueError("response was not parseable JSON")
 
 
-def _extract_array(text: str):
-    text = text.strip()
-    if text.startswith("```"):
-        text = text.split("```")[1]
-        if text.startswith("json"):
-            text = text[4:]
-    start, end = text.find("["), text.rfind("]")
-    if start == -1:
-        raise ValueError(f"no JSON array in response (got {len(text)} chars)")
-    if end > start:
-        try:
-            return json.loads(text[start : end + 1])
-        except json.JSONDecodeError:
-            pass
-    fragment = text[start:]
-    for closer in ("}]", "\"}]", "]"):
-        try:
-            return json.loads(fragment.rsplit(",", 1)[0] + closer)
-        except json.JSONDecodeError:
+def _parse_blocks(text: str, allowed_geo) -> dict:
+    """Parse the delimited write-up format into {id: (body, [geo])}.
+
+    Deliberately not JSON. The body is a paragraph of prose containing
+    quotation marks, apostrophes, percentages and currency symbols; inside a
+    JSON string every one of those is a chance for the whole array to fail to
+    parse, taking all ten entries with it. A line-delimited format cannot fail
+    that way — a malformed block costs one entry, not the response.
+    """
+    out = {}
+    for chunk in text.split("###"):
+        lines = chunk.strip().splitlines()
+        if not lines:
             continue
-    raise ValueError("write-up response was not parseable JSON")
+        doc_id = lines[0].strip()
+        if not doc_id:
+            continue
+        geo, body_lines = [], []
+        for line in lines[1:]:
+            if not body_lines and line.strip().upper().startswith("GEO:"):
+                raw = line.split(":", 1)[1]
+                geo = [g.strip().lower() for g in raw.split(",") if g.strip()]
+                geo = [g for g in geo if g in allowed_geo][:2]
+                continue
+            body_lines.append(line)
+        body = "\n".join(body_lines).strip()
+        if body:
+            out[doc_id] = (body, geo)
+    return out
 
 
-def write_up(top: list, texts: dict) -> None:
-    """Fill each top entry's `body` from the article text where available.
+def write_up(top: list, texts: dict) -> bool:
+    """Fill each top entry's body from the article text. Returns success.
 
     Mutates `top` in place. On failure the entry keeps the one-line `why`
-    from the selection pass, so the report degrades to the previous format
-    rather than losing the item.
+    from the selection pass — which is a selection rationale, not a write-up,
+    and reads as a terse conditional. That fallback is nearly indistinguishable
+    from a working report, so the caller marks it and the reader is told.
     """
     if not top:
-        return
+        return False
 
     rows = []
     for row in top:
@@ -130,25 +139,32 @@ def write_up(top: list, texts: dict) -> None:
         text = "".join(b.text for b in resp.content if b.type == "text")
         if resp.stop_reason == "max_tokens":
             log.warning("write-up hit max_tokens — raise MAX_TOKENS")
-        data = _extract_array(text)
+        from prompts import GEO_TAGS
+        data = _parse_blocks(text, set(GEO_TAGS))
+        if not data:
+            raise ValueError(f"no blocks parsed from {len(text)} chars")
     except Exception as exc:
         log.error("write-up failed: %s", exc)
-        return
-
-    from prompts import GEO_TAGS
+        try:
+            log.error("stop_reason=%s | %d chars | first 400: %s",
+                      resp.stop_reason, len(text), text[:400].replace("\n", " "))
+        except NameError:
+            log.error("no response at all — request never returned")
+        return False
 
     by_id = {r["item"].doc_id: r for r in top}
-    for entry in data:
-        row = by_id.get(entry.get("id"))
+    for doc_id, (body, geo) in data.items():
+        row = by_id.get(doc_id)
         if not row:
+            log.warning("write-up returned unknown id %s — dropped", doc_id)
             continue
-        if entry.get("body"):
-            row["why"] = entry["body"].strip()
-        # Anything outside the fixed vocabulary is discarded rather than
-        # rendered — one invented spelling is enough to fragment a tag.
-        geo = [g for g in (entry.get("geo") or [])
-               if isinstance(g, str) and g.lower() in GEO_TAGS]
-        row["geo"] = [g.lower() for g in geo][:2]
+        row["why"] = body
+        row["geo"] = geo
+        row["written"] = True
+
+    written = sum(1 for r in top if r.get("written"))
+    log.info("write-up: %d of %d entries filled", written, len(top))
+    return written > 0
 
 
 def summarise(items, pref: str = "") -> dict | None:

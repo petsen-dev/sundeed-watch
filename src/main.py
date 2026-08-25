@@ -177,6 +177,8 @@ def main() -> int:
             texts = article.fetch_for(digest["top"])
             for row in digest["top"]:
                 row["sourced"] = row["item"].doc_id in texts
+            for row in digest["top"]:
+                row.setdefault("written", False)
             summarise.write_up(digest["top"], texts)
 
     text = report.render(items, result.status_line, ingested, digest)

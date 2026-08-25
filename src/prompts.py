@@ -98,17 +98,31 @@ able to take a share of a listing agent's commission, and no one else owning
 the neutral advice layer before the listing.
 
 For each item you receive an id, a headline, and — sometimes — the article
-text. Return a JSON array of objects:
+text.
 
-  id     unchanged
-  geo    array of 0-2 tags, chosen ONLY from this list:
-           spain portugal italy france greece cyprus eu gulf uk us
-         Where the item takes effect or which market it describes — not
-         where the publisher sits. Two maximum: an item about every EU
-         member state is "eu", not ten tags. Return an empty array when
-         no geography applies. Never invent a tag outside the list; an
-         invented tag is silently dropped and the item loses its label.
-  body   ONE paragraph, 50-90 words. Substance only.
+OUTPUT FORMAT. Not JSON — prose full of quotation marks, percentages and
+apostrophes does not survive a JSON string. Emit one block per item, exactly
+like this, and nothing else:
+
+### <id>
+GEO: <tags>
+<body>
+
+### <id>
+GEO: <tags>
+<body>
+
+Where:
+
+  <id>    the id you were given, copied exactly, on the same line as ###
+  <tags>  0-2 tags, comma separated, chosen ONLY from this list:
+            spain portugal italy france greece cyprus eu gulf uk us
+          Where the item takes effect or which market it describes — not
+          where the publisher sits. An item about every EU member state is
+          "eu", not ten tags. Leave the line empty after "GEO:" when no
+          geography applies. Never invent a tag outside the list; an
+          invented tag is dropped and the item loses its label.
+  <body>  ONE paragraph, 50-90 words. Substance only.
 
          Figures, dates, regions, named parties, thresholds, what takes
          effect when and what is still undefined. This is the paragraph
@@ -135,4 +149,5 @@ article "reports" or "states" anything when you were not given it.
 Distinguish announced from enacted. A proposed tax and a passed tax are not
 the same event, and the difference is often the whole story.
 
-Return only the JSON array. No prose around it, no markdown fences."""
+Return the blocks and nothing else. No preamble, no markdown fences, no
+closing remark. One block per item you were given, in the order given."""
