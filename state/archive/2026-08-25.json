@@ -1,21 +1,21 @@
 {
  "date": "2026-08-25",
- "ingested": 214,
+ "ingested": 219,
  "status": "10/12 sources ok · failed: alarabiya_business, argaam",
  "items": [
   {
    "source_id": "gnews_ar",
    "lang": "ar",
    "stream": "news",
-   "title": "دول أوروبية تقدم حوافز مالية للعمل والسكن والاستقرار للأجانب - almasdar-dz.com",
-   "url": "https://news.google.com/rss/articles/CBMi8ANBVV95cUxNZTRFMGFwdy1SSDY2S3d6eTdNNGdRTHEwdXdJNU13dDBjb1N1U0NQVTJiSHN5RVhGN0h5QlZKU0NlQmhNLU5ldlBJY0hZS1RjWUhsVjAzVjhBckZELWsxQzI2MXd1eXZnMFNXbWNFZlR0Z3hielozWkhqVXJzMDdheTYyMDRmVUVpaEx0QVFQN0NheEFCdldhZkFNNUExMldROU9nOUVxUHdHS0RMakZuVWplYWRHZ3A3UUg2bUJ2bkJaR1hJb0xwSFJMYTJmcnJMYS15VWlUbmtVZF82aGU5MW1wMnRtMGxWZVoxQXo5cEc5MWVkcmgxSTN4YTFBbVFrSXI1QlRsTGxENnZYYUIzUkRycm1FSEJFZmlDUkdrS2FVbUJDcU1DSmxnMl9VSzhGOXBza0lQSTBRcnlQQ0hUVUY3YmEwc2JkLW5UeWRXSkNyRzA0OXcyVkMyLW13TC1QRy1FWm1NNkNWSUFlVk9iVVdRZ21XWHgxdFlwakhjQlNoSjdxQ3hSM3hBT3dZa2Jxa2VST2RuRkJaWTUzYUFlLVAwZ0R1alNHUTJ3WUx5SVZMRlB3RENPc0xXMVM0NHBOTEtTSG9CWkJieVdJQzFaTHZDc2JyX0tfaHhSa3lmcC1GemU0Smo2SE42ekNlREl3?oc=5",
-   "published_at": "2026-08-24T11:04:01+00:00",
-   "query": "عقارات إسبانيا للأجانب",
-   "doc_id": "b47d91eef174bd99",
-   "title_en": "European countries offer financial incentives for work, housing and settlement for foreigners",
-   "category": "REGULATORY",
+   "title": "قائمة الفرنسيين لأفضل مشتري العقارات الأجانب في البرتغال - مجلة بورتوغال ريزيدنت - Portugal Resident",
+   "url": "https://news.google.com/rss/articles/CBMigARBVV95cUxPb0tmOFVoVFhHMVlJM1VWclE0T29maS02Mm5GRElDRVdxNGlnNG5NaUJaM3pMa1Q4UzVaTWcwaC1Wd0FOWVRJZ215ZGxnUkZTZVFfQi16a0ZKbFQySklpX1RxdTh3UWh5d1VJbGdCZHBTSktLcGdKUmZGUVpMMW40eWQ3cktFUWFBVmlMTW9qOFNWTXpza3NvYm1hLXY3NXpuQTF4S1otZ0laT3ROQjFIazd0cnZoZTNpMml4OGN2UF9aaUZTSjhiZ09pWi03XzJHeHZhdlpEMDRPbjhJeUhxUEpzczBFQmJqczhidkxSZ2tVYjVqZUJ3aTBoZldqelNJbmVaUWJuelFscWo5dHJzTjYxSWlxbmVYanZ5MEwzZ193YzJGVHBvVGE3ZFJpTUZIU3JkYTJwOW9hWHBQajdzc1BuY3hXQTk2Qk9NVjgxV1BhaVktVDgzWEEtbkpXbFhrSGNxcVhrX096Vk5aenlScmFNM0NhdVV0WHZTWHVFUFRVTWRqRG4wV3h5Tld1ZHJOYk5USU5CVzh6bGp2a1pSRTNEcFRlNFQwNmdyWmJ0bkJiV2dBWlpleGlrcWtpSElZZFRPZS1Xdm5nR0F2VFVnbnk4aDV0RXBJVWN4X0VIQl9GYUlPRzJ2TlJfTEx4TFY4bmNJdjFFSmFGNXFtdU1xdg?oc=5",
+   "published_at": "2026-08-24T20:18:55+00:00",
+   "query": "عقارات البرتغال للأجانب",
+   "doc_id": "13e184cfac54750a",
+   "title_en": "List of French buyers as best foreign property buyers in Portugal - Portugal Resident Magazine - Portugal Resident",
+   "category": "DEMAND-FLOW",
    "score": 75,
-   "rationale": "Incentives for foreign residence across Europe; affects buyer motivation and cost."
+   "rationale": "Cross-border corridor data: French to Portugal; core demand flow intelligence."
   },
   {
    "source_id": "gnews_en",
@@ -29,7 +29,21 @@
    "title_en": "Europe is bringing era of cheap \"golden visas\" to close and raising bar for investors - Ukraine open for business",
    "category": "REGULATORY",
    "score": 72,
-   "rationale": "Golden visa restrictions affect investor-buyer pathways and residency rules directly."
+   "rationale": "Golden visa tightening affects EU investor-buyer pathways and residency incentives."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "دول أوروبية تقدم حوافز مالية للعمل والسكن والاستقرار للأجانب - almasdar-dz.com",
+   "url": "https://news.google.com/rss/articles/CBMi8ANBVV95cUxNZTRFMGFwdy1SSDY2S3d6eTdNNGdRTHEwdXdJNU13dDBjb1N1U0NQVTJiSHN5RVhGN0h5QlZKU0NlQmhNLU5ldlBJY0hZS1RjWUhsVjAzVjhBckZELWsxQzI2MXd1eXZnMFNXbWNFZlR0Z3hielozWkhqVXJzMDdheTYyMDRmVUVpaEx0QVFQN0NheEFCdldhZkFNNUExMldROU9nOUVxUHdHS0RMakZuVWplYWRHZ3A3UUg2bUJ2bkJaR1hJb0xwSFJMYTJmcnJMYS15VWlUbmtVZF82aGU5MW1wMnRtMGxWZVoxQXo5cEc5MWVkcmgxSTN4YTFBbVFrSXI1QlRsTGxENnZYYUIzUkRycm1FSEJFZmlDUkdrS2FVbUJDcU1DSmxnMl9VSzhGOXBza0lQSTBRcnlQQ0hUVUY3YmEwc2JkLW5UeWRXSkNyRzA0OXcyVkMyLW13TC1QRy1FWm1NNkNWSUFlVk9iVVdRZ21XWHgxdFlwakhjQlNoSjdxQ3hSM3hBT3dZa2Jxa2VST2RuRkJaWTUzYUFlLVAwZ0R1alNHUTJ3WUx5SVZMRlB3RENPc0xXMVM0NHBOTEtTSG9CWkJieVdJQzFaTHZDc2JyX0tfaHhSa3lmcC1GemU0Smo2SE42ekNlREl3?oc=5",
+   "published_at": "2026-08-24T11:04:01+00:00",
+   "query": "عقارات إسبانيا للأجانب",
+   "doc_id": "b47d91eef174bd99",
+   "title_en": "European countries offer financial incentives for work, housing and settlement for foreigners - almasdar-dz.com",
+   "category": "REGULATORY",
+   "score": 70,
+   "rationale": "Immigration incentives affecting foreign settlement and property demand in European corridor."
   },
   {
    "source_id": "gnews_en",
@@ -43,35 +57,7 @@
    "title_en": "Vipp Residences Villa Finca Selva Rethinks Vacation Home Ownership in Mallorca - stupidDOPE",
    "category": "OWNERSHIP-MODEL",
    "score": 68,
-   "rationale": "Novel vacation home ownership model in target corridor; competitive market innovation."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "تؤثر التغييرات التنظيمية على شركات إدارة العقارات – برتغال ريزيدنت - Portugal Resident",
-   "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxQdWxzaWpYLWU1OE82cmMxenZ6TmxNTFl3MXpWQnFqSHZ3ekUtNjl1MVhDVEppSWpRcE5pRXBiWU12NmtYUUI4TEZVWnRka0l0Z3JtME1KZVNNUXdBLXd6MlJRN2FXeEI2bHY3RVkwZnVCenRsc0dFbGRaRE9FOW0xX0MxR0NsdFdUZ0NVazJ1M1RhUmFRQ3JoYUhnd1pORktwWGc4VGNCRUtydUlmdGxJbk5ERmhuNUM4LW5mQ0FfYWVOS3loa0FOMW1Wbk05b1lWLVFIUVMtODdoaWEwVnViZzcwRjl1TkVwZ2JmMnA4RnMwOHB1eGNucnVzNkYzcTFyNVVhWEYtSl9HVjE3dzJsb3l1UW5kbDVwamhLeWZEeGx3LW44VUt3Mkp6YUZvQUJQV05Dd2M3R3lGQVF1eTNMeUJ5RVFGdzRHblpxTTRMSnlXQ2hrZmMwWTV1NFpJSy1SNzJvVk5JQ1VLd2ZPT3JqeFlCVmlBMzkyYndMUHN3QUZCeWlXVWJoOVdRTzRwV0hVY2pleU9vVHZFbTZydTJud1VjS1RPUQ?oc=5",
-   "published_at": "2026-08-24T16:34:35+00:00",
-   "query": "التأشيرة الذهبية العقارية",
-   "doc_id": "92e6b2a9afa0cecd",
-   "title_en": "Regulatory changes affect property management companies – Portugal Resident",
-   "category": "REGULATORY",
-   "score": 65,
-   "rationale": "Portugal regulatory shift for property managers; directly impacts services to buyers."
-  },
-  {
-   "source_id": "gnews_ar",
-   "lang": "ar",
-   "stream": "news",
-   "title": "قائمة الفرنسيين لأفضل مشتري العقارات الأجانب في البرتغال - مجلة بورتوغال ريزيدنت - Portugal Resident",
-   "url": "https://news.google.com/rss/articles/CBMigARBVV95cUxPb0tmOFVoVFhHMVlJM1VWclE0T29maS02Mm5GRElDRVdxNGlnNG5NaUJaM3pMa1Q4UzVaTWcwaC1Wd0FOWVRJZ215ZGxnUkZTZVFfQi16a0ZKbFQySklpX1RxdTh3UWh5d1VJbGdCZHBTSktLcGdKUmZGUVpMMW40eWQ3cktFUWFBVmlMTW9qOFNWTXpza3NvYm1hLXY3NXpuQTF4S1otZ0laT3ROQjFIazd0cnZoZTNpMml4OGN2UF9aaUZTSjhiZ09pWi03XzJHeHZhdlpEMDRPbjhJeUhxUEpzczBFQmJqczhidkxSZ2tVYjVqZUJ3aTBoZldqelNJbmVaUWJuelFscWo5dHJzTjYxSWlxbmVYanZ5MEwzZ193YzJGVHBvVGE3ZFJpTUZIU3JkYTJwOW9hWHBQajdzc1BuY3hXQTk2Qk9NVjgxV1BhaVktVDgzWEEtbkpXbFhrSGNxcVhrX096Vk5aenlScmFNM0NhdVV0WHZTWHVFUFRVTWRqRG4wV3h5Tld1ZHJOYk5USU5CVzh6bGp2a1pSRTNEcFRlNFQwNmdyWmJ0bkJiV2dBWlpleGlrcWtpSElZZFRPZS1Xdm5nR0F2VFVnbnk4aDV0RXBJVWN4X0VIQl9GYUlPRzJ2TlJfTEx4TFY4bmNJdjFFSmFGNXFtdU1xdg?oc=5",
-   "published_at": "2026-08-24T20:18:55+00:00",
-   "query": "عقارات البرتغال للأجانب",
-   "doc_id": "13e184cfac54750a",
-   "title_en": "List of French buyers as best foreign property buyers in Portugal - Portugal Resident Magazine",
-   "category": "DEMAND-FLOW",
-   "score": 60,
-   "rationale": "French-Portuguese buyer corridor data; directly relevant to cross-border flow."
+   "rationale": "Named fractional/co-ownership model in corridor market (Mallorca); shifts competitive landscape."
   },
   {
    "source_id": "gnews_es",
@@ -82,10 +68,24 @@
    "published_at": "2026-08-24T13:41:58+00:00",
    "query": "alquiler turístico normativa",
    "doc_id": "f733d96e18351153",
-   "title_en": "Canary Islands eases the exploitation unit and opens the door to vacation rentals of individual apartments - Tourinews",
+   "title_en": "Canaries relaxes operating unit and opens door to vacation rentals of individual apartments - Tourinews",
    "category": "REGULATORY",
-   "score": 55,
-   "rationale": "Canary Islands regulatory change enabling individual apartment vacation rentals; affects investment returns for buyers."
+   "score": 65,
+   "rationale": "Major regulatory change enabling fractional vacation property in tourist corridor."
+  },
+  {
+   "source_id": "gnews_ar",
+   "lang": "ar",
+   "stream": "news",
+   "title": "تؤثر التغييرات التنظيمية على شركات إدارة العقارات – برتغال ريزيدنت - Portugal Resident",
+   "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxQdWxzaWpYLWU1OE82cmMxenZ6TmxNTFl3MXpWQnFqSHZ3ekUtNjl1MVhDVEppSWpRcE5pRXBiWU12NmtYUUI4TEZVWnRka0l0Z3JtME1KZVNNUXdBLXd6MlJRN2FXeEI2bHY3RVkwZnVCenRsc0dFbGRaRE9FOW0xX0MxR0NsdFdUZ0NVazJ1M1RhUmFRQ3JoYUhnd1pORktwWGc4VGNCRUtydUlmdGxJbk5ERmhuNUM4LW5mQ0FfYWVOS3loa0FOMW1Wbk05b1lWLVFIUVMtODdoaWEwVnViZzcwRjl1TkVwZ2JmMnA4RnMwOHB1eGNucnVzNkYzcTFyNVVhWEYtSl9HVjE3dzJsb3l1UW5kbDVwamhLeWZEeGx3LW44VUt3Mkp6YUZvQUJQV05Dd2M3R3lGQVF1eTNMeUJ5RVFGdzRHblpxTTRMSnlXQ2hrZmMwWTV1NFpJSy1SNzJvVk5JQ1VLd2ZPT3JqeFlCVmlBMzkyYndMUHN3QUZCeWlXVWJoOVdRTzRwV0hVY2pleU9vVHZFbTZydTJud1VjS1RPUQ?oc=5",
+   "published_at": "2026-08-24T16:34:35+00:00",
+   "query": "التأشيرة الذهبية العقارية",
+   "doc_id": "92e6b2a9afa0cecd",
+   "title_en": "Regulatory changes impact property management companies – Portugal Resident - Portugal Resident",
+   "category": "REGULATORY",
+   "score": 60,
+   "rationale": "Portuguese regulatory impact on property management; affects vacation rental/service providers."
   },
   {
    "source_id": "gnews_en",
@@ -98,36 +98,8 @@
    "doc_id": "6d19289df4095547",
    "title_en": "Property hunting enters the AI agent era - ITWeb",
    "category": "CHANNEL",
-   "score": 52,
-   "rationale": "AI-driven property search; emerging channel shift affecting buyer discovery broadly."
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "How homebuyers are using AI-powered realtors to save tens of thousands in fees - New York Post",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNelczeHhqM1pRNlA3bmxqSmxUY3ZrR0gzMXNaNlJ1NDJXbmp3UmJBS3JlbC1rMTFGc0llRS1ETDJhZ2V0RVFXeE0wNHUxdUVWQXdFUkRMWEZ0dUM5cUdXV2t2TkNEYXE3ZUZJQ0hNaTNXNzB1cTJHUTRHMHNpZ1pWQmFEUjZqQnhHMUJwUHFScFBleUlzNzU4cmNFYWIwaTZhdFI1OHplbm1HQXF1MlpBT1hJbFdQS1JEUVE?oc=5",
-   "published_at": "2026-08-24T19:04:00+00:00",
-   "query": "property portal buyer tools launch",
-   "doc_id": "5fe03ad538b8b6f9",
-   "title_en": "How homebuyers are using AI-powered realtors to save tens of thousands in fees - New York Post",
-   "category": "CHANNEL",
    "score": 45,
-   "rationale": "AI disruption of agent commissions; US-focused but model relevant to corridors."
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "Can You Invest in Pacaso Pre-IPO? Everything You Need to Know - The Motley Fool",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRl9ycF9hZV9zY2gtNXBFcnhZcTFjT2RiTUd2YUVCMEg1Y2VNY21zVXBYMDAyOWx4UjVfV181VmZVdk1paGlWSnlHM3R2U0RWSkFlR2tWbEZka0FIU2xMRmpTYXF2S2FNME1LcTR5bC0wd2I3QzNRa3ZYdFNFYlRzVl8yemd1M0tlcXc?oc=5",
-   "published_at": "2026-08-25T04:35:07+00:00",
-   "query": "Pacaso",
-   "doc_id": "d07841f061eebaa3",
-   "title_en": "Can You Invest in Pacaso Pre-IPO? Everything You Need to Know - The Motley Fool",
-   "category": "OWNERSHIP-MODEL",
-   "score": 42,
-   "rationale": "Fractional ownership platform; relevant model but US-focused not Europe-focused."
+   "rationale": "Emerging AI-driven property discovery channel; affects buyer search and agent model."
   },
   {
    "source_id": "gnews_en",
@@ -140,8 +112,22 @@
    "doc_id": "9deeb51ad4b64037",
    "title_en": "Flat-Fee Brokerages Automate Research, Return Thousands to Residential Buyers - Propmodo",
    "category": "COMMISSION-MODEL",
-   "score": 40,
-   "rationale": "Commission model shift; unclear if cross-border European market focus."
+   "score": 45,
+   "rationale": "Commission model innovation; likely U.S.-focused, unclear if applies to European corridor."
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "Abandoned but valuable: what Cyprus could do with 30,000 empty buildings - Philenews",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUHZGNmQyUGF1aVBSQXJQWUphNDhOalZqdV8yc3Q5alRfYjN4dEstRkZQTm9GY3A4MXV6U1YtYzdnT3RVanAwUmF5Y1ZMT3ZBUXExbGdhMl9IUm9RMlhWZWlDS2k3cS1MZmliVUxPNHk0dExia3FESU9SdTkxX3k0c1JrUGxheWpy?oc=5",
+   "published_at": "2026-08-24T06:48:33+00:00",
+   "query": "empty homes tax",
+   "doc_id": "f4f6a18f87fbbd12",
+   "title_en": "Abandoned but valuable: what Cyprus could do with 30,000 empty buildings - Philenews",
+   "category": "DEMAND-FLOW",
+   "score": 38,
+   "rationale": "Cyprus property supply discussion; signals potential policy direction but no announcement."
   },
   {
    "source_id": "gnews_es",
@@ -152,10 +138,10 @@
    "published_at": "2026-08-24T15:53:53+00:00",
    "query": "alquiler turístico normativa",
    "doc_id": "30d9918c51c9bac5",
-   "title_en": "The tourist apartments of Benicalap move forward after adapting the project to municipal regulations - Valencia News",
+   "title_en": "Tourist apartments in Benicalap move forward after adapting project to municipal regulations - Valencia News",
    "category": "REGULATORY",
    "score": 35,
-   "rationale": "Short-term rental regulation compliance in Spain; affects vacation property models but local-focused."
+   "rationale": "Local vacation rental regulations affecting Spanish project viability."
   },
   {
    "source_id": "gnews_en",
@@ -169,7 +155,7 @@
    "title_en": "How much money needs to be saved to buy a house of 200,000 euros in 2026 - Demócrata",
    "category": "UPFUNNEL",
    "score": 35,
-   "rationale": "Financing advice for home purchase; relevant to buyer education and affordability."
+   "rationale": "Generic affordability guidance; relevant to first-time buyer awareness but not cross-border-specific."
   },
   {
    "source_id": "gnews_en",
@@ -183,49 +169,35 @@
    "title_en": "Bridge Loan Direct Launches Specialist Property Finance Calculator Network - znewsservice.com",
    "category": "CHANNEL",
    "score": 35,
-   "rationale": "Finance tool for property buyers; unclear if cross-border focused or relevant."
+   "rationale": "Finance calculator tool for property buyers; broad utility but limited to one provider."
   },
   {
    "source_id": "property_industry_eye",
    "lang": "en",
    "stream": "news",
-   "title": "Property investment firm acquires estate agency network with 104 franchisees",
-   "url": "https://propertyindustryeye.com/property-investment-firm-acquires-estate-agency-network-with-104-franchisees/",
-   "published_at": "2026-08-25T01:30:20+00:00",
+   "title": "Thousands of estate agents handed new free revenue stream",
+   "url": "https://propertyindustryeye.com/thousands-of-estate-agents-handed-new-free-revenue-stream/",
+   "published_at": "2026-08-25T01:00:17+00:00",
    "query": "",
-   "doc_id": "4002367c9369070e",
-   "title_en": "Property investment firm acquires estate agency network with 104 franchisees",
-   "category": "CHANNEL",
+   "doc_id": "8baf6be755d94c71",
+   "title_en": "Thousands of estate agents handed new free revenue stream",
+   "category": "COMMISSION-MODEL",
    "score": 30,
-   "rationale": "Estate agency network consolidation; affects distribution but no cross-border or European detail."
+   "rationale": "Agent revenue model shift; relevance to cross-border not specified."
   },
   {
    "source_id": "gnews_ar",
    "lang": "ar",
    "stream": "news",
-   "title": "مليارديرات الذكاء الاصطناعي يطلقون موجة شراء سرية لليخوت والطائرات والعقارات - CNN الاقتصادية",
-   "url": "https://news.google.com/rss/articles/CBMiiwVBVV95cUxPVjZzdW9GTmRRTGJRZlZKRV92NmphTnRGcEJ2OVh3WkJRMkhjN1QzejZWQlkxeU5Za1VXZnU3b3BKdnQyQlVCd1BoTTdmdkh4NHh6TGFJYkNLdkpxOV9CTnZFdEFxbTllMnVaR1RzckpCeVo0LUttUE8ybG02S1NfTUhjRG8wV3BaTm1PZ0xLdlQ3VWVZbnhLejhMOHBPWTV3Rk51bkg2SkxDaTQ1WmZmTDUyUzNEMTNVRzRGYV9oTU1FRnNoamdNZjVNUTdLb2Q1MkVGZVVHdDVzckYtMXMtaWhjdU9maW56djhIeFF5UGRVQWZrUWotY1E2OTlQeng4LTBHbVVoV2dmTk9vdE9UcHB2TFJ6VFpZUjM2ODBRYmk3NmkwQy1FdTl0YlNJdVRFdF9sUi1BUDhBTVNIeEhzbXlHWWFybWNMNGp0Y2dyVEptcFljdXh0ZWpqTENqQkxLNlRGQ1BSRGJMX3hIU1JET3JKOFRObXNVdHR1NmVuMnVZc2p5S3BXUXlPQU56ODg5RGRRNUJScFRiZ0xFVklTUjgxMVRNY2otM0JQc3Fkbm5EVll1LUk5M3ZLeW1QOFFuR2U4V2N3OElVU3BZc21BZ1hIQjRRT1RIVjBmdjdHa09Ya1BFeEc2SWZ3d3h5Q2tMZnlnVTZxREtrcFJMcDRYckJsbkU4SmRKRVg2a2RQbW1Fd0kzV284dW5JOFBCMGFfRHpSdHdyekVBVVR3U1N4a0M0c2xLdnBrWWIySXFndzIzbDNnQVYtWXBoVmVETWxmUlpwTXkwVVluQ3o4eUxTdmlGd1pDVjlWbU9aTW11ZEJ4VlJSZEVNQnhRR19oUUlob3N3M0tmX24xblk?oc=5",
-   "published_at": "2026-08-24T19:43:25+00:00",
-   "query": "الذكاء الاصطناعي في العقارات",
-   "doc_id": "1ba4b8b973e112aa",
-   "title_en": "AI billionaires launch secret buying wave for yachts, aircraft and real estate",
+   "title": "معرض العقارات السعودية الفاخرة يفتتح في لندن بمشاركة حكومية وتطويرية - alsaudi.news",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuVmtzTHFpN2NQdWttakpoZmx0emxKblJweVdtVlZmdGlGWnlTOEpGX3NfcnhhSHN5WjhQR0huTk5leVRlUkhWcUNhM1RhUlNqcm1LRG1tdG1Odw?oc=5",
+   "published_at": "2026-08-24T17:01:51+00:00",
+   "query": "المشاركة في ملكية العقار",
+   "doc_id": "d555aa36d06bdb4b",
+   "title_en": "Saudi luxury real estate exhibition opens in London with government and developer participation - alsaudi.news",
    "category": "DEMAND-FLOW",
    "score": 30,
-   "rationale": "Wealthy buyer activity; unclear if European corridor or second-home focused."
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "Abandoned but valuable: what Cyprus could do with 30,000 empty buildings - Philenews",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUHZGNmQyUGF1aVBSQXJQWUphNDhOalZqdV8yc3Q5alRfYjN4dEstRkZQTm9GY3A4MXV6U1YtYzdnT3RVanAwUmF5Y1ZMT3ZBUXExbGdhMl9IUm9RMlhWZWlDS2k3cS1MZmliVUxPNHk0dExia3FESU9SdTkxX3k0c1JrUGxheWpy?oc=5",
-   "published_at": "2026-08-24T06:48:33+00:00",
-   "query": "empty homes tax",
-   "doc_id": "f4f6a18f87fbbd12",
-   "title_en": "Abandoned but valuable: what Cyprus could do with 30,000 empty buildings - Philenews",
-   "category": "REGULATORY",
-   "score": 28,
-   "rationale": "Cyprus vacant property policy; related to market supply but outside target corridor."
+   "rationale": "Middle Eastern buyers targeting UK; tangential to European second-home corridors."
   },
   {
    "source_id": "property_industry_eye",
@@ -239,49 +211,49 @@
    "title_en": "EYE EXCLUSIVE – LRG acquires historic estate agency",
    "category": "CHANNEL",
    "score": 25,
-   "rationale": "UK estate agency acquisition; adjacent to European market but UK-focused, modest competitive impact."
-  },
-  {
-   "source_id": "property_industry_eye",
-   "lang": "en",
-   "stream": "news",
-   "title": "Thousands of estate agents handed new free revenue stream",
-   "url": "https://propertyindustryeye.com/thousands-of-estate-agents-handed-new-free-revenue-stream/",
-   "published_at": "2026-08-25T01:00:17+00:00",
-   "query": "",
-   "doc_id": "8baf6be755d94c71",
-   "title_en": "Thousands of estate agents handed new free revenue stream",
-   "category": "COMMISSION-MODEL",
-   "score": 25,
-   "rationale": "Agent revenue model change; potentially relevant but lacks detail on whether Europe-focused."
+   "rationale": "UK estate agency consolidation; peripheral to European cross-border corridor."
   },
   {
    "source_id": "gnews_ar",
    "lang": "ar",
    "stream": "news",
-   "title": "معرض العقارات السعودية الفاخرة يفتتح في لندن بمشاركة حكومية وتطويرية - alsaudi.news",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuVmtzTHFpN2NQdWttakpoZmx0emxKblJweVdtVlZmdGlGWnlTOEpGX3NfcnhhSHN5WjhQR0huTk5leVRlUkhWcUNhM1RhUlNqcm1LRG1tdG1Odw?oc=5",
-   "published_at": "2026-08-24T17:01:51+00:00",
-   "query": "المشاركة في ملكية العقار",
-   "doc_id": "d555aa36d06bdb4b",
-   "title_en": "Saudi Luxury Real Estate Exhibition Opens in London With Government and Developer Participation",
-   "category": "DEMAND-FLOW",
+   "title": "مليارديرات الذكاء الاصطناعي يطلقون موجة شراء سرية لليخوت والطائرات والعقارات - CNN الاقتصادية",
+   "url": "https://news.google.com/rss/articles/CBMiiwVBVV95cUxPVjZzdW9GTmRRTGJRZlZKRV92NmphTnRGcEJ2OVh3WkJRMkhjN1QzejZWQlkxeU5Za1VXZnU3b3BKdnQyQlVCd1BoTTdmdkh4NHh6TGFJYkNLdkpxOV9CTnZFdEFxbTllMnVaR1RzckpCeVo0LUttUE8ybG02S1NfTUhjRG8wV3BaTm1PZ0xLdlQ3VWVZbnhLejhMOHBPWTV3Rk51bkg2SkxDaTQ1WmZmTDUyUzNEMTNVRzRGYV9oTU1FRnNoamdNZjVNUTdLb2Q1MkVGZVVHdDVzckYtMXMtaWhjdU9maW56djhIeFF5UGRVQWZrUWotY1E2OTlQeng4LTBHbVVoV2dmTk9vdE9UcHB2TFJ6VFpZUjM2ODBRYmk3NmkwQy1FdTl0YlNJdVRFdF9sUi1BUDhBTVNIeEhzbXlHWWFybWNMNGp0Y2dyVEptcFljdXh0ZWpqTENqQkxLNlRGQ1BSRGJMX3hIU1JET3JKOFRObXNVdHR1NmVuMnVZc2p5S3BXUXlPQU56ODg5RGRRNUJScFRiZ0xFVklTUjgxMVRNY2otM0JQc3Fkbm5EVll1LUk5M3ZLeW1QOFFuR2U4V2N3OElVU3BZc21BZ1hIQjRRT1RIVjBmdjdHa09Ya1BFeEc2SWZ3d3h5Q2tMZnlnVTZxREtrcFJMcDRYckJsbkU4SmRKRVg2a2RQbW1Fd0kzV284dW5JOFBCMGFfRHpSdHdyekVBVVR3U1N4a0M0c2xLdnBrWWIySXFndzIzbDNnQVYtWXBoVmVETWxmUlpwTXkwVVluQ3o4eUxTdmlGd1pDVjlWbU9aTW11ZEJ4VlJSZEVNQnhRR19oUUlob3N3M0tmX24xblk?oc=5",
+   "published_at": "2026-08-24T19:43:25+00:00",
+   "query": "الذكاء الاصطناعي في العقارات",
+   "doc_id": "1ba4b8b973e112aa",
+   "title_en": "AI billionaires launch secret wave of purchases of yachts, aircraft and real estate - CNN Economics",
+   "category": "OTHER",
    "score": 25,
-   "rationale": "Saudi buyer corridor to London; tangential to Spain/Portugal/Italy/France/Greece focus."
+   "rationale": "High-net-worth real estate buying; very broad, not European second-home specific."
   },
   {
    "source_id": "gnews_en",
    "lang": "en",
    "stream": "news",
-   "title": "Free lease extension calculator launched for leaseholders - Property118",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdzgxVVhTalhiN2NOUVJRcThmRkpnUk1hcW56b2tvZFJnS0EtVWRheDY3REJUaERiVG1wUXNHTjljZHFFNGRFbk1Kc253S0IwTE5WbGx2MXZNazZ5akRHSHhsN3laZE5Ha3kwM1hOTk80cVk3d2F6bmN6MXFySzlGczRDRDJMaWoxNlpxNF93VQ?oc=5",
-   "published_at": "2026-08-25T07:02:29+00:00",
-   "query": "property cost calculator launch",
-   "doc_id": "20a5c4bf6b471771",
-   "title_en": "Free lease extension calculator launched for leaseholders - Property118",
-   "category": "UPFUNNEL",
-   "score": 22,
-   "rationale": "UK leasehold tool; outside corridor and not cross-border second-home relevant."
+   "title": "How homebuyers are using AI-powered realtors to save tens of thousands in fees - New York Post",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNelczeHhqM1pRNlA3bmxqSmxUY3ZrR0gzMXNaNlJ1NDJXbmp3UmJBS3JlbC1rMTFGc0llRS1ETDJhZ2V0RVFXeE0wNHUxdUVWQXdFUkRMWEZ0dUM5cUdXV2t2TkNEYXE3ZUZJQ0hNaTNXNzB1cTJHUTRHMHNpZ1pWQmFEUjZqQnhHMUJwUHFScFBleUlzNzU4cmNFYWIwaTZhdFI1OHplbm1HQXF1MlpBT1hJbFdQS1JEUVE?oc=5",
+   "published_at": "2026-08-24T19:04:00+00:00",
+   "query": "property portal buyer tools launch",
+   "doc_id": "5fe03ad538b8b6f9",
+   "title_en": "How homebuyers are using AI-powered realtors to save tens of thousands in fees - New York Post",
+   "category": "CHANNEL",
+   "score": 24,
+   "rationale": "AI agent commission impact; US-focused but model potentially relevant to European markets."
+  },
+  {
+   "source_id": "property_industry_eye",
+   "lang": "en",
+   "stream": "news",
+   "title": "Property investment firm acquires estate agency network with 104 franchisees",
+   "url": "https://propertyindustryeye.com/property-investment-firm-acquires-estate-agency-network-with-104-franchisees/",
+   "published_at": "2026-08-25T01:30:20+00:00",
+   "query": "",
+   "doc_id": "4002367c9369070e",
+   "title_en": "Property investment firm acquires estate agency network with 104 franchisees",
+   "category": "CHANNEL",
+   "score": 20,
+   "rationale": "Domestic agency consolidation; unclear if corridor-relevant."
   },
   {
    "source_id": "property_industry_eye",
@@ -294,22 +266,8 @@
    "doc_id": "3e9128b44d1e3e9e",
    "title_en": "Property industry leaders join forces to tackle transaction delays",
    "category": "OTHER",
-   "score": 20,
-   "rationale": "General property transaction efficiency; relevant to all markets but no cross-border angle specified."
-  },
-  {
-   "source_id": "property_industry_eye",
-   "lang": "en",
-   "stream": "news",
-   "title": "Independent agency to open new office in same town following acquisition",
-   "url": "https://propertyindustryeye.com/independent-agency-to-open-new-office-following-acquisition/",
-   "published_at": "2026-08-25T02:40:52+00:00",
-   "query": "",
-   "doc_id": "30012893cbd488ad",
-   "title_en": "Independent agency to open new office in same town following acquisition",
-   "category": "CHANNEL",
    "score": 15,
-   "rationale": "UK agency expansion; tangentially related but no cross-border dimension evident."
+   "rationale": "General transaction efficiency; no corridor-specific impact identified."
   },
   {
    "source_id": "property_industry_eye",
@@ -323,35 +281,7 @@
    "title_en": "Where are BTL landlords securing the strongest rental returns?",
    "category": "DEMAND-FLOW",
    "score": 15,
-   "rationale": "UK buy-to-let market analysis; tangential to cross-border vacation property but UK-centric."
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "‘We’re being penalised for bringing an empty high street building back to life’ - Kent Online",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOczh5dmR2Tnd2cFlLSGpYckRaa1Z4ZGdDb0hGcDJpZTJuVjE5S00zdFhvaVBEQ0hmVWFjY0RKdzV0NEFwSHhxajM1Z0lwRXJwYm96SDNDUjFkNHF1RjdRTTNVRUN4SGR3QnFfcGNCRmR2WG5PSUQxWHU3b1hpdy1EcGlJOUNIX0g0MFBPd25TRTgxZDJVXzh3OHoxUDF6WXFUa3gzYndqaUpUTDNT?oc=5",
-   "published_at": "2026-08-25T04:00:00+00:00",
-   "query": "second home council tax premium",
-   "doc_id": "85fbbca324ec5dd4",
-   "title_en": "\"We're being penalised for bringing an empty high street building back to life\" - Kent Online",
-   "category": "REGULATORY",
-   "score": 15,
-   "rationale": "UK tax on residential conversion; outside corridor and not second-home specific."
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "Ritchie Bros. Launches Redesigned Mobile App to Deepen Buyer Engagement and Drive Marketplace Participation - Voice of Alexandria",
-   "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOdW1pWkpHUjBXaDlpQWg2R0s3ODlxb0xMMTZnVUZ3aHdYcjhMNVJ6N1lOSGtCVDF5b2V4ay1hWXdmQUFybS0zZ0V0ckk3c1N1Vm9PWTlFUzhMVm84M2JBb1FXRHdDQmg1M2l5bld4bVBydjVRRUxuVTR0MHE2QUJuMFVHNHhHQW1vZTlzQUNhVWM2SXhPODJqVnlQOVdzNnBFeGZvUmktWW14blpsbUd1QzhyaGRodUMxanBfMy1YSUtHWWozdjlqMmJSdHNKNDFnRUNuenRCbDdTR0tGeDFHdVMzdFN4cWg5MjlkWnFUTGduRkllUFUzZk9Ra2N2dVY5eXRjeC1VVmdudGVfNmVGeDdadUlvcFBvR3NuNHdVcVlIR3lfZEVGYTNUdkJIaWFvdVpTQURYYkhUREZwTDJr?oc=5",
-   "published_at": "2026-08-24T20:30:57+00:00",
-   "query": "property portal buyer tools launch",
-   "doc_id": "80eac75b56e7f197",
-   "title_en": "Ritchie Bros. Launches Redesigned Mobile App to Deepen Buyer Engagement and Drive Marketplace Participation - Voice of Alexandria",
-   "category": "CHANNEL",
-   "score": 15,
-   "rationale": "Auction platform app; tangential to residential property distribution channels."
+   "rationale": "Rental yield geography; likely domestic UK, not European corridor."
   },
   {
    "source_id": "gnews_en",
@@ -365,7 +295,35 @@
    "title_en": "US buyers ramp up USD 14bn wave of European asset manager takeovers - AMWatch",
    "category": "OTHER",
    "score": 15,
-   "rationale": "Asset manager M&A; tangential to second-home buyers and property services."
+   "rationale": "Asset manager consolidation, not second-home buyer or vacation property market."
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "Free lease extension calculator launched for leaseholders - Property118",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdzgxVVhTalhiN2NOUVJRcThmRkpnUk1hcW56b2tvZFJnS0EtVWRheDY3REJUaERiVG1wUXNHTjljZHFFNGRFbk1Kc253S0IwTE5WbGx2MXZNazZ5akRHSHhsN3laZE5Ha3kwM1hOTk80cVk3d2F6bmN6MXFySzlGczRDRDJMaWoxNlpxNF93VQ?oc=5",
+   "published_at": "2026-08-25T07:02:29+00:00",
+   "query": "property cost calculator launch",
+   "doc_id": "20a5c4bf6b471771",
+   "title_en": "Free lease extension calculator launched for leaseholders - Property118",
+   "category": "UPFUNNEL",
+   "score": 12,
+   "rationale": "UK leasehold tool; outside Mediterranean corridor markets."
+  },
+  {
+   "source_id": "property_industry_eye",
+   "lang": "en",
+   "stream": "news",
+   "title": "Independent agency to open new office in same town following acquisition",
+   "url": "https://propertyindustryeye.com/independent-agency-to-open-new-office-following-acquisition/",
+   "published_at": "2026-08-25T02:40:52+00:00",
+   "query": "",
+   "doc_id": "30012893cbd488ad",
+   "title_en": "Independent agency to open new office in same town following acquisition",
+   "category": "CHANNEL",
+   "score": 10,
+   "rationale": "Generic agency expansion; no corridor or cross-border relevance."
   },
   {
    "source_id": "property_industry_eye",
@@ -379,77 +337,7 @@
    "title_en": "How much are lost leads and unused tech costing your agency?",
    "category": "CHANNEL",
    "score": 10,
-   "rationale": "General agency operational efficiency; applicable broadly but no cross-border or European focus."
-  },
-  {
-   "source_id": "property_industry_eye",
-   "lang": "en",
-   "stream": "news",
-   "title": "EA Masters: Vote now for your favourite property industry supplier",
-   "url": "https://propertyindustryeye.com/ea-masters-vote-now-for-your-favourite-property-industry-supplier-2/",
-   "published_at": "2026-08-24T23:34:51+00:00",
-   "query": "",
-   "doc_id": "f64155bdd040c0e4",
-   "title_en": "EA Masters: Vote now for your favourite property industry supplier",
-   "category": "OTHER",
-   "score": 8,
-   "rationale": "Industry supplier awards; tangentially touches property channel but no strategic relevance."
-  },
-  {
-   "source_id": "portugal_resident",
-   "lang": "en",
-   "stream": "news",
-   "title": "Carvoeiro combines beach party with traditional festivities",
-   "url": "https://www.portugalresident.com/carvoeiro-combines-beach-party-with-traditional-festivities/",
-   "published_at": "2026-08-25T08:48:11+00:00",
-   "query": "",
-   "doc_id": "d6386da7faf683d1",
-   "title_en": "Carvoeiro combines beach party with traditional festivities",
-   "category": "OTHER",
-   "score": 8,
-   "rationale": "Lifestyle in vacation destination; minor soft appeal factor for seasonal buyers."
-  },
-  {
-   "source_id": "gnews_en",
-   "lang": "en",
-   "stream": "news",
-   "title": "How Cryptocurrency Transfers Abroad Will Be Arranged Starting September 1 - CoinSpot.io",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaVM4S3pUajZvOXRXSm45QmlHQ2hnb2l0YWdJVkQzSVRPdW5KUThHQzVub2FWb2I3NmRwOXI0X2h2TURiQkdWM3RfWTNOSjI0WVZrQzlYc3NQUWZYS1c4Vm0yTmpCMkp5enEwWnpyVkhLcDl5eU5NSWQ3WmFBWlVHeXM3MGlOYm8zVlJZUmVBRkIxVUFPeUgwVjE5ZlNtcEdMTXQ4SElKaGhIdzdxNHdfWkZMVno?oc=5",
-   "published_at": "2026-08-24T15:06:19+00:00",
-   "query": "buying abroad guide launch platform",
-   "doc_id": "b2235b754f00c5f5",
-   "title_en": "How Cryptocurrency Transfers Abroad Will Be Arranged Starting September 1 - CoinSpot.io",
-   "category": "OTHER",
-   "score": 8,
-   "rationale": "Crypto transfer regulation; marginal for second-home funding flows."
-  },
-  {
-   "source_id": "portugal_resident",
-   "lang": "en",
-   "stream": "news",
-   "title": "Police torture probe: ‘Many more officers believed to be involved’",
-   "url": "https://www.portugalresident.com/police-torture-probe-many-more-officers-believed-to-be-involved/",
-   "published_at": "2026-08-25T09:30:15+00:00",
-   "query": "",
-   "doc_id": "4e2605b5282ea299",
-   "title_en": "Police torture probe: 'Many more officers believed to be involved'",
-   "category": "OTHER",
-   "score": 6,
-   "rationale": "Domestic law enforcement scandal; modest indirect reputational impact."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Resolución de 18 de agosto de 2026, de la Dirección General del Catastro, por la que se publica el Convenio con el Ayuntamiento de Logroño.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18139.pdf",
-   "published_at": "2026-08-25T11:59:06.375586+00:00",
-   "query": "",
-   "doc_id": "3761a34fce1ec8c0",
-   "title_en": "Resolution of 18 August 2026, from the Directorate General of Cadastre, publishing the Agreement with the Municipality of Logroño.",
-   "category": "OTHER",
-   "score": 5,
-   "rationale": "Cadastral coordination may indirectly affect property records but likely domestic administrative."
+   "rationale": "Generic agency efficiency tip; no market relevance."
   },
   {
    "source_id": "boe_sumario",
@@ -457,13 +345,13 @@
    "stream": "regulatory",
    "title": "Orden CLT/888/2026, de 4 de agosto, por la que se ejercita el derecho de tanteo sobre el lote n.º 1203, subastado por la sala Segre, en Madrid.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18144.pdf",
-   "published_at": "2026-08-25T11:59:06.375623+00:00",
+   "published_at": "2026-08-25T12:13:59.960107+00:00",
    "query": "",
    "doc_id": "a2fb0a9dfcebba53",
-   "title_en": "Order CLT/888/2026, of 4 August, exercising the right of first refusal on lot no. 1203, auctioned by the Segre room, in Madrid.",
+   "title_en": "Order CLT/888/2026, of 4 August, exercising the right of first refusal over lot no. 1203, auctioned by the Segre court, in Madrid.",
    "category": "OTHER",
    "score": 5,
-   "rationale": "Property auction but no evidence of cross-border or second-home context."
+   "rationale": "Property auction matter; domestic context only."
   },
   {
    "source_id": "property_industry_eye",
@@ -477,7 +365,7 @@
    "title_en": "Estate agents feel the heat as property market cools",
    "category": "OTHER",
    "score": 5,
-   "rationale": "General UK market sentiment; tangential to cross-border European property buyers."
+   "rationale": "General UK market sentiment; no cross-border or corridor impact."
   },
   {
    "source_id": "property_industry_eye",
@@ -491,35 +379,7 @@
    "title_en": "NIMBY Britain? New research suggests otherwise",
    "category": "OTHER",
    "score": 5,
-   "rationale": "UK housing attitudes research; tangentially related but UK-focused, minimal relevance."
-  },
-  {
-   "source_id": "portugal_resident",
-   "lang": "en",
-   "stream": "news",
-   "title": "Albufeira’s car rampage “an isolated incident” – mayor",
-   "url": "https://www.portugalresident.com/albufeiras-car-rampage-an-isolated-incident-mayor/",
-   "published_at": "2026-08-25T10:53:12+00:00",
-   "query": "",
-   "doc_id": "355acb9e4657f281",
-   "title_en": "Albufeira's car rampage \"an isolated incident\" – mayor",
-   "category": "OTHER",
-   "score": 5,
-   "rationale": "Local crime incident; minor relevance to vacation property destination appeal."
-  },
-  {
-   "source_id": "portugal_resident",
-   "lang": "en",
-   "stream": "news",
-   "title": "Minister condemns Albufeira hit-and-run that left 12 injured",
-   "url": "https://www.portugalresident.com/minister-condemns-albufeira-oura-incident-12-injured/",
-   "published_at": "2026-08-25T10:11:31+00:00",
-   "query": "",
-   "doc_id": "cddd9d6add1aa73d",
-   "title_en": "Minister condemns Albufeira hit-and-run that left 12 injured",
-   "category": "OTHER",
-   "score": 5,
-   "rationale": "Local incident in vacation destination; minor relevance to property appeal."
+   "rationale": "UK planning sentiment; domestic only, no corridor relevance."
   },
   {
    "source_id": "gnews_en",
@@ -533,7 +393,7 @@
    "title_en": "New Advisers Join Employee Ownership Feasibility Panel - Business Eye",
    "category": "OTHER",
    "score": 5,
-   "rationale": "Employee ownership; tangential to property investment models."
+   "rationale": "Employee ownership governance; potential relevance to property co-ownership models unclear."
   },
   {
    "source_id": "gnews_en",
@@ -545,9 +405,9 @@
    "query": "second home purchases abroad data",
    "doc_id": "c5d2bdf3f76c13b4",
    "title_en": "Foreign Buyers Pull Back From U.S. Housing Market in 2026 - The World Property Journal",
-   "category": "DEMAND-FLOW",
+   "category": "OTHER",
    "score": 5,
-   "rationale": "U.S. market only; outside European second-home corridor."
+   "rationale": "U.S. market only; monitor covers Europe, not Americas."
   },
   {
    "source_id": "gnews_en",
@@ -561,21 +421,21 @@
    "title_en": "Stop-Start Subsidies Split Europe: Italy Falls to 5.9% as France Hits Record 35% - Tech Times",
    "category": "OTHER",
    "score": 5,
-   "rationale": "Subsidy data without property context; likely renewable energy, not real estate."
+   "rationale": "Subsidy policy headline unclear; appears tech/EV-focused, not property-related."
   },
   {
-   "source_id": "portugal_resident",
-   "lang": "en",
-   "stream": "news",
-   "title": "10 road deaths, over 1,000 injured between August 18-24",
-   "url": "https://www.portugalresident.com/10-road-deaths-over-1000-injured-between-august-18-24/",
-   "published_at": "2026-08-25T10:21:49+00:00",
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Resolución de 20 de agosto de 2026, de la Secretaría General Técnica, por la que se publica el Convenio entre el Instituto Nacional de la Seguridad Social, la Tesorería General de la Seguridad Social y la Comunidad Autónoma de las Illes Balears, para la cesión de información en materia de afiliación.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18146.pdf",
+   "published_at": "2026-08-25T12:13:59.960121+00:00",
    "query": "",
-   "doc_id": "013e5d593a1c2139",
-   "title_en": "10 road deaths, over 1,000 injured between August 18-24",
+   "doc_id": "ecd9253ff4aa1db9",
+   "title_en": "Resolution of 20 August 2026, from the General Technical Secretariat, publishing the Agreement between the National Institute of Social Security, the General Treasury of Social Security and the Autonomous Community of the Balearic Islands, for the transfer of information on affiliation matters...",
    "category": "OTHER",
-   "score": 4,
-   "rationale": "Traffic safety statistic; marginal impact on buyer confidence in region."
+   "score": 3,
+   "rationale": "Administrative data-sharing; marginal relevance to second-home sector."
   },
   {
    "source_id": "portugal_resident",
@@ -589,161 +449,35 @@
    "title_en": "Portugal's crop forecasts hold steady despite heat and drought",
    "category": "OTHER",
    "score": 3,
-   "rationale": "Agricultural commodity outlook; tangential to second-home market dynamics."
-  },
-  {
-   "source_id": "portugal_resident",
-   "lang": "en",
-   "stream": "news",
-   "title": "Custody for seven men linked to five tonne hashish seizure near Guadiana river",
-   "url": "https://www.portugalresident.com/custody-for-seven-men-linked-to-five-tonne-hashish-seizure-near-guadiana-river/",
-   "published_at": "2026-08-25T09:01:46+00:00",
-   "query": "",
-   "doc_id": "eea175b160ee0130",
-   "title_en": "Custody for seven men linked to five tonne hashish seizure near Guadiana river",
-   "category": "OTHER",
-   "score": 3,
-   "rationale": "Border drug enforcement; tangential to property market or buyer safety."
+   "rationale": "Agricultural commodity outlook; tangential to second-home markets."
   },
   {
    "source_id": "boe_sumario",
    "lang": "es",
    "stream": "regulatory",
-   "title": "Resolución de 20 de agosto de 2026, de la Secretaría General Técnica, por la que se publica el Convenio entre el Instituto Nacional de la Seguridad Social, la Tesorería General de la Seguridad Social y la Comunidad Autónoma de las Illes Balears, para la cesión de información en materia de afiliación.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18146.pdf",
-   "published_at": "2026-08-25T11:59:06.375637+00:00",
+   "title": "Resolución de 18 de agosto de 2026, de la Dirección General del Catastro, por la que se publica el Convenio con el Ayuntamiento de Logroño.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18139.pdf",
+   "published_at": "2026-08-25T12:13:59.960069+00:00",
    "query": "",
-   "doc_id": "ecd9253ff4aa1db9",
-   "title_en": "Resolution of 20 August 2026, from the Technical General Secretariat, publishing the Agreement between the National Institute of Social Security, the General Treasury of Social Security and the Autonomous Community of the Balearic Islands, for the transfer of information on affiliation matters",
+   "doc_id": "3761a34fce1ec8c0",
+   "title_en": "Resolution of 18 August 2026, from the Directorate General of the Cadastre, publishing the Agreement with the Municipality of Logroño.",
    "category": "OTHER",
    "score": 2,
-   "rationale": "Administrative coordination; tangential to second-home market in holiday destination."
+   "rationale": "Cadastral coordination may affect property records; minimal relevance."
   },
   {
    "source_id": "boe_sumario",
    "lang": "es",
    "stream": "regulatory",
-   "title": "Anuncio de formalización de contratos de: ADIF - Presidencia. Objeto: Suministro y transporte de traviesas para la renovación de vía en el trayecto Selgua - Lleida en una longitud de 30,899 km. Expediente: 3.25/27510.0267.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27762.pdf",
-   "published_at": "2026-08-25T11:59:06.375921+00:00",
+   "title": "Resolución de 24 de agosto de 2026, del Banco de España, por la que se publican los cambios del euro correspondientes al día 24 de agosto de 2026, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18147.pdf",
+   "published_at": "2026-08-25T12:13:59.960130+00:00",
    "query": "",
-   "doc_id": "381ab3660bea30b9",
-   "title_en": "Contract formalization announcement: ADIF - Presidency. Object: Supply and transport of sleepers for track renewal on the Selgua - Lleida section over a length of 30,899 km. File: 3.25/27510.0267.",
+   "doc_id": "a7d56ffd187638a4",
+   "title_en": "Resolution of 24 August 2026, from the Bank of Spain, publishing the euro exchange rates corresponding to 24 August 2026, published by the European Central Bank, which shall be considered official rates, in accordance with Article 36 of Law 46/19...",
    "category": "OTHER",
    "score": 2,
-   "rationale": "Spanish railway infrastructure procurement; unrelated to cross-border second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de formalización de contratos de: ADIF -Consejo de Administración. Objeto: Acuerdo marco para el suministro de carril nuevo para los almacenes de Adif. Expediente: 6.25/28510.0194.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27763.pdf",
-   "published_at": "2026-08-25T11:59:06.375928+00:00",
-   "query": "",
-   "doc_id": "e99a0fb5ef8069e9",
-   "title_en": "Contract formalization announcement: ADIF - Board of Directors. Object: Framework agreement for the supply of new rail for ADIF warehouses. File: 6.25/28510.0194.",
-   "category": "OTHER",
-   "score": 2,
-   "rationale": "Spanish railway infrastructure procurement; unrelated to cross-border second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de formalización de contratos de: ADIF - Presidencia. Objeto: Suministro e instalación de equipos de telecomunicaciones de redes ip (internet protocol) y sdh (synchronous digital hierarchy) /pdh (plesiochronous digital hierarchy) para los centros de control de tráfico centralizado. 4 lotes. Expediente: 3.24/27510.0211.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27766.pdf",
-   "published_at": "2026-08-25T11:59:06.375947+00:00",
-   "query": "",
-   "doc_id": "e27f050e5e374dcf",
-   "title_en": "Contract formalization announcement: ADIF - Presidency. Object: Supply and installation of telecommunications equipment for IP (internet protocol) and SDH/PDH networks for centralized traffic control centres. 4 lots.",
-   "category": "OTHER",
-   "score": 2,
-   "rationale": "Spanish railway telecommunications procurement; unrelated to cross-border second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de licitación de: ADIF - Presidencia. Objeto: Mantenimiento de la red de radiotelefonía PMR en el ámbito de la red de ancho métrico de Adif. 2 Lotes. Expediente: 2.26/28520.0044.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27767.pdf",
-   "published_at": "2026-08-25T11:59:06.375954+00:00",
-   "query": "",
-   "doc_id": "07b94f36f81bb060",
-   "title_en": "Tender announcement: ADIF - Presidency. Object: Maintenance of the PMR radio-telephony network within ADIF's narrow-gauge rail network. 2 lots. File: 2.26/28520.0044.",
-   "category": "OTHER",
-   "score": 2,
-   "rationale": "Spanish railway maintenance procurement; unrelated to cross-border second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de formalización de contratos de: ADIF - Presidencia. Objeto: Emergencia de las obras y de los servicios motivados por los graves daños ocasionados el 11/10/2025 en la superestructura de la vía II, como consecuencia del descarrilo producido en el tramo Quintanapalla - Santa Olalla de Bureba de la línea 100, Madrid Camartín Clara Campoamor - Irún. Expediente: 3.25/27507.0372.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27768.pdf",
-   "published_at": "2026-08-25T11:59:06.375960+00:00",
-   "query": "",
-   "doc_id": "485ea1b090cb60ea",
-   "title_en": "Contract formalization announcement: ADIF - Presidency. Object: Emergency works and services resulting from serious damage caused on 11/10/2025 to track II superstructure, as a consequence of the derailment on the Quintanapalla - Santa Olalla de Bureba section.",
-   "category": "OTHER",
-   "score": 2,
-   "rationale": "Spanish railway emergency repairs; unrelated to cross-border second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de formalización de contratos de: ADIF - Presidencia. Objeto: Suministro de accionamientos y componentes de tecnología HITACHI. Expediente: 6.25/28510.0143.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27770.pdf",
-   "published_at": "2026-08-25T11:59:06.375974+00:00",
-   "query": "",
-   "doc_id": "8bec6f2767e3d74d",
-   "title_en": "Contract formalization announcement: ADIF - Presidency. Object: Supply of HITACHI technology drives and components. File: 6.25/28510.0143.",
-   "category": "OTHER",
-   "score": 2,
-   "rationale": "Spanish railway equipment procurement; unrelated to cross-border second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de formalización de contratos de: ADIF - Presidencia. Objeto: Suministro y montaje de equipos de medida global system for mobile railways (GSM-R) en cuatro trenes de auscultación, actualización del servidor central del laboratorio y mantenimiento. Expediente: 4.25/21510.0253.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27771.pdf",
-   "published_at": "2026-08-25T11:59:06.375980+00:00",
-   "query": "",
-   "doc_id": "3ba973f6879bfe15",
-   "title_en": "Contract formalization announcement: ADIF - Presidency. Object: Supply and installation of global system for mobile railways (GSM-R) measurement equipment on four survey trains, central laboratory server upgrade and maintenance. File: 4.25/21510.0253.",
-   "category": "OTHER",
-   "score": 2,
-   "rationale": "Spanish railway telecommunications procurement; unrelated to cross-border second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio del ADIF-Alta Velocidad para la subsanación de errores en la Información Pública a efectos de declaración de la necesidad de ocupación del Proyecto de Construcción de Plataforma de la Línea de Alta Velocidad de la Conexión Madrid - País Vasco - Frontera Francesa. Tramo: Burgos - Vitoria. Subtramo: Ameyugo – Manzanos y Conexión Burgos – Miranda de Ebro.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27789.pdf",
-   "published_at": "2026-08-25T11:59:06.376101+00:00",
-   "query": "",
-   "doc_id": "7e6351d93cc4999e",
-   "title_en": "Announcement by ADIF-High Speed for the correction of errors in Public Information regarding the declaration of the need to occupy the Project for Construction of the High Speed Line Platform for the Madrid - Basque Country - French Border Connection. Section: Burgos - Vitoria.",
-   "category": "OTHER",
-   "score": 2,
-   "rationale": "Spanish high-speed rail project; unrelated to cross-border second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Resolución de la Dirección General de Trabajo por la que se anuncia el depósito de la modificación de los estatutos de la asociación empresarial denominada Asociación Estatal de Formación de Seguridad Privada, en siglas ASEFOSP, con número de depósito 99005490 (antiguo número de depósito 8378).",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27791.pdf",
-   "published_at": "2026-08-25T11:59:06.376116+00:00",
-   "query": "",
-   "doc_id": "0f1a977ebc6ec60f",
-   "title_en": "Resolution from the General Labour Directorate announcing the filing of the amended bylaws of the business association called State Association for Private Security Training, ASEFOSP, with filing number 99005490 (former filing number 8378).",
-   "category": "OTHER",
-   "score": 2,
-   "rationale": "Private security training association bylaws; unrelated to cross-border second homes."
+   "rationale": "Currency rates; general economic context only."
   },
   {
    "source_id": "boe_sumario",
@@ -751,13 +485,13 @@
    "stream": "regulatory",
    "title": "ILUSTRE COLEGIO NOTARIAL DE NAVARRA.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27800.pdf",
-   "published_at": "2026-08-25T11:59:06.376180+00:00",
+   "published_at": "2026-08-25T12:13:59.960693+00:00",
    "query": "",
    "doc_id": "a7f4473649176666",
-   "title_en": "ILLUSTRIOUS NOTARIAL COLLEGE OF NAVARRA.",
+   "title_en": "Illustrious Notarial College of Navarre.",
    "category": "OTHER",
    "score": 2,
-   "rationale": "Notary college announcement; tangentially related to property transactions but no specific detail."
+   "rationale": "Notary administration; tangential to property transaction infrastructure."
   },
   {
    "source_id": "portugal_resident",
@@ -771,7 +505,119 @@
    "title_en": "Centralised A&E departments \"will be identified by end of November\" – health ministry",
    "category": "OTHER",
    "score": 2,
-   "rationale": "Domestic health policy; irrelevant to cross-border property buyers."
+   "rationale": "Domestic health infrastructure; no cross-border property relevance."
+  },
+  {
+   "source_id": "portugal_resident",
+   "lang": "en",
+   "stream": "news",
+   "title": "Carvoeiro combines beach party with traditional festivities",
+   "url": "https://www.portugalresident.com/carvoeiro-combines-beach-party-with-traditional-festivities/",
+   "published_at": "2026-08-25T08:48:11+00:00",
+   "query": "",
+   "doc_id": "d6386da7faf683d1",
+   "title_en": "Carvoeiro combines beach party with traditional festivities",
+   "category": "OTHER",
+   "score": 2,
+   "rationale": "Local event coverage; minimal bearing on cross-border buyer decisions."
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "Can You Invest in Pacaso Pre-IPO? Everything You Need to Know - The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRl9ycF9hZV9zY2gtNXBFcnhZcTFjT2RiTUd2YUVCMEg1Y2VNY21zVXBYMDAyOWx4UjVfV181VmZVdk1paGlWSnlHM3R2U0RWSkFlR2tWbEZka0FIU2xMRmpTYXF2S2FNME1LcTR5bC0wd2I3QzNRa3ZYdFNFYlRzVl8yemd1M0tlcXc?oc=5",
+   "published_at": "2026-08-25T05:06:00+00:00",
+   "query": "Pacaso",
+   "doc_id": "d07841f061eebaa3",
+   "title_en": "Can You Invest in Pacaso Pre-IPO? Everything You Need to Know - The Motley Fool",
+   "category": "OTHER",
+   "score": 2,
+   "rationale": "US fractional ownership company coverage; outside European vacation-home corridor."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Resolución de 31 de julio de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Bianor Solar, SLU, autorización administrativa previa y autorización administrativa de construcción del módulo de almacenamiento por baterías «Bianor», de 28,37 MW de potencia instalada, y para su infraestructura de evacuación, para su hibridación con el parque solar fotovoltaico existente «Bianor», de 33 MW de potencia instalada, en Utrera (Sevilla).",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18143.pdf",
+   "published_at": "2026-08-25T12:13:59.960098+00:00",
+   "query": "",
+   "doc_id": "090c40b965cddc49",
+   "title_en": "Resolution of 31 July 2026, from the Directorate General of Energy Policy and Mines, granting Bianor Solar, SLU, prior administrative authorization and administrative construction authorization for the battery storage module \"Bianor\", with 28.37 MW installed capacity...",
+   "category": "OTHER",
+   "score": 1,
+   "rationale": "Energy infrastructure project; tangential to property values."
+  },
+  {
+   "source_id": "portugal_resident",
+   "lang": "en",
+   "stream": "news",
+   "title": "Albufeira’s car rampage “an isolated incident” – mayor",
+   "url": "https://www.portugalresident.com/albufeiras-car-rampage-an-isolated-incident-mayor/",
+   "published_at": "2026-08-25T10:53:12+00:00",
+   "query": "",
+   "doc_id": "355acb9e4657f281",
+   "title_en": "Albufeira's car rampage \"an isolated incident\" – mayor",
+   "category": "OTHER",
+   "score": 1,
+   "rationale": "Local safety incident; no business or regulatory impact on property buyers."
+  },
+  {
+   "source_id": "portugal_resident",
+   "lang": "en",
+   "stream": "news",
+   "title": "10 road deaths, over 1,000 injured between August 18-24",
+   "url": "https://www.portugalresident.com/10-road-deaths-over-1000-injured-between-august-18-24/",
+   "published_at": "2026-08-25T10:21:49+00:00",
+   "query": "",
+   "doc_id": "013e5d593a1c2139",
+   "title_en": "10 road deaths, over 1,000 injured between August 18-24",
+   "category": "OTHER",
+   "score": 1,
+   "rationale": "General traffic safety; not property-related."
+  },
+  {
+   "source_id": "portugal_resident",
+   "lang": "en",
+   "stream": "news",
+   "title": "Minister condemns Albufeira hit-and-run that left 12 injured",
+   "url": "https://www.portugalresident.com/minister-condemns-albufeira-oura-incident-12-injured/",
+   "published_at": "2026-08-25T10:11:31+00:00",
+   "query": "",
+   "doc_id": "cddd9d6add1aa73d",
+   "title_en": "Minister condemns Albufeira hit-and-run that left 12 injured",
+   "category": "OTHER",
+   "score": 1,
+   "rationale": "Local incident coverage; no cross-border property implication."
+  },
+  {
+   "source_id": "portugal_resident",
+   "lang": "en",
+   "stream": "news",
+   "title": "Police torture probe: ‘Many more officers believed to be involved’",
+   "url": "https://www.portugalresident.com/police-torture-probe-many-more-officers-believed-to-be-involved/",
+   "published_at": "2026-08-25T09:30:15+00:00",
+   "query": "",
+   "doc_id": "4e2605b5282ea299",
+   "title_en": "Police torture probe: 'Many more officers believed to be involved'",
+   "category": "OTHER",
+   "score": 1,
+   "rationale": "Domestic law enforcement; tangentially relevant to safety perception only."
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "Wish You Weren't Here Too - The TaxPayers' Alliance",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5jZTlKZVlIQ0tNWS16aXhLbzBKMWNMVVFLUngxQW5QTVkwMU5SOG11UTV4TnVwWVZZcDFqQlYwN0RBOWwxLTVsUzZCZU5hWlRwWEhrV242eWt4TWlaVFhCQ1J3RG0wQQ?oc=5",
+   "published_at": "2026-08-25T12:09:25+00:00",
+   "query": "second home council tax premium",
+   "doc_id": "767f6b759eff7f49",
+   "title_en": "Wish You Weren't Here Too - The TaxPayers' Alliance",
+   "category": "OTHER",
+   "score": 1,
+   "rationale": "UK domestic property tax commentary; outside corridor markets."
   },
   {
    "source_id": "gnews_en",
@@ -784,316 +630,8 @@
    "doc_id": "ff375da086e8ee6f",
    "title_en": "Crans-Montana bar co-owner is in pre-trial detention over alleged domestic violence - Brussels Signal",
    "category": "OTHER",
-   "score": 2,
-   "rationale": "Criminal case unrelated to property, investment or cross-border market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Resolución de 24 de agosto de 2026, del Banco de España, por la que se publican los cambios del euro correspondientes al día 24 de agosto de 2026, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18147.pdf",
-   "published_at": "2026-08-25T11:59:06.375645+00:00",
-   "query": "",
-   "doc_id": "a7d56ffd187638a4",
-   "title_en": "Resolution of 24 August 2026, from the Bank of Spain, publishing the euro exchange rates corresponding to 24 August 2026, published by the European Central Bank, which will be considered official rates, in accordance with article 36 of Law 46/19",
-   "category": "OTHER",
    "score": 1,
-   "rationale": "Standard currency publication; marginally relevant to cross-border buyers."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de licitación de: Junta de Contratación del Ministerio de Transportes y Movilidad Sostenible. Objeto: Contrato para los cursos de idiomas presenciales para el personal del Ministerio de Transportes y Movilidad Sostenible. Expediente: 26PBF2RH0166.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27764.pdf",
-   "published_at": "2026-08-25T11:59:06.375935+00:00",
-   "query": "",
-   "doc_id": "cdbc0574b36ba4da",
-   "title_en": "Tender announcement: Procurement Board of the Ministry of Transport and Sustainable Mobility. Object: Contract for in-person language courses for Ministry of Transport and Sustainable Mobility personnel. File: 26PBF2RH0166.",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Spanish government language training; unrelated to second-home or property market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de formalización de contratos de: Junta de Contratación del Ministerio de Transportes y Movilidad Sostenible. Objeto: Acuerdo marco con un único empresario por lote para la contratación de servicios de cursos de formación del Plan de formación del Ministerio de Transportes y Movilidad Sostenible. Expediente: 26PBF2RH0004.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27772.pdf",
-   "published_at": "2026-08-25T11:59:06.375986+00:00",
-   "query": "",
-   "doc_id": "7f2359533d20077c",
-   "title_en": "Contract formalization announcement: Procurement Board of the Ministry of Transport and Sustainable Mobility. Object: Framework agreement with a single entrepreneur per lot for training course services under the Ministry's training plan.",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Spanish government training procurement; unrelated to second-home or property market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de formalización de contratos de: Dirección Provincial del Servicio Público de Empleo Estatal en Guipuzkoa. Objeto: Servicio de seguridad en la sede de la Dirección Provincial del SEPE en Gipuzkoa. Expediente: PAS 1/26.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27773.pdf",
-   "published_at": "2026-08-25T11:59:06.375994+00:00",
-   "query": "",
-   "doc_id": "9e711b8d0c7e16b4",
-   "title_en": "Contract formalization announcement: Provincial Directorate of the State Public Employment Service in Guipuzcoa. Object: Security service at the Provincial Directorate headquarters of the SEPE in Gipuzkoa. File: PAS 1/26.",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Spanish employment agency security procurement; unrelated to second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de licitación de: Dirección del Organismo Estatal Inspección de Trabajo y Seguridad Social. Objeto: Servicio de vigilancia de las Inspecciones Provinciales de Trabajo y Seguridad Social de Almería, Cádiz, Granada, Huelva, Jaén, Málaga y Sevilla. Expediente: 310/2026.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27774.pdf",
-   "published_at": "2026-08-25T11:59:06.376000+00:00",
-   "query": "",
-   "doc_id": "aaa9c09199260e29",
-   "title_en": "Tender announcement: Directorate of the State Labour Inspection and Social Security Body. Object: Surveillance service for Provincial Labour and Social Security Inspectorates in Almería, Cádiz, Granada, Huelva, Jaén, Málaga and Seville. File: 310/2026.",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Spanish labour inspection security procurement; unrelated to second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de licitación de: Delegación del Gobierno en Galicia. Objeto: Mantenimiento integral en los edificios de la Delegación del Gobierno en Galicia, en la localidad de A Coruña. Expediente: 202615000003.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27775.pdf",
-   "published_at": "2026-08-25T11:59:06.376008+00:00",
-   "query": "",
-   "doc_id": "665f3bc6d16169c7",
-   "title_en": "Tender announcement: Government Delegation in Galicia. Object: Comprehensive maintenance of Government Delegation buildings in Galicia, in the city of A Coruña. File: 202615000003.",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Spanish government building maintenance; unrelated to second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de formalización de contratos de: Junta de Contratación del Ministerio de Cultura . Objeto: Ordenación, tratamiento y documentación de 783 unidades documentales y de 20 planos de gran formato de bienes BIC Inmuebles que se custodian en el Archivo General de la Administración (AGA). Expediente: JS260014.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27776.pdf",
-   "published_at": "2026-08-25T11:59:06.376015+00:00",
-   "query": "",
-   "doc_id": "3703b5c8986d487e",
-   "title_en": "Contract formalization announcement: Procurement Board of the Ministry of Culture. Object: Organization, processing and documentation of 783 documentary units and 20 large-format plans of BIC Immovable assets held in the General Administration Archive (AGA).",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Spanish cultural heritage documentation; unrelated to second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de formalización de contratos de: Dirección de la Agencia Española de Medicamentos y Productos Sanitarios. Objeto: El suministro de créditos Microsoft Azure Prepayment y soporte técnico especializado para la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). Expediente: 2026/22002/002.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27777.pdf",
-   "published_at": "2026-08-25T11:59:06.376022+00:00",
-   "query": "",
-   "doc_id": "ba25afdd5dcd86ea",
-   "title_en": "Contract formalization announcement: Directorate of the Spanish Medicines and Healthcare Products Agency. Object: Supply of Microsoft Azure Prepayment credits and specialized technical support for the Spanish Medicines and Healthcare Products Agency (AEMPS). File: 2026/22.",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Spanish pharmaceutical agency IT procurement; unrelated to second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de formalización de contratos de: Secretaría General de la Agencia Española de Medicamentos y Productos Sanitarios. Objeto: Servicios para la impartición de clases de inglés del plan de formación interna en la Agencia Española de Medicamentos y Productos Sanitarios. Expediente: 2026/16200/003.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27778.pdf",
-   "published_at": "2026-08-25T11:59:06.376029+00:00",
-   "query": "",
-   "doc_id": "b01430deac11fad8",
-   "title_en": "Contract formalization announcement: General Secretariat of the Spanish Medicines and Healthcare Products Agency. Object: Services for delivering English classes under the internal training plan of the Spanish Medicines and Healthcare Products Agency. File: 2026/16200/00.",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Spanish pharmaceutical agency language training; unrelated to second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria de Melilla - Instituto Nacional de Gestión Sanitaria. Objeto: Suministro de medicamentos exclusivos de la empresa Biogen Idec Iberia, S.L dispensados en el HUME dependientes del INGESA para los pacientes de la Gerencia de Atención Sanitaria de Melilla. Expediente: P.N.S.P. 2026-044-GME.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27779.pdf",
-   "published_at": "2026-08-25T11:59:06.376036+00:00",
-   "query": "",
-   "doc_id": "0e75943c80abd51a",
-   "title_en": "Contract formalization announcement: Healthcare Management of Melilla - National Health Management Institute. Object: Supply of exclusive medicines from Biogen Idec Iberia, S.L. dispensed at HUME under INGESA for patients of the Healthcare Management.",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Spanish healthcare pharmaceutical procurement; unrelated to second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de licitación de: INSS-Dirección Provincial de Badajoz. Objeto: Servicios de seguridad y vigilancia de los edificios dependientes de la Dirección Provincial del Instituto Nacional de la Seguridad Social de Badajoz. Expediente: 06/VC-217/26.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27781.pdf",
-   "published_at": "2026-08-25T11:59:06.376049+00:00",
-   "query": "",
-   "doc_id": "3c591d0220a287fa",
-   "title_en": "Tender announcement: INSS - Provincial Directorate of Badajoz. Object: Security and surveillance services for buildings under the Provincial Directorate of the National Social Security Institute in Badajoz. File: 06/VC-217/26.",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Spanish social security office security procurement; unrelated to second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de formalización de contratos de: TGSS-Dirección provincial de Guipúzcoa. Objeto: Ejecución de la obra de rehabilitación de luceros de la terraza de patio de manzana en un edificio situado en el número 3 de la calle Oiartzun de Donostia-San Sebastián. Expediente: 2026/200073.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27782.pdf",
-   "published_at": "2026-08-25T11:59:06.376056+00:00",
-   "query": "",
-   "doc_id": "9bebcfe44aba6f19",
-   "title_en": "Contract formalization announcement: TGSS - Provincial Directorate of Guipúzcoa. Object: Execution of rehabilitation work on skylights of courtyard terrace in a building at number 3 Oiartzun street, Donostia-San Sebastián. File: 2026/200073.",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Spanish social security building renovation; unrelated to second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de licitación de: TGSS-Dirección provincial de Guadalajara. Objeto: Servicio de limpieza e higienización de las dependencias de las Direcciones Provinciales del INSS y de la TGSS en Guadalajara.Desde el 1 de enero de 2027 o fecha de formalización, si fuese posterior, hasta el 31 de diciembre de 2027. Expediente: 2026/190042.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27783.pdf",
-   "published_at": "2026-08-25T11:59:06.376062+00:00",
-   "query": "",
-   "doc_id": "3e00e2b650d3817c",
-   "title_en": "Tender announcement: TGSS - Provincial Directorate of Guadalajara. Object: Cleaning and hygienization service for the facilities of the Provincial Directorates of INSS and TGSS in Guadalajara. From 1 January 2027 or formalization date, whichever is later, until 31 December.",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Spanish social security office cleaning procurement; unrelated to second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de la Autoridad Portuaria de Huelva sobre el otorgamiento de licencia para la prestación del servicio portuario de recepción de desechos procedentes de los buques (RRC-006) en sus instalaciones del Puerto de Huelva.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27784.pdf",
-   "published_at": "2026-08-25T11:59:06.376070+00:00",
-   "query": "",
-   "doc_id": "7c3eb30676753675",
-   "title_en": "Announcement by the Huelva Port Authority on the granting of a license for the provision of the port service of reception of waste from ships (RRC-006) at its Port of Huelva facilities.",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Spanish port waste management licensing; unrelated to second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Resolución de la Autoridad Portuaria de Gijón por la que se hace público el acuerdo de otorgamiento de licencia de servicio portuario de recepción de desechos generados por buques.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27785.pdf",
-   "published_at": "2026-08-25T11:59:06.376077+00:00",
-   "query": "",
-   "doc_id": "9745c1f52eb592e3",
-   "title_en": "Resolution by the Gijón Port Authority making public the agreement for granting a port service license for reception of waste generated by ships.",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Spanish port waste management licensing; unrelated to second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Resolución de la Autoridad Portuaria de Gijón por la que se hace público el acuerdo de modificación sustancial de concesión demanial portuaria.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27786.pdf",
-   "published_at": "2026-08-25T11:59:06.376083+00:00",
-   "query": "",
-   "doc_id": "da3f0573c31744e8",
-   "title_en": "Resolution by the Gijón Port Authority making public the agreement for substantial modification of a port public-land concession.",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Spanish port concession modification; unrelated to second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de la Demarcación de Carreteras del Estado en Extremadura por el que se publica la Resolución de la Dirección General de Carreteras en la que se aprueba provisionalmente y se somete a información pública el Proyecto de Trazado Mejora de la seguridad vial. Construcción de glorieta y reordenación de accesos en la intersección existente en la N-502. P.K. 232+822. T.M. de Herrera del Duque. Provincia de Badajoz. Clave: 33-BA-4410.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27790.pdf",
-   "published_at": "2026-08-25T11:59:06.376109+00:00",
-   "query": "",
-   "doc_id": "a0b59e1ef98632ef",
-   "title_en": "Announcement by the Road Demarcation Authority in Extremadura publishing the Resolution of the General Directorate of Roads approving provisionally and submitting to public information the Detailed Design Project for Road Safety Improvement. Construction of roundabout and reorganization.",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Spanish road infrastructure project; unrelated to second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Resolución de la Dirección General de Trabajo por la que se anuncia la constitución de la confederación sindical denominada Confederación Anarcosindicalista, en siglas CA-AIT, con número de depósito 99106455.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27792.pdf",
-   "published_at": "2026-08-25T11:59:06.376123+00:00",
-   "query": "",
-   "doc_id": "5aa70a29dfcc99b4",
-   "title_en": "Resolution from the General Labour Directorate announcing the establishment of the labour confederation called Anarcho-syndicalist Confederation, CA-AIT, with filing number 99106455.",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Labour confederation registration; no relevance to property or cross-border buyers."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Anuncio de la Confederación Hidrográfica del Guadalquivir, O.A., de información pública de procedimiento de concesión de aguas públicas para uso ganadero y un volumen de 1.644 m³/año a captar de Presa/embalse – Arroyo Tamujosillo en el término municipal de Adamuz (Córdoba). Expediente A-73/2023-ing.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27793.pdf",
-   "published_at": "2026-08-25T11:59:06.376130+00:00",
-   "query": "",
-   "doc_id": "29aae43c0f01b6fb",
-   "title_en": "Notice from the Guadalquivir River Basin Authority of public information for a public water concession procedure for livestock use with a volume of 1,644 m³/year to be extracted from Presa/reservoir – Arroyo Tamujosillo in the municipality of Adamuz (Córdoba). Case A-73/2023-ing.",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Water rights for livestock; unrelated to property or cross-border second-home buyers."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Resolución de 21 de abril de 2026, de la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Córdoba, por la que se concede autorización administrativa previa, autorización administrativa de construcción y se declara en concreto la utilidad pública a la instalación fotovoltaica CESAR de 1 MW de potencia, sito en el Termino Municipal de Hinojosa del Duque (Córdoba), Expediente AT 3/2023.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27797.pdf",
-   "published_at": "2026-08-25T11:59:06.376158+00:00",
-   "query": "",
-   "doc_id": "641babcd98ad3f36",
-   "title_en": "Resolution of 21 April 2026 from the Territorial Delegation of Economy, Finance, European Funds and Industry, Energy and Mines in Córdoba, granting prior administrative authorization, construction administrative authorization and declaring public utility for…",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Energy or industrial facility authorization; incomplete and unrelated to property."
-  },
-  {
-   "source_id": "portugal_resident",
-   "lang": "en",
-   "stream": "news",
-   "title": "Director of Portuguese Erasmus+ agency honoured by Ukraine",
-   "url": "https://www.portugalresident.com/director-of-portuguese-erasmus-agency-honoured-by-ukraine/",
-   "published_at": "2026-08-25T10:06:30+00:00",
-   "query": "",
-   "doc_id": "f899e8c60ff042a7",
-   "title_en": "Director of Portuguese Erasmus+ agency honoured by Ukraine",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Educational programme honours; unrelated to property or cross-border buyers."
-  },
-  {
-   "source_id": "portugal_resident",
-   "lang": "en",
-   "stream": "news",
-   "title": "Portugal’s oldest woman dies aged 113 in São Brás de Alportel",
-   "url": "https://www.portugalresident.com/portugal-oldest-woman-dies-113-algarve/",
-   "published_at": "2026-08-25T09:18:24+00:00",
-   "query": "",
-   "doc_id": "ded4197eff60c06e",
-   "title_en": "Portugal's oldest woman dies aged 113 in São Brás de Alportel",
-   "category": "OTHER",
-   "score": 1,
-   "rationale": "Human interest; unrelated to property, investment or buyer behaviour."
+   "rationale": "Local criminal matter; not property-market relevant."
   },
   {
    "source_id": "boe_sumario",
@@ -1101,13 +639,13 @@
    "stream": "regulatory",
    "title": "Resolución de 7 de agosto de 2026, de la Dirección General para la Eficiencia del Servicio Público de Justicia, por la que se declara la jubilación de doña Valentina García Almagro, Fiscal con destino en la Fiscalía Provincial de Alicante.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18111.pdf",
-   "published_at": "2026-08-25T11:59:06.375314+00:00",
+   "published_at": "2026-08-25T12:13:59.959802+00:00",
    "query": "",
    "doc_id": "5aafac2d00cbc6fa",
-   "title_en": "Resolution of 7 August 2026, from the Directorate General for the Efficiency of Public Justice Service, declaring the retirement of Ms Valentina García Almagro, Prosecutor assigned to the Provincial Public Prosecutor's Office of Alicante.",
+   "title_en": "Resolution of 7 August 2026, from the Directorate General for the Efficiency of the Public Justice Service, declaring the retirement of Valentina García Almagro, Prosecutor assigned to the Provincial Prosecutor's Office of Alicante.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Personnel announcement unrelated to second-home or cross-border property."
+   "rationale": "Personnel matter; unrelated to cross-border second-home market."
   },
   {
    "source_id": "boe_sumario",
@@ -1115,13 +653,13 @@
    "stream": "regulatory",
    "title": "Resolución de 15 de julio de 2026, de la Secretaría de Estado de Seguridad, por la que se declara la pérdida de la condición de funcionario del Subinspector de la Policía Nacional don Diego Arias García.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18112.pdf",
-   "published_at": "2026-08-25T11:59:06.375377+00:00",
+   "published_at": "2026-08-25T12:13:59.959855+00:00",
    "query": "",
    "doc_id": "c18c5dd142825d8b",
-   "title_en": "Resolution of 15 July 2026, from the State Secretariat for Security, declaring the loss of civil servant status of Sub-Inspector of the National Police Mr Diego Arias García.",
+   "title_en": "Resolution of 15 July 2026, from the State Secretariat for Security, declaring the loss of civil servant status of Subinspector of the National Police Diego Arias García.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Personnel announcement unrelated to second-home or cross-border property."
+   "rationale": "Personnel matter; unrelated to cross-border second-home market."
   },
   {
    "source_id": "boe_sumario",
@@ -1129,13 +667,13 @@
    "stream": "regulatory",
    "title": "Resolución de 14 de agosto de 2026, de la Subsecretaría, por la que se convoca concurso específico para la provisión de puestos de trabajo en la Dirección General de la Policía.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18113.pdf",
-   "published_at": "2026-08-25T11:59:06.375393+00:00",
+   "published_at": "2026-08-25T12:13:59.959874+00:00",
    "query": "",
    "doc_id": "469aa10be6074c9a",
-   "title_en": "Resolution of 14 August 2026, from the Under-Secretariat, convening a specific competition for the provision of job positions in the Directorate General of Police.",
+   "title_en": "Resolution of 14 August 2026, from the Subsecretariat, convening a specific competition for the provision of positions in the Directorate General of Police.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Personnel announcement unrelated to second-home or cross-border property."
+   "rationale": "Public sector job posting; unrelated to cross-border second-home market."
   },
   {
    "source_id": "boe_sumario",
@@ -1143,13 +681,13 @@
    "stream": "regulatory",
    "title": "Resolución de 21 de agosto de 2026, de la Dirección General de Personal, de la Consejería de Educación, Formación Profesional, Actividad Física y Deportes, por la que se publica la convocatoria del procedimiento selectivo excepcional de estabilización, por el sistema de concurso, para el ingreso en los Cuerpos de Catedráticos de Música y Artes Escénicas y de Profesores de Música y Artes Escénicas, y se convoca plaza de la especialidad de Escena Lírica.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18114.pdf",
-   "published_at": "2026-08-25T11:59:06.375403+00:00",
+   "published_at": "2026-08-25T12:13:59.959884+00:00",
    "query": "",
    "doc_id": "279f4ddac9168826",
-   "title_en": "Resolution of 21 August 2026, from the Directorate General of Personnel, Directorate of Education, Vocational Training, Physical Activity and Sports, publishing the call for an exceptional selective procedure for stabilization by competition system for entry into",
+   "title_en": "Resolution of 21 August 2026, from the Directorate General of Personnel, of the Ministry of Education, Vocational Training, Physical Activity and Sports, publishing the exceptional selective procedure for stabilization, by competition system, for entry into...",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Personnel announcement unrelated to second-home or cross-border property."
+   "rationale": "Public sector job posting; unrelated to cross-border second-home market."
   },
   {
    "source_id": "boe_sumario",
@@ -1157,13 +695,13 @@
    "stream": "regulatory",
    "title": "Resolución de 17 de agosto de 2026, del Ayuntamiento de Majadahonda (Madrid), referente a la convocatoria para proveer puesto de trabajo por el sistema de concurso.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18115.pdf",
-   "published_at": "2026-08-25T11:59:06.375413+00:00",
+   "published_at": "2026-08-25T12:13:59.959894+00:00",
    "query": "",
    "doc_id": "20ec2b51f568bb50",
-   "title_en": "Resolution of 17 August 2026, from the Municipality of Majadahonda (Madrid), regarding the call for job position provision by competition system.",
+   "title_en": "Resolution of 17 August 2026, from the Municipality of Majadahonda (Madrid), regarding the call to fill a job position by competition system.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Local personnel announcement unrelated to second-home or cross-border property."
+   "rationale": "Local public sector job posting; unrelated to second-home market."
   },
   {
    "source_id": "boe_sumario",
@@ -1171,13 +709,13 @@
    "stream": "regulatory",
    "title": "Resolución de 18 de agosto de 2026, del Consorcio de Prevención y Extinción de Incendios en la Provincia de Badajoz, de la Diputación de Badajoz (Badajoz), referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18116.pdf",
-   "published_at": "2026-08-25T11:59:06.375421+00:00",
+   "published_at": "2026-08-25T12:13:59.959902+00:00",
    "query": "",
    "doc_id": "8009ed30a217890f",
-   "title_en": "Resolution of 18 August 2026, from the Fire Prevention and Extinction Consortium in the Province of Badajoz, of the Provincial Council of Badajoz (Badajoz), regarding the call for job position provision by competition system.",
+   "title_en": "Resolution of 18 August 2026, from the Fire Prevention and Extinction Consortium in the Province of Badajoz, of the Provincial Council of Badajoz (Badajoz), regarding the call to fill positions by competition system.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Local personnel announcement unrelated to second-home or cross-border property."
+   "rationale": "Public sector job posting; unrelated to second-home market."
   },
   {
    "source_id": "boe_sumario",
@@ -1185,27 +723,13 @@
    "stream": "regulatory",
    "title": "Resolución de 27 de julio de 2026, del Ayuntamiento de Móstoles (Madrid), referente a la convocatoria para proveer varias plazas.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18117.pdf",
-   "published_at": "2026-08-25T11:59:06.375428+00:00",
+   "published_at": "2026-08-25T12:13:59.959910+00:00",
    "query": "",
    "doc_id": "0fdb6cd0aab2e008",
-   "title_en": "Resolution of 27 July 2026, from the Municipality of Móstoles (Madrid), regarding the call for several positions.",
+   "title_en": "Resolution of 27 July 2026, from the Municipality of Móstoles (Madrid), regarding the call to fill several positions.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Local personnel announcement unrelated to second-home or cross-border property."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Resolución de 18 de agosto de 2026, de la Diputación Provincial de Granada, referente a la convocatoria para proveer varias plazas.",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18128.pdf",
-   "published_at": "2026-08-25T11:59:06.375500+00:00",
-   "query": "",
-   "doc_id": "c71ce8fa7688ba1f",
-   "title_en": "Resolution of 18 August 2026, from the Provincial Council of Granada, regarding the call for several positions.",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "Local personnel announcement unrelated to second-home or cross-border property."
+   "rationale": "Local public sector job posting; unrelated to second-home market."
   },
   {
    "source_id": "boe_sumario",
@@ -1213,13 +737,13 @@
    "stream": "regulatory",
    "title": "Resolución de 18 de agosto de 2026, de la Mancomunidad Ría de Arousa Zona Norte (A Coruña), referente a la convocatoria para proveer una plaza.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18129.pdf",
-   "published_at": "2026-08-25T11:59:06.375506+00:00",
+   "published_at": "2026-08-25T12:13:59.959993+00:00",
    "query": "",
    "doc_id": "39fd1194a1f03f65",
-   "title_en": "Resolution of 18 August 2026, from the Association Ría de Arousa North Zone (A Coruña), regarding the call for one position.",
+   "title_en": "Resolution of 18 August 2026, from the Ría de Arousa North Zone Municipal Association (A Coruña), regarding the call to fill one position.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Local personnel announcement unrelated to second-home or cross-border property."
+   "rationale": "Local public sector job posting; unrelated to second-home market."
   },
   {
    "source_id": "boe_sumario",
@@ -1227,13 +751,13 @@
    "stream": "regulatory",
    "title": "Resolución de 30 de julio de 2026, de la Universidad Complutense de Madrid, por la que se convoca concurso de acceso a plaza de cuerpos docentes universitarios.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18132.pdf",
-   "published_at": "2026-08-25T11:59:06.375529+00:00",
+   "published_at": "2026-08-25T12:13:59.960014+00:00",
    "query": "",
    "doc_id": "50ee2c33f0fa7f0b",
-   "title_en": "Resolution of 30 July 2026, from the Complutense University of Madrid, convening a competition for access to university teaching staff positions.",
+   "title_en": "Resolution of 30 July 2026, from the Complutense University of Madrid, convening a competition for access to positions in university teaching bodies.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Personnel announcement unrelated to second-home or cross-border property."
+   "rationale": "University job posting; unrelated to second-home market."
   },
   {
    "source_id": "boe_sumario",
@@ -1241,13 +765,13 @@
    "stream": "regulatory",
    "title": "Resolución de 20 de agosto de 2026, de la Secretaría General Técnica, por la que se publica el Convenio entre la Embajada de España en Egipto y CAF Egypt for Transportation Systems, para la celebración de la Fiesta Nacional de España.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18135.pdf",
-   "published_at": "2026-08-25T11:59:06.375551+00:00",
+   "published_at": "2026-08-25T12:13:59.960036+00:00",
    "query": "",
    "doc_id": "118a488bacd2fd3d",
-   "title_en": "Resolution of 20 August 2026, from the Technical General Secretariat, publishing the Agreement between the Spanish Embassy in Egypt and CAF Egypt for Transportation Systems, for the celebration of Spain's National Day.",
+   "title_en": "Resolution of 20 August 2026, from the General Technical Secretariat, publishing the Agreement between the Embassy of Spain in Egypt and CAF Egypt for Transportation Systems, for the celebration of Spain's National Holiday.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "International event agreement unrelated to second-home or cross-border property."
+   "rationale": "International protocol matter; unrelated to second-home market."
   },
   {
    "source_id": "boe_sumario",
@@ -1255,13 +779,13 @@
    "stream": "regulatory",
    "title": "Resolución 420/38367/2026, de 19 de agosto, de la Secretaría General Técnica, por la que se publica el Convenio con la Fundación José Luis Zazurca de Zaragoza, para la puesta en marcha de un plan de actuación en formación en actividades relacionadas con el mundo del caballo dirigido a personas adultas con discapacidad intelectual.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18138.pdf",
-   "published_at": "2026-08-25T11:59:06.375574+00:00",
+   "published_at": "2026-08-25T12:13:59.960060+00:00",
    "query": "",
    "doc_id": "b2f827cd7befb600",
-   "title_en": "Resolution 420/38367/2026, of 19 August, from the Technical General Secretariat, publishing the Agreement with the José Luis Zazurca Foundation of Zaragoza, for the launch of an action plan in training in activities related to the horse world aimed at adult persons",
+   "title_en": "Resolution 420/38367/2026, of 19 August, from the General Technical Secretariat, publishing the Agreement with the José Luis Zazurca Foundation of Zaragoza, for the launch of an action plan on training in activities related to the horse world aimed at adult persons...",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Training program agreement unrelated to second-home or cross-border property."
+   "rationale": "Training programme agreement; unrelated to second-home market."
   },
   {
    "source_id": "boe_sumario",
@@ -1269,27 +793,13 @@
    "stream": "regulatory",
    "title": "Resolución de 30 de julio de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Imerys Diatomita Alicante, SA.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18141.pdf",
-   "published_at": "2026-08-25T11:59:06.375601+00:00",
+   "published_at": "2026-08-25T12:13:59.960083+00:00",
    "query": "",
    "doc_id": "36623c9f380a8671",
    "title_en": "Resolution of 30 July 2026, from the Directorate General of Labour, registering and publishing the collective agreement of Imerys Diatomita Alicante, SA.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Labour agreement in non-property sector, unrelated to second-home market."
-  },
-  {
-   "source_id": "boe_sumario",
-   "lang": "es",
-   "stream": "regulatory",
-   "title": "Resolución de 31 de julio de 2026, de la Dirección General de Política Energética y Minas, por la que se otorga a Bianor Solar, SLU, autorización administrativa previa y autorización administrativa de construcción del módulo de almacenamiento por baterías «Bianor», de 28,37 MW de potencia instalada, y para su infraestructura de evacuación, para su hibridación con el parque solar fotovoltaico existente «Bianor», de 33 MW de potencia instalada, en Utrera (Sevilla).",
-   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-A-2026-18143.pdf",
-   "published_at": "2026-08-25T11:59:06.375614+00:00",
-   "query": "",
-   "doc_id": "090c40b965cddc49",
-   "title_en": "Resolution of 31 July 2026, from the Directorate General of Energy Policy and Mines, granting to Bianor Solar, SLU, prior administrative authorization and administrative construction authorization for the «Bianor» battery storage module, 28.37 MW installed capacity",
-   "category": "OTHER",
-   "score": 0,
-   "rationale": "Energy infrastructure unrelated to second-home or cross-border property."
+   "rationale": "Industrial collective bargaining; unrelated to second-home market."
   },
   {
    "source_id": "boe_sumario",
@@ -1297,13 +807,13 @@
    "stream": "regulatory",
    "title": "ARENYS MAR",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27721.pdf",
-   "published_at": "2026-08-25T11:59:06.375654+00:00",
+   "published_at": "2026-08-25T12:13:59.960139+00:00",
    "query": "",
    "doc_id": "36f915bb23b573fd",
    "title_en": "ARENYS MAR",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Insufficient context; appears to be a place name only."
+   "rationale": "Incomplete headline; insufficient information to assess relevance."
   },
   {
    "source_id": "boe_sumario",
@@ -1311,13 +821,13 @@
    "stream": "regulatory",
    "title": "CASAS IBAÑEZ",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27722.pdf",
-   "published_at": "2026-08-25T11:59:06.375660+00:00",
+   "published_at": "2026-08-25T12:13:59.960145+00:00",
    "query": "",
    "doc_id": "86aa620a366c9707",
    "title_en": "CASAS IBAÑEZ",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Insufficient context; appears to be a place name only."
+   "rationale": "Incomplete headline; insufficient information to assess relevance."
   },
   {
    "source_id": "boe_sumario",
@@ -1325,13 +835,13 @@
    "stream": "regulatory",
    "title": "IBI",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27723.pdf",
-   "published_at": "2026-08-25T11:59:06.375667+00:00",
+   "published_at": "2026-08-25T12:13:59.960151+00:00",
    "query": "",
    "doc_id": "65ab86b071350671",
    "title_en": "IBI",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Insufficient context; likely place name or acronym without substance."
+   "rationale": "Incomplete headline; insufficient information to assess relevance."
   },
   {
    "source_id": "boe_sumario",
@@ -1339,13 +849,13 @@
    "stream": "regulatory",
    "title": "VINAROS",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27725.pdf",
-   "published_at": "2026-08-25T11:59:06.375679+00:00",
+   "published_at": "2026-08-25T12:13:59.960164+00:00",
    "query": "",
    "doc_id": "c940b927b165a390",
    "title_en": "VINAROS",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Insufficient context; appears to be a place name only."
+   "rationale": "Incomplete headline; insufficient information to assess relevance."
   },
   {
    "source_id": "boe_sumario",
@@ -1353,13 +863,13 @@
    "stream": "regulatory",
    "title": "BARCELONA",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27726.pdf",
-   "published_at": "2026-08-25T11:59:06.375685+00:00",
+   "published_at": "2026-08-25T12:13:59.960170+00:00",
    "query": "",
    "doc_id": "7179cb2173de5a52",
    "title_en": "BARCELONA",
    "category": "OTHER",
    "score": 0,
-   "rationale": "City name only; no headline or property market information."
+   "rationale": "Bare city name; no market or business content."
   },
   {
    "source_id": "boe_sumario",
@@ -1367,13 +877,13 @@
    "stream": "regulatory",
    "title": "CASTELLON DE LA PLANA",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27727.pdf",
-   "published_at": "2026-08-25T11:59:06.375691+00:00",
+   "published_at": "2026-08-25T12:13:59.960176+00:00",
    "query": "",
    "doc_id": "9ba3e56a8ba62a7b",
    "title_en": "CASTELLON DE LA PLANA",
    "category": "OTHER",
    "score": 0,
-   "rationale": "City name only; no headline or property market information."
+   "rationale": "Bare city name; no market or business content."
   },
   {
    "source_id": "boe_sumario",
@@ -1381,13 +891,13 @@
    "stream": "regulatory",
    "title": "LAS PALMAS DE GRAN CANARIA",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27728.pdf",
-   "published_at": "2026-08-25T11:59:06.375696+00:00",
+   "published_at": "2026-08-25T12:13:59.960183+00:00",
    "query": "",
    "doc_id": "7ea81702413a85ec",
    "title_en": "LAS PALMAS DE GRAN CANARIA",
    "category": "OTHER",
    "score": 0,
-   "rationale": "City name only; no headline or property market information."
+   "rationale": "Bare city name; no market or business content."
   },
   {
    "source_id": "boe_sumario",
@@ -1395,13 +905,13 @@
    "stream": "regulatory",
    "title": "ORIHUELA",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27729.pdf",
-   "published_at": "2026-08-25T11:59:06.375702+00:00",
+   "published_at": "2026-08-25T12:13:59.960188+00:00",
    "query": "",
    "doc_id": "7a099b26b48929e3",
    "title_en": "ORIHUELA",
    "category": "OTHER",
    "score": 0,
-   "rationale": "City name only; no headline or property market information."
+   "rationale": "Bare city name; no market or business content."
   },
   {
    "source_id": "boe_sumario",
@@ -1409,13 +919,13 @@
    "stream": "regulatory",
    "title": "TARRAGONA",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27730.pdf",
-   "published_at": "2026-08-25T11:59:06.375708+00:00",
+   "published_at": "2026-08-25T12:13:59.960195+00:00",
    "query": "",
    "doc_id": "fe0bf837fa950d28",
    "title_en": "TARRAGONA",
    "category": "OTHER",
    "score": 0,
-   "rationale": "City name only; no headline or property market information."
+   "rationale": "Bare city name; no market or business content."
   },
   {
    "source_id": "boe_sumario",
@@ -1423,13 +933,13 @@
    "stream": "regulatory",
    "title": "TORREVIEJA",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27731.pdf",
-   "published_at": "2026-08-25T11:59:06.375714+00:00",
+   "published_at": "2026-08-25T12:13:59.960201+00:00",
    "query": "",
    "doc_id": "ef1ecf545e920e31",
    "title_en": "TORREVIEJA",
    "category": "OTHER",
    "score": 0,
-   "rationale": "City name only; no headline or property market information."
+   "rationale": "Bare city name; no market or business content."
   },
   {
    "source_id": "boe_sumario",
@@ -1437,13 +947,13 @@
    "stream": "regulatory",
    "title": "ALICANTE/ALACANT",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27732.pdf",
-   "published_at": "2026-08-25T11:59:06.375720+00:00",
+   "published_at": "2026-08-25T12:13:59.960208+00:00",
    "query": "",
    "doc_id": "62166bd8c2418b79",
    "title_en": "ALICANTE/ALACANT",
    "category": "OTHER",
    "score": 0,
-   "rationale": "City name only; no headline or property market information."
+   "rationale": "Bare city name; no market or business content."
   },
   {
    "source_id": "boe_sumario",
@@ -1451,13 +961,13 @@
    "stream": "regulatory",
    "title": "EJIDO(EL)",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27733.pdf",
-   "published_at": "2026-08-25T11:59:06.375726+00:00",
+   "published_at": "2026-08-25T12:13:59.960214+00:00",
    "query": "",
    "doc_id": "6eb12fc9bc25420e",
    "title_en": "EJIDO(EL)",
    "category": "OTHER",
    "score": 0,
-   "rationale": "City name only; no headline or property market information."
+   "rationale": "Bare city name; no market or business content."
   },
   {
    "source_id": "boe_sumario",
@@ -1465,13 +975,13 @@
    "stream": "regulatory",
    "title": "MURCIA",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27734.pdf",
-   "published_at": "2026-08-25T11:59:06.375733+00:00",
+   "published_at": "2026-08-25T12:13:59.960220+00:00",
    "query": "",
    "doc_id": "ead01694db4defa9",
    "title_en": "MURCIA",
    "category": "OTHER",
    "score": 0,
-   "rationale": "City name only; no headline or property market information."
+   "rationale": "Bare city name; no market or business content."
   },
   {
    "source_id": "boe_sumario",
@@ -1479,13 +989,13 @@
    "stream": "regulatory",
    "title": "Anuncio de formalización de contratos de: Intendente de Ferrol. Objeto: Suministro de aceites y lubricantes para uso buques. Expediente: 2026/AR42U/00002097.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27738.pdf",
-   "published_at": "2026-08-25T11:59:06.375757+00:00",
+   "published_at": "2026-08-25T12:13:59.960245+00:00",
    "query": "",
    "doc_id": "83543d04847249f9",
-   "title_en": "Contract formalization notice: Intendant of Ferrol. Object: Supply of oils and lubricants for ship use. File: 2026/AR42U/00002097.",
+   "title_en": "Notice of contract formalization: Superintendent of Ferrol. Object: Supply of oils and lubricants for ship use. File: 2026/AR42U/00002097.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Spanish Navy procurement; unrelated to property or cross-border buyers."
+   "rationale": "Spanish Defence Ministry procurement; outside second-home property market."
   },
   {
    "source_id": "boe_sumario",
@@ -1493,13 +1003,13 @@
    "stream": "regulatory",
    "title": "Anuncio de formalización de contratos de: Dirección de Gestión Económica de la Jefatura de Apoyo Logístico de la Armada. Objeto: Suministro de lanzas contra incendios para buques de la Armada. Expediente: 2026/AR40U/00000145E.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27739.pdf",
-   "published_at": "2026-08-25T11:59:06.375764+00:00",
+   "published_at": "2026-08-25T12:13:59.960252+00:00",
    "query": "",
    "doc_id": "479eb8a3ce67ec4f",
-   "title_en": "Contract formalization notice: Economic Management Directorate of the Navy's Logistics Support Headquarters. Object: Supply of fire lances for Navy ships. File: 2026/AR40U/00000145E.",
+   "title_en": "Notice of contract formalization: Economic Management Directorate of the Armada Logistic Support Command. Object: Supply of fire hoses for Armada ships. File: 2026/AR40U/00000145E.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Spanish Navy procurement; unrelated to property or cross-border buyers."
+   "rationale": "Spanish Defence Ministry procurement; outside second-home property market."
   },
   {
    "source_id": "boe_sumario",
@@ -1507,13 +1017,13 @@
    "stream": "regulatory",
    "title": "Anuncio de formalización de contratos de: Dirección de Gestión Económica de la Jefatura de Apoyo Logístico de la Armada. Objeto: Contratación de servicios para redacción del Proyecto constructivo de un alojamiento logístico de la Armada para personal de tropa y marinería en Madrid. Expediente: 2025/AR40U/00002646E.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27740.pdf",
-   "published_at": "2026-08-25T11:59:06.375771+00:00",
+   "published_at": "2026-08-25T12:13:59.960258+00:00",
    "query": "",
    "doc_id": "f7eca3eef9802810",
-   "title_en": "Contract formalization notice: Economic Management Directorate of the Navy's Logistics Support Headquarters. Object: Contracting of services for drafting the construction project of Navy logistics accommodation for troops and sailors in Madrid. File: 2025/",
+   "title_en": "Notice of contract formalization: Economic Management Directorate of the Armada Logistic Support Command. Object: Contracting of services for drafting the construction Project of Armada logistic accommodation for troops and sailors in Madrid. File: 2025/",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Spanish Navy procurement; unrelated to property or cross-border buyers."
+   "rationale": "Spanish Defence Ministry procurement; outside second-home property market."
   },
   {
    "source_id": "boe_sumario",
@@ -1521,13 +1031,13 @@
    "stream": "regulatory",
    "title": "Anuncio de formalización de contratos de: Subdirección General de Contratación de Tecnologías de la Información y de las Comunicaciones (TIC). Objeto: Acuerdo Marco para la Adquisición de Equipamiento de Acceso al Medio para la Actualización de Terminales Satélite de la Infraestructura de Telecomunicaciones Satélite de la I3D. Expediente: 2025/SP03032003/00001894E.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27742.pdf",
-   "published_at": "2026-08-25T11:59:06.375785+00:00",
+   "published_at": "2026-08-25T12:13:59.960272+00:00",
    "query": "",
    "doc_id": "b53b1cf25632536c",
-   "title_en": "Contract formalization notice: Deputy General Directorate of Information Technology and Communications (ICT) Procurement. Object: Framework agreement for acquisition of medium access equipment for updating satellite terminals of telecommunications infrastructure.",
+   "title_en": "Notice of contract formalization: General Subdirectorate of Information Technology and Communications Contracting. Object: Framework Agreement for Acquisition of Medium Access Equipment for Update of Satellite Terminals of Telecommunications Infrastructure",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Government ICT procurement; unrelated to property or cross-border buyers."
+   "rationale": "Spanish Defence Ministry IT procurement; outside second-home property market."
   },
   {
    "source_id": "boe_sumario",
@@ -1535,13 +1045,13 @@
    "stream": "regulatory",
    "title": "Anuncio de licitación de: Inspección General de Sanidad de la Defensa. Objeto: PA 2027 Test drogas fluido oral \"IN SITU\". Expediente: 2026/SP01491010/00000470E.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27743.pdf",
-   "published_at": "2026-08-25T11:59:06.375792+00:00",
+   "published_at": "2026-08-25T12:13:59.960279+00:00",
    "query": "",
    "doc_id": "cd1885c2d03bd8d7",
-   "title_en": "Bidding notice: General Inspectorate of Defense Health. Object: 2027 Drug tests oral fluid \"IN SITU\". File: 2026/SP01491010/00000470E.",
+   "title_en": "Notice of bidding: General Defence Health Inspectorate. Object: PA 2027 Oral fluid drug test \"IN SITU\". File: 2026/SP01491010/00000470E.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Spanish Defense ministry procurement; unrelated to property or cross-border buyers."
+   "rationale": "Spanish Defence Ministry procurement; outside second-home property market."
   },
   {
    "source_id": "boe_sumario",
@@ -1549,13 +1059,13 @@
    "stream": "regulatory",
    "title": "Anuncio de licitación de: Intendente de Rota. Objeto: AM para el mantenimiento y conservación de los sistemas de seguridad de la Base Naval de Rota (Cádiz). Expediente: 2026/AR46U/00000736E.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27746.pdf",
-   "published_at": "2026-08-25T11:59:06.375812+00:00",
+   "published_at": "2026-08-25T12:13:59.960299+00:00",
    "query": "",
    "doc_id": "34216a0510f2c38a",
-   "title_en": "Bidding notice: Intendant of Rota. Object: Framework agreement for maintenance and preservation of security systems at Rota Naval Base (Cádiz). File: 2026/AR46U/00000736E.",
+   "title_en": "Notice of bidding: Superintendent of Rota. Object: AM for maintenance and conservation of security systems at Rota Naval Base (Cadiz). File: 2026/AR46U/00000736E.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Spanish Navy base procurement; unrelated to property or cross-border buyers."
+   "rationale": "Spanish Defence Ministry procurement; outside second-home property market."
   },
   {
    "source_id": "boe_sumario",
@@ -1563,13 +1073,13 @@
    "stream": "regulatory",
    "title": "Anuncio de licitación de: Junta de Contratación del Ministerio de Defensa. Objeto: Acuerdo marco de suministro de grasas, lubricantes y productos funcionales en el ámbito del Ministerio de Defensa. Expediente: 2026/JCMDEF/00000136E.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27747.pdf",
-   "published_at": "2026-08-25T11:59:06.375818+00:00",
+   "published_at": "2026-08-25T12:13:59.960305+00:00",
    "query": "",
    "doc_id": "5ac5c21f5d3de9f3",
-   "title_en": "Bidding notice: Procurement Board of the Defense Ministry. Object: Framework agreement for supply of greases, lubricants and functional products within the Defense Ministry. File: 2026/JCMDEF/00000136E.",
+   "title_en": "Notice of bidding: Ministry of Defence Contracting Board. Object: Framework agreement for supply of greases, lubricants and functional products within the scope of the Ministry of Defence. File: 2026/JCMDEF/00000136E.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Spanish Defense ministry procurement; unrelated to property or cross-border buyers."
+   "rationale": "Spanish Defence Ministry procurement; outside second-home property market."
   },
   {
    "source_id": "boe_sumario",
@@ -1577,13 +1087,13 @@
    "stream": "regulatory",
    "title": "Anuncio de licitación de: Intendente de Ferrol. Objeto: Acuerdo marco para el servicio de mantenimiento y reparación de equipos de ayuda a la navegación instalados en fragatas (F-100), BACs (Patiño y Cantabria) y patrulleros clase Serviola, Arnomendi, Carnota e Intermares apoyados por el Arsenal de Ferrol. Expediente: 2026/AR42U/00000228E.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27748.pdf",
-   "published_at": "2026-08-25T11:59:06.375825+00:00",
+   "published_at": "2026-08-25T12:13:59.960312+00:00",
    "query": "",
    "doc_id": "60325e8067520322",
-   "title_en": "Bidding notice: Intendant of Ferrol. Object: Framework agreement for maintenance and repair services of navigation aid equipment installed in frigates (F-100), amphibious command ships (Patiño and Cantabria) and Serviola, Arnomendi, Carnota and Intermares class patrol boats supported by the Arsenal.",
+   "title_en": "Notice of bidding: Superintendent of Ferrol. Object: Framework agreement for maintenance and repair services of navigation aids installed on frigates (F-100), BACs (Patiño and Cantabria) and Serviola class patrol boats, supported by the Arsenal of",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Spanish Navy procurement; unrelated to property or cross-border buyers."
+   "rationale": "Spanish Defence Ministry procurement; outside second-home property market."
   },
   {
    "source_id": "boe_sumario",
@@ -1591,13 +1101,13 @@
    "stream": "regulatory",
    "title": "Anuncio de formalización de contratos de: Jefatura de Asuntos Económicos del Mando de Apoyo Logístico. Objeto: Adquisición de artículos de viaje Lote 17. Expediente: 2026/ETSAE0906/00003094E.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27749.pdf",
-   "published_at": "2026-08-25T11:59:06.375832+00:00",
+   "published_at": "2026-08-25T12:13:59.960319+00:00",
    "query": "",
    "doc_id": "4ea84862eb123a95",
-   "title_en": "Contract formalization notice: Economics Affairs Headquarters of the Logistics Support Command. Object: Acquisition of travel items Lot 17. File: 2026/ETSAE0906/00003094E.",
+   "title_en": "Notice of contract formalization: Economic Affairs Command of Logistic Support. Object: Acquisition of travel items Lot 17. File: 2026/ETSAE0906/00003094E.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Spanish military procurement; unrelated to property or cross-border buyers."
+   "rationale": "Spanish Defence Ministry procurement; outside second-home property market."
   },
   {
    "source_id": "boe_sumario",
@@ -1605,13 +1115,13 @@
    "stream": "regulatory",
    "title": "Anuncio de licitación de: Intendente de Ferrol. Objeto: Contrato mixto suministro, desmontaje e instalación de planta de osmosis inversa con destino al Patrullero Atalaya (P-74). Expediente: 2026/AR42U/00001316E.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27750.pdf",
-   "published_at": "2026-08-25T11:59:06.375839+00:00",
+   "published_at": "2026-08-25T12:13:59.960326+00:00",
    "query": "",
    "doc_id": "0bed8d1fd6156f02",
-   "title_en": "Bidding notice: Intendant of Ferrol. Object: Mixed contract supply, disassembly and installation of reverse osmosis plant for the Atalaya Patrol Boat (P-74). File: 2026/AR42U/00001316E.",
+   "title_en": "Notice of bidding: Superintendent of Ferrol. Object: Mixed contract supply, disassembly and installation of reverse osmosis plant for Patrol Boat Atalaya (P-74). File: 2026/AR42U/00001316E.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Spanish Navy vessel procurement; unrelated to property or cross-border buyers."
+   "rationale": "Spanish Defence Ministry procurement; outside second-home property market."
   },
   {
    "source_id": "boe_sumario",
@@ -1619,13 +1129,13 @@
    "stream": "regulatory",
    "title": "Anuncio de formalización de contratos de: Jefatura de Asuntos Económicos del CG de la Comandancia Gral. de Melilla. Objeto: Suministro de tres (3) compostadoras de residuos orgánicos para Islas y Peñones de Soberanía (Base Discontinua Tte Flomesta, Melilla). Expediente: 2026/ETSAE0287/00000206E.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27751.pdf",
-   "published_at": "2026-08-25T11:59:06.375846+00:00",
+   "published_at": "2026-08-25T12:13:59.960332+00:00",
    "query": "",
    "doc_id": "05181cfb1516d4cc",
-   "title_en": "Contract formalization notice: Economics Affairs Headquarters of the General Command of Melilla. Object: Supply of three (3) organic waste composters for Islands and Peñones of Sovereignty (Tte Flomesta Discontinuous Base, Melilla). File: 2026/ETSAE0287/00000206E.",
+   "title_en": "Notice of contract formalization: Economic Affairs Command of the General Command of Melilla. Object: Supply of three (3) organic waste composters for Islands and Soverenty Rocks (Discontinuous Base Tte Flomesta, Melilla). File: 2026/ETSAE0287/00000206E.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Spanish territorial procurement; unrelated to property or cross-border buyers."
+   "rationale": "Spanish Defence Ministry procurement; outside second-home property market."
   },
   {
    "source_id": "boe_sumario",
@@ -1633,13 +1143,13 @@
    "stream": "regulatory",
    "title": "Anuncio de formalización de contratos de: Dirección del Servicio de Gestión Económica de la Agencia Estatal de la Administración Tributaria. Objeto: Base de datos con información económico-financiera de compañías de todo el mundo. Expediente: 26610043000.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27759.pdf",
-   "published_at": "2026-08-25T11:59:06.375900+00:00",
+   "published_at": "2026-08-25T12:13:59.960386+00:00",
    "query": "",
    "doc_id": "283d8019fc328c5e",
-   "title_en": "Contract formalization notice: Economic Management Service Directorate of the State Tax Administration Agency. Object: Database with economic-financial information of companies worldwide. File: 26610043000.",
+   "title_en": "Notice of contract formalization: Economic Management Service Directorate of the Tax Administration Agency. Object: Database with economic and financial information of companies worldwide. File: 26610043000.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Spanish tax agency procurement; unrelated to property or cross-border buyers."
+   "rationale": "Tax authority IT procurement; outside second-home property market."
   },
   {
    "source_id": "boe_sumario",
@@ -1647,13 +1157,13 @@
    "stream": "regulatory",
    "title": "Anuncio de licitación de: Delegación Especial de la Agencia Tributaria en Castilla y León. Objeto: Servicio de Seguridad en los edificios de la AEAT en el ámbito de Castilla y León. Expediente: 26A80073900.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27760.pdf",
-   "published_at": "2026-08-25T11:59:06.375907+00:00",
+   "published_at": "2026-08-25T12:13:59.960393+00:00",
    "query": "",
    "doc_id": "562ed653b25e845f",
-   "title_en": "Bidding notice: Special Delegation of the Tax Administration Agency in Castilla y León. Object: Security service in AEAT buildings in the scope of Castilla y León. File: 26A80073900.",
+   "title_en": "Notice of bidding: Special Delegation of the Tax Agency in Castilla and Leon. Object: Security service in AEAT buildings within the scope of Castilla and Leon. File: 26A80073900.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Spanish tax agency procurement; unrelated to property or cross-border buyers."
+   "rationale": "Tax authority procurement; outside second-home property market."
   },
   {
    "source_id": "boe_sumario",
@@ -1661,13 +1171,391 @@
    "stream": "regulatory",
    "title": "Anuncio de formalización de contratos de: Jefatura de Asuntos Económicos de la Guardia Civil. Objeto: El suministro de las prendas de uniformidad de diario, servicio y campaña que se emplearán para lareposición de las mismas a los componentes de la Guardia Civil. Expediente: A/0128/A/24/2.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27761.pdf",
-   "published_at": "2026-08-25T11:59:06.375914+00:00",
+   "published_at": "2026-08-25T12:13:59.960400+00:00",
    "query": "",
    "doc_id": "dbac1cf6a018b76e",
-   "title_en": "Contract formalization notice: Economics Affairs Headquarters of the Civil Guard. Object: Supply of daily, service and campaign uniforms for replacement among Civil Guard members. File: A/0128/A/24/2.",
+   "title_en": "Notice of contract formalization: Economic Affairs Command of the Civil Guard. Object: Supply of daily, service and campaign uniforms to be used for replacement of the same for Civil Guard members. File: A/0128/A/24/2.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Spanish police procurement; unrelated to property or cross-border buyers."
+   "rationale": "Spanish police procurement; outside second-home property market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de formalización de contratos de: ADIF - Presidencia. Objeto: Suministro y transporte de traviesas para la renovación de vía en el trayecto Selgua - Lleida en una longitud de 30,899 km. Expediente: 3.25/27510.0267.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27762.pdf",
+   "published_at": "2026-08-25T12:13:59.960408+00:00",
+   "query": "",
+   "doc_id": "381ab3660bea30b9",
+   "title_en": "Contract formalization announcement: ADIF - Presidency. Object: Supply and transport of sleepers for track renewal on the Selgua - Lleida route over a length of 30,899 km. File: 3.25/27510.0267.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish railway infrastructure procurement; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de formalización de contratos de: ADIF -Consejo de Administración. Objeto: Acuerdo marco para el suministro de carril nuevo para los almacenes de Adif. Expediente: 6.25/28510.0194.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27763.pdf",
+   "published_at": "2026-08-25T12:13:59.960414+00:00",
+   "query": "",
+   "doc_id": "e99a0fb5ef8069e9",
+   "title_en": "Contract formalization announcement: ADIF - Board of Directors. Object: Framework agreement for the supply of new rail for ADIF warehouses. File: 6.25/28510.0194.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish railway infrastructure procurement; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de licitación de: Junta de Contratación del Ministerio de Transportes y Movilidad Sostenible. Objeto: Contrato para los cursos de idiomas presenciales para el personal del Ministerio de Transportes y Movilidad Sostenible. Expediente: 26PBF2RH0166.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27764.pdf",
+   "published_at": "2026-08-25T12:13:59.960421+00:00",
+   "query": "",
+   "doc_id": "cdbc0574b36ba4da",
+   "title_en": "Tender announcement: Procurement Board of the Ministry of Transport and Sustainable Mobility. Object: Contract for in-person language courses for Ministry of Transport and Sustainable Mobility staff. File: 26PBF2RH0166.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish government staff training; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de formalización de contratos de: ADIF - Presidencia. Objeto: Suministro e instalación de equipos de telecomunicaciones de redes ip (internet protocol) y sdh (synchronous digital hierarchy) /pdh (plesiochronous digital hierarchy) para los centros de control de tráfico centralizado. 4 lotes. Expediente: 3.24/27510.0211.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27766.pdf",
+   "published_at": "2026-08-25T12:13:59.960453+00:00",
+   "query": "",
+   "doc_id": "e27f050e5e374dcf",
+   "title_en": "Contract formalization announcement: ADIF - Presidency. Object: Supply and installation of IP and SDH/PDH telecommunications network equipment for centralized traffic control centres. 4 lots.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish railway infrastructure procurement; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de licitación de: ADIF - Presidencia. Objeto: Mantenimiento de la red de radiotelefonía PMR en el ámbito de la red de ancho métrico de Adif. 2 Lotes. Expediente: 2.26/28520.0044.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27767.pdf",
+   "published_at": "2026-08-25T12:13:59.960460+00:00",
+   "query": "",
+   "doc_id": "07b94f36f81bb060",
+   "title_en": "Tender announcement: ADIF - Presidency. Object: Maintenance of the PMR radio telephony network in the scope of ADIF's metre-gauge network. 2 lots. File: 2.26/28520.0044.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish railway infrastructure maintenance; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de formalización de contratos de: ADIF - Presidencia. Objeto: Emergencia de las obras y de los servicios motivados por los graves daños ocasionados el 11/10/2025 en la superestructura de la vía II, como consecuencia del descarrilo producido en el tramo Quintanapalla - Santa Olalla de Bureba de la línea 100, Madrid Camartín Clara Campoamor - Irún. Expediente: 3.25/27507.0372.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27768.pdf",
+   "published_at": "2026-08-25T12:13:59.960467+00:00",
+   "query": "",
+   "doc_id": "485ea1b090cb60ea",
+   "title_en": "Contract formalization announcement: ADIF - Presidency. Object: Emergency works and services caused by serious damage on 11/10/2025 to track superstructure II, as a consequence of derailment on the Quintanapalla - Santa Olalla de Bureba section.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish railway emergency repair; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de formalización de contratos de: ADIF - Presidencia. Objeto: Suministro de accionamientos y componentes de tecnología HITACHI. Expediente: 6.25/28510.0143.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27770.pdf",
+   "published_at": "2026-08-25T12:13:59.960480+00:00",
+   "query": "",
+   "doc_id": "8bec6f2767e3d74d",
+   "title_en": "Contract formalization announcement: ADIF - Presidency. Object: Supply of HITACHI technology actuators and components. File: 6.25/28510.0143.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish railway infrastructure procurement; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de formalización de contratos de: ADIF - Presidencia. Objeto: Suministro y montaje de equipos de medida global system for mobile railways (GSM-R) en cuatro trenes de auscultación, actualización del servidor central del laboratorio y mantenimiento. Expediente: 4.25/21510.0253.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27771.pdf",
+   "published_at": "2026-08-25T12:13:59.960487+00:00",
+   "query": "",
+   "doc_id": "3ba973f6879bfe15",
+   "title_en": "Contract formalization announcement: ADIF - Presidency. Object: Supply and installation of GSM-R global system for mobile railways measurement equipment in four survey trains, update of central laboratory server and maintenance. File: 4.25/21510.0253.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish railway infrastructure procurement; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de formalización de contratos de: Junta de Contratación del Ministerio de Transportes y Movilidad Sostenible. Objeto: Acuerdo marco con un único empresario por lote para la contratación de servicios de cursos de formación del Plan de formación del Ministerio de Transportes y Movilidad Sostenible. Expediente: 26PBF2RH0004.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27772.pdf",
+   "published_at": "2026-08-25T12:13:59.960493+00:00",
+   "query": "",
+   "doc_id": "7f2359533d20077c",
+   "title_en": "Contract formalization announcement: Procurement Board of the Ministry of Transport and Sustainable Mobility. Object: Framework agreement with single contractor by lot for training course services of the Ministry's training plan.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish government staff training; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de formalización de contratos de: Dirección Provincial del Servicio Público de Empleo Estatal en Guipuzkoa. Objeto: Servicio de seguridad en la sede de la Dirección Provincial del SEPE en Gipuzkoa. Expediente: PAS 1/26.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27773.pdf",
+   "published_at": "2026-08-25T12:13:59.960501+00:00",
+   "query": "",
+   "doc_id": "9e711b8d0c7e16b4",
+   "title_en": "Contract formalization announcement: Provincial Directorate of the State Public Employment Service in Guipuzkoa. Object: Security service at the Provincial Directorate of SEPE in Gipuzkoa. File: PAS 1/26.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish government building security; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de licitación de: Dirección del Organismo Estatal Inspección de Trabajo y Seguridad Social. Objeto: Servicio de vigilancia de las Inspecciones Provinciales de Trabajo y Seguridad Social de Almería, Cádiz, Granada, Huelva, Jaén, Málaga y Sevilla. Expediente: 310/2026.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27774.pdf",
+   "published_at": "2026-08-25T12:13:59.960507+00:00",
+   "query": "",
+   "doc_id": "aaa9c09199260e29",
+   "title_en": "Tender announcement: Directorate of the State Labour and Social Security Inspectorate. Object: Surveillance service for the Provincial Labour and Social Security Inspections of Almería, Cádiz, Granada, Huelva, Jaén, Málaga and Seville. File: 310/2026.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish government building security; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de licitación de: Delegación del Gobierno en Galicia. Objeto: Mantenimiento integral en los edificios de la Delegación del Gobierno en Galicia, en la localidad de A Coruña. Expediente: 202615000003.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27775.pdf",
+   "published_at": "2026-08-25T12:13:59.960515+00:00",
+   "query": "",
+   "doc_id": "665f3bc6d16169c7",
+   "title_en": "Tender announcement: Government Delegation in Galicia. Object: Comprehensive maintenance of Government Delegation buildings in Galicia, in the town of A Coruña. File: 202615000003.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish government building maintenance; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de formalización de contratos de: Junta de Contratación del Ministerio de Cultura . Objeto: Ordenación, tratamiento y documentación de 783 unidades documentales y de 20 planos de gran formato de bienes BIC Inmuebles que se custodian en el Archivo General de la Administración (AGA). Expediente: JS260014.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27776.pdf",
+   "published_at": "2026-08-25T12:13:59.960522+00:00",
+   "query": "",
+   "doc_id": "3703b5c8986d487e",
+   "title_en": "Contract formalization announcement: Procurement Board of the Ministry of Culture. Object: Organization, processing and documentation of 783 documentary units and 20 large-format plans of heritage-listed property held in the General Administration Archive (AGA).",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish government archive management; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de formalización de contratos de: Dirección de la Agencia Española de Medicamentos y Productos Sanitarios. Objeto: El suministro de créditos Microsoft Azure Prepayment y soporte técnico especializado para la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS). Expediente: 2026/22002/002.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27777.pdf",
+   "published_at": "2026-08-25T12:13:59.960530+00:00",
+   "query": "",
+   "doc_id": "ba25afdd5dcd86ea",
+   "title_en": "Contract formalization announcement: Directorate of the Spanish Agency for Medicines and Health Products. Object: Supply of Microsoft Azure Prepayment credits and specialized technical support for the Spanish Agency for Medicines and Health Products (AEMPS). File: 2026/22.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish government IT procurement; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de formalización de contratos de: Secretaría General de la Agencia Española de Medicamentos y Productos Sanitarios. Objeto: Servicios para la impartición de clases de inglés del plan de formación interna en la Agencia Española de Medicamentos y Productos Sanitarios. Expediente: 2026/16200/003.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27778.pdf",
+   "published_at": "2026-08-25T12:13:59.960536+00:00",
+   "query": "",
+   "doc_id": "b01430deac11fad8",
+   "title_en": "Contract formalization announcement: General Secretariat of the Spanish Agency for Medicines and Health Products. Object: Services for teaching English classes in the internal training plan at the Spanish Agency for Medicines and Health Products. File: 2026/16200/00.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish government staff training; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de formalización de contratos de: Gerencia de Atención Sanitaria de Melilla - Instituto Nacional de Gestión Sanitaria. Objeto: Suministro de medicamentos exclusivos de la empresa Biogen Idec Iberia, S.L dispensados en el HUME dependientes del INGESA para los pacientes de la Gerencia de Atención Sanitaria de Melilla. Expediente: P.N.S.P. 2026-044-GME.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27779.pdf",
+   "published_at": "2026-08-25T12:13:59.960543+00:00",
+   "query": "",
+   "doc_id": "0e75943c80abd51a",
+   "title_en": "Contract formalization announcement: Healthcare Management of Melilla - National Health Management Institute. Object: Supply of exclusive medicines from Biogen Idec Iberia, S.L dispensed at the HUME under INGESA for patients of the Healthcare Management.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish government healthcare procurement; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de licitación de: INSS-Dirección Provincial de Badajoz. Objeto: Servicios de seguridad y vigilancia de los edificios dependientes de la Dirección Provincial del Instituto Nacional de la Seguridad Social de Badajoz. Expediente: 06/VC-217/26.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27781.pdf",
+   "published_at": "2026-08-25T12:13:59.960558+00:00",
+   "query": "",
+   "doc_id": "3c591d0220a287fa",
+   "title_en": "Tender announcement: INSS-Provincial Directorate of Badajoz. Object: Security and surveillance services of buildings dependent on the Provincial Directorate of the National Social Security Institute of Badajoz. File: 06/VC-217/26.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish government building security; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de formalización de contratos de: TGSS-Dirección provincial de Guipúzcoa. Objeto: Ejecución de la obra de rehabilitación de luceros de la terraza de patio de manzana en un edificio situado en el número 3 de la calle Oiartzun de Donostia-San Sebastián. Expediente: 2026/200073.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27782.pdf",
+   "published_at": "2026-08-25T12:13:59.960564+00:00",
+   "query": "",
+   "doc_id": "9bebcfe44aba6f19",
+   "title_en": "Contract formalization announcement: TGSS-Provincial Directorate of Guipúzcoa. Object: Execution of rehabilitation work of skylights on the courtyard terrace in a building located at number 3 Oiartzun street in Donostia-San Sebastián. File: 2026/200073.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish government building rehabilitation; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de licitación de: TGSS-Dirección provincial de Guadalajara. Objeto: Servicio de limpieza e higienización de las dependencias de las Direcciones Provinciales del INSS y de la TGSS en Guadalajara.Desde el 1 de enero de 2027 o fecha de formalización, si fuese posterior, hasta el 31 de diciembre de 2027. Expediente: 2026/190042.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27783.pdf",
+   "published_at": "2026-08-25T12:13:59.960571+00:00",
+   "query": "",
+   "doc_id": "3e00e2b650d3817c",
+   "title_en": "Tender announcement: TGSS-Provincial Directorate of Guadalajara. Object: Cleaning and sanitation service of the provincial directorates of INSS and TGSS in Guadalajara. From 1 January 2027 or formalization date, if later, until 31 December.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish government building cleaning; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de la Autoridad Portuaria de Huelva sobre el otorgamiento de licencia para la prestación del servicio portuario de recepción de desechos procedentes de los buques (RRC-006) en sus instalaciones del Puerto de Huelva.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27784.pdf",
+   "published_at": "2026-08-25T12:13:59.960580+00:00",
+   "query": "",
+   "doc_id": "7c3eb30676753675",
+   "title_en": "Announcement by the Port Authority of Huelva regarding the granting of a license for the provision of the port service of reception of waste from ships (RRC-006) in its facilities at the Port of Huelva.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish port waste management procurement; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Resolución de la Autoridad Portuaria de Gijón por la que se hace público el acuerdo de otorgamiento de licencia de servicio portuario de recepción de desechos generados por buques.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27785.pdf",
+   "published_at": "2026-08-25T12:13:59.960586+00:00",
+   "query": "",
+   "doc_id": "9745c1f52eb592e3",
+   "title_en": "Resolution by the Port Authority of Gijón whereby the agreement to grant a port service license for reception of waste generated by ships is made public.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish port waste management licensing; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Resolución de la Autoridad Portuaria de Gijón por la que se hace público el acuerdo de modificación sustancial de concesión demanial portuaria.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27786.pdf",
+   "published_at": "2026-08-25T12:13:59.960593+00:00",
+   "query": "",
+   "doc_id": "da3f0573c31744e8",
+   "title_en": "Resolution by the Port Authority of Gijón whereby the agreement to substantially modify a port public domain concession is made public.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish port concession modification; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio del ADIF-Alta Velocidad para la subsanación de errores en la Información Pública a efectos de declaración de la necesidad de ocupación del Proyecto de Construcción de Plataforma de la Línea de Alta Velocidad de la Conexión Madrid - País Vasco - Frontera Francesa. Tramo: Burgos - Vitoria. Subtramo: Ameyugo – Manzanos y Conexión Burgos – Miranda de Ebro.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27789.pdf",
+   "published_at": "2026-08-25T12:13:59.960612+00:00",
+   "query": "",
+   "doc_id": "7e6351d93cc4999e",
+   "title_en": "Announcement by ADIF-High Speed for the correction of errors in Public Information for the purpose of declaring the need for occupation of the Construction Project for the High Speed Line Platform for the Madrid - Basque Country - French Border Connection. Section: Burgos - Vitoria.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish railway infrastructure project; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de la Demarcación de Carreteras del Estado en Extremadura por el que se publica la Resolución de la Dirección General de Carreteras en la que se aprueba provisionalmente y se somete a información pública el Proyecto de Trazado Mejora de la seguridad vial. Construcción de glorieta y reordenación de accesos en la intersección existente en la N-502. P.K. 232+822. T.M. de Herrera del Duque. Provincia de Badajoz. Clave: 33-BA-4410.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27790.pdf",
+   "published_at": "2026-08-25T12:13:59.960620+00:00",
+   "query": "",
+   "doc_id": "a0b59e1ef98632ef",
+   "title_en": "Announcement by the Road Authority in Extremadura whereby the Resolution of the General Directorate of Roads is published, which provisionally approves and submits to public information the Road Safety Improvement Project. Construction of roundabout and reorganization.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish road infrastructure project; unrelated to cross-border second-home market."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Resolución de la Dirección General de Trabajo por la que se anuncia el depósito de la modificación de los estatutos de la asociación empresarial denominada Asociación Estatal de Formación de Seguridad Privada, en siglas ASEFOSP, con número de depósito 99005490 (antiguo número de depósito 8378).",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27791.pdf",
+   "published_at": "2026-08-25T12:13:59.960628+00:00",
+   "query": "",
+   "doc_id": "0f1a977ebc6ec60f",
+   "title_en": "Resolution of the General Labor Directorate announcing the filing of amendments to the bylaws of the business association called State Association for Private Security Training, acronym ASEFOSP, with filing number 99005490 (former filing number 8378).",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish labor union administration; unrelated to cross-border property."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Resolución de la Dirección General de Trabajo por la que se anuncia la constitución de la confederación sindical denominada Confederación Anarcosindicalista, en siglas CA-AIT, con número de depósito 99106455.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27792.pdf",
+   "published_at": "2026-08-25T12:13:59.960634+00:00",
+   "query": "",
+   "doc_id": "5aa70a29dfcc99b4",
+   "title_en": "Resolution of the General Labor Directorate announcing the establishment of the union confederation called Anarchosyndicalist Confederation, acronym CA-AIT, with filing number 99106455.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Spanish labor union administration; unrelated to cross-border property."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Anuncio de la Confederación Hidrográfica del Guadalquivir, O.A., de información pública de procedimiento de concesión de aguas públicas para uso ganadero y un volumen de 1.644 m³/año a captar de Presa/embalse – Arroyo Tamujosillo en el término municipal de Adamuz (Córdoba). Expediente A-73/2023-ing.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27793.pdf",
+   "published_at": "2026-08-25T12:13:59.960642+00:00",
+   "query": "",
+   "doc_id": "29aae43c0f01b6fb",
+   "title_en": "Notice from the Guadalquivir River Basin Confederation, O.A., of public information on a procedure for granting public water for livestock use and a volume of 1,644 m³/year to be drawn from Dam/reservoir – Arroyo Tamujosillo in the municipality of Adamuz (Córdoba). File A-73/2023-ing.",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Water concession for livestock; unrelated to vacation property buyers."
   },
   {
    "source_id": "boe_sumario",
@@ -1675,13 +1563,13 @@
    "stream": "regulatory",
    "title": "Anuncio de la Confederación Hidrográfica del Miño-Sil, O.A. de información pública del expediente de autorización para la navegación de dos embarcaciones por el embalse de Os Peares, río Miño (catamaranes Pelegrín II y Pelegrín III) y dos embarcaciones por el embalse de Santo Estevo, río Sil (monocasco Cañón del Sil y catamarán Mencía), provincias de Lugo y Ourense. A/27/54359.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27794.pdf",
-   "published_at": "2026-08-25T11:59:06.376137+00:00",
+   "published_at": "2026-08-25T12:13:59.960649+00:00",
    "query": "",
    "doc_id": "58b61300824ef1a4",
-   "title_en": "Notice from the Miño-Sil River Basin Authority of public information for the authorization procedure for the navigation of two vessels on the Os Peares reservoir, Miño river (catamarans Pelegrín II and Pelegrín III) and two vessels on the Santo Estevo reservoir, Sil river (monocat…",
+   "title_en": "Notice from the Miño-Sil River Basin Confederation, O.A. of public information on the authorization file for navigation of two vessels on the Os Peares reservoir, Miño river (catamarans Pelegrín II and Pelegrín III) and two vessels on the Santo Estevo reservoir, Sil river (monocraft",
    "category": "OTHER",
    "score": 0,
-   "rationale": "River basin vessel navigation permits; unrelated to property or cross-border buyers."
+   "rationale": "Water navigation permits; unrelated to vacation property."
   },
   {
    "source_id": "boe_sumario",
@@ -1689,13 +1577,13 @@
    "stream": "regulatory",
    "title": "Anuncio de la Confederación Hidrográfica del Duero, O.A., de información pública de la concesión de un aprovechamiento de aguas subterráneas, en localidad de Banuncias con destino a abastecimiento, en el término municipal de Chozas de Abajo (León). Ref. Expte.: C-0108/2026 (INTEGRA-AYE) LE.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27795.pdf",
-   "published_at": "2026-08-25T11:59:06.376144+00:00",
+   "published_at": "2026-08-25T12:13:59.960656+00:00",
    "query": "",
    "doc_id": "7519acc93d2211a1",
-   "title_en": "Notice from the Duero River Basin Authority of public information for the granting of groundwater use, in the locality of Banuncias for water supply purposes, in the municipality of Chozas de Abajo (León). Ref. File: C-0108/2026 (INTEGRA-AYE) LE.",
+   "title_en": "Notice from the Duero River Basin Confederation, O.A., of public information on the concession of groundwater use, in the town of Banuncias for water supply purposes, in the municipality of Chozas de Abajo (León). Ref. File: C-0108/2026 (INTEGRA-AYE) LE.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Groundwater concession for municipal supply; unrelated to property or cross-border buyers."
+   "rationale": "Water concession for municipal supply; unrelated to property."
   },
   {
    "source_id": "boe_sumario",
@@ -1703,13 +1591,27 @@
    "stream": "regulatory",
    "title": "Anuncio de la Comisaría de Aguas de la Confederación Hidrográfica del Ebro sobre información pública de una solicitud de concesión de un aprovechamiento de aguas públicas en el término municipal de Codos (Zaragoza) 2026-A-5.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27796.pdf",
-   "published_at": "2026-08-25T11:59:06.376151+00:00",
+   "published_at": "2026-08-25T12:13:59.960663+00:00",
    "query": "",
    "doc_id": "c1e94d973e0fd474",
-   "title_en": "Notice from the Water Commission of the Ebro River Basin Authority on public information for a public water use concession request in the municipality of Codos (Zaragoza) 2026-A-5.",
+   "title_en": "Notice from the Water Commissioner of the Ebro River Basin Confederation on public information of an application for concession of public water use in the municipality of Codos (Zaragoza) 2026-A-5.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Water concession application; unrelated to property or cross-border buyers."
+   "rationale": "Water concession application; unrelated to property."
+  },
+  {
+   "source_id": "boe_sumario",
+   "lang": "es",
+   "stream": "regulatory",
+   "title": "Resolución de 21 de abril de 2026, de la Delegación Territorial de Economía, Hacienda, Fondos Europeos y de Industria, Energía y Minas en Córdoba, por la que se concede autorización administrativa previa, autorización administrativa de construcción y se declara en concreto la utilidad pública a la instalación fotovoltaica CESAR de 1 MW de potencia, sito en el Termino Municipal de Hinojosa del Duque (Córdoba), Expediente AT 3/2023.",
+   "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27797.pdf",
+   "published_at": "2026-08-25T12:13:59.960670+00:00",
+   "query": "",
+   "doc_id": "641babcd98ad3f36",
+   "title_en": "Resolution of 21 April 2026, from the Territorial Delegation of Economics, Treasury, European Funds and Industry, Energy and Mines in Córdoba, granting prior administrative authorization, administrative construction authorization and declaring public utility specific",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Energy infrastructure authorization; unrelated to vacation property."
   },
   {
    "source_id": "boe_sumario",
@@ -1717,13 +1619,13 @@
    "stream": "regulatory",
    "title": "Resolución del Servicio de Industria y Energía de la Ciudad Autónoma de Ceuta sobre solicitud de autorización administrativa previa y de construcción del Proyecto de nueva Línea Subterránea de Media Tensión denominada \"CASADEMAR\" entre el Centro de Seccionamiento Carranza EAEC268 y el Centro de Transformación Casa del Mar EAEC048.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27798.pdf",
-   "published_at": "2026-08-25T11:59:06.376165+00:00",
+   "published_at": "2026-08-25T12:13:59.960678+00:00",
    "query": "",
    "doc_id": "1f3607d19ad8fac6",
-   "title_en": "Resolution from the Industry and Energy Service of the Autonomous City of Ceuta on the request for prior administrative authorization and construction of the Project for a new Medium Voltage Underground Line called \"CASADEMAR\" between the Carranza Switching Centre EAEC268 and the Transfer Centre…",
+   "title_en": "Resolution of the Industry and Energy Service of the Autonomous City of Ceuta on an application for prior administrative authorization and construction of the Project for a new Underground Medium Voltage Line called \"CASADEMAR\" between the Carranza Sectioning Center EAEC268 and the Transfer Center",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Electrical grid infrastructure in Ceuta; unrelated to property or cross-border buyers."
+   "rationale": "Energy infrastructure authorization; unrelated to property."
   },
   {
    "source_id": "boe_sumario",
@@ -1731,13 +1633,13 @@
    "stream": "regulatory",
    "title": "Anuncio de la Comunidad de Regantes de las Fuentes de Santa María o de las Huertas Mayores sobre exposición pública de estatutos y ordenanzas.",
    "url": "https://www.boe.es/boe/dias/2026/08/25/pdfs/BOE-B-2026-27799.pdf",
-   "published_at": "2026-08-25T11:59:06.376172+00:00",
+   "published_at": "2026-08-25T12:13:59.960685+00:00",
    "query": "",
    "doc_id": "b1f8f047757c3f51",
-   "title_en": "Notice from the Santa María Water User Community or Huertas Mayores on public exposure of bylaws and regulations.",
+   "title_en": "Notice from the Community of Irrigators of the Fuentes de Santa María or Huertas Mayores on public exposition of bylaws and ordinances.",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Irrigation community bylaws; unrelated to property or cross-border buyers."
+   "rationale": "Irrigation community administration; unrelated to property."
   },
   {
    "source_id": "property_industry_eye",
@@ -1751,7 +1653,7 @@
    "title_en": "One month in, prime minister. Take the handbrake off, or watch Britain seize up",
    "category": "OTHER",
    "score": 0,
-   "rationale": "UK political opinion; unrelated to cross-border property or European markets."
+   "rationale": "UK political opinion; unrelated to property market."
   },
   {
    "source_id": "property_industry_eye",
@@ -1765,7 +1667,77 @@
    "title_en": "The property market: should we all go over Beachy Head or is the cavalry coming to our rescue?",
    "category": "OTHER",
    "score": 0,
-   "rationale": "UK market opinion piece; unrelated to cross-border European property."
+   "rationale": "UK opinion column; unrelated to cross-border property."
+  },
+  {
+   "source_id": "property_industry_eye",
+   "lang": "en",
+   "stream": "news",
+   "title": "EA Masters: Vote now for your favourite property industry supplier",
+   "url": "https://propertyindustryeye.com/ea-masters-vote-now-for-your-favourite-property-industry-supplier-2/",
+   "published_at": "2026-08-24T23:34:51+00:00",
+   "query": "",
+   "doc_id": "f64155bdd040c0e4",
+   "title_en": "EA Masters: Vote now for your favourite property industry supplier",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Industry award announcement; no market impact."
+  },
+  {
+   "source_id": "portugal_resident",
+   "lang": "en",
+   "stream": "news",
+   "title": "Director of Portuguese Erasmus+ agency honoured by Ukraine",
+   "url": "https://www.portugalresident.com/director-of-portuguese-erasmus-agency-honoured-by-ukraine/",
+   "published_at": "2026-08-25T10:06:30+00:00",
+   "query": "",
+   "doc_id": "f899e8c60ff042a7",
+   "title_en": "Director of Portuguese Erasmus+ agency honoured by Ukraine",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Education programme personnel; unrelated to property markets."
+  },
+  {
+   "source_id": "portugal_resident",
+   "lang": "en",
+   "stream": "news",
+   "title": "Portugal’s oldest woman dies aged 113 in São Brás de Alportel",
+   "url": "https://www.portugalresident.com/portugal-oldest-woman-dies-113-algarve/",
+   "published_at": "2026-08-25T09:18:24+00:00",
+   "query": "",
+   "doc_id": "ded4197eff60c06e",
+   "title_en": "Portugal's oldest woman dies aged 113 in São Brás de Alportel",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Human interest; no property market relevance."
+  },
+  {
+   "source_id": "portugal_resident",
+   "lang": "en",
+   "stream": "news",
+   "title": "Custody for seven men linked to five tonne hashish seizure near Guadiana river",
+   "url": "https://www.portugalresident.com/custody-for-seven-men-linked-to-five-tonne-hashish-seizure-near-guadiana-river/",
+   "published_at": "2026-08-25T09:01:46+00:00",
+   "query": "",
+   "doc_id": "eea175b160ee0130",
+   "title_en": "Custody for seven men linked to five tonne hashish seizure near Guadiana river",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Criminal justice; unrelated to second-home or vacation property sectors."
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "‘We’re being penalised for bringing an empty high street building back to life’ - Kent Online",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOczh5dmR2Tnd2cFlLSGpYckRaa1Z4ZGdDb0hGcDJpZTJuVjE5S00zdFhvaVBEQ0hmVWFjY0RKdzV0NEFwSHhxajM1Z0lwRXJwYm96SDNDUjFkNHF1RjdRTTNVRUN4SGR3QnFfcGNCRmR2WG5PSUQxWHU3b1hpdy1EcGlJOUNIX0g0MFBPd25TRTgxZDJVXzh3OHoxUDF6WXFUa3gzYndqaUpUTDNT?oc=5",
+   "published_at": "2026-08-25T04:00:00+00:00",
+   "query": "second home council tax premium",
+   "doc_id": "85fbbca324ec5dd4",
+   "title_en": "\"We're being penalised for bringing an empty high street building back to life\" - Kent Online",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "UK high street redevelopment; outside Mediterranean corridor."
   },
   {
    "source_id": "gnews_en",
@@ -1779,7 +1751,7 @@
    "title_en": "Best Joint Checking Accounts for August 2026 - Bankrate",
    "category": "OTHER",
    "score": 0,
-   "rationale": "US banking product; unrelated to European property or cross-border buyers."
+   "rationale": "US banking product review; unrelated to property."
   },
   {
    "source_id": "gnews_en",
@@ -1793,7 +1765,21 @@
    "title_en": "Jonty Rhodes joins Rotterdam Dockers as ETPL prepares for August 2026 launch - CricTracker",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Cricket sports news; entirely unrelated to property market."
+   "rationale": "Cricket personnel movement; no property market relevance."
+  },
+  {
+   "source_id": "gnews_en",
+   "lang": "en",
+   "stream": "news",
+   "title": "Ritchie Bros. Launches Redesigned Mobile App to Deepen Buyer Engagement and Drive Marketplace Participation - Voice of Alexandria",
+   "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOdW1pWkpHUjBXaDlpQWg2R0s3ODlxb0xMMTZnVUZ3aHdYcjhMNVJ6N1lOSGtCVDF5b2V4ay1hWXdmQUFybS0zZ0V0ckk3c1N1Vm9PWTlFUzhMVm84M2JBb1FXRHdDQmg1M2l5bld4bVBydjVRRUxuVTR0MHE2QUJuMFVHNHhHQW1vZTlzQUNhVWM2SXhPODJqVnlQOVdzNnBFeGZvUmktWW14blpsbUd1QzhyaGRodUMxanBfMy1YSUtHWWozdjlqMmJSdHNKNDFnRUNuenRCbDdTR0tGeDFHdVMzdFN4cWg5MjlkWnFUTGduRkllUFUzZk9Ra2N2dVY5eXRjeC1VVmdudGVfNmVGeDdadUlvcFBvR3NuNHdVcVlIR3lfZEVGYTNUdkJIaWFvdVpTQURYYkhUREZwTDJr?oc=5",
+   "published_at": "2026-08-24T20:30:57+00:00",
+   "query": "property portal buyer tools launch",
+   "doc_id": "80eac75b56e7f197",
+   "title_en": "Ritchie Bros. Launches Redesigned Mobile App to Deepen Buyer Engagement and Drive Marketplace Participation - Voice of Alexandria",
+   "category": "OTHER",
+   "score": 0,
+   "rationale": "Industrial equipment auction platform; unrelated to vacation property."
   },
   {
    "source_id": "gnews_en",
@@ -1807,7 +1793,7 @@
    "title_en": "Xiaomi Launches Two Redmi Watch 6 Models in Europe With 18-Day Battery Life - finance.biggo.com",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Consumer electronics; unrelated to property market."
+   "rationale": "Consumer electronics unrelated to property market."
   },
   {
    "source_id": "gnews_en",
@@ -1821,7 +1807,7 @@
    "title_en": "Explaining onsite - PPC Land",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Insufficient context; unclear relevance to property or cross-border buyers."
+   "rationale": "Headline too vague to assess relevance."
   },
   {
    "source_id": "gnews_ar",
@@ -1832,10 +1818,10 @@
    "published_at": "2026-08-24T19:00:41+00:00",
    "query": "قيود على المشترين الأجانب",
    "doc_id": "5c990401730b712f",
-   "title_en": "Iranian oil exports prepare to face Trump's economic sanctions.. what is the next step?",
+   "title_en": "Iranian oil exports prepare to face Trump economic sanctions.. what's next? (article) - Energy - first Arab platform specializing in energy news",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Energy market; unrelated to European property."
+   "rationale": "Oil market geopolitics unrelated to European second-home buyers."
   },
   {
    "source_id": "gnews_ar",
@@ -1846,10 +1832,10 @@
    "published_at": "2026-08-24T17:07:28+00:00",
    "query": "تنظيم الإيجار قصير الأجل",
    "doc_id": "18f211000a741cb1",
-   "title_en": "Ngai An province offers 8 surplus office buildings and schools for rent.",
+   "title_en": "Nghe An province offers 8 surplus office buildings and schools for rent. - Vietnam.vn",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Vietnam office leasing; outside European corridor."
+   "rationale": "Vietnam market outside monitor's European corridor scope."
   },
   {
    "source_id": "gnews_ar",
@@ -1860,10 +1846,10 @@
    "published_at": "2026-08-24T22:41:21+00:00",
    "query": "منزل ثانٍ في أوروبا",
    "doc_id": "a3dab86cc1430e00",
-   "title_en": "UEFA Champions League: Hakimi included in Paris Saint-Germain squad against Monaco",
+   "title_en": "UEFA Champions League: Hakimi in PSG squad for Monaco match - Al-Sharq Al-Awsat",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Sports; unrelated to property market."
+   "rationale": "Sports news unrelated to property market."
   },
   {
    "source_id": "gnews_ar",
@@ -1874,10 +1860,10 @@
    "published_at": "2026-08-25T06:00:57+00:00",
    "query": "تقنية العقارات تمويل",
    "doc_id": "fe8c3fa3b8ffd836",
-   "title_en": "Nine technology and telecommunications companies contributed over 78,000 billion Vietnamese dong to state budget.",
+   "title_en": "Nine technology and telecommunications companies contributed over 78,000 billion Vietnamese dong to the state budget. - Vietnam.vn",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Vietnam corporate tax; unrelated to property."
+   "rationale": "Vietnam tax/corporate news; outside monitor scope."
   },
   {
    "source_id": "gnews_ar",
@@ -1888,10 +1874,10 @@
    "published_at": "2026-08-24T12:32:30+00:00",
    "query": "تقنية العقارات تمويل",
    "doc_id": "40e39481a140c613",
-   "title_en": "Multiple technology and telecommunications companies will be listed in PRIVATE 100 in 2026.",
+   "title_en": "Multiple technology and telecommunications companies will be listed in the PRIVATE 100 list in 2026. - Vietnam.vn",
    "category": "OTHER",
    "score": 0,
-   "rationale": "Vietnam corporate rankings; unrelated to property."
+   "rationale": "Vietnam corporate listing news; unrelated to European property market."
   }
  ]
 }
