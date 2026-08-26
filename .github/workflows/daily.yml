@@ -2,14 +2,27 @@ name: daily-report
 
 on:
   schedule:
-    # 06:00 UTC. Cron here is UTC and runs are delayed under load — often by
-    # 15 minutes or more — so this is set early to land before 08:00 CET
-    # rather than exactly on the hour.
+    # Three attempts, none on the hour. GitHub's schedule is best-effort:
+    # top-of-hour slots contend hardest, delays of 5-30 minutes are routine,
+    # and a saturated queue drops a run outright with no trace and no retry.
+    # Whichever slot survives does the work; --once-daily makes the rest
+    # no-ops, so a dropped slot costs nothing but a later delivery.
     - cron: '17 5 * * *'
-  workflow_dispatch:          # manual trigger; also how you test the first run
+    - cron: '23 7 * * *'
+    - cron: '41 10 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode'
+        type: choice
+        default: 'full'
+        options:
+          - full
+          - dry
+          - no-llm-dry
 
 permissions:
-  contents: write             # needed to commit state/ back to the repo
+  contents: write
 
 concurrency:
   group: daily-report
@@ -30,23 +43,30 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Build and send report
+      - name: Build report
         env:
           ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python src/main.py
+          MODE:               ${{ inputs.mode }}
+        run: |
+          case "$MODE" in
+            no-llm-dry) FLAGS="--no-llm --dry-run" ;;
+            dry)        FLAGS="--dry-run" ;;
+            full)       FLAGS="" ;;
+            *)          FLAGS="--once-daily" ;;
+          esac
+          echo "mode=${MODE:-scheduled} flags=$FLAGS at $(date -u +%H:%M) UTC"
+          python src/main.py $FLAGS
 
       - name: Commit state
-        # Also serves as the keepalive: GitHub disables scheduled workflows
-        # after 60 days without repository activity, and only commits reliably
-        # reset that clock. A daily state commit means it never trips.
         if: always()
         run: |
           git config user.name  "sundeed-watch"
           git config user.email "actions@users.noreply.github.com"
           git add state/
           git diff --staged --quiet || git commit -m "state: $(date -u +%Y-%m-%d)"
+          git pull --rebase --autostash || true
           git push
 
       - name: Alert on failure
