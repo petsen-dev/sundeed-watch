@@ -128,7 +128,22 @@ def main() -> int:
                     help="skip classification (day-2 mode: raw ingest only)")
     ap.add_argument("--no-summary", action="store_true",
                     help="classify and rank, but skip the synthesis pass")
+    ap.add_argument("--once-daily", action="store_true",
+                    help="exit quietly if a digest already went out today")
     args = ap.parse_args()
+
+    # GitHub drops scheduled runs outright when its queue is saturated, with
+    # no trace and no retry — so the schedule fires several times and the
+    # first one to survive does the work. Without this guard the later slots
+    # would each deliver a near-empty "0 news" message.
+    if args.once_daily:
+        stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
+        marker = ARCHIVE_DIR / f"{stamp}.json"
+        if marker.exists():
+            log.info("digest already delivered today (%s) — nothing to do",
+                     marker.name)
+            return 0
+        log.info("no digest yet today — proceeding")
 
     config = load_yaml(ROOT / "config" / "sources.yml")
     keywords = load_yaml(ROOT / "config" / "keywords.yml")
