@@ -5,7 +5,7 @@ on:
     # 06:00 UTC. Cron here is UTC and runs are delayed under load — often by
     # 15 minutes or more — so this is set early to land before 08:00 CET
     # rather than exactly on the hour.
-    - cron: '0 6 * * *'
+    - cron: '17 5 * * *'
   workflow_dispatch:          # manual trigger; also how you test the first run
 
 permissions:
