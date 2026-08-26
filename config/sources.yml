@@ -169,6 +169,8 @@ authority:
 settings:
   lookback_hours: 30        # overlap the 24h window so nothing falls through
   http_timeout: 20
+  gnews_budget_seconds: 360   # per gnews source; partial beats a killed job
   max_items_per_query: 100
-  gnews_delay: 1.2      # seconds between Google News requests
+  gnews_delay: 2.5      # base seconds between Google News requests;
+                        # widens automatically on refusal, see Pace in fetch.py
   user_agent: "sundeed-watch/1.0 (market monitor; contact: ops@example.com)"
