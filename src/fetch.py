@@ -160,10 +160,38 @@ def _parse_time(entry) -> dt.datetime | None:
     return None
 
 
-# 429 and 503 mean "slow down", not "broken". Retrying immediately makes it
-# worse — the delay has to grow.
-BACKOFF = (3, 8, 20)
+# 429 and 503 mean "slow down", not "broken" — and a retry is itself another
+# request to an endpoint that just refused one. Three attempts per query turns
+# eight refusals into twenty-four hits. One retry, after a real pause.
+BACKOFF = (0, 25)
 THROTTLE_CODES = {429, 503}
+
+
+class Pace:
+    """Adaptive gap between requests to one host.
+
+    Google throttles on cumulative volume in a window, not on the rate of any
+    single query — the English set spends the budget and the Arabic set, which
+    runs next, meets the wall. A fixed delay cannot see that coming. This one
+    widens on every refusal and creeps back down after a run of successes.
+    """
+
+    def __init__(self, base: float, ceiling: float = 20.0):
+        self.base = base
+        self.gap = base
+        self.ceiling = ceiling
+        self.good = 0
+
+    def ok(self) -> None:
+        self.good += 1
+        if self.good >= 10 and self.gap > self.base:
+            self.gap = max(self.base, self.gap * 0.8)
+            self.good = 0
+
+    def refused(self) -> None:
+        self.good = 0
+        self.gap = min(self.ceiling, max(self.base * 2, self.gap * 2.0))
+        log.warning("throttled — widening gap to %.1fs", self.gap)
 
 
 def _get(url: str, settings, headers=None):
@@ -358,6 +386,9 @@ def _from_boe(source, settings, terms) -> list[Item]:
 def fetch_all(config, keywords) -> FetchResult:
     settings = config.get("settings", {})
     result = FetchResult()
+    # Shared across every gnews source in the run: the throttle is per client,
+    # so what the English set spends the Arabic set does not have.
+    pace = Pace(settings.get("gnews_delay", 2.5))
 
     for source in config["sources"]:
         sid = source["id"]
@@ -376,16 +407,31 @@ def fetch_all(config, keywords) -> FetchResult:
             elif source["kind"] == "gnews":
                 items = []
                 pairs = _gnews_urls(source, keywords, settings)
-                gap = settings.get("gnews_delay", 1.2)
                 sub_fail = 0
                 streak = 0
+                # With an adaptive gap the worst case runs past the job
+                # timeout, which would kill the run and deliver nothing.
+                # A budget trades the tail of the query list for the rest of
+                # the pipeline — partial results beat a killed job.
+                deadline = time.monotonic() + settings.get(
+                    "gnews_budget_seconds", 360)
                 for idx, (query, url) in enumerate(pairs):
+                    if time.monotonic() > deadline:
+                        log.warning("%s: time budget spent after %d/%d queries",
+                                    sid, idx, len(pairs))
+                        result.reasons[sid] = (
+                            f"partial: {idx}/{len(pairs)} queries before the "
+                            f"time budget ran out (throttled)")
+                        break
                     try:
                         items.extend(_from_feed(url, source, settings, query=query))
                         streak = 0
+                        pace.ok()
                     except Exception as exc:  # one bad query must not kill the set
                         sub_fail += 1
                         streak += 1
+                        if "503" in str(exc) or "429" in str(exc):
+                            pace.refused()
                         log.warning("gnews query failed (%s): %s", query[:50], exc)
                         # Google throttles the whole client, not one query.
                         # Once it starts refusing, continuing for another
@@ -396,12 +442,12 @@ def fetch_all(config, keywords) -> FetchResult:
                                 f"throttled after {idx + 1}/{len(pairs)} queries "
                                 f"({sub_fail} failed) — back off and retry later")
                     if idx < len(pairs) - 1:
-                        time.sleep(gap)
+                        time.sleep(pace.gap)
                 if sub_fail and sub_fail == len(pairs):
                     raise RuntimeError("all gnews queries failed")
                 if sub_fail:
-                    log.warning("%s: %d of %d queries failed",
-                                sid, sub_fail, len(pairs))
+                    log.warning("%s: %d of %d queries failed (gap now %.1fs)",
+                                sid, sub_fail, len(pairs), pace.gap)
 
             else:
                 raise ValueError(f"unknown source kind: {source['kind']}")
