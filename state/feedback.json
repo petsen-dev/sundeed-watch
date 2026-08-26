@@ -175,6 +175,20 @@
    "query": "ChatGPT OR \"AI agent\" property buying when:2d",
    "lang": "en",
    "date": "2026-08-25"
+  },
+  "b78c65ebd1cdeee4": {
+   "title": "Edinburgh council to vote on 300% second home tax premium",
+   "cat": "REGULATORY",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-08-26"
+  },
+  "9a382585c306fc8c": {
+   "title": "Nicole Kidman joined hundreds of thousands seeking residency in Portugal – Portugal resident",
+   "cat": "DEMAND-FLOW",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-08-26"
   }
  },
  "votes": {}
