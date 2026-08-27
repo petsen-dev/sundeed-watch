@@ -2,16 +2,16 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 3,
-  "last_seen": "2026-08-25",
-  "last_headline": "The Smart Golden Visa Investor Chooses Value Over Price"
+  "count": 4,
+  "last_seen": "2026-08-27",
+  "last_headline": "Greece's Golden Visa Applications Drop 44% After Property Rules Tighten"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
   "first_seen": "2026-08-25",
-  "count": 4,
-  "last_seen": "2026-08-26",
-  "last_headline": "Nicole Kidman joined hundreds of thousands seeking residency in Portugal – Portugal resident"
+  "count": 5,
+  "last_seen": "2026-08-27",
+  "last_headline": "Foreign investment in Portugal rebounds to €6.7 billion"
  },
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
@@ -23,8 +23,15 @@
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
   "first_seen": "2026-08-25",
-  "count": 3,
-  "last_seen": "2026-08-26",
-  "last_headline": "Edinburgh council to vote on 300% second home tax premium"
+  "count": 4,
+  "last_seen": "2026-08-27",
+  "last_headline": "Athens Property: Why British Buyers Are Looking to Greece"
+ },
+ "spain-foreign-demand": {
+  "label": "Spain Foreign Buyer Demand",
+  "first_seen": "2026-08-27",
+  "count": 1,
+  "last_seen": "2026-08-27",
+  "last_headline": "Foreign home purchases in Spain rise 11%, says Sonneil"
  }
 }

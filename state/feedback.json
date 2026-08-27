@@ -189,6 +189,48 @@
    "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
    "lang": "ar",
    "date": "2026-08-26"
+  },
+  "add2f44dcf4d5e21": {
+   "title": "Greece's Golden Visa Applications Drop 44% After Property Rules Tighten",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-08-27"
+  },
+  "4491bb778f5acf52": {
+   "title": "Foreign investment in Portugal rebounds to €6.7 billion",
+   "cat": "DEMAND-FLOW",
+   "query": "[feed] portugal_resident",
+   "lang": "en",
+   "date": "2026-08-27"
+  },
+  "97d15400198c5902": {
+   "title": "Foreign home purchases in Spain rise 11%, says Sonneil",
+   "cat": "DEMAND-FLOW",
+   "query": "\"foreign buyers\" Spain property intitle:data OR intitle:figures OR intitle:rise when:2d",
+   "lang": "en",
+   "date": "2026-08-27"
+  },
+  "17e208c0011a08bc": {
+   "title": "Foreign buyers drive 60% of ultra-luxury home demand",
+   "cat": "DEMAND-FLOW",
+   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
+   "lang": "en",
+   "date": "2026-08-27"
+  },
+  "4003d927c82e5d9e": {
+   "title": "Athens Property: Why British Buyers Are Looking to Greece",
+   "cat": "DEMAND-FLOW",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-08-27"
+  },
+  "99f0fd2e3b315367": {
+   "title": "Spain's 740,000-home shortage means renters and buyers could be stuck until 2034",
+   "cat": "DEMAND-FLOW",
+   "query": "\"property portal\" intitle:buyers when:2d",
+   "lang": "en",
+   "date": "2026-08-27"
   }
  },
  "votes": {}
