@@ -3,6 +3,7 @@
 Daily market monitor. Four languages in, one English report out, delivered to
 Telegram.
 
+
 ```
 fetch → dedupe (within language) → translate + categorise + score
       → dedupe (across languages) → rank → Telegram → archive
