@@ -231,6 +231,48 @@
    "query": "\"property portal\" intitle:buyers when:2d",
    "lang": "en",
    "date": "2026-08-27"
+  },
+  "2817bf0a6e307ee4": {
+   "title": "Agency boss slams 300% second-home surcharge as housing 'sticking plaster'",
+   "cat": "REGULATORY",
+   "query": "[feed] property_industry_eye",
+   "lang": "en",
+   "date": "2026-08-28"
+  },
+  "a9e20e9bb7c13734": {
+   "title": "Dils: The exclusive one-stop shop for international buyers",
+   "cat": "CHANNEL",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-08-28"
+  },
+  "e5f821b4338d0d78": {
+   "title": "Foreign demand to buy property in Balearics reaches 28%",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-08-28"
+  },
+  "fc38ca53fb32e0c6": {
+   "title": "Foreigners begin to leave Madeira and sell their homes",
+   "cat": "DEMAND-FLOW",
+   "query": "\"cross-border\" property buyers Europe when:2d",
+   "lang": "en",
+   "date": "2026-08-28"
+  },
+  "bf9cb9c0b97f2176": {
+   "title": "IMT to change: Government reveals main amendments expected for Portuguese people",
+   "cat": "REGULATORY",
+   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
+   "lang": "pt",
+   "date": "2026-08-28"
+  },
+  "b6ad7f211843baec": {
+   "title": "Heads-up! Q2 2026 housing numbers just published by the notaries – A good time to sell, but buyers are becoming more cautious",
+   "cat": "DEMAND-FLOW",
+   "query": "[feed] spanish_property_insight",
+   "lang": "en",
+   "date": "2026-08-28"
   }
  },
  "votes": {}

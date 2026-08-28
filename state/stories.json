@@ -9,29 +9,36 @@
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
   "first_seen": "2026-08-25",
-  "count": 5,
-  "last_seen": "2026-08-27",
-  "last_headline": "Foreign investment in Portugal rebounds to €6.7 billion"
+  "count": 6,
+  "last_seen": "2026-08-28",
+  "last_headline": "Foreigners begin to leave Madeira and sell their homes"
  },
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 3,
-  "last_seen": "2026-08-25",
-  "last_headline": "Property hunting enters the AI agent era"
+  "count": 4,
+  "last_seen": "2026-08-28",
+  "last_headline": "Dils: The exclusive one-stop shop for international buyers"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
   "first_seen": "2026-08-25",
-  "count": 4,
-  "last_seen": "2026-08-27",
-  "last_headline": "Athens Property: Why British Buyers Are Looking to Greece"
+  "count": 5,
+  "last_seen": "2026-08-28",
+  "last_headline": "Agency boss slams 300% second-home surcharge as housing 'sticking plaster'"
  },
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
+  "count": 2,
+  "last_seen": "2026-08-28",
+  "last_headline": "Foreign demand to buy property in Balearics reaches 28%"
+ },
+ "portugal-imt-reform": {
+  "label": "Portugal IMT Tax Reform",
+  "first_seen": "2026-08-28",
   "count": 1,
-  "last_seen": "2026-08-27",
-  "last_headline": "Foreign home purchases in Spain rise 11%, says Sonneil"
+  "last_seen": "2026-08-28",
+  "last_headline": "IMT to change: Government reveals main amendments expected for Portuguese people"
  }
 }
