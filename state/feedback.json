@@ -273,6 +273,13 @@
    "query": "[feed] spanish_property_insight",
    "lang": "en",
    "date": "2026-08-28"
+  },
+  "c7a5c191d555e314": {
+   "title": "Algarve property valuations exceed €3,000 per square metre",
+   "cat": "DEMAND-FLOW",
+   "query": "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d",
+   "lang": "ar",
+   "date": "2026-08-29"
   }
  },
  "votes": {}

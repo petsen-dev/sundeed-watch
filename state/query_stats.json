@@ -18,19 +18,19 @@
   "split": 0
  },
  "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d": {
-  "runs": 24,
-  "items": 82,
-  "score_sum": 2558,
+  "runs": 25,
+  "items": 83,
+  "score_sum": 2593,
   "mean_score": 31.2,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"سوق العقارات\" إسبانيا OR البرتغال when:2d": {
-  "runs": 19,
-  "items": 28,
+  "runs": 20,
+  "items": 29,
   "score_sum": 788,
-  "mean_score": 28.1,
+  "mean_score": 27.2,
   "up": 0,
   "down": 0,
   "split": 0
@@ -45,19 +45,19 @@
   "split": 0
  },
  "ChatGPT OR \"AI agent\" property buying when:2d": {
-  "runs": 22,
-  "items": 194,
-  "score_sum": 1771,
+  "runs": 23,
+  "items": 196,
+  "score_sum": 1776,
   "mean_score": 9.1,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "مستثمرون سعوديون OR إماراتيون عقارات أوروبا when:2d": {
-  "runs": 15,
-  "items": 33,
+  "runs": 16,
+  "items": 34,
   "score_sum": 140,
-  "mean_score": 4.2,
+  "mean_score": 4.1,
   "up": 0,
   "down": 0,
   "split": 0
@@ -108,10 +108,10 @@
   "split": 0
  },
  "\"second home\" intitle:tax OR intitle:premium when:2d": {
-  "runs": 22,
-  "items": 132,
-  "score_sum": 192,
-  "mean_score": 1.5,
+  "runs": 23,
+  "items": 136,
+  "score_sum": 267,
+  "mean_score": 2.0,
   "up": 0,
   "down": 0,
   "split": 0
@@ -450,8 +450,8 @@
   "split": 0
  },
  "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d": {
-  "runs": 10,
-  "items": 310,
+  "runs": 11,
+  "items": 330,
   "score_sum": 258,
   "mean_score": 0.8,
   "up": 0,
@@ -459,8 +459,8 @@
   "split": 0
  },
  "site:aawsat.com عقارات أوروبا when:2d": {
-  "runs": 10,
-  "items": 571,
+  "runs": 11,
+  "items": 580,
   "score_sum": 293,
   "mean_score": 0.5,
   "up": 0,
@@ -531,10 +531,10 @@
   "split": 0
  },
  "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d": {
-  "runs": 1,
-  "items": 1,
-  "score_sum": 5,
-  "mean_score": 5.0,
+  "runs": 2,
+  "items": 2,
+  "score_sum": 45,
+  "mean_score": 22.5,
   "up": 0,
   "down": 0,
   "split": 0
