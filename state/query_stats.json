@@ -144,9 +144,9 @@
   "split": 0
  },
  "[feed] portugal_resident": {
-  "runs": 24,
-  "items": 205,
-  "score_sum": 320,
+  "runs": 25,
+  "items": 212,
+  "score_sum": 335,
   "mean_score": 1.6,
   "up": 0,
   "down": 0,
@@ -540,10 +540,10 @@
   "split": 0
  },
  "[feed] spanish_property_insight": {
-  "runs": 1,
-  "items": 2,
-  "score_sum": 85,
-  "mean_score": 42.5,
+  "runs": 2,
+  "items": 3,
+  "score_sum": 90,
+  "mean_score": 30.0,
   "up": 0,
   "down": 0,
   "split": 0
