@@ -9,64 +9,64 @@
   "split": 0
  },
  "\"compradores estrangeiros\" casa Portugal when:2d": {
-  "runs": 11,
-  "items": 11,
-  "score_sum": 674,
-  "mean_score": 61.3,
+  "runs": 12,
+  "items": 12,
+  "score_sum": 729,
+  "mean_score": 60.8,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d": {
-  "runs": 25,
-  "items": 83,
-  "score_sum": 2593,
-  "mean_score": 31.2,
+  "runs": 26,
+  "items": 88,
+  "score_sum": 2683,
+  "mean_score": 30.5,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"سوق العقارات\" إسبانيا OR البرتغال when:2d": {
-  "runs": 20,
-  "items": 29,
-  "score_sum": 788,
-  "mean_score": 27.2,
+  "runs": 21,
+  "items": 31,
+  "score_sum": 803,
+  "mean_score": 25.9,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"international buyers\" Portugal OR Italy property when:2d": {
-  "runs": 21,
-  "items": 69,
-  "score_sum": 1591,
-  "mean_score": 23.1,
+  "runs": 22,
+  "items": 70,
+  "score_sum": 1596,
+  "mean_score": 22.8,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "ChatGPT OR \"AI agent\" property buying when:2d": {
-  "runs": 23,
-  "items": 196,
-  "score_sum": 1776,
-  "mean_score": 9.1,
+  "runs": 24,
+  "items": 200,
+  "score_sum": 1781,
+  "mean_score": 8.9,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "مستثمرون سعوديون OR إماراتيون عقارات أوروبا when:2d": {
-  "runs": 16,
-  "items": 34,
+  "runs": 17,
+  "items": 36,
   "score_sum": 140,
-  "mean_score": 4.1,
+  "mean_score": 3.9,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d": {
-  "runs": 24,
-  "items": 78,
-  "score_sum": 185,
-  "mean_score": 2.4,
+  "runs": 25,
+  "items": 83,
+  "score_sum": 195,
+  "mean_score": 2.3,
   "up": 0,
   "down": 0,
   "split": 0
@@ -108,10 +108,10 @@
   "split": 0
  },
  "\"second home\" intitle:tax OR intitle:premium when:2d": {
-  "runs": 23,
-  "items": 136,
+  "runs": 24,
+  "items": 138,
   "score_sum": 267,
-  "mean_score": 2.0,
+  "mean_score": 1.9,
   "up": 0,
   "down": 0,
   "split": 0
@@ -126,10 +126,10 @@
   "split": 0
  },
  "\"cross-border\" property buyers Europe when:2d": {
-  "runs": 22,
-  "items": 58,
-  "score_sum": 115,
-  "mean_score": 2.0,
+  "runs": 23,
+  "items": 60,
+  "score_sum": 130,
+  "mean_score": 2.2,
   "up": 0,
   "down": 0,
   "split": 0
@@ -144,10 +144,10 @@
   "split": 0
  },
  "[feed] portugal_resident": {
-  "runs": 25,
-  "items": 212,
+  "runs": 26,
+  "items": 218,
   "score_sum": 335,
-  "mean_score": 1.6,
+  "mean_score": 1.5,
   "up": 0,
   "down": 0,
   "split": 0
@@ -450,18 +450,18 @@
   "split": 0
  },
  "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d": {
-  "runs": 11,
-  "items": 330,
+  "runs": 12,
+  "items": 352,
   "score_sum": 258,
-  "mean_score": 0.8,
+  "mean_score": 0.7,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "site:aawsat.com عقارات أوروبا when:2d": {
-  "runs": 11,
-  "items": 580,
-  "score_sum": 293,
+  "runs": 12,
+  "items": 628,
+  "score_sum": 343,
   "mean_score": 0.5,
   "up": 0,
   "down": 0,
@@ -531,10 +531,10 @@
   "split": 0
  },
  "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d": {
-  "runs": 2,
-  "items": 2,
+  "runs": 3,
+  "items": 3,
   "score_sum": 45,
-  "mean_score": 22.5,
+  "mean_score": 15.0,
   "up": 0,
   "down": 0,
   "split": 0
@@ -549,10 +549,10 @@
   "split": 0
  },
  "intitle:IMT OR intitle:IMI alteração imóveis when:2d": {
-  "runs": 1,
-  "items": 1,
-  "score_sum": 50,
-  "mean_score": 50.0,
+  "runs": 2,
+  "items": 2,
+  "score_sum": 85,
+  "mean_score": 42.5,
   "up": 0,
   "down": 0,
   "split": 0
@@ -576,6 +576,15 @@
   "split": 0
  },
  "\"AI assistant\" property search intitle:launch when:2d": {
+  "runs": 2,
+  "items": 3,
+  "score_sum": 0,
+  "mean_score": 0.0,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "\"ضريبة العقارات\" إسبانيا OR البرتغال when:2d": {
   "runs": 1,
   "items": 1,
   "score_sum": 0,
@@ -584,7 +593,25 @@
   "down": 0,
   "split": 0
  },
- "\"ضريبة العقارات\" إسبانيا OR البرتغال when:2d": {
+ "\"المستثمرون الخليجيون\" أوروبا OR إسبانيا OR البرتغال when:2d": {
+  "runs": 1,
+  "items": 1,
+  "score_sum": 5,
+  "mean_score": 5.0,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "\"الإقامة الذهبية\" أوروبا OR البرتغال OR اليونان when:2d": {
+  "runs": 1,
+  "items": 1,
+  "score_sum": 0,
+  "mean_score": 0.0,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "site:alarabiya.net \"الإقامة الذهبية\" OR \"شراء عقار\" when:2d": {
   "runs": 1,
   "items": 1,
   "score_sum": 0,
