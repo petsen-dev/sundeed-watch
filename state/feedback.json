@@ -280,6 +280,27 @@
    "query": "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d",
    "lang": "ar",
    "date": "2026-08-29"
+  },
+  "e7fec827f3f3d162": {
+   "title": "The idealistas: international buyers now account for 30% of luxury housing in Spain",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-09-01"
+  },
+  "334e29a69651d0d5": {
+   "title": "If ChatGPT picks three agents, how do you get on the list?",
+   "cat": "CHANNEL",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
+   "lang": "en",
+   "date": "2026-09-01"
+  },
+  "e06441d184b252ba": {
+   "title": "Forecasts for European Central Bank to raise interest rates in September",
+   "cat": "OTHER",
+   "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-09-01"
   }
  },
  "votes": {}

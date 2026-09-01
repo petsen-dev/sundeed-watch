@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 4,
-  "last_seen": "2026-08-28",
-  "last_headline": "Dils: The exclusive one-stop shop for international buyers"
+  "count": 5,
+  "last_seen": "2026-09-01",
+  "last_headline": "If ChatGPT picks three agents, how do you get on the list?"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 2,
-  "last_seen": "2026-08-28",
-  "last_headline": "Foreign demand to buy property in Balearics reaches 28%"
+  "count": 3,
+  "last_seen": "2026-09-01",
+  "last_headline": "The idealistas: international buyers now account for 30% of luxury housing in Spain"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -40,5 +40,12 @@
   "count": 1,
   "last_seen": "2026-08-28",
   "last_headline": "IMT to change: Government reveals main amendments expected for Portuguese people"
+ },
+ "ecb-rate-outlook": {
+  "label": "ECB Rate Trajectory",
+  "first_seen": "2026-09-01",
+  "count": 1,
+  "last_seen": "2026-09-01",
+  "last_headline": "Forecasts for European Central Bank to raise interest rates in September"
  }
 }
