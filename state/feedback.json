@@ -301,6 +301,41 @@
    "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
    "lang": "ar",
    "date": "2026-09-01"
+  },
+  "9bd7a4077194faf1": {
+   "title": "Més proposes eliminating 130,000 tourist places and limiting property purchase to non-residents",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-09-02"
+  },
+  "86fef16e46d5ab00": {
+   "title": "Government Overhauls Golden Visa Rules to Tackle Housing Crisis",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-09-02"
+  },
+  "7ea9308b7589ed35": {
+   "title": "Alert for renters in Spain: cancellation of two-year lease extensions and rent increase cap of 2%",
+   "cat": "REGULATORY",
+   "query": "قانون العقارات إسبانيا تأجيل OR إلغاء when:2d",
+   "lang": "ar",
+   "date": "2026-09-02"
+  },
+  "8ab5d4774dd849a3": {
+   "title": "Euro bond yields jump to multi-year highs ahead of inflation data",
+   "cat": "DEMAND-FLOW",
+   "query": "site:aawsat.com عقارات أوروبا when:2d",
+   "lang": "ar",
+   "date": "2026-09-02"
+  },
+  "b847b51f9692ed2b": {
+   "title": "Reapit unveils £40m-plus investment as estate agency AI race gathers pace",
+   "cat": "CHANNEL",
+   "query": "[feed] property_industry_eye",
+   "lang": "en",
+   "date": "2026-09-02"
   }
  },
  "votes": {}
