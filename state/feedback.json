@@ -336,6 +336,13 @@
    "query": "[feed] property_industry_eye",
    "lang": "en",
    "date": "2026-09-02"
+  },
+  "fbc4cc30821b2ae8": {
+   "title": "Housing price rises sharply in Alboraia and Calp due to lack of supply",
+   "cat": "DEMAND-FLOW",
+   "query": "\"compradores extranjeros\" vivienda intitle:datos OR intitle:sube when:2d",
+   "lang": "es",
+   "date": "2026-09-03"
   }
  },
  "votes": {}
