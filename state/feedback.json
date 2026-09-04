@@ -343,6 +343,34 @@
    "query": "\"compradores extranjeros\" vivienda intitle:datos OR intitle:sube when:2d",
    "lang": "es",
    "date": "2026-09-03"
+  },
+  "f60404b8ae9b89e7": {
+   "title": "Capital gains and inheritance tax raid now more likely, experts warn",
+   "cat": "HEADLINE-GAP",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-09-04"
+  },
+  "8583583ac5f4ba54": {
+   "title": "Latvia Promulgates New Immigration Law; Golden Visa Property and Deposit Routes End September 14",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-09-04"
+  },
+  "5ef09f8ad6c870d8": {
+   "title": "Europe gains share of global property capital as investment rises 21%",
+   "cat": "DEMAND-FLOW",
+   "query": "\"cross-border\" property buyers Europe when:2d",
+   "lang": "en",
+   "date": "2026-09-04"
+  },
+  "945289fceb4f411a": {
+   "title": "Thai luxury developer Sansiri acquiring Italian hotel for €200m",
+   "cat": "OTHER",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-09-04"
   }
  },
  "votes": {}
