@@ -371,6 +371,41 @@
    "query": "\"international buyers\" Portugal OR Italy property when:2d",
    "lang": "en",
    "date": "2026-09-04"
+  },
+  "3e2e4baca88b759d": {
+   "title": "What the new Nationality Law means for Golden Visa applicants",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-09-05"
+  },
+  "b49e0bb1fa649c03": {
+   "title": "Foreigners now buy half of homes for sale in Ibiza",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-09-05"
+  },
+  "aa9c930f46cd6a25": {
+   "title": "Portugal's new affordable rental rules: RSAA and CIA explained",
+   "cat": "REGULATORY",
+   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
+   "lang": "en",
+   "date": "2026-09-05"
+  },
+  "ebf2696688ab2c5e": {
+   "title": "JPMorgan and BNP Paribas Expect New European Interest Rate Hike in December",
+   "cat": "OTHER",
+   "query": "site:aawsat.com عقارات أوروبا when:2d",
+   "lang": "ar",
+   "date": "2026-09-05"
+  },
+  "0b57cc14fc366921": {
+   "title": "New platform offers estate agents extra revenue from completed sales",
+   "cat": "COMMISSION-MODEL",
+   "query": "[feed] property_industry_eye",
+   "lang": "en",
+   "date": "2026-09-05"
   }
  },
  "votes": {}

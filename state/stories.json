@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 6,
-  "last_seen": "2026-09-04",
-  "last_headline": "Latvia Promulgates New Immigration Law; Golden Visa Property and Deposit Routes End September 14"
+  "count": 7,
+  "last_seen": "2026-09-05",
+  "last_headline": "What the new Nationality Law means for Golden Visa applicants"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 6,
-  "last_seen": "2026-09-02",
-  "last_headline": "Reapit unveils £40m-plus investment as estate agency AI race gathers pace"
+  "count": 7,
+  "last_seen": "2026-09-05",
+  "last_headline": "New platform offers estate agents extra revenue from completed sales"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 5,
-  "last_seen": "2026-09-03",
-  "last_headline": "Housing price rises sharply in Alboraia and Calp due to lack of supply"
+  "count": 6,
+  "last_seen": "2026-09-05",
+  "last_headline": "Foreigners now buy half of homes for sale in Ibiza"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -44,9 +44,9 @@
  "ecb-rate-outlook": {
   "label": "ECB Rate Trajectory",
   "first_seen": "2026-09-01",
-  "count": 2,
-  "last_seen": "2026-09-02",
-  "last_headline": "Euro bond yields jump to multi-year highs ahead of inflation data"
+  "count": 3,
+  "last_seen": "2026-09-05",
+  "last_headline": "JPMorgan and BNP Paribas Expect New European Interest Rate Hike in December"
  },
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
@@ -61,5 +61,12 @@
   "count": 1,
   "last_seen": "2026-09-04",
   "last_headline": "Europe gains share of global property capital as investment rises 21%"
+ },
+ "portugal-rental-regulation": {
+  "label": "Portugal Rental Market Reform",
+  "first_seen": "2026-09-05",
+  "count": 1,
+  "last_seen": "2026-09-05",
+  "last_headline": "Portugal's new affordable rental rules: RSAA and CIA explained"
  }
 }
