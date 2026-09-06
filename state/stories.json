@@ -2,16 +2,16 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 7,
-  "last_seen": "2026-09-05",
-  "last_headline": "What the new Nationality Law means for Golden Visa applicants"
+  "count": 8,
+  "last_seen": "2026-09-06",
+  "last_headline": "Greece Is Preparing to Update Golden Visa Program"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
   "first_seen": "2026-08-25",
-  "count": 7,
-  "last_seen": "2026-08-29",
-  "last_headline": "Algarve property valuations exceed €3,000 per square metre"
+  "count": 8,
+  "last_seen": "2026-09-06",
+  "last_headline": "Fitch raises Portugal's rating to A+ with stable outlook"
  },
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 6,
-  "last_seen": "2026-09-05",
-  "last_headline": "Foreigners now buy half of homes for sale in Ibiza"
+  "count": 7,
+  "last_seen": "2026-09-06",
+  "last_headline": "British buyers lead Costa del Sol property reservations at 21%"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -68,5 +68,12 @@
   "count": 1,
   "last_seen": "2026-09-05",
   "last_headline": "Portugal's new affordable rental rules: RSAA and CIA explained"
+ },
+ "foreign-ownership-map": {
+  "label": "Foreign Buyer Eligibility Map",
+  "first_seen": "2026-09-06",
+  "count": 1,
+  "last_seen": "2026-09-06",
+  "last_headline": "Where Foreigners Can and Cannot Buy Property, Market by Market"
  }
 }

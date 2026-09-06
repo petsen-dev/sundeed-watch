@@ -406,6 +406,34 @@
    "query": "[feed] property_industry_eye",
    "lang": "en",
    "date": "2026-09-05"
+  },
+  "5fefdd29c06b5f5c": {
+   "title": "Where Foreigners Can and Cannot Buy Property, Market by Market",
+   "cat": "REGULATORY",
+   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
+   "lang": "en",
+   "date": "2026-09-06"
+  },
+  "b0b175cab780ede4": {
+   "title": "British buyers lead Costa del Sol property reservations at 21%",
+   "cat": "DEMAND-FLOW",
+   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
+   "lang": "en",
+   "date": "2026-09-06"
+  },
+  "181895819d6dcc57": {
+   "title": "Greece Is Preparing to Update Golden Visa Program",
+   "cat": "HEADLINE-GAP",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-09-06"
+  },
+  "7a9295bed9c93f09": {
+   "title": "Fitch raises Portugal's rating to A+ with stable outlook",
+   "cat": "OTHER",
+   "query": "[feed] portugal_resident",
+   "lang": "en",
+   "date": "2026-09-06"
   }
  },
  "votes": {}
