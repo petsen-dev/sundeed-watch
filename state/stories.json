@@ -44,9 +44,9 @@
  "ecb-rate-outlook": {
   "label": "ECB Rate Trajectory",
   "first_seen": "2026-09-01",
-  "count": 3,
-  "last_seen": "2026-09-05",
-  "last_headline": "JPMorgan and BNP Paribas Expect New European Interest Rate Hike in December"
+  "count": 4,
+  "last_seen": "2026-09-07",
+  "last_headline": "ECB minutes pave way for interest rate hike again in September to curb inflation"
  },
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
@@ -75,5 +75,12 @@
   "count": 1,
   "last_seen": "2026-09-06",
   "last_headline": "Where Foreigners Can and Cannot Buy Property, Market by Market"
+ },
+ "greece-noneu-tax": {
+  "label": "Greece Non-EU Buyer Transfer Tax",
+  "first_seen": "2026-09-07",
+  "count": 1,
+  "last_seen": "2026-09-07",
+  "last_headline": "Greece to Quintuple Property Transfer Tax to 15% for Non-EU Buyers From January 2027"
  }
 }

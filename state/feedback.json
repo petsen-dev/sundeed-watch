@@ -434,6 +434,20 @@
    "query": "[feed] portugal_resident",
    "lang": "en",
    "date": "2026-09-06"
+  },
+  "994be387bd74a30f": {
+   "title": "Greece to Quintuple Property Transfer Tax to 15% for Non-EU Buyers From January 2027",
+   "cat": "REGULATORY",
+   "query": "intitle:\"transfer tax\" Spain OR Portugal OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-09-07"
+  },
+  "794ac949ee081bb4": {
+   "title": "ECB minutes pave way for interest rate hike again in September to curb inflation",
+   "cat": "OTHER",
+   "query": "site:aawsat.com عقارات أوروبا when:2d",
+   "lang": "ar",
+   "date": "2026-09-07"
   }
  },
  "votes": {}
