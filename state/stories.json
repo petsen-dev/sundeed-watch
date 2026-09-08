@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 8,
-  "last_seen": "2026-09-06",
-  "last_headline": "Greece Is Preparing to Update Golden Visa Program"
+  "count": 9,
+  "last_seen": "2026-09-08",
+  "last_headline": "Portugal Extends Golden Visa Citizenship Timeline to 10 Years"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 7,
-  "last_seen": "2026-09-05",
-  "last_headline": "New platform offers estate agents extra revenue from completed sales"
+  "count": 8,
+  "last_seen": "2026-09-08",
+  "last_headline": "Real estate startups push lower-cost alternatives to traditional agent commissions"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 7,
-  "last_seen": "2026-09-06",
-  "last_headline": "British buyers lead Costa del Sol property reservations at 21%"
+  "count": 8,
+  "last_seen": "2026-09-08",
+  "last_headline": "Spain property deals fell by 7.7 per cent in July: Balearics suffers one of the sharpest declines"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -79,8 +79,8 @@
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
   "first_seen": "2026-09-07",
-  "count": 1,
-  "last_seen": "2026-09-07",
-  "last_headline": "Greece to Quintuple Property Transfer Tax to 15% for Non-EU Buyers From January 2027"
+  "count": 2,
+  "last_seen": "2026-09-08",
+  "last_headline": "Greece plans to lift property tax fivefold for overseas buyers"
  }
 }
