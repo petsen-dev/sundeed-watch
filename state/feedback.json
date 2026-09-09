@@ -483,6 +483,34 @@
    "query": "\"NAR settlement\" buyer agency commission when:2d",
    "lang": "en",
    "date": "2026-09-08"
+  },
+  "5a4427a146dd3245": {
+   "title": "Golden Visa: New Blow as Greece Raises Property Transfer Tax",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-09-09"
+  },
+  "bf66c330dfc9c665": {
+   "title": "Germans and Swiss rush for housing in Spain: lead foreign mortgages",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-09-09"
+  },
+  "2aa9145b7d9b92cf": {
+   "title": "Portugal faces housing crisis.. 1.5 billion euros for 50,000 units",
+   "cat": "REGULATORY",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-09-09"
+  },
+  "e4770bb71e00c637": {
+   "title": "Over 3,000 Turkish Citizens Hold Greek Golden Visa Permits",
+   "cat": "DEMAND-FLOW",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-09-09"
   }
  },
  "votes": {}
