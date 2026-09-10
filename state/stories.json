@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 10,
-  "last_seen": "2026-09-09",
-  "last_headline": "Over 3,000 Turkish Citizens Hold Greek Golden Visa Permits"
+  "count": 11,
+  "last_seen": "2026-09-10",
+  "last_headline": "Portugal's Golden Visa attracts €46.8 million for cultural projects"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 8,
-  "last_seen": "2026-09-08",
-  "last_headline": "Real estate startups push lower-cost alternatives to traditional agent commissions"
+  "count": 9,
+  "last_seen": "2026-09-10",
+  "last_headline": "Andalucia moves towards mandatory real estate agent register"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -51,9 +51,9 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 1,
-  "last_seen": "2026-09-02",
-  "last_headline": "Alert for renters in Spain: cancellation of two-year lease extensions and rent increase cap of 2%"
+  "count": 2,
+  "last_seen": "2026-09-10",
+  "last_headline": "Tourist license no longer enough: Horizontal Property Law requires neighbor permission and allows 20% fee increase"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
@@ -79,8 +79,29 @@
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
   "first_seen": "2026-09-07",
-  "count": 3,
-  "last_seen": "2026-09-09",
-  "last_headline": "Golden Visa: New Blow as Greece Raises Property Transfer Tax"
+  "count": 4,
+  "last_seen": "2026-09-10",
+  "last_headline": "Greece Plans 15% Property Transfer Tax for Non-EU Buyers: What Could It Mean for Golden Visa Investors?"
+ },
+ "eu-str-crackdown": {
+  "label": "EU Short-Term Rental Crackdown",
+  "first_seen": "2026-09-10",
+  "count": 1,
+  "last_seen": "2026-09-10",
+  "last_headline": "EU to give cities more power to crack down holiday rentals like Airbnb"
+ },
+ "portugal-ifici-tax": {
+  "label": "Portugal IFICI Tax Regime",
+  "first_seen": "2026-09-10",
+  "count": 1,
+  "last_seen": "2026-09-10",
+  "last_headline": "Portugal's New Tax Incentive: Understanding the IFICI Regime"
+ },
+ "fractional-ownership-europe": {
+  "label": "Fractional Ownership Expansion",
+  "first_seen": "2026-09-10",
+  "count": 1,
+  "last_seen": "2026-09-10",
+  "last_headline": "Pacaso Brings Co-Ownership to the Banks of the Seine With the Launch of Riverfront Pied-à-terre in Paris' 6th Arrondissement"
  }
 }

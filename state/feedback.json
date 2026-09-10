@@ -511,6 +511,55 @@
    "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
    "lang": "en",
    "date": "2026-09-09"
+  },
+  "a3ca5427d971caff": {
+   "title": "Andalucia moves towards mandatory real estate agent register",
+   "cat": "REGULATORY",
+   "query": "\"estate agent\" intitle:register Spain OR Andalusia OR Valencia when:2d",
+   "lang": "en",
+   "date": "2026-09-10"
+  },
+  "5318bda8cb8a4798": {
+   "title": "Tourist license no longer enough: Horizontal Property Law requires neighbor permission and allows 20% fee increase",
+   "cat": "REGULATORY",
+   "query": "\"vivienda de uso turístico\" intitle:licencia OR intitle:moratoria when:2d",
+   "lang": "es",
+   "date": "2026-09-10"
+  },
+  "686e21fd18841bd8": {
+   "title": "Greece Plans 15% Property Transfer Tax for Non-EU Buyers: What Could It Mean for Golden Visa Investors?",
+   "cat": "REGULATORY",
+   "query": "intitle:\"transfer tax\" Spain OR Portugal OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-09-10"
+  },
+  "86de80a76d33e931": {
+   "title": "EU to give cities more power to crack down holiday rentals like Airbnb",
+   "cat": "REGULATORY",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
+   "lang": "en",
+   "date": "2026-09-10"
+  },
+  "cee8609c08a9117f": {
+   "title": "Portugal's New Tax Incentive: Understanding the IFICI Regime",
+   "cat": "REGULATORY",
+   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
+   "lang": "en",
+   "date": "2026-09-10"
+  },
+  "fc05d7523efc3422": {
+   "title": "Pacaso Brings Co-Ownership to the Banks of the Seine With the Launch of Riverfront Pied-à-terre in Paris' 6th Arrondissement",
+   "cat": "OWNERSHIP-MODEL",
+   "query": "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d",
+   "lang": "en",
+   "date": "2026-09-10"
+  },
+  "9fbc4d98ac474a1c": {
+   "title": "Portugal's Golden Visa attracts €46.8 million for cultural projects",
+   "cat": "DEMAND-FLOW",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-09-10"
   }
  },
  "votes": {}
