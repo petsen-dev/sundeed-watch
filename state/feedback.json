@@ -560,6 +560,34 @@
    "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
    "lang": "en",
    "date": "2026-09-10"
+  },
+  "30c069186b6d10c9": {
+   "title": "Ibiza council hits illegal tourist rental with €793,000 fine – but will the owner pay that much?",
+   "cat": "REGULATORY",
+   "query": "[feed] spanish_property_insight",
+   "lang": "en",
+   "date": "2026-09-11"
+  },
+  "206d905098ee1eb5": {
+   "title": "Housing ministry believes all of Canary Islands could meet requirements to limit second residences promoted by Europe",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-09-11"
+  },
+  "568c7f017bb3dc76": {
+   "title": "PS criticises suspension of new local accommodation in Santa Cruz",
+   "cat": "REGULATORY",
+   "query": "\"alojamento local\" intitle:licença OR intitle:suspensão when:2d",
+   "lang": "pt",
+   "date": "2026-09-11"
+  },
+  "7277a6828ea933b8": {
+   "title": "European dealmakers bet on recovery as US buyers circle cheaper assets",
+   "cat": "DEMAND-FLOW",
+   "query": "\"cross-border\" property buyers Europe when:2d",
+   "lang": "en",
+   "date": "2026-09-11"
   }
  },
  "votes": {}
