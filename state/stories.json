@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 11,
-  "last_seen": "2026-09-10",
-  "last_headline": "Portugal's Golden Visa attracts €46.8 million for cultural projects"
+  "count": 12,
+  "last_seen": "2026-09-12",
+  "last_headline": "Government Overhauls Golden Visa Rules to Tackle Housing Crisis"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -16,30 +16,30 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 9,
-  "last_seen": "2026-09-10",
-  "last_headline": "Andalucia moves towards mandatory real estate agent register"
+  "count": 10,
+  "last_seen": "2026-09-12",
+  "last_headline": "Real estate commission rules have changed. Here's what to know."
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
   "first_seen": "2026-08-25",
-  "count": 6,
-  "last_seen": "2026-09-04",
-  "last_headline": "Capital gains and inheritance tax raid now more likely, experts warn"
+  "count": 7,
+  "last_seen": "2026-09-12",
+  "last_headline": "Quitting Britain's rental market? Here's where to invest instead"
  },
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 9,
-  "last_seen": "2026-09-09",
-  "last_headline": "Germans and Swiss rush for housing in Spain: lead foreign mortgages"
+  "count": 10,
+  "last_seen": "2026-09-12",
+  "last_headline": "Latin American capital extends its interest towards the Costa del Sol"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
   "first_seen": "2026-08-28",
-  "count": 1,
-  "last_seen": "2026-08-28",
-  "last_headline": "IMT to change: Government reveals main amendments expected for Portuguese people"
+  "count": 2,
+  "last_seen": "2026-09-12",
+  "last_headline": "Having lived in Portugal may avoid 7.5% IMT rate for non-residents"
  },
  "ecb-rate-outlook": {
   "label": "ECB Rate Trajectory",
@@ -72,16 +72,16 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 1,
-  "last_seen": "2026-09-06",
-  "last_headline": "Where Foreigners Can and Cannot Buy Property, Market by Market"
+  "count": 2,
+  "last_seen": "2026-09-12",
+  "last_headline": "The Generalitat opens to limiting home purchases by non-residents if Brussels permits"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
   "first_seen": "2026-09-07",
-  "count": 4,
-  "last_seen": "2026-09-10",
-  "last_headline": "Greece Plans 15% Property Transfer Tax for Non-EU Buyers: What Could It Mean for Golden Visa Investors?"
+  "count": 5,
+  "last_seen": "2026-09-12",
+  "last_headline": "15% property tax in Greece: Why Golden Visa investors may face bigger bill"
  },
  "eu-str-crackdown": {
   "label": "EU Short-Term Rental Crackdown",
@@ -103,5 +103,12 @@
   "count": 1,
   "last_seen": "2026-09-10",
   "last_headline": "Pacaso Brings Co-Ownership to the Banks of the Seine With the Launch of Riverfront Pied-à-terre in Paris' 6th Arrondissement"
+ },
+ "france-second-home-tax": {
+  "label": "France Second-Home Tax Surcharge",
+  "first_seen": "2026-09-12",
+  "count": 1,
+  "last_seen": "2026-09-12",
+  "last_headline": "Hundreds of French communes impose maximum surcharge on second homes"
  }
 }

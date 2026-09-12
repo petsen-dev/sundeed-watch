@@ -314,7 +314,7 @@
    "cat": "REGULATORY",
    "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
    "lang": "en",
-   "date": "2026-09-02"
+   "date": "2026-09-12"
   },
   "7ea9308b7589ed35": {
    "title": "Alert for renters in Spain: cancellation of two-year lease extensions and rent increase cap of 2%",
@@ -588,6 +588,55 @@
    "query": "\"cross-border\" property buyers Europe when:2d",
    "lang": "en",
    "date": "2026-09-11"
+  },
+  "4465f2617af5f1eb": {
+   "title": "15% property tax in Greece: Why Golden Visa investors may face bigger bill",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-09-12"
+  },
+  "692fbfe064137ddb": {
+   "title": "The Generalitat opens to limiting home purchases by non-residents if Brussels permits",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-09-12"
+  },
+  "2028e86f9445bc2f": {
+   "title": "Hundreds of French communes impose maximum surcharge on second homes",
+   "cat": "REGULATORY",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-09-12"
+  },
+  "f85421804663112e": {
+   "title": "Having lived in Portugal may avoid 7.5% IMT rate for non-residents",
+   "cat": "REGULATORY",
+   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
+   "lang": "en",
+   "date": "2026-09-12"
+  },
+  "824fd59f014cf993": {
+   "title": "Real estate commission rules have changed. Here's what to know.",
+   "cat": "COMMISSION-MODEL",
+   "query": "\"NAR settlement\" buyer agency commission when:2d",
+   "lang": "en",
+   "date": "2026-09-12"
+  },
+  "c2b47732f43ae3b6": {
+   "title": "Latin American capital extends its interest towards the Costa del Sol",
+   "cat": "DEMAND-FLOW",
+   "query": "\"American buyers\" Italy OR Portugal OR Spain property when:2d",
+   "lang": "en",
+   "date": "2026-09-12"
+  },
+  "e4571c9b7f28844e": {
+   "title": "Quitting Britain's rental market? Here's where to invest instead",
+   "cat": "DEMAND-FLOW",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-09-12"
   }
  },
  "votes": {}
