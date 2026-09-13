@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 10,
-  "last_seen": "2026-09-12",
-  "last_headline": "Real estate commission rules have changed. Here's what to know."
+  "count": 11,
+  "last_seen": "2026-09-13",
+  "last_headline": "Artificial Intelligence is coming for the property search business"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -110,5 +110,12 @@
   "count": 1,
   "last_seen": "2026-09-12",
   "last_headline": "Hundreds of French communes impose maximum surcharge on second homes"
+ },
+ "spain-mortgage-ruling": {
+  "label": "Spain Mortgage Fee Recovery Ruling",
+  "first_seen": "2026-09-13",
+  "count": 1,
+  "last_seen": "2026-09-13",
+  "last_headline": "Court ruling opens the door for thousands of mortgage holders in Spain to recover thousands of euros"
  }
 }

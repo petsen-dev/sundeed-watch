@@ -637,6 +637,20 @@
    "query": "\"international buyers\" Portugal OR Italy property when:2d",
    "lang": "en",
    "date": "2026-09-12"
+  },
+  "944589febeb58936": {
+   "title": "Artificial Intelligence is coming for the property search business",
+   "cat": "CHANNEL",
+   "query": "[feed] spanish_property_insight",
+   "lang": "en",
+   "date": "2026-09-13"
+  },
+  "b3f847fe8bf110ba": {
+   "title": "Court ruling opens the door for thousands of mortgage holders in Spain to recover thousands of euros",
+   "cat": "REGULATORY",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-09-13"
   }
  },
  "votes": {}
