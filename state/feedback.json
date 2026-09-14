@@ -651,6 +651,34 @@
    "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
    "lang": "ar",
    "date": "2026-09-13"
+  },
+  "e50dc02ff306a2d6": {
+   "title": "Brussels proposes housing market intervention that could harm foreign buyers and sellers in Spain",
+   "cat": "REGULATORY",
+   "query": "[feed] spanish_property_insight",
+   "lang": "en",
+   "date": "2026-09-14"
+  },
+  "aaa485636b77c0f7": {
+   "title": "Airbnb faces €8.6m fine over unpaid tourist tax in France",
+   "cat": "REGULATORY",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-09-14"
+  },
+  "0edc74696da4f15c": {
+   "title": "Lagarde: current inflation shock is longer-lasting.. interest rates may rise again",
+   "cat": "OTHER",
+   "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-09-14"
+  },
+  "f6665b39f0528768": {
+   "title": "Demand for luxury homes grows in Mallorca but 'harder to sell'",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-09-14"
   }
  },
  "votes": {}

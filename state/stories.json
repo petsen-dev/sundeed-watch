@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 10,
-  "last_seen": "2026-09-12",
-  "last_headline": "Latin American capital extends its interest towards the Costa del Sol"
+  "count": 11,
+  "last_seen": "2026-09-14",
+  "last_headline": "Demand for luxury homes grows in Mallorca but 'harder to sell'"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -44,9 +44,9 @@
  "ecb-rate-outlook": {
   "label": "ECB Rate Trajectory",
   "first_seen": "2026-09-01",
-  "count": 4,
-  "last_seen": "2026-09-07",
-  "last_headline": "ECB minutes pave way for interest rate hike again in September to curb inflation"
+  "count": 5,
+  "last_seen": "2026-09-14",
+  "last_headline": "Lagarde: current inflation shock is longer-lasting.. interest rates may rise again"
  },
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
@@ -72,9 +72,9 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 2,
-  "last_seen": "2026-09-12",
-  "last_headline": "The Generalitat opens to limiting home purchases by non-residents if Brussels permits"
+  "count": 3,
+  "last_seen": "2026-09-14",
+  "last_headline": "Brussels proposes housing market intervention that could harm foreign buyers and sellers in Spain"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
@@ -86,9 +86,9 @@
  "eu-str-crackdown": {
   "label": "EU Short-Term Rental Crackdown",
   "first_seen": "2026-09-10",
-  "count": 2,
-  "last_seen": "2026-09-11",
-  "last_headline": "Ibiza council hits illegal tourist rental with €793,000 fine – but will the owner pay that much?"
+  "count": 3,
+  "last_seen": "2026-09-14",
+  "last_headline": "Airbnb faces €8.6m fine over unpaid tourist tax in France"
  },
  "portugal-ifici-tax": {
   "label": "Portugal IFICI Tax Regime",
