@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 11,
-  "last_seen": "2026-09-13",
-  "last_headline": "Artificial Intelligence is coming for the property search business"
+  "count": 12,
+  "last_seen": "2026-09-15",
+  "last_headline": "Huspy acquires luxury real estate brokerage firm LuxuryX"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -72,23 +72,23 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 3,
-  "last_seen": "2026-09-14",
-  "last_headline": "Brussels proposes housing market intervention that could harm foreign buyers and sellers in Spain"
+  "count": 4,
+  "last_seen": "2026-09-15",
+  "last_headline": "MÉS will resume its law to halt home purchases by non-residents following EU Commission move"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
   "first_seen": "2026-09-07",
-  "count": 5,
-  "last_seen": "2026-09-12",
-  "last_headline": "15% property tax in Greece: Why Golden Visa investors may face bigger bill"
+  "count": 6,
+  "last_seen": "2026-09-15",
+  "last_headline": "Greece's new 15 per cent home-buyer tax has an escape hatch — Greek citizenship"
  },
  "eu-str-crackdown": {
   "label": "EU Short-Term Rental Crackdown",
   "first_seen": "2026-09-10",
-  "count": 3,
-  "last_seen": "2026-09-14",
-  "last_headline": "Airbnb faces €8.6m fine over unpaid tourist tax in France"
+  "count": 4,
+  "last_seen": "2026-09-15",
+  "last_headline": "Proposed European Affordable Housing Law: Impact on Balearic Islands and Tourist Rentals"
  },
  "portugal-ifici-tax": {
   "label": "Portugal IFICI Tax Regime",
@@ -107,9 +107,9 @@
  "france-second-home-tax": {
   "label": "France Second-Home Tax Surcharge",
   "first_seen": "2026-09-12",
-  "count": 1,
-  "last_seen": "2026-09-12",
-  "last_headline": "Hundreds of French communes impose maximum surcharge on second homes"
+  "count": 2,
+  "last_seen": "2026-09-15",
+  "last_headline": "Second homes tax raid pushes hundreds of homeowners into debt"
  },
  "spain-mortgage-ruling": {
   "label": "Spain Mortgage Fee Recovery Ruling",

@@ -679,6 +679,41 @@
    "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
    "lang": "es",
    "date": "2026-09-14"
+  },
+  "14ebcc3edb14b310": {
+   "title": "MÉS will resume its law to halt home purchases by non-residents following EU Commission move",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-09-15"
+  },
+  "450a74497e2d4575": {
+   "title": "Greece's new 15 per cent home-buyer tax has an escape hatch — Greek citizenship",
+   "cat": "REGULATORY",
+   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
+   "lang": "en",
+   "date": "2026-09-15"
+  },
+  "12d1a4eb95bd54cc": {
+   "title": "Proposed European Affordable Housing Law: Impact on Balearic Islands and Tourist Rentals",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-09-15"
+  },
+  "dddf2fb47dab1665": {
+   "title": "Second homes tax raid pushes hundreds of homeowners into debt",
+   "cat": "REGULATORY",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-09-15"
+  },
+  "258b3b738b3ac249": {
+   "title": "Huspy acquires luxury real estate brokerage firm LuxuryX",
+   "cat": "CHANNEL",
+   "query": "\"منصة عقارية\" أوروبا OR إسبانيا when:2d",
+   "lang": "ar",
+   "date": "2026-09-15"
   }
  },
  "votes": {}
