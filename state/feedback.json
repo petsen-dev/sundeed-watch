@@ -714,6 +714,20 @@
    "query": "\"منصة عقارية\" أوروبا OR إسبانيا when:2d",
    "lang": "ar",
    "date": "2026-09-15"
+  },
+  "ea068283173573e3": {
+   "title": "Prohens rejects limiting second-home purchases to Balearic residents",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-09-16"
+  },
+  "928c0f97ce167dc1": {
+   "title": "Irish buyers remain strong in Algarve property market",
+   "cat": "DEMAND-FLOW",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-09-16"
   }
  },
  "votes": {}

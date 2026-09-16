@@ -9,9 +9,9 @@
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
   "first_seen": "2026-08-25",
-  "count": 8,
-  "last_seen": "2026-09-06",
-  "last_headline": "Fitch raises Portugal's rating to A+ with stable outlook"
+  "count": 9,
+  "last_seen": "2026-09-16",
+  "last_headline": "Irish buyers remain strong in Algarve property market"
  },
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
@@ -72,9 +72,9 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 4,
-  "last_seen": "2026-09-15",
-  "last_headline": "MÉS will resume its law to halt home purchases by non-residents following EU Commission move"
+  "count": 5,
+  "last_seen": "2026-09-16",
+  "last_headline": "Prohens rejects limiting second-home purchases to Balearic residents"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
