@@ -728,6 +728,48 @@
    "query": "\"international buyers\" Portugal OR Italy property when:2d",
    "lang": "en",
    "date": "2026-09-16"
+  },
+  "89610e394220e40c": {
+   "title": "Rosario Sánchez commits to limiting second-home purchases by non-residents in the Balearic Islands",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-09-17"
+  },
+  "5873c6de78769b14": {
+   "title": "Capital Gains Tax frontrunner for hike in Budget",
+   "cat": "HEADLINE-GAP",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-09-17"
+  },
+  "d5c896c7c308854e": {
+   "title": "'California of Europe' planned for the Algarve",
+   "cat": "UPFUNNEL",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-09-17"
+  },
+  "2a863d3b6fb8a9c7": {
+   "title": "Too many holiday-homes is not Spain's coastal housing problem",
+   "cat": "UPFUNNEL",
+   "query": "[feed] spanish_property_insight",
+   "lang": "en",
+   "date": "2026-09-17"
+  },
+  "e39281c9f1214d40": {
+   "title": "Marbella joins Monaco and Miami in the luxury property elite",
+   "cat": "DEMAND-FLOW",
+   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
+   "lang": "en",
+   "date": "2026-09-17"
+  },
+  "7ffd6a7bc45c3a30": {
+   "title": "Teachers give up Algarve posts over housing costs",
+   "cat": "DEMAND-FLOW",
+   "query": "[feed] portugal_resident",
+   "lang": "en",
+   "date": "2026-09-17"
   }
  },
  "votes": {}

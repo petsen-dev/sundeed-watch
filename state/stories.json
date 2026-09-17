@@ -9,9 +9,9 @@
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
   "first_seen": "2026-08-25",
-  "count": 9,
-  "last_seen": "2026-09-16",
-  "last_headline": "Irish buyers remain strong in Algarve property market"
+  "count": 10,
+  "last_seen": "2026-09-17",
+  "last_headline": "'California of Europe' planned for the Algarve"
  },
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
@@ -23,16 +23,16 @@
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
   "first_seen": "2026-08-25",
-  "count": 7,
-  "last_seen": "2026-09-12",
-  "last_headline": "Quitting Britain's rental market? Here's where to invest instead"
+  "count": 8,
+  "last_seen": "2026-09-17",
+  "last_headline": "Capital Gains Tax frontrunner for hike in Budget"
  },
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 11,
-  "last_seen": "2026-09-14",
-  "last_headline": "Demand for luxury homes grows in Mallorca but 'harder to sell'"
+  "count": 12,
+  "last_seen": "2026-09-17",
+  "last_headline": "Marbella joins Monaco and Miami in the luxury property elite"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -51,9 +51,9 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 3,
-  "last_seen": "2026-09-11",
-  "last_headline": "Housing ministry believes all of Canary Islands could meet requirements to limit second residences promoted by Europe"
+  "count": 4,
+  "last_seen": "2026-09-17",
+  "last_headline": "Too many holiday-homes is not Spain's coastal housing problem"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
@@ -65,16 +65,16 @@
  "portugal-rental-regulation": {
   "label": "Portugal Rental Market Reform",
   "first_seen": "2026-09-05",
-  "count": 3,
-  "last_seen": "2026-09-11",
-  "last_headline": "PS criticises suspension of new local accommodation in Santa Cruz"
+  "count": 4,
+  "last_seen": "2026-09-17",
+  "last_headline": "Teachers give up Algarve posts over housing costs"
  },
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 5,
-  "last_seen": "2026-09-16",
-  "last_headline": "Prohens rejects limiting second-home purchases to Balearic residents"
+  "count": 6,
+  "last_seen": "2026-09-17",
+  "last_headline": "Rosario Sánchez commits to limiting second-home purchases by non-residents in the Balearic Islands"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
