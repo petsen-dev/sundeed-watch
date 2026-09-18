@@ -770,6 +770,48 @@
    "query": "[feed] portugal_resident",
    "lang": "en",
    "date": "2026-09-17"
+  },
+  "b232ce4e7c1a87f4": {
+   "title": "CJEU questions Spain's imposition of higher tax burden on foreign funds than domestic ones",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-09-18"
+  },
+  "ef9f812f420540cc": {
+   "title": "PP nationally backs Prohens in rejecting restrictions on second-home purchases by non-residents in Balearics",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-09-18"
+  },
+  "57d0626c21876dfe": {
+   "title": "Labour plans tax raid on holiday cottages",
+   "cat": "HEADLINE-GAP",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-09-18"
+  },
+  "55e22a5ab99577d3": {
+   "title": "Fitch's upgrade to A+ adds fresh appeal to Portugal's Golden Visa",
+   "cat": "DEMAND-FLOW",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-09-18"
+  },
+  "abf9c6f741bfbacf": {
+   "title": "Foreigners pay nearly double what residents pay for a property in Balearics",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-09-18"
+  },
+  "377274dffa50e21c": {
+   "title": "Lisbon loses 8,300 properties due to rising house prices",
+   "cat": "DEMAND-FLOW",
+   "query": "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d",
+   "lang": "ar",
+   "date": "2026-09-18"
   }
  },
  "votes": {}

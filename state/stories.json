@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 12,
-  "last_seen": "2026-09-12",
-  "last_headline": "Government Overhauls Golden Visa Rules to Tackle Housing Crisis"
+  "count": 13,
+  "last_seen": "2026-09-18",
+  "last_headline": "Fitch's upgrade to A+ adds fresh appeal to Portugal's Golden Visa"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -23,16 +23,16 @@
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
   "first_seen": "2026-08-25",
-  "count": 8,
-  "last_seen": "2026-09-17",
-  "last_headline": "Capital Gains Tax frontrunner for hike in Budget"
+  "count": 9,
+  "last_seen": "2026-09-18",
+  "last_headline": "Labour plans tax raid on holiday cottages"
  },
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 12,
-  "last_seen": "2026-09-17",
-  "last_headline": "Marbella joins Monaco and Miami in the luxury property elite"
+  "count": 13,
+  "last_seen": "2026-09-18",
+  "last_headline": "Foreigners pay nearly double what residents pay for a property in Balearics"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -65,16 +65,16 @@
  "portugal-rental-regulation": {
   "label": "Portugal Rental Market Reform",
   "first_seen": "2026-09-05",
-  "count": 4,
-  "last_seen": "2026-09-17",
-  "last_headline": "Teachers give up Algarve posts over housing costs"
+  "count": 5,
+  "last_seen": "2026-09-18",
+  "last_headline": "Lisbon loses 8,300 properties due to rising house prices"
  },
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 6,
-  "last_seen": "2026-09-17",
-  "last_headline": "Rosario Sánchez commits to limiting second-home purchases by non-residents in the Balearic Islands"
+  "count": 7,
+  "last_seen": "2026-09-18",
+  "last_headline": "PP nationally backs Prohens in rejecting restrictions on second-home purchases by non-residents in Balearics"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
@@ -117,5 +117,12 @@
   "count": 1,
   "last_seen": "2026-09-13",
   "last_headline": "Court ruling opens the door for thousands of mortgage holders in Spain to recover thousands of euros"
+ },
+ "spain-fund-tax-parity": {
+  "label": "Spain Foreign Fund Tax Parity",
+  "first_seen": "2026-09-18",
+  "count": 1,
+  "last_seen": "2026-09-18",
+  "last_headline": "CJEU questions Spain's imposition of higher tax burden on foreign funds than domestic ones"
  }
 }
