@@ -1,9 +1,9 @@
 {
  "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d": {
-  "runs": 23,
-  "items": 34,
-  "score_sum": 1529,
-  "mean_score": 45.0,
+  "runs": 24,
+  "items": 35,
+  "score_sum": 1601,
+  "mean_score": 45.7,
   "up": 0,
   "down": 0,
   "split": 0
@@ -18,19 +18,19 @@
   "split": 0
  },
  "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d": {
-  "runs": 42,
-  "items": 124,
+  "runs": 43,
+  "items": 125,
   "score_sum": 3058,
-  "mean_score": 24.7,
+  "mean_score": 24.5,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"سوق العقارات\" إسبانيا OR البرتغال when:2d": {
-  "runs": 35,
-  "items": 67,
+  "runs": 36,
+  "items": 70,
   "score_sum": 1073,
-  "mean_score": 16.0,
+  "mean_score": 15.3,
   "up": 0,
   "down": 0,
   "split": 0
@@ -45,10 +45,10 @@
   "split": 0
  },
  "ChatGPT OR \"AI agent\" property buying when:2d": {
-  "runs": 39,
-  "items": 260,
+  "runs": 40,
+  "items": 263,
   "score_sum": 2365,
-  "mean_score": 9.1,
+  "mean_score": 9.0,
   "up": 0,
   "down": 0,
   "split": 0
@@ -63,10 +63,10 @@
   "split": 0
  },
  "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d": {
-  "runs": 41,
-  "items": 141,
-  "score_sum": 418,
-  "mean_score": 3.0,
+  "runs": 42,
+  "items": 147,
+  "score_sum": 423,
+  "mean_score": 2.9,
   "up": 0,
   "down": 0,
   "split": 0
@@ -81,19 +81,19 @@
   "split": 0
  },
  "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d": {
-  "runs": 38,
-  "items": 66,
-  "score_sum": 1904,
-  "mean_score": 28.8,
+  "runs": 39,
+  "items": 71,
+  "score_sum": 2034,
+  "mean_score": 28.6,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d": {
-  "runs": 30,
-  "items": 72,
-  "score_sum": 1991,
-  "mean_score": 27.7,
+  "runs": 31,
+  "items": 75,
+  "score_sum": 2016,
+  "mean_score": 26.9,
   "up": 0,
   "down": 0,
   "split": 0
@@ -108,9 +108,9 @@
   "split": 0
  },
  "\"second home\" intitle:tax OR intitle:premium when:2d": {
-  "runs": 39,
-  "items": 195,
-  "score_sum": 850,
+  "runs": 40,
+  "items": 199,
+  "score_sum": 880,
   "mean_score": 4.4,
   "up": 0,
   "down": 0,
@@ -126,10 +126,10 @@
   "split": 0
  },
  "\"cross-border\" property buyers Europe when:2d": {
-  "runs": 35,
-  "items": 92,
-  "score_sum": 462,
-  "mean_score": 5.0,
+  "runs": 36,
+  "items": 97,
+  "score_sum": 527,
+  "mean_score": 5.4,
   "up": 0,
   "down": 0,
   "split": 0
@@ -144,10 +144,10 @@
   "split": 0
  },
  "[feed] portugal_resident": {
-  "runs": 44,
-  "items": 377,
-  "score_sum": 823,
-  "mean_score": 2.2,
+  "runs": 45,
+  "items": 387,
+  "score_sum": 908,
+  "mean_score": 2.3,
   "up": 0,
   "down": 0,
   "split": 0
@@ -180,10 +180,10 @@
   "split": 0
  },
  "[feed] property_industry_eye": {
-  "runs": 34,
-  "items": 395,
-  "score_sum": 2623,
-  "mean_score": 6.6,
+  "runs": 35,
+  "items": 404,
+  "score_sum": 2713,
+  "mean_score": 6.7,
   "up": 0,
   "down": 0,
   "split": 0
@@ -450,8 +450,8 @@
   "split": 0
  },
  "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d": {
-  "runs": 30,
-  "items": 828,
+  "runs": 31,
+  "items": 840,
   "score_sum": 671,
   "mean_score": 0.8,
   "up": 0,
@@ -459,17 +459,17 @@
   "split": 0
  },
  "site:aawsat.com عقارات أوروبا when:2d": {
-  "runs": 30,
-  "items": 1139,
+  "runs": 31,
+  "items": 1162,
   "score_sum": 1199,
-  "mean_score": 1.1,
+  "mean_score": 1.0,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "site:english.alarabiya.net property Spain OR Portugal OR Greece when:2d": {
-  "runs": 8,
-  "items": 8,
+  "runs": 9,
+  "items": 9,
   "score_sum": 0,
   "mean_score": 0.0,
   "up": 0,
@@ -776,6 +776,24 @@
  "site:english.alarabiya.net \"golden visa\" OR \"real estate\" Europe when:2d": {
   "runs": 1,
   "items": 2,
+  "score_sum": 0,
+  "mean_score": 0.0,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "\"registro de agentes inmobiliarios\" obligatorio when:2d": {
+  "runs": 1,
+  "items": 2,
+  "score_sum": 105,
+  "mean_score": 52.5,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "\"buying abroad\" intitle:guide OR intitle:platform property when:2d": {
+  "runs": 1,
+  "items": 1,
   "score_sum": 0,
   "mean_score": 0.0,
   "up": 0,

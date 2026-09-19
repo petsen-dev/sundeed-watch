@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 13,
-  "last_seen": "2026-09-18",
-  "last_headline": "Fitch's upgrade to A+ adds fresh appeal to Portugal's Golden Visa"
+  "count": 14,
+  "last_seen": "2026-09-19",
+  "last_headline": "Latvia Reshapes Its Golden Visa : Property Route Ends Under New Immigration Law"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 12,
-  "last_seen": "2026-09-15",
-  "last_headline": "Huspy acquires luxury real estate brokerage firm LuxuryX"
+  "count": 13,
+  "last_seen": "2026-09-19",
+  "last_headline": "Buyer's agents in Portugal: why buyer-only property representation is emerging"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -51,16 +51,16 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 4,
-  "last_seen": "2026-09-17",
-  "last_headline": "Too many holiday-homes is not Spain's coastal housing problem"
+  "count": 5,
+  "last_seen": "2026-09-19",
+  "last_headline": "Regional Government and central Government agree changes to Andalusia's Housing Law to prevent constitutional challenge"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
   "first_seen": "2026-09-04",
-  "count": 2,
-  "last_seen": "2026-09-11",
-  "last_headline": "European dealmakers bet on recovery as US buyers circle cheaper assets"
+  "count": 3,
+  "last_seen": "2026-09-19",
+  "last_headline": "Cross-border property investment jumped 56% in first half, data shows"
  },
  "portugal-rental-regulation": {
   "label": "Portugal Rental Market Reform",

@@ -812,6 +812,34 @@
    "query": "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d",
    "lang": "ar",
    "date": "2026-09-18"
+  },
+  "b419de372fc14d30": {
+   "title": "Cross-border property investment jumped 56% in first half, data shows",
+   "cat": "DEMAND-FLOW",
+   "query": "\"cross-border\" property buyers Europe when:2d",
+   "lang": "en",
+   "date": "2026-09-19"
+  },
+  "b37fc0fbff91bcc5": {
+   "title": "Buyer's agents in Portugal: why buyer-only property representation is emerging",
+   "cat": "COMMISSION-MODEL",
+   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
+   "lang": "en",
+   "date": "2026-09-19"
+  },
+  "2df45baa01dd13ed": {
+   "title": "Regional Government and central Government agree changes to Andalusia's Housing Law to prevent constitutional challenge",
+   "cat": "HEADLINE-GAP",
+   "query": "\"registro de agentes inmobiliarios\" obligatorio when:2d",
+   "lang": "es",
+   "date": "2026-09-19"
+  },
+  "85d264817cf55eb3": {
+   "title": "Latvia Reshapes Its Golden Visa : Property Route Ends Under New Immigration Law",
+   "cat": "OTHER",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-09-19"
   }
  },
  "votes": {}
