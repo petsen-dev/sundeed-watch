@@ -840,6 +840,48 @@
    "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
    "lang": "en",
    "date": "2026-09-19"
+  },
+  "0b205ff202a56314": {
+   "title": "New legal rule.. may prevent British people from entering major European countries",
+   "cat": "REGULATORY",
+   "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-09-20"
+  },
+  "a8a647f4b3f8a4ef": {
+   "title": "Spain grants subsidies up to €20,000 for home purchase.. here are the conditions",
+   "cat": "UPFUNNEL",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-09-20"
+  },
+  "1b998bcea354ed36": {
+   "title": "Andalusia Housing Law avoids clash with Spanish Government: these are the agreed changes",
+   "cat": "HEADLINE-GAP",
+   "query": "\"registro de agentes inmobiliarios\" obligatorio when:2d",
+   "lang": "es",
+   "date": "2026-09-20"
+  },
+  "79f9ed3308e8c06e": {
+   "title": "Housing price in Catalonia rises 8.5% and reaches its highest level since 2008",
+   "cat": "DEMAND-FLOW",
+   "query": "\"compradores extranjeros\" vivienda intitle:datos OR intitle:sube when:2d",
+   "lang": "es",
+   "date": "2026-09-20"
+  },
+  "ca4942eda3e44b60": {
+   "title": "Latvia's 'golden visa' scheme under renewed scrutiny / Article",
+   "cat": "OTHER",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-09-20"
+  },
+  "2ebcf15364484a65": {
+   "title": "Second home owners challenge North Yorkshire's 100% council tax premium",
+   "cat": "OTHER",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-09-20"
   }
  },
  "votes": {}

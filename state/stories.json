@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 14,
-  "last_seen": "2026-09-19",
-  "last_headline": "Latvia Reshapes Its Golden Visa : Property Route Ends Under New Immigration Law"
+  "count": 15,
+  "last_seen": "2026-09-20",
+  "last_headline": "Latvia's 'golden visa' scheme under renewed scrutiny / Article"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -23,16 +23,16 @@
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
   "first_seen": "2026-08-25",
-  "count": 9,
-  "last_seen": "2026-09-18",
-  "last_headline": "Labour plans tax raid on holiday cottages"
+  "count": 10,
+  "last_seen": "2026-09-20",
+  "last_headline": "Second home owners challenge North Yorkshire's 100% council tax premium"
  },
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 13,
-  "last_seen": "2026-09-18",
-  "last_headline": "Foreigners pay nearly double what residents pay for a property in Balearics"
+  "count": 14,
+  "last_seen": "2026-09-20",
+  "last_headline": "Housing price in Catalonia rises 8.5% and reaches its highest level since 2008"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -51,9 +51,9 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 5,
-  "last_seen": "2026-09-19",
-  "last_headline": "Regional Government and central Government agree changes to Andalusia's Housing Law to prevent constitutional challenge"
+  "count": 6,
+  "last_seen": "2026-09-20",
+  "last_headline": "Andalusia Housing Law avoids clash with Spanish Government: these are the agreed changes"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
@@ -72,9 +72,9 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 7,
-  "last_seen": "2026-09-18",
-  "last_headline": "PP nationally backs Prohens in rejecting restrictions on second-home purchases by non-residents in Balearics"
+  "count": 8,
+  "last_seen": "2026-09-20",
+  "last_headline": "New legal rule.. may prevent British people from entering major European countries"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
@@ -124,5 +124,12 @@
   "count": 1,
   "last_seen": "2026-09-18",
   "last_headline": "CJEU questions Spain's imposition of higher tax burden on foreign funds than domestic ones"
+ },
+ "spain-buyer-subsidy": {
+  "label": "Spain Home Purchase Subsidy",
+  "first_seen": "2026-09-20",
+  "count": 1,
+  "last_seen": "2026-09-20",
+  "last_headline": "Spain grants subsidies up to €20,000 for home purchase.. here are the conditions"
  }
 }
