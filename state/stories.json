@@ -16,16 +16,16 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 13,
-  "last_seen": "2026-09-19",
-  "last_headline": "Buyer's agents in Portugal: why buyer-only property representation is emerging"
+  "count": 14,
+  "last_seen": "2026-09-21",
+  "last_headline": "Sibos 2026: Digital finance in an AI-driven economy - when the agent does the buying, who owns the customer?"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
   "first_seen": "2026-08-25",
-  "count": 10,
-  "last_seen": "2026-09-20",
-  "last_headline": "Second home owners challenge North Yorkshire's 100% council tax premium"
+  "count": 11,
+  "last_seen": "2026-09-21",
+  "last_headline": "Labour poised for tax raid on landlords – press report"
  },
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
@@ -44,9 +44,9 @@
  "ecb-rate-outlook": {
   "label": "ECB Rate Trajectory",
   "first_seen": "2026-09-01",
-  "count": 5,
-  "last_seen": "2026-09-14",
-  "last_headline": "Lagarde: current inflation shock is longer-lasting.. interest rates may rise again"
+  "count": 6,
+  "last_seen": "2026-09-21",
+  "last_headline": "Eurozone finance ministers: rising bond yields cause concern, not panic"
  },
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
@@ -86,9 +86,9 @@
  "eu-str-crackdown": {
   "label": "EU Short-Term Rental Crackdown",
   "first_seen": "2026-09-10",
-  "count": 4,
-  "last_seen": "2026-09-15",
-  "last_headline": "Proposed European Affordable Housing Law: Impact on Balearic Islands and Tourist Rentals"
+  "count": 5,
+  "last_seen": "2026-09-21",
+  "last_headline": "A record jump.. Short-term rentals in Europe approach a billion nights"
  },
  "portugal-ifici-tax": {
   "label": "Portugal IFICI Tax Regime",

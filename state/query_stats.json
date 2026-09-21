@@ -18,19 +18,19 @@
   "split": 0
  },
  "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d": {
-  "runs": 44,
-  "items": 127,
-  "score_sum": 3193,
-  "mean_score": 25.1,
+  "runs": 45,
+  "items": 129,
+  "score_sum": 3258,
+  "mean_score": 25.3,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"سوق العقارات\" إسبانيا OR البرتغال when:2d": {
-  "runs": 36,
-  "items": 70,
-  "score_sum": 1073,
-  "mean_score": 15.3,
+  "runs": 37,
+  "items": 72,
+  "score_sum": 1078,
+  "mean_score": 15.0,
   "up": 0,
   "down": 0,
   "split": 0
@@ -45,10 +45,10 @@
   "split": 0
  },
  "ChatGPT OR \"AI agent\" property buying when:2d": {
-  "runs": 41,
-  "items": 266,
-  "score_sum": 2445,
-  "mean_score": 9.2,
+  "runs": 42,
+  "items": 269,
+  "score_sum": 2495,
+  "mean_score": 9.3,
   "up": 0,
   "down": 0,
   "split": 0
@@ -63,10 +63,10 @@
   "split": 0
  },
  "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d": {
-  "runs": 43,
-  "items": 149,
-  "score_sum": 423,
-  "mean_score": 2.8,
+  "runs": 44,
+  "items": 156,
+  "score_sum": 468,
+  "mean_score": 3.0,
   "up": 0,
   "down": 0,
   "split": 0
@@ -108,10 +108,10 @@
   "split": 0
  },
  "\"second home\" intitle:tax OR intitle:premium when:2d": {
-  "runs": 41,
-  "items": 201,
-  "score_sum": 895,
-  "mean_score": 4.5,
+  "runs": 42,
+  "items": 203,
+  "score_sum": 930,
+  "mean_score": 4.6,
   "up": 0,
   "down": 0,
   "split": 0
@@ -144,9 +144,9 @@
   "split": 0
  },
  "[feed] portugal_resident": {
-  "runs": 46,
-  "items": 395,
-  "score_sum": 928,
+  "runs": 47,
+  "items": 404,
+  "score_sum": 948,
   "mean_score": 2.3,
   "up": 0,
   "down": 0,
@@ -450,19 +450,19 @@
   "split": 0
  },
  "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d": {
-  "runs": 32,
-  "items": 850,
-  "score_sum": 726,
+  "runs": 33,
+  "items": 862,
+  "score_sum": 771,
   "mean_score": 0.9,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "site:aawsat.com عقارات أوروبا when:2d": {
-  "runs": 32,
-  "items": 1170,
-  "score_sum": 1199,
-  "mean_score": 1.0,
+  "runs": 33,
+  "items": 1203,
+  "score_sum": 1379,
+  "mean_score": 1.1,
   "up": 0,
   "down": 0,
   "split": 0
@@ -666,10 +666,10 @@
   "split": 0
  },
  "\"الوساطة العقارية\" أوروبا OR إسبانيا when:2d": {
-  "runs": 7,
-  "items": 8,
+  "runs": 8,
+  "items": 9,
   "score_sum": 120,
-  "mean_score": 15.0,
+  "mean_score": 13.3,
   "up": 0,
   "down": 0,
   "split": 0

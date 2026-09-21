@@ -882,6 +882,34 @@
    "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
    "lang": "en",
    "date": "2026-09-20"
+  },
+  "64fb8cce2e43fcbc": {
+   "title": "Labour poised for tax raid on landlords – press report",
+   "cat": "HEADLINE-GAP",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-09-21"
+  },
+  "32bec3e620640312": {
+   "title": "Sibos 2026: Digital finance in an AI-driven economy - when the agent does the buying, who owns the customer?",
+   "cat": "CHANNEL",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
+   "lang": "en",
+   "date": "2026-09-21"
+  },
+  "11b57770b4fe47dd": {
+   "title": "A record jump.. Short-term rentals in Europe approach a billion nights",
+   "cat": "DEMAND-FLOW",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-09-21"
+  },
+  "50a5a01ddec3b037": {
+   "title": "Eurozone finance ministers: rising bond yields cause concern, not panic",
+   "cat": "OTHER",
+   "query": "site:aawsat.com عقارات أوروبا when:2d",
+   "lang": "ar",
+   "date": "2026-09-21"
   }
  },
  "votes": {}
