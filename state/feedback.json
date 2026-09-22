@@ -910,6 +910,34 @@
    "query": "site:aawsat.com عقارات أوروبا when:2d",
    "lang": "ar",
    "date": "2026-09-21"
+  },
+  "c1e20b663e7d342b": {
+   "title": "Bank of Greece paper suggests Golden Visa reform shifted property activity nearby",
+   "cat": "DEMAND-FLOW",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-09-22"
+  },
+  "f898f2f3d1a1ddc3": {
+   "title": "US investor buys 6% stake in Rightmove as takeover rumours fly",
+   "cat": "OTHER",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
+   "lang": "en",
+   "date": "2026-09-22"
+  },
+  "7851408c06d7b745": {
+   "title": "Timeshare dispute in Rome: Confidelzeia defends private ownership and opens the door to property purchase with conditions",
+   "cat": "OWNERSHIP-MODEL",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-09-22"
+  },
+  "a49a677434fc68d7": {
+   "title": "Overseas buyers turn to mortgages to buy luxury properties",
+   "cat": "DEMAND-FLOW",
+   "query": "\"property portal\" intitle:buyers when:2d",
+   "lang": "en",
+   "date": "2026-09-22"
   }
  },
  "votes": {}
