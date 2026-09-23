@@ -9,23 +9,23 @@
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
   "first_seen": "2026-08-25",
-  "count": 10,
-  "last_seen": "2026-09-17",
-  "last_headline": "'California of Europe' planned for the Algarve"
+  "count": 11,
+  "last_seen": "2026-09-23",
+  "last_headline": "Algarve leads second-home demand driven by foreign buyers"
  },
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 15,
-  "last_seen": "2026-09-22",
-  "last_headline": "US investor buys 6% stake in Rightmove as takeover rumours fly"
+  "count": 16,
+  "last_seen": "2026-09-23",
+  "last_headline": "Real estate personal shoppers gain prominence as buyer-investors' allies in Spain"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
   "first_seen": "2026-08-25",
-  "count": 11,
-  "last_seen": "2026-09-21",
-  "last_headline": "Labour poised for tax raid on landlords – press report"
+  "count": 12,
+  "last_seen": "2026-09-23",
+  "last_headline": "Holiday let boss warns of 'tidal wave of destruction' for industry amid tax plans"
  },
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
@@ -51,9 +51,9 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 6,
-  "last_seen": "2026-09-20",
-  "last_headline": "Andalusia Housing Law avoids clash with Spanish Government: these are the agreed changes"
+  "count": 7,
+  "last_seen": "2026-09-23",
+  "last_headline": "Up to €900,000 fines for breaching housing rules in Catalonia: 'fear' grows among landlords"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
@@ -72,9 +72,9 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 8,
-  "last_seen": "2026-09-20",
-  "last_headline": "New legal rule.. may prevent British people from entering major European countries"
+  "count": 9,
+  "last_seen": "2026-09-23",
+  "last_headline": "Balearic government rules out restrictions on second-home buyers despite Brussels opening"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
