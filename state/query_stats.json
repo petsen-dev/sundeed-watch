@@ -1,54 +1,54 @@
 {
  "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d": {
-  "runs": 24,
-  "items": 35,
-  "score_sum": 1601,
-  "mean_score": 45.7,
+  "runs": 25,
+  "items": 38,
+  "score_sum": 1781,
+  "mean_score": 46.9,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"compradores estrangeiros\" casa Portugal when:2d": {
-  "runs": 14,
-  "items": 20,
-  "score_sum": 927,
-  "mean_score": 46.4,
+  "runs": 15,
+  "items": 24,
+  "score_sum": 997,
+  "mean_score": 41.5,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d": {
-  "runs": 47,
-  "items": 133,
-  "score_sum": 3312,
-  "mean_score": 24.9,
+  "runs": 48,
+  "items": 135,
+  "score_sum": 3387,
+  "mean_score": 25.1,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"سوق العقارات\" إسبانيا OR البرتغال when:2d": {
-  "runs": 39,
-  "items": 78,
+  "runs": 40,
+  "items": 79,
   "score_sum": 1203,
-  "mean_score": 15.4,
+  "mean_score": 15.2,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"international buyers\" Portugal OR Italy property when:2d": {
-  "runs": 39,
-  "items": 106,
-  "score_sum": 2540,
-  "mean_score": 24.0,
+  "runs": 40,
+  "items": 110,
+  "score_sum": 2655,
+  "mean_score": 24.1,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "ChatGPT OR \"AI agent\" property buying when:2d": {
-  "runs": 44,
-  "items": 277,
+  "runs": 45,
+  "items": 278,
   "score_sum": 2648,
-  "mean_score": 9.6,
+  "mean_score": 9.5,
   "up": 0,
   "down": 0,
   "split": 0
@@ -63,10 +63,10 @@
   "split": 0
  },
  "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d": {
-  "runs": 46,
-  "items": 166,
-  "score_sum": 496,
-  "mean_score": 3.0,
+  "runs": 47,
+  "items": 172,
+  "score_sum": 526,
+  "mean_score": 3.1,
   "up": 0,
   "down": 0,
   "split": 0
@@ -108,9 +108,9 @@
   "split": 0
  },
  "\"second home\" intitle:tax OR intitle:premium when:2d": {
-  "runs": 44,
-  "items": 209,
-  "score_sum": 1010,
+  "runs": 45,
+  "items": 213,
+  "score_sum": 1020,
   "mean_score": 4.8,
   "up": 0,
   "down": 0,
@@ -126,10 +126,10 @@
   "split": 0
  },
  "\"cross-border\" property buyers Europe when:2d": {
-  "runs": 39,
-  "items": 106,
-  "score_sum": 609,
-  "mean_score": 5.7,
+  "runs": 40,
+  "items": 108,
+  "score_sum": 664,
+  "mean_score": 6.1,
   "up": 0,
   "down": 0,
   "split": 0
@@ -144,19 +144,19 @@
   "split": 0
  },
  "[feed] portugal_resident": {
-  "runs": 49,
-  "items": 424,
-  "score_sum": 989,
-  "mean_score": 2.3,
+  "runs": 50,
+  "items": 434,
+  "score_sum": 1029,
+  "mean_score": 2.4,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d": {
-  "runs": 19,
-  "items": 19,
+  "runs": 20,
+  "items": 20,
   "score_sum": 969,
-  "mean_score": 51.0,
+  "mean_score": 48.5,
   "up": 0,
   "down": 0,
   "split": 0
@@ -180,9 +180,9 @@
   "split": 0
  },
  "[feed] property_industry_eye": {
-  "runs": 37,
-  "items": 434,
-  "score_sum": 3006,
+  "runs": 38,
+  "items": 443,
+  "score_sum": 3056,
   "mean_score": 6.9,
   "up": 0,
   "down": 0,
@@ -450,18 +450,18 @@
   "split": 0
  },
  "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d": {
-  "runs": 35,
-  "items": 888,
-  "score_sum": 776,
+  "runs": 36,
+  "items": 902,
+  "score_sum": 796,
   "mean_score": 0.9,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "site:aawsat.com عقارات أوروبا when:2d": {
-  "runs": 35,
-  "items": 1229,
-  "score_sum": 1399,
+  "runs": 36,
+  "items": 1242,
+  "score_sum": 1404,
   "mean_score": 1.1,
   "up": 0,
   "down": 0,
@@ -504,10 +504,10 @@
   "split": 0
  },
  "\"non-resident\" intitle:property Spain OR Portugal when:2d": {
-  "runs": 6,
-  "items": 6,
-  "score_sum": 307,
-  "mean_score": 51.2,
+  "runs": 7,
+  "items": 7,
+  "score_sum": 372,
+  "mean_score": 53.1,
   "up": 0,
   "down": 0,
   "split": 0
@@ -805,6 +805,15 @@
   "items": 1,
   "score_sum": 8,
   "mean_score": 8.0,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "\"cost calculator\" property Spain OR Portugal when:2d": {
+  "runs": 1,
+  "items": 1,
+  "score_sum": 5,
+  "mean_score": 5.0,
   "up": 0,
   "down": 0,
   "split": 0

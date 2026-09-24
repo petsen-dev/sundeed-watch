@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 16,
-  "last_seen": "2026-09-23",
-  "last_headline": "Real estate personal shoppers gain prominence as buyer-investors' allies in Spain"
+  "count": 17,
+  "last_seen": "2026-09-24",
+  "last_headline": "agents4agents Launches in Portugal to Help Real Estate Businesses Compete for Visibility in AI Answers"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -58,9 +58,9 @@
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
   "first_seen": "2026-09-04",
-  "count": 3,
-  "last_seen": "2026-09-19",
-  "last_headline": "Cross-border property investment jumped 56% in first half, data shows"
+  "count": 4,
+  "last_seen": "2026-09-24",
+  "last_headline": "Cross-border property investment rises 56% in first half"
  },
  "portugal-rental-regulation": {
   "label": "Portugal Rental Market Reform",
@@ -72,16 +72,16 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 9,
-  "last_seen": "2026-09-23",
-  "last_headline": "Balearic government rules out restrictions on second-home buyers despite Brussels opening"
+  "count": 10,
+  "last_seen": "2026-09-24",
+  "last_headline": "Mallorca may finally cap number of foreigners buying property on islands - if the EU permits it"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
   "first_seen": "2026-09-07",
-  "count": 6,
-  "last_seen": "2026-09-15",
-  "last_headline": "Greece's new 15 per cent home-buyer tax has an escape hatch — Greek citizenship"
+  "count": 7,
+  "last_seen": "2026-09-24",
+  "last_headline": "Property Transfer Tax Rise Threatens Non-EU Holiday Home Demand in Greece"
  },
  "eu-str-crackdown": {
   "label": "EU Short-Term Rental Crackdown",
@@ -135,8 +135,8 @@
  "cross-border-mortgage-finance": {
   "label": "Cross-Border Mortgage Financing",
   "first_seen": "2026-09-22",
-  "count": 1,
-  "last_seen": "2026-09-22",
-  "last_headline": "Overseas buyers turn to mortgages to buy luxury properties"
+  "count": 2,
+  "last_seen": "2026-09-24",
+  "last_headline": "UAE-founded Huspy announces $86 million investment in Italy, acquires Integra Finance"
  }
 }

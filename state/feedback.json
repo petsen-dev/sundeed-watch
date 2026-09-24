@@ -973,6 +973,41 @@
    "query": "\"personal shopper inmobiliario\" when:2d",
    "lang": "es",
    "date": "2026-09-23"
+  },
+  "ae56a65d1e9bb429": {
+   "title": "Property Transfer Tax Rise Threatens Non-EU Holiday Home Demand in Greece",
+   "cat": "REGULATORY",
+   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
+   "lang": "en",
+   "date": "2026-09-24"
+  },
+  "4f474539c8f871e2": {
+   "title": "Mallorca may finally cap number of foreigners buying property on islands - if the EU permits it",
+   "cat": "HEADLINE-GAP",
+   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
+   "lang": "en",
+   "date": "2026-09-24"
+  },
+  "25b6555825b8df27": {
+   "title": "agents4agents Launches in Portugal to Help Real Estate Businesses Compete for Visibility in AI Answers",
+   "cat": "CHANNEL",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-09-24"
+  },
+  "10fb3d3bc0db67b8": {
+   "title": "UAE-founded Huspy announces $86 million investment in Italy, acquires Integra Finance",
+   "cat": "OWNERSHIP-MODEL",
+   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
+   "lang": "en",
+   "date": "2026-09-24"
+  },
+  "9a69626fa352df08": {
+   "title": "Cross-border property investment rises 56% in first half",
+   "cat": "DEMAND-FLOW",
+   "query": "\"cross-border\" property buyers Europe when:2d",
+   "lang": "en",
+   "date": "2026-09-24"
   }
  },
  "votes": {}
