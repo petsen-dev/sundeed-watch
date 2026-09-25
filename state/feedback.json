@@ -1,181 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "853b209a1dc56975": {
-   "title": "Housing reform in Greece: cheap loans, social rent and a new Golden Visa24 August 2026 - Greek City Times",
-   "cat": "REGULATORY",
-   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "6d19289df4095547": {
-   "title": "Property hunting enters the AI agent era - ITWeb",
-   "cat": "CHANNEL",
-   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "d9a3485e7c4e19fc": {
-   "title": "Vipp Residences Villa Finca Selva Rethinks Vacation Home Ownership in Mallorca - stupidDOPE",
-   "cat": "OWNERSHIP-MODEL",
-   "query": "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "d07841f061eebaa3": {
-   "title": "Can You Invest in Pacaso Pre-IPO? Everything You Need to Know - The Motley Fool",
-   "cat": "OWNERSHIP-MODEL",
-   "query": "intitle:Pacaso when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "002942e1cdf9c661": {
-   "title": "Buying a House in Portugal is a Nightmare. Why?",
-   "cat": "UPFUNNEL",
-   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
-   "lang": "pt",
-   "date": "2026-08-25"
-  },
-  "4be1c82a1978dfcc": {
-   "title": "EXCLUSIVE: As Home Sales Slump, RealReports Launches AI Tool To Help Agents Win More Business",
-   "cat": "CHANNEL",
-   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "e34c7c73b0edd41b": {
-   "title": "Spain property faces growing pressure as home sales slow - Olive Press News Spain",
-   "cat": "DEMAND-FLOW",
-   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "283525785949997a": {
-   "title": "The Algarve Luxury Market Comes of Age - The Portugal News",
-   "cat": "DEMAND-FLOW",
-   "query": "\"international buyers\" Portugal OR Italy property when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "12736398754cf4aa": {
-   "title": "Follow the capital: What does the €1.4 billion investment increase in Portugal mean for investors",
-   "cat": "DEMAND-FLOW",
-   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "lang": "ar",
-   "date": "2026-08-25"
-  },
-  "22832aa323c5e790": {
-   "title": "The Smart Golden Visa Investor Chooses Value Over Price - IMI Daily",
-   "cat": "UPFUNNEL",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "be464f055e449159": {
-   "title": "Golden visa rules lock foreign buyers out of nearly a third of top listings - mpamag.com",
-   "cat": "REGULATORY",
-   "query": "golden visa when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "2e8ce4a7cead35b0": {
-   "title": "Europe is bringing era of cheap \"golden visas\" to close and raising bar for investors - Ukraine open for business",
-   "cat": "REGULATORY",
-   "query": "golden visa when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "e743edec41c5f827": {
-   "title": "Portugal bans cash payments above €3,000 - The Portugal News",
-   "cat": "REGULATORY",
-   "query": "portugal when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "bc50ca7ab47ca14a": {
-   "title": "PCC in UK launches Autumn 2026 Moving to Portugal roadshow - AICEP",
-   "cat": "DEMAND-FLOW",
-   "query": "portugal when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "bb2994aa674bf330": {
-   "title": "Follow the Capital: What Portugal's €1.4 Billion Investment Surge Is Telling Investors - The Portugal News",
-   "cat": "DEMAND-FLOW",
-   "query": "golden visa when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "804d7bc2a7698cc7": {
-   "title": "25-30% jump in Indians seeking second residency: Why HNIs want a 'Plan B' - Business Standard",
-   "cat": "DEMAND-FLOW",
-   "query": "golden visa when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "882048b19711110a": {
-   "title": "Portugal opens residency for Turkish citizens via 'D7' visa",
-   "cat": "REGULATORY",
-   "query": "البرتغال when:2d",
-   "lang": "ar",
-   "date": "2026-08-25"
-  },
-  "a52f6b1848966781": {
-   "title": "Assigns Launches AI Property Intelligence Platform as Realtors Face Growing Pressure to Prove Their Value - EIN Presswire",
-   "cat": "CHANNEL",
-   "query": "\"NAR settlement\" buyer agency commission when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "249944cab26ae778": {
-   "title": "Portal competition is growing, consumer clarity is not - HousingWire",
-   "cat": "CHANNEL",
-   "query": "\"NAR settlement\" buyer agency commission when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "32bba2796448dacc": {
-   "title": "The Smart Golden Visa Investor Chooses Value Over Price",
-   "cat": "REGULATORY",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "345e7e4f45a56338": {
-   "title": "The Algarve Luxury Market Comes of Age",
-   "cat": "DEMAND-FLOW",
-   "query": "\"international buyers\" Portugal OR Italy property when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "3553e892c9762be3": {
-   "title": "Portal competition is growing, consumer clarity is not",
-   "cat": "CHANNEL",
-   "query": "\"NAR settlement\" buyer agency commission when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "dea574bf2347065b": {
-   "title": "Follow the Capital: What Does a 1.4 Billion Euro Investment Increase in Portugal Tell Investors?",
-   "cat": "DEMAND-FLOW",
-   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "lang": "ar",
-   "date": "2026-08-25"
-  },
-  "7ac7adf1e6344d0a": {
-   "title": "Prime London property values down 25% as tax changes bite",
-   "cat": "OTHER",
-   "query": "\"international buyers\" Portugal OR Italy property when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
-  "282ea514d542c33c": {
-   "title": "Property hunting enters the AI agent era",
-   "cat": "CHANNEL",
-   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
-   "lang": "en",
-   "date": "2026-08-25"
-  },
   "b78c65ebd1cdeee4": {
    "title": "Edinburgh council to vote on 300% second home tax premium",
    "cat": "REGULATORY",
@@ -1008,6 +833,48 @@
    "query": "\"cross-border\" property buyers Europe when:2d",
    "lang": "en",
    "date": "2026-09-24"
+  },
+  "5f212eae8c5a7fe1": {
+   "title": "Residents dominate Portugal's property market as foreign buyers retreat",
+   "cat": "DEMAND-FLOW",
+   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
+   "lang": "pt",
+   "date": "2026-09-25"
+  },
+  "3591f604ed3cc144": {
+   "title": "Foreigners still dominating the Costa Blanca property boom with nearly 19,000 homes purchased in a single year",
+   "cat": "DEMAND-FLOW",
+   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
+   "lang": "en",
+   "date": "2026-09-25"
+  },
+  "ad1e348722ca68fd": {
+   "title": "UAE-based Huspy acquires Integra Finance and invests $86 million in Italian market",
+   "cat": "CHANNEL",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-09-25"
+  },
+  "bffd40f9f84fe116": {
+   "title": "Cyprus to tighten \"golden visa\" rules ahead of Schengen accession, Minister tells MPs",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-09-25"
+  },
+  "4004aac1eb228b7a": {
+   "title": "Expansion | The Andalusian budget for 2027 will include tax cuts for housing that will benefit about 147,000 Andalusians.",
+   "cat": "REGULATORY",
+   "query": "\"ITP\" OR \"impuesto de transmisiones\" Spain property when:2d",
+   "lang": "en",
+   "date": "2026-09-25"
+  },
+  "2cb4de1f95ddfee5": {
+   "title": "Pacaso Brings Co-Ownership to the Banks of the Seine With the Launch of Riverfront Pied-à-terre in Paris' 6th Arrondissement",
+   "cat": "OWNERSHIP-MODEL",
+   "query": "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d",
+   "lang": "en",
+   "date": "2026-09-25"
   }
  },
  "votes": {}

@@ -2,16 +2,16 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 16,
-  "last_seen": "2026-09-22",
-  "last_headline": "Bank of Greece paper suggests Golden Visa reform shifted property activity nearby"
+  "count": 17,
+  "last_seen": "2026-09-25",
+  "last_headline": "Cyprus to tighten \"golden visa\" rules ahead of Schengen accession, Minister tells MPs"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
   "first_seen": "2026-08-25",
-  "count": 11,
-  "last_seen": "2026-09-23",
-  "last_headline": "Algarve leads second-home demand driven by foreign buyers"
+  "count": 12,
+  "last_seen": "2026-09-25",
+  "last_headline": "Residents dominate Portugal's property market as foreign buyers retreat"
  },
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 14,
-  "last_seen": "2026-09-20",
-  "last_headline": "Housing price in Catalonia rises 8.5% and reaches its highest level since 2008"
+  "count": 15,
+  "last_seen": "2026-09-25",
+  "last_headline": "Foreigners still dominating the Costa Blanca property boom with nearly 19,000 homes purchased in a single year"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -100,9 +100,9 @@
  "fractional-ownership-europe": {
   "label": "Fractional Ownership Expansion",
   "first_seen": "2026-09-10",
-  "count": 2,
-  "last_seen": "2026-09-22",
-  "last_headline": "Timeshare dispute in Rome: Confidelzeia defends private ownership and opens the door to property purchase with conditions"
+  "count": 3,
+  "last_seen": "2026-09-25",
+  "last_headline": "Pacaso Brings Co-Ownership to the Banks of the Seine With the Launch of Riverfront Pied-à-terre in Paris' 6th Arrondissement"
  },
  "france-second-home-tax": {
   "label": "France Second-Home Tax Surcharge",
@@ -135,8 +135,15 @@
  "cross-border-mortgage-finance": {
   "label": "Cross-Border Mortgage Financing",
   "first_seen": "2026-09-22",
-  "count": 2,
-  "last_seen": "2026-09-24",
-  "last_headline": "UAE-founded Huspy announces $86 million investment in Italy, acquires Integra Finance"
+  "count": 3,
+  "last_seen": "2026-09-25",
+  "last_headline": "UAE-based Huspy acquires Integra Finance and invests $86 million in Italian market"
+ },
+ "andalusia-itp-cut": {
+  "label": "Andalusia ITP Tax Cut",
+  "first_seen": "2026-09-25",
+  "count": 1,
+  "last_seen": "2026-09-25",
+  "last_headline": "Expansion | The Andalusian budget for 2027 will include tax cuts for housing that will benefit about 147,000 Andalusians."
  }
 }
