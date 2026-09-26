@@ -1,20 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "b78c65ebd1cdeee4": {
-   "title": "Edinburgh council to vote on 300% second home tax premium",
-   "cat": "REGULATORY",
-   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
-   "lang": "en",
-   "date": "2026-08-26"
-  },
-  "9a382585c306fc8c": {
-   "title": "Nicole Kidman joined hundreds of thousands seeking residency in Portugal – Portugal resident",
-   "cat": "DEMAND-FLOW",
-   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "lang": "ar",
-   "date": "2026-08-26"
-  },
   "add2f44dcf4d5e21": {
    "title": "Greece's Golden Visa Applications Drop 44% After Property Rules Tighten",
    "cat": "REGULATORY",
@@ -875,6 +861,55 @@
    "query": "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d",
    "lang": "en",
    "date": "2026-09-25"
+  },
+  "441da0afb63c25a8": {
+   "title": "The Junta reduces ITP to 6.75% to buy housing in Andalusia from 2027: how much you will save in Cádiz",
+   "cat": "REGULATORY",
+   "query": "intitle:ITP tipo Andalucía OR Valencia OR Baleares when:2d",
+   "lang": "es",
+   "date": "2026-09-26"
+  },
+  "ffdead048adf2815": {
+   "title": "Catalonia creates a new bureaucracy to police landlords",
+   "cat": "REGULATORY",
+   "query": "[feed] spanish_property_insight",
+   "lang": "en",
+   "date": "2026-09-26"
+  },
+  "a9d20929eed7a1b0": {
+   "title": "International buyers pay 35% more for homes in Spain and the residential profile gains weight",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-09-26"
+  },
+  "e2896d9ba9e9af42": {
+   "title": "What Today's International Buyer Is Looking for in Algarve Property",
+   "cat": "DEMAND-FLOW",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-09-26"
+  },
+  "4773636b8601f9b3": {
+   "title": "Cyprus to tighten \"golden visa\" rules ahead of Schengen accession, Minister tells MPs",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-09-26"
+  },
+  "9db4bea5fb435551": {
+   "title": "Home purchases resume declines in July and accumulate a 3% fall so far this year",
+   "cat": "DEMAND-FLOW",
+   "query": "\"personal shopper inmobiliario\" when:2d",
+   "lang": "es",
+   "date": "2026-09-26"
+  },
+  "2ae4e92b6367395a": {
+   "title": "Mortgage foreclosures are rising behind borrowing costs",
+   "cat": "OTHER",
+   "query": "[feed] spanish_property_insight",
+   "lang": "en",
+   "date": "2026-09-26"
   }
  },
  "votes": {}

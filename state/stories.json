@@ -2,16 +2,16 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 17,
-  "last_seen": "2026-09-25",
+  "count": 18,
+  "last_seen": "2026-09-26",
   "last_headline": "Cyprus to tighten \"golden visa\" rules ahead of Schengen accession, Minister tells MPs"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
   "first_seen": "2026-08-25",
-  "count": 12,
-  "last_seen": "2026-09-25",
-  "last_headline": "Residents dominate Portugal's property market as foreign buyers retreat"
+  "count": 13,
+  "last_seen": "2026-09-26",
+  "last_headline": "What Today's International Buyer Is Looking for in Algarve Property"
  },
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 15,
-  "last_seen": "2026-09-25",
-  "last_headline": "Foreigners still dominating the Costa Blanca property boom with nearly 19,000 homes purchased in a single year"
+  "count": 16,
+  "last_seen": "2026-09-26",
+  "last_headline": "International buyers pay 35% more for homes in Spain and the residential profile gains weight"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -51,9 +51,9 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 7,
-  "last_seen": "2026-09-23",
-  "last_headline": "Up to €900,000 fines for breaching housing rules in Catalonia: 'fear' grows among landlords"
+  "count": 8,
+  "last_seen": "2026-09-26",
+  "last_headline": "Catalonia creates a new bureaucracy to police landlords"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
@@ -135,15 +135,22 @@
  "cross-border-mortgage-finance": {
   "label": "Cross-Border Mortgage Financing",
   "first_seen": "2026-09-22",
-  "count": 3,
-  "last_seen": "2026-09-25",
-  "last_headline": "UAE-based Huspy acquires Integra Finance and invests $86 million in Italian market"
+  "count": 4,
+  "last_seen": "2026-09-26",
+  "last_headline": "Mortgage foreclosures are rising behind borrowing costs"
  },
  "andalusia-itp-cut": {
   "label": "Andalusia ITP Tax Cut",
   "first_seen": "2026-09-25",
+  "count": 2,
+  "last_seen": "2026-09-26",
+  "last_headline": "The Junta reduces ITP to 6.75% to buy housing in Andalusia from 2027: how much you will save in Cádiz"
+ },
+ "spain-market-slowdown": {
+  "label": "Spain Housing Market Slowdown",
+  "first_seen": "2026-09-26",
   "count": 1,
-  "last_seen": "2026-09-25",
-  "last_headline": "Expansion | The Andalusian budget for 2027 will include tax cuts for housing that will benefit about 147,000 Andalusians."
+  "last_seen": "2026-09-26",
+  "last_headline": "Home purchases resume declines in July and accumulate a 3% fall so far this year"
  }
 }
