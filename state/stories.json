@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 18,
-  "last_seen": "2026-09-26",
-  "last_headline": "Cyprus to tighten \"golden visa\" rules ahead of Schengen accession, Minister tells MPs"
+  "count": 19,
+  "last_seen": "2026-09-27",
+  "last_headline": "Government parties in new bid to restrict SNS access for non-resident foreigners"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 17,
-  "last_seen": "2026-09-24",
-  "last_headline": "agents4agents Launches in Portugal to Help Real Estate Businesses Compete for Visibility in AI Answers"
+  "count": 18,
+  "last_seen": "2026-09-27",
+  "last_headline": "ECC Broadens Beyond Timeshare Into Property Mis-Selling Claims"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 16,
-  "last_seen": "2026-09-26",
-  "last_headline": "International buyers pay 35% more for homes in Spain and the residential profile gains weight"
+  "count": 17,
+  "last_seen": "2026-09-27",
+  "last_headline": "The foreign home buyer in Spain pays 35% more and increases pressure in areas with less supply"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -152,5 +152,12 @@
   "count": 1,
   "last_seen": "2026-09-26",
   "last_headline": "Home purchases resume declines in July and accumulate a 3% fall so far this year"
+ },
+ "catalonia-asbestos-cert": {
+  "label": "Catalonia Asbestos Certificate",
+  "first_seen": "2026-09-27",
+  "count": 1,
+  "last_seen": "2026-09-27",
+  "last_headline": "New asbestos certificate required to sell or rent property in Catalonia"
  }
 }
