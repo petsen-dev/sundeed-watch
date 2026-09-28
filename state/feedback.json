@@ -1,48 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "2817bf0a6e307ee4": {
-   "title": "Agency boss slams 300% second-home surcharge as housing 'sticking plaster'",
-   "cat": "REGULATORY",
-   "query": "[feed] property_industry_eye",
-   "lang": "en",
-   "date": "2026-08-28"
-  },
-  "a9e20e9bb7c13734": {
-   "title": "Dils: The exclusive one-stop shop for international buyers",
-   "cat": "CHANNEL",
-   "query": "\"international buyers\" Portugal OR Italy property when:2d",
-   "lang": "en",
-   "date": "2026-08-28"
-  },
-  "e5f821b4338d0d78": {
-   "title": "Foreign demand to buy property in Balearics reaches 28%",
-   "cat": "DEMAND-FLOW",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-08-28"
-  },
-  "fc38ca53fb32e0c6": {
-   "title": "Foreigners begin to leave Madeira and sell their homes",
-   "cat": "DEMAND-FLOW",
-   "query": "\"cross-border\" property buyers Europe when:2d",
-   "lang": "en",
-   "date": "2026-08-28"
-  },
-  "bf9cb9c0b97f2176": {
-   "title": "IMT to change: Government reveals main amendments expected for Portuguese people",
-   "cat": "REGULATORY",
-   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
-   "lang": "pt",
-   "date": "2026-08-28"
-  },
-  "b6ad7f211843baec": {
-   "title": "Heads-up! Q2 2026 housing numbers just published by the notaries – A good time to sell, but buyers are becoming more cautious",
-   "cat": "DEMAND-FLOW",
-   "query": "[feed] spanish_property_insight",
-   "lang": "en",
-   "date": "2026-08-28"
-  },
   "c7a5c191d555e314": {
    "title": "Algarve property valuations exceed €3,000 per square metre",
    "cat": "DEMAND-FLOW",
@@ -896,6 +854,62 @@
    "query": "\"cross-border\" property buyers Europe when:2d",
    "lang": "en",
    "date": "2026-09-27"
+  },
+  "6fb53ddf23ef9851": {
+   "title": "Andalusia cuts ITP and expands guarantees for first home",
+   "cat": "REGULATORY",
+   "query": "intitle:ITP tipo Andalucía OR Valencia OR Baleares when:2d",
+   "lang": "es",
+   "date": "2026-09-28"
+  },
+  "b856bd63a1bfc649": {
+   "title": "The international buyer pays 35% more for housing in Spain and the residential profile gains weight",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-09-28"
+  },
+  "77b7cb9446ebc8df": {
+   "title": "Housing decree tests Sanchez government amid street pressure",
+   "cat": "REGULATORY",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-09-28"
+  },
+  "1d75bfceb5c42073": {
+   "title": "Agent-centric real estate brokerages and the next growth model",
+   "cat": "COMMISSION-MODEL",
+   "query": "\"commission split\" estate agency when:2d",
+   "lang": "en",
+   "date": "2026-09-28"
+  },
+  "3bcbf2c2d9655da0": {
+   "title": "Latvia ends property golden visa as lawmakers target fund route",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-09-28"
+  },
+  "987c0167971a1ca7": {
+   "title": "Italy attracts wealthy Chinese property buyers with food, fashion – and flat tax",
+   "cat": "DEMAND-FLOW",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-09-28"
+  },
+  "329040c1c0bdfbfa": {
+   "title": "Parliament to debate government's new rental law on Wednesday",
+   "cat": "REGULATORY",
+   "query": "[feed] portugal_resident",
+   "lang": "en",
+   "date": "2026-09-28"
+  },
+  "0f8732540d4006dc": {
+   "title": "Home sales drop 5% during July: change of trend?",
+   "cat": "OTHER",
+   "query": "\"personal shopper inmobiliario\" when:2d",
+   "lang": "es",
+   "date": "2026-09-28"
   }
  },
  "votes": {}

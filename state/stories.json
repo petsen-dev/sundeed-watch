@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 19,
-  "last_seen": "2026-09-27",
-  "last_headline": "Government parties in new bid to restrict SNS access for non-resident foreigners"
+  "count": 20,
+  "last_seen": "2026-09-28",
+  "last_headline": "Latvia ends property golden visa as lawmakers target fund route"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 18,
-  "last_seen": "2026-09-27",
-  "last_headline": "ECC Broadens Beyond Timeshare Into Property Mis-Selling Claims"
+  "count": 19,
+  "last_seen": "2026-09-28",
+  "last_headline": "Agent-centric real estate brokerages and the next growth model"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 17,
-  "last_seen": "2026-09-27",
-  "last_headline": "The foreign home buyer in Spain pays 35% more and increases pressure in areas with less supply"
+  "count": 18,
+  "last_seen": "2026-09-28",
+  "last_headline": "The international buyer pays 35% more for housing in Spain and the residential profile gains weight"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -51,9 +51,9 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 8,
-  "last_seen": "2026-09-26",
-  "last_headline": "Catalonia creates a new bureaucracy to police landlords"
+  "count": 9,
+  "last_seen": "2026-09-28",
+  "last_headline": "Housing decree tests Sanchez government amid street pressure"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
@@ -65,9 +65,9 @@
  "portugal-rental-regulation": {
   "label": "Portugal Rental Market Reform",
   "first_seen": "2026-09-05",
-  "count": 5,
-  "last_seen": "2026-09-18",
-  "last_headline": "Lisbon loses 8,300 properties due to rising house prices"
+  "count": 6,
+  "last_seen": "2026-09-28",
+  "last_headline": "Parliament to debate government's new rental law on Wednesday"
  },
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
@@ -142,16 +142,16 @@
  "andalusia-itp-cut": {
   "label": "Andalusia ITP Tax Cut",
   "first_seen": "2026-09-25",
-  "count": 2,
-  "last_seen": "2026-09-26",
-  "last_headline": "The Junta reduces ITP to 6.75% to buy housing in Andalusia from 2027: how much you will save in Cádiz"
+  "count": 3,
+  "last_seen": "2026-09-28",
+  "last_headline": "Andalusia cuts ITP and expands guarantees for first home"
  },
  "spain-market-slowdown": {
   "label": "Spain Housing Market Slowdown",
   "first_seen": "2026-09-26",
-  "count": 1,
-  "last_seen": "2026-09-26",
-  "last_headline": "Home purchases resume declines in July and accumulate a 3% fall so far this year"
+  "count": 2,
+  "last_seen": "2026-09-28",
+  "last_headline": "Home sales drop 5% during July: change of trend?"
  },
  "catalonia-asbestos-cert": {
   "label": "Catalonia Asbestos Certificate",
@@ -159,5 +159,12 @@
   "count": 1,
   "last_seen": "2026-09-27",
   "last_headline": "New asbestos certificate required to sell or rent property in Catalonia"
+ },
+ "italy-chinese-flat-tax": {
+  "label": "Italy Flat Tax Draws Chinese Buyers",
+  "first_seen": "2026-09-28",
+  "count": 1,
+  "last_seen": "2026-09-28",
+  "last_headline": "Italy attracts wealthy Chinese property buyers with food, fashion – and flat tax"
  }
 }
