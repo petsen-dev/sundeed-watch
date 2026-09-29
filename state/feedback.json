@@ -1,13 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "c7a5c191d555e314": {
-   "title": "Algarve property valuations exceed €3,000 per square metre",
-   "cat": "DEMAND-FLOW",
-   "query": "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d",
-   "lang": "ar",
-   "date": "2026-08-29"
-  },
   "e7fec827f3f3d162": {
    "title": "The idealistas: international buyers now account for 30% of luxury housing in Spain",
    "cat": "DEMAND-FLOW",
@@ -910,6 +903,48 @@
    "query": "\"personal shopper inmobiliario\" when:2d",
    "lang": "es",
    "date": "2026-09-28"
+  },
+  "591d1dc9d819c8ee": {
+   "title": "Applications for tourist-rental licences plummet 42% in Madrid",
+   "cat": "REGULATORY",
+   "query": "\"vivienda de uso turístico\" intitle:licencia OR intitle:moratoria when:2d",
+   "lang": "es",
+   "date": "2026-09-29"
+  },
+  "f23f4975f50bdc5a": {
+   "title": "Deal for evicted Spanish pensioner as PM seeks new housing law",
+   "cat": "REGULATORY",
+   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
+   "lang": "en",
+   "date": "2026-09-29"
+  },
+  "3b3f334261b52f9a": {
+   "title": "ERC endorses housing decree and proposes lowering ITP to 5% in Catalonia",
+   "cat": "REGULATORY",
+   "query": "intitle:ITP tipo Andalucía OR Valencia OR Baleares when:2d",
+   "lang": "es",
+   "date": "2026-09-29"
+  },
+  "67679e9d3aefe9e5": {
+   "title": "Foreign Buyer Pays 35% More for Housing in Spain: Here's How Their Profile Is Changing",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-09-29"
+  },
+  "4ab0f683ccb61ef7": {
+   "title": "Cross-border real estate investment surges 56% to $72bn",
+   "cat": "DEMAND-FLOW",
+   "query": "\"cross-border\" property buyers Europe when:2d",
+   "lang": "en",
+   "date": "2026-09-29"
+  },
+  "bb44bfd25b2306d1": {
+   "title": "Home sales in Spain down 3% January to July 2026",
+   "cat": "DEMAND-FLOW",
+   "query": "\"personal shopper inmobiliario\" when:2d",
+   "lang": "es",
+   "date": "2026-09-29"
   }
  },
  "votes": {}

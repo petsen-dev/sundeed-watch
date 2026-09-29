@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 18,
-  "last_seen": "2026-09-28",
-  "last_headline": "The international buyer pays 35% more for housing in Spain and the residential profile gains weight"
+  "count": 19,
+  "last_seen": "2026-09-29",
+  "last_headline": "Foreign Buyer Pays 35% More for Housing in Spain: Here's How Their Profile Is Changing"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -51,16 +51,16 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 9,
-  "last_seen": "2026-09-28",
-  "last_headline": "Housing decree tests Sanchez government amid street pressure"
+  "count": 10,
+  "last_seen": "2026-09-29",
+  "last_headline": "Deal for evicted Spanish pensioner as PM seeks new housing law"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
   "first_seen": "2026-09-04",
-  "count": 4,
-  "last_seen": "2026-09-24",
-  "last_headline": "Cross-border property investment rises 56% in first half"
+  "count": 5,
+  "last_seen": "2026-09-29",
+  "last_headline": "Cross-border real estate investment surges 56% to $72bn"
  },
  "portugal-rental-regulation": {
   "label": "Portugal Rental Market Reform",
@@ -86,9 +86,9 @@
  "eu-str-crackdown": {
   "label": "EU Short-Term Rental Crackdown",
   "first_seen": "2026-09-10",
-  "count": 5,
-  "last_seen": "2026-09-21",
-  "last_headline": "A record jump.. Short-term rentals in Europe approach a billion nights"
+  "count": 6,
+  "last_seen": "2026-09-29",
+  "last_headline": "Applications for tourist-rental licences plummet 42% in Madrid"
  },
  "portugal-ifici-tax": {
   "label": "Portugal IFICI Tax Regime",
@@ -149,9 +149,9 @@
  "spain-market-slowdown": {
   "label": "Spain Housing Market Slowdown",
   "first_seen": "2026-09-26",
-  "count": 2,
-  "last_seen": "2026-09-28",
-  "last_headline": "Home sales drop 5% during July: change of trend?"
+  "count": 3,
+  "last_seen": "2026-09-29",
+  "last_headline": "Home sales in Spain down 3% January to July 2026"
  },
  "catalonia-asbestos-cert": {
   "label": "Catalonia Asbestos Certificate",
@@ -166,5 +166,12 @@
   "count": 1,
   "last_seen": "2026-09-28",
   "last_headline": "Italy attracts wealthy Chinese property buyers with food, fashion – and flat tax"
+ },
+ "catalonia-itp-cut": {
+  "label": "Catalonia ITP Tax Cut",
+  "first_seen": "2026-09-29",
+  "count": 1,
+  "last_seen": "2026-09-29",
+  "last_headline": "ERC endorses housing decree and proposes lowering ITP to 5% in Catalonia"
  }
 }

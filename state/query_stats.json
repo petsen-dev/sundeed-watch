@@ -1,72 +1,72 @@
 {
  "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d": {
-  "runs": 28,
-  "items": 41,
-  "score_sum": 1866,
-  "mean_score": 45.5,
+  "runs": 29,
+  "items": 43,
+  "score_sum": 1951,
+  "mean_score": 45.4,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"compradores estrangeiros\" casa Portugal when:2d": {
-  "runs": 16,
-  "items": 27,
-  "score_sum": 1142,
-  "mean_score": 42.3,
+  "runs": 17,
+  "items": 29,
+  "score_sum": 1167,
+  "mean_score": 40.2,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d": {
-  "runs": 51,
-  "items": 142,
-  "score_sum": 3429,
-  "mean_score": 24.1,
+  "runs": 52,
+  "items": 145,
+  "score_sum": 3484,
+  "mean_score": 24.0,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"سوق العقارات\" إسبانيا OR البرتغال when:2d": {
-  "runs": 44,
-  "items": 90,
-  "score_sum": 1446,
-  "mean_score": 16.1,
+  "runs": 45,
+  "items": 94,
+  "score_sum": 1598,
+  "mean_score": 17.0,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"international buyers\" Portugal OR Italy property when:2d": {
-  "runs": 43,
-  "items": 117,
-  "score_sum": 2875,
-  "mean_score": 24.6,
+  "runs": 44,
+  "items": 119,
+  "score_sum": 2880,
+  "mean_score": 24.2,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "ChatGPT OR \"AI agent\" property buying when:2d": {
-  "runs": 48,
-  "items": 290,
-  "score_sum": 2704,
-  "mean_score": 9.3,
+  "runs": 49,
+  "items": 295,
+  "score_sum": 2769,
+  "mean_score": 9.4,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "مستثمرون سعوديون OR إماراتيون عقارات أوروبا when:2d": {
-  "runs": 21,
-  "items": 41,
+  "runs": 22,
+  "items": 43,
   "score_sum": 190,
-  "mean_score": 4.6,
+  "mean_score": 4.4,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d": {
-  "runs": 51,
-  "items": 188,
-  "score_sum": 591,
-  "mean_score": 3.1,
+  "runs": 52,
+  "items": 194,
+  "score_sum": 621,
+  "mean_score": 3.2,
   "up": 0,
   "down": 0,
   "split": 0
@@ -81,10 +81,10 @@
   "split": 0
  },
  "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d": {
-  "runs": 44,
-  "items": 83,
-  "score_sum": 2685,
-  "mean_score": 32.3,
+  "runs": 45,
+  "items": 88,
+  "score_sum": 2920,
+  "mean_score": 33.2,
   "up": 0,
   "down": 0,
   "split": 0
@@ -108,8 +108,8 @@
   "split": 0
  },
  "\"second home\" intitle:tax OR intitle:premium when:2d": {
-  "runs": 49,
-  "items": 225,
+  "runs": 50,
+  "items": 227,
   "score_sum": 1247,
   "mean_score": 5.5,
   "up": 0,
@@ -117,36 +117,36 @@
   "split": 0
  },
  "Prello OR Vivla OR MYNE OR Altacasa property when:2d": {
-  "runs": 24,
-  "items": 30,
+  "runs": 25,
+  "items": 32,
   "score_sum": 35,
-  "mean_score": 1.2,
+  "mean_score": 1.1,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"cross-border\" property buyers Europe when:2d": {
-  "runs": 44,
-  "items": 119,
-  "score_sum": 767,
-  "mean_score": 6.4,
+  "runs": 45,
+  "items": 120,
+  "score_sum": 817,
+  "mean_score": 6.8,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"commission split\" estate agency when:2d": {
-  "runs": 23,
-  "items": 24,
-  "score_sum": 88,
+  "runs": 24,
+  "items": 25,
+  "score_sum": 93,
   "mean_score": 3.7,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "[feed] portugal_resident": {
-  "runs": 54,
-  "items": 470,
-  "score_sum": 1252,
+  "runs": 55,
+  "items": 480,
+  "score_sum": 1292,
   "mean_score": 2.7,
   "up": 0,
   "down": 0,
@@ -180,10 +180,10 @@
   "split": 0
  },
  "[feed] property_industry_eye": {
-  "runs": 40,
-  "items": 465,
-  "score_sum": 3241,
-  "mean_score": 7.0,
+  "runs": 41,
+  "items": 476,
+  "score_sum": 3361,
+  "mean_score": 7.1,
   "up": 0,
   "down": 0,
   "split": 0
@@ -450,18 +450,18 @@
   "split": 0
  },
  "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d": {
-  "runs": 40,
-  "items": 969,
-  "score_sum": 846,
+  "runs": 41,
+  "items": 1022,
+  "score_sum": 961,
   "mean_score": 0.9,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "site:aawsat.com عقارات أوروبا when:2d": {
-  "runs": 40,
-  "items": 1324,
-  "score_sum": 1469,
+  "runs": 41,
+  "items": 1335,
+  "score_sum": 1494,
   "mean_score": 1.1,
   "up": 0,
   "down": 0,
@@ -477,10 +477,10 @@
   "split": 0
  },
  "\"NAR settlement\" buyer agency commission when:2d": {
-  "runs": 17,
-  "items": 23,
+  "runs": 18,
+  "items": 24,
   "score_sum": 485,
-  "mean_score": 21.1,
+  "mean_score": 20.2,
   "up": 0,
   "down": 0,
   "split": 0
@@ -558,10 +558,10 @@
   "split": 0
  },
  "\"American buyers\" Italy OR Portugal OR Spain property when:2d": {
-  "runs": 6,
-  "items": 7,
+  "runs": 7,
+  "items": 8,
   "score_sum": 311,
-  "mean_score": 44.4,
+  "mean_score": 38.9,
   "up": 0,
   "down": 0,
   "split": 0
@@ -585,10 +585,10 @@
   "split": 0
  },
  "\"ضريبة العقارات\" إسبانيا OR البرتغال when:2d": {
-  "runs": 2,
-  "items": 2,
-  "score_sum": 0,
-  "mean_score": 0.0,
+  "runs": 3,
+  "items": 4,
+  "score_sum": 65,
+  "mean_score": 16.2,
   "up": 0,
   "down": 0,
   "split": 0
@@ -621,10 +621,10 @@
   "split": 0
  },
  "\"منصة عقارية\" أوروبا OR إسبانيا when:2d": {
-  "runs": 5,
-  "items": 5,
-  "score_sum": 55,
-  "mean_score": 11.0,
+  "runs": 6,
+  "items": 6,
+  "score_sum": 95,
+  "mean_score": 15.8,
   "up": 0,
   "down": 0,
   "split": 0
@@ -639,10 +639,10 @@
   "split": 0
  },
  "\"personal shopper inmobiliario\" when:2d": {
-  "runs": 10,
-  "items": 15,
-  "score_sum": 518,
-  "mean_score": 34.5,
+  "runs": 11,
+  "items": 16,
+  "score_sum": 566,
+  "mean_score": 35.4,
   "up": 0,
   "down": 0,
   "split": 0
@@ -720,10 +720,10 @@
   "split": 0
  },
  "\"vivienda de uso turístico\" intitle:licencia OR intitle:moratoria when:2d": {
-  "runs": 1,
-  "items": 1,
-  "score_sum": 75,
-  "mean_score": 75.0,
+  "runs": 2,
+  "items": 3,
+  "score_sum": 239,
+  "mean_score": 79.7,
   "up": 0,
   "down": 0,
   "split": 0
@@ -747,10 +747,10 @@
   "split": 0
  },
  "intitle:ITP tipo Andalucía OR Valencia OR Baleares when:2d": {
-  "runs": 4,
-  "items": 5,
-  "score_sum": 254,
-  "mean_score": 50.8,
+  "runs": 5,
+  "items": 6,
+  "score_sum": 329,
+  "mean_score": 54.8,
   "up": 0,
   "down": 0,
   "split": 0
