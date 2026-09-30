@@ -945,6 +945,62 @@
    "query": "\"personal shopper inmobiliario\" when:2d",
    "lang": "es",
    "date": "2026-09-29"
+  },
+  "c98074fb001f6dad": {
+   "title": "Portugal plans to loosen rental rules as Spain strengthens tenant protections",
+   "cat": "REGULATORY",
+   "query": "[feed] portugal_resident",
+   "lang": "en",
+   "date": "2026-09-30"
+  },
+  "6013141b5aa0263c": {
+   "title": "Madrid slows tourist apartments: licence applications fall 42%, complaints fall 51%",
+   "cat": "REGULATORY",
+   "query": "\"vivienda de uso turístico\" intitle:licencia OR intitle:moratoria when:2d",
+   "lang": "es",
+   "date": "2026-09-30"
+  },
+  "2a0d603327ce9310": {
+   "title": "The new 15% transfer tax: How it impacts the luxury real estate market",
+   "cat": "REGULATORY",
+   "query": "intitle:\"transfer tax\" Spain OR Portugal OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-09-30"
+  },
+  "df6d3da5172c0f4c": {
+   "title": "New law in Spain: tenant compensation if landlord refuses to renew contract",
+   "cat": "REGULATORY",
+   "query": "قانون العقارات إسبانيا تأجيل OR إلغاء when:2d",
+   "lang": "ar",
+   "date": "2026-09-30"
+  },
+  "b9d6b566656b960c": {
+   "title": "Clavijo on limiting home purchases in Canary Islands: \"A window of three or four months opens\"",
+   "cat": "HEADLINE-GAP",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-09-30"
+  },
+  "f464edfc81543a77": {
+   "title": "EYE NEWSFLASH: Government confirms mandatory licensing for agents",
+   "cat": "REGULATORY",
+   "query": "[feed] property_industry_eye",
+   "lang": "en",
+   "date": "2026-09-30"
+  },
+  "e4da801391f4fddd": {
+   "title": "Wealthy Chinese increasingly turning to Italy.",
+   "cat": "DEMAND-FLOW",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-09-30"
+  },
+  "f4059fdbacdf84f6": {
+   "title": "Algarve MP points to €1.2m unpaid health bills in push to tighten SNS access for non-resident foreigners",
+   "cat": "REGULATORY",
+   "query": "[feed] portugal_resident",
+   "lang": "en",
+   "date": "2026-09-30"
   }
  },
  "votes": {}

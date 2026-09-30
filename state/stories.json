@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 19,
-  "last_seen": "2026-09-28",
-  "last_headline": "Agent-centric real estate brokerages and the next growth model"
+  "count": 20,
+  "last_seen": "2026-09-30",
+  "last_headline": "EYE NEWSFLASH: Government confirms mandatory licensing for agents"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -51,9 +51,9 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 10,
-  "last_seen": "2026-09-29",
-  "last_headline": "Deal for evicted Spanish pensioner as PM seeks new housing law"
+  "count": 11,
+  "last_seen": "2026-09-30",
+  "last_headline": "New law in Spain: tenant compensation if landlord refuses to renew contract"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
@@ -65,30 +65,30 @@
  "portugal-rental-regulation": {
   "label": "Portugal Rental Market Reform",
   "first_seen": "2026-09-05",
-  "count": 6,
-  "last_seen": "2026-09-28",
-  "last_headline": "Parliament to debate government's new rental law on Wednesday"
+  "count": 7,
+  "last_seen": "2026-09-30",
+  "last_headline": "Portugal plans to loosen rental rules as Spain strengthens tenant protections"
  },
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 10,
-  "last_seen": "2026-09-24",
-  "last_headline": "Mallorca may finally cap number of foreigners buying property on islands - if the EU permits it"
+  "count": 11,
+  "last_seen": "2026-09-30",
+  "last_headline": "Clavijo on limiting home purchases in Canary Islands: \"A window of three or four months opens\""
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
   "first_seen": "2026-09-07",
-  "count": 7,
-  "last_seen": "2026-09-24",
-  "last_headline": "Property Transfer Tax Rise Threatens Non-EU Holiday Home Demand in Greece"
+  "count": 8,
+  "last_seen": "2026-09-30",
+  "last_headline": "The new 15% transfer tax: How it impacts the luxury real estate market"
  },
  "eu-str-crackdown": {
   "label": "EU Short-Term Rental Crackdown",
   "first_seen": "2026-09-10",
-  "count": 6,
-  "last_seen": "2026-09-29",
-  "last_headline": "Applications for tourist-rental licences plummet 42% in Madrid"
+  "count": 7,
+  "last_seen": "2026-09-30",
+  "last_headline": "Madrid slows tourist apartments: licence applications fall 42%, complaints fall 51%"
  },
  "portugal-ifici-tax": {
   "label": "Portugal IFICI Tax Regime",
@@ -163,9 +163,9 @@
  "italy-chinese-flat-tax": {
   "label": "Italy Flat Tax Draws Chinese Buyers",
   "first_seen": "2026-09-28",
-  "count": 1,
-  "last_seen": "2026-09-28",
-  "last_headline": "Italy attracts wealthy Chinese property buyers with food, fashion – and flat tax"
+  "count": 2,
+  "last_seen": "2026-09-30",
+  "last_headline": "Wealthy Chinese increasingly turning to Italy."
  },
  "catalonia-itp-cut": {
   "label": "Catalonia ITP Tax Cut",
@@ -173,5 +173,12 @@
   "count": 1,
   "last_seen": "2026-09-29",
   "last_headline": "ERC endorses housing decree and proposes lowering ITP to 5% in Catalonia"
+ },
+ "portugal-nonresident-access": {
+  "label": "Portugal Non-Resident Foreigner Access",
+  "first_seen": "2026-09-30",
+  "count": 1,
+  "last_seen": "2026-09-30",
+  "last_headline": "Algarve MP points to €1.2m unpaid health bills in push to tighten SNS access for non-resident foreigners"
  }
 }
