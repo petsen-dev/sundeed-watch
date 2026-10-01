@@ -1001,6 +1001,62 @@
    "query": "[feed] portugal_resident",
    "lang": "en",
    "date": "2026-09-30"
+  },
+  "37bea547a1396d48": {
+   "title": "Portugal's Golden Visa Remains Unchanged as 2026 Nationality Law Reform Alters Naturalisation Path",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-10-01"
+  },
+  "a8f0e1238de3ccf0": {
+   "title": "Italy draws wealthy Chinese property buyers with lifestyle and flat tax",
+   "cat": "DEMAND-FLOW",
+   "query": "\"property portal\" intitle:buyers when:2d",
+   "lang": "en",
+   "date": "2026-10-01"
+  },
+  "994cde5fc0c225bd": {
+   "title": "Spanish government imposes on landlord to compensate tenant if refusing contract renewal",
+   "cat": "REGULATORY",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-10-01"
+  },
+  "b14ed9c9becde912": {
+   "title": "Foreign resident account holders sign 18.1% of mortgage credits for housing",
+   "cat": "DEMAND-FLOW",
+   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
+   "lang": "pt",
+   "date": "2026-10-01"
+  },
+  "fb3f370156c122d9": {
+   "title": "Portugal with the largest rise in house prices in 2nd quarter in EU",
+   "cat": "DEMAND-FLOW",
+   "query": "[feed] portugal_resident",
+   "lang": "en",
+   "date": "2026-10-01"
+  },
+  "88ab176ea8a3c985": {
+   "title": "Why China's Tighter Oversight of Offshore Wealth Is Accelerating Mobility Planning",
+   "cat": "DEMAND-FLOW",
+   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
+   "lang": "en",
+   "date": "2026-10-01"
+  },
+  "c1ec901768eba604": {
+   "title": "House sales in Portugal fall again as price growth loses momentum",
+   "cat": "DEMAND-FLOW",
+   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
+   "lang": "en",
+   "date": "2026-10-01"
+  },
+  "529b05ef6072b19c": {
+   "title": "Pacaso Narrows Losses as Infinity Home-Exchange Deepens Co-Ownership Platform",
+   "cat": "OWNERSHIP-MODEL",
+   "query": "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d",
+   "lang": "en",
+   "date": "2026-10-01"
   }
  },
  "votes": {}

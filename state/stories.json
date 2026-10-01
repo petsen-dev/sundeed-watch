@@ -2,16 +2,16 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 20,
-  "last_seen": "2026-09-28",
-  "last_headline": "Latvia ends property golden visa as lawmakers target fund route"
+  "count": 21,
+  "last_seen": "2026-10-01",
+  "last_headline": "Portugal's Golden Visa Remains Unchanged as 2026 Nationality Law Reform Alters Naturalisation Path"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
   "first_seen": "2026-08-25",
-  "count": 13,
-  "last_seen": "2026-09-26",
-  "last_headline": "What Today's International Buyer Is Looking for in Algarve Property"
+  "count": 14,
+  "last_seen": "2026-10-01",
+  "last_headline": "Portugal with the largest rise in house prices in 2nd quarter in EU"
  },
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
@@ -51,9 +51,9 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 11,
-  "last_seen": "2026-09-30",
-  "last_headline": "New law in Spain: tenant compensation if landlord refuses to renew contract"
+  "count": 12,
+  "last_seen": "2026-10-01",
+  "last_headline": "Spanish government imposes on landlord to compensate tenant if refusing contract renewal"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
@@ -100,9 +100,9 @@
  "fractional-ownership-europe": {
   "label": "Fractional Ownership Expansion",
   "first_seen": "2026-09-10",
-  "count": 3,
-  "last_seen": "2026-09-25",
-  "last_headline": "Pacaso Brings Co-Ownership to the Banks of the Seine With the Launch of Riverfront Pied-à-terre in Paris' 6th Arrondissement"
+  "count": 4,
+  "last_seen": "2026-10-01",
+  "last_headline": "Pacaso Narrows Losses as Infinity Home-Exchange Deepens Co-Ownership Platform"
  },
  "france-second-home-tax": {
   "label": "France Second-Home Tax Surcharge",
@@ -135,9 +135,9 @@
  "cross-border-mortgage-finance": {
   "label": "Cross-Border Mortgage Financing",
   "first_seen": "2026-09-22",
-  "count": 4,
-  "last_seen": "2026-09-26",
-  "last_headline": "Mortgage foreclosures are rising behind borrowing costs"
+  "count": 5,
+  "last_seen": "2026-10-01",
+  "last_headline": "Foreign resident account holders sign 18.1% of mortgage credits for housing"
  },
  "andalusia-itp-cut": {
   "label": "Andalusia ITP Tax Cut",
@@ -163,9 +163,9 @@
  "italy-chinese-flat-tax": {
   "label": "Italy Flat Tax Draws Chinese Buyers",
   "first_seen": "2026-09-28",
-  "count": 2,
-  "last_seen": "2026-09-30",
-  "last_headline": "Wealthy Chinese increasingly turning to Italy."
+  "count": 3,
+  "last_seen": "2026-10-01",
+  "last_headline": "Italy draws wealthy Chinese property buyers with lifestyle and flat tax"
  },
  "catalonia-itp-cut": {
   "label": "Catalonia ITP Tax Cut",
@@ -180,5 +180,19 @@
   "count": 1,
   "last_seen": "2026-09-30",
   "last_headline": "Algarve MP points to €1.2m unpaid health bills in push to tighten SNS access for non-resident foreigners"
+ },
+ "china-outbound-wealth": {
+  "label": "China Outbound Wealth Mobility",
+  "first_seen": "2026-10-01",
+  "count": 1,
+  "last_seen": "2026-10-01",
+  "last_headline": "Why China's Tighter Oversight of Offshore Wealth Is Accelerating Mobility Planning"
+ },
+ "portugal-market-slowdown": {
+  "label": "Portugal Housing Market Slowdown",
+  "first_seen": "2026-10-01",
+  "count": 1,
+  "last_seen": "2026-10-01",
+  "last_headline": "House sales in Portugal fall again as price growth loses momentum"
  }
 }
