@@ -1,27 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "e7fec827f3f3d162": {
-   "title": "The idealistas: international buyers now account for 30% of luxury housing in Spain",
-   "cat": "DEMAND-FLOW",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-09-01"
-  },
-  "334e29a69651d0d5": {
-   "title": "If ChatGPT picks three agents, how do you get on the list?",
-   "cat": "CHANNEL",
-   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
-   "lang": "en",
-   "date": "2026-09-01"
-  },
-  "e06441d184b252ba": {
-   "title": "Forecasts for European Central Bank to raise interest rates in September",
-   "cat": "OTHER",
-   "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
-   "lang": "ar",
-   "date": "2026-09-01"
-  },
   "9bd7a4077194faf1": {
    "title": "Més proposes eliminating 130,000 tourist places and limiting property purchase to non-residents",
    "cat": "REGULATORY",
@@ -1057,6 +1036,48 @@
    "query": "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d",
    "lang": "en",
    "date": "2026-10-01"
+  },
+  "378ce2c8c52bd3b9": {
+   "title": "Coalición Canaria agrees to limit home purchases by foreigners in decree voted today in Congress",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-02"
+  },
+  "8f9dff5c38528503": {
+   "title": "Real-estate agencies begin to feel the effects of 'Maricarmen decree': some owners withdrawing ads or halting signings",
+   "cat": "DEMAND-FLOW",
+   "query": "\"personal shopper inmobiliario\" when:2d",
+   "lang": "es",
+   "date": "2026-10-02"
+  },
+  "20d882818de99bef": {
+   "title": "Spain Non-Resident Property Tax: 31 December Deadline",
+   "cat": "REGULATORY",
+   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
+   "lang": "en",
+   "date": "2026-10-02"
+  },
+  "f9511b8f0f6c1dde": {
+   "title": "PASOK calls for VAT-funded fuel tax cut, Golden Visa reform",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-10-02"
+  },
+  "1e8c0aaf0c55133a": {
+   "title": "Indian Parents Can Tap USD 500,000 Annual LRS Quota for Overseas Property",
+   "cat": "DEMAND-FLOW",
+   "query": "\"cross-border\" property buyers Europe when:2d",
+   "lang": "en",
+   "date": "2026-10-02"
+  },
+  "61ad94859aea5434": {
+   "title": "Market in Minutes: European Investment Nowcast – Q3 2026 preliminary results",
+   "cat": "DEMAND-FLOW",
+   "query": "\"cross-border\" property buyers Europe when:2d",
+   "lang": "en",
+   "date": "2026-10-02"
   }
  },
  "votes": {}
