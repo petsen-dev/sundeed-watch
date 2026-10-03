@@ -9,9 +9,9 @@
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
   "first_seen": "2026-08-25",
-  "count": 14,
-  "last_seen": "2026-10-01",
-  "last_headline": "Portugal with the largest rise in house prices in 2nd quarter in EU"
+  "count": 15,
+  "last_seen": "2026-10-03",
+  "last_headline": "Comporta Beach Resort makes its international debut"
  },
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
@@ -51,9 +51,9 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 13,
-  "last_seen": "2026-10-02",
-  "last_headline": "Real-estate agencies begin to feel the effects of 'Maricarmen decree': some owners withdrawing ads or halting signings"
+  "count": 14,
+  "last_seen": "2026-10-03",
+  "last_headline": "Radical housing decrees defeated as snap election talk grows"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
@@ -72,9 +72,9 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 12,
-  "last_seen": "2026-10-02",
-  "last_headline": "Coalición Canaria agrees to limit home purchases by foreigners in decree voted today in Congress"
+  "count": 13,
+  "last_seen": "2026-10-03",
+  "last_headline": "Housing decrees fall, and the option to limit property purchases to non-residents in Canaries"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
@@ -100,9 +100,9 @@
  "fractional-ownership-europe": {
   "label": "Fractional Ownership Expansion",
   "first_seen": "2026-09-10",
-  "count": 4,
-  "last_seen": "2026-10-01",
-  "last_headline": "Pacaso Narrows Losses as Infinity Home-Exchange Deepens Co-Ownership Platform"
+  "count": 5,
+  "last_seen": "2026-10-03",
+  "last_headline": "DeCaro Auctions to Launch Fractional Ownership Model for Upscale Vacation Properties"
  },
  "france-second-home-tax": {
   "label": "France Second-Home Tax Surcharge",
@@ -208,5 +208,19 @@
   "count": 1,
   "last_seen": "2026-10-02",
   "last_headline": "Indian Parents Can Tap USD 500,000 Annual LRS Quota for Overseas Property"
+ },
+ "andalusia-inheritance-tax": {
+  "label": "Andalusia Inheritance Tax Cut",
+  "first_seen": "2026-10-03",
+  "count": 1,
+  "last_seen": "2026-10-03",
+  "last_headline": "Inheriting from a brother or sister? Andalucía just dropped your tax bill by 99%"
+ },
+ "spain-empty-home-tax": {
+  "label": "Spain Empty Home Tax Penalty",
+  "first_seen": "2026-10-03",
+  "count": 1,
+  "last_seen": "2026-10-03",
+  "last_headline": "Major warning as British expats face huge tax penalty for empty homes in Spain"
  }
 }
