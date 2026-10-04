@@ -23,9 +23,9 @@
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
   "first_seen": "2026-08-25",
-  "count": 12,
-  "last_seen": "2026-09-23",
-  "last_headline": "Holiday let boss warns of 'tidal wave of destruction' for industry amid tax plans"
+  "count": 13,
+  "last_seen": "2026-10-04",
+  "last_headline": "The countdown to April 2027: UK pensions, inheritance tax and opportunities for expatriates"
  },
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
@@ -51,9 +51,9 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 14,
-  "last_seen": "2026-10-03",
-  "last_headline": "Radical housing decrees defeated as snap election talk grows"
+  "count": 15,
+  "last_seen": "2026-10-04",
+  "last_headline": "Spain housing crisis erupts.. clashes and mass protests after parliament rejects rent laws"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
@@ -149,9 +149,9 @@
  "spain-market-slowdown": {
   "label": "Spain Housing Market Slowdown",
   "first_seen": "2026-09-26",
-  "count": 3,
-  "last_seen": "2026-09-29",
-  "last_headline": "Home sales in Spain down 3% January to July 2026"
+  "count": 4,
+  "last_seen": "2026-10-04",
+  "last_headline": "House prices in Spain slow after strong jump (details)"
  },
  "catalonia-asbestos-cert": {
   "label": "Catalonia Asbestos Certificate",
@@ -222,5 +222,12 @@
   "count": 1,
   "last_seen": "2026-10-03",
   "last_headline": "Major warning as British expats face huge tax penalty for empty homes in Spain"
+ },
+ "europe-squatting-crackdown": {
+  "label": "Europe Squatting Law Crackdown",
+  "first_seen": "2026-10-04",
+  "count": 1,
+  "last_seen": "2026-10-04",
+  "last_headline": "House occupation crisis escalating in Europe, states tightening laws"
  }
 }

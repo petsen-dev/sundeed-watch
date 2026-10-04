@@ -8,13 +8,6 @@
    "lang": "en",
    "date": "2026-09-12"
   },
-  "fbc4cc30821b2ae8": {
-   "title": "Housing price rises sharply in Alboraia and Calp due to lack of supply",
-   "cat": "DEMAND-FLOW",
-   "query": "\"compradores extranjeros\" vivienda intitle:datos OR intitle:sube when:2d",
-   "lang": "es",
-   "date": "2026-09-03"
-  },
   "f60404b8ae9b89e7": {
    "title": "Capital gains and inheritance tax raid now more likely, experts warn",
    "cat": "HEADLINE-GAP",
@@ -1092,6 +1085,34 @@
    "query": "\"international buyers\" Portugal OR Italy property when:2d",
    "lang": "en",
    "date": "2026-10-03"
+  },
+  "483ace3d4377b7df": {
+   "title": "Spain housing crisis erupts.. clashes and mass protests after parliament rejects rent laws",
+   "cat": "REGULATORY",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-10-04"
+  },
+  "e903af355f9ba2b9": {
+   "title": "House prices in Spain slow after strong jump (details)",
+   "cat": "DEMAND-FLOW",
+   "query": "\"منصة عقارية\" أوروبا OR إسبانيا when:2d",
+   "lang": "ar",
+   "date": "2026-10-04"
+  },
+  "0371b70fe73ed6e7": {
+   "title": "The countdown to April 2027: UK pensions, inheritance tax and opportunities for expatriates",
+   "cat": "OTHER",
+   "query": "[feed] portugal_resident",
+   "lang": "en",
+   "date": "2026-10-04"
+  },
+  "04957b122fa12ed2": {
+   "title": "House occupation crisis escalating in Europe, states tightening laws",
+   "cat": "REGULATORY",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-10-04"
   }
  },
  "votes": {}
