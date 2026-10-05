@@ -18,35 +18,35 @@
   "split": 0
  },
  "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d": {
-  "runs": 56,
-  "items": 157,
-  "score_sum": 3824,
-  "mean_score": 24.4,
+  "runs": 57,
+  "items": 161,
+  "score_sum": 3964,
+  "mean_score": 24.6,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"سوق العقارات\" إسبانيا OR البرتغال when:2d": {
-  "runs": 50,
-  "items": 116,
-  "score_sum": 1881,
-  "mean_score": 16.2,
+  "runs": 51,
+  "items": 119,
+  "score_sum": 2031,
+  "mean_score": 17.1,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"international buyers\" Portugal OR Italy property when:2d": {
-  "runs": 47,
-  "items": 126,
-  "score_sum": 3050,
-  "mean_score": 24.2,
+  "runs": 48,
+  "items": 128,
+  "score_sum": 3057,
+  "mean_score": 23.9,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "ChatGPT OR \"AI agent\" property buying when:2d": {
-  "runs": 53,
-  "items": 303,
+  "runs": 54,
+  "items": 304,
   "score_sum": 2784,
   "mean_score": 9.2,
   "up": 0,
@@ -63,9 +63,9 @@
   "split": 0
  },
  "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d": {
-  "runs": 57,
-  "items": 205,
-  "score_sum": 631,
+  "runs": 58,
+  "items": 210,
+  "score_sum": 651,
   "mean_score": 3.1,
   "up": 0,
   "down": 0,
@@ -81,18 +81,18 @@
   "split": 0
  },
  "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d": {
-  "runs": 50,
-  "items": 102,
-  "score_sum": 3428,
-  "mean_score": 33.6,
+  "runs": 51,
+  "items": 106,
+  "score_sum": 3630,
+  "mean_score": 34.2,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d": {
-  "runs": 40,
-  "items": 93,
-  "score_sum": 2533,
+  "runs": 41,
+  "items": 95,
+  "score_sum": 2581,
   "mean_score": 27.2,
   "up": 0,
   "down": 0,
@@ -108,9 +108,9 @@
   "split": 0
  },
  "\"second home\" intitle:tax OR intitle:premium when:2d": {
-  "runs": 55,
-  "items": 263,
-  "score_sum": 1442,
+  "runs": 56,
+  "items": 265,
+  "score_sum": 1459,
   "mean_score": 5.5,
   "up": 0,
   "down": 0,
@@ -126,8 +126,8 @@
   "split": 0
  },
  "\"cross-border\" property buyers Europe when:2d": {
-  "runs": 48,
-  "items": 131,
+  "runs": 49,
+  "items": 132,
   "score_sum": 922,
   "mean_score": 7.0,
   "up": 0,
@@ -135,18 +135,18 @@
   "split": 0
  },
  "\"commission split\" estate agency when:2d": {
-  "runs": 25,
-  "items": 26,
+  "runs": 26,
+  "items": 27,
   "score_sum": 133,
-  "mean_score": 5.1,
+  "mean_score": 4.9,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "[feed] portugal_resident": {
-  "runs": 60,
-  "items": 528,
-  "score_sum": 1672,
+  "runs": 61,
+  "items": 538,
+  "score_sum": 1727,
   "mean_score": 3.2,
   "up": 0,
   "down": 0,
@@ -180,9 +180,9 @@
   "split": 0
  },
  "[feed] property_industry_eye": {
-  "runs": 45,
-  "items": 512,
-  "score_sum": 3686,
+  "runs": 46,
+  "items": 522,
+  "score_sum": 3784,
   "mean_score": 7.2,
   "up": 0,
   "down": 0,
@@ -450,18 +450,18 @@
   "split": 0
  },
  "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d": {
-  "runs": 46,
-  "items": 1225,
-  "score_sum": 1166,
-  "mean_score": 1.0,
+  "runs": 47,
+  "items": 1239,
+  "score_sum": 1171,
+  "mean_score": 0.9,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "site:aawsat.com عقارات أوروبا when:2d": {
-  "runs": 46,
-  "items": 1453,
-  "score_sum": 1639,
+  "runs": 47,
+  "items": 1480,
+  "score_sum": 1689,
   "mean_score": 1.1,
   "up": 0,
   "down": 0,
@@ -639,10 +639,10 @@
   "split": 0
  },
  "\"personal shopper inmobiliario\" when:2d": {
-  "runs": 13,
-  "items": 23,
-  "score_sum": 789,
-  "mean_score": 34.3,
+  "runs": 14,
+  "items": 24,
+  "score_sum": 839,
+  "mean_score": 35.0,
   "up": 0,
   "down": 0,
   "split": 0
@@ -747,10 +747,10 @@
   "split": 0
  },
  "intitle:ITP tipo Andalucía OR Valencia OR Baleares when:2d": {
-  "runs": 5,
-  "items": 6,
-  "score_sum": 329,
-  "mean_score": 54.8,
+  "runs": 6,
+  "items": 7,
+  "score_sum": 394,
+  "mean_score": 56.3,
   "up": 0,
   "down": 0,
   "split": 0
@@ -832,6 +832,15 @@
   "items": 2,
   "score_sum": 138,
   "mean_score": 69.0,
+  "up": 0,
+  "down": 0,
+  "split": 0
+ },
+ "\"الملكية الجزئية\" عقار أوروبا when:2d": {
+  "runs": 1,
+  "items": 1,
+  "score_sum": 0,
+  "mean_score": 0.0,
   "up": 0,
   "down": 0,
   "split": 0

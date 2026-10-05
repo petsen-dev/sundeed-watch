@@ -16,16 +16,16 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 20,
-  "last_seen": "2026-09-30",
-  "last_headline": "EYE NEWSFLASH: Government confirms mandatory licensing for agents"
+  "count": 21,
+  "last_seen": "2026-10-05",
+  "last_headline": "Évora Properties; Nicolás Castaños's new bet to transform the understanding of luxury real estate"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
   "first_seen": "2026-08-25",
-  "count": 13,
-  "last_seen": "2026-10-04",
-  "last_headline": "The countdown to April 2027: UK pensions, inheritance tax and opportunities for expatriates"
+  "count": 14,
+  "last_seen": "2026-10-05",
+  "last_headline": "Billionaire property tycoon quits UK as wealthy investors head overseas"
  },
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
@@ -72,9 +72,9 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 13,
-  "last_seen": "2026-10-03",
-  "last_headline": "Housing decrees fall, and the option to limit property purchases to non-residents in Canaries"
+  "count": 14,
+  "last_seen": "2026-10-05",
+  "last_headline": "Canarias Tiene un Límite asserts that restricting home purchase by non-residents is insufficient"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
@@ -142,16 +142,16 @@
  "andalusia-itp-cut": {
   "label": "Andalusia ITP Tax Cut",
   "first_seen": "2026-09-25",
-  "count": 3,
-  "last_seen": "2026-09-28",
-  "last_headline": "Andalusia cuts ITP and expands guarantees for first home"
+  "count": 4,
+  "last_seen": "2026-10-05",
+  "last_headline": "New tax relief announced by Juanma Moreno: lower IRPF, lower ITP and aid for glasses and rent"
  },
  "spain-market-slowdown": {
   "label": "Spain Housing Market Slowdown",
   "first_seen": "2026-09-26",
-  "count": 4,
-  "last_seen": "2026-10-04",
-  "last_headline": "House prices in Spain slow after strong jump (details)"
+  "count": 5,
+  "last_seen": "2026-10-05",
+  "last_headline": "Home sales fall 7.1% to 353,557 units in the semester"
  },
  "catalonia-asbestos-cert": {
   "label": "Catalonia Asbestos Certificate",
@@ -191,9 +191,9 @@
  "portugal-market-slowdown": {
   "label": "Portugal Housing Market Slowdown",
   "first_seen": "2026-10-01",
-  "count": 1,
-  "last_seen": "2026-10-01",
-  "last_headline": "House sales in Portugal fall again as price growth loses momentum"
+  "count": 2,
+  "last_seen": "2026-10-05",
+  "last_headline": "House prices in Europe rise; Portugal leads gains"
  },
  "spain-nonresident-tax-deadline": {
   "label": "Spain Non-Resident Tax Deadline",
