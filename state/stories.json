@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 22,
-  "last_seen": "2026-10-02",
-  "last_headline": "PASOK calls for VAT-funded fuel tax cut, Golden Visa reform"
+  "count": 23,
+  "last_seen": "2026-10-06",
+  "last_headline": "Demystifying the May 2026 Nationality Law: What New Portugal Golden Visa Applicants Need to Know"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 21,
-  "last_seen": "2026-10-05",
-  "last_headline": "Évora Properties; Nicolás Castaños's new bet to transform the understanding of luxury real estate"
+  "count": 22,
+  "last_seen": "2026-10-06",
+  "last_headline": "Sattva Group becomes the first real estate brand to explore AI-native advertising with ChatGPT to reshape property discovery"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 19,
-  "last_seen": "2026-09-29",
-  "last_headline": "Foreign Buyer Pays 35% More for Housing in Spain: Here's How Their Profile Is Changing"
+  "count": 20,
+  "last_seen": "2026-10-06",
+  "last_headline": "International buyers are paying 35% more for housing in Spain, and the residential market is gaining importance."
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -72,9 +72,9 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 14,
-  "last_seen": "2026-10-05",
-  "last_headline": "Canarias Tiene un Límite asserts that restricting home purchase by non-residents is insufficient"
+  "count": 15,
+  "last_seen": "2026-10-06",
+  "last_headline": "One in four home buyers in Canary Islands is foreign"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
@@ -93,9 +93,9 @@
  "portugal-ifici-tax": {
   "label": "Portugal IFICI Tax Regime",
   "first_seen": "2026-09-10",
-  "count": 1,
-  "last_seen": "2026-09-10",
-  "last_headline": "Portugal's New Tax Incentive: Understanding the IFICI Regime"
+  "count": 2,
+  "last_seen": "2026-10-06",
+  "last_headline": "Portugal's Non-Resident Tax Changes Nothing for Prime Madeira, Black Privé Finds"
  },
  "fractional-ownership-europe": {
   "label": "Fractional Ownership Expansion",
@@ -142,9 +142,9 @@
  "andalusia-itp-cut": {
   "label": "Andalusia ITP Tax Cut",
   "first_seen": "2026-09-25",
-  "count": 4,
-  "last_seen": "2026-10-05",
-  "last_headline": "New tax relief announced by Juanma Moreno: lower IRPF, lower ITP and aid for glasses and rent"
+  "count": 5,
+  "last_seen": "2026-10-06",
+  "last_headline": "Andalusia cuts IRPF by 1% through 2027 and expands reduced ITP for young people"
  },
  "spain-market-slowdown": {
   "label": "Spain Housing Market Slowdown",
@@ -198,9 +198,9 @@
  "spain-nonresident-tax-deadline": {
   "label": "Spain Non-Resident Tax Deadline",
   "first_seen": "2026-10-02",
-  "count": 1,
-  "last_seen": "2026-10-02",
-  "last_headline": "Spain Non-Resident Property Tax: 31 December Deadline"
+  "count": 2,
+  "last_seen": "2026-10-06",
+  "last_headline": "Selling a home in Spain without being resident: the 19% few foreigners calculate correctly"
  },
  "india-outbound-wealth": {
   "label": "India Outbound Property Wealth",
@@ -229,5 +229,26 @@
   "count": 1,
   "last_seen": "2026-10-04",
   "last_headline": "House occupation crisis escalating in Europe, states tightening laws"
+ },
+ "madrid-itp-cut": {
+  "label": "Madrid ITP/IAJD Tax Cut",
+  "first_seen": "2026-10-06",
+  "count": 1,
+  "last_seen": "2026-10-06",
+  "last_headline": "Ayuso cuts transfer tax (ITP) to 4% and IAJD to 0.4% for under-40s: Madrid's biggest tax cut"
+ },
+ "spain-political-housing-crisis": {
+  "label": "Spain Housing-Driven Political Crisis",
+  "first_seen": "2026-10-06",
+  "count": 1,
+  "last_seen": "2026-10-06",
+  "last_headline": "Housing marks the beginning and end of Pedro Sánchez's mandate"
+ },
+ "portugal-coastal-protest": {
+  "label": "Portugal Coastal Development Backlash",
+  "first_seen": "2026-10-06",
+  "count": 1,
+  "last_seen": "2026-10-06",
+  "last_headline": "'Hands Off Alentejo Coast' platform brings together dozens of protesters in Sines"
  }
 }

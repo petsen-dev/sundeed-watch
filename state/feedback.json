@@ -8,41 +8,6 @@
    "lang": "en",
    "date": "2026-09-12"
   },
-  "3e2e4baca88b759d": {
-   "title": "What the new Nationality Law means for Golden Visa applicants",
-   "cat": "REGULATORY",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-09-05"
-  },
-  "b49e0bb1fa649c03": {
-   "title": "Foreigners now buy half of homes for sale in Ibiza",
-   "cat": "DEMAND-FLOW",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-09-05"
-  },
-  "aa9c930f46cd6a25": {
-   "title": "Portugal's new affordable rental rules: RSAA and CIA explained",
-   "cat": "REGULATORY",
-   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
-   "lang": "en",
-   "date": "2026-09-05"
-  },
-  "ebf2696688ab2c5e": {
-   "title": "JPMorgan and BNP Paribas Expect New European Interest Rate Hike in December",
-   "cat": "OTHER",
-   "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "lang": "ar",
-   "date": "2026-09-05"
-  },
-  "0b57cc14fc366921": {
-   "title": "New platform offers estate agents extra revenue from completed sales",
-   "cat": "COMMISSION-MODEL",
-   "query": "[feed] property_industry_eye",
-   "lang": "en",
-   "date": "2026-09-05"
-  },
   "5fefdd29c06b5f5c": {
    "title": "Where Foreigners Can and Cannot Buy Property, Market by Market",
    "cat": "REGULATORY",
@@ -1127,6 +1092,76 @@
    "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
    "lang": "ar",
    "date": "2026-10-05"
+  },
+  "62d2c692fe65bc2d": {
+   "title": "Ayuso cuts transfer tax (ITP) to 4% and IAJD to 0.4% for under-40s: Madrid's biggest tax cut",
+   "cat": "REGULATORY",
+   "query": "intitle:ITP tipo Andalucía OR Valencia OR Baleares when:2d",
+   "lang": "es",
+   "date": "2026-10-06"
+  },
+  "c59acb41d9392261": {
+   "title": "Housing marks the beginning and end of Pedro Sánchez's mandate",
+   "cat": "OTHER",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-06"
+  },
+  "c50cf6f6f3ad482d": {
+   "title": "Andalusia cuts IRPF by 1% through 2027 and expands reduced ITP for young people",
+   "cat": "REGULATORY",
+   "query": "intitle:ITP tipo Andalucía OR Valencia OR Baleares when:2d",
+   "lang": "es",
+   "date": "2026-10-06"
+  },
+  "4765646307425554": {
+   "title": "International buyers are paying 35% more for housing in Spain, and the residential market is gaining importance.",
+   "cat": "DEMAND-FLOW",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-10-06"
+  },
+  "3bae2a152b5167db": {
+   "title": "Selling a home in Spain without being resident: the 19% few foreigners calculate correctly",
+   "cat": "UPFUNNEL",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-06"
+  },
+  "eeaba0bac1b27398": {
+   "title": "Portugal's Non-Resident Tax Changes Nothing for Prime Madeira, Black Privé Finds",
+   "cat": "REGULATORY",
+   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
+   "lang": "en",
+   "date": "2026-10-06"
+  },
+  "85c2f1a14478e02e": {
+   "title": "Sattva Group becomes the first real estate brand to explore AI-native advertising with ChatGPT to reshape property discovery",
+   "cat": "CHANNEL",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
+   "lang": "en",
+   "date": "2026-10-06"
+  },
+  "007fecda230a13db": {
+   "title": "'Hands Off Alentejo Coast' platform brings together dozens of protesters in Sines",
+   "cat": "REGULATORY",
+   "query": "[feed] portugal_resident",
+   "lang": "en",
+   "date": "2026-10-06"
+  },
+  "0d186cb8b955dd50": {
+   "title": "One in four home buyers in Canary Islands is foreign",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-06"
+  },
+  "423b9bcbe9a1b280": {
+   "title": "Demystifying the May 2026 Nationality Law: What New Portugal Golden Visa Applicants Need to Know",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-10-06"
   }
  },
  "votes": {}
