@@ -8,34 +8,6 @@
    "lang": "en",
    "date": "2026-09-12"
   },
-  "5fefdd29c06b5f5c": {
-   "title": "Where Foreigners Can and Cannot Buy Property, Market by Market",
-   "cat": "REGULATORY",
-   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
-   "lang": "en",
-   "date": "2026-09-06"
-  },
-  "b0b175cab780ede4": {
-   "title": "British buyers lead Costa del Sol property reservations at 21%",
-   "cat": "DEMAND-FLOW",
-   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
-   "lang": "en",
-   "date": "2026-09-06"
-  },
-  "181895819d6dcc57": {
-   "title": "Greece Is Preparing to Update Golden Visa Program",
-   "cat": "HEADLINE-GAP",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-09-06"
-  },
-  "7a9295bed9c93f09": {
-   "title": "Fitch raises Portugal's rating to A+ with stable outlook",
-   "cat": "OTHER",
-   "query": "[feed] portugal_resident",
-   "lang": "en",
-   "date": "2026-09-06"
-  },
   "994be387bd74a30f": {
    "title": "Greece to Quintuple Property Transfer Tax to 15% for Non-EU Buyers From January 2027",
    "cat": "REGULATORY",
@@ -1162,6 +1134,34 @@
    "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
    "lang": "en",
    "date": "2026-10-06"
+  },
+  "b6de2af327619a5f": {
+   "title": "Non-Resident Property Tax in Spain: what's changing in 2027",
+   "cat": "REGULATORY",
+   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
+   "lang": "en",
+   "date": "2026-10-07"
+  },
+  "976cb4b9b3474b0e": {
+   "title": "After widespread protests.. Spain enacts 21 measures to tackle housing crisis",
+   "cat": "REGULATORY",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-10-07"
+  },
+  "b78a265e437f4548": {
+   "title": "Greece Proposes Excluding Real Estate from 'Golden Visa' Program",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-10-07"
+  },
+  "98877e38fe5816a8": {
+   "title": "EYE NEWS UPDATE: TPFG takes 25% stake in estate agency AI platform",
+   "cat": "CHANNEL",
+   "query": "[feed] property_industry_eye",
+   "lang": "en",
+   "date": "2026-10-07"
   }
  },
  "votes": {}
