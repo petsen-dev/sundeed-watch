@@ -8,20 +8,6 @@
    "lang": "en",
    "date": "2026-09-12"
   },
-  "994be387bd74a30f": {
-   "title": "Greece to Quintuple Property Transfer Tax to 15% for Non-EU Buyers From January 2027",
-   "cat": "REGULATORY",
-   "query": "intitle:\"transfer tax\" Spain OR Portugal OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-09-07"
-  },
-  "794ac949ee081bb4": {
-   "title": "ECB minutes pave way for interest rate hike again in September to curb inflation",
-   "cat": "OTHER",
-   "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "lang": "ar",
-   "date": "2026-09-07"
-  },
   "2b63b618a6599afb": {
    "title": "Greece plans to lift property tax fivefold for overseas buyers",
    "cat": "REGULATORY",
@@ -1162,6 +1148,55 @@
    "query": "[feed] property_industry_eye",
    "lang": "en",
    "date": "2026-10-07"
+  },
+  "0ed6663ded61f721": {
+   "title": "Sánchez 'forgets' CC in new housing decrees: neither foreign-buyer controls nor administrative silence",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-08"
+  },
+  "b14ae9a22a08d9e7": {
+   "title": "Androulakis Slams Mitsotakis Housing Plan, Urges Golden Visa Halt",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-10-08"
+  },
+  "7d331715dacbd0f9": {
+   "title": "Madrid announces tax cuts to buy a home in 2027.. Who will benefit?",
+   "cat": "HEADLINE-GAP",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-10-08"
+  },
+  "0a794ed9fe858bce": {
+   "title": "Spain on edge.. general strike against housing crisis weeks before elections",
+   "cat": "REGULATORY",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-10-08"
+  },
+  "a74eeef7d1993282": {
+   "title": "Moveli launches new AI tool as estate agency tech race gathers pace",
+   "cat": "CHANNEL",
+   "query": "[feed] property_industry_eye",
+   "lang": "en",
+   "date": "2026-10-08"
+  },
+  "16edff856c511f32": {
+   "title": "Not just about the beaches: Palma's property market heats up",
+   "cat": "DEMAND-FLOW",
+   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
+   "lang": "en",
+   "date": "2026-10-08"
+  },
+  "7c6ef87cd057d402": {
+   "title": "Andalusia adds 12,500 self-employed real-estate agents in five years",
+   "cat": "CHANNEL",
+   "query": "\"registro de agentes inmobiliarios\" obligatorio when:2d",
+   "lang": "es",
+   "date": "2026-10-08"
   }
  },
  "votes": {}
