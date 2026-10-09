@@ -8,41 +8,6 @@
    "lang": "en",
    "date": "2026-09-12"
   },
-  "2b63b618a6599afb": {
-   "title": "Greece plans to lift property tax fivefold for overseas buyers",
-   "cat": "REGULATORY",
-   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
-   "lang": "en",
-   "date": "2026-09-08"
-  },
-  "8918eefb4b484a1d": {
-   "title": "Portugal Extends Golden Visa Citizenship Timeline to 10 Years",
-   "cat": "REGULATORY",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-09-08"
-  },
-  "020cff7310ad0c17": {
-   "title": "Greece's 15% Transfer Tax Reaches Conversions, the Golden Visa's Cheapest Route",
-   "cat": "REGULATORY",
-   "query": "intitle:\"transfer tax\" Spain OR Portugal OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-09-08"
-  },
-  "b257cdd1e9a3e2ef": {
-   "title": "Spain property deals fell by 7.7 per cent in July: Balearics suffers one of the sharpest declines",
-   "cat": "DEMAND-FLOW",
-   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
-   "lang": "en",
-   "date": "2026-09-08"
-  },
-  "5185cdbde71a194f": {
-   "title": "Real estate startups push lower-cost alternatives to traditional agent commissions",
-   "cat": "COMMISSION-MODEL",
-   "query": "\"NAR settlement\" buyer agency commission when:2d",
-   "lang": "en",
-   "date": "2026-09-08"
-  },
   "5a4427a146dd3245": {
    "title": "Golden Visa: New Blow as Greece Raises Property Transfer Tax",
    "cat": "REGULATORY",
@@ -1197,6 +1162,55 @@
    "query": "\"registro de agentes inmobiliarios\" obligatorio when:2d",
    "lang": "es",
    "date": "2026-10-08"
+  },
+  "de13c606a4ee3142": {
+   "title": "There are 37% fewer short-term rental places in Lisbon compared to 2025",
+   "cat": "REGULATORY",
+   "query": "\"الإيجار قصير الأجل\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-10-09"
+  },
+  "ea8dc065c8b6a00e": {
+   "title": "Spain announced 21 emergency measures for housing.",
+   "cat": "REGULATORY",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-10-09"
+  },
+  "e8fbad9a5f08ffa6": {
+   "title": "OE2027 for young people: Young IMT exemption rises, Young IRS and public guarantee continue",
+   "cat": "REGULATORY",
+   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
+   "lang": "pt",
+   "date": "2026-10-09"
+  },
+  "2df439e314d1711d": {
+   "title": "Greece's Golden Visa approvals nearly doubled in 2025 as applications fell",
+   "cat": "DEMAND-FLOW",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-10-09"
+  },
+  "c9ddc8dbed9991b9": {
+   "title": "Spanish house prices rise 9pc but market growth stalls in H1 2026",
+   "cat": "DEMAND-FLOW",
+   "query": "[feed] spanish_property_insight",
+   "lang": "en",
+   "date": "2026-10-09"
+  },
+  "898e1f8f12695467": {
+   "title": "Holiday let profits wiped out under planned Labour tax grab",
+   "cat": "HEADLINE-GAP",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-10-09"
+  },
+  "feaa0ead0c86cb21": {
+   "title": "The buyer agent commission mistake that could cost you",
+   "cat": "COMMISSION-MODEL",
+   "query": "intitle:\"buyer agent\" commission when:2d",
+   "lang": "en",
+   "date": "2026-10-09"
   }
  },
  "votes": {}

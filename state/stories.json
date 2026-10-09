@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 25,
-  "last_seen": "2026-10-08",
-  "last_headline": "Androulakis Slams Mitsotakis Housing Plan, Urges Golden Visa Halt"
+  "count": 26,
+  "last_seen": "2026-10-09",
+  "last_headline": "Greece's Golden Visa approvals nearly doubled in 2025 as applications fell"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -16,16 +16,16 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 24,
-  "last_seen": "2026-10-08",
-  "last_headline": "Moveli launches new AI tool as estate agency tech race gathers pace"
+  "count": 25,
+  "last_seen": "2026-10-09",
+  "last_headline": "The buyer agent commission mistake that could cost you"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
   "first_seen": "2026-08-25",
-  "count": 14,
-  "last_seen": "2026-10-05",
-  "last_headline": "Billionaire property tycoon quits UK as wealthy investors head overseas"
+  "count": 15,
+  "last_seen": "2026-10-09",
+  "last_headline": "Holiday let profits wiped out under planned Labour tax grab"
  },
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
@@ -37,9 +37,9 @@
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
   "first_seen": "2026-08-28",
-  "count": 2,
-  "last_seen": "2026-09-12",
-  "last_headline": "Having lived in Portugal may avoid 7.5% IMT rate for non-residents"
+  "count": 3,
+  "last_seen": "2026-10-09",
+  "last_headline": "OE2027 for young people: Young IMT exemption rises, Young IRS and public guarantee continue"
  },
  "ecb-rate-outlook": {
   "label": "ECB Rate Trajectory",
@@ -65,9 +65,9 @@
  "portugal-rental-regulation": {
   "label": "Portugal Rental Market Reform",
   "first_seen": "2026-09-05",
-  "count": 7,
-  "last_seen": "2026-09-30",
-  "last_headline": "Portugal plans to loosen rental rules as Spain strengthens tenant protections"
+  "count": 8,
+  "last_seen": "2026-10-09",
+  "last_headline": "There are 37% fewer short-term rental places in Lisbon compared to 2025"
  },
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
@@ -149,9 +149,9 @@
  "spain-market-slowdown": {
   "label": "Spain Housing Market Slowdown",
   "first_seen": "2026-09-26",
-  "count": 5,
-  "last_seen": "2026-10-05",
-  "last_headline": "Home sales fall 7.1% to 353,557 units in the semester"
+  "count": 6,
+  "last_seen": "2026-10-09",
+  "last_headline": "Spanish house prices rise 9pc but market growth stalls in H1 2026"
  },
  "catalonia-asbestos-cert": {
   "label": "Catalonia Asbestos Certificate",
@@ -240,9 +240,9 @@
  "spain-political-housing-crisis": {
   "label": "Spain Housing-Driven Political Crisis",
   "first_seen": "2026-10-06",
-  "count": 3,
-  "last_seen": "2026-10-08",
-  "last_headline": "Spain on edge.. general strike against housing crisis weeks before elections"
+  "count": 4,
+  "last_seen": "2026-10-09",
+  "last_headline": "Spain announced 21 emergency measures for housing."
  },
  "portugal-coastal-protest": {
   "label": "Portugal Coastal Development Backlash",
