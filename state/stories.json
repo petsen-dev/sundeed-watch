@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 26,
-  "last_seen": "2026-10-09",
-  "last_headline": "Greece's Golden Visa approvals nearly doubled in 2025 as applications fell"
+  "count": 27,
+  "last_seen": "2026-10-10",
+  "last_headline": "Optimize Converts Its €435 Million Portugal Golden Visa Fund Into an Umbrella"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 25,
-  "last_seen": "2026-10-09",
-  "last_headline": "The buyer agent commission mistake that could cost you"
+  "count": 26,
+  "last_seen": "2026-10-10",
+  "last_headline": "PropertyMe links Claude and ChatGPT to live agency data with AiMe Connect"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -37,9 +37,9 @@
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
   "first_seen": "2026-08-28",
-  "count": 3,
-  "last_seen": "2026-10-09",
-  "last_headline": "OE2027 for young people: Young IMT exemption rises, Young IRS and public guarantee continue"
+  "count": 4,
+  "last_seen": "2026-10-10",
+  "last_headline": "IMT brackets for 2027"
  },
  "ecb-rate-outlook": {
   "label": "ECB Rate Trajectory",
@@ -198,9 +198,9 @@
  "spain-nonresident-tax-deadline": {
   "label": "Spain Non-Resident Tax Deadline",
   "first_seen": "2026-10-02",
-  "count": 3,
-  "last_seen": "2026-10-07",
-  "last_headline": "Non-Resident Property Tax in Spain: what's changing in 2027"
+  "count": 4,
+  "last_seen": "2026-10-10",
+  "last_headline": "The changes to Spain's IRNR non-resident property tax in 2027"
  },
  "india-outbound-wealth": {
   "label": "India Outbound Property Wealth",
@@ -250,5 +250,19 @@
   "count": 1,
   "last_seen": "2026-10-06",
   "last_headline": "'Hands Off Alentejo Coast' platform brings together dozens of protesters in Sines"
+ },
+ "spain-ibi-second-home-hike": {
+  "label": "Spain IBI Second-Home Tax Hike",
+  "first_seen": "2026-10-10",
+  "count": 1,
+  "last_seen": "2026-10-10",
+  "last_headline": "IBI on vacation homes up to 150% more expensive"
+ },
+ "france-wealth-tax-reform": {
+  "label": "France Wealth Tax Reform Debate",
+  "first_seen": "2026-10-10",
+  "count": 1,
+  "last_seen": "2026-10-10",
+  "last_headline": "Frontrunner Le Pen Pledges to Scrap France's Property Wealth Tax for a Levy on Financial Wealth"
  }
 }

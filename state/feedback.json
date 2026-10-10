@@ -8,34 +8,6 @@
    "lang": "en",
    "date": "2026-09-12"
   },
-  "5a4427a146dd3245": {
-   "title": "Golden Visa: New Blow as Greece Raises Property Transfer Tax",
-   "cat": "REGULATORY",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-09-09"
-  },
-  "bf66c330dfc9c665": {
-   "title": "Germans and Swiss rush for housing in Spain: lead foreign mortgages",
-   "cat": "DEMAND-FLOW",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-09-09"
-  },
-  "2aa9145b7d9b92cf": {
-   "title": "Portugal faces housing crisis.. 1.5 billion euros for 50,000 units",
-   "cat": "REGULATORY",
-   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "lang": "ar",
-   "date": "2026-09-09"
-  },
-  "e4770bb71e00c637": {
-   "title": "Over 3,000 Turkish Citizens Hold Greek Golden Visa Permits",
-   "cat": "DEMAND-FLOW",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-09-09"
-  },
   "a3ca5427d971caff": {
    "title": "Andalucia moves towards mandatory real estate agent register",
    "cat": "REGULATORY",
@@ -1211,6 +1183,48 @@
    "query": "intitle:\"buyer agent\" commission when:2d",
    "lang": "en",
    "date": "2026-10-09"
+  },
+  "ce3d9768601f2d5b": {
+   "title": "IBI on vacation homes up to 150% more expensive",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-10"
+  },
+  "0019d763ad5d26d1": {
+   "title": "The changes to Spain's IRNR non-resident property tax in 2027",
+   "cat": "REGULATORY",
+   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
+   "lang": "en",
+   "date": "2026-10-10"
+  },
+  "729eb1fa8f32d535": {
+   "title": "IMT brackets for 2027",
+   "cat": "REGULATORY",
+   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
+   "lang": "pt",
+   "date": "2026-10-10"
+  },
+  "ca012c911e0ce95d": {
+   "title": "Optimize Converts Its €435 Million Portugal Golden Visa Fund Into an Umbrella",
+   "cat": "OWNERSHIP-MODEL",
+   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
+   "lang": "en",
+   "date": "2026-10-10"
+  },
+  "b5ee346b09f988a4": {
+   "title": "PropertyMe links Claude and ChatGPT to live agency data with AiMe Connect",
+   "cat": "CHANNEL",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
+   "lang": "en",
+   "date": "2026-10-10"
+  },
+  "e2100de2bca21145": {
+   "title": "Frontrunner Le Pen Pledges to Scrap France's Property Wealth Tax for a Levy on Financial Wealth",
+   "cat": "HEADLINE-GAP",
+   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
+   "lang": "en",
+   "date": "2026-10-10"
   }
  },
  "votes": {}
