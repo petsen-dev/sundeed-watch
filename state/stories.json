@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 26,
-  "last_seen": "2026-10-10",
-  "last_headline": "PropertyMe links Claude and ChatGPT to live agency data with AiMe Connect"
+  "count": 27,
+  "last_seen": "2026-10-12",
+  "last_headline": "Self-employed agency network hits 100 brokers after tripling in two years"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -51,9 +51,9 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 15,
-  "last_seen": "2026-10-04",
-  "last_headline": "Spain housing crisis erupts.. clashes and mass protests after parliament rejects rent laws"
+  "count": 16,
+  "last_seen": "2026-10-12",
+  "last_headline": "Housing in the Canaries returns to Parliament in pre-campaign: CC moves to declare Las Palmas a tension zone"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
@@ -240,9 +240,9 @@
  "spain-political-housing-crisis": {
   "label": "Spain Housing-Driven Political Crisis",
   "first_seen": "2026-10-06",
-  "count": 5,
-  "last_seen": "2026-10-11",
-  "last_headline": "Escalating protests in Spain over housing crisis after parliament rejects two government housing bills"
+  "count": 6,
+  "last_seen": "2026-10-12",
+  "last_headline": "Treasury gives first backing to reform that eases housing access"
  },
  "portugal-coastal-protest": {
   "label": "Portugal Coastal Development Backlash",
@@ -268,8 +268,15 @@
  "portugal-housing-protest": {
   "label": "Portugal Housing Cost Protests",
   "first_seen": "2026-10-11",
+  "count": 2,
+  "last_seen": "2026-10-12",
+  "last_headline": "Thousands of Portuguese protest.. rents push youth back to parents' homes.. video"
+ },
+ "spain-investment-account-tax": {
+  "label": "Spain €150k Investment Account Tax Break",
+  "first_seen": "2026-10-12",
   "count": 1,
-  "last_seen": "2026-10-11",
-  "last_headline": "Thousands protest in Portugal over rising living and housing costs"
+  "last_seen": "2026-10-12",
+  "last_headline": "Spain's new €150,000 investment account promises tax breaks, but there is a catch"
  }
 }

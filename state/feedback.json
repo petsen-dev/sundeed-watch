@@ -8,34 +8,6 @@
    "lang": "en",
    "date": "2026-09-12"
   },
-  "30c069186b6d10c9": {
-   "title": "Ibiza council hits illegal tourist rental with €793,000 fine – but will the owner pay that much?",
-   "cat": "REGULATORY",
-   "query": "[feed] spanish_property_insight",
-   "lang": "en",
-   "date": "2026-09-11"
-  },
-  "206d905098ee1eb5": {
-   "title": "Housing ministry believes all of Canary Islands could meet requirements to limit second residences promoted by Europe",
-   "cat": "REGULATORY",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-09-11"
-  },
-  "568c7f017bb3dc76": {
-   "title": "PS criticises suspension of new local accommodation in Santa Cruz",
-   "cat": "REGULATORY",
-   "query": "\"alojamento local\" intitle:licença OR intitle:suspensão when:2d",
-   "lang": "pt",
-   "date": "2026-09-11"
-  },
-  "7277a6828ea933b8": {
-   "title": "European dealmakers bet on recovery as US buyers circle cheaper assets",
-   "cat": "DEMAND-FLOW",
-   "query": "\"cross-border\" property buyers Europe when:2d",
-   "lang": "en",
-   "date": "2026-09-11"
-  },
   "4465f2617af5f1eb": {
    "title": "15% property tax in Greece: Why Golden Visa investors may face bigger bill",
    "cat": "REGULATORY",
@@ -1197,6 +1169,41 @@
    "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
    "lang": "en",
    "date": "2026-10-11"
+  },
+  "c82666bec2db5c93": {
+   "title": "Treasury gives first backing to reform that eases housing access",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-12"
+  },
+  "3a4bbd12383875c7": {
+   "title": "Housing in the Canaries returns to Parliament in pre-campaign: CC moves to declare Las Palmas a tension zone",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-12"
+  },
+  "b434663da8ffad47": {
+   "title": "Self-employed agency network hits 100 brokers after tripling in two years",
+   "cat": "CHANNEL",
+   "query": "[feed] property_industry_eye",
+   "lang": "en",
+   "date": "2026-10-12"
+  },
+  "849a2c6d2f65bab3": {
+   "title": "Spain's new €150,000 investment account promises tax breaks, but there is a catch",
+   "cat": "REGULATORY",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-10-12"
+  },
+  "6e349f31e9507111": {
+   "title": "Thousands of Portuguese protest.. rents push youth back to parents' homes.. video",
+   "cat": "DEMAND-FLOW",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-10-12"
   }
  },
  "votes": {}
