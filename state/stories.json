@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 27,
-  "last_seen": "2026-10-10",
-  "last_headline": "Optimize Converts Its €435 Million Portugal Golden Visa Fund Into an Umbrella"
+  "count": 28,
+  "last_seen": "2026-10-13",
+  "last_headline": "Portugal Golden Visa Processing Update : Where AIMA's Backlog Stands in October 2026"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -37,9 +37,9 @@
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
   "first_seen": "2026-08-28",
-  "count": 5,
-  "last_seen": "2026-10-11",
-  "last_headline": "Young homebuyers could save on property taxes in 2027"
+  "count": 6,
+  "last_seen": "2026-10-13",
+  "last_headline": "Municipalities receive more IMI and IMT revenue this year – but less in 2027"
  },
  "ecb-rate-outlook": {
   "label": "ECB Rate Trajectory",
@@ -51,9 +51,9 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 16,
-  "last_seen": "2026-10-12",
-  "last_headline": "Housing in the Canaries returns to Parliament in pre-campaign: CC moves to declare Las Palmas a tension zone"
+  "count": 17,
+  "last_seen": "2026-10-13",
+  "last_headline": "Associations and owners reject approval of new housing decrees to be pushed through in Permanent Deputation"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
@@ -72,16 +72,16 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 16,
-  "last_seen": "2026-10-08",
-  "last_headline": "Sánchez 'forgets' CC in new housing decrees: neither foreign-buyer controls nor administrative silence"
+  "count": 17,
+  "last_seen": "2026-10-13",
+  "last_headline": "Clavijo already negotiates limiting home purchase by foreigners in Canaries"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
   "first_seen": "2026-09-07",
-  "count": 8,
-  "last_seen": "2026-09-30",
-  "last_headline": "The new 15% transfer tax: How it impacts the luxury real estate market"
+  "count": 9,
+  "last_seen": "2026-10-13",
+  "last_headline": "Greece plans to quintuple purchase tax for foreign real estate buyers"
  },
  "eu-str-crackdown": {
   "label": "EU Short-Term Rental Crackdown",
@@ -240,9 +240,9 @@
  "spain-political-housing-crisis": {
   "label": "Spain Housing-Driven Political Crisis",
   "first_seen": "2026-10-06",
-  "count": 6,
-  "last_seen": "2026-10-12",
-  "last_headline": "Treasury gives first backing to reform that eases housing access"
+  "count": 7,
+  "last_seen": "2026-10-13",
+  "last_headline": "Early elections in Spain November 29.. How did Sánchez's government reach parliament dissolution?.. Housing crisis opens the door to the decision.. and reignites the battle between"
  },
  "portugal-coastal-protest": {
   "label": "Portugal Coastal Development Backlash",

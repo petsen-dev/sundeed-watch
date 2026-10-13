@@ -1,62 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "86fef16e46d5ab00": {
-   "title": "Government Overhauls Golden Visa Rules to Tackle Housing Crisis",
-   "cat": "REGULATORY",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-09-12"
-  },
-  "4465f2617af5f1eb": {
-   "title": "15% property tax in Greece: Why Golden Visa investors may face bigger bill",
-   "cat": "REGULATORY",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-09-12"
-  },
-  "692fbfe064137ddb": {
-   "title": "The Generalitat opens to limiting home purchases by non-residents if Brussels permits",
-   "cat": "REGULATORY",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-09-12"
-  },
-  "2028e86f9445bc2f": {
-   "title": "Hundreds of French communes impose maximum surcharge on second homes",
-   "cat": "REGULATORY",
-   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
-   "lang": "en",
-   "date": "2026-09-12"
-  },
-  "f85421804663112e": {
-   "title": "Having lived in Portugal may avoid 7.5% IMT rate for non-residents",
-   "cat": "REGULATORY",
-   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
-   "lang": "en",
-   "date": "2026-09-12"
-  },
-  "824fd59f014cf993": {
-   "title": "Real estate commission rules have changed. Here's what to know.",
-   "cat": "COMMISSION-MODEL",
-   "query": "\"NAR settlement\" buyer agency commission when:2d",
-   "lang": "en",
-   "date": "2026-09-12"
-  },
-  "c2b47732f43ae3b6": {
-   "title": "Latin American capital extends its interest towards the Costa del Sol",
-   "cat": "DEMAND-FLOW",
-   "query": "\"American buyers\" Italy OR Portugal OR Spain property when:2d",
-   "lang": "en",
-   "date": "2026-09-12"
-  },
-  "e4571c9b7f28844e": {
-   "title": "Quitting Britain's rental market? Here's where to invest instead",
-   "cat": "DEMAND-FLOW",
-   "query": "\"international buyers\" Portugal OR Italy property when:2d",
-   "lang": "en",
-   "date": "2026-09-12"
-  },
   "944589febeb58936": {
    "title": "Artificial Intelligence is coming for the property search business",
    "cat": "CHANNEL",
@@ -1204,6 +1148,48 @@
    "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
    "lang": "ar",
    "date": "2026-10-12"
+  },
+  "6112f35658e39550": {
+   "title": "Greece plans to quintuple purchase tax for foreign real estate buyers",
+   "cat": "REGULATORY",
+   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
+   "lang": "en",
+   "date": "2026-10-13"
+  },
+  "2219b0b696c0468e": {
+   "title": "Clavijo already negotiates limiting home purchase by foreigners in Canaries",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-13"
+  },
+  "a226112554b3bf70": {
+   "title": "Portugal Golden Visa Processing Update : Where AIMA's Backlog Stands in October 2026",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-10-13"
+  },
+  "49be2f1d0be1c85d": {
+   "title": "Municipalities receive more IMI and IMT revenue this year – but less in 2027",
+   "cat": "REGULATORY",
+   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
+   "lang": "pt",
+   "date": "2026-10-13"
+  },
+  "492ba26a706eaae4": {
+   "title": "Early elections in Spain November 29.. How did Sánchez's government reach parliament dissolution?.. Housing crisis opens the door to the decision.. and reignites the battle between",
+   "cat": "REGULATORY",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-10-13"
+  },
+  "c9fafd9a3d719d84": {
+   "title": "Associations and owners reject approval of new housing decrees to be pushed through in Permanent Deputation",
+   "cat": "HEADLINE-GAP",
+   "query": "\"personal shopper inmobiliario\" when:2d",
+   "lang": "es",
+   "date": "2026-10-13"
   }
  },
  "votes": {}
