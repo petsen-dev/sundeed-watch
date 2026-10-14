@@ -1,20 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "944589febeb58936": {
-   "title": "Artificial Intelligence is coming for the property search business",
-   "cat": "CHANNEL",
-   "query": "[feed] spanish_property_insight",
-   "lang": "en",
-   "date": "2026-09-13"
-  },
-  "b3f847fe8bf110ba": {
-   "title": "Court ruling opens the door for thousands of mortgage holders in Spain to recover thousands of euros",
-   "cat": "REGULATORY",
-   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
-   "lang": "ar",
-   "date": "2026-09-13"
-  },
   "e50dc02ff306a2d6": {
    "title": "Brussels proposes housing market intervention that could harm foreign buyers and sellers in Spain",
    "cat": "REGULATORY",
@@ -1190,6 +1176,41 @@
    "query": "\"personal shopper inmobiliario\" when:2d",
    "lang": "es",
    "date": "2026-10-13"
+  },
+  "e7450c2f4630d789": {
+   "title": "Foreign buyers set home purchase record in Spain despite slowdown",
+   "cat": "DEMAND-FLOW",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-10-14"
+  },
+  "af8c86b10d3ffe71": {
+   "title": "Canary Islands calls on three ministries to take its proposal to Europe to limit housing to non-resident foreigners",
+   "cat": "HEADLINE-GAP",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-14"
+  },
+  "cd8f6a4cc10958cf": {
+   "title": "AI could change who controls the relationship between agents and buyers",
+   "cat": "CHANNEL",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
+   "lang": "en",
+   "date": "2026-10-14"
+  },
+  "1c4c3ab595f72bfb": {
+   "title": "Homes with hidden defects: buyers more vulnerable with new laws",
+   "cat": "REGULATORY",
+   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
+   "lang": "pt",
+   "date": "2026-10-14"
+  },
+  "d8da0129987a443d": {
+   "title": "$120M NAR real estate commission class action settlement",
+   "cat": "COMMISSION-MODEL",
+   "query": "\"NAR settlement\" buyer agency commission when:2d",
+   "lang": "en",
+   "date": "2026-10-14"
   }
  },
  "votes": {}

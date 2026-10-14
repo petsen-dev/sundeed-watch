@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 27,
-  "last_seen": "2026-10-12",
-  "last_headline": "Self-employed agency network hits 100 brokers after tripling in two years"
+  "count": 28,
+  "last_seen": "2026-10-14",
+  "last_headline": "AI could change who controls the relationship between agents and buyers"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 21,
-  "last_seen": "2026-10-08",
-  "last_headline": "Not just about the beaches: Palma's property market heats up"
+  "count": 22,
+  "last_seen": "2026-10-14",
+  "last_headline": "Foreign buyers set home purchase record in Spain despite slowdown"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -72,9 +72,9 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 17,
-  "last_seen": "2026-10-13",
-  "last_headline": "Clavijo already negotiates limiting home purchase by foreigners in Canaries"
+  "count": 18,
+  "last_seen": "2026-10-14",
+  "last_headline": "Canary Islands calls on three ministries to take its proposal to Europe to limit housing to non-resident foreigners"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
@@ -278,5 +278,12 @@
   "count": 1,
   "last_seen": "2026-10-12",
   "last_headline": "Spain's new €150,000 investment account promises tax breaks, but there is a catch"
+ },
+ "spain-buyer-defect-law": {
+  "label": "Spain Buyer Defect Liability Law",
+  "first_seen": "2026-10-14",
+  "count": 1,
+  "last_seen": "2026-10-14",
+  "last_headline": "Homes with hidden defects: buyers more vulnerable with new laws"
  }
 }
