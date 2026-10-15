@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 28,
-  "last_seen": "2026-10-13",
-  "last_headline": "Portugal Golden Visa Processing Update : Where AIMA's Backlog Stands in October 2026"
+  "count": 29,
+  "last_seen": "2026-10-15",
+  "last_headline": "Golden Visa €250.000 στην Αθήνα: Πώς είναι εφικτό μέσω μετατροπής επαγγελματικού χώρου"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 28,
-  "last_seen": "2026-10-14",
-  "last_headline": "AI could change who controls the relationship between agents and buyers"
+  "count": 29,
+  "last_seen": "2026-10-15",
+  "last_headline": "European Listings Launches Curated Property Search Service to Help Americans Find Homes for Sale in Europe"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 22,
-  "last_seen": "2026-10-14",
-  "last_headline": "Foreign buyers set home purchase record in Spain despite slowdown"
+  "count": 23,
+  "last_seen": "2026-10-15",
+  "last_headline": "Foreign home purchases by overseas residents fall 18% despite paying 77% more than Spaniards"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -72,9 +72,9 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 18,
-  "last_seen": "2026-10-14",
-  "last_headline": "Canary Islands calls on three ministries to take its proposal to Europe to limit housing to non-resident foreigners"
+  "count": 19,
+  "last_seen": "2026-10-15",
+  "last_headline": "Domínguez (PP) rejects CC proposal to limit housing to non-residents: 'The solution doesn't lie there'"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
@@ -100,9 +100,9 @@
  "fractional-ownership-europe": {
   "label": "Fractional Ownership Expansion",
   "first_seen": "2026-09-10",
-  "count": 5,
-  "last_seen": "2026-10-03",
-  "last_headline": "DeCaro Auctions to Launch Fractional Ownership Model for Upscale Vacation Properties"
+  "count": 6,
+  "last_seen": "2026-10-15",
+  "last_headline": "You Can Now Test-Drive A Pacaso Home Before You Buy A Share"
  },
  "france-second-home-tax": {
   "label": "France Second-Home Tax Surcharge",
@@ -240,9 +240,9 @@
  "spain-political-housing-crisis": {
   "label": "Spain Housing-Driven Political Crisis",
   "first_seen": "2026-10-06",
-  "count": 7,
-  "last_seen": "2026-10-13",
-  "last_headline": "Early elections in Spain November 29.. How did Sánchez's government reach parliament dissolution?.. Housing crisis opens the door to the decision.. and reignites the battle between"
+  "count": 8,
+  "last_seen": "2026-10-15",
+  "last_headline": "€530 million at stake.. Spain elections threaten sale of 1,900 residential units"
  },
  "portugal-coastal-protest": {
   "label": "Portugal Coastal Development Backlash",
@@ -282,8 +282,15 @@
  "spain-buyer-defect-law": {
   "label": "Spain Buyer Defect Liability Law",
   "first_seen": "2026-10-14",
+  "count": 2,
+  "last_seen": "2026-10-15",
+  "last_headline": "Homes with defects: buyers more vulnerable under new laws"
+ },
+ "portugal-tax-fraud-probe": {
+  "label": "Portugal Property Tax Fraud Probe",
+  "first_seen": "2026-10-15",
   "count": 1,
-  "last_seen": "2026-10-14",
-  "last_headline": "Homes with hidden defects: buyers more vulnerable with new laws"
+  "last_seen": "2026-10-15",
+  "last_headline": "Police search two banks in €66 million property tax fraud investigation"
  }
 }

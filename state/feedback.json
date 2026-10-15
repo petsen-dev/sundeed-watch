@@ -1,34 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "e50dc02ff306a2d6": {
-   "title": "Brussels proposes housing market intervention that could harm foreign buyers and sellers in Spain",
-   "cat": "REGULATORY",
-   "query": "[feed] spanish_property_insight",
-   "lang": "en",
-   "date": "2026-09-14"
-  },
-  "aaa485636b77c0f7": {
-   "title": "Airbnb faces €8.6m fine over unpaid tourist tax in France",
-   "cat": "REGULATORY",
-   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
-   "lang": "en",
-   "date": "2026-09-14"
-  },
-  "0edc74696da4f15c": {
-   "title": "Lagarde: current inflation shock is longer-lasting.. interest rates may rise again",
-   "cat": "OTHER",
-   "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
-   "lang": "ar",
-   "date": "2026-09-14"
-  },
-  "f6665b39f0528768": {
-   "title": "Demand for luxury homes grows in Mallorca but 'harder to sell'",
-   "cat": "DEMAND-FLOW",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-09-14"
-  },
   "14ebcc3edb14b310": {
    "title": "MÉS will resume its law to halt home purchases by non-residents following EU Commission move",
    "cat": "REGULATORY",
@@ -1211,6 +1183,62 @@
    "query": "\"NAR settlement\" buyer agency commission when:2d",
    "lang": "en",
    "date": "2026-10-14"
+  },
+  "36d31dc1b86c1433": {
+   "title": "Domínguez (PP) rejects CC proposal to limit housing to non-residents: 'The solution doesn't lie there'",
+   "cat": "HEADLINE-GAP",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-15"
+  },
+  "a9058005feb09443": {
+   "title": "Foreign home purchases by overseas residents fall 18% despite paying 77% more than Spaniards",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-15"
+  },
+  "1827771a207ca56c": {
+   "title": "Police search two banks in €66 million property tax fraud investigation",
+   "cat": "REGULATORY",
+   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
+   "lang": "en",
+   "date": "2026-10-15"
+  },
+  "1bb636b48b95957f": {
+   "title": "Golden Visa €250.000 στην Αθήνα: Πώς είναι εφικτό μέσω μετατροπής επαγγελματικού χώρου",
+   "cat": "OWNERSHIP-MODEL",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-10-15"
+  },
+  "e19e7eb51ebda028": {
+   "title": "European Listings Launches Curated Property Search Service to Help Americans Find Homes for Sale in Europe",
+   "cat": "CHANNEL",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-10-15"
+  },
+  "d2fc3dc8734f26c9": {
+   "title": "You Can Now Test-Drive A Pacaso Home Before You Buy A Share",
+   "cat": "OWNERSHIP-MODEL",
+   "query": "intitle:Pacaso when:2d",
+   "lang": "en",
+   "date": "2026-10-15"
+  },
+  "d4d48eec6431f873": {
+   "title": "Homes with defects: buyers more vulnerable under new laws",
+   "cat": "REGULATORY",
+   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
+   "lang": "pt",
+   "date": "2026-10-15"
+  },
+  "9360c839b773b069": {
+   "title": "€530 million at stake.. Spain elections threaten sale of 1,900 residential units",
+   "cat": "HEADLINE-GAP",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-10-15"
   }
  },
  "votes": {}
