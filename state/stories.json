@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 23,
-  "last_seen": "2026-10-15",
-  "last_headline": "Foreign home purchases by overseas residents fall 18% despite paying 77% more than Spaniards"
+  "count": 24,
+  "last_seen": "2026-10-16",
+  "last_headline": "Foreigners reduce home purchases by 13%, the largest decline since 2020"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -72,9 +72,9 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 19,
-  "last_seen": "2026-10-15",
-  "last_headline": "Domínguez (PP) rejects CC proposal to limit housing to non-residents: 'The solution doesn't lie there'"
+  "count": 20,
+  "last_seen": "2026-10-16",
+  "last_headline": "Canary Islands requests government to only allow home purchases by those resident for 10 years on the islands"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
@@ -289,8 +289,22 @@
  "portugal-tax-fraud-probe": {
   "label": "Portugal Property Tax Fraud Probe",
   "first_seen": "2026-10-15",
+  "count": 2,
+  "last_seen": "2026-10-16",
+  "last_headline": "IMT fraud in real estate deals costs state 66 million euros"
+ },
+ "spain-buyer-nationality-shift": {
+  "label": "Spain Foreign Buyer Nationality Shift",
+  "first_seen": "2026-10-16",
   "count": 1,
-  "last_seen": "2026-10-15",
-  "last_headline": "Police search two banks in €66 million property tax fraud investigation"
+  "last_seen": "2026-10-16",
+  "last_headline": "Moroccans lead property purchases in Spain.. surpassing British buyers by 4,960 transactions in 6 months"
+ },
+ "portugal-imi-tax": {
+  "label": "Portugal IMI Property Tax Rise",
+  "first_seen": "2026-10-16",
+  "count": 1,
+  "last_seen": "2026-10-16",
+  "last_headline": "IMI rises 3% on housing and 4% on services, commerce and industry"
  }
 }

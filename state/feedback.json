@@ -1,41 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "14ebcc3edb14b310": {
-   "title": "MÉS will resume its law to halt home purchases by non-residents following EU Commission move",
-   "cat": "REGULATORY",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-09-15"
-  },
-  "450a74497e2d4575": {
-   "title": "Greece's new 15 per cent home-buyer tax has an escape hatch — Greek citizenship",
-   "cat": "REGULATORY",
-   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
-   "lang": "en",
-   "date": "2026-09-15"
-  },
-  "12d1a4eb95bd54cc": {
-   "title": "Proposed European Affordable Housing Law: Impact on Balearic Islands and Tourist Rentals",
-   "cat": "REGULATORY",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-09-15"
-  },
-  "dddf2fb47dab1665": {
-   "title": "Second homes tax raid pushes hundreds of homeowners into debt",
-   "cat": "REGULATORY",
-   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
-   "lang": "en",
-   "date": "2026-09-15"
-  },
-  "258b3b738b3ac249": {
-   "title": "Huspy acquires luxury real estate brokerage firm LuxuryX",
-   "cat": "CHANNEL",
-   "query": "\"منصة عقارية\" أوروبا OR إسبانيا when:2d",
-   "lang": "ar",
-   "date": "2026-09-15"
-  },
   "ea068283173573e3": {
    "title": "Prohens rejects limiting second-home purchases to Balearic residents",
    "cat": "REGULATORY",
@@ -1239,6 +1204,41 @@
    "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
    "lang": "ar",
    "date": "2026-10-15"
+  },
+  "87b4721711faf892": {
+   "title": "Canary Islands requests government to only allow home purchases by those resident for 10 years on the islands",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-16"
+  },
+  "7e45320ff1b1871f": {
+   "title": "Foreigners reduce home purchases by 13%, the largest decline since 2020",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-16"
+  },
+  "3e2dbd0c1478017e": {
+   "title": "Moroccans lead property purchases in Spain.. surpassing British buyers by 4,960 transactions in 6 months",
+   "cat": "DEMAND-FLOW",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-10-16"
+  },
+  "b63ac52d06eb60eb": {
+   "title": "IMI rises 3% on housing and 4% on services, commerce and industry",
+   "cat": "REGULATORY",
+   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
+   "lang": "pt",
+   "date": "2026-10-16"
+  },
+  "64bd6edda0eb20b7": {
+   "title": "IMT fraud in real estate deals costs state 66 million euros",
+   "cat": "OTHER",
+   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
+   "lang": "pt",
+   "date": "2026-10-16"
   }
  },
  "votes": {}
