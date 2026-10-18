@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 25,
-  "last_seen": "2026-10-17",
-  "last_headline": "Free-standing home sales by foreigners down 13% year-on-year"
+  "count": 26,
+  "last_seen": "2026-10-18",
+  "last_headline": "Canaries remains third destination for foreign non-resident home buyers despite 20.3% fall"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -72,9 +72,9 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 21,
-  "last_seen": "2026-10-17",
-  "last_headline": "Canaries proposes reserving home purchase for those resident 10 years on islands"
+  "count": 22,
+  "last_seen": "2026-10-18",
+  "last_headline": "Clavijo elevates to central Government his non-resident housing plan for Canaries: 10 years residency requirement"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
@@ -86,9 +86,9 @@
  "eu-str-crackdown": {
   "label": "EU Short-Term Rental Crackdown",
   "first_seen": "2026-09-10",
-  "count": 7,
-  "last_seen": "2026-09-30",
-  "last_headline": "Madrid slows tourist apartments: licence applications fall 42%, complaints fall 51%"
+  "count": 8,
+  "last_seen": "2026-10-18",
+  "last_headline": "Barcelona plans 150% property tax increase on tourist flats ahead of 2028 ban"
  },
  "portugal-ifici-tax": {
   "label": "Portugal IFICI Tax Regime",
@@ -296,9 +296,9 @@
  "spain-buyer-nationality-shift": {
   "label": "Spain Foreign Buyer Nationality Shift",
   "first_seen": "2026-10-16",
-  "count": 2,
-  "last_seen": "2026-10-17",
-  "last_headline": "Moroccans first in buying homes in Spain.. but average prices reveal a paradox"
+  "count": 3,
+  "last_seen": "2026-10-18",
+  "last_headline": "Moroccans lead foreign buyers rushing to buy property in Spain"
  },
  "portugal-imi-tax": {
   "label": "Portugal IMI Property Tax Rise",

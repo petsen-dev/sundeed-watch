@@ -1,48 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "89610e394220e40c": {
-   "title": "Rosario Sánchez commits to limiting second-home purchases by non-residents in the Balearic Islands",
-   "cat": "REGULATORY",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-09-17"
-  },
-  "5873c6de78769b14": {
-   "title": "Capital Gains Tax frontrunner for hike in Budget",
-   "cat": "HEADLINE-GAP",
-   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
-   "lang": "en",
-   "date": "2026-09-17"
-  },
-  "d5c896c7c308854e": {
-   "title": "'California of Europe' planned for the Algarve",
-   "cat": "UPFUNNEL",
-   "query": "\"international buyers\" Portugal OR Italy property when:2d",
-   "lang": "en",
-   "date": "2026-09-17"
-  },
-  "2a863d3b6fb8a9c7": {
-   "title": "Too many holiday-homes is not Spain's coastal housing problem",
-   "cat": "UPFUNNEL",
-   "query": "[feed] spanish_property_insight",
-   "lang": "en",
-   "date": "2026-09-17"
-  },
-  "e39281c9f1214d40": {
-   "title": "Marbella joins Monaco and Miami in the luxury property elite",
-   "cat": "DEMAND-FLOW",
-   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
-   "lang": "en",
-   "date": "2026-09-17"
-  },
-  "7ffd6a7bc45c3a30": {
-   "title": "Teachers give up Algarve posts over housing costs",
-   "cat": "DEMAND-FLOW",
-   "query": "[feed] portugal_resident",
-   "lang": "en",
-   "date": "2026-09-17"
-  },
   "b232ce4e7c1a87f4": {
    "title": "CJEU questions Spain's imposition of higher tax burden on foreign funds than domestic ones",
    "cat": "REGULATORY",
@@ -1267,6 +1225,34 @@
    "query": "[feed] portugal_resident",
    "lang": "en",
    "date": "2026-10-17"
+  },
+  "d990f69fb1206661": {
+   "title": "Clavijo elevates to central Government his non-resident housing plan for Canaries: 10 years residency requirement",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-18"
+  },
+  "76107e0a6464f682": {
+   "title": "Barcelona plans 150% property tax increase on tourist flats ahead of 2028 ban",
+   "cat": "REGULATORY",
+   "query": "[feed] spanish_property_insight",
+   "lang": "en",
+   "date": "2026-10-18"
+  },
+  "5160c2eb60990027": {
+   "title": "Moroccans lead foreign buyers rushing to buy property in Spain",
+   "cat": "DEMAND-FLOW",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-10-18"
+  },
+  "9f41848d8a499102": {
+   "title": "Canaries remains third destination for foreign non-resident home buyers despite 20.3% fall",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-18"
   }
  },
  "votes": {}
