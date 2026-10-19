@@ -1,48 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "b232ce4e7c1a87f4": {
-   "title": "CJEU questions Spain's imposition of higher tax burden on foreign funds than domestic ones",
-   "cat": "REGULATORY",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-09-18"
-  },
-  "ef9f812f420540cc": {
-   "title": "PP nationally backs Prohens in rejecting restrictions on second-home purchases by non-residents in Balearics",
-   "cat": "REGULATORY",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-09-18"
-  },
-  "57d0626c21876dfe": {
-   "title": "Labour plans tax raid on holiday cottages",
-   "cat": "HEADLINE-GAP",
-   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
-   "lang": "en",
-   "date": "2026-09-18"
-  },
-  "55e22a5ab99577d3": {
-   "title": "Fitch's upgrade to A+ adds fresh appeal to Portugal's Golden Visa",
-   "cat": "DEMAND-FLOW",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-09-18"
-  },
-  "abf9c6f741bfbacf": {
-   "title": "Foreigners pay nearly double what residents pay for a property in Balearics",
-   "cat": "DEMAND-FLOW",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-09-18"
-  },
-  "377274dffa50e21c": {
-   "title": "Lisbon loses 8,300 properties due to rising house prices",
-   "cat": "DEMAND-FLOW",
-   "query": "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d",
-   "lang": "ar",
-   "date": "2026-09-18"
-  },
   "b419de372fc14d30": {
    "title": "Cross-border property investment jumped 56% in first half, data shows",
    "cat": "DEMAND-FLOW",
@@ -1253,6 +1211,55 @@
    "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
    "lang": "es",
    "date": "2026-10-18"
+  },
+  "b0a7774d9574a801": {
+   "title": "Foreign demand for Spanish property falls sharply in first half of 2026",
+   "cat": "DEMAND-FLOW",
+   "query": "[feed] spanish_property_insight",
+   "lang": "en",
+   "date": "2026-10-19"
+  },
+  "ee02ec0b22809c7a": {
+   "title": "Spain's housing decrees trigger exodus from rental market, agents warn",
+   "cat": "REGULATORY",
+   "query": "[feed] spanish_property_insight",
+   "lang": "en",
+   "date": "2026-10-19"
+  },
+  "835dc2555cc5b72d": {
+   "title": "Brits in Spain beware UK tax on rent, property sales and pensions",
+   "cat": "REGULATORY",
+   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
+   "lang": "en",
+   "date": "2026-10-19"
+  },
+  "0275773ecaa9c6ab": {
+   "title": "IMI paid in 2027 rises 3% in residential and 4% in commerce",
+   "cat": "REGULATORY",
+   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
+   "lang": "pt",
+   "date": "2026-10-19"
+  },
+  "ed72d55b5d6c3a7c": {
+   "title": "Politicians who support changes to rental law own more than a thousand properties",
+   "cat": "REGULATORY",
+   "query": "[feed] portugal_resident",
+   "lang": "en",
+   "date": "2026-10-19"
+  },
+  "d8144d42ac42c144": {
+   "title": "Ventura proposes emergency legislative package to address housing crisis",
+   "cat": "HEADLINE-GAP",
+   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
+   "lang": "pt",
+   "date": "2026-10-19"
+  },
+  "cb0b906d3c8a20b0": {
+   "title": "Death of evicted woman sparks anger in Spain",
+   "cat": "DEMAND-FLOW",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-10-19"
   }
  },
  "votes": {}

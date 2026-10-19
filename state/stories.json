@@ -23,16 +23,16 @@
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
   "first_seen": "2026-08-25",
-  "count": 16,
-  "last_seen": "2026-10-17",
+  "count": 17,
+  "last_seen": "2026-10-19",
   "last_headline": "Brits in Spain beware UK tax on rent, property sales and pensions"
  },
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 26,
-  "last_seen": "2026-10-18",
-  "last_headline": "Canaries remains third destination for foreign non-resident home buyers despite 20.3% fall"
+  "count": 27,
+  "last_seen": "2026-10-19",
+  "last_headline": "Foreign demand for Spanish property falls sharply in first half of 2026"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -51,9 +51,9 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 17,
-  "last_seen": "2026-10-13",
-  "last_headline": "Associations and owners reject approval of new housing decrees to be pushed through in Permanent Deputation"
+  "count": 18,
+  "last_seen": "2026-10-19",
+  "last_headline": "Spain's housing decrees trigger exodus from rental market, agents warn"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
@@ -65,9 +65,9 @@
  "portugal-rental-regulation": {
   "label": "Portugal Rental Market Reform",
   "first_seen": "2026-09-05",
-  "count": 8,
-  "last_seen": "2026-10-09",
-  "last_headline": "There are 37% fewer short-term rental places in Lisbon compared to 2025"
+  "count": 9,
+  "last_seen": "2026-10-19",
+  "last_headline": "Politicians who support changes to rental law own more than a thousand properties"
  },
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
@@ -240,9 +240,9 @@
  "spain-political-housing-crisis": {
   "label": "Spain Housing-Driven Political Crisis",
   "first_seen": "2026-10-06",
-  "count": 8,
-  "last_seen": "2026-10-15",
-  "last_headline": "€530 million at stake.. Spain elections threaten sale of 1,900 residential units"
+  "count": 9,
+  "last_seen": "2026-10-19",
+  "last_headline": "Death of evicted woman sparks anger in Spain"
  },
  "portugal-coastal-protest": {
   "label": "Portugal Coastal Development Backlash",
@@ -268,9 +268,9 @@
  "portugal-housing-protest": {
   "label": "Portugal Housing Cost Protests",
   "first_seen": "2026-10-11",
-  "count": 2,
-  "last_seen": "2026-10-12",
-  "last_headline": "Thousands of Portuguese protest.. rents push youth back to parents' homes.. video"
+  "count": 3,
+  "last_seen": "2026-10-19",
+  "last_headline": "Ventura proposes emergency legislative package to address housing crisis"
  },
  "spain-investment-account-tax": {
   "label": "Spain €150k Investment Account Tax Break",
@@ -303,8 +303,8 @@
  "portugal-imi-tax": {
   "label": "Portugal IMI Property Tax Rise",
   "first_seen": "2026-10-16",
-  "count": 2,
-  "last_seen": "2026-10-17",
-  "last_headline": "Update to property value raises IMI by 3% next year"
+  "count": 3,
+  "last_seen": "2026-10-19",
+  "last_headline": "IMI paid in 2027 rises 3% in residential and 4% in commerce"
  }
 }
