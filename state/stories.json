@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 29,
-  "last_seen": "2026-10-15",
-  "last_headline": "Golden Visa €250.000 στην Αθήνα: Πώς είναι εφικτό μέσω μετατροπής επαγγελματικού χώρου"
+  "count": 30,
+  "last_seen": "2026-10-20",
+  "last_headline": "Portugal's Golden Visa – Debate fires up over foreign investment"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 29,
-  "last_seen": "2026-10-15",
-  "last_headline": "European Listings Launches Curated Property Search Service to Help Americans Find Homes for Sale in Europe"
+  "count": 30,
+  "last_seen": "2026-10-20",
+  "last_headline": "Zillow brings specialized housing intelligence to Claude, with a path to tours, agents and financing"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -72,16 +72,16 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 22,
-  "last_seen": "2026-10-18",
-  "last_headline": "Clavijo elevates to central Government his non-resident housing plan for Canaries: 10 years residency requirement"
+  "count": 23,
+  "last_seen": "2026-10-20",
+  "last_headline": "Spain's Canaries seek 10-year residency rule for property purchases"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
   "first_seen": "2026-09-07",
-  "count": 9,
-  "last_seen": "2026-10-13",
-  "last_headline": "Greece plans to quintuple purchase tax for foreign real estate buyers"
+  "count": 10,
+  "last_seen": "2026-10-20",
+  "last_headline": "In pro-Palestine hub of Athens, Israeli buyers increase local resentment"
  },
  "eu-str-crackdown": {
   "label": "EU Short-Term Rental Crackdown",
@@ -268,9 +268,9 @@
  "portugal-housing-protest": {
   "label": "Portugal Housing Cost Protests",
   "first_seen": "2026-10-11",
-  "count": 3,
-  "last_seen": "2026-10-19",
-  "last_headline": "Ventura proposes emergency legislative package to address housing crisis"
+  "count": 4,
+  "last_seen": "2026-10-20",
+  "last_headline": "Portuguese President calls for political consensus to address housing crisis amid escalating protests"
  },
  "spain-investment-account-tax": {
   "label": "Spain €150k Investment Account Tax Break",
@@ -303,8 +303,15 @@
  "portugal-imi-tax": {
   "label": "Portugal IMI Property Tax Rise",
   "first_seen": "2026-10-16",
-  "count": 3,
-  "last_seen": "2026-10-19",
-  "last_headline": "IMI paid in 2027 rises 3% in residential and 4% in commerce"
+  "count": 4,
+  "last_seen": "2026-10-20",
+  "last_headline": "In 2027 IMI rises up to 4% for some properties"
+ },
+ "italy-relocation-incentive": {
+  "label": "Italy Rural Relocation Incentives",
+  "first_seen": "2026-10-20",
+  "count": 1,
+  "last_seen": "2026-10-20",
+  "last_headline": "Italy offers up to 30,000 euros – what are the conditions for living in Tuscany?"
  }
 }
