@@ -9,9 +9,9 @@
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
   "first_seen": "2026-08-25",
-  "count": 15,
-  "last_seen": "2026-10-03",
-  "last_headline": "Comporta Beach Resort makes its international debut"
+  "count": 16,
+  "last_seen": "2026-10-21",
+  "last_headline": "There are 2,700 homes for sale in Portugal for over €3,000,000 and this is the buyer profile"
  },
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
@@ -65,16 +65,16 @@
  "portugal-rental-regulation": {
   "label": "Portugal Rental Market Reform",
   "first_seen": "2026-09-05",
-  "count": 9,
-  "last_seen": "2026-10-19",
-  "last_headline": "Politicians who support changes to rental law own more than a thousand properties"
+  "count": 10,
+  "last_seen": "2026-10-21",
+  "last_headline": "Affordable rents in Portugal will have maximum amounts between €224 and €2K"
  },
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 23,
-  "last_seen": "2026-10-20",
-  "last_headline": "Spain's Canaries seek 10-year residency rule for property purchases"
+  "count": 24,
+  "last_seen": "2026-10-21",
+  "last_headline": "Buying a home in the Canary Islands: the plan that will require ten years of residency for non-residents"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
@@ -177,9 +177,9 @@
  "portugal-nonresident-access": {
   "label": "Portugal Non-Resident Foreigner Access",
   "first_seen": "2026-09-30",
-  "count": 2,
-  "last_seen": "2026-10-17",
-  "last_headline": "Parliament backs tighter SNS rules for non-resident foreigners"
+  "count": 3,
+  "last_seen": "2026-10-21",
+  "last_headline": "Porto students propose temporary ban on non-resident foreigners buying property"
  },
  "china-outbound-wealth": {
   "label": "China Outbound Wealth Mobility",
@@ -198,9 +198,9 @@
  "spain-nonresident-tax-deadline": {
   "label": "Spain Non-Resident Tax Deadline",
   "first_seen": "2026-10-02",
-  "count": 4,
-  "last_seen": "2026-10-10",
-  "last_headline": "The changes to Spain's IRNR non-resident property tax in 2027"
+  "count": 5,
+  "last_seen": "2026-10-21",
+  "last_headline": "Own a home in Mallorca? Your Spanish tax return is due by 31 December"
  },
  "india-outbound-wealth": {
   "label": "India Outbound Property Wealth",
@@ -313,5 +313,12 @@
   "count": 1,
   "last_seen": "2026-10-20",
   "last_headline": "Italy offers up to 30,000 euros – what are the conditions for living in Tuscany?"
+ },
+ "balearic-tax-cut": {
+  "label": "Balearic Tax Cuts",
+  "first_seen": "2026-10-21",
+  "count": 1,
+  "last_seen": "2026-10-21",
+  "last_headline": "Prohens eliminates transfer tax for under-36s and raises inheritance deduction to 75% for siblings and aunts/uncles-nephews/nieces"
  }
 }

@@ -1,48 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "0b205ff202a56314": {
-   "title": "New legal rule.. may prevent British people from entering major European countries",
-   "cat": "REGULATORY",
-   "query": "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d",
-   "lang": "ar",
-   "date": "2026-09-20"
-  },
-  "a8a647f4b3f8a4ef": {
-   "title": "Spain grants subsidies up to €20,000 for home purchase.. here are the conditions",
-   "cat": "UPFUNNEL",
-   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "lang": "ar",
-   "date": "2026-09-20"
-  },
-  "1b998bcea354ed36": {
-   "title": "Andalusia Housing Law avoids clash with Spanish Government: these are the agreed changes",
-   "cat": "HEADLINE-GAP",
-   "query": "\"registro de agentes inmobiliarios\" obligatorio when:2d",
-   "lang": "es",
-   "date": "2026-09-20"
-  },
-  "79f9ed3308e8c06e": {
-   "title": "Housing price in Catalonia rises 8.5% and reaches its highest level since 2008",
-   "cat": "DEMAND-FLOW",
-   "query": "\"compradores extranjeros\" vivienda intitle:datos OR intitle:sube when:2d",
-   "lang": "es",
-   "date": "2026-09-20"
-  },
-  "ca4942eda3e44b60": {
-   "title": "Latvia's 'golden visa' scheme under renewed scrutiny / Article",
-   "cat": "OTHER",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-09-20"
-  },
-  "2ebcf15364484a65": {
-   "title": "Second home owners challenge North Yorkshire's 100% council tax premium",
-   "cat": "OTHER",
-   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
-   "lang": "en",
-   "date": "2026-09-20"
-  },
   "64fb8cce2e43fcbc": {
    "title": "Labour poised for tax raid on landlords – press report",
    "cat": "HEADLINE-GAP",
@@ -1281,6 +1239,48 @@
    "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
    "lang": "en",
    "date": "2026-10-20"
+  },
+  "618a65ad014bb54a": {
+   "title": "Buying a home in the Canary Islands: the plan that will require ten years of residency for non-residents",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-21"
+  },
+  "d5a66f416cc04106": {
+   "title": "Prohens eliminates transfer tax for under-36s and raises inheritance deduction to 75% for siblings and aunts/uncles-nephews/nieces",
+   "cat": "REGULATORY",
+   "query": "intitle:ITP tipo Andalucía OR Valencia OR Baleares when:2d",
+   "lang": "es",
+   "date": "2026-10-21"
+  },
+  "ab096e9a29b38b5d": {
+   "title": "Porto students propose temporary ban on non-resident foreigners buying property",
+   "cat": "HEADLINE-GAP",
+   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
+   "lang": "en",
+   "date": "2026-10-21"
+  },
+  "34a840480b0d6bb4": {
+   "title": "Affordable rents in Portugal will have maximum amounts between €224 and €2K",
+   "cat": "REGULATORY",
+   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
+   "lang": "en",
+   "date": "2026-10-21"
+  },
+  "dd84d12d634bb3dd": {
+   "title": "There are 2,700 homes for sale in Portugal for over €3,000,000 and this is the buyer profile",
+   "cat": "DEMAND-FLOW",
+   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
+   "lang": "pt",
+   "date": "2026-10-21"
+  },
+  "3cedc00419e2764f": {
+   "title": "Own a home in Mallorca? Your Spanish tax return is due by 31 December",
+   "cat": "REGULATORY",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-10-21"
   }
  },
  "votes": {}
