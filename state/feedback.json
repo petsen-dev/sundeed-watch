@@ -1,34 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "64fb8cce2e43fcbc": {
-   "title": "Labour poised for tax raid on landlords – press report",
-   "cat": "HEADLINE-GAP",
-   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
-   "lang": "en",
-   "date": "2026-09-21"
-  },
-  "32bec3e620640312": {
-   "title": "Sibos 2026: Digital finance in an AI-driven economy - when the agent does the buying, who owns the customer?",
-   "cat": "CHANNEL",
-   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
-   "lang": "en",
-   "date": "2026-09-21"
-  },
-  "11b57770b4fe47dd": {
-   "title": "A record jump.. Short-term rentals in Europe approach a billion nights",
-   "cat": "DEMAND-FLOW",
-   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "lang": "ar",
-   "date": "2026-09-21"
-  },
-  "50a5a01ddec3b037": {
-   "title": "Eurozone finance ministers: rising bond yields cause concern, not panic",
-   "cat": "OTHER",
-   "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "lang": "ar",
-   "date": "2026-09-21"
-  },
   "c1e20b663e7d342b": {
    "title": "Bank of Greece paper suggests Golden Visa reform shifted property activity nearby",
    "cat": "DEMAND-FLOW",
@@ -1281,6 +1253,41 @@
    "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
    "lang": "en",
    "date": "2026-10-21"
+  },
+  "1fa9694065dab1a1": {
+   "title": "Spain's new 10pc VAT on holiday lets: What owners need to know",
+   "cat": "REGULATORY",
+   "query": "[feed] spanish_property_insight",
+   "lang": "en",
+   "date": "2026-10-22"
+  },
+  "51fded961bd92c7a": {
+   "title": "Vox Palma proposes prioritizing Spanish nationals in public housing access and limiting foreign purchases",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-22"
+  },
+  "8775069d60ba7977": {
+   "title": "IMI will increase in 2027: who will pay more and how to calculate the new value?",
+   "cat": "REGULATORY",
+   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
+   "lang": "pt",
+   "date": "2026-10-22"
+  },
+  "d4f17174ee48317d": {
+   "title": "Italy holds full deck of cards for expansion of hotels with branded residences",
+   "cat": "OWNERSHIP-MODEL",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-10-22"
+  },
+  "bf091a5a8d1013eb": {
+   "title": "In luxury real estate, the buyer has changed. So has the sales method.",
+   "cat": "CHANNEL",
+   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
+   "lang": "pt",
+   "date": "2026-10-22"
   }
  },
  "votes": {}

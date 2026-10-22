@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 30,
-  "last_seen": "2026-10-20",
-  "last_headline": "Zillow brings specialized housing intelligence to Claude, with a path to tours, agents and financing"
+  "count": 31,
+  "last_seen": "2026-10-22",
+  "last_headline": "In luxury real estate, the buyer has changed. So has the sales method."
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -51,9 +51,9 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 18,
-  "last_seen": "2026-10-19",
-  "last_headline": "Spain's housing decrees trigger exodus from rental market, agents warn"
+  "count": 19,
+  "last_seen": "2026-10-22",
+  "last_headline": "Spain's new 10pc VAT on holiday lets: What owners need to know"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
@@ -72,9 +72,9 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 24,
-  "last_seen": "2026-10-21",
-  "last_headline": "Buying a home in the Canary Islands: the plan that will require ten years of residency for non-residents"
+  "count": 25,
+  "last_seen": "2026-10-22",
+  "last_headline": "Vox Palma proposes prioritizing Spanish nationals in public housing access and limiting foreign purchases"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
@@ -303,9 +303,9 @@
  "portugal-imi-tax": {
   "label": "Portugal IMI Property Tax Rise",
   "first_seen": "2026-10-16",
-  "count": 4,
-  "last_seen": "2026-10-20",
-  "last_headline": "In 2027 IMI rises up to 4% for some properties"
+  "count": 5,
+  "last_seen": "2026-10-22",
+  "last_headline": "IMI will increase in 2027: who will pay more and how to calculate the new value?"
  },
  "italy-relocation-incentive": {
   "label": "Italy Rural Relocation Incentives",
@@ -320,5 +320,12 @@
   "count": 1,
   "last_seen": "2026-10-21",
   "last_headline": "Prohens eliminates transfer tax for under-36s and raises inheritance deduction to 75% for siblings and aunts/uncles-nephews/nieces"
+ },
+ "branded-residences-expansion": {
+  "label": "Branded Residences Expansion",
+  "first_seen": "2026-10-22",
+  "count": 1,
+  "last_seen": "2026-10-22",
+  "last_headline": "Italy holds full deck of cards for expansion of hotels with branded residences"
  }
 }
