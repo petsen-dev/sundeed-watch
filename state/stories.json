@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 31,
-  "last_seen": "2026-10-22",
-  "last_headline": "In luxury real estate, the buyer has changed. So has the sales method."
+  "count": 32,
+  "last_seen": "2026-10-23",
+  "last_headline": "MarbellaPartner, Independent Buyer's Agent in Marbella, Helps UK Buyers Find and Buy Luxury and Off-Market Villas"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -51,9 +51,9 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 19,
-  "last_seen": "2026-10-22",
-  "last_headline": "Spain's new 10pc VAT on holiday lets: What owners need to know"
+  "count": 20,
+  "last_seen": "2026-10-23",
+  "last_headline": "Spain's housing crackdown targets landlords as eviction crisis deepens"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
@@ -72,9 +72,9 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 25,
-  "last_seen": "2026-10-22",
-  "last_headline": "Vox Palma proposes prioritizing Spanish nationals in public housing access and limiting foreign purchases"
+  "count": 26,
+  "last_seen": "2026-10-23",
+  "last_headline": "Canary Islands pressures the State: the purchase of housing by foreigners is decided before 29 November"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
@@ -142,9 +142,9 @@
  "andalusia-itp-cut": {
   "label": "Andalusia ITP Tax Cut",
   "first_seen": "2026-09-25",
-  "count": 5,
-  "last_seen": "2026-10-06",
-  "last_headline": "Andalusia cuts IRPF by 1% through 2027 and expands reduced ITP for young people"
+  "count": 6,
+  "last_seen": "2026-10-23",
+  "last_headline": "Anabell Cantón, real estate agent: 'In Andalusia transfer tax is around 7%, but if the buyer is under 35 it can drop to 3.5%'"
  },
  "spain-market-slowdown": {
   "label": "Spain Housing Market Slowdown",
@@ -240,9 +240,9 @@
  "spain-political-housing-crisis": {
   "label": "Spain Housing-Driven Political Crisis",
   "first_seen": "2026-10-06",
-  "count": 9,
-  "last_seen": "2026-10-19",
-  "last_headline": "Death of evicted woman sparks anger in Spain"
+  "count": 10,
+  "last_seen": "2026-10-23",
+  "last_headline": "Housing crisis shakes Spain and pushes Sanchez to early elections"
  },
  "portugal-coastal-protest": {
   "label": "Portugal Coastal Development Backlash",
