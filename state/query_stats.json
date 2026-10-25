@@ -18,28 +18,28 @@
   "split": 0
  },
  "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d": {
-  "runs": 76,
-  "items": 231,
+  "runs": 77,
+  "items": 232,
   "score_sum": 5547,
-  "mean_score": 24.0,
+  "mean_score": 23.9,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"سوق العقارات\" إسبانيا OR البرتغال when:2d": {
-  "runs": 69,
-  "items": 178,
-  "score_sum": 3144,
-  "mean_score": 17.7,
+  "runs": 70,
+  "items": 183,
+  "score_sum": 3194,
+  "mean_score": 17.5,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"international buyers\" Portugal OR Italy property when:2d": {
-  "runs": 62,
-  "items": 154,
-  "score_sum": 3803,
-  "mean_score": 24.7,
+  "runs": 63,
+  "items": 155,
+  "score_sum": 3808,
+  "mean_score": 24.6,
   "up": 0,
   "down": 0,
   "split": 0
@@ -63,10 +63,10 @@
   "split": 0
  },
  "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d": {
-  "runs": 77,
-  "items": 300,
-  "score_sum": 1008,
-  "mean_score": 3.4,
+  "runs": 78,
+  "items": 308,
+  "score_sum": 1013,
+  "mean_score": 3.3,
   "up": 0,
   "down": 0,
   "split": 0
@@ -81,9 +81,9 @@
   "split": 0
  },
  "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d": {
-  "runs": 70,
-  "items": 188,
-  "score_sum": 7169,
+  "runs": 71,
+  "items": 191,
+  "score_sum": 7279,
   "mean_score": 38.1,
   "up": 0,
   "down": 0,
@@ -108,10 +108,10 @@
   "split": 0
  },
  "\"second home\" intitle:tax OR intitle:premium when:2d": {
-  "runs": 74,
-  "items": 323,
-  "score_sum": 2049,
-  "mean_score": 6.3,
+  "runs": 75,
+  "items": 326,
+  "score_sum": 2114,
+  "mean_score": 6.5,
   "up": 0,
   "down": 0,
   "split": 0
@@ -126,8 +126,8 @@
   "split": 0
  },
  "\"cross-border\" property buyers Europe when:2d": {
-  "runs": 66,
-  "items": 191,
+  "runs": 67,
+  "items": 193,
   "score_sum": 1594,
   "mean_score": 8.3,
   "up": 0,
@@ -135,28 +135,28 @@
   "split": 0
  },
  "\"commission split\" estate agency when:2d": {
-  "runs": 31,
-  "items": 32,
+  "runs": 32,
+  "items": 34,
   "score_sum": 148,
-  "mean_score": 4.6,
+  "mean_score": 4.4,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "[feed] portugal_resident": {
-  "runs": 80,
-  "items": 722,
-  "score_sum": 2974,
-  "mean_score": 4.1,
+  "runs": 81,
+  "items": 728,
+  "score_sum": 3029,
+  "mean_score": 4.2,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d": {
-  "runs": 26,
-  "items": 28,
-  "score_sum": 1231,
-  "mean_score": 44.0,
+  "runs": 27,
+  "items": 29,
+  "score_sum": 1296,
+  "mean_score": 44.7,
   "up": 0,
   "down": 0,
   "split": 0
@@ -450,18 +450,18 @@
   "split": 0
  },
  "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d": {
-  "runs": 66,
-  "items": 1787,
-  "score_sum": 1899,
+  "runs": 67,
+  "items": 1796,
+  "score_sum": 1909,
   "mean_score": 1.1,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "site:aawsat.com عقارات أوروبا when:2d": {
-  "runs": 66,
-  "items": 1968,
-  "score_sum": 2231,
+  "runs": 67,
+  "items": 1993,
+  "score_sum": 2246,
   "mean_score": 1.1,
   "up": 0,
   "down": 0,
@@ -531,19 +531,19 @@
   "split": 0
  },
  "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d": {
-  "runs": 19,
-  "items": 25,
-  "score_sum": 329,
-  "mean_score": 13.2,
+  "runs": 20,
+  "items": 28,
+  "score_sum": 374,
+  "mean_score": 13.4,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "[feed] spanish_property_insight": {
-  "runs": 18,
-  "items": 27,
-  "score_sum": 1200,
-  "mean_score": 44.4,
+  "runs": 19,
+  "items": 28,
+  "score_sum": 1215,
+  "mean_score": 43.4,
   "up": 0,
   "down": 0,
   "split": 0
@@ -558,10 +558,10 @@
   "split": 0
  },
  "\"American buyers\" Italy OR Portugal OR Spain property when:2d": {
-  "runs": 13,
-  "items": 15,
-  "score_sum": 436,
-  "mean_score": 29.1,
+  "runs": 14,
+  "items": 16,
+  "score_sum": 481,
+  "mean_score": 30.1,
   "up": 0,
   "down": 0,
   "split": 0
@@ -603,8 +603,8 @@
   "split": 0
  },
  "\"الإقامة الذهبية\" أوروبا OR البرتغال OR اليونان when:2d": {
-  "runs": 4,
-  "items": 5,
+  "runs": 5,
+  "items": 6,
   "score_sum": 0,
   "mean_score": 0.0,
   "up": 0,
@@ -693,10 +693,10 @@
   "split": 0
  },
  "\"تملك الأجانب\" إسبانيا OR البرتغال OR اليونان when:2d": {
-  "runs": 9,
-  "items": 17,
+  "runs": 10,
+  "items": 18,
   "score_sum": 30,
-  "mean_score": 1.8,
+  "mean_score": 1.7,
   "up": 0,
   "down": 0,
   "split": 0
