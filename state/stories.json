@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 32,
-  "last_seen": "2026-10-23",
-  "last_headline": "MarbellaPartner, Independent Buyer's Agent in Marbella, Helps UK Buyers Find and Buy Luxury and Off-Market Villas"
+  "count": 33,
+  "last_seen": "2026-10-26",
+  "last_headline": "Greece Targets Golden Visa Abuse Over Hidden Rebates"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -100,8 +100,8 @@
  "fractional-ownership-europe": {
   "label": "Fractional Ownership Expansion",
   "first_seen": "2026-09-10",
-  "count": 8,
-  "last_seen": "2026-10-25",
+  "count": 9,
+  "last_seen": "2026-10-26",
   "last_headline": "Infinity by Pacaso launches in France to expand luxury home exchange network"
  },
  "france-second-home-tax": {
@@ -149,9 +149,9 @@
  "spain-market-slowdown": {
   "label": "Spain Housing Market Slowdown",
   "first_seen": "2026-09-26",
-  "count": 6,
-  "last_seen": "2026-10-09",
-  "last_headline": "Spanish house prices rise 9pc but market growth stalls in H1 2026"
+  "count": 7,
+  "last_seen": "2026-10-26",
+  "last_headline": "Foreign buyers lead Spanish property market slowdown, but latest numbers offers some hope"
  },
  "catalonia-asbestos-cert": {
   "label": "Catalonia Asbestos Certificate",
@@ -296,9 +296,9 @@
  "spain-buyer-nationality-shift": {
   "label": "Spain Foreign Buyer Nationality Shift",
   "first_seen": "2026-10-16",
-  "count": 4,
-  "last_seen": "2026-10-25",
-  "last_headline": "This is how foreigners buy homes: Algerians in Alicante, Poles in Torrevieja and British in Orihuela"
+  "count": 5,
+  "last_seen": "2026-10-26",
+  "last_headline": "Moroccans displace Europeans in home purchases in Spain. They also pay less per square metre"
  },
  "portugal-imi-tax": {
   "label": "Portugal IMI Property Tax Rise",
@@ -317,9 +317,9 @@
  "balearic-tax-cut": {
   "label": "Balearic Tax Cuts",
   "first_seen": "2026-10-21",
-  "count": 1,
-  "last_seen": "2026-10-21",
-  "last_headline": "Prohens eliminates transfer tax for under-36s and raises inheritance deduction to 75% for siblings and aunts/uncles-nephews/nieces"
+  "count": 2,
+  "last_seen": "2026-10-26",
+  "last_headline": "Spain's Balearic Islands plan to scrap property purchase taxes for younger buyers"
  },
  "branded-residences-expansion": {
   "label": "Branded Residences Expansion",
@@ -327,5 +327,12 @@
   "count": 1,
   "last_seen": "2026-10-22",
   "last_headline": "Italy holds full deck of cards for expansion of hotels with branded residences"
+ },
+ "spain-capital-gains-relocation": {
+  "label": "Spain Capital Gains Relocation Rule",
+  "first_seen": "2026-10-26",
+  "count": 1,
+  "last_seen": "2026-10-26",
+  "last_headline": "The TEAC eliminates the reinvestment exemption in housing if job relocation abroad delays sale by more than two years"
  }
 }

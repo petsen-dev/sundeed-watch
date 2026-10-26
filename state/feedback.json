@@ -1,48 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "5f212eae8c5a7fe1": {
-   "title": "Residents dominate Portugal's property market as foreign buyers retreat",
-   "cat": "DEMAND-FLOW",
-   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
-   "lang": "pt",
-   "date": "2026-09-25"
-  },
-  "3591f604ed3cc144": {
-   "title": "Foreigners still dominating the Costa Blanca property boom with nearly 19,000 homes purchased in a single year",
-   "cat": "DEMAND-FLOW",
-   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
-   "lang": "en",
-   "date": "2026-09-25"
-  },
-  "ad1e348722ca68fd": {
-   "title": "UAE-based Huspy acquires Integra Finance and invests $86 million in Italian market",
-   "cat": "CHANNEL",
-   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
-   "lang": "ar",
-   "date": "2026-09-25"
-  },
-  "bffd40f9f84fe116": {
-   "title": "Cyprus to tighten \"golden visa\" rules ahead of Schengen accession, Minister tells MPs",
-   "cat": "REGULATORY",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-09-25"
-  },
-  "4004aac1eb228b7a": {
-   "title": "Expansion | The Andalusian budget for 2027 will include tax cuts for housing that will benefit about 147,000 Andalusians.",
-   "cat": "REGULATORY",
-   "query": "\"ITP\" OR \"impuesto de transmisiones\" Spain property when:2d",
-   "lang": "en",
-   "date": "2026-09-25"
-  },
-  "2cb4de1f95ddfee5": {
-   "title": "Pacaso Brings Co-Ownership to the Banks of the Seine With the Launch of Riverfront Pied-à-terre in Paris' 6th Arrondissement",
-   "cat": "OWNERSHIP-MODEL",
-   "query": "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d",
-   "lang": "en",
-   "date": "2026-09-25"
-  },
   "441da0afb63c25a8": {
    "title": "The Junta reduces ITP to 6.75% to buy housing in Andalusia from 2027: how much you will save in Cádiz",
    "cat": "REGULATORY",
@@ -1281,6 +1239,48 @@
    "query": "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d",
    "lang": "ar",
    "date": "2026-10-25"
+  },
+  "819894724056a16f": {
+   "title": "Greece Targets Golden Visa Abuse Over Hidden Rebates",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-10-26"
+  },
+  "c3d8501af1140c08": {
+   "title": "Infinity by Pacaso launches in France to expand luxury home exchange network",
+   "cat": "OWNERSHIP-MODEL",
+   "query": "\"second home\" intitle:swap OR intitle:exchange platform when:2d",
+   "lang": "en",
+   "date": "2026-10-26"
+  },
+  "6a36fdc1b50b303e": {
+   "title": "Moroccans displace Europeans in home purchases in Spain. They also pay less per square metre",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-26"
+  },
+  "9b275c0a2818c5d3": {
+   "title": "Spain's Balearic Islands plan to scrap property purchase taxes for younger buyers",
+   "cat": "REGULATORY",
+   "query": "\"ITP\" OR \"impuesto de transmisiones\" Spain property when:2d",
+   "lang": "en",
+   "date": "2026-10-26"
+  },
+  "8a9e253bba964fc6": {
+   "title": "The TEAC eliminates the reinvestment exemption in housing if job relocation abroad delays sale by more than two years",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-26"
+  },
+  "06ddb1f7c5738009": {
+   "title": "Foreign buyers lead Spanish property market slowdown, but latest numbers offers some hope",
+   "cat": "DEMAND-FLOW",
+   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
+   "lang": "en",
+   "date": "2026-10-26"
   }
  },
  "votes": {}
