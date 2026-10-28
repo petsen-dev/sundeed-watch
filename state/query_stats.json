@@ -1,27 +1,27 @@
 {
  "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d": {
-  "runs": 41,
-  "items": 61,
-  "score_sum": 2569,
+  "runs": 42,
+  "items": 63,
+  "score_sum": 2652,
   "mean_score": 42.1,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"compradores estrangeiros\" casa Portugal when:2d": {
-  "runs": 29,
-  "items": 53,
-  "score_sum": 1981,
-  "mean_score": 37.4,
+  "runs": 30,
+  "items": 54,
+  "score_sum": 2029,
+  "mean_score": 37.6,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d": {
-  "runs": 77,
-  "items": 232,
-  "score_sum": 5547,
-  "mean_score": 23.9,
+  "runs": 78,
+  "items": 239,
+  "score_sum": 5929,
+  "mean_score": 24.8,
   "up": 0,
   "down": 0,
   "split": 0
@@ -36,18 +36,18 @@
   "split": 0
  },
  "\"international buyers\" Portugal OR Italy property when:2d": {
-  "runs": 65,
-  "items": 162,
+  "runs": 66,
+  "items": 163,
   "score_sum": 4028,
-  "mean_score": 24.9,
+  "mean_score": 24.7,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "ChatGPT OR \"AI agent\" property buying when:2d": {
-  "runs": 73,
-  "items": 363,
-  "score_sum": 3299,
+  "runs": 74,
+  "items": 368,
+  "score_sum": 3364,
   "mean_score": 9.1,
   "up": 0,
   "down": 0,
@@ -63,10 +63,10 @@
   "split": 0
  },
  "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d": {
-  "runs": 80,
-  "items": 310,
-  "score_sum": 1023,
-  "mean_score": 3.3,
+  "runs": 81,
+  "items": 316,
+  "score_sum": 1063,
+  "mean_score": 3.4,
   "up": 0,
   "down": 0,
   "split": 0
@@ -81,19 +81,19 @@
   "split": 0
  },
  "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d": {
-  "runs": 73,
-  "items": 198,
-  "score_sum": 7545,
-  "mean_score": 38.1,
+  "runs": 74,
+  "items": 199,
+  "score_sum": 7550,
+  "mean_score": 37.9,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d": {
-  "runs": 59,
-  "items": 132,
-  "score_sum": 3891,
-  "mean_score": 29.5,
+  "runs": 60,
+  "items": 134,
+  "score_sum": 3906,
+  "mean_score": 29.1,
   "up": 0,
   "down": 0,
   "split": 0
@@ -108,8 +108,8 @@
   "split": 0
  },
  "\"second home\" intitle:tax OR intitle:premium when:2d": {
-  "runs": 77,
-  "items": 336,
+  "runs": 78,
+  "items": 337,
   "score_sum": 2319,
   "mean_score": 6.9,
   "up": 0,
@@ -117,8 +117,8 @@
   "split": 0
  },
  "Prello OR Vivla OR MYNE OR Altacasa property when:2d": {
-  "runs": 36,
-  "items": 47,
+  "runs": 37,
+  "items": 48,
   "score_sum": 35,
   "mean_score": 0.7,
   "up": 0,
@@ -126,8 +126,8 @@
   "split": 0
  },
  "\"cross-border\" property buyers Europe when:2d": {
-  "runs": 69,
-  "items": 196,
+  "runs": 70,
+  "items": 198,
   "score_sum": 1594,
   "mean_score": 8.1,
   "up": 0,
@@ -135,18 +135,18 @@
   "split": 0
  },
  "\"commission split\" estate agency when:2d": {
-  "runs": 32,
-  "items": 34,
-  "score_sum": 148,
-  "mean_score": 4.4,
+  "runs": 33,
+  "items": 35,
+  "score_sum": 198,
+  "mean_score": 5.7,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "[feed] portugal_resident": {
-  "runs": 83,
-  "items": 748,
-  "score_sum": 3124,
+  "runs": 84,
+  "items": 758,
+  "score_sum": 3196,
   "mean_score": 4.2,
   "up": 0,
   "down": 0,
@@ -180,10 +180,10 @@
   "split": 0
  },
  "[feed] property_industry_eye": {
-  "runs": 63,
-  "items": 684,
-  "score_sum": 5848,
-  "mean_score": 8.5,
+  "runs": 64,
+  "items": 696,
+  "score_sum": 5986,
+  "mean_score": 8.6,
   "up": 0,
   "down": 0,
   "split": 0
@@ -450,19 +450,19 @@
   "split": 0
  },
  "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d": {
-  "runs": 69,
-  "items": 1831,
-  "score_sum": 1934,
+  "runs": 70,
+  "items": 1845,
+  "score_sum": 1944,
   "mean_score": 1.1,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "site:aawsat.com عقارات أوروبا when:2d": {
-  "runs": 69,
-  "items": 2056,
-  "score_sum": 2371,
-  "mean_score": 1.2,
+  "runs": 70,
+  "items": 2079,
+  "score_sum": 2376,
+  "mean_score": 1.1,
   "up": 0,
   "down": 0,
   "split": 0
@@ -540,19 +540,19 @@
   "split": 0
  },
  "[feed] spanish_property_insight": {
-  "runs": 19,
-  "items": 28,
+  "runs": 20,
+  "items": 29,
   "score_sum": 1215,
-  "mean_score": 43.4,
+  "mean_score": 41.9,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "intitle:IMT OR intitle:IMI alteração imóveis when:2d": {
-  "runs": 24,
-  "items": 36,
-  "score_sum": 1675,
-  "mean_score": 46.5,
+  "runs": 25,
+  "items": 37,
+  "score_sum": 1725,
+  "mean_score": 46.6,
   "up": 0,
   "down": 0,
   "split": 0
@@ -567,10 +567,10 @@
   "split": 0
  },
  "\"IMT\" OR \"IMI\" Portugal property tax when:2d": {
-  "runs": 24,
-  "items": 34,
-  "score_sum": 1478,
-  "mean_score": 43.5,
+  "runs": 25,
+  "items": 37,
+  "score_sum": 1638,
+  "mean_score": 44.3,
   "up": 0,
   "down": 0,
   "split": 0
@@ -630,8 +630,8 @@
   "split": 0
  },
  "\"الاستثمار العقاري\" أوروبا الخليج when:2d": {
-  "runs": 12,
-  "items": 15,
+  "runs": 13,
+  "items": 16,
   "score_sum": 5,
   "mean_score": 0.3,
   "up": 0,
@@ -639,10 +639,10 @@
   "split": 0
  },
  "\"personal shopper inmobiliario\" when:2d": {
-  "runs": 22,
-  "items": 32,
-  "score_sum": 1071,
-  "mean_score": 33.5,
+  "runs": 23,
+  "items": 33,
+  "score_sum": 1126,
+  "mean_score": 34.1,
   "up": 0,
   "down": 0,
   "split": 0
@@ -693,10 +693,10 @@
   "split": 0
  },
  "\"تملك الأجانب\" إسبانيا OR البرتغال OR اليونان when:2d": {
-  "runs": 10,
-  "items": 18,
+  "runs": 11,
+  "items": 19,
   "score_sum": 30,
-  "mean_score": 1.7,
+  "mean_score": 1.6,
   "up": 0,
   "down": 0,
   "split": 0

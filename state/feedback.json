@@ -1,34 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "dcdaa8de1afe6e4e": {
-   "title": "The foreign home buyer in Spain pays 35% more and increases pressure in areas with less supply",
-   "cat": "DEMAND-FLOW",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-09-27"
-  },
-  "722a1e970c3cf105": {
-   "title": "New asbestos certificate required to sell or rent property in Catalonia",
-   "cat": "REGULATORY",
-   "query": "[feed] spanish_property_insight",
-   "lang": "en",
-   "date": "2026-09-27"
-  },
-  "77009190ecfee789": {
-   "title": "Government parties in new bid to restrict SNS access for non-resident foreigners",
-   "cat": "REGULATORY",
-   "query": "[feed] portugal_resident",
-   "lang": "en",
-   "date": "2026-09-27"
-  },
-  "58694ad9121fd0e0": {
-   "title": "ECC Broadens Beyond Timeshare Into Property Mis-Selling Claims",
-   "cat": "OWNERSHIP-MODEL",
-   "query": "\"cross-border\" property buyers Europe when:2d",
-   "lang": "en",
-   "date": "2026-09-27"
-  },
   "6fb53ddf23ef9851": {
    "title": "Andalusia cuts ITP and expands guarantees for first home",
    "cat": "REGULATORY",
@@ -1267,6 +1239,55 @@
    "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
    "lang": "pt",
    "date": "2026-10-27"
+  },
+  "4c5bf1f22ecbcbdb": {
+   "title": "Portugal records largest house price rise in EU since 2020",
+   "cat": "DEMAND-FLOW",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-10-28"
+  },
+  "2230e9fabe30345f": {
+   "title": "Despite Spanish property market decline, Moroccans maintain leading position",
+   "cat": "DEMAND-FLOW",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-10-28"
+  },
+  "43d94ac57c200634": {
+   "title": "EXCLUSIVE: Why Brits are fleeing London's falling house prices and 'socialist' taxes for Spain's Costa del Sol",
+   "cat": "DEMAND-FLOW",
+   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
+   "lang": "en",
+   "date": "2026-10-28"
+  },
+  "529b02997f16e2a8": {
+   "title": "Home sales rebound 3.4% in August after months of declines: where most, least and what real estate agents think",
+   "cat": "DEMAND-FLOW",
+   "query": "\"personal shopper inmobiliario\" when:2d",
+   "lang": "es",
+   "date": "2026-10-28"
+  },
+  "6b04441f064ff29b": {
+   "title": "Young migrants can qualify for first-home tax exemptions in Portugal",
+   "cat": "REGULATORY",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-10-28"
+  },
+  "609ecc0241599d52": {
+   "title": "Citizenship scandal puts Latvia's 'golden visa' scheme back in spotlight / Article",
+   "cat": "OTHER",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-10-28"
+  },
+  "3c78f4f658cac034": {
+   "title": "Agent Image Announces SiteAI, a Patent-Pending Conversational Commerce Platform for Real Estate",
+   "cat": "CHANNEL",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
+   "lang": "en",
+   "date": "2026-10-28"
   }
  },
  "votes": {}

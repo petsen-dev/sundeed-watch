@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 32,
-  "last_seen": "2026-10-27",
-  "last_headline": "9 Changes to Portugal's Golden Visa Citizenship Timeline Explained"
+  "count": 33,
+  "last_seen": "2026-10-28",
+  "last_headline": "Citizenship scandal puts Latvia's 'golden visa' scheme back in spotlight / Article"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 33,
-  "last_seen": "2026-10-26",
-  "last_headline": "Greece Targets Golden Visa Abuse Over Hidden Rebates"
+  "count": 34,
+  "last_seen": "2026-10-28",
+  "last_headline": "Agent Image Announces SiteAI, a Patent-Pending Conversational Commerce Platform for Real Estate"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 28,
-  "last_seen": "2026-10-27",
-  "last_headline": "International buyers drive more than 70% of Costa Blanca luxury sales"
+  "count": 29,
+  "last_seen": "2026-10-28",
+  "last_headline": "EXCLUSIVE: Why Brits are fleeing London's falling house prices and 'socialist' taxes for Spain's Costa del Sol"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -149,9 +149,9 @@
  "spain-market-slowdown": {
   "label": "Spain Housing Market Slowdown",
   "first_seen": "2026-09-26",
-  "count": 7,
-  "last_seen": "2026-10-26",
-  "last_headline": "Foreign buyers lead Spanish property market slowdown, but latest numbers offers some hope"
+  "count": 8,
+  "last_seen": "2026-10-28",
+  "last_headline": "Home sales rebound 3.4% in August after months of declines: where most, least and what real estate agents think"
  },
  "catalonia-asbestos-cert": {
   "label": "Catalonia Asbestos Certificate",
@@ -177,9 +177,9 @@
  "portugal-nonresident-access": {
   "label": "Portugal Non-Resident Foreigner Access",
   "first_seen": "2026-09-30",
-  "count": 3,
-  "last_seen": "2026-10-21",
-  "last_headline": "Porto students propose temporary ban on non-resident foreigners buying property"
+  "count": 4,
+  "last_seen": "2026-10-28",
+  "last_headline": "Young migrants can qualify for first-home tax exemptions in Portugal"
  },
  "china-outbound-wealth": {
   "label": "China Outbound Wealth Mobility",
@@ -296,9 +296,9 @@
  "spain-buyer-nationality-shift": {
   "label": "Spain Foreign Buyer Nationality Shift",
   "first_seen": "2026-10-16",
-  "count": 5,
-  "last_seen": "2026-10-26",
-  "last_headline": "Moroccans displace Europeans in home purchases in Spain. They also pay less per square metre"
+  "count": 6,
+  "last_seen": "2026-10-28",
+  "last_headline": "Despite Spanish property market decline, Moroccans maintain leading position"
  },
  "portugal-imi-tax": {
   "label": "Portugal IMI Property Tax Rise",
@@ -334,5 +334,12 @@
   "count": 1,
   "last_seen": "2026-10-26",
   "last_headline": "The TEAC eliminates the reinvestment exemption in housing if job relocation abroad delays sale by more than two years"
+ },
+ "portugal-price-growth": {
+  "label": "Portugal EU-Leading Price Growth",
+  "first_seen": "2026-10-28",
+  "count": 1,
+  "last_seen": "2026-10-28",
+  "last_headline": "Portugal records largest house price rise in EU since 2020"
  }
 }
