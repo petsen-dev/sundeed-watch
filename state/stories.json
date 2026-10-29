@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 34,
-  "last_seen": "2026-10-28",
-  "last_headline": "Agent Image Announces SiteAI, a Patent-Pending Conversational Commerce Platform for Real Estate"
+  "count": 35,
+  "last_seen": "2026-10-29",
+  "last_headline": "eXp to roll out new AI-powered platform to UK estate agents"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -100,9 +100,9 @@
  "fractional-ownership-europe": {
   "label": "Fractional Ownership Expansion",
   "first_seen": "2026-09-10",
-  "count": 9,
-  "last_seen": "2026-10-26",
-  "last_headline": "Infinity by Pacaso launches in France to expand luxury home exchange network"
+  "count": 10,
+  "last_seen": "2026-10-29",
+  "last_headline": "Infinity by Pacaso expands into France with luxury second-home exchange network"
  },
  "france-second-home-tax": {
   "label": "France Second-Home Tax Surcharge",
@@ -135,9 +135,9 @@
  "cross-border-mortgage-finance": {
   "label": "Cross-Border Mortgage Financing",
   "first_seen": "2026-09-22",
-  "count": 5,
-  "last_seen": "2026-10-01",
-  "last_headline": "Foreign resident account holders sign 18.1% of mortgage credits for housing"
+  "count": 6,
+  "last_seen": "2026-10-29",
+  "last_headline": "Borrowing costs in France highest in Europe"
  },
  "andalusia-itp-cut": {
   "label": "Andalusia ITP Tax Cut",
@@ -240,9 +240,9 @@
  "spain-political-housing-crisis": {
   "label": "Spain Housing-Driven Political Crisis",
   "first_seen": "2026-10-06",
-  "count": 10,
-  "last_seen": "2026-10-23",
-  "last_headline": "Housing crisis shakes Spain and pushes Sanchez to early elections"
+  "count": 11,
+  "last_seen": "2026-10-29",
+  "last_headline": "Ara Més-Front Ampli puts housing and tourist overcrowding at centre of congressional candidacy"
  },
  "portugal-coastal-protest": {
   "label": "Portugal Coastal Development Backlash",
@@ -268,9 +268,9 @@
  "portugal-housing-protest": {
   "label": "Portugal Housing Cost Protests",
   "first_seen": "2026-10-11",
-  "count": 6,
-  "last_seen": "2026-10-27",
-  "last_headline": "Parliament begins debate on State Budget proposal against a backdrop of housing protests"
+  "count": 7,
+  "last_seen": "2026-10-29",
+  "last_headline": "Thousands of Portuguese protest outside parliament over housing crisis and rising rents"
  },
  "spain-investment-account-tax": {
   "label": "Spain €150k Investment Account Tax Break",
@@ -296,9 +296,9 @@
  "spain-buyer-nationality-shift": {
   "label": "Spain Foreign Buyer Nationality Shift",
   "first_seen": "2026-10-16",
-  "count": 6,
-  "last_seen": "2026-10-28",
-  "last_headline": "Despite Spanish property market decline, Moroccans maintain leading position"
+  "count": 7,
+  "last_seen": "2026-10-29",
+  "last_headline": "Moroccans top the list of foreigners most acquiring properties in Spain"
  },
  "portugal-imi-tax": {
   "label": "Portugal IMI Property Tax Rise",
@@ -338,8 +338,8 @@
  "portugal-price-growth": {
   "label": "Portugal EU-Leading Price Growth",
   "first_seen": "2026-10-28",
-  "count": 1,
-  "last_seen": "2026-10-28",
-  "last_headline": "Portugal records largest house price rise in EU since 2020"
+  "count": 2,
+  "last_seen": "2026-10-29",
+  "last_headline": "One in five luxury homes in Portugal sells in less than a month"
  }
 }

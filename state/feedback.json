@@ -1,62 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "6fb53ddf23ef9851": {
-   "title": "Andalusia cuts ITP and expands guarantees for first home",
-   "cat": "REGULATORY",
-   "query": "intitle:ITP tipo Andalucía OR Valencia OR Baleares when:2d",
-   "lang": "es",
-   "date": "2026-09-28"
-  },
-  "b856bd63a1bfc649": {
-   "title": "The international buyer pays 35% more for housing in Spain and the residential profile gains weight",
-   "cat": "DEMAND-FLOW",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-09-28"
-  },
-  "77b7cb9446ebc8df": {
-   "title": "Housing decree tests Sanchez government amid street pressure",
-   "cat": "REGULATORY",
-   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
-   "lang": "ar",
-   "date": "2026-09-28"
-  },
-  "1d75bfceb5c42073": {
-   "title": "Agent-centric real estate brokerages and the next growth model",
-   "cat": "COMMISSION-MODEL",
-   "query": "\"commission split\" estate agency when:2d",
-   "lang": "en",
-   "date": "2026-09-28"
-  },
-  "3bcbf2c2d9655da0": {
-   "title": "Latvia ends property golden visa as lawmakers target fund route",
-   "cat": "REGULATORY",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-09-28"
-  },
-  "987c0167971a1ca7": {
-   "title": "Italy attracts wealthy Chinese property buyers with food, fashion – and flat tax",
-   "cat": "DEMAND-FLOW",
-   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
-   "lang": "en",
-   "date": "2026-09-28"
-  },
-  "329040c1c0bdfbfa": {
-   "title": "Parliament to debate government's new rental law on Wednesday",
-   "cat": "REGULATORY",
-   "query": "[feed] portugal_resident",
-   "lang": "en",
-   "date": "2026-09-28"
-  },
-  "0f8732540d4006dc": {
-   "title": "Home sales drop 5% during July: change of trend?",
-   "cat": "OTHER",
-   "query": "\"personal shopper inmobiliario\" when:2d",
-   "lang": "es",
-   "date": "2026-09-28"
-  },
   "591d1dc9d819c8ee": {
    "title": "Applications for tourist-rental licences plummet 42% in Madrid",
    "cat": "REGULATORY",
@@ -1288,6 +1232,55 @@
    "query": "ChatGPT OR \"AI agent\" property buying when:2d",
    "lang": "en",
    "date": "2026-10-28"
+  },
+  "698acba7a5c6868c": {
+   "title": "Infinity by Pacaso expands into France with luxury second-home exchange network",
+   "cat": "OWNERSHIP-MODEL",
+   "query": "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d",
+   "lang": "en",
+   "date": "2026-10-29"
+  },
+  "1b0ca0d5d446a1c4": {
+   "title": "One in five luxury homes in Portugal sells in less than a month",
+   "cat": "DEMAND-FLOW",
+   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
+   "lang": "pt",
+   "date": "2026-10-29"
+  },
+  "6815057344bec025": {
+   "title": "Ara Més-Front Ampli puts housing and tourist overcrowding at centre of congressional candidacy",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-10-29"
+  },
+  "96f1cbdbc8b4f2aa": {
+   "title": "Moroccans top the list of foreigners most acquiring properties in Spain",
+   "cat": "DEMAND-FLOW",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-10-29"
+  },
+  "6ae981ea55cbfc7e": {
+   "title": "Thousands of Portuguese protest outside parliament over housing crisis and rising rents",
+   "cat": "REGULATORY",
+   "query": "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d",
+   "lang": "ar",
+   "date": "2026-10-29"
+  },
+  "74a7a9f68f463ea5": {
+   "title": "eXp to roll out new AI-powered platform to UK estate agents",
+   "cat": "CHANNEL",
+   "query": "[feed] property_industry_eye",
+   "lang": "en",
+   "date": "2026-10-29"
+  },
+  "6edd2ecef783f341": {
+   "title": "Borrowing costs in France highest in Europe",
+   "cat": "REGULATORY",
+   "query": "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d",
+   "lang": "ar",
+   "date": "2026-10-29"
   }
  },
  "votes": {}
