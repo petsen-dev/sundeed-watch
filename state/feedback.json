@@ -1,48 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "591d1dc9d819c8ee": {
-   "title": "Applications for tourist-rental licences plummet 42% in Madrid",
-   "cat": "REGULATORY",
-   "query": "\"vivienda de uso turístico\" intitle:licencia OR intitle:moratoria when:2d",
-   "lang": "es",
-   "date": "2026-09-29"
-  },
-  "f23f4975f50bdc5a": {
-   "title": "Deal for evicted Spanish pensioner as PM seeks new housing law",
-   "cat": "REGULATORY",
-   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
-   "lang": "en",
-   "date": "2026-09-29"
-  },
-  "3b3f334261b52f9a": {
-   "title": "ERC endorses housing decree and proposes lowering ITP to 5% in Catalonia",
-   "cat": "REGULATORY",
-   "query": "intitle:ITP tipo Andalucía OR Valencia OR Baleares when:2d",
-   "lang": "es",
-   "date": "2026-09-29"
-  },
-  "67679e9d3aefe9e5": {
-   "title": "Foreign Buyer Pays 35% More for Housing in Spain: Here's How Their Profile Is Changing",
-   "cat": "DEMAND-FLOW",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-09-29"
-  },
-  "4ab0f683ccb61ef7": {
-   "title": "Cross-border real estate investment surges 56% to $72bn",
-   "cat": "DEMAND-FLOW",
-   "query": "\"cross-border\" property buyers Europe when:2d",
-   "lang": "en",
-   "date": "2026-09-29"
-  },
-  "bb44bfd25b2306d1": {
-   "title": "Home sales in Spain down 3% January to July 2026",
-   "cat": "DEMAND-FLOW",
-   "query": "\"personal shopper inmobiliario\" when:2d",
-   "lang": "es",
-   "date": "2026-09-29"
-  },
   "c98074fb001f6dad": {
    "title": "Portugal plans to loosen rental rules as Spain strengthens tenant protections",
    "cat": "REGULATORY",
@@ -1281,6 +1239,55 @@
    "query": "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d",
    "lang": "ar",
    "date": "2026-10-29"
+  },
+  "44a15626442a5f8b": {
+   "title": "Portugal Golden Visa Citizenship Timeline 2026: The New 10-Year Rule Explained",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-10-30"
+  },
+  "6bedb6f296488259": {
+   "title": "Portugal's 2027 budget proposal: key tax, wage and pension changes",
+   "cat": "REGULATORY",
+   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
+   "lang": "en",
+   "date": "2026-10-30"
+  },
+  "d78d56575d2e5692": {
+   "title": "Deco Proteste alerts that homeowners may be paying more IMI than they should",
+   "cat": "REGULATORY",
+   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
+   "lang": "pt",
+   "date": "2026-10-30"
+  },
+  "412f2ab9b7ea87ca": {
+   "title": "One in five luxury homes in Portugal are sold within a month",
+   "cat": "DEMAND-FLOW",
+   "query": "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d",
+   "lang": "ar",
+   "date": "2026-10-30"
+  },
+  "108b10f91d1da4d1": {
+   "title": "Strutt & Parker introduces AI-powered property search in website overhaul",
+   "cat": "CHANNEL",
+   "query": "[feed] property_industry_eye",
+   "lang": "en",
+   "date": "2026-10-30"
+  },
+  "e88169071b4e068a": {
+   "title": "The Sotogrande market is rising, but not accelerating: larger and more expensive houses are selling, not more houses",
+   "cat": "DEMAND-FLOW",
+   "query": "\"compradores extranjeros\" vivienda intitle:datos OR intitle:sube when:2d",
+   "lang": "es",
+   "date": "2026-10-30"
+  },
+  "315fefa2b950b57d": {
+   "title": "Balearics to scrap regional property taxes for under-36s buying a first home",
+   "cat": "REGULATORY",
+   "query": "\"ITP\" OR \"impuesto de transmisiones\" Spain property when:2d",
+   "lang": "en",
+   "date": "2026-10-30"
   }
  },
  "votes": {}

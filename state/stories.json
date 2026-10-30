@@ -2,23 +2,23 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 33,
-  "last_seen": "2026-10-28",
-  "last_headline": "Citizenship scandal puts Latvia's 'golden visa' scheme back in spotlight / Article"
+  "count": 34,
+  "last_seen": "2026-10-30",
+  "last_headline": "Portugal Golden Visa Citizenship Timeline 2026: The New 10-Year Rule Explained"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
   "first_seen": "2026-08-25",
-  "count": 16,
-  "last_seen": "2026-10-21",
-  "last_headline": "There are 2,700 homes for sale in Portugal for over €3,000,000 and this is the buyer profile"
+  "count": 17,
+  "last_seen": "2026-10-30",
+  "last_headline": "One in five luxury homes in Portugal are sold within a month"
  },
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 35,
-  "last_seen": "2026-10-29",
-  "last_headline": "eXp to roll out new AI-powered platform to UK estate agents"
+  "count": 36,
+  "last_seen": "2026-10-30",
+  "last_headline": "Strutt & Parker introduces AI-powered property search in website overhaul"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 29,
-  "last_seen": "2026-10-28",
-  "last_headline": "EXCLUSIVE: Why Brits are fleeing London's falling house prices and 'socialist' taxes for Spain's Costa del Sol"
+  "count": 30,
+  "last_seen": "2026-10-30",
+  "last_headline": "The Sotogrande market is rising, but not accelerating: larger and more expensive houses are selling, not more houses"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -303,9 +303,9 @@
  "portugal-imi-tax": {
   "label": "Portugal IMI Property Tax Rise",
   "first_seen": "2026-10-16",
-  "count": 6,
-  "last_seen": "2026-10-27",
-  "last_headline": "IMI will rise for some owners in 2027, but not by government decision"
+  "count": 7,
+  "last_seen": "2026-10-30",
+  "last_headline": "Deco Proteste alerts that homeowners may be paying more IMI than they should"
  },
  "italy-relocation-incentive": {
   "label": "Italy Rural Relocation Incentives",
@@ -317,9 +317,9 @@
  "balearic-tax-cut": {
   "label": "Balearic Tax Cuts",
   "first_seen": "2026-10-21",
-  "count": 2,
-  "last_seen": "2026-10-26",
-  "last_headline": "Spain's Balearic Islands plan to scrap property purchase taxes for younger buyers"
+  "count": 3,
+  "last_seen": "2026-10-30",
+  "last_headline": "Balearics to scrap regional property taxes for under-36s buying a first home"
  },
  "branded-residences-expansion": {
   "label": "Branded Residences Expansion",
@@ -341,5 +341,12 @@
   "count": 2,
   "last_seen": "2026-10-29",
   "last_headline": "One in five luxury homes in Portugal sells in less than a month"
+ },
+ "portugal-2027-budget": {
+  "label": "Portugal 2027 Budget Proposal",
+  "first_seen": "2026-10-30",
+  "count": 1,
+  "last_seen": "2026-10-30",
+  "last_headline": "Portugal's 2027 budget proposal: key tax, wage and pension changes"
  }
 }
