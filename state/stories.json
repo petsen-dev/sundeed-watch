@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 34,
-  "last_seen": "2026-10-30",
-  "last_headline": "Portugal Golden Visa Citizenship Timeline 2026: The New 10-Year Rule Explained"
+  "count": 35,
+  "last_seen": "2026-10-31",
+  "last_headline": "Why Wealthy Investors Are Eyeing Italy's Golden Visa as Capital Flight Accelerates"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -58,9 +58,9 @@
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
   "first_seen": "2026-09-04",
-  "count": 6,
-  "last_seen": "2026-10-02",
-  "last_headline": "Market in Minutes: European Investment Nowcast – Q3 2026 preliminary results"
+  "count": 7,
+  "last_seen": "2026-10-31",
+  "last_headline": "The super-rich are moving to Athens — what does that mean for everyone else?"
  },
  "portugal-rental-regulation": {
   "label": "Portugal Rental Market Reform",
@@ -268,9 +268,9 @@
  "portugal-housing-protest": {
   "label": "Portugal Housing Cost Protests",
   "first_seen": "2026-10-11",
-  "count": 7,
-  "last_seen": "2026-10-29",
-  "last_headline": "Thousands of Portuguese protest outside parliament over housing crisis and rising rents"
+  "count": 8,
+  "last_seen": "2026-10-31",
+  "last_headline": "Petition pointing path out of escalating property prices on way to parliament"
  },
  "spain-investment-account-tax": {
   "label": "Spain €150k Investment Account Tax Break",
@@ -348,5 +348,19 @@
   "count": 1,
   "last_seen": "2026-10-30",
   "last_headline": "Portugal's 2027 budget proposal: key tax, wage and pension changes"
+ },
+ "capital-transfer-scrutiny": {
+  "label": "Cross-Border Transfer Scrutiny",
+  "first_seen": "2026-10-31",
+  "count": 1,
+  "last_seen": "2026-10-31",
+  "last_headline": "Suspicions of manipulation in licensed transfers to acquire European property trouble the forex office"
+ },
+ "greece-price-growth": {
+  "label": "Greece Price Growth",
+  "first_seen": "2026-10-31",
+  "count": 1,
+  "last_seen": "2026-10-31",
+  "last_headline": "Greek House Prices Rise 5.4% in Second Quarter of 2026"
  }
 }
