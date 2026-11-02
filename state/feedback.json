@@ -1,48 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "378ce2c8c52bd3b9": {
-   "title": "Coalición Canaria agrees to limit home purchases by foreigners in decree voted today in Congress",
-   "cat": "REGULATORY",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-02"
-  },
-  "8f9dff5c38528503": {
-   "title": "Real-estate agencies begin to feel the effects of 'Maricarmen decree': some owners withdrawing ads or halting signings",
-   "cat": "DEMAND-FLOW",
-   "query": "\"personal shopper inmobiliario\" when:2d",
-   "lang": "es",
-   "date": "2026-10-02"
-  },
-  "20d882818de99bef": {
-   "title": "Spain Non-Resident Property Tax: 31 December Deadline",
-   "cat": "REGULATORY",
-   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
-   "lang": "en",
-   "date": "2026-10-02"
-  },
-  "f9511b8f0f6c1dde": {
-   "title": "PASOK calls for VAT-funded fuel tax cut, Golden Visa reform",
-   "cat": "REGULATORY",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-10-02"
-  },
-  "1e8c0aaf0c55133a": {
-   "title": "Indian Parents Can Tap USD 500,000 Annual LRS Quota for Overseas Property",
-   "cat": "DEMAND-FLOW",
-   "query": "\"cross-border\" property buyers Europe when:2d",
-   "lang": "en",
-   "date": "2026-10-02"
-  },
-  "61ad94859aea5434": {
-   "title": "Market in Minutes: European Investment Nowcast – Q3 2026 preliminary results",
-   "cat": "DEMAND-FLOW",
-   "query": "\"cross-border\" property buyers Europe when:2d",
-   "lang": "en",
-   "date": "2026-10-02"
-  },
   "d09ac51fc9c3a8de": {
    "title": "Housing decrees fall, and the option to limit property purchases to non-residents in Canaries",
    "cat": "REGULATORY",
@@ -1225,6 +1183,48 @@
    "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
    "lang": "ar",
    "date": "2026-11-01"
+  },
+  "9d5a39088b07c232": {
+   "title": "Moroccans overtake the British and lead property buyers in Spain",
+   "cat": "DEMAND-FLOW",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-11-02"
+  },
+  "bb5658983b980ab0": {
+   "title": "Foreign buyers are pulling back from Spain's property market – but there are signs of a soft landing on the Costa del Sol, writes Mark Stucklin",
+   "cat": "DEMAND-FLOW",
+   "query": "\"non-resident purchases\" Spain when:2d",
+   "lang": "en",
+   "date": "2026-11-02"
+  },
+  "b609d4aceb538cc3": {
+   "title": "Portugal Golden Visa: the citizenship wait doubles from 5 to 10 years for non-EU investors",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-11-02"
+  },
+  "a0f2c0124a92048e": {
+   "title": "Wealthy Londoners Reshape the Athens Riviera as Greece Courts Non-Doms",
+   "cat": "DEMAND-FLOW",
+   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
+   "lang": "en",
+   "date": "2026-11-02"
+  },
+  "f6f4c5a34dc445e7": {
+   "title": "Thousands of Portuguese protest in Lisbon against new rental law proposal",
+   "cat": "REGULATORY",
+   "query": "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d",
+   "lang": "ar",
+   "date": "2026-11-02"
+  },
+  "fa04b98d1494848e": {
+   "title": "French Property Professionals Assess Potential Impact of 2027 Presidential Election on Buyers",
+   "cat": "REGULATORY",
+   "query": "\"property portal\" intitle:buyers when:2d",
+   "lang": "en",
+   "date": "2026-11-02"
   }
  },
  "votes": {}

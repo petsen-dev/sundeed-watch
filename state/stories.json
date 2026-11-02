@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 35,
-  "last_seen": "2026-10-31",
-  "last_headline": "Why Wealthy Investors Are Eyeing Italy's Golden Visa as Capital Flight Accelerates"
+  "count": 36,
+  "last_seen": "2026-11-02",
+  "last_headline": "Portugal Golden Visa: the citizenship wait doubles from 5 to 10 years for non-EU investors"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -58,9 +58,9 @@
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
   "first_seen": "2026-09-04",
-  "count": 7,
-  "last_seen": "2026-10-31",
-  "last_headline": "The super-rich are moving to Athens — what does that mean for everyone else?"
+  "count": 8,
+  "last_seen": "2026-11-02",
+  "last_headline": "Wealthy Londoners Reshape the Athens Riviera as Greece Courts Non-Doms"
  },
  "portugal-rental-regulation": {
   "label": "Portugal Rental Market Reform",
@@ -149,9 +149,9 @@
  "spain-market-slowdown": {
   "label": "Spain Housing Market Slowdown",
   "first_seen": "2026-09-26",
-  "count": 8,
-  "last_seen": "2026-10-28",
-  "last_headline": "Home sales rebound 3.4% in August after months of declines: where most, least and what real estate agents think"
+  "count": 9,
+  "last_seen": "2026-11-02",
+  "last_headline": "Foreign buyers are pulling back from Spain's property market – but there are signs of a soft landing on the Costa del Sol, writes Mark Stucklin"
  },
  "catalonia-asbestos-cert": {
   "label": "Catalonia Asbestos Certificate",
@@ -268,9 +268,9 @@
  "portugal-housing-protest": {
   "label": "Portugal Housing Cost Protests",
   "first_seen": "2026-10-11",
-  "count": 8,
-  "last_seen": "2026-10-31",
-  "last_headline": "Petition pointing path out of escalating property prices on way to parliament"
+  "count": 9,
+  "last_seen": "2026-11-02",
+  "last_headline": "Thousands of Portuguese protest in Lisbon against new rental law proposal"
  },
  "spain-investment-account-tax": {
   "label": "Spain €150k Investment Account Tax Break",
@@ -296,9 +296,9 @@
  "spain-buyer-nationality-shift": {
   "label": "Spain Foreign Buyer Nationality Shift",
   "first_seen": "2026-10-16",
-  "count": 8,
-  "last_seen": "2026-11-01",
-  "last_headline": "المغاربة يتصدرون مُقتني العقارات في إسبانيا متقدمين على البريطانيين.. والجزائريون أكثر المشترين الأجانب في أليكانتي"
+  "count": 9,
+  "last_seen": "2026-11-02",
+  "last_headline": "Moroccans overtake the British and lead property buyers in Spain"
  },
  "portugal-imi-tax": {
   "label": "Portugal IMI Property Tax Rise",
@@ -362,5 +362,12 @@
   "count": 1,
   "last_seen": "2026-10-31",
   "last_headline": "Greek House Prices Rise 5.4% in Second Quarter of 2026"
+ },
+ "france-political-risk": {
+  "label": "France 2027 Election Property Risk",
+  "first_seen": "2026-11-02",
+  "count": 1,
+  "last_seen": "2026-11-02",
+  "last_headline": "French Property Professionals Assess Potential Impact of 2027 Presidential Election on Buyers"
  }
 }
