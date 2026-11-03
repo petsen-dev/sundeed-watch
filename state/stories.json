@@ -9,16 +9,16 @@
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
   "first_seen": "2026-08-25",
-  "count": 17,
-  "last_seen": "2026-10-30",
-  "last_headline": "One in five luxury homes in Portugal are sold within a month"
+  "count": 18,
+  "last_seen": "2026-11-03",
+  "last_headline": "Portugal chosen as top destination for expatriates"
  },
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 36,
-  "last_seen": "2026-10-30",
-  "last_headline": "Strutt & Parker introduces AI-powered property search in website overhaul"
+  "count": 37,
+  "last_seen": "2026-11-03",
+  "last_headline": "French Riviera House Hunting Introduces Online Resource to Help Americans Choose Where to Buy"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -58,9 +58,9 @@
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
   "first_seen": "2026-09-04",
-  "count": 8,
-  "last_seen": "2026-11-02",
-  "last_headline": "Wealthy Londoners Reshape the Athens Riviera as Greece Courts Non-Doms"
+  "count": 9,
+  "last_seen": "2026-11-03",
+  "last_headline": "110 billion euros in liquidity available for real-estate investment in Europe despite transaction slowdown"
  },
  "portugal-rental-regulation": {
   "label": "Portugal Rental Market Reform",
@@ -296,9 +296,9 @@
  "spain-buyer-nationality-shift": {
   "label": "Spain Foreign Buyer Nationality Shift",
   "first_seen": "2026-10-16",
-  "count": 9,
-  "last_seen": "2026-11-02",
-  "last_headline": "Moroccans overtake the British and lead property buyers in Spain"
+  "count": 10,
+  "last_seen": "2026-11-03",
+  "last_headline": "Algerians lead foreigners in property purchases in Alicante, Spain"
  },
  "portugal-imi-tax": {
   "label": "Portugal IMI Property Tax Rise",
@@ -359,15 +359,22 @@
  "greece-price-growth": {
   "label": "Greece Price Growth",
   "first_seen": "2026-10-31",
-  "count": 1,
-  "last_seen": "2026-10-31",
-  "last_headline": "Greek House Prices Rise 5.4% in Second Quarter of 2026"
+  "count": 2,
+  "last_seen": "2026-11-03",
+  "last_headline": "British and American buyers seek homes in Greece priced at €10,000 per square meter"
  },
  "france-political-risk": {
   "label": "France 2027 Election Property Risk",
   "first_seen": "2026-11-02",
-  "count": 1,
-  "last_seen": "2026-11-02",
+  "count": 2,
+  "last_seen": "2026-11-03",
   "last_headline": "French Property Professionals Assess Potential Impact of 2027 Presidential Election on Buyers"
+ },
+ "france-capital-gains-cut": {
+  "label": "France Second-Home Capital Gains Tax Cut",
+  "first_seen": "2026-11-03",
+  "count": 1,
+  "last_seen": "2026-11-03",
+  "last_headline": "France seeks to boost second home sales by cutting capital gains tax"
  }
 }

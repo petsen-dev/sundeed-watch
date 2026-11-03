@@ -1,48 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "d09ac51fc9c3a8de": {
-   "title": "Housing decrees fall, and the option to limit property purchases to non-residents in Canaries",
-   "cat": "REGULATORY",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-03"
-  },
-  "0d6837118df29355": {
-   "title": "Radical housing decrees defeated as snap election talk grows",
-   "cat": "HEADLINE-GAP",
-   "query": "[feed] spanish_property_insight",
-   "lang": "en",
-   "date": "2026-10-03"
-  },
-  "afac84e1ea52e8ae": {
-   "title": "Inheriting from a brother or sister? Andalucía just dropped your tax bill by 99%",
-   "cat": "REGULATORY",
-   "query": "Spain property tax intitle:scrapped OR intitle:dropped OR intitle:shelved when:2d",
-   "lang": "en",
-   "date": "2026-10-03"
-  },
-  "621b473205a06319": {
-   "title": "Major warning as British expats face huge tax penalty for empty homes in Spain",
-   "cat": "REGULATORY",
-   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
-   "lang": "en",
-   "date": "2026-10-03"
-  },
-  "6776788216774270": {
-   "title": "DeCaro Auctions to Launch Fractional Ownership Model for Upscale Vacation Properties",
-   "cat": "OWNERSHIP-MODEL",
-   "query": "intitle:\"fractional ownership\" property when:2d",
-   "lang": "en",
-   "date": "2026-10-03"
-  },
-  "17466b5fde9f94ca": {
-   "title": "Comporta Beach Resort makes its international debut",
-   "cat": "CHANNEL",
-   "query": "\"international buyers\" Portugal OR Italy property when:2d",
-   "lang": "en",
-   "date": "2026-10-03"
-  },
   "483ace3d4377b7df": {
    "title": "Spain housing crisis erupts.. clashes and mass protests after parliament rejects rent laws",
    "cat": "REGULATORY",
@@ -1225,6 +1183,55 @@
    "query": "\"property portal\" intitle:buyers when:2d",
    "lang": "en",
    "date": "2026-11-02"
+  },
+  "9748c4458df6bcba": {
+   "title": "France seeks to boost second home sales by cutting capital gains tax",
+   "cat": "REGULATORY",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-11-03"
+  },
+  "97719177ac6fc35e": {
+   "title": "French Property Professionals Assess Potential Impact of 2027 Presidential Election on Buyers",
+   "cat": "DEMAND-FLOW",
+   "query": "\"property portal\" intitle:buyers when:2d",
+   "lang": "en",
+   "date": "2026-11-03"
+  },
+  "50eea5cb1078b437": {
+   "title": "British and American buyers seek homes in Greece priced at €10,000 per square meter",
+   "cat": "DEMAND-FLOW",
+   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
+   "lang": "en",
+   "date": "2026-11-03"
+  },
+  "3b4cd2f7bb016576": {
+   "title": "Algerians lead foreigners in property purchases in Alicante, Spain",
+   "cat": "DEMAND-FLOW",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-11-03"
+  },
+  "bedd677349cdc5eb": {
+   "title": "110 billion euros in liquidity available for real-estate investment in Europe despite transaction slowdown",
+   "cat": "OTHER",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-11-03"
+  },
+  "ac260ab9cbb2fde5": {
+   "title": "Portugal chosen as top destination for expatriates",
+   "cat": "DEMAND-FLOW",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-11-03"
+  },
+  "eef5916a37d55d93": {
+   "title": "French Riviera House Hunting Introduces Online Resource to Help Americans Choose Where to Buy",
+   "cat": "CHANNEL",
+   "query": "\"American buyers\" Italy OR Portugal OR Spain property when:2d",
+   "lang": "en",
+   "date": "2026-11-03"
   }
  },
  "votes": {}
