@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 37,
-  "last_seen": "2026-11-03",
-  "last_headline": "French Riviera House Hunting Introduces Online Resource to Help Americans Choose Where to Buy"
+  "count": 38,
+  "last_seen": "2026-11-04",
+  "last_headline": "\"I'm Moving to Portugal\" prepares leap into British market"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -51,9 +51,9 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 20,
-  "last_seen": "2026-10-23",
-  "last_headline": "Spain's housing crackdown targets landlords as eviction crisis deepens"
+  "count": 21,
+  "last_seen": "2026-11-04",
+  "last_headline": "Barcelona's court upholds right to revoke short-term rental licence in Eixample"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
@@ -296,9 +296,9 @@
  "spain-buyer-nationality-shift": {
   "label": "Spain Foreign Buyer Nationality Shift",
   "first_seen": "2026-10-16",
-  "count": 10,
-  "last_seen": "2026-11-03",
-  "last_headline": "Algerians lead foreigners in property purchases in Alicante, Spain"
+  "count": 11,
+  "last_seen": "2026-11-04",
+  "last_headline": "Where do foreigners buying homes in Spain come from and which destinations do they choose?"
  },
  "portugal-imi-tax": {
   "label": "Portugal IMI Property Tax Rise",
@@ -376,5 +376,12 @@
   "count": 1,
   "last_seen": "2026-11-03",
   "last_headline": "France seeks to boost second home sales by cutting capital gains tax"
+ },
+ "canary-islands-residency": {
+  "label": "Canary Islands Resident-Only Housing Push",
+  "first_seen": "2026-11-04",
+  "count": 1,
+  "last_seen": "2026-11-04",
+  "last_headline": "Coalición Canaria demands housing reserved for Canary Islands residents"
  }
 }

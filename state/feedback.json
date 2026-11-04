@@ -1,34 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "483ace3d4377b7df": {
-   "title": "Spain housing crisis erupts.. clashes and mass protests after parliament rejects rent laws",
-   "cat": "REGULATORY",
-   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
-   "lang": "ar",
-   "date": "2026-10-04"
-  },
-  "e903af355f9ba2b9": {
-   "title": "House prices in Spain slow after strong jump (details)",
-   "cat": "DEMAND-FLOW",
-   "query": "\"منصة عقارية\" أوروبا OR إسبانيا when:2d",
-   "lang": "ar",
-   "date": "2026-10-04"
-  },
-  "0371b70fe73ed6e7": {
-   "title": "The countdown to April 2027: UK pensions, inheritance tax and opportunities for expatriates",
-   "cat": "OTHER",
-   "query": "[feed] portugal_resident",
-   "lang": "en",
-   "date": "2026-10-04"
-  },
-  "04957b122fa12ed2": {
-   "title": "House occupation crisis escalating in Europe, states tightening laws",
-   "cat": "REGULATORY",
-   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
-   "lang": "ar",
-   "date": "2026-10-04"
-  },
   "14cd29cfc514a849": {
    "title": "Canarias Tiene un Límite asserts that restricting home purchase by non-residents is insufficient",
    "cat": "REGULATORY",
@@ -1232,6 +1204,34 @@
    "query": "\"American buyers\" Italy OR Portugal OR Spain property when:2d",
    "lang": "en",
    "date": "2026-11-03"
+  },
+  "b613d043f501b79c": {
+   "title": "\"I'm Moving to Portugal\" prepares leap into British market",
+   "cat": "CHANNEL",
+   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
+   "lang": "pt",
+   "date": "2026-11-04"
+  },
+  "dae35179f3636c35": {
+   "title": "Barcelona's court upholds right to revoke short-term rental licence in Eixample",
+   "cat": "REGULATORY",
+   "query": "\"vivienda de uso turístico\" intitle:licencia OR intitle:moratoria when:2d",
+   "lang": "es",
+   "date": "2026-11-04"
+  },
+  "d387a282b68ee499": {
+   "title": "Coalición Canaria demands housing reserved for Canary Islands residents",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-04"
+  },
+  "e08e9b78998e82f8": {
+   "title": "Where do foreigners buying homes in Spain come from and which destinations do they choose?",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-04"
   }
  },
  "votes": {}
