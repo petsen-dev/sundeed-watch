@@ -2,30 +2,30 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 36,
-  "last_seen": "2026-11-02",
-  "last_headline": "Portugal Golden Visa: the citizenship wait doubles from 5 to 10 years for non-EU investors"
+  "count": 37,
+  "last_seen": "2026-11-05",
+  "last_headline": "Portugal Approves €31.35 Million for Residence Permit Production"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
   "first_seen": "2026-08-25",
-  "count": 18,
-  "last_seen": "2026-11-03",
-  "last_headline": "Portugal chosen as top destination for expatriates"
+  "count": 19,
+  "last_seen": "2026-11-05",
+  "last_headline": "Portugal attracts 2 billion euros of real estate investment"
  },
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 38,
-  "last_seen": "2026-11-04",
-  "last_headline": "\"I'm Moving to Portugal\" prepares leap into British market"
+  "count": 39,
+  "last_seen": "2026-11-05",
+  "last_headline": "Upfront property information could unlock faster offers, survey suggests"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
   "first_seen": "2026-08-25",
-  "count": 17,
-  "last_seen": "2026-10-19",
-  "last_headline": "Brits in Spain beware UK tax on rent, property sales and pensions"
+  "count": 18,
+  "last_seen": "2026-11-05",
+  "last_headline": "Why more UK property investors are looking beyond Britain"
  },
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
@@ -58,9 +58,9 @@
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
   "first_seen": "2026-09-04",
-  "count": 9,
-  "last_seen": "2026-11-03",
-  "last_headline": "110 billion euros in liquidity available for real-estate investment in Europe despite transaction slowdown"
+  "count": 10,
+  "last_seen": "2026-11-05",
+  "last_headline": "Real estate investments: Poland jumps 90%, Spain records 16.8 billion euros, Germany declines"
  },
  "portugal-rental-regulation": {
   "label": "Portugal Rental Market Reform",
@@ -380,8 +380,15 @@
  "canary-islands-residency": {
   "label": "Canary Islands Resident-Only Housing Push",
   "first_seen": "2026-11-04",
+  "count": 2,
+  "last_seen": "2026-11-05",
+  "last_headline": "29-N: CC insists on limiting home purchases in Canarias without obtaining Madrid's response"
+ },
+ "france-second-home-tax-bills": {
+  "label": "France Second-Home Tax Bills",
+  "first_seen": "2026-11-05",
   "count": 1,
-  "last_seen": "2026-11-04",
-  "last_headline": "Coalición Canaria demands housing reserved for Canary Islands residents"
+  "last_seen": "2026-11-05",
+  "last_headline": "French second-home tax bills have begun arriving: what you need to know"
  }
 }

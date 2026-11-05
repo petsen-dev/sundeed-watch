@@ -1,48 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "14cd29cfc514a849": {
-   "title": "Canarias Tiene un Límite asserts that restricting home purchase by non-residents is insufficient",
-   "cat": "REGULATORY",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-05"
-  },
-  "ec4379bbf33a5fe4": {
-   "title": "Évora Properties; Nicolás Castaños's new bet to transform the understanding of luxury real estate",
-   "cat": "CHANNEL",
-   "query": "\"personal shopper inmobiliario\" when:2d",
-   "lang": "es",
-   "date": "2026-10-05"
-  },
-  "65062ac1c037e9eb": {
-   "title": "New tax relief announced by Juanma Moreno: lower IRPF, lower ITP and aid for glasses and rent",
-   "cat": "REGULATORY",
-   "query": "intitle:ITP tipo Andalucía OR Valencia OR Baleares when:2d",
-   "lang": "es",
-   "date": "2026-10-05"
-  },
-  "e276dbf4b668e3dc": {
-   "title": "Billionaire property tycoon quits UK as wealthy investors head overseas",
-   "cat": "DEMAND-FLOW",
-   "query": "[feed] property_industry_eye",
-   "lang": "en",
-   "date": "2026-10-05"
-  },
-  "01478da1f95a8481": {
-   "title": "Home sales fall 7.1% to 353,557 units in the semester",
-   "cat": "DEMAND-FLOW",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-05"
-  },
-  "95a3ca636e56dab8": {
-   "title": "House prices in Europe rise; Portugal leads gains",
-   "cat": "DEMAND-FLOW",
-   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
-   "lang": "ar",
-   "date": "2026-10-05"
-  },
   "62d2c692fe65bc2d": {
    "title": "Ayuso cuts transfer tax (ITP) to 4% and IAJD to 0.4% for under-40s: Madrid's biggest tax cut",
    "cat": "REGULATORY",
@@ -1232,6 +1190,55 @@
    "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
    "lang": "es",
    "date": "2026-11-04"
+  },
+  "ffa1b773f5387930": {
+   "title": "French second-home tax bills have begun arriving: what you need to know",
+   "cat": "REGULATORY",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-11-05"
+  },
+  "896c849ed249d14e": {
+   "title": "29-N: CC insists on limiting home purchases in Canarias without obtaining Madrid's response",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-05"
+  },
+  "84ecc54d2d6d4880": {
+   "title": "Real estate investments: Poland jumps 90%, Spain records 16.8 billion euros, Germany declines",
+   "cat": "DEMAND-FLOW",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-11-05"
+  },
+  "f53b5effe5705116": {
+   "title": "Portugal Approves €31.35 Million for Residence Permit Production",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-11-05"
+  },
+  "0c4f58ce29e86835": {
+   "title": "Portugal attracts 2 billion euros of real estate investment",
+   "cat": "DEMAND-FLOW",
+   "query": "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d",
+   "lang": "ar",
+   "date": "2026-11-05"
+  },
+  "42edea063f314e89": {
+   "title": "Why more UK property investors are looking beyond Britain",
+   "cat": "DEMAND-FLOW",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-11-05"
+  },
+  "349af47741c6ca09": {
+   "title": "Upfront property information could unlock faster offers, survey suggests",
+   "cat": "UPFUNNEL",
+   "query": "[feed] property_industry_eye",
+   "lang": "en",
+   "date": "2026-11-05"
   }
  },
  "votes": {}
