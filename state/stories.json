@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 39,
-  "last_seen": "2026-11-05",
-  "last_headline": "Upfront property information could unlock faster offers, survey suggests"
+  "count": 40,
+  "last_seen": "2026-11-06",
+  "last_headline": "Propy to Release AI Agent Avery 2.0 on November 18th"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -51,16 +51,16 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 21,
-  "last_seen": "2026-11-04",
-  "last_headline": "Barcelona's court upholds right to revoke short-term rental licence in Eixample"
+  "count": 22,
+  "last_seen": "2026-11-06",
+  "last_headline": "The rental business moves: profitability flees Madrid and Barcelona, takes refuge in small cities"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
   "first_seen": "2026-09-04",
-  "count": 10,
-  "last_seen": "2026-11-05",
-  "last_headline": "Real estate investments: Poland jumps 90%, Spain records 16.8 billion euros, Germany declines"
+  "count": 11,
+  "last_seen": "2026-11-06",
+  "last_headline": "Europe gets the thumbs up from global investors - flow"
  },
  "portugal-rental-regulation": {
   "label": "Portugal Rental Market Reform",
@@ -72,9 +72,9 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 28,
-  "last_seen": "2026-10-27",
-  "last_headline": "Foreign Property Purchase Ban Ends Jan 1 2027"
+  "count": 29,
+  "last_seen": "2026-11-06",
+  "last_headline": "Progressive candidacy for Senate wants to restrict home purchases in Ibiza to non-residents"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
