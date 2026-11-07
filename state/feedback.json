@@ -1,34 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "b6de2af327619a5f": {
-   "title": "Non-Resident Property Tax in Spain: what's changing in 2027",
-   "cat": "REGULATORY",
-   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
-   "lang": "en",
-   "date": "2026-10-07"
-  },
-  "976cb4b9b3474b0e": {
-   "title": "After widespread protests.. Spain enacts 21 measures to tackle housing crisis",
-   "cat": "REGULATORY",
-   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "lang": "ar",
-   "date": "2026-10-07"
-  },
-  "b78a265e437f4548": {
-   "title": "Greece Proposes Excluding Real Estate from 'Golden Visa' Program",
-   "cat": "REGULATORY",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-10-07"
-  },
-  "98877e38fe5816a8": {
-   "title": "EYE NEWS UPDATE: TPFG takes 25% stake in estate agency AI platform",
-   "cat": "CHANNEL",
-   "query": "[feed] property_industry_eye",
-   "lang": "en",
-   "date": "2026-10-07"
-  },
   "0ed6663ded61f721": {
    "title": "Sánchez 'forgets' CC in new housing decrees: neither foreign-buyer controls nor administrative silence",
    "cat": "REGULATORY",
@@ -1197,6 +1169,41 @@
    "query": "ChatGPT OR \"AI agent\" property buying when:2d",
    "lang": "en",
    "date": "2026-11-06"
+  },
+  "caeb551fdb3a0dcf": {
+   "title": "Barcelona opens door to restricting short-term rental while contracts fall 40.5% in Catalonia",
+   "cat": "REGULATORY",
+   "query": "\"personal shopper inmobiliario\" when:2d",
+   "lang": "es",
+   "date": "2026-11-07"
+  },
+  "716f7bb2e50a2ca6": {
+   "title": "Juanjo Ferrer proposes limiting home purchase to non-residents and rejects expanding Ibiza airport",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-07"
+  },
+  "367a75098cd53135": {
+   "title": "Portugal to prioritise Golden Visa applications in 2027",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-11-07"
+  },
+  "a1c5d60122ecb343": {
+   "title": "Foreigners buy 16% of homes in Spain as prices reach all-time highs",
+   "cat": "DEMAND-FLOW",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-11-07"
+  },
+  "20422c8ff14bb034": {
+   "title": "Barcelona rent controls: Prices under control, tenants locked out",
+   "cat": "REGULATORY",
+   "query": "[feed] spanish_property_insight",
+   "lang": "en",
+   "date": "2026-11-07"
   }
  },
  "votes": {}
