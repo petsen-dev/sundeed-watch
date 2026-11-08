@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 38,
-  "last_seen": "2026-11-07",
-  "last_headline": "Portugal to prioritise Golden Visa applications in 2027"
+  "count": 39,
+  "last_seen": "2026-11-08",
+  "last_headline": "Golden Visa and Citizenship by Investment Processing Times"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 40,
-  "last_seen": "2026-11-06",
-  "last_headline": "Propy to Release AI Agent Avery 2.0 on November 18th"
+  "count": 41,
+  "last_seen": "2026-11-08",
+  "last_headline": "Sierra Rockwell used ChatGPT for 1 in 5 buyers in False Advertising Ai Home Listings"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -135,9 +135,9 @@
  "cross-border-mortgage-finance": {
   "label": "Cross-Border Mortgage Financing",
   "first_seen": "2026-09-22",
-  "count": 6,
-  "last_seen": "2026-10-29",
-  "last_headline": "Borrowing costs in France highest in Europe"
+  "count": 7,
+  "last_seen": "2026-11-08",
+  "last_headline": "Spanish mortgage demand suffers sharpest decline in three years"
  },
  "andalusia-itp-cut": {
   "label": "Andalusia ITP Tax Cut",
@@ -390,5 +390,12 @@
   "count": 1,
   "last_seen": "2026-11-05",
   "last_headline": "French second-home tax bills have begun arriving: what you need to know"
+ },
+ "greece-crypto-tax": {
+  "label": "Greece Crypto Tax Law",
+  "first_seen": "2026-11-08",
+  "count": 1,
+  "last_seen": "2026-11-08",
+  "last_headline": "Greece Crypto Tax Law Passes With 10% Rate on Gains"
  }
 }
