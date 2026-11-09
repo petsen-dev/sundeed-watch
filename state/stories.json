@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 41,
-  "last_seen": "2026-11-08",
-  "last_headline": "Sierra Rockwell used ChatGPT for 1 in 5 buyers in False Advertising Ai Home Listings"
+  "count": 42,
+  "last_seen": "2026-11-09",
+  "last_headline": "House-Hunters Misled by AI-Generated Property Photos on Rightmove, With Complaints of False Advertising"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -37,9 +37,9 @@
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
   "first_seen": "2026-08-28",
-  "count": 6,
-  "last_seen": "2026-10-13",
-  "last_headline": "Municipalities receive more IMI and IMT revenue this year – but less in 2027"
+  "count": 7,
+  "last_seen": "2026-11-09",
+  "last_headline": "Bought a house with Young IMT exemption? A job change may force you to repay the tax benefit"
  },
  "ecb-rate-outlook": {
   "label": "ECB Rate Trajectory",
@@ -58,9 +58,9 @@
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
   "first_seen": "2026-09-04",
-  "count": 11,
-  "last_seen": "2026-11-06",
-  "last_headline": "Europe gets the thumbs up from global investors - flow"
+  "count": 12,
+  "last_seen": "2026-11-09",
+  "last_headline": "Foreign Buyers Drive Luxury Boom on Athens Riviera"
  },
  "portugal-rental-regulation": {
   "label": "Portugal Rental Market Reform",
@@ -240,9 +240,9 @@
  "spain-political-housing-crisis": {
   "label": "Spain Housing-Driven Political Crisis",
   "first_seen": "2026-10-06",
-  "count": 12,
-  "last_seen": "2026-11-01",
-  "last_headline": "Alfonso Cabello: \"Housing in the Canary Islands must be first for Canarians\""
+  "count": 13,
+  "last_seen": "2026-11-09",
+  "last_headline": "Ada Colau proposes 10% tax on large property owners in Palma"
  },
  "portugal-coastal-protest": {
   "label": "Portugal Coastal Development Backlash",

@@ -1,9 +1,9 @@
 {
  "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d": {
-  "runs": 49,
-  "items": 75,
-  "score_sum": 3083,
-  "mean_score": 41.1,
+  "runs": 50,
+  "items": 77,
+  "score_sum": 3156,
+  "mean_score": 41.0,
   "up": 0,
   "down": 0,
   "split": 0
@@ -18,19 +18,19 @@
   "split": 0
  },
  "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d": {
-  "runs": 89,
-  "items": 267,
-  "score_sum": 6472,
-  "mean_score": 24.2,
+  "runs": 90,
+  "items": 273,
+  "score_sum": 6492,
+  "mean_score": 23.8,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"سوق العقارات\" إسبانيا OR البرتغال when:2d": {
-  "runs": 82,
-  "items": 218,
-  "score_sum": 3629,
-  "mean_score": 16.6,
+  "runs": 83,
+  "items": 220,
+  "score_sum": 3637,
+  "mean_score": 16.5,
   "up": 0,
   "down": 0,
   "split": 0
@@ -45,9 +45,9 @@
   "split": 0
  },
  "ChatGPT OR \"AI agent\" property buying when:2d": {
-  "runs": 85,
-  "items": 410,
-  "score_sum": 3774,
+  "runs": 86,
+  "items": 414,
+  "score_sum": 3801,
   "mean_score": 9.2,
   "up": 0,
   "down": 0,
@@ -63,9 +63,9 @@
   "split": 0
  },
  "\"الذكاء الاصطناعي\" عقارات أوروبا when:2d": {
-  "runs": 92,
-  "items": 370,
-  "score_sum": 1529,
+  "runs": 93,
+  "items": 372,
+  "score_sum": 1534,
   "mean_score": 4.1,
   "up": 0,
   "down": 0,
@@ -81,10 +81,10 @@
   "split": 0
  },
  "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d": {
-  "runs": 84,
-  "items": 225,
-  "score_sum": 8418,
-  "mean_score": 37.4,
+  "runs": 85,
+  "items": 228,
+  "score_sum": 8493,
+  "mean_score": 37.2,
   "up": 0,
   "down": 0,
   "split": 0
@@ -99,17 +99,17 @@
   "split": 0
  },
  "\"foreign buyer\" intitle:ban OR intitle:restriction property when:2d": {
-  "runs": 29,
-  "items": 47,
+  "runs": 30,
+  "items": 48,
   "score_sum": 426,
-  "mean_score": 9.1,
+  "mean_score": 8.9,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"second home\" intitle:tax OR intitle:premium when:2d": {
-  "runs": 87,
-  "items": 390,
+  "runs": 88,
+  "items": 393,
   "score_sum": 2655,
   "mean_score": 6.8,
   "up": 0,
@@ -126,27 +126,27 @@
   "split": 0
  },
  "\"cross-border\" property buyers Europe when:2d": {
-  "runs": 81,
-  "items": 238,
-  "score_sum": 1874,
-  "mean_score": 7.9,
+  "runs": 82,
+  "items": 240,
+  "score_sum": 1879,
+  "mean_score": 7.8,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"commission split\" estate agency when:2d": {
-  "runs": 37,
-  "items": 40,
-  "score_sum": 258,
-  "mean_score": 6.5,
+  "runs": 38,
+  "items": 41,
+  "score_sum": 278,
+  "mean_score": 6.8,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "[feed] portugal_resident": {
-  "runs": 95,
-  "items": 861,
-  "score_sum": 3695,
+  "runs": 96,
+  "items": 871,
+  "score_sum": 3710,
   "mean_score": 4.3,
   "up": 0,
   "down": 0,
@@ -180,9 +180,9 @@
   "split": 0
  },
  "[feed] property_industry_eye": {
-  "runs": 71,
-  "items": 777,
-  "score_sum": 6781,
+  "runs": 72,
+  "items": 787,
+  "score_sum": 6836,
   "mean_score": 8.7,
   "up": 0,
   "down": 0,
@@ -450,8 +450,8 @@
   "split": 0
  },
  "site:alarabiya.net عقارات أوروبا OR إسبانيا OR البرتغال when:2d": {
-  "runs": 81,
-  "items": 2028,
+  "runs": 82,
+  "items": 2040,
   "score_sum": 2129,
   "mean_score": 1.0,
   "up": 0,
@@ -459,9 +459,9 @@
   "split": 0
  },
  "site:aawsat.com عقارات أوروبا when:2d": {
-  "runs": 81,
-  "items": 2434,
-  "score_sum": 2608,
+  "runs": 82,
+  "items": 2483,
+  "score_sum": 2638,
   "mean_score": 1.1,
   "up": 0,
   "down": 0,
@@ -486,10 +486,10 @@
   "split": 0
  },
  "\"compradores extranjeros\" vivienda intitle:datos OR intitle:sube when:2d": {
-  "runs": 11,
-  "items": 12,
-  "score_sum": 400,
-  "mean_score": 33.3,
+  "runs": 12,
+  "items": 13,
+  "score_sum": 420,
+  "mean_score": 32.3,
   "up": 0,
   "down": 0,
   "split": 0
@@ -522,19 +522,19 @@
   "split": 0
  },
  "\"property portal\" intitle:buyers when:2d": {
-  "runs": 18,
-  "items": 18,
+  "runs": 19,
+  "items": 19,
   "score_sum": 445,
-  "mean_score": 24.7,
+  "mean_score": 23.4,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d": {
-  "runs": 25,
-  "items": 34,
+  "runs": 26,
+  "items": 35,
   "score_sum": 609,
-  "mean_score": 17.9,
+  "mean_score": 17.4,
   "up": 0,
   "down": 0,
   "split": 0
@@ -549,10 +549,10 @@
   "split": 0
  },
  "intitle:IMT OR intitle:IMI alteração imóveis when:2d": {
-  "runs": 29,
-  "items": 42,
-  "score_sum": 1895,
-  "mean_score": 45.1,
+  "runs": 30,
+  "items": 45,
+  "score_sum": 2020,
+  "mean_score": 44.9,
   "up": 0,
   "down": 0,
   "split": 0
@@ -567,18 +567,18 @@
   "split": 0
  },
  "\"IMT\" OR \"IMI\" Portugal property tax when:2d": {
-  "runs": 29,
-  "items": 41,
-  "score_sum": 1788,
-  "mean_score": 43.6,
+  "runs": 30,
+  "items": 42,
+  "score_sum": 1838,
+  "mean_score": 43.8,
   "up": 0,
   "down": 0,
   "split": 0
  },
  "\"AI assistant\" property search intitle:launch when:2d": {
-  "runs": 31,
-  "items": 52,
-  "score_sum": 260,
+  "runs": 32,
+  "items": 53,
+  "score_sum": 265,
   "mean_score": 5.0,
   "up": 0,
   "down": 0,
@@ -594,10 +594,10 @@
   "split": 0
  },
  "\"المستثمرون الخليجيون\" أوروبا OR إسبانيا OR البرتغال when:2d": {
-  "runs": 19,
-  "items": 24,
+  "runs": 20,
+  "items": 25,
   "score_sum": 117,
-  "mean_score": 4.9,
+  "mean_score": 4.7,
   "up": 0,
   "down": 0,
   "split": 0
@@ -684,8 +684,8 @@
   "split": 0
  },
  "housing bill intitle:stalled OR intitle:delayed Spain OR Portugal when:2d": {
-  "runs": 2,
-  "items": 2,
+  "runs": 3,
+  "items": 3,
   "score_sum": 0,
   "mean_score": 0.0,
   "up": 0,

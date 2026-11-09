@@ -1,55 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "de13c606a4ee3142": {
-   "title": "There are 37% fewer short-term rental places in Lisbon compared to 2025",
-   "cat": "REGULATORY",
-   "query": "\"الإيجار قصير الأجل\" إسبانيا OR البرتغال when:2d",
-   "lang": "ar",
-   "date": "2026-10-09"
-  },
-  "ea8dc065c8b6a00e": {
-   "title": "Spain announced 21 emergency measures for housing.",
-   "cat": "REGULATORY",
-   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "lang": "ar",
-   "date": "2026-10-09"
-  },
-  "e8fbad9a5f08ffa6": {
-   "title": "OE2027 for young people: Young IMT exemption rises, Young IRS and public guarantee continue",
-   "cat": "REGULATORY",
-   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
-   "lang": "pt",
-   "date": "2026-10-09"
-  },
-  "2df439e314d1711d": {
-   "title": "Greece's Golden Visa approvals nearly doubled in 2025 as applications fell",
-   "cat": "DEMAND-FLOW",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-10-09"
-  },
-  "c9ddc8dbed9991b9": {
-   "title": "Spanish house prices rise 9pc but market growth stalls in H1 2026",
-   "cat": "DEMAND-FLOW",
-   "query": "[feed] spanish_property_insight",
-   "lang": "en",
-   "date": "2026-10-09"
-  },
-  "898e1f8f12695467": {
-   "title": "Holiday let profits wiped out under planned Labour tax grab",
-   "cat": "HEADLINE-GAP",
-   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
-   "lang": "en",
-   "date": "2026-10-09"
-  },
-  "feaa0ead0c86cb21": {
-   "title": "The buyer agent commission mistake that could cost you",
-   "cat": "COMMISSION-MODEL",
-   "query": "intitle:\"buyer agent\" commission when:2d",
-   "lang": "en",
-   "date": "2026-10-09"
-  },
   "ce3d9768601f2d5b": {
    "title": "IBI on vacation homes up to 150% more expensive",
    "cat": "REGULATORY",
@@ -1183,6 +1134,34 @@
    "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
    "lang": "en",
    "date": "2026-11-08"
+  },
+  "85be6ba112f08974": {
+   "title": "Foreign Buyers Drive Luxury Boom on Athens Riviera",
+   "cat": "DEMAND-FLOW",
+   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
+   "lang": "en",
+   "date": "2026-11-09"
+  },
+  "e08c6ddbc06490bd": {
+   "title": "House-Hunters Misled by AI-Generated Property Photos on Rightmove, With Complaints of False Advertising",
+   "cat": "CHANNEL",
+   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
+   "lang": "en",
+   "date": "2026-11-09"
+  },
+  "961869d77ec49e30": {
+   "title": "Ada Colau proposes 10% tax on large property owners in Palma",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-09"
+  },
+  "ea107b134548a78f": {
+   "title": "Bought a house with Young IMT exemption? A job change may force you to repay the tax benefit",
+   "cat": "REGULATORY",
+   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
+   "lang": "pt",
+   "date": "2026-11-09"
   }
  },
  "votes": {}
