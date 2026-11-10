@@ -1,48 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "ce3d9768601f2d5b": {
-   "title": "IBI on vacation homes up to 150% more expensive",
-   "cat": "REGULATORY",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-10"
-  },
-  "0019d763ad5d26d1": {
-   "title": "The changes to Spain's IRNR non-resident property tax in 2027",
-   "cat": "REGULATORY",
-   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
-   "lang": "en",
-   "date": "2026-10-10"
-  },
-  "729eb1fa8f32d535": {
-   "title": "IMT brackets for 2027",
-   "cat": "REGULATORY",
-   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
-   "lang": "pt",
-   "date": "2026-10-10"
-  },
-  "ca012c911e0ce95d": {
-   "title": "Optimize Converts Its €435 Million Portugal Golden Visa Fund Into an Umbrella",
-   "cat": "OWNERSHIP-MODEL",
-   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
-   "lang": "en",
-   "date": "2026-10-10"
-  },
-  "b5ee346b09f988a4": {
-   "title": "PropertyMe links Claude and ChatGPT to live agency data with AiMe Connect",
-   "cat": "CHANNEL",
-   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
-   "lang": "en",
-   "date": "2026-10-10"
-  },
-  "e2100de2bca21145": {
-   "title": "Frontrunner Le Pen Pledges to Scrap France's Property Wealth Tax for a Levy on Financial Wealth",
-   "cat": "HEADLINE-GAP",
-   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
-   "lang": "en",
-   "date": "2026-10-10"
-  },
   "4f62b8d2ce815daa": {
    "title": "Escalating protests in Spain over housing crisis after parliament rejects two government housing bills",
    "cat": "REGULATORY",
@@ -1162,6 +1120,69 @@
    "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
    "lang": "pt",
    "date": "2026-11-09"
+  },
+  "f24852f3183d94c2": {
+   "title": "Portugal's Governing Parties Propose Tighter Golden Visa Fund Rules, New €250,000 Social Route",
+   "cat": "REGULATORY",
+   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
+   "lang": "en",
+   "date": "2026-11-10"
+  },
+  "f47746ac935fde94": {
+   "title": "Greece's Proposed 15% Property Transfer Tax Reaches Parliament",
+   "cat": "HEADLINE-GAP",
+   "query": "intitle:\"transfer tax\" Spain OR Portugal OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-11-10"
+  },
+  "171666ff44b8b4c9": {
+   "title": "How to become a real estate agent in Spain? Conditions and steps to start working independently",
+   "cat": "REGULATORY",
+   "query": "\"الوساطة العقارية\" أوروبا OR إسبانيا when:2d",
+   "lang": "ar",
+   "date": "2026-11-10"
+  },
+  "a90faeb8b7bb5a6b": {
+   "title": "Short-term and room rentals now exceed residential rental listings in Spanish capitals",
+   "cat": "REGULATORY",
+   "query": "\"personal shopper inmobiliario\" when:2d",
+   "lang": "es",
+   "date": "2026-11-10"
+  },
+  "140c1b660afe853c": {
+   "title": "Home sales fall 11% in Alicante and Elche while prices rise up to 16.6%",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-10"
+  },
+  "04ec55451f43488d": {
+   "title": "Canaries finalize new Housing Plan with more rental and first-time buyer aid for youth",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-10"
+  },
+  "01ddbeb89d5092c6": {
+   "title": "A job change could affect tax exemption for homes bought under IMT Jovem",
+   "cat": "REGULATORY",
+   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
+   "lang": "en",
+   "date": "2026-11-10"
+  },
+  "7d9e2ad9de585f24": {
+   "title": "Five keys to understanding Spain's housing crisis before November 11 general strike",
+   "cat": "HEADLINE-GAP",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-10"
+  },
+  "d75b76ef516a8c7a": {
+   "title": "Spain's house prices outpace EU average for fourth consecutive year",
+   "cat": "DEMAND-FLOW",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-11-10"
   }
  },
  "votes": {}
