@@ -1,27 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "4f62b8d2ce815daa": {
-   "title": "Escalating protests in Spain over housing crisis after parliament rejects two government housing bills",
-   "cat": "REGULATORY",
-   "query": "site:aawsat.com عقارات أوروبا when:2d",
-   "lang": "ar",
-   "date": "2026-10-11"
-  },
-  "5b8fa8c1796c1e01": {
-   "title": "Thousands protest in Portugal over rising living and housing costs",
-   "cat": "DEMAND-FLOW",
-   "query": "[feed] portugal_resident",
-   "lang": "en",
-   "date": "2026-10-11"
-  },
-  "7da0d47a93f65ee5": {
-   "title": "Young homebuyers could save on property taxes in 2027",
-   "cat": "REGULATORY",
-   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
-   "lang": "en",
-   "date": "2026-10-11"
-  },
   "c82666bec2db5c93": {
    "title": "Treasury gives first backing to reform that eases housing access",
    "cat": "REGULATORY",
@@ -1183,6 +1162,55 @@
    "query": "\"international buyers\" Portugal OR Italy property when:2d",
    "lang": "en",
    "date": "2026-11-10"
+  },
+  "758eb2fbdc0291a2": {
+   "title": "Italy's 2027 Budget Law: tax changes and property incentives",
+   "cat": "REGULATORY",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-11-11"
+  },
+  "12e500a6267dcf0e": {
+   "title": "Portugal's Governing Parties Propose Stricter Golden Visa Fund Rules, New €250,000 Route",
+   "cat": "OTHER",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-11-11"
+  },
+  "a18aedb145304af7": {
+   "title": "Rent consumes 98.7% of youth salaries: general strike ignites Spain before snap elections",
+   "cat": "REGULATORY",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-11-11"
+  },
+  "48066346b78ae867": {
+   "title": "More IMI on vacant properties? Left-wing parties want to give power to tax authority",
+   "cat": "HEADLINE-GAP",
+   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
+   "lang": "pt",
+   "date": "2026-11-11"
+  },
+  "2bc84f5968c11275": {
+   "title": "Canary Islands finalizes new Housing Plan with more rental aid and first-time buyer support for youth",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-11"
+  },
+  "d82db6b5ccb15072": {
+   "title": "Young IMT: changing jobs and workplace location may cost tax exemption",
+   "cat": "REGULATORY",
+   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
+   "lang": "pt",
+   "date": "2026-11-11"
+  },
+  "0034ef92b01b6655": {
+   "title": "Temporary rentals and room rentals now exceed residential rental listings in capitals",
+   "cat": "DEMAND-FLOW",
+   "query": "\"personal shopper inmobiliario\" when:2d",
+   "lang": "es",
+   "date": "2026-11-11"
   }
  },
  "votes": {}

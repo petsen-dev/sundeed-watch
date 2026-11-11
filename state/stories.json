@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 40,
-  "last_seen": "2026-11-10",
-  "last_headline": "Portugal's Governing Parties Propose Tighter Golden Visa Fund Rules, New €250,000 Social Route"
+  "count": 41,
+  "last_seen": "2026-11-11",
+  "last_headline": "Portugal's Governing Parties Propose Stricter Golden Visa Fund Rules, New €250,000 Route"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -37,9 +37,9 @@
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
   "first_seen": "2026-08-28",
-  "count": 8,
-  "last_seen": "2026-11-10",
-  "last_headline": "A job change could affect tax exemption for homes bought under IMT Jovem"
+  "count": 9,
+  "last_seen": "2026-11-11",
+  "last_headline": "Young IMT: changing jobs and workplace location may cost tax exemption"
  },
  "ecb-rate-outlook": {
   "label": "ECB Rate Trajectory",
@@ -51,9 +51,9 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 24,
-  "last_seen": "2026-11-10",
-  "last_headline": "Short-term and room rentals now exceed residential rental listings in Spanish capitals"
+  "count": 25,
+  "last_seen": "2026-11-11",
+  "last_headline": "Temporary rentals and room rentals now exceed residential rental listings in capitals"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
@@ -240,9 +240,9 @@
  "spain-political-housing-crisis": {
   "label": "Spain Housing-Driven Political Crisis",
   "first_seen": "2026-10-06",
-  "count": 14,
-  "last_seen": "2026-11-10",
-  "last_headline": "Five keys to understanding Spain's housing crisis before November 11 general strike"
+  "count": 15,
+  "last_seen": "2026-11-11",
+  "last_headline": "Rent consumes 98.7% of youth salaries: general strike ignites Spain before snap elections"
  },
  "portugal-coastal-protest": {
   "label": "Portugal Coastal Development Backlash",
@@ -303,9 +303,9 @@
  "portugal-imi-tax": {
   "label": "Portugal IMI Property Tax Rise",
   "first_seen": "2026-10-16",
-  "count": 7,
-  "last_seen": "2026-10-30",
-  "last_headline": "Deco Proteste alerts that homeowners may be paying more IMI than they should"
+  "count": 8,
+  "last_seen": "2026-11-11",
+  "last_headline": "More IMI on vacant properties? Left-wing parties want to give power to tax authority"
  },
  "italy-relocation-incentive": {
   "label": "Italy Rural Relocation Incentives",
@@ -380,9 +380,9 @@
  "canary-islands-residency": {
   "label": "Canary Islands Resident-Only Housing Push",
   "first_seen": "2026-11-04",
-  "count": 3,
-  "last_seen": "2026-11-10",
-  "last_headline": "Canaries finalize new Housing Plan with more rental and first-time buyer aid for youth"
+  "count": 4,
+  "last_seen": "2026-11-11",
+  "last_headline": "Canary Islands finalizes new Housing Plan with more rental aid and first-time buyer support for youth"
  },
  "france-second-home-tax-bills": {
   "label": "France Second-Home Tax Bills",
@@ -397,5 +397,12 @@
   "count": 1,
   "last_seen": "2026-11-08",
   "last_headline": "Greece Crypto Tax Law Passes With 10% Rate on Gains"
+ },
+ "italy-2027-budget": {
+  "label": "Italy 2027 Budget Law",
+  "first_seen": "2026-11-11",
+  "count": 1,
+  "last_seen": "2026-11-11",
+  "last_headline": "Italy's 2027 Budget Law: tax changes and property incentives"
  }
 }
