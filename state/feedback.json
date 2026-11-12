@@ -1,41 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "c82666bec2db5c93": {
-   "title": "Treasury gives first backing to reform that eases housing access",
-   "cat": "REGULATORY",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-12"
-  },
-  "3a4bbd12383875c7": {
-   "title": "Housing in the Canaries returns to Parliament in pre-campaign: CC moves to declare Las Palmas a tension zone",
-   "cat": "REGULATORY",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-12"
-  },
-  "b434663da8ffad47": {
-   "title": "Self-employed agency network hits 100 brokers after tripling in two years",
-   "cat": "CHANNEL",
-   "query": "[feed] property_industry_eye",
-   "lang": "en",
-   "date": "2026-10-12"
-  },
-  "849a2c6d2f65bab3": {
-   "title": "Spain's new €150,000 investment account promises tax breaks, but there is a catch",
-   "cat": "REGULATORY",
-   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
-   "lang": "en",
-   "date": "2026-10-12"
-  },
-  "6e349f31e9507111": {
-   "title": "Thousands of Portuguese protest.. rents push youth back to parents' homes.. video",
-   "cat": "DEMAND-FLOW",
-   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
-   "lang": "ar",
-   "date": "2026-10-12"
-  },
   "6112f35658e39550": {
    "title": "Greece plans to quintuple purchase tax for foreign real estate buyers",
    "cat": "REGULATORY",
@@ -1211,6 +1176,41 @@
    "query": "\"personal shopper inmobiliario\" when:2d",
    "lang": "es",
    "date": "2026-11-11"
+  },
+  "97f97be8ae16b19b": {
+   "title": "Spain experiences widespread disruptions in first general strike in 14 years",
+   "cat": "REGULATORY",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-11-12"
+  },
+  "7aa934e47ccf7bd7": {
+   "title": "Greece Golden Visa Statistics 2026: Fewer Applications, More Approvals and a Shrinking Backlog",
+   "cat": "DEMAND-FLOW",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-11-12"
+  },
+  "aa171eef17e44fa4": {
+   "title": "The Permanent Deputation approves the government's first housing decree but rejects automatic lease renewal",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-12"
+  },
+  "bf6da70ddbc6854a": {
+   "title": "Municipalities fill coffers with IMT. Loulé and Grândola increase dependence on real estate",
+   "cat": "DEMAND-FLOW",
+   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
+   "lang": "pt",
+   "date": "2026-11-12"
+  },
+  "e590c3872856894c": {
+   "title": "Wealthy Foreign Buyers Grow More Bullish on Greek Property Market",
+   "cat": "DEMAND-FLOW",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-11-12"
   }
  },
  "votes": {}
