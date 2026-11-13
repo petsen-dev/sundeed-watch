@@ -1,48 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "6112f35658e39550": {
-   "title": "Greece plans to quintuple purchase tax for foreign real estate buyers",
-   "cat": "REGULATORY",
-   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
-   "lang": "en",
-   "date": "2026-10-13"
-  },
-  "2219b0b696c0468e": {
-   "title": "Clavijo already negotiates limiting home purchase by foreigners in Canaries",
-   "cat": "REGULATORY",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-13"
-  },
-  "a226112554b3bf70": {
-   "title": "Portugal Golden Visa Processing Update : Where AIMA's Backlog Stands in October 2026",
-   "cat": "REGULATORY",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-10-13"
-  },
-  "49be2f1d0be1c85d": {
-   "title": "Municipalities receive more IMI and IMT revenue this year – but less in 2027",
-   "cat": "REGULATORY",
-   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
-   "lang": "pt",
-   "date": "2026-10-13"
-  },
-  "492ba26a706eaae4": {
-   "title": "Early elections in Spain November 29.. How did Sánchez's government reach parliament dissolution?.. Housing crisis opens the door to the decision.. and reignites the battle between",
-   "cat": "REGULATORY",
-   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
-   "lang": "ar",
-   "date": "2026-10-13"
-  },
-  "c9fafd9a3d719d84": {
-   "title": "Associations and owners reject approval of new housing decrees to be pushed through in Permanent Deputation",
-   "cat": "HEADLINE-GAP",
-   "query": "\"personal shopper inmobiliario\" when:2d",
-   "lang": "es",
-   "date": "2026-10-13"
-  },
   "e7450c2f4630d789": {
    "title": "Foreign buyers set home purchase record in Spain despite slowdown",
    "cat": "DEMAND-FLOW",
@@ -1211,6 +1169,55 @@
    "query": "\"international buyers\" Portugal OR Italy property when:2d",
    "lang": "en",
    "date": "2026-11-12"
+  },
+  "e2f64d06c3074208": {
+   "title": "Spain approves housing decree with new 10% VAT on holiday rentals",
+   "cat": "REGULATORY",
+   "query": "[feed] spanish_property_insight",
+   "lang": "en",
+   "date": "2026-11-13"
+  },
+  "a8c68cb5148e1e04": {
+   "title": "Spain bans evictions of vulnerable groups until 2030 and restricts real-estate funds",
+   "cat": "REGULATORY",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-11-13"
+  },
+  "23667187b39e1abb": {
+   "title": "Ara Més - Frent Ampli calls for limiting home purchases to Balearic residents",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-13"
+  },
+  "27d87c3a027485c3": {
+   "title": "Portugal's proposed rental law criticised for leaving both landlords and tenants worse off",
+   "cat": "REGULATORY",
+   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
+   "lang": "en",
+   "date": "2026-11-13"
+  },
+  "25c64ff07898ab6d": {
+   "title": "More than 300 agents gather as AI threatens to reshape traditional agency model",
+   "cat": "CHANNEL",
+   "query": "[feed] property_industry_eye",
+   "lang": "en",
+   "date": "2026-11-13"
+  },
+  "23d49d0588cc2154": {
+   "title": "Loures Council approves reduction in IMI and IRS participation",
+   "cat": "REGULATORY",
+   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
+   "lang": "pt",
+   "date": "2026-11-13"
+  },
+  "8b14ab55bf4d1645": {
+   "title": "Marbella property market shift: prime homes become scarcer",
+   "cat": "DEMAND-FLOW",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-11-13"
   }
  },
  "votes": {}

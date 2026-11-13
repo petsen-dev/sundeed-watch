@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 43,
-  "last_seen": "2026-11-10",
-  "last_headline": "How to become a real estate agent in Spain? Conditions and steps to start working independently"
+  "count": 44,
+  "last_seen": "2026-11-13",
+  "last_headline": "More than 300 agents gather as AI threatens to reshape traditional agency model"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 31,
-  "last_seen": "2026-11-07",
-  "last_headline": "Foreigners buy 16% of homes in Spain as prices reach all-time highs"
+  "count": 32,
+  "last_seen": "2026-11-13",
+  "last_headline": "Marbella property market shift: prime homes become scarcer"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -51,9 +51,9 @@
  "spain-rental-regulation": {
   "label": "Spain Rental Market Regulation",
   "first_seen": "2026-09-02",
-  "count": 25,
-  "last_seen": "2026-11-11",
-  "last_headline": "Temporary rentals and room rentals now exceed residential rental listings in capitals"
+  "count": 26,
+  "last_seen": "2026-11-13",
+  "last_headline": "Spain approves housing decree with new 10% VAT on holiday rentals"
  },
  "europe-capital-inflow": {
   "label": "Europe Capital Inflow Share",
@@ -65,9 +65,9 @@
  "portugal-rental-regulation": {
   "label": "Portugal Rental Market Reform",
   "first_seen": "2026-09-05",
-  "count": 10,
-  "last_seen": "2026-10-21",
-  "last_headline": "Affordable rents in Portugal will have maximum amounts between €224 and €2K"
+  "count": 11,
+  "last_seen": "2026-11-13",
+  "last_headline": "Portugal's proposed rental law criticised for leaving both landlords and tenants worse off"
  },
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
@@ -240,9 +240,9 @@
  "spain-political-housing-crisis": {
   "label": "Spain Housing-Driven Political Crisis",
   "first_seen": "2026-10-06",
-  "count": 16,
-  "last_seen": "2026-11-12",
-  "last_headline": "Spain experiences widespread disruptions in first general strike in 14 years"
+  "count": 17,
+  "last_seen": "2026-11-13",
+  "last_headline": "Spain bans evictions of vulnerable groups until 2030 and restricts real-estate funds"
  },
  "portugal-coastal-protest": {
   "label": "Portugal Coastal Development Backlash",
@@ -303,9 +303,9 @@
  "portugal-imi-tax": {
   "label": "Portugal IMI Property Tax Rise",
   "first_seen": "2026-10-16",
-  "count": 8,
-  "last_seen": "2026-11-11",
-  "last_headline": "More IMI on vacant properties? Left-wing parties want to give power to tax authority"
+  "count": 9,
+  "last_seen": "2026-11-13",
+  "last_headline": "Loures Council approves reduction in IMI and IRS participation"
  },
  "italy-relocation-incentive": {
   "label": "Italy Rural Relocation Incentives",
@@ -404,5 +404,12 @@
   "count": 1,
   "last_seen": "2026-11-11",
   "last_headline": "Italy's 2027 Budget Law: tax changes and property incentives"
+ },
+ "balearic-resident-restriction": {
+  "label": "Balearic Resident-Only Purchase Push",
+  "first_seen": "2026-11-13",
+  "count": 1,
+  "last_seen": "2026-11-13",
+  "last_headline": "Ara Més - Frent Ampli calls for limiting home purchases to Balearic residents"
  }
 }
