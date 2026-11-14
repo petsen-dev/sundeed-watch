@@ -1,41 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "e7450c2f4630d789": {
-   "title": "Foreign buyers set home purchase record in Spain despite slowdown",
-   "cat": "DEMAND-FLOW",
-   "query": "\"international buyers\" Portugal OR Italy property when:2d",
-   "lang": "en",
-   "date": "2026-10-14"
-  },
-  "af8c86b10d3ffe71": {
-   "title": "Canary Islands calls on three ministries to take its proposal to Europe to limit housing to non-resident foreigners",
-   "cat": "HEADLINE-GAP",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-14"
-  },
-  "cd8f6a4cc10958cf": {
-   "title": "AI could change who controls the relationship between agents and buyers",
-   "cat": "CHANNEL",
-   "query": "ChatGPT OR \"AI agent\" property buying when:2d",
-   "lang": "en",
-   "date": "2026-10-14"
-  },
-  "1c4c3ab595f72bfb": {
-   "title": "Homes with hidden defects: buyers more vulnerable with new laws",
-   "cat": "REGULATORY",
-   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
-   "lang": "pt",
-   "date": "2026-10-14"
-  },
-  "d8da0129987a443d": {
-   "title": "$120M NAR real estate commission class action settlement",
-   "cat": "COMMISSION-MODEL",
-   "query": "\"NAR settlement\" buyer agency commission when:2d",
-   "lang": "en",
-   "date": "2026-10-14"
-  },
   "36d31dc1b86c1433": {
    "title": "Domínguez (PP) rejects CC proposal to limit housing to non-residents: 'The solution doesn't lie there'",
    "cat": "HEADLINE-GAP",
@@ -1218,6 +1183,34 @@
    "query": "\"international buyers\" Portugal OR Italy property when:2d",
    "lang": "en",
    "date": "2026-11-13"
+  },
+  "8d7395aef8e21526": {
+   "title": "Valido demands prohibition of home purchases in the Canary Islands to non-residents to stop speculation",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-14"
+  },
+  "9930d147fd6cf507": {
+   "title": "Spain's Prime Minister calls for early elections",
+   "cat": "OTHER",
+   "query": "site:aawsat.com عقارات أوروبا when:2d",
+   "lang": "ar",
+   "date": "2026-11-14"
+  },
+  "590fa5c42afa3b3e": {
+   "title": "Unanimity in Ibiza to create aid for owners who rent their homes at affordable prices",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-14"
+  },
+  "c5c76054898e5224": {
+   "title": "Town halls collected millions of euros with IMT, 858 thousand per day just for Lisbon",
+   "cat": "DEMAND-FLOW",
+   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
+   "lang": "pt",
+   "date": "2026-11-14"
   }
  },
  "votes": {}
