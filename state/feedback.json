@@ -1,62 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "36d31dc1b86c1433": {
-   "title": "Domínguez (PP) rejects CC proposal to limit housing to non-residents: 'The solution doesn't lie there'",
-   "cat": "HEADLINE-GAP",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-15"
-  },
-  "a9058005feb09443": {
-   "title": "Foreign home purchases by overseas residents fall 18% despite paying 77% more than Spaniards",
-   "cat": "DEMAND-FLOW",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-15"
-  },
-  "1827771a207ca56c": {
-   "title": "Police search two banks in €66 million property tax fraud investigation",
-   "cat": "REGULATORY",
-   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
-   "lang": "en",
-   "date": "2026-10-15"
-  },
-  "1bb636b48b95957f": {
-   "title": "Golden Visa €250.000 στην Αθήνα: Πώς είναι εφικτό μέσω μετατροπής επαγγελματικού χώρου",
-   "cat": "OWNERSHIP-MODEL",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-10-15"
-  },
-  "e19e7eb51ebda028": {
-   "title": "European Listings Launches Curated Property Search Service to Help Americans Find Homes for Sale in Europe",
-   "cat": "CHANNEL",
-   "query": "\"international buyers\" Portugal OR Italy property when:2d",
-   "lang": "en",
-   "date": "2026-10-15"
-  },
-  "d2fc3dc8734f26c9": {
-   "title": "You Can Now Test-Drive A Pacaso Home Before You Buy A Share",
-   "cat": "OWNERSHIP-MODEL",
-   "query": "intitle:Pacaso when:2d",
-   "lang": "en",
-   "date": "2026-10-15"
-  },
-  "d4d48eec6431f873": {
-   "title": "Homes with defects: buyers more vulnerable under new laws",
-   "cat": "REGULATORY",
-   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
-   "lang": "pt",
-   "date": "2026-10-15"
-  },
-  "9360c839b773b069": {
-   "title": "€530 million at stake.. Spain elections threaten sale of 1,900 residential units",
-   "cat": "HEADLINE-GAP",
-   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
-   "lang": "ar",
-   "date": "2026-10-15"
-  },
   "87b4721711faf892": {
    "title": "Canary Islands requests government to only allow home purchases by those resident for 10 years on the islands",
    "cat": "REGULATORY",
@@ -1211,6 +1155,20 @@
    "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
    "lang": "pt",
    "date": "2026-11-14"
+  },
+  "82f7f936d76a36d4": {
+   "title": "Thousands of people, of all ages, fill streets demanding accessible housing",
+   "cat": "OTHER",
+   "query": "[feed] portugal_resident",
+   "lang": "en",
+   "date": "2026-11-15"
+  },
+  "2138d0f8d2e4faed": {
+   "title": "Santos Silva admits legislative elections could come before 2029 due to government \"wear and tear\"",
+   "cat": "OTHER",
+   "query": "[feed] portugal_resident",
+   "lang": "en",
+   "date": "2026-11-15"
   }
  },
  "votes": {}

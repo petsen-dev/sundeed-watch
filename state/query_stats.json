@@ -144,10 +144,10 @@
   "split": 0
  },
  "[feed] portugal_resident": {
-  "runs": 101,
-  "items": 921,
-  "score_sum": 3910,
-  "mean_score": 4.2,
+  "runs": 102,
+  "items": 928,
+  "score_sum": 3950,
+  "mean_score": 4.3,
   "up": 0,
   "down": 0,
   "split": 0

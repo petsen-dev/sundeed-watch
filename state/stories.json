@@ -268,9 +268,9 @@
  "portugal-housing-protest": {
   "label": "Portugal Housing Cost Protests",
   "first_seen": "2026-10-11",
-  "count": 9,
-  "last_seen": "2026-11-02",
-  "last_headline": "Thousands of Portuguese protest in Lisbon against new rental law proposal"
+  "count": 10,
+  "last_seen": "2026-11-15",
+  "last_headline": "Thousands of people, of all ages, fill streets demanding accessible housing"
  },
  "spain-investment-account-tax": {
   "label": "Spain €150k Investment Account Tax Break",
@@ -418,5 +418,12 @@
   "count": 1,
   "last_seen": "2026-11-14",
   "last_headline": "Unanimity in Ibiza to create aid for owners who rent their homes at affordable prices"
+ },
+ "portugal-political-stability": {
+  "label": "Portugal Government Stability Risk",
+  "first_seen": "2026-11-15",
+  "count": 1,
+  "last_seen": "2026-11-15",
+  "last_headline": "Santos Silva admits legislative elections could come before 2029 due to government \"wear and tear\""
  }
 }
