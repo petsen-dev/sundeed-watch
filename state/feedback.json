@@ -1,41 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "87b4721711faf892": {
-   "title": "Canary Islands requests government to only allow home purchases by those resident for 10 years on the islands",
-   "cat": "REGULATORY",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-16"
-  },
-  "7e45320ff1b1871f": {
-   "title": "Foreigners reduce home purchases by 13%, the largest decline since 2020",
-   "cat": "DEMAND-FLOW",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-16"
-  },
-  "3e2dbd0c1478017e": {
-   "title": "Moroccans lead property purchases in Spain.. surpassing British buyers by 4,960 transactions in 6 months",
-   "cat": "DEMAND-FLOW",
-   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "lang": "ar",
-   "date": "2026-10-16"
-  },
-  "b63ac52d06eb60eb": {
-   "title": "IMI rises 3% on housing and 4% on services, commerce and industry",
-   "cat": "REGULATORY",
-   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
-   "lang": "pt",
-   "date": "2026-10-16"
-  },
-  "64bd6edda0eb20b7": {
-   "title": "IMT fraud in real estate deals costs state 66 million euros",
-   "cat": "OTHER",
-   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
-   "lang": "pt",
-   "date": "2026-10-16"
-  },
   "ed35b8e5d71bc85d": {
    "title": "Canaries proposes reserving home purchase for those resident 10 years on islands",
    "cat": "REGULATORY",
@@ -909,7 +874,7 @@
    "cat": "DEMAND-FLOW",
    "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
    "lang": "en",
-   "date": "2026-11-09"
+   "date": "2026-11-16"
   },
   "e08c6ddbc06490bd": {
    "title": "House-Hunters Misled by AI-Generated Property Photos on Rightmove, With Complaints of False Advertising",
@@ -1169,6 +1134,48 @@
    "query": "[feed] portugal_resident",
    "lang": "en",
    "date": "2026-11-15"
+  },
+  "6c626e0a9f3eec57": {
+   "title": "Greece Raises Transfer Tax to 15% for Non-EU Buyers",
+   "cat": "REGULATORY",
+   "query": "intitle:\"transfer tax\" Spain OR Portugal OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-11-16"
+  },
+  "7ad99a3fddc84718": {
+   "title": "European legislation allows Spain to ban tourist rentals in housing-stressed areas",
+   "cat": "REGULATORY",
+   "query": "\"الإيجار قصير الأجل\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-11-16"
+  },
+  "c93ec720e7add2c2": {
+   "title": "Foreign non-resident home purchases plunge 35% in Barcelona",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-16"
+  },
+  "2352165ca20f8ea9": {
+   "title": "AD to facilitate Golden Visa investment in social funds",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-11-16"
+  },
+  "eff449143c982db9": {
+   "title": "Why Portugal Still Welcomes the Buyers Spain Is Turning Away, According to Nick Houwen",
+   "cat": "DEMAND-FLOW",
+   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
+   "lang": "en",
+   "date": "2026-11-16"
+  },
+  "5493f1bd26bd21db": {
+   "title": "Protests ignite across Europe from Paris to Lisbon: 100 arrested in unrest in Barcelona, Prague and Milan; housing crisis and high cost of living inflame streets and generational c",
+   "cat": "DEMAND-FLOW",
+   "query": "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d",
+   "lang": "ar",
+   "date": "2026-11-16"
   }
  },
  "votes": {}
