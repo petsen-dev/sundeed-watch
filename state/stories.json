@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 43,
-  "last_seen": "2026-11-16",
-  "last_headline": "AD to facilitate Golden Visa investment in social funds"
+  "count": 44,
+  "last_seen": "2026-11-17",
+  "last_headline": "Will Spain's golden visa scheme be brought back by a right-wing government?"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 44,
-  "last_seen": "2026-11-13",
-  "last_headline": "More than 300 agents gather as AI threatens to reshape traditional agency model"
+  "count": 45,
+  "last_seen": "2026-11-17",
+  "last_headline": "Want to Buy a Home in Italy or Costa Rica? This North Texas Realtor Built a Portal for That"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -37,9 +37,9 @@
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
   "first_seen": "2026-08-28",
-  "count": 11,
-  "last_seen": "2026-11-14",
-  "last_headline": "Town halls collected millions of euros with IMT, 858 thousand per day just for Lisbon"
+  "count": 12,
+  "last_seen": "2026-11-17",
+  "last_headline": "Portugal's housing crisis has an unexpected winner: municipalities collect €2.31 billion"
  },
  "ecb-rate-outlook": {
   "label": "ECB Rate Trajectory",
@@ -79,16 +79,16 @@
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
   "first_seen": "2026-09-07",
-  "count": 13,
-  "last_seen": "2026-11-16",
-  "last_headline": "Greece Raises Transfer Tax to 15% for Non-EU Buyers"
+  "count": 14,
+  "last_seen": "2026-11-17",
+  "last_headline": "Greece Enacts 15% Property Transfer Tax for Buyers Living Outside the EU"
  },
  "eu-str-crackdown": {
   "label": "EU Short-Term Rental Crackdown",
   "first_seen": "2026-09-10",
-  "count": 10,
-  "last_seen": "2026-11-16",
-  "last_headline": "European legislation allows Spain to ban tourist rentals in housing-stressed areas"
+  "count": 11,
+  "last_seen": "2026-11-17",
+  "last_headline": "Airbnb listings in Barcelona fall 20% to lowest level since 2015"
  },
  "portugal-ifici-tax": {
   "label": "Portugal IFICI Tax Regime",
@@ -100,9 +100,9 @@
  "fractional-ownership-europe": {
   "label": "Fractional Ownership Expansion",
   "first_seen": "2026-09-10",
-  "count": 10,
-  "last_seen": "2026-10-29",
-  "last_headline": "Infinity by Pacaso expands into France with luxury second-home exchange network"
+  "count": 11,
+  "last_seen": "2026-11-17",
+  "last_headline": "MYNE buys Swiss co-ownership pioneer beyoul to court wealthy buyers"
  },
  "france-second-home-tax": {
   "label": "France Second-Home Tax Surcharge",
@@ -149,9 +149,9 @@
  "spain-market-slowdown": {
   "label": "Spain Housing Market Slowdown",
   "first_seen": "2026-09-26",
-  "count": 10,
-  "last_seen": "2026-11-10",
-  "last_headline": "Home sales fall 11% in Alicante and Elche while prices rise up to 16.6%"
+  "count": 11,
+  "last_seen": "2026-11-17",
+  "last_headline": "Home sales volumes collapse 13.4% year-on-year in September, largest drop since May 2024"
  },
  "catalonia-asbestos-cert": {
   "label": "Catalonia Asbestos Certificate",
@@ -268,9 +268,9 @@
  "portugal-housing-protest": {
   "label": "Portugal Housing Cost Protests",
   "first_seen": "2026-10-11",
-  "count": 10,
-  "last_seen": "2026-11-15",
-  "last_headline": "Thousands of people, of all ages, fill streets demanding accessible housing"
+  "count": 11,
+  "last_seen": "2026-11-17",
+  "last_headline": "Portugal Housing Crisis Sparks Massive Protests Across 32 Cities"
  },
  "spain-investment-account-tax": {
   "label": "Spain €150k Investment Account Tax Break",
@@ -359,9 +359,9 @@
  "greece-price-growth": {
   "label": "Greece Price Growth",
   "first_seen": "2026-10-31",
-  "count": 4,
-  "last_seen": "2026-11-16",
-  "last_headline": "Foreign Buyers Drive Luxury Boom on Athens Riviera"
+  "count": 5,
+  "last_seen": "2026-11-17",
+  "last_headline": "Financial Times: Greece Becoming an \"Unexpected\" Investment Haven as Foreign Interest Builds"
  },
  "france-political-risk": {
   "label": "France 2027 Election Property Risk",
@@ -380,9 +380,9 @@
  "canary-islands-residency": {
   "label": "Canary Islands Resident-Only Housing Push",
   "first_seen": "2026-11-04",
-  "count": 6,
-  "last_seen": "2026-11-14",
-  "last_headline": "Valido demands prohibition of home purchases in the Canary Islands to non-residents to stop speculation"
+  "count": 7,
+  "last_seen": "2026-11-17",
+  "last_headline": "Drago proposes limiting home purchases to non-residents and a separate minimum wage for Canaries"
  },
  "france-second-home-tax-bills": {
   "label": "France Second-Home Tax Bills",
