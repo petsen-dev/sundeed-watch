@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 44,
-  "last_seen": "2026-11-17",
-  "last_headline": "Will Spain's golden visa scheme be brought back by a right-wing government?"
+  "count": 45,
+  "last_seen": "2026-11-18",
+  "last_headline": "Portugal to Redirect Golden Visa Investments to Local Companies"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -30,16 +30,16 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 33,
-  "last_seen": "2026-11-16",
-  "last_headline": "Foreign non-resident home purchases plunge 35% in Barcelona"
+  "count": 34,
+  "last_seen": "2026-11-18",
+  "last_headline": "Foreign buyers' share of home purchases rises 49% in five years, to 16.05%"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
   "first_seen": "2026-08-28",
-  "count": 12,
-  "last_seen": "2026-11-17",
-  "last_headline": "Portugal's housing crisis has an unexpected winner: municipalities collect €2.31 billion"
+  "count": 13,
+  "last_seen": "2026-11-18",
+  "last_headline": "Early repayment commission, IMT and moderate rents: parties' housing proposals"
  },
  "ecb-rate-outlook": {
   "label": "ECB Rate Trajectory",
@@ -79,9 +79,9 @@
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
   "first_seen": "2026-09-07",
-  "count": 14,
-  "last_seen": "2026-11-17",
-  "last_headline": "Greece Enacts 15% Property Transfer Tax for Buyers Living Outside the EU"
+  "count": 15,
+  "last_seen": "2026-11-18",
+  "last_headline": "Greek Parliament Passes 15% Transfer Tax on Homes Bought by Non-EU Tax Residents"
  },
  "eu-str-crackdown": {
   "label": "EU Short-Term Rental Crackdown",
@@ -149,9 +149,9 @@
  "spain-market-slowdown": {
   "label": "Spain Housing Market Slowdown",
   "first_seen": "2026-09-26",
-  "count": 11,
-  "last_seen": "2026-11-17",
-  "last_headline": "Home sales volumes collapse 13.4% year-on-year in September, largest drop since May 2024"
+  "count": 12,
+  "last_seen": "2026-11-18",
+  "last_headline": "Home sales resume declines in September with a 13.4% drop"
  },
  "catalonia-asbestos-cert": {
   "label": "Catalonia Asbestos Certificate",
@@ -408,16 +408,16 @@
  "balearic-resident-restriction": {
   "label": "Balearic Resident-Only Purchase Push",
   "first_seen": "2026-11-13",
-  "count": 1,
-  "last_seen": "2026-11-13",
-  "last_headline": "Ara Més - Frent Ampli calls for limiting home purchases to Balearic residents"
+  "count": 2,
+  "last_seen": "2026-11-18",
+  "last_headline": "Housing divides parties in Ibiza: build more, limit prices or curb foreign purchases"
  },
  "balearic-rental-incentive": {
   "label": "Balearic Affordable-Rent Incentives",
   "first_seen": "2026-11-14",
-  "count": 1,
-  "last_seen": "2026-11-14",
-  "last_headline": "Unanimity in Ibiza to create aid for owners who rent their homes at affordable prices"
+  "count": 2,
+  "last_seen": "2026-11-18",
+  "last_headline": "Minister Bustinduy backs 10% tax on large landowners' homes not rented affordably in Palma"
  },
  "portugal-political-stability": {
   "label": "Portugal Government Stability Risk",

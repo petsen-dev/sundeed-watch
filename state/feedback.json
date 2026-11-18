@@ -1,34 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "d990f69fb1206661": {
-   "title": "Clavijo elevates to central Government his non-resident housing plan for Canaries: 10 years residency requirement",
-   "cat": "REGULATORY",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-18"
-  },
-  "76107e0a6464f682": {
-   "title": "Barcelona plans 150% property tax increase on tourist flats ahead of 2028 ban",
-   "cat": "REGULATORY",
-   "query": "[feed] spanish_property_insight",
-   "lang": "en",
-   "date": "2026-10-18"
-  },
-  "5160c2eb60990027": {
-   "title": "Moroccans lead foreign buyers rushing to buy property in Spain",
-   "cat": "DEMAND-FLOW",
-   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "lang": "ar",
-   "date": "2026-10-18"
-  },
-  "9f41848d8a499102": {
-   "title": "Canaries remains third destination for foreign non-resident home buyers despite 20.3% fall",
-   "cat": "DEMAND-FLOW",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-18"
-  },
   "b0a7774d9574a801": {
    "title": "Foreign demand for Spanish property falls sharply in first half of 2026",
    "cat": "DEMAND-FLOW",
@@ -1204,6 +1176,55 @@
    "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
    "lang": "en",
    "date": "2026-11-17"
+  },
+  "f864102fbf924bc4": {
+   "title": "Greek Parliament Passes 15% Transfer Tax on Homes Bought by Non-EU Tax Residents",
+   "cat": "REGULATORY",
+   "query": "intitle:\"transfer tax\" Spain OR Portugal OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-11-18"
+  },
+  "d2d81b09b839fda8": {
+   "title": "Portugal to Redirect Golden Visa Investments to Local Companies",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-11-18"
+  },
+  "48ccfb0618649232": {
+   "title": "Foreign buyers' share of home purchases rises 49% in five years, to 16.05%",
+   "cat": "DEMAND-FLOW",
+   "query": "\"compradores extranjeros\" vivienda intitle:datos OR intitle:sube when:2d",
+   "lang": "es",
+   "date": "2026-11-18"
+  },
+  "b4893f82ce05c5fe": {
+   "title": "Housing divides parties in Ibiza: build more, limit prices or curb foreign purchases",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-18"
+  },
+  "6484826398838b60": {
+   "title": "Minister Bustinduy backs 10% tax on large landowners' homes not rented affordably in Palma",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-18"
+  },
+  "62d41c6a38e5cb20": {
+   "title": "Early repayment commission, IMT and moderate rents: parties' housing proposals",
+   "cat": "REGULATORY",
+   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
+   "lang": "pt",
+   "date": "2026-11-18"
+  },
+  "93dd11a2d08bf257": {
+   "title": "Home sales resume declines in September with a 13.4% drop",
+   "cat": "DEMAND-FLOW",
+   "query": "\"personal shopper inmobiliario\" when:2d",
+   "lang": "es",
+   "date": "2026-11-18"
   }
  },
  "votes": {}
