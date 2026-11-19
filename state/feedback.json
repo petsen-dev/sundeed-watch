@@ -1,55 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "b0a7774d9574a801": {
-   "title": "Foreign demand for Spanish property falls sharply in first half of 2026",
-   "cat": "DEMAND-FLOW",
-   "query": "[feed] spanish_property_insight",
-   "lang": "en",
-   "date": "2026-10-19"
-  },
-  "ee02ec0b22809c7a": {
-   "title": "Spain's housing decrees trigger exodus from rental market, agents warn",
-   "cat": "REGULATORY",
-   "query": "[feed] spanish_property_insight",
-   "lang": "en",
-   "date": "2026-10-19"
-  },
-  "835dc2555cc5b72d": {
-   "title": "Brits in Spain beware UK tax on rent, property sales and pensions",
-   "cat": "REGULATORY",
-   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
-   "lang": "en",
-   "date": "2026-10-19"
-  },
-  "0275773ecaa9c6ab": {
-   "title": "IMI paid in 2027 rises 3% in residential and 4% in commerce",
-   "cat": "REGULATORY",
-   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
-   "lang": "pt",
-   "date": "2026-10-19"
-  },
-  "ed72d55b5d6c3a7c": {
-   "title": "Politicians who support changes to rental law own more than a thousand properties",
-   "cat": "REGULATORY",
-   "query": "[feed] portugal_resident",
-   "lang": "en",
-   "date": "2026-10-19"
-  },
-  "d8144d42ac42c144": {
-   "title": "Ventura proposes emergency legislative package to address housing crisis",
-   "cat": "HEADLINE-GAP",
-   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
-   "lang": "pt",
-   "date": "2026-10-19"
-  },
-  "cb0b906d3c8a20b0": {
-   "title": "Death of evicted woman sparks anger in Spain",
-   "cat": "DEMAND-FLOW",
-   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
-   "lang": "ar",
-   "date": "2026-10-19"
-  },
   "231c6b4ef41ed2f8": {
    "title": "In 2027 IMI rises up to 4% for some properties",
    "cat": "REGULATORY",
@@ -1225,6 +1176,69 @@
    "query": "\"personal shopper inmobiliario\" when:2d",
    "lang": "es",
    "date": "2026-11-18"
+  },
+  "b1d894d55d8a466b": {
+   "title": "Non-resident foreigners cut home purchases to five-year lows",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-19"
+  },
+  "835ea3f2c40f2f6d": {
+   "title": "Spain orders removal of 8,352 illegal tourist rental adverts",
+   "cat": "REGULATORY",
+   "query": "[feed] spanish_property_insight",
+   "lang": "en",
+   "date": "2026-11-19"
+  },
+  "57ff8e93d6af1239": {
+   "title": "Real estate supply shortage threatens Spain's growth. Building 100,000 units vs demand over 240,000.",
+   "cat": "DEMAND-FLOW",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-11-19"
+  },
+  "42767e5ef84c241d": {
+   "title": "Portugal proposes tighter Golden Visa rules for investment funds",
+   "cat": "HEADLINE-GAP",
+   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
+   "lang": "en",
+   "date": "2026-11-19"
+  },
+  "065077cd4b5ed091": {
+   "title": "Doubling IMI for unrented non-resident homes in pressure zones yields little additional revenue to the State",
+   "cat": "HEADLINE-GAP",
+   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
+   "lang": "pt",
+   "date": "2026-11-19"
+  },
+  "dc81299f9f011a52": {
+   "title": "Lisbon backs vacant-home tax penalties and approves two new hotels",
+   "cat": "REGULATORY",
+   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
+   "lang": "en",
+   "date": "2026-11-19"
+  },
+  "57f98a5f52903641": {
+   "title": "29N election programs: What parties propose on taxation in buying a home",
+   "cat": "REGULATORY",
+   "query": "\"ITP\" OR \"impuesto de transmisiones\" Spain property when:2d",
+   "lang": "en",
+   "date": "2026-11-19"
+  },
+  "8c78c254b251bde3": {
+   "title": "A housing researcher and expert in Ibiza: 'There are countries that prohibit non-residents from buying homes'",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-19"
+  },
+  "b7a3d47dae126092": {
+   "title": "Portugal has Europe's biggest gap between house prices and incomes",
+   "cat": "DEMAND-FLOW",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-11-19"
   }
  },
  "votes": {}
