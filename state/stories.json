@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 46,
-  "last_seen": "2026-11-19",
-  "last_headline": "Portugal proposes tighter Golden Visa rules for investment funds"
+  "count": 47,
+  "last_seen": "2026-11-20",
+  "last_headline": "Golden Visa investors threaten legal action against Portugal over new Nationality Law"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -23,16 +23,16 @@
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
   "first_seen": "2026-08-25",
-  "count": 18,
-  "last_seen": "2026-11-05",
-  "last_headline": "Why more UK property investors are looking beyond Britain"
+  "count": 19,
+  "last_seen": "2026-11-20",
+  "last_headline": "Second home exodus leaves councils facing £48m council tax shortfall"
  },
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 35,
-  "last_seen": "2026-11-19",
-  "last_headline": "Non-resident foreigners cut home purchases to five-year lows"
+  "count": 36,
+  "last_seen": "2026-11-20",
+  "last_headline": "Fall in Spanish purchases raises foreign buyer share to 16% of residential market"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -425,5 +425,12 @@
   "count": 1,
   "last_seen": "2026-11-15",
   "last_headline": "Santos Silva admits legislative elections could come before 2029 due to government \"wear and tear\""
+ },
+ "italy-housing-backlash": {
+  "label": "Italy Elite Housing Backlash",
+  "first_seen": "2026-11-20",
+  "count": 1,
+  "last_seen": "2026-11-20",
+  "last_headline": "Milan Won Over the Global Elite. Residents Are Paying the Price"
  }
 }
