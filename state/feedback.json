@@ -1,41 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "1fa9694065dab1a1": {
-   "title": "Spain's new 10pc VAT on holiday lets: What owners need to know",
-   "cat": "REGULATORY",
-   "query": "[feed] spanish_property_insight",
-   "lang": "en",
-   "date": "2026-10-22"
-  },
-  "51fded961bd92c7a": {
-   "title": "Vox Palma proposes prioritizing Spanish nationals in public housing access and limiting foreign purchases",
-   "cat": "REGULATORY",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-22"
-  },
-  "8775069d60ba7977": {
-   "title": "IMI will increase in 2027: who will pay more and how to calculate the new value?",
-   "cat": "REGULATORY",
-   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
-   "lang": "pt",
-   "date": "2026-10-22"
-  },
-  "d4f17174ee48317d": {
-   "title": "Italy holds full deck of cards for expansion of hotels with branded residences",
-   "cat": "OWNERSHIP-MODEL",
-   "query": "\"international buyers\" Portugal OR Italy property when:2d",
-   "lang": "en",
-   "date": "2026-10-22"
-  },
-  "bf091a5a8d1013eb": {
-   "title": "In luxury real estate, the buyer has changed. So has the sales method.",
-   "cat": "CHANNEL",
-   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
-   "lang": "pt",
-   "date": "2026-10-22"
-  },
   "3a7f947843edde18": {
    "title": "Housing crisis shakes Spain and pushes Sanchez to early elections",
    "cat": "REGULATORY",
@@ -1211,6 +1176,69 @@
    "query": "\"ضريبة العقارات\" إسبانيا OR البرتغال when:2d",
    "lang": "ar",
    "date": "2026-11-21"
+  },
+  "6aaa70fa8b89ecf9": {
+   "title": "Portugal approves second-home tax exemption",
+   "cat": "REGULATORY",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-11-22"
+  },
+  "a0bcd07cd3cc7850": {
+   "title": "Almost one in six home buyers is already foreign: where it reaches almost half the market",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-22"
+  },
+  "c6897a597f7d3ebd": {
+   "title": "Foreigners buy 25% of homes in Portugal",
+   "cat": "DEMAND-FLOW",
+   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
+   "lang": "pt",
+   "date": "2026-11-22"
+  },
+  "fdbc84299aa98bef": {
+   "title": "Dils Lucas Fox 2027 market report: Slower sales but further price rises expected in Spain",
+   "cat": "DEMAND-FLOW",
+   "query": "[feed] spanish_property_insight",
+   "lang": "en",
+   "date": "2026-11-22"
+  },
+  "400dd5c7a863650c": {
+   "title": "Study: Spanish government delay in providing housing units worsened supply shortage and raised property and rental prices",
+   "cat": "DEMAND-FLOW",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-11-22"
+  },
+  "4106eb5a66cef2b8": {
+   "title": "Teodoro Sosa demands solutions for Canary Islands on immigration, housing and transport: 'They cannot leave us alone'",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-22"
+  },
+  "ddf870d045756846": {
+   "title": "Second Homes in England Fall by Nearly 20,000 as Council Tax Premiums Hit Owners",
+   "cat": "OTHER",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-11-22"
+  },
+  "4ec8e05ae0e5602f": {
+   "title": "60% of council rentals in Lisbon are under €100",
+   "cat": "DEMAND-FLOW",
+   "query": "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d",
+   "lang": "ar",
+   "date": "2026-11-22"
+  },
+  "86e9e10c8e45ad5a": {
+   "title": "Luxury real estate market in Portugal witnessing increased interest amid uncertainty in the Middle East",
+   "cat": "DEMAND-FLOW",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-11-22"
   }
  },
  "votes": {}
