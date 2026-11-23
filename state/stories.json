@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 48,
-  "last_seen": "2026-11-21",
-  "last_headline": "After the Golden Visa: Why Gulf Institutions Are Still Buying Into Portugal"
+  "count": 49,
+  "last_seen": "2026-11-23",
+  "last_headline": "Nationality Law vote confirms extension to Golden Visa pathway – but uncertainties remain"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -37,9 +37,9 @@
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
   "first_seen": "2026-08-28",
-  "count": 15,
-  "last_seen": "2026-11-22",
-  "last_headline": "Portugal approves second-home tax exemption"
+  "count": 16,
+  "last_seen": "2026-11-23",
+  "last_headline": "Portugal young people with an undivided inheritance retain exemption from Property Transfer Tax"
  },
  "ecb-rate-outlook": {
   "label": "ECB Rate Trajectory",
@@ -72,9 +72,9 @@
  "foreign-ownership-map": {
   "label": "Foreign Buyer Eligibility Map",
   "first_seen": "2026-09-06",
-  "count": 33,
-  "last_seen": "2026-11-22",
-  "last_headline": "Foreigners buy 25% of homes in Portugal"
+  "count": 34,
+  "last_seen": "2026-11-23",
+  "last_headline": "Compromís calls for banning home purchases by non-residents in Marina Alta amid housing emergency"
  },
  "greece-noneu-tax": {
   "label": "Greece Non-EU Buyer Transfer Tax",
@@ -177,9 +177,9 @@
  "portugal-nonresident-access": {
   "label": "Portugal Non-Resident Foreigner Access",
   "first_seen": "2026-09-30",
-  "count": 5,
-  "last_seen": "2026-11-16",
-  "last_headline": "Why Portugal Still Welcomes the Buyers Spain Is Turning Away, According to Nick Houwen"
+  "count": 6,
+  "last_seen": "2026-11-23",
+  "last_headline": "Foreigners represented 28% of home purchases in Portugal"
  },
  "china-outbound-wealth": {
   "label": "China Outbound Wealth Mobility",
@@ -338,9 +338,9 @@
  "portugal-price-growth": {
   "label": "Portugal EU-Leading Price Growth",
   "first_seen": "2026-10-28",
-  "count": 3,
-  "last_seen": "2026-11-19",
-  "last_headline": "Portugal has Europe's biggest gap between house prices and incomes"
+  "count": 4,
+  "last_seen": "2026-11-23",
+  "last_headline": "Lisbon rents rose 76% while house prices rose 27%"
  },
  "portugal-2027-budget": {
   "label": "Portugal 2027 Budget Proposal",
@@ -359,9 +359,9 @@
  "greece-price-growth": {
   "label": "Greece Price Growth",
   "first_seen": "2026-10-31",
-  "count": 5,
-  "last_seen": "2026-11-17",
-  "last_headline": "Financial Times: Greece Becoming an \"Unexpected\" Investment Haven as Foreign Interest Builds"
+  "count": 6,
+  "last_seen": "2026-11-23",
+  "last_headline": "Just 3.7% of Homes for Sale in Attica Meet Buyer Needs"
  },
  "france-political-risk": {
   "label": "France 2027 Election Property Risk",
@@ -387,9 +387,9 @@
  "france-second-home-tax-bills": {
   "label": "France Second-Home Tax Bills",
   "first_seen": "2026-11-05",
-  "count": 1,
-  "last_seen": "2026-11-05",
-  "last_headline": "French second-home tax bills have begun arriving: what you need to know"
+  "count": 2,
+  "last_seen": "2026-11-23",
+  "last_headline": "Second-home tax: what to check ahead of December 2026 deadline"
  },
  "greece-crypto-tax": {
   "label": "Greece Crypto Tax Law",

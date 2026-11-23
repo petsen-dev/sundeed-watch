@@ -1,41 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "3a7f947843edde18": {
-   "title": "Housing crisis shakes Spain and pushes Sanchez to early elections",
-   "cat": "REGULATORY",
-   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
-   "lang": "ar",
-   "date": "2026-10-23"
-  },
-  "7090d3128a32a039": {
-   "title": "Spain's housing crackdown targets landlords as eviction crisis deepens",
-   "cat": "REGULATORY",
-   "query": "\"cross-border\" property buyers Europe when:2d",
-   "lang": "en",
-   "date": "2026-10-23"
-  },
-  "c9d12f855fbbb19a": {
-   "title": "Canary Islands pressures the State: the purchase of housing by foreigners is decided before 29 November",
-   "cat": "HEADLINE-GAP",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-23"
-  },
-  "d7e900e4b6c8c3f4": {
-   "title": "MarbellaPartner, Independent Buyer's Agent in Marbella, Helps UK Buyers Find and Buy Luxury and Off-Market Villas",
-   "cat": "CHANNEL",
-   "query": "intitle:\"buyer agent\" commission when:2d",
-   "lang": "en",
-   "date": "2026-10-23"
-  },
-  "9470fb5081ccf768": {
-   "title": "Anabell Cantón, real estate agent: 'In Andalusia transfer tax is around 7%, but if the buyer is under 35 it can drop to 3.5%'",
-   "cat": "REGULATORY",
-   "query": "intitle:ITP tipo Andalucía OR Valencia OR Baleares when:2d",
-   "lang": "es",
-   "date": "2026-10-23"
-  },
   "ae7daef032bfaca9": {
    "title": "Greece Warns Golden Visa Investors: Hidden Rebates and Short-Term Rentals Could Lead to Permit Revocation",
    "cat": "REGULATORY",
@@ -1239,6 +1204,55 @@
    "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
    "lang": "ar",
    "date": "2026-11-22"
+  },
+  "adc1bafded4d9359": {
+   "title": "Nationality Law vote confirms extension to Golden Visa pathway – but uncertainties remain",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-11-23"
+  },
+  "5bb4992aec9a9b4b": {
+   "title": "Compromís calls for banning home purchases by non-residents in Marina Alta amid housing emergency",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-23"
+  },
+  "f4182e2ef9693fe3": {
+   "title": "Lisbon rents rose 76% while house prices rose 27%",
+   "cat": "DEMAND-FLOW",
+   "query": "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d",
+   "lang": "ar",
+   "date": "2026-11-23"
+  },
+  "23e737a2441fe545": {
+   "title": "Second-home tax: what to check ahead of December 2026 deadline",
+   "cat": "REGULATORY",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-11-23"
+  },
+  "0500a8b10eac7847": {
+   "title": "Foreigners represented 28% of home purchases in Portugal",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-23"
+  },
+  "d91fa63b632e9a38": {
+   "title": "Just 3.7% of Homes for Sale in Attica Meet Buyer Needs",
+   "cat": "DEMAND-FLOW",
+   "query": "\"Gulf\" OR \"Middle East\" buyers Spain OR Portugal OR Greece property when:2d",
+   "lang": "en",
+   "date": "2026-11-23"
+  },
+  "5b566013621fa860": {
+   "title": "Portugal young people with an undivided inheritance retain exemption from Property Transfer Tax",
+   "cat": "REGULATORY",
+   "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
+   "lang": "en",
+   "date": "2026-11-23"
   }
  },
  "votes": {}
