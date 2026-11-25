@@ -2,30 +2,30 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 50,
-  "last_seen": "2026-11-24",
-  "last_headline": "Portugal Golden Visa Fund Rules Approved for May 2027"
+  "count": 51,
+  "last_seen": "2026-11-25",
+  "last_headline": "Portugal's parliament approves Golden Visa changes under 2027 State Budget"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
   "first_seen": "2026-08-25",
-  "count": 20,
-  "last_seen": "2026-11-22",
-  "last_headline": "Luxury real estate market in Portugal witnessing increased interest amid uncertainty in the Middle East"
+  "count": 21,
+  "last_seen": "2026-11-25",
+  "last_headline": "Housing in Lisbon: foreign investment falls to 2017 lows"
  },
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 45,
-  "last_seen": "2026-11-17",
-  "last_headline": "Want to Buy a Home in Italy or Costa Rica? This North Texas Realtor Built a Portal for That"
+  "count": 46,
+  "last_seen": "2026-11-25",
+  "last_headline": "New service offers international buyers source of funds consultation to avoid delays"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
   "first_seen": "2026-08-25",
-  "count": 21,
-  "last_seen": "2026-11-24",
-  "last_headline": "Second homes set to bring in millions in extra council tax"
+  "count": 22,
+  "last_seen": "2026-11-25",
+  "last_headline": "Double council tax removing second homes in some areas"
  },
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
@@ -240,9 +240,9 @@
  "spain-political-housing-crisis": {
   "label": "Spain Housing-Driven Political Crisis",
   "first_seen": "2026-10-06",
-  "count": 21,
-  "last_seen": "2026-11-22",
-  "last_headline": "Study: Spanish government delay in providing housing units worsened supply shortage and raised property and rental prices"
+  "count": 22,
+  "last_seen": "2026-11-25",
+  "last_headline": "What will happen to housing after the elections? These are the main parties' proposals"
  },
  "portugal-coastal-protest": {
   "label": "Portugal Coastal Development Backlash",
@@ -338,9 +338,9 @@
  "portugal-price-growth": {
   "label": "Portugal EU-Leading Price Growth",
   "first_seen": "2026-10-28",
-  "count": 4,
-  "last_seen": "2026-11-23",
-  "last_headline": "Lisbon rents rose 76% while house prices rose 27%"
+  "count": 5,
+  "last_seen": "2026-11-25",
+  "last_headline": "Lisbon rents rose 76% as house prices climbed 27%"
  },
  "portugal-2027-budget": {
   "label": "Portugal 2027 Budget Proposal",
@@ -432,5 +432,12 @@
   "count": 1,
   "last_seen": "2026-11-20",
   "last_headline": "Milan Won Over the Global Elite. Residents Are Paying the Price"
+ },
+ "spain-wealth-tax": {
+  "label": "Spain Wealth Tax Repeal",
+  "first_seen": "2026-11-25",
+  "count": 1,
+  "last_seen": "2026-11-25",
+  "last_headline": "X-ray of a wealth tax on the verge of extinction"
  }
 }

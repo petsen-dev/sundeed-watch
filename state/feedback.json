@@ -1,27 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "8c7e06d2a5fd59c1": {
-   "title": "Infinity by Pacaso launches in France to expand luxury home exchange network",
-   "cat": "OWNERSHIP-MODEL",
-   "query": "\"co-ownership\" \"second home\" OR \"holiday home\" when:2d",
-   "lang": "en",
-   "date": "2026-10-25"
-  },
-  "602bd3380b1e8997": {
-   "title": "This is how foreigners buy homes: Algerians in Alicante, Poles in Torrevieja and British in Orihuela",
-   "cat": "DEMAND-FLOW",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-25"
-  },
-  "430cfe8c04391f5b": {
-   "title": "Police disperse Lisbon housing protests and arrest dozens of young men",
-   "cat": "OTHER",
-   "query": "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d",
-   "lang": "ar",
-   "date": "2026-10-25"
-  },
   "819894724056a16f": {
    "title": "Greece Targets Golden Visa Abuse Over Hidden Rebates",
    "cat": "REGULATORY",
@@ -1267,6 +1246,55 @@
    "query": "\"IMT\" OR \"IMI\" Portugal property tax when:2d",
    "lang": "en",
    "date": "2026-11-24"
+  },
+  "b9e50345a49becc1": {
+   "title": "Portugal's parliament approves Golden Visa changes under 2027 State Budget",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-11-25"
+  },
+  "e22dc1cf2309b0d1": {
+   "title": "X-ray of a wealth tax on the verge of extinction",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-25"
+  },
+  "f2a5d8cc03edea82": {
+   "title": "Double council tax removing second homes in some areas",
+   "cat": "REGULATORY",
+   "query": "[feed] property_industry_eye",
+   "lang": "en",
+   "date": "2026-11-25"
+  },
+  "cd61fd67bb7ff7ab": {
+   "title": "New service offers international buyers source of funds consultation to avoid delays",
+   "cat": "UPFUNNEL",
+   "query": "\"international buyers\" Portugal OR Italy property when:2d",
+   "lang": "en",
+   "date": "2026-11-25"
+  },
+  "b1a0585f53dc89a4": {
+   "title": "Housing in Lisbon: foreign investment falls to 2017 lows",
+   "cat": "DEMAND-FLOW",
+   "query": "\"compradores estrangeiros\" casa Portugal when:2d",
+   "lang": "pt",
+   "date": "2026-11-25"
+  },
+  "f1b4b259aad7c02d": {
+   "title": "Lisbon rents rose 76% as house prices climbed 27%",
+   "cat": "DEMAND-FLOW",
+   "query": "\"شراء عقار\" إسبانيا OR البرتغال OR اليونان OR إيطاليا when:2d",
+   "lang": "ar",
+   "date": "2026-11-25"
+  },
+  "0878af3d11ebcb74": {
+   "title": "What will happen to housing after the elections? These are the main parties' proposals",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-25"
   }
  },
  "votes": {}
