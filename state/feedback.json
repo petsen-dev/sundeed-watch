@@ -1,48 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "819894724056a16f": {
-   "title": "Greece Targets Golden Visa Abuse Over Hidden Rebates",
-   "cat": "REGULATORY",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-10-26"
-  },
-  "c3d8501af1140c08": {
-   "title": "Infinity by Pacaso launches in France to expand luxury home exchange network",
-   "cat": "OWNERSHIP-MODEL",
-   "query": "\"second home\" intitle:swap OR intitle:exchange platform when:2d",
-   "lang": "en",
-   "date": "2026-10-26"
-  },
-  "6a36fdc1b50b303e": {
-   "title": "Moroccans displace Europeans in home purchases in Spain. They also pay less per square metre",
-   "cat": "DEMAND-FLOW",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-26"
-  },
-  "9b275c0a2818c5d3": {
-   "title": "Spain's Balearic Islands plan to scrap property purchase taxes for younger buyers",
-   "cat": "REGULATORY",
-   "query": "\"ITP\" OR \"impuesto de transmisiones\" Spain property when:2d",
-   "lang": "en",
-   "date": "2026-10-26"
-  },
-  "8a9e253bba964fc6": {
-   "title": "The TEAC eliminates the reinvestment exemption in housing if job relocation abroad delays sale by more than two years",
-   "cat": "REGULATORY",
-   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
-   "lang": "es",
-   "date": "2026-10-26"
-  },
-  "06ddb1f7c5738009": {
-   "title": "Foreign buyers lead Spanish property market slowdown, but latest numbers offers some hope",
-   "cat": "DEMAND-FLOW",
-   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
-   "lang": "en",
-   "date": "2026-10-26"
-  },
   "b7945c3957ea490d": {
    "title": "Foreign Property Purchase Ban Ends Jan 1 2027",
    "cat": "REGULATORY",
@@ -1295,6 +1253,48 @@
    "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
    "lang": "es",
    "date": "2026-11-25"
+  },
+  "b98c3dfcd4a9a631": {
+   "title": "Millions of second homes and holiday lets across Spain face steep new tax hikes starting from December",
+   "cat": "REGULATORY",
+   "query": "\"second home\" intitle:tax OR intitle:premium when:2d",
+   "lang": "en",
+   "date": "2026-11-26"
+  },
+  "56409725796594b5": {
+   "title": "Portugal Will Lower Investment Threshold for 'Golden Visa' to 250,000 Euros and Tighten Requirements for Investment Funds",
+   "cat": "REGULATORY",
+   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
+   "lang": "en",
+   "date": "2026-11-26"
+  },
+  "cdae002d5e03eb6c": {
+   "title": "Spain: Elections place building policies and rent restrictions in face of housing crisis",
+   "cat": "REGULATORY",
+   "query": "\"سوق العقارات\" إسبانيا OR البرتغال when:2d",
+   "lang": "ar",
+   "date": "2026-11-26"
+  },
+  "c0df0a74f98af867": {
+   "title": "Nazaré prepares first IMI cut in 10 years",
+   "cat": "REGULATORY",
+   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
+   "lang": "pt",
+   "date": "2026-11-26"
+  },
+  "a253a34a21248421": {
+   "title": "Madrid, Lisbon and Barcelona among top 10 cities attracting international real estate investors in 2027",
+   "cat": "DEMAND-FLOW",
+   "query": "عقارات ماربيا OR \"كوستا ديل سول\" OR لشبونة when:2d",
+   "lang": "ar",
+   "date": "2026-11-26"
+  },
+  "92715c3753055c66": {
+   "title": "Spain ranks near the bottom for tax competitiveness, especially property taxes, and not much better for retirement",
+   "cat": "REGULATORY",
+   "query": "[feed] spanish_property_insight",
+   "lang": "en",
+   "date": "2026-11-26"
   }
  },
  "votes": {}
