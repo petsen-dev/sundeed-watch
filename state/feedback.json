@@ -1,41 +1,6 @@
 {
  "offset": 576377887,
  "sent": {
-  "b7945c3957ea490d": {
-   "title": "Foreign Property Purchase Ban Ends Jan 1 2027",
-   "cat": "REGULATORY",
-   "query": "\"foreign buyer\" intitle:ban OR intitle:restriction property when:2d",
-   "lang": "en",
-   "date": "2026-10-27"
-  },
-  "06798c3b2aeec771": {
-   "title": "9 Changes to Portugal's Golden Visa Citizenship Timeline Explained",
-   "cat": "REGULATORY",
-   "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
-   "lang": "en",
-   "date": "2026-10-27"
-  },
-  "07dafa4b24d960a2": {
-   "title": "Parliament begins debate on State Budget proposal against a backdrop of housing protests",
-   "cat": "REGULATORY",
-   "query": "[feed] portugal_resident",
-   "lang": "en",
-   "date": "2026-10-27"
-  },
-  "584b8353411b113d": {
-   "title": "International buyers drive more than 70% of Costa Blanca luxury sales",
-   "cat": "DEMAND-FLOW",
-   "query": "\"international buyers\" Portugal OR Italy property when:2d",
-   "lang": "en",
-   "date": "2026-10-27"
-  },
-  "eb2e86c20a58ec23": {
-   "title": "IMI will rise for some owners in 2027, but not by government decision",
-   "cat": "REGULATORY",
-   "query": "intitle:IMT OR intitle:IMI alteração imóveis when:2d",
-   "lang": "pt",
-   "date": "2026-10-27"
-  },
   "4c5bf1f22ecbcbdb": {
    "title": "Portugal records largest house price rise in EU since 2020",
    "cat": "DEMAND-FLOW",
@@ -591,10 +556,10 @@
   },
   "12e500a6267dcf0e": {
    "title": "Portugal's Governing Parties Propose Stricter Golden Visa Fund Rules, New €250,000 Route",
-   "cat": "OTHER",
+   "cat": "REGULATORY",
    "query": "intitle:\"golden visa\" Portugal OR Greece OR Spain OR Italy when:2d",
    "lang": "en",
-   "date": "2026-11-11"
+   "date": "2026-11-27"
   },
   "a18aedb145304af7": {
    "title": "Rent consumes 98.7% of youth salaries: general strike ignites Spain before snap elections",
@@ -1295,6 +1260,41 @@
    "query": "[feed] spanish_property_insight",
    "lang": "en",
    "date": "2026-11-26"
+  },
+  "ce389113d2f99c96": {
+   "title": "Housing in the Canaries, centre of conflict in Santa Cruz debate: from banning non-residents to reforming state land law",
+   "cat": "REGULATORY",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-27"
+  },
+  "67f795122dce60ea": {
+   "title": "UAE tax warning issued to residents who own property in Spain",
+   "cat": "REGULATORY",
+   "query": "\"non-resident\" intitle:property Spain OR Portugal when:2d",
+   "lang": "en",
+   "date": "2026-11-27"
+  },
+  "1fe2ad89b3132552": {
+   "title": "The hidden housing market in Zaragoza: 'The 60% of transactions I close never reach the portals'",
+   "cat": "CHANNEL",
+   "query": "\"personal shopper inmobiliario\" when:2d",
+   "lang": "es",
+   "date": "2026-11-27"
+  },
+  "b1f507fedfe2e4d4": {
+   "title": "Foreigners now sign 16% of home purchases: what banks demand from them for mortgages",
+   "cat": "DEMAND-FLOW",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-27"
+  },
+  "31d51c48c76c91fe": {
+   "title": "\"There are already European countries where home purchases by non-residents are limited\"",
+   "cat": "HEADLINE-GAP",
+   "query": "\"no residentes\" intitle:vivienda OR intitle:impuesto when:2d",
+   "lang": "es",
+   "date": "2026-11-27"
   }
  },
  "votes": {}

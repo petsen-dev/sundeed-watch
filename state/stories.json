@@ -2,9 +2,9 @@
  "golden-visa-value": {
   "label": "Golden Visa Investment Quality",
   "first_seen": "2026-08-25",
-  "count": 52,
-  "last_seen": "2026-11-26",
-  "last_headline": "Portugal Will Lower Investment Threshold for 'Golden Visa' to 250,000 Euros and Tighten Requirements for Investment Funds"
+  "count": 53,
+  "last_seen": "2026-11-27",
+  "last_headline": "Portugal's Governing Parties Propose Stricter Golden Visa Fund Rules, New €250,000 Route"
  },
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
@@ -16,9 +16,9 @@
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
   "first_seen": "2026-08-25",
-  "count": 46,
-  "last_seen": "2026-11-25",
-  "last_headline": "New service offers international buyers source of funds consultation to avoid delays"
+  "count": 47,
+  "last_seen": "2026-11-27",
+  "last_headline": "The hidden housing market in Zaragoza: 'The 60% of transactions I close never reach the portals'"
  },
  "uk-tax-capital-exit": {
   "label": "UK Tax-Driven Capital Exodus",
@@ -30,9 +30,9 @@
  "spain-foreign-demand": {
   "label": "Spain Foreign Buyer Demand",
   "first_seen": "2026-08-27",
-  "count": 37,
-  "last_seen": "2026-11-22",
-  "last_headline": "Almost one in six home buyers is already foreign: where it reaches almost half the market"
+  "count": 38,
+  "last_seen": "2026-11-27",
+  "last_headline": "Foreigners now sign 16% of home purchases: what banks demand from them for mortgages"
  },
  "portugal-imt-reform": {
   "label": "Portugal IMT Tax Reform",
@@ -352,9 +352,9 @@
  "capital-transfer-scrutiny": {
   "label": "Cross-Border Transfer Scrutiny",
   "first_seen": "2026-10-31",
-  "count": 1,
-  "last_seen": "2026-10-31",
-  "last_headline": "Suspicions of manipulation in licensed transfers to acquire European property trouble the forex office"
+  "count": 2,
+  "last_seen": "2026-11-27",
+  "last_headline": "UAE tax warning issued to residents who own property in Spain"
  },
  "greece-price-growth": {
   "label": "Greece Price Growth",
@@ -380,9 +380,9 @@
  "canary-islands-residency": {
   "label": "Canary Islands Resident-Only Housing Push",
   "first_seen": "2026-11-04",
-  "count": 8,
-  "last_seen": "2026-11-22",
-  "last_headline": "Teodoro Sosa demands solutions for Canary Islands on immigration, housing and transport: 'They cannot leave us alone'"
+  "count": 9,
+  "last_seen": "2026-11-27",
+  "last_headline": "Housing in the Canaries, centre of conflict in Santa Cruz debate: from banning non-residents to reforming state land law"
  },
  "france-second-home-tax-bills": {
   "label": "France Second-Home Tax Bills",
@@ -408,9 +408,9 @@
  "balearic-resident-restriction": {
   "label": "Balearic Resident-Only Purchase Push",
   "first_seen": "2026-11-13",
-  "count": 2,
-  "last_seen": "2026-11-18",
-  "last_headline": "Housing divides parties in Ibiza: build more, limit prices or curb foreign purchases"
+  "count": 3,
+  "last_seen": "2026-11-27",
+  "last_headline": "\"There are already European countries where home purchases by non-residents are limited\""
  },
  "balearic-rental-incentive": {
   "label": "Balearic Affordable-Rent Incentives",
