@@ -9,9 +9,9 @@
  "portugal-algarve-capital": {
   "label": "Algarve/Portugal Capital Inflow",
   "first_seen": "2026-08-25",
-  "count": 21,
-  "last_seen": "2026-11-25",
-  "last_headline": "Housing in Lisbon: foreign investment falls to 2017 lows"
+  "count": 22,
+  "last_seen": "2026-11-28",
+  "last_headline": "Six apartments, one per floor, and 15 million euros investment: historic Lisbon building gets new life"
  },
  "neutral-layer-threat": {
   "label": "Who Owns the Advice Layer",
@@ -380,9 +380,9 @@
  "canary-islands-residency": {
   "label": "Canary Islands Resident-Only Housing Push",
   "first_seen": "2026-11-04",
-  "count": 9,
-  "last_seen": "2026-11-27",
-  "last_headline": "Housing in the Canaries, centre of conflict in Santa Cruz debate: from banning non-residents to reforming state land law"
+  "count": 10,
+  "last_seen": "2026-11-28",
+  "last_headline": "ICAVI approves draft of Canary Islands Housing Plan 2026-2030"
  },
  "france-second-home-tax-bills": {
   "label": "France Second-Home Tax Bills",
